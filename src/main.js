@@ -17,7 +17,35 @@ const appState = {
   outsideClickHandler: null,
   hiddenLevels: new Set(),
   theme: 'dark',
+  isSubjectSelection: true,
 };
+
+function parseUrl() {
+  const path = window.location.pathname;
+  const segments = path.split('/').filter(segment => segment.length > 0);
+  
+  if (segments.length === 0) {
+    return { subject: null, year: null };
+  }
+  
+  const subject = segments[0];
+  const year = segments.length > 1 ? segments[1] : null;
+  
+  return { subject, year };
+}
+
+function updateUrl(subject, year) {
+  let path = '/';
+  
+  if (subject) {
+    path += subject;
+    if (year) {
+      path += '/' + year;
+    }
+  }
+  
+  window.history.replaceState({}, '', path);
+}
 
 bootstrap();
 initializeTheme();
@@ -30,10 +58,19 @@ function applyTheme(theme) {
   const body = document.body;
   body.classList.toggle('theme-light', theme === 'light');
   body.dataset.theme = theme;
+  
+  // Update main theme toggle button
   const button = document.getElementById('theme-toggle');
   if (button) {
     button.textContent = theme === 'light' ? 'Dark mode' : 'Light mode';
     button.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
+  }
+  
+  // Update subject theme toggle button
+  const subjectButton = document.getElementById('subject-theme-toggle');
+  if (subjectButton) {
+    subjectButton.textContent = theme === 'light' ? 'Dark mode' : 'Light mode';
+    subjectButton.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
   }
 }
 
@@ -45,6 +82,66 @@ function setTheme(theme) {
 
 function toggleTheme() {
   setTheme(appState.theme === 'light' ? 'dark' : 'light');
+}
+
+function showSubjectSelection() {
+  appState.isSubjectSelection = true;
+  document.getElementById('subject-selection').style.display = 'flex';
+  document.getElementById('saved-settings-panel').style.display = 'none';
+  document.getElementById('graph-area').style.display = 'none';
+  document.getElementById('status').style.display = 'none';
+  document.querySelector('.toolbar-right').style.display = 'none';
+  document.querySelector('.legend').style.display = 'none';
+  document.querySelector('.logo').textContent = 'Modules';
+  document.querySelector('.logo').style.cursor = 'default';
+  document.querySelector('.logo').onclick = null;
+
+  // Set up subject theme toggle
+  const subjectThemeToggle = document.getElementById('subject-theme-toggle');
+  if (subjectThemeToggle) {
+    subjectThemeToggle.textContent = appState.theme === 'light' ? 'Dark mode' : 'Light mode';
+    subjectThemeToggle.setAttribute('aria-pressed', appState.theme === 'light' ? 'true' : 'false');
+    subjectThemeToggle.onclick = () => {
+      toggleTheme();
+      subjectThemeToggle.textContent = appState.theme === 'light' ? 'Dark mode' : 'Light mode';
+      subjectThemeToggle.setAttribute('aria-pressed', appState.theme === 'light' ? 'true' : 'false');
+    };
+  }
+
+  const subjectButtons = document.getElementById('subject-buttons');
+  subjectButtons.innerHTML = '';
+
+  appState.catalogs.forEach((catalog) => {
+    const button = document.createElement('button');
+    button.className = 'subject-button';
+    button.textContent = catalog.name;
+    button.addEventListener('click', () => selectSubject(catalog.id));
+    subjectButtons.appendChild(button);
+  });
+}
+
+function hideSubjectSelection() {
+  appState.isSubjectSelection = false;
+  document.getElementById('subject-selection').style.display = 'none';
+  document.getElementById('saved-settings-panel').style.display = 'flex';
+  document.getElementById('graph-area').style.display = 'block';
+  document.getElementById('status').style.display = 'block';
+  document.querySelector('.toolbar-right').style.display = 'flex';
+  document.querySelector('.legend').style.display = 'flex';
+
+  // Make logo clickable to go back to subject selection
+  const logo = document.querySelector('.logo');
+  logo.style.cursor = 'pointer';
+  logo.onclick = () => {
+    updateUrl(null, null);
+    showSubjectSelection();
+  };
+}
+
+async function selectSubject(catalogId) {
+  updateUrl(catalogId, null);
+  hideSubjectSelection();
+  await renderCatalog(catalogId);
 }
 
 function initializeTheme() {
@@ -59,7 +156,22 @@ async function bootstrap() {
     }
 
     setupCatalogSelector();
-    await renderCatalog(appState.catalogs[0].id);
+
+    // Check URL parameters
+    const { subject, year } = parseUrl();
+    if (subject) {
+      const catalog = appState.catalogs.find(c => c.id === subject);
+      if (catalog) {
+        appState.isSubjectSelection = false;
+        await renderCatalog(catalog.id, year);
+      } else {
+        // Invalid subject, show subject selection
+        showSubjectSelection();
+      }
+    } else {
+      showSubjectSelection();
+    }
+
     try {
       await refreshSettings();
     } catch (error) {
@@ -119,6 +231,9 @@ async function renderCatalog(catalogId, yearOrState = null, maybeRestoredState =
   populateYearSelector(catalog, resolvedYear);
   document.querySelector('.logo').textContent = catalog.name;
   document.getElementById('search').value = '';
+
+  // Update URL with subject and year
+  updateUrl(catalog.id, resolvedYear);
 
   const graphArea = document.getElementById('graph-area');
   graphArea.innerHTML = '<svg id="graph-svg"></svg><aside id="tip"></aside>';
@@ -474,6 +589,42 @@ function wireSettingsControls() {
   const nameInput = document.getElementById('settings-name');
   const loadButton = document.getElementById('load-settings');
   const deleteButton = document.getElementById('delete-settings');
+  const settingsList = document.getElementById('saved-settings-list');
+
+  // Track the currently loaded setting for save/update logic
+  let loadedSetting = null;
+
+  // Function to reset dropdown to empty
+  const resetDropdown = () => {
+    settingsList.value = '';
+    loadedSetting = null;
+    nameInput.placeholder = 'e.g. Pure maths path';
+    showFeedback('');
+  };
+
+  // Function to show preview of selected setting
+  const showPreview = (setting) => {
+    if (!setting) {
+      showFeedback('');
+      return;
+    }
+    const catalogName = appState.catalogs.find(c => c.id === setting.state.catalogId)?.name || setting.state.catalogId;
+    showFeedback(`Preview: ${setting.name} - ${catalogName} (${setting.selectedCount} selected, ${setting.excludedCount} excluded)`);
+  };
+
+  // Dropdown change handler
+  settingsList.addEventListener('change', () => {
+    const selectedId = settingsList.value;
+    const setting = appState.settingsCache.find(s => String(s.id) === selectedId);
+    showPreview(setting);
+  });
+
+  // Reset dropdown when clicking outside
+  document.addEventListener('click', (event) => {
+    if (!settingsList.contains(event.target) && !loadButton.contains(event.target)) {
+      resetDropdown();
+    }
+  });
 
   form.onsubmit = async (event) => {
     event.preventDefault();
@@ -489,9 +640,23 @@ function wireSettingsControls() {
     }
 
     try {
-      const saved = await saveSettings({ name, state: appState.graphRuntime.snapshot() });
+      const state = appState.graphRuntime.snapshot();
+      let saved;
+
+      // Check if this is an update (same name as loaded setting) or new save
+      if (loadedSetting && name === loadedSetting.name) {
+        // Update existing setting
+        await deleteSettings(loadedSetting.id);
+        saved = await saveSettings({ name, state });
+      } else {
+        // Create new setting
+        saved = await saveSettings({ name, state });
+      }
+
       await refreshSettings(String(saved.id));
       nameInput.value = '';
+      loadedSetting = null;
+      nameInput.placeholder = 'e.g. Pure maths path';
       showFeedback(`Saved "${saved.name}".`);
     } catch (error) {
       showFeedback(error.message, true);
@@ -507,6 +672,10 @@ function wireSettingsControls() {
 
     try {
       await renderCatalog(current.state.catalogId || appState.catalogs[0].id, current.state);
+      loadedSetting = current;
+      nameInput.placeholder = current.name;
+      nameInput.value = '';
+      resetDropdown();
       showFeedback(`Loaded "${current.name}".`);
     } catch (error) {
       showFeedback(error.message, true);
@@ -523,6 +692,10 @@ function wireSettingsControls() {
     try {
       await deleteSettings(current.id);
       await refreshSettings();
+      if (loadedSetting && loadedSetting.id === current.id) {
+        loadedSetting = null;
+        nameInput.placeholder = 'e.g. Pure maths path';
+      }
       showFeedback(`Deleted "${current.name}".`);
     } catch (error) {
       showFeedback(error.message, true);
@@ -543,6 +716,12 @@ async function refreshSettings(selectedId = '') {
     return;
   }
 
+  // Add empty option first
+  const emptyOption = document.createElement('option');
+  emptyOption.value = '';
+  emptyOption.textContent = '';
+  select.append(emptyOption);
+
   appState.settingsCache.forEach((setting) => {
     const option = document.createElement('option');
     option.value = String(setting.id);
@@ -550,7 +729,7 @@ async function refreshSettings(selectedId = '') {
     select.append(option);
   });
 
-  select.value = selectedId || String(appState.settingsCache[0].id);
+  select.value = selectedId || '';
 }
 
 function getSelectedSavedSetting() {

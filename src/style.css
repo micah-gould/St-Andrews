@@ -1,34 +1,34 @@
 /* ─── Design tokens ──────────────────────────────────── */
 :root {
-  --c-1000: #7DD3FC;
-  --c-2000: #818CF8;
-  --c-3000: #38BDF8;
-  --c-4000: #34D399;
-  --c-5000: #FBBF24;
-  --c-ext:  #F87171;
-  --c-sel:  #A3E635;
-  --c-excl: #FB7185;
-  --c-hover-pre-required: #FCD34D;
-  --c-hover-pre-optional: #C084FC;
-  --c-hover-fwd: #60A5FA;
-  --c-sel-pre-required: #F59E0B;
-  --c-sel-pre-optional: #A855F7;
-  --c-sel-fwd: #38BDF8;
-  --c-edge: #64748B;
+  --c-1000: #003366;  /* St Andrews navy */
+  --c-2000: #004C99;  /* Lighter navy */
+  --c-3000: #0066CC;  /* Medium blue */
+  --c-4000: #C8102E;  /* St Andrews red */
+  --c-5000: #FFD700;  /* Gold */
+  --c-ext:  #8B0000;  /* Dark red for external */
+  --c-sel:  #FFD700;  /* Gold for selected */
+  --c-excl: #C8102E;  /* Red for excluded */
+  --c-hover-pre-required: #FFD700;  /* Gold */
+  --c-hover-pre-optional: #003366;  /* Navy */
+  --c-hover-fwd: #0066CC;  /* Blue */
+  --c-sel-pre-required: #FFD700;  /* Gold */
+  --c-sel-pre-optional: #003366;  /* Navy */
+  --c-sel-fwd: #0066CC;  /* Blue */
+  --c-edge: #64748B;  /* Keep gray for edges */
 
-  --bg:       #07101F;
-  --bg-panel: #0F172A;
-  --bg-card:  #111827;
-  --border:   #1E293B;
-  --border-light: #334155;
-  --status-expanded-bg: #162033;
+  --bg:       #000033;  /* Dark navy */
+  --bg-panel: #001133;  /* Slightly lighter navy */
+  --bg-card:  #002244;  /* Medium navy */
+  --border:   #003366;  /* Navy border */
+  --border-light: #004C99;  /* Lighter navy */
+  --status-expanded-bg: #001122;  /* Dark navy */
 
-  --text:      #F8FAFC;
-  --text-muted:#CBD5E1;
-  --text-dim:  #94A3B8;
+  --text:      #FFFFFF;  /* White */
+  --text-muted:#CCCCCC;  /* Light gray */
+  --text-dim:  #AAAAAA;  /* Dim gray */
 
-  --graph-spot-1: rgba(129,140,248,0.08);
-  --graph-spot-2: rgba(52,211,153,0.08);
+  --graph-spot-1: rgba(0,51,102,0.08);  /* Navy spot */
+  --graph-spot-2: rgba(200,16,46,0.08);  /* Red spot */
 
   --radius:   10px;
   --font-mono: 'DM Mono', monospace;
@@ -39,23 +39,23 @@
 }
 
 body.theme-light {
-  --bg: #F8FAFC;
-  --bg-panel: #FFFFFF;
-  --bg-card: #F8FAFC;
-  --border: #E2E8F0;
-  --border-light: #CBD5E1;
-  --status-expanded-bg: #E2E8F0;
+  --bg: #FFFFFF;  /* White */
+  --bg-panel: #F8F8F8;  /* Off-white */
+  --bg-card: #FFFFFF;  /* White */
+  --border: #CCCCCC;  /* Light gray */
+  --border-light: #AAAAAA;  /* Lighter gray */
+  --status-expanded-bg: #F0F0F0;  /* Light gray */
 
-  --text: #0F172A;
-  --text-muted: #334155;
-  --text-dim: #64748B;
+  --text: #000033;  /* Navy */
+  --text-muted: #003366;  /* Darker navy */
+  --text-dim: #004C99;  /* Medium navy */
 
-  --graph-spot-1: rgba(59,130,246,0.06);
-  --graph-spot-2: rgba(16,185,129,0.06);
+  --graph-spot-1: rgba(0,51,102,0.06);  /* Navy */
+  --graph-spot-2: rgba(200,16,46,0.06);  /* Red */
 
-  --c-sel: #65A30D;
-  --c-excl: #EF4444;
-  --c-edge: #475569;
+  --c-sel: #FFD700;  /* Gold */
+  --c-excl: #C8102E;  /* Red */
+  --c-edge: #64748B;  /* Gray */
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -88,7 +88,64 @@ body {
 }
 
 .toolbar-left  { display: flex; align-items: center; gap: 20px; }
-.toolbar-right { display: flex; align-items: center; gap: 10px; }
+.toolbar-right { display: flex; align-items: center; gap: 10px; flex-shrink: 1; overflow-x: auto; }
+
+#subject-selection {
+  flex: 1;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: var(--bg);
+}
+
+.subject-selection-header {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+.subject-selection-content {
+  text-align: center;
+  max-width: 800px;
+}
+
+.subject-selection-content h2 {
+  font-family: var(--font-serif);
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 40px;
+  letter-spacing: -0.02em;
+}
+
+.subject-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: stretch;
+}
+
+.subject-button {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  padding: 16px 24px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: var(--c-3000);
+  color: #0f172a;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.15s;
+  width: 100%;
+  text-align: center;
+}
+
+.subject-button:hover {
+  filter: brightness(1.05);
+  transform: translateY(-2px);
+}
 
 #saved-settings-panel {
   display: flex;
@@ -143,6 +200,11 @@ body {
   letter-spacing: -0.02em;
   white-space: nowrap;
   flex-shrink: 0;
+  transition: color 0.15s;
+}
+
+.logo:hover {
+  color: var(--c-3000);
 }
 
 .legend {
@@ -179,16 +241,15 @@ body {
   font-size: 11px;
   padding: 5px 12px;
   border-radius: 7px;
-  border: 1px solid var(--border-light);
-  background: transparent;
-  color: var(--text-muted);
+  border: 1px solid transparent;
+  background: var(--c-3000);
+  color: #0f172a;
   cursor: pointer;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
+  font-weight: 500;
 }
 .clear-btn:hover {
-  background: var(--bg-card);
-  color: var(--text);
-  border-color: var(--text-dim);
+  filter: brightness(1.05);
 }
 
 .search-wrap {
@@ -242,7 +303,7 @@ body {
   transition: border-color 0.15s;
 }
 #search::placeholder { color: var(--text-dim); }
-#search:focus { border-color: var(--c-fwd); }
+#search:focus { border-color: var(--c-3000); }
 
 #settings-name,
 #saved-settings-list,
@@ -265,7 +326,7 @@ body {
   padding: 8px 12px;
   border-radius: 7px;
   border: 1px solid transparent;
-  background: var(--c-fwd);
+  background: var(--c-3000);
   color: #0f172a;
   cursor: pointer;
   font-weight: 500;

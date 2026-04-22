@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import { parseRelationshipText } from '../server/catalogs/relationship-parser.js';
 
-const YEARS = ['2025/26', '2026/27', '2027/28'];
+const YEARS = ['2025-26', '2026-27', '2027-28'];
 const SCHOOL_CATALOGS = [
   { id: 'art-history', name: 'Art History', funnelbackDept: 'school of art history' },
   { id: 'biology', name: 'Biology', funnelbackDept: 'school of biology' },
@@ -44,7 +44,7 @@ function stripTags(value = '') {
 }
 
 function normalizeYear(value) {
-  return value.replace('-', '/').replace(/^(\d{4})\/(\d{4})$/, (_, start, end) => `${start}/${end.slice(2)}`);
+  return value.replace('/', '-').replace(/^(\d{4})-(\d{4})$/, (_, start, end) => `${start}-${end.slice(2)}`);
 }
 
 function parseSearchResults(html) {

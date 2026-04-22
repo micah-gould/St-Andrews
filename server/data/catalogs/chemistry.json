@@ -2,9 +2,9 @@
   "id": "chemistry",
   "name": "Chemistry",
   "years": [
-    "2025/26",
-    "2026/27",
-    "2027/28"
+    "2025-26",
+    "2026-27",
+    "2027-28"
   ],
   "nodes": [
     {
@@ -17,13 +17,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -57,13 +57,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -81,13 +81,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -108,13 +108,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -135,13 +135,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -162,13 +162,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -207,13 +207,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -246,13 +246,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -273,13 +273,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -309,12 +309,12 @@
         "2"
       ],
       "years": [
-        "2026/27"
+        "2026-27"
       ],
       "availability": {
-        "2025/26": false,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": false,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -347,13 +347,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -374,13 +374,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -410,13 +410,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -446,13 +446,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -482,13 +482,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -518,13 +518,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -563,13 +563,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -608,13 +608,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -653,13 +653,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -701,13 +701,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -749,13 +749,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -810,13 +810,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -846,13 +846,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -882,13 +882,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -912,13 +912,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -951,13 +951,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -987,13 +987,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1035,13 +1035,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1065,13 +1065,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1092,13 +1092,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1122,13 +1122,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -1149,13 +1149,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -1176,13 +1176,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -1203,13 +1203,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1255,13 +1255,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -1282,13 +1282,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -1306,13 +1306,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -1333,13 +1333,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -1360,13 +1360,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1399,13 +1399,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1429,13 +1429,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1468,13 +1468,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1504,13 +1504,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1540,13 +1540,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1576,13 +1576,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1642,13 +1642,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1705,13 +1705,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1744,13 +1744,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1810,13 +1810,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1859,13 +1859,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1889,13 +1889,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -1913,13 +1913,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1943,13 +1943,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1979,13 +1979,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2015,13 +2015,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2051,13 +2051,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2114,13 +2114,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2177,13 +2177,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2240,13 +2240,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2303,13 +2303,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2366,13 +2366,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2402,13 +2402,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2438,13 +2438,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2482,13 +2482,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2518,13 +2518,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2554,13 +2554,13 @@
         "1"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2590,13 +2590,13 @@
         "2"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -2614,13 +2614,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -2638,13 +2638,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -2662,13 +2662,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -2686,13 +2686,13 @@
         "Full Year"
       ],
       "years": [
-        "2025/26",
-        "2026/27"
+        "2025-26",
+        "2026-27"
       ],
       "availability": {
-        "2025/26": true,
-        "2026/27": true,
-        "2027/28": false
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
