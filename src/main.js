@@ -10,6 +10,7 @@ import { COLORS } from './constants.js';
 const appState = {
   catalogs: [],
   currentCatalogId: null,
+  currentYear: null,
   settingsCache: [],
   graphRuntime: null,
   outsideClickHandler: null,
@@ -32,7 +33,7 @@ async function bootstrap() {
       showFeedback(`Saved settings unavailable: ${error.message}`, true);
     }
   } catch (error) {
-    document.getElementById('status-text').textContent = error.message;
+    document.getElementById('status-text').innerHTML = `<div class="status-row status-row--single"><span class="status-empty">${error.message}</span></div>`;
   }
 }
 
@@ -48,20 +49,45 @@ function setupCatalogSelector() {
   });
 
   select.addEventListener('change', async (event) => {
-    await renderCatalog(event.target.value);
+    await renderCatalog(event.target.value, appState.currentYear);
     showFeedback(`Showing ${select.selectedOptions[0]?.textContent || event.target.value}.`);
+  });
+
+  const yearSelect = document.getElementById('year-select');
+  yearSelect.addEventListener('change', async (event) => {
+    appState.currentYear = event.target.value;
+    await renderCatalog(appState.currentCatalogId || appState.catalogs[0].id, appState.currentYear);
+    showFeedback(`Showing ${event.target.value}.`);
   });
 }
 
-async function renderCatalog(catalogId, restoredState = null) {
-  const { catalog, nodes, prereqRules, edges } = await loadGraphData(catalogId);
+function populateYearSelector(catalog, selectedYear) {
+  const yearSelect = document.getElementById('year-select');
+  yearSelect.innerHTML = '';
+
+  (catalog.years || []).forEach((year) => {
+    const option = document.createElement('option');
+    option.value = year;
+    option.textContent = year;
+    yearSelect.append(option);
+  });
+
+  yearSelect.value = selectedYear || catalog.years?.[0] || '';
+}
+
+async function renderCatalog(catalogId, yearOrState = null, maybeRestoredState = null) {
+  const restoredState = maybeRestoredState || (yearOrState && typeof yearOrState === 'object' ? yearOrState : null);
+  const selectedYear = restoredState?.year || (typeof yearOrState === 'string' ? yearOrState : appState.currentYear);
+  const { catalog, selectedYear: resolvedYear, nodes, prereqRules, edges } = await loadGraphData(catalogId, selectedYear);
   appState.currentCatalogId = catalog.id;
+  appState.currentYear = resolvedYear;
   document.getElementById('catalog-select').value = catalog.id;
+  populateYearSelector(catalog, resolvedYear);
   document.querySelector('.logo').textContent = catalog.name;
   document.getElementById('search').value = '';
 
   const graphArea = document.getElementById('graph-area');
-  graphArea.innerHTML = '<svg id="graph-svg"></svg><div id="tip"></div>';
+  graphArea.innerHTML = '<svg id="graph-svg"></svg><aside id="tip"></aside>';
 
   const runtime = buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState });
   appState.graphRuntime = runtime;
@@ -72,6 +98,10 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
   const area = document.getElementById('graph-area');
   const width = area.clientWidth || 900;
   const height = area.clientHeight || 620;
+  const getNodeRadius = (node) => {
+    const baseRadius = node.level === 'ext' ? 18 : node.level === 1000 ? 19 : 18;
+    return Math.max(baseRadius, Math.ceil(node.id.length * 3.25));
+  };
 
   const uiState = createUiState(nodes);
   if (restoredState) {
@@ -138,8 +168,12 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
 
   [
     ['edge', COLORS.edge],
-    ['pre', COLORS.pre],
-    ['fwd', COLORS.fwd],
+    ['hover-pre-required', COLORS.hoverPreRequired],
+    ['hover-pre-optional', COLORS.hoverPreOptional],
+    ['hover-fwd', COLORS.hoverFwd],
+    ['sel-pre-required', COLORS.selPreRequired],
+    ['sel-pre-optional', COLORS.selPreOptional],
+    ['sel-fwd', COLORS.selFwd],
     ['anti', COLORS.anti],
     ['excl', COLORS.excl],
   ].forEach(([id, color]) => {
@@ -167,10 +201,10 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
     .force('charge', d3.forceManyBody().strength((node) => (node.level === 'ext' ? -60 : -195)))
     .force('x', d3.forceX((node) => {
       if (node.level === 'ext') return width * 0.93;
-      return { 1000: width * 0.08, 2000: width * 0.27, 3000: width * 0.53, 4000: width * 0.77 }[node.level] || width / 2;
+      return { 1000: width * 0.08, 2000: width * 0.24, 3000: width * 0.42, 4000: width * 0.62, 5000: width * 0.8 }[node.level] || width / 2;
     }).strength((node) => (node.level === 'ext' ? 0.7 : 0.45)))
     .force('y', d3.forceY(height / 2).strength(0.04))
-    .force('collision', d3.forceCollide(27));
+    .force('collision', d3.forceCollide((node) => getNodeRadius(node) + 10));
 
   sim.alpha(1).restart();
 
@@ -181,20 +215,20 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
     .selectAll('g').data(nodes).join('g').attr('cursor', 'pointer');
 
   nodeG.append('circle')
-    .attr('r', (node) => (node.level === 'ext' ? 11 : 15) + 6)
+    .attr('r', (node) => getNodeRadius(node) + 6)
     .attr('fill', 'transparent')
     .attr('stroke', 'none');
 
   const circles = nodeG.append('circle')
-    .attr('r', (node) => (node.level === 'ext' ? 11 : node.level === 1000 ? 15 : 14));
+    .attr('r', (node) => getNodeRadius(node));
 
   const labels = nodeG.append('text')
     .attr('text-anchor', 'middle')
     .attr('dy', '0.35em')
     .attr('font-family', 'var(--font-mono)')
     .attr('pointer-events', 'none')
-    .attr('font-size', (node) => (node.level === 'ext' ? '9px' : '10px'))
-    .text((node) => (node.level === 'ext' ? node.id : node.id.replace(/[A-Z]+/, '')));
+    .attr('font-size', '9px')
+    .text((node) => node.id);
 
   const renderer = createRenderer({
     circles,
@@ -261,14 +295,14 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
         const dx = edge.target.x - edge.source.x;
         const dy = edge.target.y - edge.source.y;
         const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        const radius = edge.target.level === 'ext' ? 11 : 14;
+        const radius = getNodeRadius(edge.target);
         return edge.target.x - (dx / dist) * radius;
       })
       .attr('y2', (edge) => {
         const dx = edge.target.x - edge.source.x;
         const dy = edge.target.y - edge.source.y;
         const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        const radius = edge.target.level === 'ext' ? 11 : 14;
+        const radius = getNodeRadius(edge.target);
         return edge.target.y - (dy / dist) * radius;
       });
 
@@ -285,6 +319,7 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
     syncUi,
     snapshot: () => ({
       catalogId: catalog.id,
+      year: appState.currentYear,
       selected: [...uiState.selected],
       excluded: [...uiState.manualExcluded],
       blocked: [...graphState.computeEffectivelyExcluded(uiState.manualExcluded)].filter((id) => !uiState.manualExcluded.has(id)),

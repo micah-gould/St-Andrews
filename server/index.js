@@ -1,7 +1,7 @@
 import cors from 'cors';
 import express from 'express';
 import { createSetting, getSettings, removeSetting } from './db.js';
-import { buildEdges, getCatalog, listCatalogs } from './moduleData.js';
+import { getCatalog, getGraphData, listCatalogs } from './moduleData.js';
 
 const PORT = 5175;
 const app = express();
@@ -19,11 +19,14 @@ app.get('/api/catalogs', (_req, res) => {
 
 app.get('/api/modules', (req, res) => {
   const catalog = getCatalog(req.query.catalog);
+  const year = typeof req.query.year === 'string' ? req.query.year : null;
+  const graph = getGraphData(catalog, year);
   res.json({
-    catalog: { id: catalog.id, name: catalog.name },
-    nodes: catalog.nodes,
-    prereqRules: catalog.prereqRules,
-    edges: buildEdges(catalog),
+    catalog: { id: catalog.id, name: catalog.name, years: catalog.years || [] },
+    selectedYear: graph.selectedYear,
+    nodes: graph.nodes,
+    prereqRules: graph.prereqRules,
+    edges: graph.edges,
   });
 });
 
@@ -48,7 +51,7 @@ app.post('/api/settings', (req, res) => {
 
   const sanitizedState = {
     catalogId: typeof state.catalogId === 'string' && state.catalogId ? state.catalogId : 'mathematics',
-    mode: ['explore', 'select', 'exclude'].includes(state.mode) ? state.mode : 'explore',
+    year: typeof state.year === 'string' ? state.year : null,
     selected: Array.isArray(state.selected) ? state.selected : [],
     excluded: Array.isArray(state.excluded) ? state.excluded : [],
     blocked: Array.isArray(state.blocked) ? state.blocked : [],

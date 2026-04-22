@@ -6,8 +6,10 @@ export async function listCatalogs() {
   return response.json();
 }
 
-export async function loadGraphData(catalogId) {
-  const response = await fetch(`/api/modules?catalog=${encodeURIComponent(catalogId)}`);
+export async function loadGraphData(catalogId, year) {
+  const params = new URLSearchParams({ catalog: catalogId });
+  if (year) params.set('year', year);
+  const response = await fetch(`/api/modules?${params.toString()}`);
   if (!response.ok) {
     throw new Error(`Failed to load module data (${response.status})`);
   }
@@ -15,6 +17,7 @@ export async function loadGraphData(catalogId) {
   const payload = await response.json();
   return {
     catalog: payload.catalog,
+    selectedYear: payload.selectedYear,
     nodes: payload.nodes,
     prereqRules: payload.prereqRules,
     edges: payload.edges,

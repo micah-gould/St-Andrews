@@ -19,11 +19,14 @@
           <span class="leg"><span class="dot" style="background:var(--c-2000)"></span>2000</span>
           <span class="leg"><span class="dot" style="background:var(--c-3000)"></span>3000</span>
           <span class="leg"><span class="dot" style="background:var(--c-4000)"></span>4000</span>
+          <span class="leg"><span class="dot" style="background:var(--c-5000)"></span>5000</span>
           <span class="divider"></span>
           <span class="leg"><span class="dot" style="background:var(--c-sel)"></span>Selected</span>
           <span class="leg"><span class="dot" style="background:var(--c-excl)"></span>Excluded</span>
-          <span class="leg"><span class="dot" style="background:var(--c-pre)"></span>Prereqs</span>
-          <span class="leg"><span class="dot" style="background:var(--c-fwd)"></span>Unlocks</span>
+          <span class="leg"><span class="dot" style="background:var(--c-hover-pre-required)"></span>Required prereq</span>
+          <span class="leg"><span class="dot" style="background:var(--c-hover-pre-optional)"></span>Optional prereq</span>
+          <span class="leg"><span class="dot" style="background:var(--c-hover-fwd)"></span>Hover unlocks</span>
+          <span class="leg"><span class="dot" style="background:var(--c-sel-fwd)"></span>Selected unlocks</span>
         </div>
       </div>
 
@@ -46,6 +49,10 @@
         <label class="field-group" for="catalog-select">
           <span>Catalog</span>
           <select id="catalog-select" aria-label="Course catalog"></select>
+        </label>
+        <label class="field-group" for="year-select">
+          <span>Year</span>
+          <select id="year-select" aria-label="Academic year"></select>
         </label>
       </div>
       <form id="settings-form" class="settings-form">
