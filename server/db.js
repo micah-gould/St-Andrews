@@ -1,6 +1,9 @@
 import Database from 'better-sqlite3';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 
-const db = new Database(new URL('./data/app.sqlite', import.meta.url).pathname);
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const db = new Database(join(__dirname, 'data', 'app.sqlite'));
 
 db.pragma('journal_mode = WAL');
 

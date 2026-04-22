@@ -20,6 +20,7 @@
           <span class="leg"><span class="dot" style="background:var(--c-3000)"></span>3000</span>
           <span class="leg"><span class="dot" style="background:var(--c-4000)"></span>4000</span>
           <span class="leg"><span class="dot" style="background:var(--c-5000)"></span>5000</span>
+          <span class="leg"><span class="dot" style="background:var(--c-ext)"></span>Ext</span>
           <span class="divider"></span>
           <span class="leg"><span class="dot" style="background:var(--c-sel)"></span>Selected</span>
           <span class="leg"><span class="dot" style="background:var(--c-excl)"></span>Excluded</span>
@@ -32,6 +33,17 @@
 
       <div class="toolbar-right">
         <button class="clear-btn" id="clear-all" type="button">Clear all</button>
+        <button class="clear-btn" id="theme-toggle" type="button" aria-pressed="false">Light mode</button>
+
+        <div class="level-filter" id="level-filter" aria-label="Module level visibility">
+          <span class="level-filter-label">Levels</span>
+          <label class="level-toggle"><input type="checkbox" value="1000" checked>1000</label>
+          <label class="level-toggle"><input type="checkbox" value="2000" checked>2000</label>
+          <label class="level-toggle"><input type="checkbox" value="3000" checked>3000</label>
+          <label class="level-toggle"><input type="checkbox" value="4000" checked>4000</label>
+          <label class="level-toggle"><input type="checkbox" value="5000" checked>5000</label>
+          <label class="level-toggle"><input type="checkbox" value="ext" checked>Ext</label>
+        </div>
 
         <div class="search-wrap">
           <svg class="search-icon" width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M9.5 9.5L12.5 12.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
@@ -79,7 +91,8 @@
     </footer>
   </div>
 
+  <link rel="stylesheet" href="./src/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
-  <script type="module" src="/src/main.js"></script>
+  <script type="module" src="./src/main.js"></script>
 </body>
 </html>

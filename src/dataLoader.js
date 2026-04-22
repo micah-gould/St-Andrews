@@ -1,5 +1,7 @@
+const API_BASE = window.location.protocol === 'file:' ? 'http://localhost:5175' : '';
+
 export async function listCatalogs() {
-  const response = await fetch('/api/catalogs');
+  const response = await fetch(`${API_BASE}/api/catalogs`);
   if (!response.ok) {
     throw new Error(`Failed to load catalogs (${response.status})`);
   }
@@ -9,7 +11,7 @@ export async function listCatalogs() {
 export async function loadGraphData(catalogId, year) {
   const params = new URLSearchParams({ catalog: catalogId });
   if (year) params.set('year', year);
-  const response = await fetch(`/api/modules?${params.toString()}`);
+  const response = await fetch(`${API_BASE}/api/modules?${params.toString()}`);
   if (!response.ok) {
     throw new Error(`Failed to load module data (${response.status})`);
   }

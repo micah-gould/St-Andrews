@@ -1,4 +1,3 @@
-import './style.css';
 import { listCatalogs, loadGraphData } from './dataLoader.js';
 import { createGraphState } from './graph.js';
 import { createRenderer } from './render.js';
@@ -7,6 +6,8 @@ import { createUiState } from './state.js';
 import { createTooltip } from './tooltip.js';
 import { COLORS } from './constants.js';
 
+const THEME_KEY = 'moduleGraphTheme';
+
 const appState = {
   catalogs: [],
   currentCatalogId: null,
@@ -14,9 +15,41 @@ const appState = {
   settingsCache: [],
   graphRuntime: null,
   outsideClickHandler: null,
+  hiddenLevels: new Set(),
+  theme: 'dark',
 };
 
 bootstrap();
+initializeTheme();
+
+function getStoredTheme() {
+  return localStorage.getItem(THEME_KEY) || 'dark';
+}
+
+function applyTheme(theme) {
+  const body = document.body;
+  body.classList.toggle('theme-light', theme === 'light');
+  body.dataset.theme = theme;
+  const button = document.getElementById('theme-toggle');
+  if (button) {
+    button.textContent = theme === 'light' ? 'Dark mode' : 'Light mode';
+    button.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
+  }
+}
+
+function setTheme(theme) {
+  appState.theme = theme;
+  localStorage.setItem(THEME_KEY, theme);
+  applyTheme(theme);
+}
+
+function toggleTheme() {
+  setTheme(appState.theme === 'light' ? 'dark' : 'light');
+}
+
+function initializeTheme() {
+  setTheme(getStoredTheme());
+}
 
 async function bootstrap() {
   try {
@@ -81,6 +114,7 @@ async function renderCatalog(catalogId, yearOrState = null, maybeRestoredState =
   const { catalog, selectedYear: resolvedYear, nodes, prereqRules, edges } = await loadGraphData(catalogId, selectedYear);
   appState.currentCatalogId = catalog.id;
   appState.currentYear = resolvedYear;
+  appState.hiddenLevels = new Set(restoredState?.hiddenLevels ?? [...appState.hiddenLevels]);
   document.getElementById('catalog-select').value = catalog.id;
   populateYearSelector(catalog, resolvedYear);
   document.querySelector('.logo').textContent = catalog.name;
@@ -89,12 +123,12 @@ async function renderCatalog(catalogId, yearOrState = null, maybeRestoredState =
   const graphArea = document.getElementById('graph-area');
   graphArea.innerHTML = '<svg id="graph-svg"></svg><aside id="tip"></aside>';
 
-  const runtime = buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState });
+  const runtime = buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, hiddenLevels: appState.hiddenLevels });
   appState.graphRuntime = runtime;
   runtime.syncUi();
 }
 
-function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }) {
+function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, hiddenLevels }) {
   const area = document.getElementById('graph-area');
   const width = area.clientWidth || 900;
   const height = area.clientHeight || 620;
@@ -109,6 +143,16 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
   }
 
   const graphState = createGraphState(nodes, edges, prereqRules);
+  const nodeMap = Object.fromEntries(nodes.map((node) => [node.id, node]));
+
+  const getVisibleNodes = () => nodes.filter((node) => !hiddenLevels.has(String(node.level)));
+  const getVisibleEdges = () => edges.filter((link) => {
+    const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
+    const targetId = typeof link.target === 'object' ? link.target.id : link.target;
+    const source = nodeMap[sourceId];
+    const target = nodeMap[targetId];
+    return source && target && !hiddenLevels.has(String(source.level)) && !hiddenLevels.has(String(target.level));
+  });
 
   const closePanel = () => {
     uiState.setActiveNodeId(null);
@@ -194,8 +238,8 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
       .attr('stroke-linejoin', 'round');
   });
 
-  const sim = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(edges).id((node) => node.id)
+  const sim = d3.forceSimulation(getVisibleNodes())
+    .force('link', d3.forceLink(getVisibleEdges()).id((node) => node.id)
       .distance((edge) => (edge.etype === 'anti' ? 130 : 88))
       .strength((edge) => (edge.etype === 'anti' ? 0.04 : 0.5)))
     .force('charge', d3.forceManyBody().strength((node) => (node.level === 'ext' ? -60 : -195)))
@@ -207,6 +251,12 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
     .force('collision', d3.forceCollide((node) => getNodeRadius(node) + 10));
 
   sim.alpha(1).restart();
+
+  const refreshSimulation = () => {
+    sim.nodes(getVisibleNodes());
+    sim.force('link').links(getVisibleEdges());
+    sim.alpha(1).restart();
+  };
 
   const linkSel = root.append('g').attr('class', 'links')
     .selectAll('line').data(edges).join('line').attr('fill', 'none');
@@ -231,6 +281,7 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
     .text((node) => node.id);
 
   const renderer = createRenderer({
+    nodeGroups: nodeG,
     circles,
     labels,
     linkSel,
@@ -238,6 +289,8 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
     selected: uiState.selected,
     getHoverId: () => uiState.getActiveNodeId() || uiState.getHoverId(),
     graphState,
+    hiddenLevels,
+    nodes,
   });
 
   const syncUi = () => {
@@ -309,7 +362,7 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
     nodeG.attr('transform', (node) => `translate(${Math.max(16, Math.min(width - 16, node.x))},${Math.max(16, Math.min(height - 16, node.y))})`);
   });
 
-  wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, labels, circles, syncUi);
+  wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, labels, circles, syncUi, refreshSimulation);
   document.getElementById('status-text').textContent = `Showing ${catalog.name}. Hover to explore, or click a node to pin its details.`;
 
   return {
@@ -323,11 +376,12 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState }
       selected: [...uiState.selected],
       excluded: [...uiState.manualExcluded],
       blocked: [...graphState.computeEffectivelyExcluded(uiState.manualExcluded)].filter((id) => !uiState.manualExcluded.has(id)),
+      hiddenLevels: [...appState.hiddenLevels],
     }),
   };
 }
 
-function wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, labels, circles, syncUi) {
+function wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, labels, circles, syncUi, refreshSimulation) {
   const status = document.getElementById('status');
 
   document.getElementById('search').oninput = (event) => {
@@ -350,6 +404,27 @@ function wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, lab
     linkSel.attr('stroke-opacity', 0.03);
   };
 
+  const levelInputs = document.querySelectorAll('#level-filter input[type=checkbox]');
+  const syncLevelCheckboxes = () => {
+    levelInputs.forEach((input) => {
+      input.checked = !appState.hiddenLevels.has(input.value);
+    });
+  };
+
+  syncLevelCheckboxes();
+
+  levelInputs.forEach((input) => {
+    input.onchange = () => {
+      if (input.checked) {
+        appState.hiddenLevels.delete(input.value);
+      } else {
+        appState.hiddenLevels.add(input.value);
+      }
+      refreshSimulation();
+      syncUi();
+    };
+  });
+
   document.getElementById('clear-all').onclick = () => {
     uiState.clearAll();
     uiState.setHoverId(null);
@@ -357,6 +432,13 @@ function wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, lab
     tooltip.hideTip();
     syncUi();
   };
+
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    themeToggle.onclick = () => {
+      toggleTheme();
+    };
+  }
 
   status.onclick = (event) => {
     event.stopPropagation();

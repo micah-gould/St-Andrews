@@ -1,6 +1,6 @@
 export const COLORS = {
-  lvl: { 1000: '#94A3B8', 2000: '#818CF8', 3000: '#38BDF8', 4000: '#34D399', 5000: '#F59E0B', ext: '#F87171' },
-  sel: '#86EFAC',
+  lvl: { 1000: '#7DD3FC', 2000: '#818CF8', 3000: '#38BDF8', 4000: '#34D399', 5000: '#FBBF24', ext: '#A855F7' },
+  sel: '#A3E635',
   excl: '#F87171',
   hoverPreRequired: '#FCD34D',
   hoverPreOptional: '#C084FC',
@@ -8,6 +8,7 @@ export const COLORS = {
   selPreRequired: '#F59E0B',
   selPreOptional: '#A855F7',
   selFwd: '#38BDF8',
-  anti: '#F87171',
-  edge: '#334155',
+  anti: '#FB7185',
+  edge: '#64748B',
+  edgeOptional: '#94A3B8',
 };

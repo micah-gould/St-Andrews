@@ -26,6 +26,7 @@ export function getGraphData(catalog, year) {
 
 function buildCatalogGraph(catalog, selectedYear) {
   const catalogNodeIds = new Set((catalog.nodes || []).map((node) => node.id));
+  const selectedCatalogNodeMap = new Map((catalog.nodes || []).map((node) => [node.id, node]));
   const graphNodeIds = new Set(catalogNodeIds);
   const queue = [...catalogNodeIds];
 
@@ -44,7 +45,7 @@ function buildCatalogGraph(catalog, selectedYear) {
 
   const nodeIds = [...graphNodeIds];
   const nodes = nodeIds
-    .map((id) => buildNodeForYear(nodeIndex.get(id), selectedYear, catalogNodeIds.has(id)))
+    .map((id) => buildNodeForYear(nodeIndex.get(id), selectedYear, catalogNodeIds.has(id), selectedCatalogNodeMap.get(id)))
     .filter(Boolean)
     .sort(compareNodes);
 
@@ -198,7 +199,7 @@ function createPlaceholderNode(id) {
   };
 }
 
-function buildNodeForYear(node, selectedYear, isInSelectedCatalog) {
+function buildNodeForYear(node, selectedYear, isInSelectedCatalog, selectedCatalogNode = null) {
   if (!node) return null;
   const years = [...(node.years || [])].sort();
   const semesters = [...(node.semesters || [])];
@@ -208,8 +209,14 @@ function buildNodeForYear(node, selectedYear, isInSelectedCatalog) {
     semesters.map((semester) => [semester, selectedYear ? availability[selectedYear] !== false : true]),
   );
 
+  const selectedLevel = !isInSelectedCatalog || selectedCatalogNode?.level === 'ext' || selectedCatalogNode?.frequency === 'external'
+    ? 'ext'
+    : node.level;
+
   return {
     ...node,
+    level: selectedLevel,
+    isExternal: !isInSelectedCatalog || node.isExternal,
     years,
     semesters,
     availableInSelectedYear,

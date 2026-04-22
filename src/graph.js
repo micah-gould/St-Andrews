@@ -35,15 +35,12 @@ export function createGraphState(nodes, edges, prereqRules) {
       if (eff.has(id)) continue;
       const node = nodeMap[id];
       if (node?.prerequisiteExpression) {
-        if (isExpressionBlocked(node.prerequisiteExpression, eff)) eff.add(id);
+        if (isExpressionBlocked(node.prerequisiteExpression, eff, id)) eff.add(id);
         continue;
       }
       const rules = prereqRules[id];
       if (!rules) continue;
-      const blocked = rules.some((rule) => {
-        if (rule.type === 'all') return rule.sources.some((source) => eff.has(source));
-        return rule.sources.every((source) => eff.has(source));
-      });
+      const blocked = rules.some((rule) => rule.type === 'all' && rule.sources.some((source) => eff.has(source)));
       if (blocked) eff.add(id);
     }
     return eff;
@@ -161,6 +158,17 @@ export function createGraphState(nodes, edges, prereqRules) {
     return prereqEdgeKinds.get(`${source}->${target}`) || 'required';
   }
 
+  function isExpressionBlocked(expression, excluded, target) {
+    if (!expression) return false;
+    if (expression.type === 'module') {
+      const kind = getEdgeRequirementKind(expression.code, target);
+      return kind === 'required' && excluded.has(expression.code);
+    }
+    if (expression.type === 'and') return expression.children.some((child) => isExpressionBlocked(child, excluded, target));
+    if (expression.type === 'or') return expression.children.every((child) => isExpressionBlocked(child, excluded, target));
+    return false;
+  }
+
   return {
     computeEffectivelyExcluded,
     getAllAncestors,
@@ -175,14 +183,6 @@ export function createGraphState(nodes, edges, prereqRules) {
     getSimplePathsForward,
     getEdgeRequirementKind,
   };
-}
-
-function isExpressionBlocked(expression, excluded) {
-  if (!expression) return false;
-  if (expression.type === 'module') return excluded.has(expression.code);
-  if (expression.type === 'and') return expression.children.some((child) => isExpressionBlocked(child, excluded));
-  if (expression.type === 'or') return expression.children.every((child) => isExpressionBlocked(child, excluded));
-  return false;
 }
 
 function topoSort(nodes, edges, prereqOf) {
