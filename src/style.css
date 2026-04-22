@@ -29,7 +29,6 @@
   --status-h:  38px;
 }
 
-/* ─── Reset ──────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
   font-family: var(--font-mono);
@@ -39,14 +38,12 @@ body {
   height: 100dvh;
 }
 
-/* ─── Layout ─────────────────────────────────────────── */
 #app {
   display: flex;
   flex-direction: column;
   height: 100dvh;
 }
 
-/* ─── Toolbar ────────────────────────────────────────── */
 #toolbar {
   height: var(--toolbar-h);
   min-height: var(--toolbar-h);
@@ -64,6 +61,50 @@ body {
 .toolbar-left  { display: flex; align-items: center; gap: 20px; }
 .toolbar-right { display: flex; align-items: center; gap: 10px; }
 
+#saved-settings-panel {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 18px;
+  background: rgba(17, 24, 39, 0.86);
+  border-bottom: 1px solid var(--border-light);
+  flex-wrap: wrap;
+}
+
+.saved-settings-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 220px;
+}
+
+.saved-settings-copy strong {
+  font-size: 11px;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.saved-settings-copy span {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.settings-form,
+.saved-settings-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.field-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
 .logo {
   font-family: var(--font-serif);
   font-style: italic;
@@ -75,7 +116,6 @@ body {
   flex-shrink: 0;
 }
 
-/* ─── Legend ─────────────────────────────────────────── */
 .legend {
   display: flex;
   align-items: center;
@@ -105,39 +145,6 @@ body {
   margin: 0 2px;
 }
 
-/* ─── Mode buttons ───────────────────────────────────── */
-.mode-group {
-  display: flex;
-  background: var(--bg);
-  border: 1px solid var(--border-light);
-  border-radius: 8px;
-  padding: 3px;
-  gap: 2px;
-}
-.mode-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  padding: 4px 10px;
-  border-radius: 6px;
-  border: none;
-  background: transparent;
-  color: var(--text-muted);
-  cursor: pointer;
-  transition: background 0.15s, color 0.15s;
-  white-space: nowrap;
-}
-.mode-btn:hover { background: var(--bg-card); color: var(--text); }
-.mode-btn.active {
-  background: var(--bg-card);
-  color: var(--text);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
-}
-.mode-btn--danger.active { color: var(--c-excl); }
-
-/* ─── Clear button ───────────────────────────────────── */
 .clear-btn {
   font-family: var(--font-mono);
   font-size: 11px;
@@ -155,7 +162,6 @@ body {
   border-color: var(--text-dim);
 }
 
-/* ─── Search ─────────────────────────────────────────── */
 .search-wrap {
   position: relative;
   display: flex;
@@ -182,7 +188,51 @@ body {
 #search::placeholder { color: var(--text-dim); }
 #search:focus { border-color: var(--c-fwd); }
 
-/* ─── Graph canvas ───────────────────────────────────── */
+#settings-name,
+#saved-settings-list,
+#catalog-select {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 8px 10px;
+  border-radius: 7px;
+  border: 1px solid var(--border-light);
+  background: var(--bg);
+  color: var(--text);
+  min-width: 190px;
+}
+
+#save-settings,
+#load-settings {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 8px 12px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  background: var(--c-fwd);
+  color: #0f172a;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#save-settings:hover,
+#load-settings:hover {
+  filter: brightness(1.05);
+}
+
+#settings-feedback {
+  font-size: 11px;
+  color: var(--text-muted);
+  min-height: 16px;
+}
+
+#settings-feedback[data-state='error'] {
+  color: var(--c-excl);
+}
+
+#settings-feedback[data-state='ok'] {
+  color: var(--c-sel);
+}
+
 #graph-area {
   flex: 1;
   position: relative;
@@ -199,26 +249,72 @@ body {
   display: block;
 }
 
-/* Cursor changes per mode */
-#graph-svg.mode-select  { cursor: crosshair; }
-#graph-svg.mode-explore { cursor: default; }
-#graph-svg.mode-exclude { cursor: not-allowed; }
+#graph-svg { cursor: default; }
 
-/* ─── Tooltip ────────────────────────────────────────── */
 #tip {
   position: absolute;
+  top: 18px;
+  right: 18px;
   background: var(--bg-card);
   border: 1px solid var(--border-light);
   border-radius: var(--radius);
   padding: 12px 15px;
   font-size: 11px;
-  pointer-events: none;
-  max-width: 280px;
+  pointer-events: auto;
+  width: min(320px, calc(100% - 36px));
   line-height: 1.65;
   display: none;
   z-index: 20;
   box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 1px 0 rgba(255,255,255,0.04) inset;
   backdrop-filter: blur(4px);
+}
+
+.tip-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.tip-btn {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 7px 10px;
+  border-radius: 7px;
+  border: 1px solid var(--border-light);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.tip-btn:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+.tip-btn[data-state='active'] {
+  border-color: transparent;
+  background: var(--c-sel);
+  color: #0f172a;
+}
+
+.tip-btn--danger[data-state='active'] {
+  background: var(--c-excl);
+  color: #fff;
+}
+
+.tip-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+}
+
+.tip-close:hover {
+  color: var(--text);
 }
 
 .tip-id   { font-size: 14px; font-weight: 500; color: var(--text); letter-spacing: -0.01em; }
@@ -248,27 +344,121 @@ body {
 .tip-hint  { font-size: 10px; color: var(--text-dim); margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); }
 .tip-src-excl { color: var(--c-excl); text-decoration: line-through; }
 
-/* ─── Status bar ─────────────────────────────────────── */
 #status {
-  height: var(--status-h);
   min-height: var(--status-h);
   display: flex;
-  align-items: center;
-  padding: 0 18px;
+  align-items: stretch;
+  padding: 10px 18px;
   background: var(--bg-panel);
   border-top: 1px solid var(--border-light);
   flex-shrink: 0;
-  gap: 16px;
-  overflow: hidden;
+  cursor: pointer;
+  overflow: visible;
+  transition: padding 0.2s ease, background-color 0.2s ease;
 }
+
+#status.is-enlarged {
+  padding: 14px 18px;
+  background: #162033;
+}
+
 #status-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
   font-size: 11px;
   color: var(--text-muted);
+  transition: font-size 0.2s ease, gap 0.2s ease;
+}
+
+#status.is-enlarged #status-text {
+  font-size: 13px;
+  gap: 10px;
+}
+
+.status-row {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.status-row--wrap .status-value {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.status-row--single {
+  display: block;
+}
+
+.status-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: font-size 0.2s ease;
+}
+
+.status-value {
+  min-width: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.status-empty {
+  display: block;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+}
+
 .status-sel   { color: var(--c-sel); }
 .status-excl  { color: var(--c-excl); }
 .status-block { color: var(--text-dim); }
-.status-sep   { color: var(--border-light); }
+
+#status.is-enlarged .status-label {
+  font-size: 11px;
+}
+
+#status.is-enlarged .status-value,
+#status.is-enlarged .status-empty {
+  font-size: 13px;
+}
+
+@media (max-width: 960px) {
+  body {
+    overflow: auto;
+  }
+
+  #toolbar {
+    height: auto;
+    min-height: var(--toolbar-h);
+    padding: 12px 18px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .toolbar-left,
+  .toolbar-right,
+  #saved-settings-panel,
+  .settings-form,
+  .saved-settings-controls {
+    flex-wrap: wrap;
+  }
+
+  .status-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  #settings-name,
+  #saved-settings-list,
+  #catalog-select {
+    min-width: 0;
+    width: 100%;
+  }
+}

@@ -7,10 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <div id="app">
     <header id="toolbar">
       <div class="toolbar-left">
@@ -30,46 +28,51 @@
       </div>
 
       <div class="toolbar-right">
-        <div class="mode-group" role="group" aria-label="Interaction mode">
-          <button class="mode-btn active" id="btn-explore" onclick="setMode('explore')" title="Hover to explore — no selection or exclusion">
-            <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/><circle cx="6.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
-            Explore
-          </button>
-          <button class="mode-btn" id="btn-select" onclick="setMode('select')" title="Click nodes to include them">
-            <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2.5 6.5L5.5 9.5L10.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Select
-          </button>
-          <button class="mode-btn mode-btn--danger" id="btn-exclude" onclick="setMode('exclude')" title="Click nodes to exclude them">
-            <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M3 3L10 10M10 3L3 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-            Exclude
-          </button>
-        </div>
-
-        <button class="clear-btn" onclick="clearAll()">Clear all</button>
+        <button class="clear-btn" id="clear-all" type="button">Clear all</button>
 
         <div class="search-wrap">
           <svg class="search-icon" width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M9.5 9.5L12.5 12.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
-          <input id="search" type="text" placeholder="Search modules…" oninput="filterSearch(this.value)" autocomplete="off" spellcheck="false">
+          <input id="search" type="text" placeholder="Search modules..." autocomplete="off" spellcheck="false">
         </div>
       </div>
     </header>
 
+    <section id="saved-settings-panel" aria-label="Saved settings">
+      <div class="saved-settings-copy">
+        <strong>Saved comparisons</strong>
+        <span>Switch catalogs, save combinations, and reload them later.</span>
+      </div>
+      <div class="saved-settings-controls">
+        <label class="field-group" for="catalog-select">
+          <span>Catalog</span>
+          <select id="catalog-select" aria-label="Course catalog"></select>
+        </label>
+      </div>
+      <form id="settings-form" class="settings-form">
+        <input id="settings-name" name="name" type="text" maxlength="80" placeholder="e.g. Pure maths path">
+        <button id="save-settings" type="submit">Save current</button>
+      </form>
+      <div class="saved-settings-controls">
+        <select id="saved-settings-list" aria-label="Saved settings list">
+          <option value="">No saved settings yet</option>
+        </select>
+        <button id="load-settings" type="button">Load</button>
+        <button id="delete-settings" type="button" class="clear-btn">Delete</button>
+      </div>
+      <div id="settings-feedback" aria-live="polite"></div>
+    </section>
+
     <div id="graph-area">
       <svg id="graph-svg"></svg>
-      <div id="tip"></div>
+      <aside id="tip"></aside>
     </div>
 
     <footer id="status">
-      <span id="status-text">Hover a node to explore its prerequisite chain, or switch modes to select and exclude.</span>
+      <div id="status-text">Loading module data...</div>
     </footer>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
-  <script src="js/data.js"></script>
-  <script src="js/graph.js"></script>
-  <script src="js/state.js"></script>
-  <script src="js/render.js"></script>
-  <script src="js/tooltip.js"></script>
-  <script src="js/main.js"></script>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>
