@@ -25,7 +25,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "ADVISORY: STUDENTS SHOULD BE ABLE TO DECODE BASIC STANDARD WESTERN NOTATION. A DIAGNOSTIC TEST WILL BE CARRIED OUT ON ENROLMENT TO ASCERTAIN WHETHER YOU HAVE THE MUSICAL SCORE LITERACY TO SUCCEED ON THE MODULE.",
@@ -49,7 +49,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS SHOULD HAVE A GRADE 8 PERFORMANCE CERTIFICATE OR TAKE AN AUDITION WITH THE MODULE CO-ORDINATOR",
@@ -73,7 +73,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -97,7 +97,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -121,7 +121,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MU1004"
@@ -148,7 +148,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -172,7 +172,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -196,7 +196,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -236,7 +236,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MU2001"
@@ -263,7 +263,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE TAKEN AT LEAST ONE MUSIC (MU) MODULE.,IN ORDER TO ENROL ON THIS MODULE, YOU MUST SUBMIT A WRITTEN RESEARCH PROPOSAL (200-300 WORDS) TO THE MODULE COORDINATOR. THE PROPOSAL SHOULD CLEARLY SUMMARISE THE AIMS AND METHODOLOGY OF YOUR PROJECT. IT SHOULD BE SUBMITTED BY THE FRIDAY OF WEEK 0.",
@@ -287,7 +287,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -311,7 +311,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -335,7 +335,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -359,7 +359,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",

@@ -25,7 +25,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
@@ -113,7 +113,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -169,7 +169,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -221,7 +221,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -265,7 +265,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -322,7 +322,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -384,7 +384,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "AS4011"
@@ -411,7 +411,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -481,7 +481,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -543,7 +543,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "PH3061"
@@ -590,7 +590,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -699,7 +699,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "PH3061"
@@ -750,10 +750,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "STUDENTS MUST BE REGISTERED ON MSC ASTROPHYSICS.",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -774,7 +774,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS MUST BE REGISTERED FOR MSC ASTROPHYSICS.",
@@ -798,7 +798,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS MUST BE REGISTERED FOR MSC ASTROPHYSICS.",
@@ -822,7 +822,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS MUST BE REGISTERED FOR MSC ASTROPHYSICS.",
@@ -846,7 +846,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "REGISTRATION ON MSC ASTROPHYSICS.",
@@ -870,7 +870,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
@@ -897,10 +897,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "REGISTRATION ON MSC ASTROPHYSICS. SOME PROJECTS WILL NEED LEARNING FROM SPECIFIC MODULES - PLEASE CONTACT POTENTIAL SUPERVISORS.",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -921,7 +921,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AVAILABLE ONLY TO SENIOR HONOURS STUDENTS (INTEGRATED MASTERS STUDENTS MAY TAKE IN SENIOR HONOURS OR THEIR FINAL YEAR) WHO HAVE BEEN ACCEPTED FOLLOWING APPLICATION AND INTERVIEW IN THE PRECEDING SEMESTER.",
@@ -945,7 +945,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
@@ -972,7 +972,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "PH1011"
@@ -1002,10 +1002,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "(HIGHER MATHEMATICS GRADE B) AND (HIGHER PHYSICS GRADE B OR HIGHER CHEMISTRY GRADE B), OR EQUIVALENTS",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1026,7 +1026,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
@@ -1053,13 +1053,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PH2011"
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2011",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1080,42 +1077,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "or",
-            "children": [
-              {
-                "type": "module",
-                "code": "CH1202"
-              },
-              {
-                "type": "module",
-                "code": "CH1402"
-              }
-            ]
-          },
-          {
-            "type": "module",
-            "code": "PH1011"
-          },
-          {
-            "type": "module",
-            "code": "PH1012"
-          },
-          {
-            "type": "module",
-            "code": "MT1002"
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PH2011"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH1202 OR PASS CH1402 ) AND PASS PH1011 AND PASS PH1012 AND PASS MT1002",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH2011"
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH3007",
@@ -1135,48 +1100,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "or",
-            "children": [
-              {
-                "type": "module",
-                "code": "PH3081"
-              },
-              {
-                "type": "module",
-                "code": "PH3082"
-              }
-            ]
-          },
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "PH2012"
-              },
-              {
-                "type": "module",
-                "code": "MT2501"
-              },
-              {
-                "type": "module",
-                "code": "MT2503"
-              }
-            ]
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MT4553"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PH3081 OR PASS PH3082 ) OR PASS PH2012 AND PASS MT2501 AND PASS MT2503",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT4553"
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH3012",
@@ -1196,39 +1124,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "or",
-            "children": [
-              {
-                "type": "module",
-                "code": "PH3081"
-              },
-              {
-                "type": "module",
-                "code": "PH3082"
-              }
-            ]
-          },
-          {
-            "type": "module",
-            "code": "PH2012"
-          },
-          {
-            "type": "module",
-            "code": "MT2501"
-          },
-          {
-            "type": "module",
-            "code": "MT2503"
-          }
-        ]
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PH3081 OR PASS PH3082 ) AND PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1249,14 +1148,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PH4040"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH4040"
+      "antiRequisitesText": ""
     },
     {
       "id": "PH3061",
@@ -1276,26 +1172,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH2012"
-          },
-          {
-            "type": "module",
-            "code": "MT2501"
-          },
-          {
-            "type": "module",
-            "code": "MT2503"
-          }
-        ]
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1316,43 +1196,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3061"
-          },
-          {
-            "type": "or",
-            "children": [
-              {
-                "type": "module",
-                "code": "PH3081"
-              },
-              {
-                "type": "module",
-                "code": "PH3082"
-              }
-            ]
-          },
-          {
-            "type": "module",
-            "code": "PH2012"
-          },
-          {
-            "type": "module",
-            "code": "MT2501"
-          },
-          {
-            "type": "module",
-            "code": "MT2503"
-          }
-        ]
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061 AND ( PASS PH3081 OR PASS PH3082 ) AND PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1373,26 +1220,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH2011"
-          },
-          {
-            "type": "module",
-            "code": "PH2012"
-          },
-          {
-            "type": "module",
-            "code": "MT2501"
-          }
-        ]
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2011 AND PASS PH2012 AND ( PASS MT2501 AND PASS MT2503 )",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1413,30 +1244,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH2012"
-          },
-          {
-            "type": "module",
-            "code": "MT2501"
-          },
-          {
-            "type": "module",
-            "code": "MT2503"
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PH3082"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2012 AND PASS MT2501 AND PASS MT2503",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH3082"
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH3081",
@@ -1456,39 +1268,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH2012"
-          },
-          {
-            "type": "module",
-            "code": "MT2501"
-          },
-          {
-            "type": "module",
-            "code": "MT2503"
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3082"
-          },
-          {
-            "type": "module",
-            "code": "MT3506"
-          }
-        ]
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2012 AND PASS MT2501 AND PASS MT2503",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH3082 OR TAKE MT3506"
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH3082",
@@ -1508,7 +1292,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -1532,7 +1316,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -1568,7 +1352,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -1631,7 +1415,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -1655,7 +1439,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -1704,26 +1488,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3007"
-          },
-          {
-            "type": "module",
-            "code": "PH3081"
-          },
-          {
-            "type": "module",
-            "code": "PH4038"
-          }
-        ]
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3007 AND PASS PH3081 AND PASS PH4038",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1744,39 +1512,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3081"
-          },
-          {
-            "type": "module",
-            "code": "PH3082"
-          },
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "MT2506"
-              },
-              {
-                "type": "module",
-                "code": "MT2507"
-              }
-            ]
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PH5005"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082 OR ( PASS MT2506 AND PASS MT2507 )",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH5005"
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH4035",
@@ -1796,7 +1536,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -1845,10 +1585,22 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH3081"
+          },
+          {
+            "type": "module",
+            "code": "PH3082"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082",
       "antiRequisitesText": ""
     },
     {
@@ -1869,7 +1621,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -1921,7 +1673,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -1979,35 +1731,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3061"
-          },
-          {
-            "type": "module",
-            "code": "PH3062"
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3014"
-          },
-          {
-            "type": "module",
-            "code": "PH4041"
-          }
-        ]
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061 AND PASS PH3062",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH3014 OR TAKE PH4041"
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH4041",
@@ -2027,69 +1755,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "PH2011"
-              },
-              {
-                "type": "module",
-                "code": "PH3062"
-              },
-              {
-                "type": "module",
-                "code": "PH2012"
-              },
-              {
-                "type": "module",
-                "code": "MT2501"
-              },
-              {
-                "type": "module",
-                "code": "MT2503"
-              },
-              {
-                "type": "or",
-                "children": [
-                  {
-                    "type": "module",
-                    "code": "PH3081"
-                  },
-                  {
-                    "type": "module",
-                    "code": "PH3082"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "MT2506"
-              },
-              {
-                "type": "module",
-                "code": "PH3061"
-              }
-            ]
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PH4040"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2011 AND PASS PH3062 AND PASS PH2012 AND PASS MT2501 AND PASS MT2503 AND ( PASS PH3081 OR PASS PH3082 ) OR ( PASS MT2506 AND PASS MT2507 ) AND PASS PH3061",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH4040"
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH4042",
@@ -2132,30 +1802,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "CH3441"
-          },
-          {
-            "type": "module",
-            "code": "PH3082"
-          },
-          {
-            "type": "module",
-            "code": "PH3061"
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PH3014"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH3441 AND PASS PH3082 AND PASS PH3061",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH3014"
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH4044",
@@ -2175,7 +1826,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -2199,35 +1850,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3081"
-          },
-          {
-            "type": "module",
-            "code": "PH3082"
-          },
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "MT2506"
-              },
-              {
-                "type": "module",
-                "code": "MT2507"
-              }
-            ]
-          }
-        ]
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082 OR ( PASS MT2506 AND PASS MT2507 )",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2248,38 +1874,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PH3061"
-      },
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "AS4103"
-          },
-          {
-            "type": "module",
-            "code": "AS5101"
-          },
-          {
-            "type": "module",
-            "code": "PH5101"
-          },
-          {
-            "type": "module",
-            "code": "PH5103"
-          },
-          {
-            "type": "module",
-            "code": "PH4796"
-          }
-        ]
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS4103 OR TAKE AS5101 OR TAKE PH5101 OR TAKE PH5103 OR TAKE PH4796"
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH5004",
@@ -2299,34 +1898,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3012"
-          },
-          {
-            "type": "module",
-            "code": "PH3061"
-          },
-          {
-            "type": "module",
-            "code": "PH3062"
-          },
-          {
-            "type": "module",
-            "code": "PH4038"
-          },
-          {
-            "type": "module",
-            "code": "PH4028"
-          }
-        ]
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3012 AND PASS PH3061 AND PASS PH3062 AND PASS 1 MODULE FROM {PH4038, MT4507} AND PASS 1 MODULE FROM {PH4028, MT3503}",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2347,30 +1922,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3007"
-          },
-          {
-            "type": "module",
-            "code": "PH3061"
-          },
-          {
-            "type": "module",
-            "code": "PH3062"
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PH4034"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3007 AND PASS PH3061 AND PASS PH3062.",
-      "antiRequisitesText": "YOU MAY NOT TAKE THIS MODULE IF YOU HAVE TAKEN OR ARE TAKING PH4034."
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH5011",
@@ -2390,35 +1946,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3081"
-          },
-          {
-            "type": "module",
-            "code": "PH3082"
-          },
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "MT2506"
-              },
-              {
-                "type": "module",
-                "code": "MT2507"
-              }
-            ]
-          }
-        ]
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082 OR ( PASS MT2506 AND PASS MT2507 )",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2439,52 +1970,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "or",
-            "children": [
-              {
-                "type": "module",
-                "code": "PH3081"
-              },
-              {
-                "type": "module",
-                "code": "PH3082"
-              },
-              {
-                "type": "and",
-                "children": [
-                  {
-                    "type": "module",
-                    "code": "MT2506"
-                  },
-                  {
-                    "type": "module",
-                    "code": "MT2507"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "module",
-            "code": "PH3061"
-          },
-          {
-            "type": "module",
-            "code": "PH3062"
-          },
-          {
-            "type": "module",
-            "code": "PH4028"
-          }
-        ]
-      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PH3081 OR PASS PH3082 OR PASS MT2506 AND PASS MT2507 ) AND PASS PH3061 AND PASS PH3062 AND PASS PH4028",
+      "prerequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2505,7 +1994,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -2567,7 +2056,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -2591,7 +2080,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -2615,7 +2104,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -2639,7 +2128,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -2704,10 +2193,13 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PH3061"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061",
       "antiRequisitesText": ""
     },
     {
@@ -2728,7 +2220,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "PH3061"
@@ -2779,7 +2271,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -2826,10 +2318,10 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "ADMISSION TO THE CDT APPLIED PHOTONICS PROGRAMME WITHIN THE SCHOOL",
       "antiRequisitesText": ""
     },
     {
@@ -3011,7 +2503,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",

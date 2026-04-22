@@ -74,10 +74,34 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG1001"
+          },
+          {
+            "type": "module",
+            "code": "GG1002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG2011"
+          },
+          {
+            "type": "module",
+            "code": "GG2011"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG1001 AND PASS GG1002",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG2011 OR TAKE GG2011"
     },
     {
       "id": "GG2014",
@@ -98,10 +122,38 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG1001"
+          },
+          {
+            "type": "module",
+            "code": "GG1002"
+          },
+          {
+            "type": "module",
+            "code": "GG2013"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG2012"
+          },
+          {
+            "type": "module",
+            "code": "GG2012"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG1001 AND PASS GG1002 AND PASS GG2013",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG2012 OR TAKE GG2012"
     },
     {
       "id": "GG2801",
@@ -173,9 +225,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD2100"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2100",
       "antiRequisitesText": ""
     },
     {
@@ -197,9 +252,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD2100"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2100",
       "antiRequisitesText": ""
     },
     {
@@ -221,9 +279,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD2100"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2100",
       "antiRequisitesText": ""
     },
     {
@@ -245,9 +306,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD2100"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2100",
       "antiRequisitesText": ""
     },
     {
@@ -296,9 +360,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GG2014"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2014",
       "antiRequisitesText": ""
     },
     {
@@ -416,9 +483,73 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2011 AND PASS GG2012 OR PASS SD2001 AND PASS SD2002 OR PASS GG2013 AND PASS GG2014 AND PASS SD2100 OR PASS SD2005 AND PASS SD2006 AND PASS SD2100",
       "antiRequisitesText": ""
     },
     {
@@ -510,9 +641,73 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2011 AND PASS GG2012 OR PASS SD2001 AND PASS SD2002 OR PASS GG2013 AND PASS GG2014 AND PASS SD2100 OR PASS SD2005 AND PASS SD2006 AND PASS SD2100",
       "antiRequisitesText": ""
     },
     {
@@ -558,9 +753,65 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011 AND GG2012' OR 'SD2001 AND SD2002' OR 'GG2013, GG2014, AND SD2100' OR 'SD2005, SD2006 AND SD2100'.",
       "antiRequisitesText": ""
     },
     {
@@ -582,10 +833,86 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3272"
+          },
+          {
+            "type": "module",
+            "code": "GG3272"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2011 AND PASS GG2012 OR PASS SD2001 AND PASS SD2002 OR PASS GG2013 AND PASS GG2014 AND PASS SD2100 OR PASS SD2005 AND PASS SD2006 AND PASS SD2100",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3272 OR TAKE GG3272"
     },
     {
       "id": "GG4246",
@@ -605,10 +932,78 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3221"
+          },
+          {
+            "type": "module",
+            "code": "GG3221"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011 AND GG2012' OR SD2001 AND SD2002' OR GG2013, GG2014 AND SD2100' OR SD2005, SD2006 AND SD2100'.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3221 OR TAKE GG3221"
     },
     {
       "id": "GG4247",
@@ -629,10 +1024,78 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3224"
+          },
+          {
+            "type": "module",
+            "code": "GG3224"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011 AND GG2012' OR 'SD2001 AND SD2002' OR 'GG2013, GG2014 AND SD2100' OR 'SD2005, SD2006 AND SD2100'.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3224 OR TAKE GG3224"
     },
     {
       "id": "GG4248",
@@ -1112,9 +1575,52 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011 AND GG2012' OR 'GG2013, GG2014 AND SD2100' OR 'SD2005, SD2006 AND SD2100'.",
       "antiRequisitesText": ""
     },
     {
@@ -1232,9 +1738,65 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG3209"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "GG3209"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "GG3209"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "GG3209"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011, GG2012 AND GG3209' OR 'SD2001, SD2002 AND GG3209' OR 'GG2013, GG2014, SD2100 AND GG3209' OR 'SD2005, SD2006, SD2100 AND GG3209'.",
       "antiRequisitesText": ""
     },
     {
@@ -1256,9 +1818,39 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS GG2014 AND PASS SD2100 ) OR ( PASS GG2011 AND PASS GG2012 )",
       "antiRequisitesText": ""
     },
     {
@@ -1280,10 +1872,47 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GG3263"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS GG2013 AND PASS GG2014 AND PASS SD2100 ) OR ( PASS GG2011 AND PASS GG2012 )",
+      "antiRequisitesText": "GG3263"
     },
     {
       "id": "GG4260",
@@ -1303,9 +1932,47 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS GG2013 AND PASS GG2014 AND PASS SD2100 ) OR ( PASS SD2005 AND PASS SD2006 AND PASS SD2100 )",
       "antiRequisitesText": ""
     },
     {
@@ -1406,10 +2073,33 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GG3205"
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG4298"
+          },
+          {
+            "type": "module",
+            "code": "GG4297"
+          },
+          {
+            "type": "module",
+            "code": "GG4298"
+          },
+          {
+            "type": "module",
+            "code": "GG4297"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG3205,BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 10 CREDITS FROM GG3206, GG3207, GG3208, GG3209, GG3210, GG3211, GG3212, GG3215",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GG4298 OR TAKE GG4297 OR PASS GG4298 OR PASS GG4297"
     },
     {
       "id": "GG5004",
@@ -1431,9 +2121,21 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG5000"
+          },
+          {
+            "type": "module",
+            "code": "GG5001"
+          }
+        ]
+      },
+      "prerequisitesText": "MUST BE TAKING AN MRES DEGREE IN THE SCHOOL OF GEOGRAPHY AND SUSTAINABLE DEVELOPMENT",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GG5000 OR TAKE GG5001"
     },
     {
       "id": "GG5005",
@@ -1454,9 +2156,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GG5004"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE GG5004",
       "antiRequisitesText": ""
     },
     {
@@ -1598,10 +2303,34 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2005"
+          },
+          {
+            "type": "module",
+            "code": "SD2001"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "module",
+            "code": "SD2002"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2005 OR PASS SD2001",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS SD2002 OR TAKE SD2002"
     },
     {
       "id": "SD2100",
@@ -1809,11 +2538,15 @@
           {
             "type": "module",
             "code": "SD3100"
+          },
+          {
+            "type": "module",
+            "code": "GG3213"
           }
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2001 AND PASS SD2002 ) OR ( PASS SD2005 AND PASS SD2006 AND PASS SD2100 )",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS SD3100 OR TAKE SD3100"
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS SD3100 OR TAKE SD3100,YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3213 OR TAKE GG3213"
     },
     {
       "id": "SD3103",
@@ -2094,9 +2827,30 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2002 OR ( PASS SD2006 AND PASS SD2100 )",
       "antiRequisitesText": ""
     },
     {
@@ -2119,9 +2873,30 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2002 OR ( PASS SD2006 AND PASS SD2100 )",
       "antiRequisitesText": ""
     },
     {
@@ -2143,9 +2918,30 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2002 OR ( PASS SD2006 AND PASS SD2100 )",
       "antiRequisitesText": ""
     },
     {
@@ -2167,9 +2963,43 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2002 OR ( PASS SD2006 AND PASS SD2100 ) OR ( PASS GG2014 AND PASS SD2100 )",
       "antiRequisitesText": ""
     },
     {
@@ -2244,9 +3074,65 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2006 AND PASS SD2100 ) OR ( PASS GG2014 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 ) OR ( PASS GG2011 AND PASS GG2012 )",
       "antiRequisitesText": ""
     },
     {
@@ -2268,9 +3154,65 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2006 AND PASS SD2100 ) OR ( PASS GG2014 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 ) OR ( PASS GG2011 AND PASS GG2012 )",
       "antiRequisitesText": ""
     },
     {
@@ -2292,9 +3234,39 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2100"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2100 AND PASS SD2006 ) OR ( PASS SD2001 AND PASS SD2002 )",
       "antiRequisitesText": ""
     },
     {
@@ -2370,9 +3342,39 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2006 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 )",
       "antiRequisitesText": ""
     },
     {
@@ -2474,9 +3476,29 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2006"
+          },
+          {
+            "type": "module",
+            "code": "SD2100"
+          },
+          {
+            "type": "module",
+            "code": "SD2001"
+          },
+          {
+            "type": "module",
+            "code": "SD2002"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE ALL MODULES FROM SD2006 AND TAKE ALL MODULES FROM SD2100 AND TAKE ALL MODULES FROM SD2001 AND TAKE ALL MODULES FROM SD2002",
       "antiRequisitesText": ""
     },
     {
@@ -2543,9 +3565,39 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2001 AND PASS SD2002 ) OR ( PASS GG2011 AND PASS GG2012 )",
       "antiRequisitesText": ""
     },
     {
@@ -2567,9 +3619,21 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD3101"
+          },
+          {
+            "type": "module",
+            "code": "GG3206"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE SD3101 AND TAKE {AT LEAST 10 CREDITS FROM MODULE LIST GG3206-GG3212) OR FOR JOINT HONOURS STUDENTS ANOTHER METHODS MODULE AS APPROVED BY HONOURS ADVISER",
       "antiRequisitesText": ""
     },
     {
@@ -2843,9 +3907,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD5810"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "IN ORDER TO TAKE THIS MODULE YOU MUST TAKE OR HAVE TAKEN SD5810 OR HAVE PERMISSION FROM THE PROGRAMME DIRECTOR",
       "antiRequisitesText": ""
     },
     {

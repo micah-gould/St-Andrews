@@ -25,7 +25,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
@@ -52,7 +52,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
@@ -79,7 +79,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
@@ -107,7 +107,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT1001"
@@ -134,7 +134,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT1002"
@@ -161,7 +161,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS MUST HAVE AT LEAST GCSE (AT A) OR NATIONAL 5 MATHEMATICS (AT A) OR AS-LEVEL/HIGHER MATHEMATICS (AT C)",
@@ -186,7 +186,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT1002"
@@ -213,7 +213,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT1002"
@@ -241,7 +241,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT1002"
@@ -268,7 +268,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT1002"
@@ -295,7 +295,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT1002"
@@ -322,7 +322,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2503"
@@ -349,7 +349,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2503"
@@ -376,7 +376,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2504"
@@ -406,7 +406,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2501"
@@ -433,7 +433,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2502"
@@ -460,7 +460,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -496,7 +496,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2503"
@@ -523,7 +523,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2505"
@@ -550,7 +550,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -589,7 +589,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2508"
@@ -616,7 +616,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2508"
@@ -643,7 +643,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT3501"
@@ -670,7 +670,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT2505"
@@ -697,7 +697,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT3502"
@@ -768,7 +768,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT3510"
@@ -795,7 +795,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -933,7 +933,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -969,7 +969,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -1145,9 +1145,12 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2504"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2504",
       "antiRequisitesText": ""
     },
     {
@@ -1203,9 +1206,21 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2504"
+          },
+          {
+            "type": "module",
+            "code": "MT2505"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2504 OR PASS MT2505",
       "antiRequisitesText": ""
     },
     {
@@ -1282,9 +1297,12 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3502"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3502",
       "antiRequisitesText": ""
     },
     {
@@ -1331,9 +1349,12 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2504"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2504",
       "antiRequisitesText": ""
     },
     {
@@ -1354,10 +1375,34 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3507"
+          },
+          {
+            "type": "module",
+            "code": "MT3508"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT5731"
+          },
+          {
+            "type": "module",
+            "code": "MT5831"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3507 OR PASS MT3508",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5731 OR TAKE MT5831"
     },
     {
       "id": "MT4551",
@@ -1426,7 +1471,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT3504"
@@ -1621,7 +1666,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -1657,11 +1702,31 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT4796"
+          },
+          {
+            "type": "module",
+            "code": "MT4794"
+          },
+          {
+            "type": "module",
+            "code": "MT4599"
+          },
+          {
+            "type": "module",
+            "code": "MT5599"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE, THE STUDENT REQUIRES A LETTER OF AGREEMENT",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT4796 OR TAKE MT4794 OR TAKE MT4599 OR TAKE MT5599"
     },
     {
       "id": "MT4599",
@@ -1681,7 +1746,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -1705,10 +1770,16 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3507"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5701"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3507",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5701"
     },
     {
       "id": "MT4608",
@@ -1728,9 +1799,12 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2508"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2508",
       "antiRequisitesText": ""
     },
     {
@@ -1751,11 +1825,11 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
+      "antiRequisitesText": "CANNOT TAKE MORE THAN 30 CREDITS IN OTHER DISSERTATION/PROJECT MODULES"
     },
     {
       "id": "MT4796",
@@ -1775,7 +1849,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
@@ -1799,7 +1873,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -1823,7 +1897,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -1847,11 +1921,14 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5099"
+      },
+      "prerequisitesText": "STUDENTS MUST BE ENROLLED ON THE MSC PROGRAMME IN THE APPLIED STATISTICS AND DATA MINING",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5099"
     },
     {
       "id": "MT5099",
@@ -1871,7 +1948,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
@@ -1896,7 +1973,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
@@ -1923,7 +2000,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AVAILABLE ONLY TO STUDENTS IN THE FINAL YEAR OF A MMATH/MPHYS HONOURS DEGREE PROGRAMME IN THE SCHOOL.",
@@ -1947,10 +2024,34 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3507"
+          },
+          {
+            "type": "module",
+            "code": "MT3508"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT4531"
+          },
+          {
+            "type": "module",
+            "code": "MT5831"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3507 OR PASS MT3508",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT4531 OR TAKE MT5831"
     },
     {
       "id": "MT5751",
@@ -1970,7 +2071,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -2010,11 +2111,26 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3507"
+          },
+          {
+            "type": "module",
+            "code": "MT3508"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT4609"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3507 OR PASS MT3508",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT4609"
     },
     {
       "id": "MT5761",
@@ -2034,7 +2150,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT4113"
@@ -2073,11 +2189,14 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5756"
+      },
+      "prerequisitesText": "STUDENTS MUST HAVE GAINED ADMISSION ONTO AN MSC PROGRAMME",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5756"
     },
     {
       "id": "MT5763",
@@ -2097,7 +2216,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
@@ -2124,7 +2243,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -2172,9 +2291,21 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3507"
+          },
+          {
+            "type": "module",
+            "code": "MT3508"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3507 OR PASS MT3508",
       "antiRequisitesText": ""
     },
     {
@@ -2195,10 +2326,22 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3507"
+          },
+          {
+            "type": "module",
+            "code": "MT3508"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3507 OR PASS MT3508",
       "antiRequisitesText": ""
     },
     {
@@ -2219,10 +2362,22 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3507"
+          },
+          {
+            "type": "module",
+            "code": "MT3508"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3507 OR PASS MT3508",
       "antiRequisitesText": ""
     },
     {
@@ -2243,7 +2398,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT3503"
@@ -2273,10 +2428,13 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT4112"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT4112",
       "antiRequisitesText": ""
     },
     {
@@ -2297,11 +2455,17 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT4509"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5809"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT4509",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5809"
     },
     {
       "id": "MT5850",
@@ -2321,11 +2485,17 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT4510"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5810"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT4510",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5810"
     },
     {
       "id": "MT5853",
@@ -2345,11 +2515,17 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3504"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5852"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3504",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5852"
     },
     {
       "id": "MT5854",
@@ -2369,7 +2545,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT3504"
@@ -2398,9 +2574,21 @@
         "2027-28": true
       },
       "frequency": "alternate-a",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2504"
+          },
+          {
+            "type": "module",
+            "code": "MT3504"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2504 AND PASS MT3504",
       "antiRequisitesText": ""
     },
     {
@@ -2485,9 +2673,54 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2504"
+          },
+          {
+            "type": "module",
+            "code": "MT3501"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT3502"
+              },
+              {
+                "type": "module",
+                "code": "MT3505"
+              },
+              {
+                "type": "module",
+                "code": "MT3852"
+              },
+              {
+                "type": "module",
+                "code": "MT4003"
+              },
+              {
+                "type": "module",
+                "code": "MT4514"
+              },
+              {
+                "type": "module",
+                "code": "MT4516"
+              },
+              {
+                "type": "module",
+                "code": "MT4512"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2504 AND PASS MT3501 AND ( PASS MT3502 OR PASS MT3505 OR PASS MT3852 OR PASS MT4003 OR PASS MT4514 OR PASS MT4516 OR PASS MT4512 )",
       "antiRequisitesText": ""
     },
     {
@@ -2546,10 +2779,16 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT4003"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5824"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT4003",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5824"
     },
     {
       "id": "MT5865",
@@ -2569,7 +2808,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": {
         "type": "module",
         "code": "MT3502"
@@ -2599,9 +2838,21 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2504"
+          },
+          {
+            "type": "module",
+            "code": "MT3502"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2504 AND PASS MT3502",
       "antiRequisitesText": ""
     },
     {
@@ -2651,9 +2902,12 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3505"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3505",
       "antiRequisitesText": ""
     },
     {
@@ -2709,10 +2963,29 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2505"
+          },
+          {
+            "type": "module",
+            "code": "MT3502"
+          },
+          {
+            "type": "module",
+            "code": "MT3503"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5830"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2505 AND PASS MT3502 AND PASS MT3503",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5830"
     },
     {
       "id": "MT5871",
@@ -2771,10 +3044,16 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3505"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5836"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3505",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5836"
     },
     {
       "id": "MT5877",
@@ -2794,10 +3073,25 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT5865"
+          },
+          {
+            "type": "module",
+            "code": "MT5825"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5837"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT5865 OR PASS MT5825",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5837"
     },
     {
       "id": "MT5991",
@@ -2817,7 +3111,7 @@
         "2026-27": true,
         "2027-28": false
       },
-      "frequency": "irregular",
+      "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",

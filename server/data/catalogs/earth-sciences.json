@@ -25,9 +25,21 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG2011"
+          },
+          {
+            "type": "module",
+            "code": "GG2012"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2011 AND PASS GG2012",
       "antiRequisitesText": ""
     },
     {
@@ -123,7 +135,7 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "CURRENTLY ENROLLED IN A THIRD LEVEL INSTITUTION. COMPLETION OF AT LEAST ONE YEAR IN A THIRD LEVEL INSTITUTION. LETTER OF RECOMMENDATION FROM THIS INSTITUTION / OBTAINED AT A 3.0 GPA IN ONE SCIENCE SUBJECT.",
       "antiRequisitesText": ""
     },
     {
@@ -145,9 +157,34 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES1001"
+          },
+          {
+            "type": "module",
+            "code": "ES1002"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "ES1006"
+              },
+              {
+                "type": "module",
+                "code": "ES1001"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES1001 OR PASS ES1002 OR (PASS ES1006 AND TAKE ES1001 AS A CO-REQUISITE)",
       "antiRequisitesText": ""
     },
     {
@@ -169,9 +206,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES2001"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "STUDENTS SHOULD NORMALLY HAVE TAKEN ES2001 OR HAVE SPECIAL PERMISSION.",
       "antiRequisitesText": ""
     },
     {
@@ -193,9 +233,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES2001"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES2001",
       "antiRequisitesText": ""
     },
     {
@@ -218,9 +261,21 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES1001"
+          },
+          {
+            "type": "module",
+            "code": "ES1002"
+          }
+        ]
+      },
+      "prerequisitesText": "AVAILABLE ONLY TO STUDENTS WHO HAVE BEEN ACCEPTED FOR DIRECT 2ND YEAR ENTRY TO AN EARTH SCIENCE DEGREE PROGRAMME.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ES1001 OR TAKE ES1002"
     },
     {
       "id": "ES3002",
@@ -241,9 +296,30 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "ES2001"
+              },
+              {
+                "type": "module",
+                "code": "ES2002"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "ES2003"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES2001 AND PASS ES2002 OR PASS ES2003",
       "antiRequisitesText": ""
     },
     {
@@ -265,9 +341,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES2001"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES2001",
       "antiRequisitesText": ""
     },
     {
@@ -289,9 +368,30 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "ES2002"
+              },
+              {
+                "type": "module",
+                "code": "ES2003"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES2001 AND ( PASS ES2002 OR PASS ES2003 )",
       "antiRequisitesText": ""
     },
     {
@@ -313,9 +413,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES2002"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES2002",
       "antiRequisitesText": ""
     },
     {
@@ -337,9 +440,21 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES2001"
+          },
+          {
+            "type": "module",
+            "code": "ES2002"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES2001 AND PASS ES2002",
       "antiRequisitesText": ""
     },
     {
@@ -361,9 +476,30 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "ES2002"
+              },
+              {
+                "type": "module",
+                "code": "ES2003"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "UNDERGRADUATE: BEFORE TAKING THIS MODULE YOU MUST HAVE ENTERED HONOURS AND PASSED ES2001 AND (ES2002 OR ES2003)",
       "antiRequisitesText": ""
     },
     {
@@ -385,9 +521,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES2002"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES2002",
       "antiRequisitesText": ""
     },
     {
@@ -409,9 +548,21 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES3002"
+          },
+          {
+            "type": "module",
+            "code": "ES3008"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "UNDERGRADUATE: BEFORE TAKING THIS MODULE YOU MUST PASS ES3002 AND PASS ES3008",
       "antiRequisitesText": ""
     },
     {
@@ -433,9 +584,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES2001"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "UNDERGRADUATE: BEFORE TAKING THIS MODULE YOU MUST PASS ES2001",
       "antiRequisitesText": ""
     },
     {
@@ -457,9 +611,21 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES2002"
+          },
+          {
+            "type": "module",
+            "code": "ES2003"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "UNDERGRADUATE: BEFORE TAKING THIS MODULE YOU MUST PASS ES2002 OR PASS ES2003",
       "antiRequisitesText": ""
     },
     {
@@ -481,9 +647,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES2003"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES2003",
       "antiRequisitesText": ""
     },
     {
@@ -505,9 +674,21 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES3009"
+          },
+          {
+            "type": "module",
+            "code": "ES3006"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES3009 AND PASS ES3006",
       "antiRequisitesText": ""
     },
     {
@@ -531,9 +712,12 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GG4221"
+      },
+      "prerequisitesText": "ADMISSION TO AN HONOURS EARTH SCIENCES PROGRAMME OR ENVIRONMENTAL EARTH SCIENCE",
+      "antiRequisitesText": "STUDENTS CANNOT TAKE GG4221"
     },
     {
       "id": "ES4003",
@@ -556,7 +740,7 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "ADMISSION TO AN HONOURS EARTH SCIENCES PROGRAMME OR ENVIRONMENTAL EARTH SCIENCE",
       "antiRequisitesText": ""
     },
     {
@@ -578,9 +762,30 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "ES2002"
+              },
+              {
+                "type": "module",
+                "code": "ES2003"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "UNDERGRADUATE: BEFORE TAKING THIS MODULE YOU MUST PASS ES2001 AND (PASS ES2002 OR PASS ES2003)",
       "antiRequisitesText": ""
     },
     {
@@ -602,9 +807,21 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES3013"
+          },
+          {
+            "type": "module",
+            "code": "ES3051"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES3013 AND PASS ES3051",
       "antiRequisitesText": ""
     },
     {
@@ -625,10 +842,25 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES2002"
+          },
+          {
+            "type": "module",
+            "code": "ES2003"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "ES5009"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES2002 AND PASS ES2003",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ES5009"
     },
     {
       "id": "ES4010",
@@ -698,9 +930,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES3006"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES3006",
       "antiRequisitesText": ""
     },
     {
@@ -722,9 +957,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES3009"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "PASSED ES3009 OR BE REGISTERED ON AN EARTH SCIENCE POSTGRADUATE DEGREE",
       "antiRequisitesText": ""
     },
     {
@@ -746,9 +984,30 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "ES2002"
+              },
+              {
+                "type": "module",
+                "code": "ES2003"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "UNDERGRADUATE: BEFORE TAKING THIS MODULE YOU MUST PASS ES2001 AND (PASS ES2002 OR PASS ES2003)",
       "antiRequisitesText": ""
     },
     {
@@ -796,7 +1055,7 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "STUDENTS MUST BE IN YEAR 5 OF THE MGEOL EARTH SCIENCES PROGRAMME",
       "antiRequisitesText": ""
     },
     {
@@ -818,9 +1077,21 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES3008"
+          },
+          {
+            "type": "module",
+            "code": "CH1401"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "CURRENT BSC STUDENTS SHOULD PASS ES3008 OR PASS (CH1401, CH1402 AND CH2501); CURRENT PGT STUDENTS SHOULD BE ENROLLED ON AN EARTH SCIENCE POSTGRADUATE DEGREE",
       "antiRequisitesText": ""
     },
     {
@@ -842,9 +1113,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES3008"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "UNDERGRADUATE: BEFORE TAKING THIS MODULE YOU MUST PASS ES3008",
       "antiRequisitesText": ""
     },
     {
@@ -866,9 +1140,21 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "ES3009"
+          },
+          {
+            "type": "module",
+            "code": "ES3008"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ES3009 AND PASS ES3008",
       "antiRequisitesText": ""
     },
     {
@@ -961,9 +1247,12 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES3008"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "PASS ES3008 OR ENROLLED IN A SCHOOL OF EARTH AND ENVIRONMENTAL SCIENCE MSC DEGREE",
       "antiRequisitesText": ""
     },
     {
@@ -1058,7 +1347,7 @@
       "frequency": "irregular",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "STUDENT MUST HAVE GAINED ENTRANCE TO THE MGEOL OR MSC MINERAL RESOURCES OR GEOCHEMISTRY PROGRAMMES",
       "antiRequisitesText": ""
     },
     {
@@ -1080,9 +1369,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "ES3006"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "PASSED ES3006 OR ENTRANCE TO AN EARTH SCIENCE POSTGRADUATE DEGREE",
       "antiRequisitesText": ""
     },
     {
@@ -1106,7 +1398,7 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "ADMISSION TO BSC HONOURS PROGRAMME IN BIOLOGY AND GEOLOGY",
       "antiRequisitesText": ""
     },
     {
@@ -1130,7 +1422,7 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "REQUIRES A BASIC ABILITY IN COMPUTER SKILLS (BASIC WORD PROCESSING, SPREAD SHEET ANALYSIS) GAINED THROUGH SALTIRE IF NOT DEMONSTRATED",
       "antiRequisitesText": ""
     }
   ]

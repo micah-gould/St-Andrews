@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import { parseRelationshipText } from '../server/catalogs/relationship-parser.js';
 
-const YEARS = ['2025-26', '2026-27', '2027-28'];
+const YEARS = ['2025/26', '2026/27', '2027/28'];
 const SCHOOL_CATALOGS = [
   { id: 'art-history', name: 'Art History', funnelbackDept: 'school of art history' },
   { id: 'biology', name: 'Biology', funnelbackDept: 'school of biology' },
@@ -74,7 +74,7 @@ function parseSearchResults(html) {
 }
 
 function inferFrequency(years) {
-  const pattern = YEARS.map((year) => years.includes(year));
+  const pattern = YEARS.map(normalizeYear).map((year) => years.includes(year));
   if ((pattern[0] && pattern[1]) || (pattern[1] && pattern[2])) return 'every-year';
   if (pattern[0] && !pattern[1] && pattern[2]) return 'alternate-a';
   if (!pattern[0] && pattern[1] && !pattern[2]) return 'alternate-b';
@@ -141,7 +141,7 @@ function buildCatalog(school, rows) {
   return {
     id: school.id,
     name: school.name,
-    years: YEARS,
+    years: YEARS.map(normalizeYear),
     nodes: [...moduleMap.values()].sort((a, b) => a.id.localeCompare(b.id)).map((module) => {
       const years = [...module.years].sort();
       return {
@@ -152,7 +152,7 @@ function buildCatalog(school, rows) {
         summary: module.summary,
         semesters: [...module.semesters].sort((a, b) => a.localeCompare(b)),
         years,
-        availability: Object.fromEntries(YEARS.map((year) => [year, years.includes(year)])),
+        availability: Object.fromEntries(YEARS.map(normalizeYear).map((year) => [year, years.includes(year)])),
         frequency: inferFrequency(years),
         prerequisiteExpression: null,
         antiRequisiteExpression: null,
