@@ -1,0 +1,2748 @@
+{
+  "id": "classics",
+  "name": "Classics",
+  "years": [
+    "2025/26",
+    "2026/27",
+    "2027/28"
+  ],
+  "nodes": [
+    {
+      "id": "AA3020",
+      "name": "Principles and Techniques in Archaeology",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module, which draws on archaeological material from around the world, is divided into two sections. The first is a series of seminars and lectures on the central practical…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "AN2002"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE ALL MODULES FROM {AN2002, AN2003, CL2003, CL2004}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AA4003",
+      "name": "The Archaeology of Ancient Rome",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Rome was the largest and most important city of the ancient world. From an unimportant group of hill-top settlements near the Tiber, it developed into a densely inhabited…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AA4004",
+      "name": "The Archaeology of Identities in the First Millennium BCE Mediterranean World",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module considers the theme of identity from an archaeological perspective. Chronologically and geographically, it focuses on case studies and evidence from the Mediterranean…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AA4009",
+      "name": "Petra and the Nabataeans: Classicism in the Desert",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module introduces students to the Nabataeans and their key city of Petra. We use archaeological, artistic, literary and epigraphic sources to shed light on the elusive…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK.",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AA4127",
+      "name": "In the Footsteps of the Ancients: Exploring the Archaeology and Topography of Greece",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Through on-site teaching in Greece and home lectures, this course studies how and why Greek secular and religious sites developed where they did, what their different functions…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AA4426",
+      "name": "From the Nile to the Niger: The Kingdoms of Ancient Africa",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Africa has often been depicted as a land without a history, of little consequence to the developments of world history. Nothing could be further from the truth. Its wealth in…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN1003",
+      "name": "Ancient Empires",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module combines a bold and sweeping overview of the history of the ancient Mediterranean and Near East over two millennia, with an exploration of the nature of empires and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN1004",
+      "name": "Cities and Communities in the Ancient Mediterranean",
+      "level": 1000,
+      "credits": 20,
+      "summary": "In 1000 BCE, the Mediterranean and Near East were barely urbanized; in the centuries that followed, a dense network of interconnected cities spanning the region developed. This…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN2004",
+      "name": "Ancient Societies: Gender, Ethnicity, and Inequality in the Ancient World",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module offers a comprehensive overview of the history of ancient Mediterranean societies between the beginning of the Iron Age and the end of the Roman empire. Through a…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS OF 1000-LEVEL MODULES IN AN, ME, MO OR SC OR 20 CREDITS OF 1000-LEVEL MODULES IN AN AND 20 CREDITS IN 1000-LEVEL MODULES IN CL.",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN2005",
+      "name": "Narratives of Antiquity",
+      "level": 2000,
+      "credits": 20,
+      "summary": "Narratives about antiquity have reverberated through history. The stories the Greeks and Romans told about themselves and their past shaped the complex societies in which they…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS OF 1000-LEVEL MODULES IN AN, ME, MO OR SC OR 20 CREDITS OF 1000-LEVEL MODULES IN AN AND 20 CREDITS IN 1000-LEVEL MODULES IN CL",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN3034",
+      "name": "Approaches to Ancient History",
+      "level": 3000,
+      "credits": 30,
+      "summary": "Antiquarians let the sources set their agenda, but historians start with questions. As a preparation for the serious study of Ancient History at honours level, this module aims to …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "ENTRY TO HONOURS ANCIENT HISTORY",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN4146",
+      "name": "The Supremacy of Greece: Athens, Sparta and Thebes 479-366 BCE",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Between 479 and 366 BCE Athens, Sparta and later Thebes and Thessaly contested the rule of Greece through imperial expansion and ideological dominance, leading to both constant…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN4160",
+      "name": "Transformations of the Family, from Late Antiquity to the Early Middle Ages",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The fragmentation and partial collapse of the Roman empire was a significant political event, but its impact on ideas about women, children and gender roles are less clear. This…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN4338",
+      "name": "Women's Lives in the Ancient Mediterranean",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module examines the lived experience of women in ancient Mediterranean societies. Drawing on recent scholarship which has discovered new avenues to reconstruct ancient lives, …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "CL4465"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE CL4465",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN4426",
+      "name": "Roman Slavery",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The institution of slavery lies at the heart of Roman society and culture. On one estimate, slaves made up 30-40% of the population of Roman Italy, with the richest households…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN4431",
+      "name": "Poverty and Social Life in Late Antiquity",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Poverty was a crucial aspect of life in late antique society. Highly unequal economic structures, wars and invasions, new Christian-inspired attitudes to inequality, and the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN4434",
+      "name": "Experiencing the Gods in Ancient Greece",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Religion is ubiquitous in the literary and material evidence from ancient Greece, from passing prayers to lengthy depictions in poetry and prose, and from humble votive offerings…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AN4437",
+      "name": "The Hellenistic World",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will explore the world of the Hellenistic period (323-30 BC), which witnessed the expansion of Graeco-Macedonian states from the Eastern Mediterranean into the Near…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL1004",
+      "name": "Myth and Community in Ancient Greek Literature and Culture",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module explores some of the most dynamic literary and artistic achievements of archaic and classical Greek culture (8th to 4th century BCE). Using a twin focus on myth and on …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL1005",
+      "name": "Images of Augustan Rome",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module studies a range of literary works that were written during the lifetime of the first emperor, Augustus (late first century BCE to early first century CE), and that…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL2003",
+      "name": "Early Greek Poetry and Philosophy",
+      "level": 2000,
+      "credits": 20,
+      "summary": "Early Greece was the age of beautiful poetry and cutting-edge philosophy. The module explores the diversity of early Greek thought at the crossroads of poetry and philosophy, from …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL2004",
+      "name": "Culture and Thought in the Late Roman Republic",
+      "level": 2000,
+      "credits": 20,
+      "summary": "The Late Republic (first century BCE) was a time of change and conflict in the city of Rome and the wider Roman Empire. In political terms the history of that century is dominated …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL3304",
+      "name": "Classical Studies: Interpretations and Receptions",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module puts the discipline of Classical Studies into its social, cultural and intellectual context. It will look in depth at what it means to read in translation and at the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "ENTRY TO HONOURS IN CLASSICAL STUDIES",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4419",
+      "name": "Magic in the Greco-Roman World: Representations and Realities",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Greek and Roman literature demonstrates a long-lasting fascination with magic, from Homer's majestic and terrifying Circe to Lucan's revolting Erictho and beyond. Tall tales…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4420",
+      "name": "Fame, Tradition and Narrative: Homer's Iliad",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will give students the opportunity to study Homer's celebrated martial epic, the Iliad, in translation and in detail. It will consider the relevant social and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4465",
+      "name": "Gender and Sexuality in Greek Literature",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Literature is a key source of information about gender and sexuality in ancient Greek society. Literary texts often deal with these issues in rich and complex ways, however, and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4466",
+      "name": "A People's History of Scottish Classics",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Classical Studies is the ultimate skeleton key for British cultural history. For centuries Scotland has been home to extraordinarily rich and creative responses to the Greek and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4468",
+      "name": "Classics and the Left",
+      "level": 4000,
+      "credits": 30,
+      "summary": "As the so-called cradle of Western civilisation, the Greek and Roman classics are and have frequently been associated with conservative and right-wing ideologies. In extremes,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4473",
+      "name": "Roman Literature and Queer Theory",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Ancient Rome and its literature have long been important sources for representations of non-normative sexuality and gender: we might think of Catullus’s Attis and Ovid’s Iphis and …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4474",
+      "name": "In Search of Greece",
+      "level": 4000,
+      "credits": 30,
+      "summary": "All countries are burdened by history, but the past weighs particularly heavily on Greece. How many countries need to add the label ‘modern’ to distinguish their culture from that …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK.",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4500",
+      "name": "Pleasure, Goodness and Happiness: Hellenistic Ethics",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will explore the ethical thought of the Hellenistic period, a key phase in the development of Graeco-Roman culture. We shall examine some of the most sophisticated and …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CL4502"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL4502"
+    },
+    {
+      "id": "CL4605",
+      "name": "Classical Bodies",
+      "level": 4000,
+      "credits": 30,
+      "summary": "How did the ancient Greeks depict the human body? This module explores the ‘classical canon’, including the most famous works of art in a variety of media (both sculpture and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4606",
+      "name": "Classical Collections",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Antiquities from the Mediterranean filled the grand houses and public museums of eighteenth and nineteenth-century Europe. These collections inspired creative imitations ranging…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4607",
+      "name": "Greek Sculpture",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Marble and bronze sculptures were major constituents of the visual landscapes of ancient Greek cities. Freestanding statues, reliefs, and architectural sculptures shaped ancient…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4990",
+      "name": "Teaching and Learning in Classics and Ancient History",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module complements ID4002 'Communication and Teaching in Arts & Humanities', a placement module in which students gain substantial experience of a working educational…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL4999",
+      "name": "Dissertation (Short) in Ancient History, Ancient History & Archaeology, or Classical Studies",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module provides the opportunity for students to carry out a sustained piece of work on a topic essentially of their own choice, with supervision by a member of staff. The…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CL4996"
+          },
+          {
+            "type": "module",
+            "code": "CL4997"
+          },
+          {
+            "type": "module",
+            "code": "CL4998"
+          },
+          {
+            "type": "module",
+            "code": "LT4999"
+          },
+          {
+            "type": "module",
+            "code": "GK4998"
+          },
+          {
+            "type": "module",
+            "code": "GK4999"
+          }
+        ]
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL4996 OR TAKE CL4997 OR TAKE CL4998 OR TAKE LT4999 OR TAKE GK4998 OR TAKE GK4999"
+    },
+    {
+      "id": "CL5001",
+      "name": "Themes and Methods in Classical Research 1",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module forms the first part of the core training provided in the MLitt in Classics. The focus of the first semester's core is on the sources for the study of the Classical…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL5002",
+      "name": "Themes and Methods in Classical Research 2",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module forms the second part of the core training provided in the MLitt in Classics. The focus of the second semester's core is a series of seminars structured around themes…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL5011",
+      "name": "Greek History and Material Culture",
+      "level": 5000,
+      "credits": 30,
+      "summary": "Through a series of focused case-studies, this module will introduce students to a range of areas of current research in ancient Greek history and enable them to design their own…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CL5111"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5111"
+    },
+    {
+      "id": "CL5012",
+      "name": "Roman History and Material Culture",
+      "level": 5000,
+      "credits": 30,
+      "summary": "Through a series of focused case-studies, this module will introduce students to a range of areas of current research in Roman history and enable them to design their own short…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CL5112"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5112"
+    },
+    {
+      "id": "CL5021",
+      "name": "Latin Literary Culture",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module is aimed at students studying for the MLitt in Classics specialsing in Latin literature and culture but not taking language modules as part of the MLitt. It shares…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CL5121"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5121"
+    },
+    {
+      "id": "CL5022",
+      "name": "Greek Literary Culture",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module is aimed at students studying for the MLitt in Classics, specialising in Greek literature and culture but not taking language modules. It shares seminars with CL5122.…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CL5122"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5122"
+    },
+    {
+      "id": "CL5099",
+      "name": "Dissertation for MLitt Programme/s",
+      "level": 5000,
+      "credits": 60,
+      "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL5104",
+      "name": "Themes in Greek and Roman Philosophy (30 credits)",
+      "level": 5000,
+      "credits": 30,
+      "summary": "The module will give students from both Classics and Philosophy an opportunity to deepen their knowledge of ancient Greek and Roman philosophy. The module will usually be…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL5111",
+      "name": "Greek History and Material Culture (Language Option)",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module is aimed at students who are taking Latin or Greek language classes as part of the MLitt in Classics. It shares seminars with CL5011 but the assessment requirements…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CL5011"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5011"
+    },
+    {
+      "id": "CL5112",
+      "name": "Roman History and Material Culture (Language Option)",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module is aimed at students who are taking Latin or Greek language classes as part of the MLitt in Classics. It shares seminars with CL5012 but the assessment requirements…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CL5121",
+      "name": "Latin Literary Culture (Language Option)",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module is aimed at students who are working on Latin literature and culture and also taking language classes. It shares seminars with CL5021 but the assessment requirements…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CL5021"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5021"
+    },
+    {
+      "id": "CL5122",
+      "name": "Greek Literary Culture (Language Option)",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module is aimed at students who are studying Greek literature and also taking language classes. It shares seminars with CL5022 but the assessment requirements and credit load …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CL5022"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5022"
+    },
+    {
+      "id": "GK1001",
+      "name": "Greek Language for Beginners",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module provides a thorough grounding in the Greek language for beginners or near beginners. It is suitable both for students who intend to take further Greek modules and for…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK1005"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1005"
+    },
+    {
+      "id": "GK1002",
+      "name": "Greek Literature for Beginners",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module is designed to follow on from GK1001. As such, GK1002 comprises language classes intended to supplement the topics covered in semester 1 and to prepare students for…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GK1001"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK1006"
+      },
+      "prerequisitesText": "STUDENTS WITHOUT GK1001 MUST BE ABLE TO DEMONSTRATE EQUIVALENT KNOWLEDGE OF GREEK.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1006"
+    },
+    {
+      "id": "GK1005",
+      "name": "Greek Language and Literature 1",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module is designed for students who have already taken ancient Greek to Higher, A level or equivalent standard. Set texts for this module will be studied in the original…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK1001"
+      },
+      "prerequisitesText": "IN TAKING THIS MODULE YOU MUST HAVE HIGHER OR A-LEVEL GREEK OR EQUIVALENT",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1001"
+    },
+    {
+      "id": "GK1006",
+      "name": "Greek Pastoral and Passion",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module, designed to follow on from GK1005, will introduce students to two new areas of Greek literature, between which there are interesting and important thematic…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK1002"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1002"
+    },
+    {
+      "id": "GK2001",
+      "name": "The Landscape of Greek Prose (A)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module, designed to follow on from GK1006, studies a wide range of Greek prose texts. All set texts will be studied in the original Greek. The module explores Greek oratory,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GK1006"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK2003"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK1006",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2003"
+    },
+    {
+      "id": "GK2002",
+      "name": "The Landscape of Greek Poetry (A)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module, designed to follow on from GK2001, offers a carefully balanced combination of literary and linguistic study. Students will study a diverse range of ancient poetry in…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GK2001"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK2004"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK2001",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2004"
+    },
+    {
+      "id": "GK2003",
+      "name": "The Landscape of Greek Prose (B)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module, designed to follow on from GK1002, studies a wide range of Greek prose texts. All set texts will be studied in the original Greek. The module explores Greek oratory,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GK1002"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK2001"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK1002",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2001"
+    },
+    {
+      "id": "GK2004",
+      "name": "The Landscape of Greek Poetry (B)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module, designed to follow on from GK2003, offers a carefully balanced combination of literary and linguistic study. Students will study a diverse range of ancient poetry in…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GK2003"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK2002"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK2003",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2002"
+    },
+    {
+      "id": "GK3021",
+      "name": "Greek for Honours Classics 1",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module is for students who have taken Latin in both of their first two years, but only begun Greek in their second year with GK1001 and GK1002 and are entering Honours…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GK1002"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK2003"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK1002",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2003"
+    },
+    {
+      "id": "GK3022",
+      "name": "Greek for Honours Classics 2",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module is for students who have taken Latin in both of their first two years, but only began Greek in their second year with GK1001 and GK1002, and are entering Honours…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GK3021"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GK2004"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK3021",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2004"
+    },
+    {
+      "id": "GK4102",
+      "name": "Greek Tragedy",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module increases the student's familiarity with Greek tragedy. Plays of Aeschylus, Sophocles and Euripides are prescribed for detailed study, and students learn to address…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GK2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "GK2003"
+              },
+              {
+                "type": "module",
+                "code": "GK3021"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GK4109",
+      "name": "Greek Literature in the Roman Empire",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The first to third centuries CE was one of the most prolific periods of Greek literary production: we have more Greek literature surviving from that period than from all the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GK2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "GK2003"
+              },
+              {
+                "type": "module",
+                "code": "GK3021"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GK4116",
+      "name": "Greeks on Education",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The debate about education in one of the most exciting periods of ancient Athenian history. Can education make you a better person? Could education make you a worse person? What…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GK2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "GK2003"
+              },
+              {
+                "type": "module",
+                "code": "GK3021"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GK4124",
+      "name": "The History of Ancient Greek from Homer to the New Testament",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module offers in-depth insight into the key stages of the development of the Ancient Greek Language. Beginning with its earliest stages, the epic language of Homer and the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GK2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "GK2003"
+              },
+              {
+                "type": "module",
+                "code": "GK3021"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GK4130",
+      "name": "The Greek Novels: Identity, Desire and Literary Transformation",
+      "level": 4000,
+      "credits": 30,
+      "summary": "How do Greek novelists in the Roman empire represent love and desire, travel and identity, day-to-day life and extreme experience? This module focuses on two of the most brilliant …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GK2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "GK2003"
+              },
+              {
+                "type": "module",
+                "code": "GK3021"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GK4132",
+      "name": "Writing like a Hetaira? The (Re-)creation of Female Voices in the Second Sophistic",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores the representation of hetairai in Greek literature and culture, focusing on two set texts that (re-)create and foreground the voices of historical and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GK2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "GK2003"
+              },
+              {
+                "type": "module",
+                "code": "GK3021"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GK4200",
+      "name": "Court, Classroom, and Canon: Allegories of Homer in Byzantium",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module introduces students to the cultural and educational landscape of twelfth-century Byzantium with its rich engagement with ancient Greek literature. Taking John Tzetzes’ …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GK2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "GK2003"
+              },
+              {
+                "type": "module",
+                "code": "GK3021"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GK4201",
+      "name": "The Age of Experiment: The World of Hellenistic Prose",
+      "level": 4000,
+      "credits": 30,
+      "summary": "In the Hellenistic period Greek literature and culture become truly global. Never before has Greek engaged with so many influences, literary, political, cultural and social.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GK2001"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "GK2003"
+              },
+              {
+                "type": "module",
+                "code": "GK3021"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GK4999",
+      "name": "Dissertation in Greek",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module provides the opportunity for students to carry out a sustained piece of work on a topic essentially of their own choice, with supervision by a member of staff. The…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CL4999"
+          },
+          {
+            "type": "module",
+            "code": "CL4998"
+          },
+          {
+            "type": "module",
+            "code": "CL4997"
+          },
+          {
+            "type": "module",
+            "code": "CL4996"
+          },
+          {
+            "type": "module",
+            "code": "GK4998"
+          },
+          {
+            "type": "module",
+            "code": "LT4999"
+          }
+        ]
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL4999 OR TAKE CL4998 OR TAKE CL4997 OR TAKE CL4996 OR TAKE GK4998 OR TAKE LT4999"
+    },
+    {
+      "id": "GK5003",
+      "name": "Intermediate Ancient Greek for MLitt (A)",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module, designed for students with an A-Level or equivalent in ancient Greek, studies a wide range of Greek prose texts. All set texts will be studied in the original Greek.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "A-LEVEL KNOWLEDGE OF ANCIENT GREEK OR EQUIVALENT",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GK5004",
+      "name": "Intermediate Ancient Greek for MLitt (B)",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module, designed to follow on from GK5003] (or equivalent experience), offers a carefully balanced combination of literary and linguistic study. Students will study a diverse …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GK5003"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK5003",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ID1007",
+      "name": "Ancient Origins, Modern Worlds",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The roots of the modern world can be found in ancient Greece and Rome. This module addresses some of the defining and formative aspects of the cultures of modernity (from c.1800…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ID2006",
+      "name": "Introduction to Archaeology",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This interdisciplinary module offers an introduction to archaeology, providing a grounding in the main concepts, methodologies, and techniques of investigating the past through…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT1001",
+      "name": "Elementary Latin 1",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module provides a systematic introduction to the Latin language, concentrating on morphology, vocabulary, and basic syntax, and will enable students to read simplified Latin…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT1003"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT1003"
+    },
+    {
+      "id": "LT1002",
+      "name": "Elementary Latin 2",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module builds on the work done in LT1001, and its function is to develop knowledge of Latin morphology, syntax and vocabulary and to enable students to read Latin texts.…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "LT1001"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT1004"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1001",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT1004"
+    },
+    {
+      "id": "LT1003",
+      "name": "World of Latin 1",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The aims of this module, like LT1004, are to enhance understanding of Latin grammar and syntax, to increase vocabulary, to give a basic understanding of style, and to develop…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT1001"
+      },
+      "prerequisitesText": "STUDENTS MUST HAVE HIGHER OR A-LEVEL LATIN OR EQUIVALENT",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT1001"
+    },
+    {
+      "id": "LT1004",
+      "name": "World of Latin 2",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module aims to build on the skills acquired in LT1003, and to introduce students to a wider range of Latin literature. Texts studied may include early or medieval Latin, as…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "LT1003"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT1002"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1003",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT1002"
+    },
+    {
+      "id": "LT2001",
+      "name": "Latin Language and Literature 1",
+      "level": 2000,
+      "credits": 20,
+      "summary": "The aim of this module is to foster the student's acquaintance with classical Latin. The authors chosen may vary from year to year. Particular attention is paid to the development …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "LT1004"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT2003"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1004",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2003"
+    },
+    {
+      "id": "LT2002",
+      "name": "Latin Language and Literature 2",
+      "level": 2000,
+      "credits": 20,
+      "summary": "In complement to the programme of LT2001, this module aims to consolidate the student's command of the language in preparation for study at Honours level, and in literature brings …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "LT2001"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT2004"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT2001",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2004"
+    },
+    {
+      "id": "LT2003",
+      "name": "Latin in Progress 1",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module aims to consolidate command of the Latin language and introduce the student to independent reading of original Latin prose and verse. Students will receive a…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "LT1002"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT2001"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1002",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2001"
+    },
+    {
+      "id": "LT2004",
+      "name": "Latin in Progress 2",
+      "level": 2000,
+      "credits": 20,
+      "summary": "In this module the same prescribed texts and topics will be studied as in LT2002, but the length of texts and methods of study will be appropriate to the needs of students who…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "LT2003"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT2002"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT2003",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2002"
+    },
+    {
+      "id": "LT3017",
+      "name": "Latin for Honours Classics 1",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module is for students who began Latin in their second year with LT1001 and LT1002 and are entering their third year. It runs alongside, and covers the same content as, the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "LT1002"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT2003"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1002",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2003"
+    },
+    {
+      "id": "LT3018",
+      "name": "Latin for Honours Classics 2",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module is for students who began Latin in their second year with LT1001 and LT1002 and who are currently in their third year. It runs alongside, and covers the same content…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "LT3017"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "LT2004"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT3017",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2004"
+    },
+    {
+      "id": "LT3019",
+      "name": "Epic Latin: Skills, Theory, Methods",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module will prepare students entering Honours for advanced study of Latin language and literature. Through a series of readings from the genre of Roman epic, students will…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "LT2001"
+              },
+              {
+                "type": "module",
+                "code": "LT2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "LT2003"
+              },
+              {
+                "type": "module",
+                "code": "LT2004"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "LT3017"
+          },
+          {
+            "type": "module",
+            "code": "LT3018"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT2001 AND PASS LT2002 OR PASS LT2003 AND PASS LT2004",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT3017 OR TAKE LT3018"
+    },
+    {
+      "id": "LT4207",
+      "name": "Roman Comedy",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The module aims to delve into the comic world of the Latin playwrights Plautus and Terence and its cultural background. At the beginning of its political rising in the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT4215",
+      "name": "Senecan Tragedy",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will explore in Latin and translation a selection of Senecan Tragedy, the 'dark side' of Seneca the Younger's literary output. We will examine the influence of Greek…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT4223",
+      "name": "Constantinian Latin",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will consider a variety of Latin texts written in the reign of the Roman Emperor Constantine. The texts will include pagan and Christian literature in prose and verse. …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "LT2001"
+          },
+          {
+            "type": "module",
+            "code": "LT3017"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT4224",
+      "name": "Theodosian Latin",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will consider a variety of Latin texts written in the reign of the Roman Emperor Theodosius. The texts will include pagan and Christian literature in prose and verse.…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "LT2001"
+          },
+          {
+            "type": "module",
+            "code": "LT3017"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT4228",
+      "name": "Displacement and Empire in Latin Literature",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module examines the history and evolution of the Roman Empire by focusing on the theme of displacement in Latin literature, from the late Republic to the early imperial era.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "LT2001"
+          },
+          {
+            "type": "module",
+            "code": "LT3017"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT4229",
+      "name": "Writing Roman Civil War",
+      "level": 4000,
+      "credits": 30,
+      "summary": "While the Elder Seneca’s Labienus claimed that forgetting was the best defence against civil war (Sen. Contr. 10.3.5), Roman authors did not pass over the issue of civil war in…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "LT2001"
+          },
+          {
+            "type": "module",
+            "code": "LT3017"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT4231",
+      "name": "Ritual and Religion in Latin Literature",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The religious landscape of the Roman world was diverse and often without canonical scripture to guide ritual action and theological understanding. Poets, historians, and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "LT2001"
+          },
+          {
+            "type": "module",
+            "code": "LT3017"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT4232",
+      "name": "Drama, Ancient and Early Modern",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Early modern England is the age of Marlowe, Shakespeare, and Spenser – ‘giants’ who established English as the national language of epic and the public stage. But this great…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "LT2001"
+          },
+          {
+            "type": "module",
+            "code": "LT3017"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT4234",
+      "name": "Latin Pastoral and its Reception",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Following Virgil’s (re)invention of pastoral in his debut work in the 30s BCE, the genre became a central – and challenging – part of Roman literature. Its deceptively simple…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT4999",
+      "name": "Latin Dissertation",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module provides the opportunity for students to carry out a sustained piece of work on a topic essentially of their own choice, with supervision by a member of staff. The…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "LT2001"
+          },
+          {
+            "type": "module",
+            "code": "LT3017"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CL4999"
+          },
+          {
+            "type": "module",
+            "code": "CL4998"
+          },
+          {
+            "type": "module",
+            "code": "CL4997"
+          },
+          {
+            "type": "module",
+            "code": "CL4996"
+          },
+          {
+            "type": "module",
+            "code": "GK4999"
+          },
+          {
+            "type": "module",
+            "code": "GK4998"
+          }
+        ]
+      },
+      "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL4999 OR TAKE CL4998 OR TAKE CL4997 OR TAKE CL4996 OR TAKE GK4999 OR TAKE GK4998"
+    },
+    {
+      "id": "LT5002",
+      "name": "Intermediate Latin for MLitt (A)",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The aim of this module is to foster the student's acquaintance with classical Latin and to explore both prose and verse authors. The authors chosen may vary from year to year and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "STUDENT MUST HAVE A-LEVEL KNOWLEDGE OF LATIN OR EQUIVALENT",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "LT5004",
+      "name": "Intermediate Latin for MLitt (B)",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module aims to consolidate the student's command of the language, and in literature brings the student to further genres and authors, in prose and verse. Students will learn…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "LT5002"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE LT5002 OR HAVE EQUIVALENT EXPERIENCE.",
+      "antiRequisitesText": ""
+    }
+  ]
+}

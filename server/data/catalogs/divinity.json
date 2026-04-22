@@ -1,0 +1,2050 @@
+{
+  "id": "divinity",
+  "name": "Divinity",
+  "years": [
+    "2025/26",
+    "2026/27",
+    "2027/28"
+  ],
+  "nodes": [
+    {
+      "id": "DI1001",
+      "name": "God and the World: Introducing Theology",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module will address a variety of themes within Christian theology. Each theme will be approached with a view to its biblical roots and historical development, its critical…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI1003",
+      "name": "The Art of Biblical Literature: Introducing the Hebrew Bible/Old Testament",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The Hebrew Bible (Old Testament) constitutes the earliest scriptures of Judaism and Christianity. It is one of the foundational documents of Western culture, deeply influencing…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI1004",
+      "name": "Hebrew 1: Introduction to Hebrew Language",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module aims to give students a sufficient knowledge of the grammar and vocabulary of Old Testament Hebrew to be able to read and analyse prescribed texts. Grammar and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI1005",
+      "name": "New Testament Greek 1",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module constitutes the first of a two-module New Testament Greek sequence. It introduces the first half of the essential grammar, morphology, and vocabulary of New Testament…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GK1001"
+          },
+          {
+            "type": "module",
+            "code": "GK1002"
+          }
+        ]
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1001 OR TAKE GK1002"
+    },
+    {
+      "id": "DI1006",
+      "name": "Jesus and the Gospels",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The purpose of this module is to build a fundamental understanding of the historical and theological significance of the life and teachings of Jesus, particularly as represented…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI1009",
+      "name": "Introduction to World Religions",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module aims to provide a basic introduction to the major world religions apart from Christianity. It will consider methodologies for the comparative study of religions and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI1014",
+      "name": "The Good Life: Christian Ethics and Human Flourishing",
+      "level": 1000,
+      "credits": 20,
+      "summary": "What does it mean to be happy? Is it wanting what you have or having what you want? Is a good life the same as a happy life? Does a good person choose moral duty over happiness or …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI1201",
+      "name": "From Adam to Apocalypse: The Bible and Western Culture",
+      "level": 1000,
+      "credits": 20,
+      "summary": "No other book has had a more profound effect on the history of Western civilisation than the Bible, influencing all western cultures and inspiring many of the works of literature, …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI2002",
+      "name": "Hebrew 2",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module will extend students’ skills in Hebrew phonology, morphology, and syntax. It consists of the continued introductory study of Hebrew grammar, vocabulary, and reading of …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "DI1004"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI1004",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI2003",
+      "name": "Christ, Paul, and the Origins of Christianity A (English Texts)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module examines the developing theology of the New Testament, paying particular attention to the issue of unity and diversity, and to the themes of Christology and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "DI2013"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "DI2013 PAUL AND THE EPISTLES B (GREEK TEXTS)"
+    },
+    {
+      "id": "DI2006",
+      "name": "Early and Medieval Christianity",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module first explores the history, beliefs and practices of the early Christian church. Topics include early Christian worship and forms of ministry, the development of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI2010",
+      "name": "Philosophical Theology",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module introduces students to the relations between philosophy and theology in thought about God, with particular attention to the Western tradition from Plato to the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI2011",
+      "name": "Religion Today",
+      "level": 2000,
+      "credits": 20,
+      "summary": "The process of secularization has not put an end to public engagement with ultimate questions. Familiarity with religious/ideological convictions, with the inside perspective of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI2013",
+      "name": "Christ, Paul, and the Origins of Christianity B (Greek Texts)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module examines the developing theology of the New Testament, paying particular attention to the issue of unity and diversity, and to the themes of Christology and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI2014",
+      "name": "Reading the Women of the Old Testament B (Hebrew Texts)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module examines depictions of women and the feminine in the Old Testament/Hebrew Bible. Topics of study will include named and unnamed female characters in narrative (e.g.,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "DI1003"
+          },
+          {
+            "type": "module",
+            "code": "DI2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "DI2015"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI1003 AND PASS DI2002",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI2015"
+    },
+    {
+      "id": "DI2015",
+      "name": "Reading the Women of the Old Testament A (English Texts)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module examines depictions of women and the feminine in the Old Testament/Hebrew Bible. Topics of study will include named and unnamed female characters in narrative (e.g.,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI2016",
+      "name": "Christianity and Modernity in Global Perspective",
+      "level": 2000,
+      "credits": 20,
+      "summary": "In 1517, when Luther began the Reformation, virtually every Christian lived in or near Europe, and Christian beliefs were disputed almost exclusively by educated white men. Today, …",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "DI1001"
+          },
+          {
+            "type": "module",
+            "code": "DI1009"
+          },
+          {
+            "type": "module",
+            "code": "DI1014"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE DI1001 OR TAKE DI1009 OR TAKE DI1014",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI2201",
+      "name": "New Testament Greek 2",
+      "level": 2000,
+      "credits": 20,
+      "summary": "The module will complete the introduction to the essential grammar, morphology, and vocabulary of the Koine Greek of the New Testament. It builds on the knowledge acquired in…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI3716",
+      "name": "Readings in Early Christian Greek Texts",
+      "level": 3000,
+      "credits": 30,
+      "summary": "Building on language competencies learned during subhonours, students will gain familiarity with advanced grammatical concepts and syntactical relationships as they are…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "DI2201"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "DI4631"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI2201",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI4631"
+    },
+    {
+      "id": "DI3719",
+      "name": "The Bible Through the Ages: History, Theology, and Hermeneutics",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module will take students through the history of the Bible and its interpretation from the formation of the canon to postmodernism. In each time-period we will ask: what was…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI3720",
+      "name": "Religious Practices in Socio-Political Contexts",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module offers an introduction to the study of religious practices in different areas of life. Religious practices embody beliefs through structuring particular forms of life. …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AT LEAST 20CR OF DI 2000-LEVEL MODULES",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4015",
+      "name": "Communication in Divinity",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module is part of the 'Communication and Teaching in Arts and Humanities' in which students gain substantial experience of a working environment. This component offers the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4498",
+      "name": "Honours Dissertation in Divinity",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This project enables a student to research a special topic of his/her choice (in consultation with staff) and to develop it at length in dissertation form. The length of the…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4525",
+      "name": "Medieval Monastic Spirituality",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module focuses on the major forms of monastic spirituality in Latin Christianity from the sixth through the fifteenth century. We will consider the teachings of the major…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4526",
+      "name": "Christian Mysticism Through the Ages",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will introduce students to the extensive and rich literature on Christian mysticism from the early Church through the twentieth century. Various approaches to studying …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4615",
+      "name": "New Testament Special Topic:",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The module explores Paul’s Corinthian letters (1 and 2 Corinthians) and other texts related to Christianity in Corinth with particular attention given to the cultural and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4628",
+      "name": "Epistle to the Hebrews: English Text",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The purpose of this module is to read the Epistle to the Hebrews carefully and discerningly and discuss the fruits of our close readings. As a means to that end, we will examine…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4631",
+      "name": "The Gospel of Mark: Greek Text",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module aims to help the student develop a range of skills necessary to exegete the Greek text of the New Testament with greater confidence, using the Gospel of Mark as a case …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4635",
+      "name": "Prophetic Books",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module examines selections from the prophetic corpus of the Hebrew Bible, with special attention to their literary features, their themes and outlooks, and the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4636",
+      "name": "Apocalyptic Literature",
+      "level": 4000,
+      "credits": 30,
+      "summary": "For centuries, readers have been both inspired and confounded by Jewish and Christian texts (many of which are in the Bible) that speak of cosmic upheaval, terrifying beasts, and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4699",
+      "name": "Jesus's Ascension in Scripture and Tradition",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The doctrine of the bodily Ascension of Jesus is clearly rooted in the Old Testament, attested in the New Testament, and affirmed in the ecumenical creeds and early Christian…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4711",
+      "name": "Old Testament Special Topic: Do This In Remembrance of Me: History, Memory, and Story-Making in and Beyond the Bible",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores memory in the Bible and recent scholarship on memory studies. It considers memory techniques (rote memorisation, shortened and miniaturised manuscripts),…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4726",
+      "name": "Hebrew Readings",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module improves students’ ability to read Classical Hebrew literature. Three areas of specialization will be emphasized: vocalizing Tiberian Hebrew, translation, and Hebrew…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4750",
+      "name": "Themes and Texts in Christian-Buddhist Dialogue",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module examines the foundations of Christianity and Buddhism and the possibility of dialogue between these two faiths/world religions. The possibilities of dialogue between a …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4751",
+      "name": "C.S. Lewis and the Inklings",
+      "level": 4000,
+      "credits": 30,
+      "summary": "C.S. Lewis is one of the extraordinary Christian writers of the 20th century, crafting works of keen intelligence, exuberant imagination, and clear-eyed social and psychological…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4752",
+      "name": "Biblical Studies Special Topic: The Bible and Archaeology",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The relationship between the Bible and archaeological research is fraught with difficulties. Archaeology is often presented in the media or in scholarship as confirming or…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4753",
+      "name": "The Theology of Anselm of Canterbury",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Anselm of Canterbury was one of the fountainheads of western theology and a father of medieval scholasticism. His thought has also been very influential upon Protestantism. This…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4754",
+      "name": "Orthodox Christian Tradition",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module opens up a whole new dimension of theological study: the life and thought of the Orthodox Christian tradition. This tradition, representing the second-largest…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4794",
+      "name": "Joint Dissertation (30cr)",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The dissertation must consist of approximately 10,000 words of English prose on a topic agreed between the student and two appropriate members of staff (who act as supervisors).…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4800",
+      "name": "Theology and Pastoral Care",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module is designed to introduce students to the subject of pastoral care and counselling from theological and spiritual perspectives. It considers the historical development…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4824",
+      "name": "Theology in Latin America",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores the history and development of theology in Latin America from 1968 to 2004, he period from the Conference of Medellin (1968) to the publication of Petrella's…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4825",
+      "name": "Theology in Africa",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores the history and development of theology in Africa from the post-colonial period - 1960s to the 1990s. The module considers the work of Aylward Shorter, V.Y.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4827",
+      "name": "Christian Ethics and Contemporary Society",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores Christian responses to a number of contemporary moral issues. We will compare how various Christian responses differ among themselves over history and how…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4830",
+      "name": "Aquinas' Theology",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module enables students to engage in depth with the theology of St Thomas Aquinas (1225-74), one of the most influential systematic theologians in the history of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4831",
+      "name": "Native American Religions",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Contemporary 'New Age' spirituality often incorporates what is considered to be 'Native American religion' in its practices and beliefs; however, many Native American activists…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4915",
+      "name": "Theology Special Topic",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module investigates the way in which Christians have understood salvation in relation to human beings and the human condition. Attempting to understand and appropriately…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4936",
+      "name": "Theology and Literature",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The study of literature and theology has developed dramatically in recent years, prompted on the one hand by the aggressive secularism of certain strands of critical theory and on …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4940",
+      "name": "Theology of Revelation",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module provides an introduction to analytic theology by locating it within key developments in analytic philosophy over the last four decades. It then proceeds to assess the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI4944",
+      "name": "Ecotheology and the Arts",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This interdisciplinary module will explore the ways in which theology & the arts might respond to the current environmental crisis. The first half will provide an overview of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5080",
+      "name": "Guided Study in Divinity",
+      "level": 5000,
+      "credits": 10,
+      "summary": "The project enables a student to research a special topic of his/her choice (in consultation with staff) and to develop it at length in an essay. The length of the essay should be …",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5099",
+      "name": "Dissertation for MLitt Programme/s",
+      "level": 5000,
+      "credits": 60,
+      "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. A…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5151",
+      "name": "Koine Greek 1",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module constitutes the first of two modules that introduce the student to the essential grammar, morphology, and vocabulary of the Koine Greek of the New Testament. The…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5152",
+      "name": "Koine Greek 2",
+      "level": 5000,
+      "credits": 30,
+      "summary": "Building on the introduction to the essential grammar, morphology, and vocabulary of Koine Greek in DI5151, this module will introduce students to intermediate grammar and the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5153",
+      "name": "Classical Hebrew 1",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module is an introduction to Classical Hebrew language: phonology, morphology, and syntax. It consists of the study of Hebrew grammar and vocabulary, strengthened by reading…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5154",
+      "name": "Classical Hebrew 2",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module aims to extend students' knowledge and skills in Classical Hebrew phonology, morphology, and syntax. It consists of the continued study of Hebrew grammar and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5156",
+      "name": "Hellenistic Greek Readings",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module is a technical introduction to reading the Greek New Testament: its text, translation, interpretation, historical location and theology. The module is designed,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5157",
+      "name": "Classical Hebrew Readings",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module improves students' ability to read Classical Hebrew literature. Three areas of specialization will be emphasized: vocalizing Tiberian Hebrew, translation, and Hebrew…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5231",
+      "name": "Prophetic Literature",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module examines selections from the prophetic corpus of the Hebrew Bible, with special attention to their literary features, their themes and outlooks, and the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5353",
+      "name": "Reconciliation: Divine and Human",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module explores the doctrine of reconciliation and its implications for human relationships from the perspective of analytic theology. It proceeds through an engagement with…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5354",
+      "name": "God, History, and Revelation",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module provides an introduction to analytic theology by locating it within key developments in analytic philosophy over the last four decades. It then proceeds to assess the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5432",
+      "name": "Theological Engagements with the Arts: Methodologies and Critical Theories",
+      "level": 5000,
+      "credits": 30,
+      "summary": "Theology and the arts is a burgeoning area of scholarly interest, though it can take various forms and proceed in radically different directions. This module will provide an…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5433",
+      "name": "Biblical Themes",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module will explore the development of one or more themes (e.g., temple, creation, kingship) through the biblical texts. Proper attention will be paid to the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5451",
+      "name": "Christian Doctrine and the Arts",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module will examine how the central articles of the Christian faith, as expressed in the Apostles' Creed, have been engaged by artists throughout the history of Christianity. …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5452",
+      "name": "Religious Experience and Aesthetic Theory",
+      "level": 5000,
+      "credits": 30,
+      "summary": "Religion permeates the arts and, whatever our own beliefs, we will be affected by religion through various artistic media. How, then, do different art forms (painting, music,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5453",
+      "name": "Practical Criticism",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module exposes students to a multiplicity of forms and themes, with an emphasis on the practice of close reading. After some preliminary instruction, the majority of class…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5521",
+      "name": "A Selected Modern Theologian: Jonathan Edwards",
+      "level": 5000,
+      "credits": 20,
+      "summary": "This module will allow students to engage at length and in depth with the thought of a single, formative, thinker. Particular attention will be given to the deep systematic…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5522",
+      "name": "A Selected Patristic Theologian: Gregory Nazianzen",
+      "level": 5000,
+      "credits": 20,
+      "summary": "This module will allow students to engage at length and in depth with the thought of a single, formative, thinker. Particular attention will be given to the deep systematic…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5525",
+      "name": "Christology",
+      "level": 5000,
+      "credits": 20,
+      "summary": "This module will examine the development of Christology from the conciliar debates of the fifth century to contemporary political christologies. Students will investigate how…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5526",
+      "name": "A Selected Medieval Theologian - Bonaventure",
+      "level": 5000,
+      "credits": 20,
+      "summary": "This module will allow students to engage at length and in depth with the thought of a single, formative, thinker. Particular attention will be given to the deep systematic…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5538",
+      "name": "The Christian Doctrine of God",
+      "level": 5000,
+      "credits": 30,
+      "summary": "Classically, the Christian doctrine of God has been expressed in two treatises: on the one God, and on the Trinity. This module will combine the two, particularly looking at…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5539",
+      "name": "The Good Life and the Good Death: Theological and Practical Ethics",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module explores how ethical concepts, and their practical application, relate to various (and often competing) theological and philosophical conceptions of the Good Life and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5540",
+      "name": "Texts and Methods in Early and Medieval Theology",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module traces the beginnings of Christian theology by looking at selected texts and methods of the Patristic and medieval periods. Key considerations may include the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5541",
+      "name": "Texts and Methods in Modern Theology",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module traces the development of Christian theology by looking at selected texts and methods of the early modern and/or modern period. Key considerations may include the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5601",
+      "name": "Music and the Sacred in Theory and Practice",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module introduces students to the wide diversity of music in its relation to the sacred, in and outside different denominational church contexts. The module is team taught,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5699",
+      "name": "Dissertation / Final Project",
+      "level": 5000,
+      "credits": 60,
+      "summary": "The end-of-year assessment provides students with the opportunity to draw together the theoretical, philosophical, and professional practice strands of the course, in order to…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5911",
+      "name": "Research in Divinity",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module equips students with essential research skills for postgraduate study in Divinity. It covers key aspects of the research process, such as formulating research topics…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5912",
+      "name": "Writing for Divinity",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module provides students with essential writing skills for postgraduate research in Divinity. It covers key areas of academic writing, including crafting clear arguments,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5913",
+      "name": "Bible, Theology, and the Arts",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The intersection of Bible, theology, and the arts in the contemporary world is a dynamic and rapidly growing field that bridges biblical and theological inquiry with artistic…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5914",
+      "name": "The Good Life: Biblical Ethics and Human Flourishing",
+      "level": 5000,
+      "credits": 15,
+      "summary": "What does it mean to live the good life? Is it wanting what you have or having what you want? Is a good life the same as a happy life? This module explores the relationship…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5915",
+      "name": "Bible and Contemporary Issues",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module explores the Bible’s relevance to contemporary ethical, cultural, and social issues, equipping students with interpretive and theological tools for interdisciplinary…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5924",
+      "name": "Surveillance, Theology and the Bible",
+      "level": 5000,
+      "credits": 40,
+      "summary": "This module will help you think critically about surveillance in contemporary life. You will consider current theories from the field of surveillance studies as well as turning to …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5925",
+      "name": "Theology and the Arts",
+      "level": 5000,
+      "credits": 40,
+      "summary": "This module is intended to provide an introduction to postgraduate work in the interdisciplinary field of theology and the arts. It seeks to develop existing competences in these…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "DI5999",
+      "name": "Dissertation (Distance Learning)",
+      "level": 5000,
+      "credits": 60,
+      "summary": "In this module students undertake research under individual supervision towards writing a dissertation on a topic agreed in conjunction with their supervisor.",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ID4002",
+      "name": "Communication and Teaching in Arts and Humanities",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module provides final year students within the Faculties of Arts and Divinity with the opportunity to gain first hand experience of education through a mentoring scheme with…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    }
+  ]
+}

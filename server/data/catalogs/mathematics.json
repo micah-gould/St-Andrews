@@ -1,0 +1,2830 @@
+{
+  "id": "mathematics",
+  "name": "Mathematics",
+  "years": [
+    "2025/26",
+    "2026/27",
+    "2027/28"
+  ],
+  "nodes": [
+    {
+      "id": "ID2003",
+      "name": "Science Methods",
+      "level": 2000,
+      "credits": 10,
+      "summary": "This module provides an overview of the rationale, methods, history and philosophy of science. We explore the different definitions of science, the distinction between science and …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "ID2005"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ID2005"
+    },
+    {
+      "id": "ID2005",
+      "name": "Scientific Thinking",
+      "level": 2000,
+      "credits": 15,
+      "summary": "This module provides an overview of the rationale, methods, history and philosophy of science and is a more detailed, 15-credit version of ID2003. We explore the different…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "ID2003"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ID2003"
+    },
+    {
+      "id": "MT1001",
+      "name": "Introductory Mathematics",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module is designed to give students a secure base in elementary calculus to allow them to tackle the mathematics needed in other sciences. Students wishing to do more…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT1003"
+      },
+      "prerequisitesText": "STUDENTS MUST HAVE HIGHER OR A-LEVEL MATHEMATICS (AS-LEVEL MATHEMATICS WITH APPROVAL OF HEAD OF SCHOOL)",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU HAVE PASSED ANY OF MT1003, MT2501-MT5999"
+    },
+    {
+      "id": "MT1002",
+      "name": "Mathematics",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module is designed to introduce students to the ideas, methods and techniques which they will need for applying mathematics in the physical sciences or for taking the study…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT1001"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT1001. IF MT1001 HAS NOT BEEN PASSED, YOU MUST HAVE AT LEAST GRADE B IN ADVANCED HIGHER MATHEMATICS OR GRADE B IN A-LEVEL MATHEMATICS OR AN EQUIVALENT MATHEMATICS QUALIFICATION.",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT1003",
+      "name": "Pure and Applied Mathematics",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module aims to provide students with experience of both pure and applied mathematics, and the role that mathematical computing plays in both subjects. Exposure to new topics…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT1002"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT1002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT1007",
+      "name": "Statistics in Practice",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module provides an introduction to statistical reasoning, elementary but powerful statistical methodologies, and real world applications of statistics. Case studies based on…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "STUDENTS MUST HAVE AT LEAST GCSE (AT A) OR NATIONAL 5 MATHEMATICS (AT A) OR AS-LEVEL/HIGHER MATHEMATICS (AT C)",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT2501",
+      "name": "Linear Mathematics",
+      "level": 2000,
+      "credits": 15,
+      "summary": "This module extends the knowledge and skills that students have gained concerning matrices and systems of linear equations. It introduces the basic theory of vector spaces, linear …",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT1002"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT1002,IF MT1002 HAS NOT BEEN PASSED THEN A AT ADVANCED HIGHER MATHEMATICS, OR A AT A-LEVEL FURTHER MATHEMATICS, OR A AT BOTH A-LEVEL MATHEMATICS AND A-LEVEL PHYSICS.",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT2502",
+      "name": "Analysis",
+      "level": 2000,
+      "credits": 15,
+      "summary": "The main purpose of this module is to introduce the key concepts of real analysis: limit, continuity and differentiation. Emphasis will be placed on the rigorous development of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT1002"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT1002,IF MT1002 HAS NOT BEEN PASSED, ADVANCED HIGHER MATHEMATICS (AT GRADE A) OR A-LEVEL FURTHER MATHEMATICS (AT GRADE A).",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT2503",
+      "name": "Multivariate Calculus",
+      "level": 2000,
+      "credits": 15,
+      "summary": "This module extends the basic calculus in a single variable to the setting of real functions of several variables. It introduces techniques and concepts that are used throughout…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT1002"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT1002. IF MT1002 HAS NOT BEEN PASSED THEN A AT ADVANCED HIGHER MATHEMATICS, OR A AT A-LEVEL FURTHER MATHEMATICS, OR A AT BOTH A-LEVEL MATHEMATICS AND A-LEVEL PHYSICS",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT2504",
+      "name": "Combinatorics and Probability",
+      "level": 2000,
+      "credits": 15,
+      "summary": "This module provides an introduction to the study of combinatorics and finite sets and also the study of probability. It will describe the links between these two areas of study.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT1002"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT1002,IF MT1002 HAS NOT BEEN PASSED, A AT ADVANCED HIGHER MATHEMATICS OR A AT A-LEVEL FURTHER MATHEMATICS",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT2505",
+      "name": "Abstract Algebra",
+      "level": 2000,
+      "credits": 15,
+      "summary": "This main purpose of this module is to introduce the key concepts of modern abstract algebra: groups, rings and fields. Emphasis will be placed on the rigourous development of the …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT1002"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT1002,IF MT1002 HAS NOT BEEN PASSED, THEN A AT ADVANCED HIGHER MATHEMATICS, OR A AT A-LEVEL FURTHER MATHEMATICS.",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT2506",
+      "name": "Vector Calculus",
+      "level": 2000,
+      "credits": 15,
+      "summary": "This module introduces students to some of the fundamental techniques that are used throughout the mathematical modelling of problems arising in the physical world such as grad,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2503"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2503",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT2507",
+      "name": "Mathematical Modelling",
+      "level": 2000,
+      "credits": 15,
+      "summary": "This module provides an introduction to a variety of techniques that are used throughout applied mathematics. It discusses how to translate physical problems into mathematics and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2503"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2503",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT2508",
+      "name": "Statistical Inference",
+      "level": 2000,
+      "credits": 15,
+      "summary": "This module provides an introduction to the mathematical models of randomness. These models are used to perform statistical analysis, where the aim is to evaluate our uncertainty…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2504"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "EC2203"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2504",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE EC2203"
+    },
+    {
+      "id": "MT3501",
+      "name": "Linear Mathematics 2",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module continues the study of vector spaces and linear transformations begun in MT2501. It aims to show the importance of linearity in many areas of mathematics ranging from…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2501"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2501",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT3502",
+      "name": "Real Analysis",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module continues the study of analysis begun in the 2000-level module MT2502 Analysis. It considers further important topics in the study of real analysis including:…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2502"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2502",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT3503",
+      "name": "Complex Analysis",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module aims to introduce students to analytic function theory and applications. The topics covered include: analytic functions; Cauchy-Riemann equations; harmonic functions;…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2502"
+          },
+          {
+            "type": "module",
+            "code": "MT2503"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2502 OR PASS MT2503",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT3504",
+      "name": "Differential Equations",
+      "level": 3000,
+      "credits": 15,
+      "summary": "The object of this module is to provide a broad introduction to analytical methods for solving ordinary and partial differential equations and to develop students' understanding…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2503"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2503",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT3505",
+      "name": "Algebra: Rings and Fields",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module builds on the study of Abstract Algebra which was begun in MT2505. It shows how various familiar mathematical structures such as the integers, the real numbers, sets…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2505"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2505",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT3506",
+      "name": "Techniques of Applied Mathematics",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Differential equations are of fundamental significance in applied mathematics. This module will cover important and common techniques used to solve the partial differential…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2506"
+          },
+          {
+            "type": "module",
+            "code": "MT3504"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PH3081"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2506 AND PASS MT3504",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH3081"
+    },
+    {
+      "id": "MT3507",
+      "name": "Mathematical Statistics",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Together with MT3508, this module provides a bridge between second year and Honours modules in statistics. It will provide students with a solid theoretical foundation on which…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2508"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2508",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT3508",
+      "name": "Applied Statistics",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Together with MT3507, this module provides a bridge between second year and Honours modules in statistics. It deals with the application of statistical methods to test hypotheses…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2508"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2508",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT3510",
+      "name": "Introduction to Mathematical Computing",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Computation is an important part of a modern mathematician's toolkit, and this module introduces computing. This module develops foundational computing skills in Python and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3501"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "IF NOT ALREADY PASSED YOU MUST TAKE 1 MODULE FROM MT3501-MT3508",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4003",
+      "name": "Groups",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module introduces students to group theory, which is one of the central fields of the 20th century mathematics. The main theme of the module is classifying groups with…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2505"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2505",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4004",
+      "name": "Real and Abstract Analysis",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module continues the development of real analysis that was begun in MT2502 and continued through MT3502. Topics covered will include limits and continuity in metric spaces,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3502"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3502",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4005",
+      "name": "Linear and Nonlinear Waves",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module gives an introduction to wave motion and its importance in many areas of applied mathematics. It begins with a discussion of the linear approximation for small…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT2506"
+              },
+              {
+                "type": "module",
+                "code": "PH3081"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "MT3504"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS MT2506 OR PASS PH3081 ) AND PASS MT3504",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4112",
+      "name": "Computational Numerical Analysis",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The module will introduce students to some topics in numerical analysis and demonstrate their application using various problems in applied mathematics through the Python…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3510"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3510",
+      "antiRequisitesText": "IN TAKING THIS MODULE YOU MUST NOT BE ON A SINGLE OR JOINT HONOURS PROGRAMME IN THE SCHOOL OF COMPUTER SCIENCE"
+    },
+    {
+      "id": "MT4113",
+      "name": "Computing in Statistics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The aim of this module is to teach computer programming skills, including principles of good programming practice, with an emphasis on statistical computing. Practical work…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2508"
+          },
+          {
+            "type": "module",
+            "code": "MT3510"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5763"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2508 AND PASS MT3510",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5763"
+    },
+    {
+      "id": "MT4501",
+      "name": "Topics in the History of Mathematics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The aim of this module is to give students an insight into the historical development of mathematics. Topics to be covered may include some of: the development of algebra, the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5613"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5613"
+    },
+    {
+      "id": "MT4507",
+      "name": "Classical Mechanics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The object of this module is to introduce students to some of the ideas and mathematical techniques used in understanding the behaviour of dynamical systems that obey Newton's…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT2506"
+              },
+              {
+                "type": "module",
+                "code": "PH3081"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "MT3504"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PH4038"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS MT2506 OR PASS PH3081 ) AND PASS MT3504",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH4038"
+    },
+    {
+      "id": "MT4508",
+      "name": "Dynamical Systems",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module aims to introduce students to the basic ideas of the modern theory of dynamical systems and to the concepts of chaos and strange attractors. The module will include:…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3504"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3504",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4509",
+      "name": "Fluid Dynamics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module provides an introduction to the theory of incompressible fluid dynamics, which describes the motion of liquids and gases at speeds small compared to the sound speed.…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2506"
+          },
+          {
+            "type": "module",
+            "code": "MT3504"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2506 AND PASS MT3504",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4510",
+      "name": "Solar Theory",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The object of this module is to describe the basic dynamic processes at work in the Sun, a subject which is being enlivened by dramatic new results from space missions.",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT2506"
+              },
+              {
+                "type": "module",
+                "code": "MT3504"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "PH3081"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS MT2506 AND PASS MT3504 ) OR PASS PH3081",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4511",
+      "name": "Asymptotic Methods",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module is designed to introduce students to asymptotic methods used in the construction of analytical approximations to integrals and solutions of differential equations.",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4512",
+      "name": "Automata, Languages and Complexity",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module concerns formal languages, and the machines that recognise them. It begins with regular languages and finite state machines, both deterministic and non-deterministic.…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2504"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CS2001"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CS2101"
+                  }
+                ]
+              },
+              {
+                "type": "module",
+                "code": "CS2002"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CS3052"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2504 OR ( (PASS CS2001 OR PASS CS2101) AND PASS CS2002 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS3052"
+    },
+    {
+      "id": "MT4513",
+      "name": "Fractal Geometry",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The aim of this module is to introduce the mathematics used to describe and analyse fractals and to show how the theory may be applied to examples drawn from across mathematics…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2503"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT3501"
+              },
+              {
+                "type": "module",
+                "code": "MT3502"
+              },
+              {
+                "type": "module",
+                "code": "MT3503"
+              },
+              {
+                "type": "module",
+                "code": "MT3504"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2503 AND ( PASS MT3501 OR PASS MT3502 OR PASS MT3503 OR PASS MT3504 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4514",
+      "name": "Graph Theory",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The aim of this module is to introduce students to the study of graph theory as a tool for representing connections between data. Topics to be covered may include: basic theory…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4515",
+      "name": "Functional Analysis",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This object of this module is to familiarise students with the basic notions of functional analysis, that is analysis on normed spaces and Hilbert space. The module will cover…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2501"
+          },
+          {
+            "type": "module",
+            "code": "MT3502"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2501 AND PASS MT3502",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4516",
+      "name": "Finite Mathematics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The aim of this module is to introduce students to some topics in the mathematics of combinatorial structures. This theory has wide applications, both in classical mathematics and …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4519",
+      "name": "Number Theory",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The aim of this module is to introduce students to some important topics in number theory. Topics to be covered may include: prime numbers, cryptography, continued fractions,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2505"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT3501"
+              },
+              {
+                "type": "module",
+                "code": "MT3502"
+              },
+              {
+                "type": "module",
+                "code": "MT3503"
+              },
+              {
+                "type": "module",
+                "code": "MT3504"
+              },
+              {
+                "type": "module",
+                "code": "MT3505"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2505 AND ( PASS MT3501 OR PASS MT3502 OR PASS MT3503 OR PASS MT3504 OR PASS MT3505 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4526",
+      "name": "Topology",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module introduces the ideas of metric and topological spaces. A metric space is simply a set together with a 'distance' between any two points. This idea is pervasive in…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4527",
+      "name": "Time Series Analysis",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module provides an introduction to univariate linear times series models (ARIMA processes) and univariate non-linear times-series models (ARCH and GARCH). The syllabus…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT2508"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2508",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4528",
+      "name": "Markov Chains and Processes",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module provides an introduction to the theory of stochastic processes and to their use as models, including applications to population processes and queues. The syllabus…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4531",
+      "name": "Bayesian Inference",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module is intended to offer a re-examination of standard statistical problems from a Bayesian viewpoint and an introduction to recently developed computational Bayes methods. …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4551",
+      "name": "Financial Mathematics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "Students are introduced to the application of mathematical models to financial instruments. The course will include an overview of financial markets and the terminology in common…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3504"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT2504"
+              },
+              {
+                "type": "module",
+                "code": "EC2203"
+              },
+              {
+                "type": "module",
+                "code": "PH3012"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3504 AND ( PASS MT2504 OR PASS EC2203 OR PASS PH3012 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4552",
+      "name": "Population Dynamics Models in Mathematical Biology",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module will explore real world applications of mathematics to biological problems e.g. harvesting of fish stocks, host-parasitoid systems, predator-prey dynamics, molecular…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3504"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3504",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4553",
+      "name": "Theory of Electric and Magnetic Fields",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The module will consider the mathematical and physical principles that describe the theory of electric and magnetic fields. It will first describe the basic principles of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2503"
+          },
+          {
+            "type": "module",
+            "code": "MT2506"
+          },
+          {
+            "type": "module",
+            "code": "MT3504"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PH3007"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2503 AND PASS MT2506 AND PASS MT3504",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH3007"
+    },
+    {
+      "id": "MT4554",
+      "name": "Game Theory",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module introduces students to game theory as a tool for modelling rational and non-rational human behaviour. The syllabus includes: Nash equilibria in normal form games,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT2503"
+              },
+              {
+                "type": "module",
+                "code": "MT2504"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "EC3304"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS MT2503 AND PASS MT2504 ) OR PASS EC3304",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4561",
+      "name": "The History and Future of Data",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The collection and analysis of data pervade contemporary life. This course will explore the emergence of now-standard statistical techniques and the development of approaches to…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT1007"
+          },
+          {
+            "type": "module",
+            "code": "MT2508"
+          },
+          {
+            "type": "module",
+            "code": "EC2203"
+          },
+          {
+            "type": "module",
+            "code": "PH3012"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT1007 OR PASS MT2508 OR PASS EC2203 OR PASS PH3012",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4570",
+      "name": "Statistical Machine Learning",
+      "level": 4000,
+      "credits": 15,
+      "summary": "Machine learning tools are widely used across various aspects of contemporary society. A solid understanding of the foundations that support these tools is essential for…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT2501"
+          },
+          {
+            "type": "module",
+            "code": "MT2503"
+          },
+          {
+            "type": "module",
+            "code": "MT2508"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT2501 AND PASS MT2503 AND PASS MT2508",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4571",
+      "name": "Applied Bayesian Statistics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "Bayesian statistics has become the predominant statistical theory in the digital era and an essential data analysis tool for modern statisticians and computer scientists in both…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3507"
+          },
+          {
+            "type": "module",
+            "code": "MT3508"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3507 OR PASS MT3508",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4598",
+      "name": "Enterprise Project in Mathematics / Statistics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module serves as an option for the final year project in mathematics and statistics. Students will submit a portfolio comprising a range of outputs based on a single research …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4599",
+      "name": "Project in Mathematics / Statistics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The student will choose a project from a list published annually although a topic outwith the list may be approved. Students will be required to report regularly to their…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4606",
+      "name": "Classical Statistical Inference",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module aims to show how the methods of estimation and hypothesis testing met in 2000- and 3000-level Statistics modules can be justified and derived; to extend those methods…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4608",
+      "name": "Sampling Theory",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The aims of this module are to introduce students to and interest them in the principles and methods of design-based inference, to convince them of the relevance and utility of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4794",
+      "name": "Joint Dissertation (30cr)",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The dissertation must consist of approximately 6,000 words of English prose on a topic agreed between the student and two appropriate members of staff (who act as supervisors).…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT4796",
+      "name": "Joint Project (30cr)",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The aim of the project is to develop and foster the skills of experimental design, appropriate research management and analysis. The topic and area of research should be chosen in …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
+      "antiRequisitesText": "MAY NOT TAKE MORE THAN 30 CREDITS IN OTHER DISSERTATION / PROJECT MODULES"
+    },
+    {
+      "id": "MT5095",
+      "name": "Dissertation for MSc Mathematical Biology",
+      "level": 5000,
+      "credits": 60,
+      "summary": "This module is an individual dissertation where Mathematical Biology students are supervised by a member of the teaching staff who will advise on the choice of subject and provide …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5097",
+      "name": "Portfolio Dissertation for Statistical Ecology MSc Programme",
+      "level": 5000,
+      "credits": 60,
+      "summary": "Students will submit a portfolio comprising a range of outputs based on a single research topic. The submission will consist of a compulsory element (50% of the module grade)…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5098",
+      "name": "Group Dissertation for MSc Programme/s",
+      "level": 5000,
+      "credits": 60,
+      "summary": "This module is a group-based dissertation which is supervised by members of the teaching staff who will advise on the choice of subject and provide guidance and structure…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5099",
+      "name": "Dissertation for MSc Programme/s",
+      "level": 5000,
+      "credits": 60,
+      "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the progress of the…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5590",
+      "name": "Independent Study Module",
+      "level": 5000,
+      "credits": 15,
+      "summary": "<p>This module provides the opportunity for a student to study an Advanced topic as a reading course under the supervision of a member of staff. The topic will be disjoint…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5990"
+      },
+      "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5990"
+    },
+    {
+      "id": "MT5599",
+      "name": "Advanced Project in Mathematics / Statistics",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This is a substantial project for final year students on integrated Masters degrees. The project will be chosen from a list published annually in the project booklet. It is also…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "AVAILABLE ONLY TO STUDENTS IN THE FINAL YEAR OF A MMATH/MPHYS HONOURS DEGREE PROGRAMME IN THE SCHOOL.",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5731",
+      "name": "Advanced Bayesian Inference",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module is intended to offer a re-examination of standard statistical problems from a Bayesian viewpoint and an introduction to recently developed computational Bayes methods. …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5751",
+      "name": "Estimating Animal Abundance and Biodiversity",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The module will introduce students to the main types of survey method for wildlife populations. It will cover simple methods in some detail and provide students with a conceptual…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3507"
+          },
+          {
+            "type": "module",
+            "code": "MT3508"
+          },
+          {
+            "type": "module",
+            "code": "MT5761"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3507 OR PASS MT3508 OR PASS MT5761",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5758",
+      "name": "Multivariate Analysis",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module provides theory and application for the analysis of multivariate data. Fundamental matrix material is presented including mean vectors, covariance matrices,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5761",
+      "name": "Applied Statistical Modelling using GLMs",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This applied statistics module covers the main aspects of linear models (LMs) and generalized linear models (GLMs). In each case the course describes model specification, various…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT4113"
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT4607"
+          },
+          {
+            "type": "module",
+            "code": "MT5753"
+          }
+        ]
+      },
+      "prerequisitesText": "UNDERGRADUATES MUST HAVE PASSED AT LEAST ONE OF MT4113, MT4527, MT4528, MT4530, MT4531, MT4537, MT4539, MT4606, MT4608 MT4609, MT4614",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT4607 OR TAKE MT5753"
+    },
+    {
+      "id": "MT5762",
+      "name": "Introductory Data Analysis",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module provides coverage of essential statistical concepts and analysis methods relevant to commercial analysis. Specifically: the different types of data and their…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5763",
+      "name": "Software for Data Analysis",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module covers the practical computing aspects of statistical data analysis, focussing on packages most widely used in the commercial sector (for example, R, Python, SAS, SPSS …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT4113"
+      },
+      "prerequisitesText": "STUDENTS MUST HAVE GAINED ADMISSION ONTO AN MSC PROGRAMME",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT4113"
+    },
+    {
+      "id": "MT5764",
+      "name": "Advanced Data Analysis",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module covers modern modelling methods for situations where the data fails to meet the assumptions of common statistical models and simple remedies do not suffice. This…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3508"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT4606"
+              },
+              {
+                "type": "module",
+                "code": "MT5761"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5757"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3508 AND ( PASS MT4606 OR PASS MT5761 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5757"
+    },
+    {
+      "id": "MT5765",
+      "name": "Medical Statistics",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will cover a number of topics in medical statistics, that are important areas both in terms of methodological development and application. The main topic covered will…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5766",
+      "name": "Statistical Problem Solving",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The module will focus on problem formulation and scientific reporting to different audiences. The module will consist of a set of case studies covering a range of application…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5767",
+      "name": "Modelling Wildlife Population Dynamics",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will introduce students to methods for constructing mathematical models of wildlife population dynamics and of fitting these models to diverse data from wildlife…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5842",
+      "name": "Advanced Analytical Techniques",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module introduces students to important advanced applied analytic techniques such as Variational Calculus, Integral equations and transforms, solutions to differential…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3503"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5802"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3503",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5802"
+    },
+    {
+      "id": "MT5846",
+      "name": "Advanced Computational Techniques",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module introduces students to some of the ideas, techniques and constraints that underpin modern approaches to the numerical modelling of physical processes that may be…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5849",
+      "name": "Geophysical Fluid Dynamics",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will examine current research in fluid dynamics, with a particular focus on meteorology and oceanography. The large-scale atmosphere and oceans behave quite unlike a…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5850",
+      "name": "Advanced Solar Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The object of this module is to describe the magnetohydrodynamic processes at work in the Sun, using modern techniques of applied mathematics, and to discuss the latest theories…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5853",
+      "name": "Spatial Models and Pattern Formation in Mathematical Biology",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will explore real world applications of mathematics to biological and medical problems (e.g. cell movement, pattern formation in animal coat markings, spread of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5854",
+      "name": "Mathematical Oncology",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Cancer is a complex disease, the second largest cause of death throughout the world (after cardiovascular diseases). Beginning with genetic mutations in a single cell, cancer…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3504"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3504",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5855",
+      "name": "Stochastic Dynamics",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will provide an introduction to stochastic modelling with a focus on applications in biology. It will introduce and explain key biological phenomena where stochastic…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2027/28"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": true
+      },
+      "frequency": "alternate-a",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5856",
+      "name": "Calculus of Variations in Biological Modelling",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module introduces students to the mathematical modelling of biological processes using the Calculus of Variations as its main tool. It starts with an introduction to the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3504"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3504",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5861",
+      "name": "Advanced Combinatorics",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Combinatorics underlies and interacts many topics in discrete mathematics including group theory, statistical design, and statistical mechanics, as well as being a lively subject…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT4514"
+          },
+          {
+            "type": "module",
+            "code": "MT4516"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5821"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT4514 OR PASS MT4516",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5821"
+    },
+    {
+      "id": "MT5862",
+      "name": "Discrete Geometry",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Discrete geometry is concerned with combinatorial properties of geometric objects such as point sets, arrangements of affine and projective subspaces, convex polytopes, and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5863",
+      "name": "Semigroups",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The general aim of this module is to introduce students to semigroup theory, which is the study of sets with one associative binary operation defined on them. In the process, the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3505"
+          },
+          {
+            "type": "module",
+            "code": "MT4003"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5823"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3505 OR PASS MT4003",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5823"
+    },
+    {
+      "id": "MT5864",
+      "name": "Advanced Group Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Groups are important mathematical objects that arise in many contexts since they encode symmetry. The aim of this module is to build on the foundations established in MT4003 and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5865",
+      "name": "Measure Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module introduces some of the powerful techniques and ideas of modern mathematical analysis that are important both in analysis in its own right and in its many applications…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3502"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5825"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3502",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5825"
+    },
+    {
+      "id": "MT5866",
+      "name": "Probability Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will develop probability theory in a rigorous manner to access some of the big theorems of the subject, such as the laws of large numbers, the central limit theorem,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5867",
+      "name": "Mathematical Logic and Set Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Mathematical logic is a branch of mathematics which attempts to subject mathematical reasoning itself to a rigorous mathematical treatment, while sets provide a language in which…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MT3505"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CS3050"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST TWO OF: MT3505, MT4003, MT4004, MT4512, MT4514, MT4515, MT4526",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS3050"
+    },
+    {
+      "id": "MT5868",
+      "name": "Advanced Ring Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "We will build on the foundations laid in MT3505 to study the structure of rings, modules (ring-theoretic analogues of vector spaces), and ideals. The theory of rings is the basis…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5869",
+      "name": "Geometric Group Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Geometric group theory is an important and active area of mathematical research, linking the geometry of various spaces, and in particular of a group’s Cayley graph, to the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT4003"
+          },
+          {
+            "type": "module",
+            "code": "MT4526"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT4003 AND PASS MT4526",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5870",
+      "name": "Hyperbolic Geometry",
+      "level": 5000,
+      "credits": 15,
+      "summary": "We study two-dimensional hyperbolic space, which is a fundamental example of a non-Euclidean metric space. Hyperbolic space has a rich structure and many counter-intuitive…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5871",
+      "name": "Representation Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "A common way to study groups, both historically and in modern research, is to consider the ways in which they act upon vector spaces. This module will describe the study of linear …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "MT3501"
+          },
+          {
+            "type": "module",
+            "code": "MT3505"
+          },
+          {
+            "type": "module",
+            "code": "MT4003"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MT3501 AND PASS MT3505 AND PASS MT4003",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5876",
+      "name": "Galois Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Galois Theory is one of the most beautiful areas of mathematics, establishing a remarkable connection between the theory of polynomial equations and their roots, and group theory. …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5877",
+      "name": "Ergodic Theory and Dynamical Systems",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module introduces the modern ergodic theory approach to understanding chaotic dynamical systems. Topics include recurrence, consequences of ergodicity, entropy, the structure …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MT5991",
+      "name": "Professional Skills for Mathematical Scientists",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module encompasses a range of skills, both generic and topic specific, together with taught components aimed at providing an appreciation of both breadth and depth of…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT5590"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE, STUDENTS MUST HAVE COMPLETED A LETTER OF AGREEMENT.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT5590"
+    }
+  ]
+}

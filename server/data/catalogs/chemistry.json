@@ -1,0 +1,2707 @@
+{
+  "id": "chemistry",
+  "name": "Chemistry",
+  "years": [
+    "2025/26",
+    "2026/27",
+    "2027/28"
+  ],
+  "nodes": [
+    {
+      "id": "CH1202",
+      "name": "Introductory Chemistry for Second Year Direct Entry Students",
+      "level": 1000,
+      "credits": 10,
+      "summary": "This module provides an introduction to some of the fundamental aspects of Chemistry and is for students entering the Chemistry BSc and MChem courses directly into second year.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH1401"
+          },
+          {
+            "type": "module",
+            "code": "CH1402"
+          },
+          {
+            "type": "module",
+            "code": "CH1601"
+          }
+        ]
+      },
+      "prerequisitesText": "STUDENTS MUST HAVE ADVANCED HIGHER CHEMISTRY AT GRADE A, OR A-LEVEL CHEMISTRY AT GRADE A OR EQUIVALENT.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH1401 OR TAKE CH1402 OR TAKE CH1601"
+    },
+    {
+      "id": "CH1301",
+      "name": "The Impact of Chemistry",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module explores the impact that chemistry has on all our lives and all aspects of society. The module will cover diverse range of topics and the pivotal role chemistry plays…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "NATIONAL LEVEL 5 OR GCSE CHEMISTRY. STUDENTS WITH NO FORMAL QUALIFICATION IN CHEMISTRY MAY BE ADMITTED BUT SHOULD EXPECT TO UNDERTAKE ADDITIONAL TUTORIAL WORK AND PRIVATE STUDY",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH1401",
+      "name": "Introductory Inorganic and Physical Chemistry",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The module includes lectures on the origin of the elements, atoms and the Periodic Table, shapes and properties of molecules, chemistry of the elements, properties of solutions,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH1202"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE PASSED HIGHER OR A-LEVEL CHEMISTRY AT GRADE B, OR IB HL CHEMISTRY AT GRADE 5, OR OTHER EQUIVALENT QUALIFICATION.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH1202"
+    },
+    {
+      "id": "CH1402",
+      "name": "Inorganic and Physical Chemistry 1",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The module includes lectures on bonding in simple molecules, inorganic solids, chemistry of the first row transition metals, properties of solids, states of matter and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH1202"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE PASSED HIGHER OR A-LEVEL CHEMISTRY AT GRADE B, OR IB HL CHEMISTRY AT GRADE 5, OR OTHER EQUIVALENT QUALIFICATION.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH1202"
+    },
+    {
+      "id": "CH1601",
+      "name": "Organic and Biological Chemistry 1",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The module includes lectures on the structure, stereochemistry and nomenclature of simple organic compounds, fundamental organic reaction mechanisms, organic functional groups and …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH1202"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE PASSED HIGHER OR A-LEVEL CHEMISTRY AT GRADE B, OR IB HL CHEMISTRY AT GRADE 5, OR OTHER EQUIVALENT QUALIFICATION.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH1202"
+    },
+    {
+      "id": "CH2501",
+      "name": "Inorganic Chemistry 2",
+      "level": 2000,
+      "credits": 30,
+      "summary": "The module includes lectures on bonding theory, metal complexes and organometallics, descriptive transition-metal chemistry, solid-state chemistry, and descriptive main-group…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH1402"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH1401"
+              },
+              {
+                "type": "module",
+                "code": "CH1601"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH1402 OR ( PASS CH1401 AND PASS CH1601 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH2601",
+      "name": "Organic Chemistry 2",
+      "level": 2000,
+      "credits": 30,
+      "summary": "The module includes lectures on carbon-carbon bond formation, interconversion of functional groups, aromatic and heteroaromatic reactivity, mechanistic biological chemistry and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH1601"
+          },
+          {
+            "type": "module",
+            "code": "CH1202"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH2603"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH1601 OR PASS CH1202",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH2603"
+    },
+    {
+      "id": "CH2603",
+      "name": "Organic Chemistry 2 (French)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "The module includes lectures on carbon-carbon bond formation, interconversion of functional groups, aromatic and heteroaromatic reactivity, mechanistic biological chemistry and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH2601"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH2601"
+    },
+    {
+      "id": "CH2701",
+      "name": "Physical Chemistry 2",
+      "level": 2000,
+      "credits": 30,
+      "summary": "The module includes lectures on quantum mechanics, thermodynamics and electrochemistry, kinetics, molecular spectroscopy and diffraction and mathematical tools for chemistry.",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH1202"
+          },
+          {
+            "type": "module",
+            "code": "CH1402"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH1202 OR PASS CH1402",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH2702",
+      "name": "Physical Chemistry 2 for MSci Chemistry and Physics",
+      "level": 2000,
+      "credits": 20,
+      "summary": "The module includes lectures on thermodynamics and electrochemistry, kinetics, molecular spectroscopy and diffraction and mathematical tools for chemistry.",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH1202"
+          },
+          {
+            "type": "module",
+            "code": "CH1402"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH2701"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH1202 OR PASS CH1402",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH2701"
+    },
+    {
+      "id": "CH3431",
+      "name": "Chemistry Workshop",
+      "level": 3000,
+      "credits": 15,
+      "summary": "The aim of the module is to provide a basis in organic spectroscopy, molecular symmetry and point groups and their application to inorganic spectroscopy, and crystallography and…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3512",
+      "name": "Organometallic Chemistry",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module offers a systematic introductory treatment of organometallic compounds, emphasising fundamental concepts and the principal functional groups of organometallic…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3513",
+      "name": "Chemistry of Materials",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module brings together a number of advanced concepts including advanced crystal chemistry, extended defects, semiconductor band theory and properties, phase equilibria and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3514",
+      "name": "Physical Inorganic Chemistry",
+      "level": 3000,
+      "credits": 10,
+      "summary": "The module covers the application of spectroscopic techniques, including multinuclear nuclear magnetic resonance (NMR) spectroscopy, electron paramagnetic resonance (EPR)…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3521",
+      "name": "Inorganic Chemistry Laboratory",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Practical experiments involving synthesis, characterisation and measurements in synthetic inorganic chemistry. Skills will be developed in the use of spectroscopy, data analysis,…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3612",
+      "name": "Synthetic Methodology",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module will cover a wide range of synthetic methods and applications of the methods to the synthesis of complex molecules. Students will gain a deep understanding of the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2603"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH2601 OR PASS CH2603 ) AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3613",
+      "name": "Carbohydrate and Nucleic Acid Chemistry",
+      "level": 3000,
+      "credits": 10,
+      "summary": "The aim of the module is to cover aspects of the chemistry of nucleic acids. It will begin with an introduction to carbohydrate chemistry including discussion of biological…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2603"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH2601 OR PASS CH2603 ) AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3615",
+      "name": "Mechanism in Organic Chemistry",
+      "level": 3000,
+      "credits": 10,
+      "summary": "The objective of this module is to provide the student with a thorough understanding of the mechanistic aspects of organic chemistry. A problem-solving approach is employed in…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2501"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR PASS 2 MODULES FROM {CH2501, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3621",
+      "name": "Organic Chemistry Laboratory",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Practical experiments involving synthesis, characterisation and measurements in organic chemistry. Skills will be developed in the use of spectroscopy, retrosynthetic analysis,…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH3622"
+          },
+          {
+            "type": "module",
+            "code": "CH3623"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3622 OR TAKE CH3623"
+    },
+    {
+      "id": "CH3622",
+      "name": "Organic Chemistry Laboratory (Materials)",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Practical experiments involving synthesis, characterisation and measurements in organic chemistry with a particular emphasis on organic materials. Skills will be developed in the…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2603"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH3621"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH2601 OR PASS CH2603 ) AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3621"
+    },
+    {
+      "id": "CH3623",
+      "name": "Organic Chemistry Laboratory (Biology and Chemistry)",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Practical experiments involving synthesis, characterisation and measurements in organic chemistry with a particular emphasis on the organic compounds of biological interest.…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "module",
+                "code": "CH2601"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "CH2603"
+          },
+          {
+            "type": "module",
+            "code": "CH2701"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH3621"
+          },
+          {
+            "type": "module",
+            "code": "CH3622"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2601 OR PASS CH2603 OR PASS CH2701",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3621 OR TAKE CH3622"
+    },
+    {
+      "id": "CH3712",
+      "name": "Quantum Theory of Atoms, Molecules and Solids",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module builds on 'Quantum Theory of Atoms, Molecules and Solids. Part I' given in CH2701. It provides an introduction to further, basic concepts of quantum mechanics that are …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2701"
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3715",
+      "name": "Introduction to Analysis of Materials",
+      "level": 3000,
+      "credits": 10,
+      "summary": "The objective of this module is to introduce the principles of the most popular materials analysis methods using X-ray, ion beams, electrons and diffraction methods. The module…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2701"
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH3716",
+      "name": "Quantitative Aspects of Medicinal Chemistry",
+      "level": 3000,
+      "credits": 10,
+      "summary": "The aim of the module is to cover some of the quantitative aspects of Medicinal Chemistry and drug design. Initially some relevant fundamental thermodynamics will be discussed.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH3717"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 2 MODULES FROM {CH2501, CH2601, CH2701}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3717"
+    },
+    {
+      "id": "CH3717",
+      "name": "Statistical Mechanics and Computational Chemistry",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module combines the study of statistical mechanics with an introduction to theoretical and computational methods as applied in modern chemistry. In the first set of lectures…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2701"
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH3716"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3716"
+    },
+    {
+      "id": "CH3721",
+      "name": "Physical Chemistry Laboratory",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module comprises practical experiments involving physical measurements and the use of computational programmes in Chemistry.",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2701"
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH4421",
+      "name": "Chemistry Research Skills Laboratory",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module integrates advanced practical inorganic, organic and physical chemistry. The major objective is improvement of problem solving abilities and confidence in independent…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH3521"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH3621"
+              },
+              {
+                "type": "module",
+                "code": "CH3721"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4442"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH3521 AND ( PASS CH3621 OR PASS CH3721 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4442"
+    },
+    {
+      "id": "CH4431",
+      "name": "Scientific Writing",
+      "level": 4000,
+      "credits": 20,
+      "summary": "This module aims to provide a comprehensive experience in sourcing and working with scientific literature related to a topic of chemical research, and seeks to develop a number of …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4442"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4442"
+    },
+    {
+      "id": "CH4441",
+      "name": "External Placement",
+      "level": 4000,
+      "credits": 90,
+      "summary": "This module is intended to provide each individual student with direct experience of work in an industrial or similar laboratory. Activities are very varied, according to the…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH4442",
+      "name": "Chemistry Research Project",
+      "level": 4000,
+      "credits": 60,
+      "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4441"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4441, CH4444, CH4445, CH4446, CH4447, CH4448, CH4449, ID4441}"
+    },
+    {
+      "id": "CH4444",
+      "name": "Chemistry Research Project for Non-Graduating Students (60)",
+      "level": 4000,
+      "credits": 60,
+      "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4442"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4442, CH4445, CH4446, CH4447, CH4448, CH4449, ID4441, CH5441}"
+    },
+    {
+      "id": "CH4445",
+      "name": "Chemistry Research Project for Non-Graduating Students (90)",
+      "level": 4000,
+      "credits": 90,
+      "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4442"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4442, CH4444, CH4446, CH4447, CH4448, CH4449, ID4441, CH5441}"
+    },
+    {
+      "id": "CH4446",
+      "name": "Chemistry Research Project for Non-Graduating Students (120)",
+      "level": 4000,
+      "credits": 120,
+      "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4442"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4442, CH4443, CH4444, CH4445, CH4448, CH4449, ID4441, CH5441}"
+    },
+    {
+      "id": "CH4448",
+      "name": "Chemistry Project for Chemistry and Geology",
+      "level": 4000,
+      "credits": 20,
+      "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2701"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH4442"
+          },
+          {
+            "type": "module",
+            "code": "CH5441"
+          },
+          {
+            "type": "module",
+            "code": "ID4441"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4442 OR TAKE CH5441 OR TAKE ID4441"
+    },
+    {
+      "id": "CH4449",
+      "name": "Chemistry Research Project for Non-Graduating Students (20)",
+      "level": 4000,
+      "credits": 20,
+      "summary": "",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4442"
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4442, CH4443, CH4444, CH4445, CH4446, CH4447, CH4448, ID4441, CH5441}"
+    },
+    {
+      "id": "CH4453",
+      "name": "Chemistry Distance Learning (Materials Chemistry)",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This distance-learning module allows students to develop an advanced understanding of the basic concepts of various topics in Materials Chemistry.",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH4455",
+      "name": "Chemistry Distance Learning (Inorganic Chemistry)",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This module offers selected material covered by level 4000 BSc/MChem modules CH4514 and CH4515 in a distance learning mode to students on the MChem one-year placement. See the…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4514"
+      },
+      "prerequisitesText": "ONLY CHEMISTRY STUDENTS ON EXTERNAL PLACEMENT MAY TAKE THIS MODULE.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4514"
+    },
+    {
+      "id": "CH4456",
+      "name": "Chemistry Distance Learning (Organic Chemistry)",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This module offers the material covered by level 4000 BSc/MChem module CH4614 in a distance learning mode to students on the MChem one-year placement. See the module description…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4614"
+      },
+      "prerequisitesText": "ONLY CHEMISTRY STUDENTS ON EXTERNAL PLACEMENT MAY TAKE THIS MODULE.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4614"
+    },
+    {
+      "id": "CH4458",
+      "name": "Chemistry Distance Learning (Physical Chemistry)",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This module offers the material covered by level 4000 BSc/MChem module CH4716 in a distance learning mode to students on the MChem one-year External Placement. See the module…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2701"
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4716"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4716"
+    },
+    {
+      "id": "CH4461",
+      "name": "Integrating Chemistry",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This is a general chemistry module aimed at developing and consolidating fundamental aspects of basic understanding. Students will be encouraged to gain a deeper understanding of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH5461"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 3 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH5461"
+    },
+    {
+      "id": "CH4514",
+      "name": "Advanced Metal Chemistry and Green Chemistry",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This module covers the heavier d-block and f-block metals and also the theory behind bonding, magnetism and optoelectronic spectroscopy in d-block metal complexes. At the end of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4455"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4455"
+    },
+    {
+      "id": "CH4515",
+      "name": "Advanced Main Group Chemistry",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This module discusses the importance of and structural similarities between rings, cages and clusters particularly in main group chemistry. The general rules for predicting…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH4516",
+      "name": "The Future of Sustainable Chemicals Production",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This module will explore the major challenges facing the chemical industry in the transition from fossil fuel dependence to sustainable alternatives. The module will examine the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH4612",
+      "name": "Blockbuster Pharmaceuticals",
+      "level": 4000,
+      "credits": 10,
+      "summary": "The module will discuss case studies from the most successful pharmaceutical products. How the compounds came to be discovered, what diseases they are targeting, how they work and …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH4614",
+      "name": "Heterocyclic and Pericyclic Chemistry",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This module covers the important areas of heterocyclic and pericyclic chemistry in detail. In heterocyclic chemistry, the nomenclature and numbering of single and fused ring…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2501"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CH1601"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CH1202"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4456"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4456"
+    },
+    {
+      "id": "CH4615",
+      "name": "Fragrance, Food and Colour Chemistry",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This module considers three areas where applications of organic chemistry have been able to benefit society and given rise to important industries. The fragrance, perfumery and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2501"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CH1601"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CH1202"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH4715",
+      "name": "Functional Materials and Electrons in Solids",
+      "level": 4000,
+      "credits": 10,
+      "summary": "The module introduces the physical concepts of dielectrics, semiconductors, and metals. Electronic properties of interfaces and thin films which are fundamental to devices such as …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2701"
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4458"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4458"
+    },
+    {
+      "id": "CH4716",
+      "name": "Electrochemistry and Computational Chemistry",
+      "level": 4000,
+      "credits": 10,
+      "summary": "One component of the module covers electrolyte solutions and ionic conductivity, equilibrium electrochemistry, electrode processes and applications of electrochemistry. The other…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2701"
+              },
+              {
+                "type": "module",
+                "code": "CH2501"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CH1601"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CH1202"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4458"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH2701 AND PASS 1 MODULE FROM {CH2501, CH2601, CH2603} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4458"
+    },
+    {
+      "id": "CH4717",
+      "name": "Fundamentals of the Spectroscopy of Molecules and Solids",
+      "level": 4000,
+      "credits": 10,
+      "summary": "This module describes the properties of matter relevant to their interaction with electromagnetic radiation. Absorption, transmission, reflection and diffraction of light across…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2701"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2603"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND ( PASS CH2501 OR PASS CH2601 OR PASS CH2603 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5441",
+      "name": "Research Project",
+      "level": 5000,
+      "credits": 60,
+      "summary": "The research project at Level 5000 of the MChem and MSci programmes aims to develop the students' skills in the following areas: experimental design and problem-solving;…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4444"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4444, CH4445, CH4446, CH4447, CH4448, CH4449, ID4441}"
+    },
+    {
+      "id": "CH5442",
+      "name": "Chemistry Research Project for First Year MPhil",
+      "level": 5000,
+      "credits": 60,
+      "summary": "The research project for MPhil aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation of…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5461",
+      "name": "Integrating Chemistry",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This is a general chemistry module aimed at developing and consolidating fundamental aspects of basic understanding. Students will be encouraged to gain a deeper understanding of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4461"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 3 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4461"
+    },
+    {
+      "id": "CH5511",
+      "name": "Homogeneous Catalysis",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module discusses the use of metal based systems in organic transformations and a detailed treatment of homogeneous catalysis. Important processes in the petrochemicals…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5517",
+      "name": "Advanced Physical Inorganic Chemistry",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module involves advanced topics in physical inorganic chemistry with a special emphasis on recent developments in the fields of paramagnetic and thermoelectric systems.",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2501"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5518",
+      "name": "Blockbuster Solids",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module covers two major topics. The first deals with modern materials which have a major impact on our lives, focusing on how the material's structure influences its…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2601"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5611",
+      "name": "Asymmetric Synthesis",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module discusses the methods available for the synthesis of chiral compounds. After a detailed introduction to the specialised terminology and analytical methods used, the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2501"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CH1601"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CH1202"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5612",
+      "name": "Natural Products, Biosynthesis and Enzyme Co-Factors",
+      "level": 5000,
+      "credits": 10,
+      "summary": "The module will investigate the biosynthesis of the main natural products groups (polyketides, terpenes, alkaloids). Unifying features of their structures and biosynthesis will be …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2501"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CH1601"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CH1202"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5613",
+      "name": "Reactive Intermediates",
+      "level": 5000,
+      "credits": 10,
+      "summary": "Aspects of the organic chemistry of the most important reactive intermediates viz.: carbo-cations, carbanions, free radicals, carbenes, nitrenes and arynes will be covered. Means…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2501"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CH1601"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CH1202"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5614",
+      "name": "Chemical Biology",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module will examine new methodologies for drug discovery. An overview of the processes of target discovery, lead discovery and lead optimisation will be given. The use of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2501"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CH1601"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CH1202"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5616",
+      "name": "Molecular Recognition",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module offers a systematic introductory treatment of molecular recognition, emphasising fundamental concepts of intermolecular interactions and molecular recognition in…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2601"
+              },
+              {
+                "type": "module",
+                "code": "CH2501"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH2501"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CH1601"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CH1202"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5711",
+      "name": "Advanced Spectroscopic Methods",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module describes the importance of more advanced spectroscopic methods for the elucidation of structure and properties of increasingly complex molecules and materials.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2701"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5713",
+      "name": "Surface Science and Heterogeneous Catalysis",
+      "level": 5000,
+      "credits": 10,
+      "summary": "The module describes the Chemistry of solid surfaces with particular reference to the structure of metal, oxide and semiconductor surfaces. The techniques available to…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2701"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5714",
+      "name": "Chemical Applications of Electronic Structure Calculations",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module will build on the foundations laid in CH2701 and CH3712 and introduce further aspects and methods of modern computational chemistry related to the electronic…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2701"
+          },
+          {
+            "type": "module",
+            "code": "CH3712"
+          },
+          {
+            "type": "module",
+            "code": "CH3717"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701 AND PASS CH3712 AND PASS CH3717",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5715",
+      "name": "Energy Conversion and Storage",
+      "level": 5000,
+      "credits": 10,
+      "summary": "In our efforts to mitigate global warming it is essential to develop new and improved methods of generation and storage of energy. Foremost among these methods are the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2701"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5716",
+      "name": "Processing of Materials",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module focuses on the processing of materials, ceramics in particular. Fundamental properties such as crystallinity, composition, crystal phase, phase mixing, domain…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2701"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5717",
+      "name": "Nanostructured Materials",
+      "level": 5000,
+      "credits": 10,
+      "summary": "This module will introduce the concepts and science behind the design and synthesis of a wide range of nanostructures and the application of these structures in functional…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH2501"
+          },
+          {
+            "type": "module",
+            "code": "CH2701"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5822",
+      "name": "Research Skills in Chemistry",
+      "level": 5000,
+      "credits": 20,
+      "summary": "This module involves gaining familiarity and expertise in specialised research techniques in the Chemical Sciences appropriate to the prospective Research Project. These will vary …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5832",
+      "name": "Contemporary Research Awareness",
+      "level": 5000,
+      "credits": 20,
+      "summary": "This module which forms part of the MSc programmes in Chemical Science and in Catalysis is based on Research Colloquia and Seminars delivered by external speakers and covering the …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5833",
+      "name": "Literature Review for MSc",
+      "level": 5000,
+      "credits": 20,
+      "summary": "This module aims to provide a comprehensive experience in sourcing and working with scientific literature related to a current topic of chemical research in the area of the MSc…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "CH5841",
+      "name": "Research Project for MSc",
+      "level": 5000,
+      "credits": 60,
+      "summary": "The research project for MSc aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation of…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ID4441",
+      "name": "Combined Chemistry and Geology Research Project",
+      "level": 4000,
+      "credits": 50,
+      "summary": "",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CH4442"
+      },
+      "prerequisitesText": "ADMISSION TO STAGE 4 OF BSC PROGRAMME IN JOINT HONOURS CHEMISTRY AND GEOLOGY",
+      "antiRequisitesText": "IN TAKING THIS MODULE YOU CANNOT TAKE CH4442-CH4448, CH5441"
+    }
+  ]
+}

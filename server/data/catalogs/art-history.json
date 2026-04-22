@@ -1,0 +1,2819 @@
+{
+  "id": "art-history",
+  "name": "Art History",
+  "years": [
+    "2025/26",
+    "2026/27",
+    "2027/28"
+  ],
+  "nodes": [
+    {
+      "id": "AH1001",
+      "name": "Art in Europe and Beyond to 1600",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This 20 credit module provides a survey of painting, sculpture and architecture in Europe and beyond from c. 1280 to c.1580. It follows a roughly chronological course, from Giotto …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH1003",
+      "name": "Art in Europe and Beyond 1600-1800",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This 20-credit module provides a survey of Baroque, Rococo and Enlightenment art in Europe and beyond. We begin with a study of seventeenth-century Italian art and architecture,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH1901",
+      "name": "A History of Art from the Late Medieval to the Early Modern (1300-1600)",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The module will provide a survey of western European art from the late Middle Ages to the end of the eighteenth century. Each lecture will focus on a particular work of art or…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1001"
+          },
+          {
+            "type": "module",
+            "code": "AH1003"
+          }
+        ]
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AH1001 OR TAKE AH1003"
+    },
+    {
+      "id": "AH1902",
+      "name": "A History of Art from the Early Modern to Romanticism (1600-1800)",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The module will provide a survey of western European art from 1600-1800. Each lecture will focus on a particular work of art or monument, chosen to illustrate not only the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH2001",
+      "name": "Modernity, Empire, and Revolution: Art from 1789-1900",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module explores the intersection of visual culture with modernity, empire and revolution in the long nineteenth century, predominantly but not exclusively in Europe. Students …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1001"
+          },
+          {
+            "type": "module",
+            "code": "AH1003"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH2002",
+      "name": "Art, Culture and Politics, from 1900 to Now",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module examines the relationship between art and political struggle in the twentieth and twenty-first centuries, exploring how practitioners around the globe have contributed …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1001"
+          },
+          {
+            "type": "module",
+            "code": "AH1003"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH2901",
+      "name": "From the Académie to ‘Post Impressionism’ (1800-1900)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "The module will provide a survey of western European art from the mid-19th to the mid-20th century. Each lecture will focus on a particular work or art, monument or movement,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "AH1901"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1901",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH2902",
+      "name": "From Fauvism to Now (1900 onwards)",
+      "level": 2000,
+      "credits": 20,
+      "summary": "",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "prerequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AH2001 OR TAKE AH2002"
+    },
+    {
+      "id": "AH3104",
+      "name": "Central European Art, Architecture and Design, c. 1900",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module analyses the development of the central European art, architecture and design between the 1880s and the 1910s. Focusing on the Austro-Hungarian empire (in particular…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002 AND ( PASS AH1001 OR PASS AH1003 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3112",
+      "name": "Women Artists and Autobiography",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module introduces students to the work of women artists from the 1550s to the present, including Artemisia Gentileschi, Berthe Morisot, Yayoi Kusama, and many others. Instead …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1001"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1003"
+              },
+              {
+                "type": "module",
+                "code": "AH2001"
+              },
+              {
+                "type": "module",
+                "code": "AH2002"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3118",
+      "name": "European Gothic Architecture 1140 - 1540",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module examines European Gothic architecture from its origins in 12th-century France to the end of the Middle Ages. There will be a particular focus on ecclesiastical…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1001"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1003"
+              },
+              {
+                "type": "module",
+                "code": "AH2001"
+              },
+              {
+                "type": "module",
+                "code": "AH2002"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3130",
+      "name": "Approaches to Art History",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This 30-credit module provides an introduction to the most significant approaches currently practiced in art history. It is designed to encourage students to consider new ways in…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3131",
+      "name": "A Survey of Islamic Art",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module offers an introduction to the history of art and architecture in the Middle East and Central Asia, from the birth of Islam in the seventh century through to modern…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH2001"
+              },
+              {
+                "type": "module",
+                "code": "AH2002"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "MH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( TAKE AH2001 AND TAKE AH2002 ) OR TAKE MH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3132",
+      "name": "The Relief",
+      "level": 3000,
+      "credits": 30,
+      "summary": "Caught between two and three dimensions, the relief remains hard to pin down. It is at once an aesthetic concept and a category of object, a deceptive fiction and a solid reality, …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1001"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1003"
+              },
+              {
+                "type": "module",
+                "code": "AH2001"
+              },
+              {
+                "type": "module",
+                "code": "AH2002"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3134",
+      "name": "Collecting Chinese Art: Histories and Practices",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module explores the histories and practices of collecting Chinese art with reference to famous collections kept in imperial palaces, private houses and public museums in…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "AH1001"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "(AH1001 OR AH1003), AH2001, AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3135",
+      "name": "Palm Leaf, Poem, and Portrait: The Art of Painting in India",
+      "level": 3000,
+      "credits": 30,
+      "summary": "The Indian subcontinent is home to a rich variety of painting traditions, ranging from murals to illuminated manuscripts to devotional images. This module offers an introduction…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( TAKE AH1001 OR TAKE AH1003 ) AND TAKE AH2001 AND TAKE AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3136",
+      "name": "Contemporary Chinese Art, 1970s to Now",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module explores the emergence and development of contemporary Chinese art following the end of the Cultural Revolution (1966-76). It examines the creation and reception of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3137",
+      "name": "Contemporary Art and Resilience in the Arab World",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module examines contemporary art of the Arab world through the thread of resilience. Artists use their creative practice to craft gender, sexual, and cultural identities;…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3196",
+      "name": "Modern Art Beyond the West",
+      "level": 3000,
+      "credits": 30,
+      "summary": "Prompted by decolonization, postcolonialism, globalisation, and the globalised contemporary art world of the present day, many have suggested that narratives of modern art focused …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2002"
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2002 AND PASS AH2001",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3901",
+      "name": "Walter Richard Sickert and European Art c. 1880 - 1940",
+      "level": 3000,
+      "credits": 30,
+      "summary": "The module will examine European Art c.1880 - c.1940 paying particular attention to the artistic development of the British painter Walter Richard Sickert and his relationship to…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2901"
+          },
+          {
+            "type": "module",
+            "code": "AH1901"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2901 AND PASS AH1901",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3902",
+      "name": "The Country, City and Society in Nineteenth-Century French Art",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module will examine French Art, Society and Culture as demonstrated through a study of Realist, Impressionist, Post-Impressionist and Avant-Garde paintings c.1840 - c.1900.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2901"
+          },
+          {
+            "type": "module",
+            "code": "AH1901"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2901 AND PASS AH1901",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3904",
+      "name": "From Hogarth to Sickert: British Painting and the Theatre (1740 - 1930)",
+      "level": 3000,
+      "credits": 30,
+      "summary": "As Walter Sickert famously stated in 1934: The influence between brush and mask has at the best periods been reciprocal. This relationship, between painting and the theatre, has a …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2901"
+          },
+          {
+            "type": "module",
+            "code": "AH1901"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2901 AND PASS AH1901",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3905",
+      "name": "'No day without a line': The Etching Revival in Britain: 1830-1930",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module will examine the development of printmaking, collecting and exhibiting in Britain, with a key focus on Scotland. It will explore the development of prominent artists…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1901"
+          },
+          {
+            "type": "module",
+            "code": "AH2901"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1901 AND PASS AH2901",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH3906",
+      "name": "Art History Independent Research Project: MA Combined Studies",
+      "level": 3000,
+      "credits": 30,
+      "summary": "The 30-credit Independent Research Project (IRP) may be taken by MA Combined Studies students who have completed pre-requisites in Art History. The IRP offers an opportunity to…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1901"
+          },
+          {
+            "type": "module",
+            "code": "AH2901"
+          },
+          {
+            "type": "module",
+            "code": "AH3901"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE AH1901 AND TAKE AH2901 AND TAKE AT LEAST 3 MODULES FROM {AH3901, AH3902, AH3904, AH3905}",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4050",
+      "name": "Approaches to Persian Painting and the Arts of the Book",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module surveys the range of Arts of the Book, spanning the Persian literary and visual culture of Central Asia, Turkey, and the Indian Subcontinent from the fourteenth to the …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH2002"
+              },
+              {
+                "type": "module",
+                "code": "AH2001"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "MH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH2002 AND PASS AH2001 ) OR PASS MH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4051",
+      "name": "Ajab: The Aesthetics of Wonder in Islamic Art",
+      "level": 4000,
+      "credits": 30,
+      "summary": "ʿAjab is a desirable and intense feeling of bewilderment that come to people due to their incapacity to comprehend the cause of an event, object, or phenomenon. This module…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4076",
+      "name": "Rubens and Rembrandt: Parallel Worlds",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module examines seventeenth century Netherlandish art with reference to the careers and works of Peter Paul Rubens (1577-1640) and Rembrandt Harmenzoon van Rijn (1606-69).…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4078",
+      "name": "Art and Politics in France since 1945",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This course aims to familiarise students with aspects of French art produced from the end of WWII until now. It does so in the context of history and politics: the arts will be…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4081",
+      "name": "The Scandinavian Art of Building and Design: Identity and Myth",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This course explores the distinctive nature of Scandinavian architecture and design, and their role in fostering specific ideas about Nordic identity. While the grouping of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4087",
+      "name": "Aspects of Surrealism",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This course studies the theory, practice and history of Surrealism, the radical artistic collective established in France in 1924. A diverse range of Surrealist art-making…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4097",
+      "name": "60-Credit Honours Dissertation in Art History",
+      "level": 4000,
+      "credits": 60,
+      "summary": "The dissertation will be valued at 60 credits and completed over two semesters. It will be c. 12,000 words in length. Topics must be capable of being supervised by the School's…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "AH4099"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AH4099"
+    },
+    {
+      "id": "AH4099",
+      "name": "30-Credit Dissertation in Art History",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The dissertation will be valued at 30 credits and completed over one semester. It will be c. 6,000 words in length. Topics must be capable of being supervised by the School's…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "AH4097"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AH4097"
+    },
+    {
+      "id": "AH4142",
+      "name": "Aspects of Modern Photography, 1910 - 1955",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module traces the history of European and American photography during the first part of the twentieth century. Through a consideration of aesthetics, theoretical issues and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4163",
+      "name": "Ecologies of Modern Sculpture",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module offers students an opportunity to explore histories of modern and contemporary sculpture from an ecocritical or environmental perspective. All forms of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4167",
+      "name": "Symbolism, Decadence and Modernity",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Exploring the Symbolist movement from an international perspective, this module will cover groups including the Nabis, the Italian Divisionists, and the British Aesthetic…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4175",
+      "name": "Luxury Goods in the Middle Ages",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module considers the economic background to sweeping changes in the late middle ages; to a new distribution of wealth; and to the development new trade routes that brought…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4177",
+      "name": "Objects of Devotion: The Art and Material Culture of Medieval Christianity",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will examine the art, images, and material culture of Christian devotion in Northern Europe, from 1100 to 1500. When medieval people entered their parish churches, or…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4183",
+      "name": "The Senses, Objects, and Buildings in Early Modern Europe",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores the role of the senses in seventeenth- and eighteenth-century European art and architectural design and experience. It begins in the late sixteenth century…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4184",
+      "name": "The Art of the Apocalypse from the Middle Ages to the Present",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module examines how the fantastical imagery and fearsome rhetoric of the Book of Revelation have been reimagined from the Middle Ages to the present. Composed in the first…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4185",
+      "name": "Michelangelo: Sculptor, Painter, Architect",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The module will be organised as a chronological survey of Michelangelo's life, times, and work. This will allow to consider his artistic production in different media in a fluid…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4190",
+      "name": "Romanticism and Visuality 1780 - 1830",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module examines European romanticism and its relation to a broader field of visual practices. We will explore stylistic transformations in late eighteenth- and early…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2002"
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2002 AND PASS AH2001",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4192",
+      "name": "Images of Empire",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This course examines the visual culture of the French and British empires, from roughly 1720 to 1870. Throughout the course, we consider a diverse range of image-making practices…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4206",
+      "name": "Raphael and his Reception",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The module explores the work and career of Raphael, looking at the development of his art from his early years in Umbria, through his study of Leonardo da Vinci and Michelangelo…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4208",
+      "name": "The Portrait in Western Art",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Studying portraiture means studying representations of human faces. Most of the time, these are faces of people who lived long ago, and their portraits give us access to the way…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4214",
+      "name": "Body / Politics: Performance Art Since 1960",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores how artists have mobilised their bodies to create social protests and critiques in the late twentieth-early twenty-first century. We will begin by studying…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4215",
+      "name": "Critical Issues in Contemporary Art",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Contemporary art is a vast, complex and exciting field of study. The 'contemporary' now has a long history, stretching back to the fall of the Berlin wall in 1989 and the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4216",
+      "name": "Medieval Islamic Painting",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The module surveys Islamic painting (mosaics, frescoes, pottery and especially the arts of the book) between c.700 and c.1500 in the Arab and Persian worlds. Major themes to be…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4218",
+      "name": "The Art of Iran, 600 B.C. to 1700 A.D.",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The thread that runs through this entire module is that Iran has produced over the millennia one of the world's great civilisations, with a distinctive character of its own, a…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "ENTRY TO THE ART HISTORY HONOURS PROGRAMME",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4226",
+      "name": "African Modernisms",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This course explores modernist art practice across the African continent. We begin by examining the term 'modernism': what is modernist / modern art? Where is it located? Are its…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4227",
+      "name": "Scotland and the Arts of Africa",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This course explores the complex relationship between Scotland and African continent as revealed through the collections of art objects, public sculptures and other archives found …",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4235",
+      "name": "Communication in Art History",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module is part of the 'Communication and Teaching in Arts and Humanities' in which students gain substantial experience of a working environment. This component offers the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4236",
+      "name": "Images and Knowledge in Early Modern Europe",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores the relationship between science and the visual arts in Europe in the sixteenth and seventeenth centuries. Drawing on a wide range of materials - from still…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4241",
+      "name": "Leonardo da Vinci, 500 Years Later",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Few figures loom as large in the history of Western art as Leonardo da Vinci, the artist who, in many regards, shaped the notion of ¿genius¿ we have inherited. Works of art such…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "ENTRY TO THE ART HISTORY HONOURS PROGRAMME",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4246",
+      "name": "The Art and Visual Culture of the Global HIV/AIDS epidemic",
+      "level": 4000,
+      "credits": 30,
+      "summary": "First emerging as an epidemic in New York City at the beginning of the 1980s, HIV/AIDS directly affected the art world in an unprecedented manner. We will look at how the epidemic …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002 AND ( PASS AH1001 OR PASS AH1003 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4252",
+      "name": "Art History and Environmental Crisis",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The current climate crisis requires us to rethink our relationship to the planet, and, in turn, to reassess many cherished cultural and historical narratives. This module provides …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1001"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1003"
+              },
+              {
+                "type": "module",
+                "code": "AH2001"
+              },
+              {
+                "type": "module",
+                "code": "AH2002"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4253",
+      "name": "Decolonial, Feminist, Queer: Histories of Art in Britain Since 1945",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module builds on ground-breaking revisionist scholarship and curatorial projects to explore decolonial, feminist and queer art histories in Britain from the aftermath of WWII …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AH1001"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1003"
+              },
+              {
+                "type": "module",
+                "code": "AH2001"
+              },
+              {
+                "type": "module",
+                "code": "AH2002"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4255",
+      "name": "British Theatre and Visual Culture: 1740-1880",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will examine the relationship between British Theatre and Visual Culture from 1740 to 1880, paying particular attention to the interplay between Art and Theatre as…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "AH1001"
+              },
+              {
+                "type": "module",
+                "code": "AH1003"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "AH2001"
+          },
+          {
+            "type": "module",
+            "code": "AH2002"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4257",
+      "name": "Modern and Contemporary Fiber Art",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module introduces students to textiles and fiber art in the twentieth and twenty-first centuries. Organized thematically, we explore a diverse range of materials, techniques, …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4258",
+      "name": "Digital Approaches to Medieval Manuscripts",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module combines medieval studies with cutting-edge digital technology. It invites students to explore how digital tools transform our understanding of the European Middle…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4261",
+      "name": "Art and the Ocean: Materiality, Representation, Ecology, 1500–1750",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The early modern oceans impacted European art in important ways. Maritime exploration and colonial expansion compelled merchants to transport objects across vast distances.…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH4794",
+      "name": "Joint Dissertation (30cr)",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The dissertation must consist of approximately 6,000 words of English prose on a topic agreed between the student and two appropriate members of staff (who act as supervisors).…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "STUDENTS MUST HAVE A LETTER OF AGREEMENT",
+      "antiRequisitesText": "CANNOT TAKE MORE THAN 30 CREDITS IN OTHER DISSERTATION/PROJECT MODULES"
+    },
+    {
+      "id": "AH4795",
+      "name": "Joint Dissertation (60cr)",
+      "level": 4000,
+      "credits": 60,
+      "summary": "The dissertation must consist of approximately 10,000 - 12,000 words of English prose on a topic agreed between the student and two appropriate members of staff (who act as…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "STUDENTS MUST HAVE A LETTER OF AGREEMENT",
+      "antiRequisitesText": "CANNOT TAKE ANY OTHER DISSERTATION/PROJECT MODULE"
+    },
+    {
+      "id": "AH5099",
+      "name": "Dissertation for MLitt Programme/s",
+      "level": 5000,
+      "credits": 60,
+      "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5100",
+      "name": "Themes in Art History",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module, designed for those enrolled for the MLitt and MPhil in Art History, will introduce students to a selection of key issues, concepts, and writings in the field. It will …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5111",
+      "name": "The 'New Vision' in Twentieth-Century European Photography",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module examines the formal features social context and political import of photography in Europe known by the umbrella label 'New Vision'. The focus will be on the aspects of …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5140",
+      "name": "Object Lessons in Photography",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module will explore, interpret and analyse photographic materials in the University of St Andrews Special Collections. The collection holds a fascinating range of 19th and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5146",
+      "name": "Issues in Photographic Criticism",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module provides an introduction to key writings and debates in the history of photographic criticism from the 1830s to the present day. Our aim is to investigate the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5162",
+      "name": "Art and Technology",
+      "level": 5000,
+      "credits": 30,
+      "summary": "In this module students will consider a series of technologies and ask: how has this technology inflected how images are made and consumed, what subjects are represented, and even …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5163",
+      "name": "Representation and the Body",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module examines representations of the body from the early modern period to the contemporary moment. Rather than offering an exhaustive historical survey, however, it will…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5164",
+      "name": "The Book as Object and Idea",
+      "level": 5000,
+      "credits": 30,
+      "summary": "People over the world use books all the time, but rarely consider them as a cultural form with a rich history and symbolism. This module will consider the book as cultural…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5166",
+      "name": "The Image of the Artist",
+      "level": 5000,
+      "credits": 30,
+      "summary": "For at least six centuries, western civilisation has viewed the visual arts as the creations of named individuals. The highest artistic achievements of an age have served as an…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5167",
+      "name": "Writing on the Visual",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module examines verbal responses to the visual, from the origins of art criticism as a literary genre, to contemporary modes of art writing. It will explore varieties of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5168",
+      "name": "The Documentary Impulse",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This MLitt module will explore the complex relationship between photography and concepts of documentary and the document during the twentieth century, and into the twenty-first.…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5169",
+      "name": "Art History in the Studio: Process, Materials, Technique",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module asks what the history of art might look like as a history of process. In an effort to bridge the gap between creating art and writing about it, we will draw from the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5200",
+      "name": "Ecole du Louvre Summer Study",
+      "level": 5000,
+      "credits": 60,
+      "summary": "This is a 5000-level module, to be taken during the Summer term. It replaces AH5099 for those students in the History of Art, History of Photography, or Museum and Heritage…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5605",
+      "name": "Community Heritage and Sustainability",
+      "level": 5000,
+      "credits": 30,
+      "summary": "As grass roots initiatives embedded in local traditions and concerns, community museums and heritage organisations are ideally placed to respond to some of the most pressing…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GD5601"
+          },
+          {
+            "type": "module",
+            "code": "GD5602"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GD5601 AND PASS GD5602",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5606",
+      "name": "The Digital Museum: Past, Present and Future",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module critically analyses the adoption of digital technologies in cultural institutions and the impact of this upon their audiences. We begin by looking to the past in order …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GD5601"
+          },
+          {
+            "type": "module",
+            "code": "GD5602"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GD5601 AND PASS GD5602",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5607",
+      "name": "Participation and Co-production in Museums and Heritage",
+      "level": 5000,
+      "credits": 30,
+      "summary": "Participatory practice has become a critical aspect of museum and heritage work in attempts to go beyond a conventional focus on care for objects and sites. However, official…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "GD5601"
+          },
+          {
+            "type": "module",
+            "code": "GD5602"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE GD5601 AND TAKE GD5602",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5608",
+      "name": "Colonial Collections and Critical Displays",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module focuses on the management of colonial collections in museums and heritage organisations, studying innovative skills and methodologies for their critical display.…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5801",
+      "name": "Introduction to Digital Art History and the Humanities",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will provide an introduction to key issues, themes, and ideas relating to Digital Art History. After addressing the definition of Digital Humanities and Digital Art…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5802",
+      "name": "Digital Art: From Computer-Generated Projects to Artificial Intelligence",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module analyses the ways in which artists implement digital tools, materials and methodologies within their practices. We will study the origins of digital art through…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5803",
+      "name": "Digital Tools: Visualisation, Interpretation and Analysis",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will study the key digital tools available to art historians and the ways in which they can facilitate our analysis, interpretation, and visualisation of art…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5804",
+      "name": "Project Work: Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will challenge students to critically analyse the methodological choices made by digital art historians. The module will build on the key themes, issues, and ideas…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "AH5801"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH5801",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5805",
+      "name": "Project Work: Data Analysis",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module challenges students to think critically about the creation, organisation, and classification of data produced by digital art historians. This module requires students…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "AH5801"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH5801",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5806",
+      "name": "Project Work: Digital Mapping",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module challenges students to research a museum collections dataset and create a digital map to visualise, explore and analyse that data. Students will be instructed in…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5898",
+      "name": "Digital Art History Ecole du Louvre Dissertation",
+      "level": 5000,
+      "credits": 60,
+      "summary": "Following the successful completion of the coursework, MLitt students undertake a final project module of 60 credits. This module replaces AH5899 for students on the Digital Art…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "AH5899",
+      "name": "Digital Art History MLitt Dissertation",
+      "level": 5000,
+      "credits": 60,
+      "summary": "Following the successful completion of the coursework, MLitt students undertake a final project module of 60 credits. The final project should demonstrate an element of…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "AH5801"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH5801",
+      "antiRequisitesText": ""
+    }
+  ]
+}

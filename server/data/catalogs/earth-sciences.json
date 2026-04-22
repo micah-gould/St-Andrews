@@ -1,0 +1,1137 @@
+{
+  "id": "earth-sciences",
+  "name": "Earth and Environmental Sciences",
+  "years": [
+    "2025/26",
+    "2026/27",
+    "2027/28"
+  ],
+  "nodes": [
+    {
+      "id": "EG3031",
+      "name": "Special Topic for Physical Geography",
+      "level": 3000,
+      "credits": 5,
+      "summary": "This module provides support and guidance for geography students taking ES3020 or ES4020 as a 5 credit top-up. In addition Geography MA and BSc students taking 15-credit modules…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES1001",
+      "name": "Understanding Planet Earth",
+      "level": 1000,
+      "credits": 20,
+      "summary": "The Earth is unique in our solar-system by being both geologically active and hosting a myriad of life. This module introduces the study of Planet Earth, from planetary formation…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES1002",
+      "name": "Earth's Resource Challenges",
+      "level": 1000,
+      "credits": 20,
+      "summary": "Access to clean water, fertile soil, critical metals, and cheap energy is crucial for modern society. However, the unsustainable use of these natural resources is changing the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES1006",
+      "name": "Astrobiology: The Search for Life in the Universe",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module aims to lead students through the scientific quest for the origin of life on Earth and the prospect for finding life on other planets, both in our solar system and on…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES1802",
+      "name": "The Geological History of Scotland",
+      "level": 1000,
+      "credits": 12,
+      "summary": "This module introduces students to Earth Science, using the geological and climatic history of Scotland as a case study for past and present global processes. This is a four-week…",
+      "semesters": [
+        "Summer after graduation"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES2001",
+      "name": "Dynamic Earth: The Earth System",
+      "level": 2000,
+      "credits": 30,
+      "summary": "This module reflects an up-to-date approach to understanding of the behaviour of the solid Earth and its interaction with the atmosphere and biosphere and beyond. It will provide…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES2002",
+      "name": "Dynamic Earth: Magma, Minerals and Metamorphism",
+      "level": 2000,
+      "credits": 30,
+      "summary": "This module focuses on the geology of the solid Earth, the formation of different rock types and how the processes the Earth's interior shape the surface we live on. The mineral…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES2003",
+      "name": "Dynamic Earth: Earth Surface Processes",
+      "level": 2000,
+      "credits": 30,
+      "summary": "This module focuses on the low temperature processes that occur in the outer envelopes of the Earth, including the oceans, atmosphere and the ‘Critical Zone’ (soils and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES2004",
+      "name": "Practical and Field Skills for Earth Sciences (Direct Entrants)",
+      "level": 2000,
+      "credits": 30,
+      "summary": "This module is only available to students who have been accepted for direct 2nd year entry to an Earth Science degree programme. It provides basic practical and fieldwork skills…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3002",
+      "name": "Data Analysis in Earth Sciences",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module covers the principles behind, and practical application of data handling, visualisation and analysis in Earth Sciences. Statistical training includes (i) understanding …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3003",
+      "name": "GIS and Spatial Analysis for Earth Scientists",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module covers the principles behind, and practical application of digital spatial analysis in Earth Sciences. This includes the analysis of primary and secondary datasets,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3004",
+      "name": "Processes and Products in Sedimentary Systems",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This course focuses on key aspects of the physical, chemical and biological processes that shape Earth’s surface environments, both as they occur in the present and as archived in …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3006",
+      "name": "Advanced Field Skills in Earth & Environmental Sciences",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module provides advanced field skills required by Earth and Environmental Science students to record and interpret field data. The module is divided into five units: 1)…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3007",
+      "name": "Structural Geology and Tectonics",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module covers the principles of rock deformation and the tectonic processes that drive this deformation. The goals of this module are: a) the development of skills in the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3008",
+      "name": "Geochemistry",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module provides an introduction to geochemistry: the study of the abundance, distribution and circulation of the chemical elements in minerals, rocks, soils, water and the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3009",
+      "name": "Igneous and Metamorphic Petrology",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This is a core module within the BSc Geology and MGeol Earth Sciences degrees and delivered early in the Honours programme in order to provide a fundamental framework for…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3010",
+      "name": "Coding & Modelling in Earth Sciences",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module covers principles & skills in coding and modelling for the Earth Sciences. The first half of the module focuses on building understanding of fundamental concepts…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3013",
+      "name": "Oceans and Atmosphere",
+      "level": 3000,
+      "credits": 15,
+      "summary": "This module covers the physical, chemical and biological processes that impact the oceans and atmosphere. As Earth’s fluid envelopes, the oceans and atmosphere share many…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3020",
+      "name": "Global Climate Change",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Climate change is one of the most challenging environmental problems currently facing society. Recent global warming likely lies outside the range of natural variability when…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES3051",
+      "name": "Environmental Earth Sciences Field Excursion",
+      "level": 3000,
+      "credits": 15,
+      "summary": "Field sampling and laboratory analysis of natural samples are in important part of an environmental scientist’s toolkit. This module will introduce the skills necessary for…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4001",
+      "name": "Field Excursion and Map Interpretation",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module develops the field observation and interpretation skills of collecting, recording, interpreting and synthesising data in the field and from geological maps and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4002",
+      "name": "Research Review",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The student proposes a geoscience or environmental science topic that has not been directly covered in a taken module. They discuss the suitability of the topic with a staff…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4003",
+      "name": "Research Dissertation",
+      "level": 4000,
+      "credits": 45,
+      "summary": "An individual research project which allows the student to pursue in depth a topic of personal interest. The student works largely independently of supervision and has the…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4007",
+      "name": "Subsurface Modelling and Geophysics for Earth Scientists",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The fundamental concepts, techniques and practices of the hydrocarbon exploration industry are presented. Students will gain a thorough understanding of the geoscience of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4008",
+      "name": "Environmental Excursion",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module is designed to provide advanced field-based training in a variety of environmental and geochemical analytical techniques of utility to solving geo-environmental…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4009",
+      "name": "Geodynamics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "A study of the geodynamic evolution of Earth's crust since the Archaean, the evolution of convergent and divergent margins, and the relationships between deep Earth geodynamics,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4010",
+      "name": "Joint Honours Research Project",
+      "level": 4000,
+      "credits": 30,
+      "summary": "An individual research project allows the student to pursue in depth a topic of personal interest. The student works largely independently and has the opportunity to demonstrate…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4011",
+      "name": "Placement in Earth Sciences",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Practical experience of Earth Sciences is important to graduate employment prospects and for students to understand the practical relevance of coursework. This module is a…",
+      "semesters": [
+        "1",
+        "2",
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4013",
+      "name": "Independent Mapping Project",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The ability to independently collect geological field data and to interpret and report them are key skills required of any Earth Sciences graduate. It is also a key requisite of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4017",
+      "name": "Metallogeny",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module explores ore deposits extending from mantle processes through the crust to the critical zone at Earth's surface. Genetic models of ore deposits are reviewed with an…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4020",
+      "name": "Special Topics in Climate Science",
+      "level": 4000,
+      "credits": 15,
+      "summary": "Climate change is one of the most urgent scientific problems of our day. As a result there has been a large effort to further the understanding of climate dynamics, climate…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES4801",
+      "name": "Geology Field Camp in Scotland",
+      "level": 4000,
+      "credits": 24,
+      "summary": "This module trains students in advanced geological field skills and mapping, providing comprehensive training of best practice in geological fieldwork. Scotland is the ideal…",
+      "semesters": [
+        "Summer after graduation"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5003",
+      "name": "Research Dissertation",
+      "level": 5000,
+      "credits": 60,
+      "summary": "This course includes an individual research project on a topic in geological, planetary or environmental sciences and allows the student to pursue a topic of personal interest.…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5005",
+      "name": "Isotope Geochemistry: Theory, Techniques, and Applications",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Isotope geochemistry has grown over the last 50 years to become one of the most important fields in the Earth sciences. The growth in the importance of isotope geochemistry…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5011",
+      "name": "Biomineralisation & Aqueous Chemistry",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module considers biomineralisation and provides a broad introduction to the modelling of aqueous chemistry. We study biomineralisation processes in the oceans, their…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5013",
+      "name": "Evolution and Dynamics of the Silicate Earth",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The focus of this course is the geodynamic/tectonic evolution of the solid “hard rock” silicate Earth and the geochemical tools we use to fingerprint tectonic processes over the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5014",
+      "name": "The Chemistry of the Solar System",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The solar system is a chemically-diverse place, and this module uses aspects of geoscience, chemistry and physics to investigate the physiochemical processes that led to its…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5017",
+      "name": "Analytical Methods in Geochemistry",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The objective of this course is to provide students with practical skills and theoretical background in analytical methods that are commonly used in geochemistry. Examples of…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5032",
+      "name": "Statistics and Analytical Sciences",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module is designed to provide MSc Geochemistry students with thorough training in Statistics and methods of data analysis used in Earth Sciences. The module comprises a…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5050",
+      "name": "Special Topics in Geochemistry",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module is based around current hot topics in geochemistry. It will address how Earth has evolved from a ball of molten rock to the habitable blue planet it is today, and some …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5051",
+      "name": "Geochemistry Field Excursion",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Field sampling and laboratory analysis of natural samples are in important part of a geochemists' toolkit. This module will introduce the skills necessary for planning and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5098",
+      "name": "Applied Environmental Science in the Workplace",
+      "level": 5000,
+      "credits": 60,
+      "summary": "Designed with leading environmental and geotechnical consultancies, this capstone module applies scientific training to practical workplace skills. ES5098 provides a clear pathway …",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5099",
+      "name": "Research Project",
+      "level": 5000,
+      "credits": 60,
+      "summary": "The MSc Research Project Module provides the student with an opportunity to undertake an independent project based on original research. Each student chooses a topic of interest…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5302",
+      "name": "Core to Crust Ore Genesis - Low Temperature",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module explores ore deposits that form in low-temperature environments, extending from the upper crust to the critical zone at Earth's surface, including topics such as…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ES5307",
+      "name": "Global Resource Challenges",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Decarbonisation of the global energy system to combat anthropogenic global heating presents major challenges for society that Earth scientists are uniquely placed to address.…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ID4442",
+      "name": "Combined Research Project in Biology and Geology",
+      "level": 4000,
+      "credits": 45,
+      "summary": "This module provides an individual research project on a topic spanning the biological and geological sciences which allows the student to pursue in depth a topic of personal…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "ID5011",
+      "name": "Geographic Information Systems for Environmental Management",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module provides an introduction to Geographic Information systems and their use in environmental problem solving. The module will be taught through a series of lectures,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    }
+  ]
+}

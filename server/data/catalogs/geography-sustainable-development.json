@@ -1,0 +1,3037 @@
+{
+  "id": "geography-sustainable-development",
+  "name": "Geography and Sustainable Development",
+  "years": [
+    "2025/26",
+    "2026/27",
+    "2027/28"
+  ],
+  "nodes": [
+    {
+      "id": "GG1001",
+      "name": "Climate, Capital, Community: Fundamentals of Global Geography",
+      "level": 1000,
+      "credits": 20,
+      "summary": "As the global population grows past 8 billion, mounting evidence of resource depletion, climate change, global economic inequality and social injustice suggests that the current…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG1002",
+      "name": "Worlds of Crisis and Hope",
+      "level": 1000,
+      "credits": 20,
+      "summary": "Contemporary global problems such as pollution, biodiversity loss and population growth are critical issues for the planet's future and demonstrate the interdependence of social…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG2013",
+      "name": "Geography (I): Space, Time and Changing Landscapes",
+      "level": 2000,
+      "credits": 20,
+      "summary": "Building on the exploration of global social and environmental issues at GG1000-level, this is the first of two GG2000-level modules that take a deeper look at the world through a …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG2014",
+      "name": "Geography (II): Nature, Culture and Power",
+      "level": 2000,
+      "credits": 20,
+      "summary": "Nature, culture and power are at the heart of many major global and local conflicts animating the world today. They are also central concerns in the discipline of Geography. Yet,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG2801",
+      "name": "Scotland's Evolving Landscape",
+      "level": 2000,
+      "credits": 12,
+      "summary": "A bespoke, 4 week-long, 12 credit (120 study hours) summer programme for international study-abroad students from the College of William & Mary (USA). The course will be…",
+      "semesters": [
+        "Summer after graduation"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3205",
+      "name": "Developing a Geography Research Proposal",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module supports students in all aspects of developing a research proposal. It explains the principles of project design and the linkages between conceptualisation and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GG2014"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2014",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3206",
+      "name": "Quantitative Methods for Social Scientists",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module is an introduction to quantitative data and survey analysis in the social sciences. Human geography research often involves collecting data from people, commonly in…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3207",
+      "name": "Qualitative Methods for Human Geographers",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module will focus on the design and conduct of qualitative research. It will explore the epistemological foundations on which different strands of qualitative research rest,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3208",
+      "name": "Survey Design",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module is designed to provide students with experience of analyzing data from main UK social science surveys, reflecting on surveys from a methodological perspective and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3209",
+      "name": "Spatial Analysis with GIS",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This unit will introduce students to the basic principles of spatial analysis. Students will learn how to use spatial analysis methods and fundamental spatial algorithms for a…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3210",
+      "name": "Remote Sensing",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module focusses on using satellite remote sensing data and techniques to quantify and study characteristics and changes at the Earth surface. Multi-temporal satellite data…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD2100"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2100",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3211",
+      "name": "Research Design and Methods for Physical Geography",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module is an introduction to undertaking data collection and analysis in physical geography. Geographical research often involves finding out about the physical and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3212",
+      "name": "Data Analysis for Physical Geography",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module provides training in a suite of data analysis methods used in physical and environmental geography. It builds on material covered in GG3211, aiming to give students…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GG2014"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2014",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3213",
+      "name": "Physical Geography Fieldclass",
+      "level": 3000,
+      "credits": 20,
+      "summary": "Fieldwork lies at the heart of much of the research undertaken in physical and environmental geography. This module provides students with training in fieldwork research skills,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GG2014"
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3214"
+          },
+          {
+            "type": "module",
+            "code": "SD3102"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2014",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GG3214 OR TAKE SD3102"
+    },
+    {
+      "id": "GG3214",
+      "name": "Human Geography Field Course",
+      "level": 3000,
+      "credits": 20,
+      "summary": "In this module students (with the close supervision and support of staff) will design and implement a research project in an unfamiliar environment. Students will identify a…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GG2014"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GG3213"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2014",
+      "antiRequisitesText": "CANNOT TAKE GG3213, SD3102"
+    },
+    {
+      "id": "GG3280",
+      "name": "Geopolitics",
+      "level": 3000,
+      "credits": 30,
+      "summary": "Geopolitics is the study of the ways in which geography shapes the historical unfolding of international politics. This module will introduce students to the different ways of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3281",
+      "name": "Quaternary Environmental Change",
+      "level": 3000,
+      "credits": 30,
+      "summary": "Spanning the last 2.6 million years, the Quaternary period was a time of dramatic climatic and environmental change. From times when ice sheets covered northern Europe and North…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3241"
+          },
+          {
+            "type": "module",
+            "code": "GG3241"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS GG2011 AND PASS GG2012 ) OR ( PASS GG2013 AND PASS GG2014 AND PASS SD2100 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3241 OR TAKE GG3241"
+    },
+    {
+      "id": "GG3283",
+      "name": "Migration and Mobilities",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module is designed to advance students' appreciation of the chief academic arguments associated with migration and transnationalism. Geographical analysis of the changing…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG3800",
+      "name": "Blue Carbon Science & Policy",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module aims to provide students with comprehensive training of best practice in the theory and practical application of Blue Carbon science to inform policy and the most…",
+      "semesters": [
+        "Summer after graduation"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4243",
+      "name": "Geographies of Race, Racialisation and Racism",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Understanding how race, racialisation and racism work is fundamental to interpret the world we live in. This course is an introduction to theories and analyses of race,…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4245",
+      "name": "Biogeography and the Earth System",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Planet Earth appears to be unique as the home of life. Biological processes are deeply woven into the fabric of the physical world and human societies. The resulting interactions, …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4246",
+      "name": "Geographies of Disability",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The Body has become a key site (and sight) for contemporary cultural geography. This module does not frame the disabled body as an empirical question (although this is the context …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4247",
+      "name": "Geographies of Health in sub-Saharan Africa",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module makes the case for a social-scientific, not merely biomedical understanding of health in sub-Saharan Africa. It addresses the geographies of health, exploring the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4248",
+      "name": "The Nature of Political Ecology",
+      "level": 4000,
+      "credits": 30,
+      "summary": "We live in a time when human activities have profoundly altered the composition of the air we breathe, the water we drink, and the geology upon which we live. Yet, at the very…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD4115"
+          },
+          {
+            "type": "module",
+            "code": "SD4115"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011 AND GG2012' OR 'SD2001 AND SD2002' OR 'GG2013, GG2014 AND SD2100' OR 'SD2005, SD2006 AND SD2100'.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS SD4115 OR TAKE SD4115"
+    },
+    {
+      "id": "GG4250",
+      "name": "Diversity, Inequality and Place",
+      "level": 4000,
+      "credits": 30,
+      "summary": "In this module we will think critically about diversity and inequality and how they are manifest in place, focusing particularly on local scales. At the end of the course you…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3273"
+          },
+          {
+            "type": "module",
+            "code": "GG3273"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011 AND GG2012' OR 'SD2001 AND SD2002' OR 'GG2013, GG2014 AND SD2100' OR 'SD2005, SD2006 AND SD2100'.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3273 OR TAKE GG3273"
+    },
+    {
+      "id": "GG4251",
+      "name": "Volcanic Ash: Dispersal, Impacts and Applications",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Volcanic ash, or tephra, is one of the most visible and widespread hazards created by volcanic activity and has affected large parts of the Earth’s surface. In addition, volcanic…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3276"
+          },
+          {
+            "type": "module",
+            "code": "GG3276"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011 AND GG2012' OR 'SD2001 AND SD2002' OR 'GG2013, GG2014 AND SD2100' OR 'SD2005, SD2006 AND SD2100'.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3276 OR TAKE GG3276"
+    },
+    {
+      "id": "GG4253",
+      "name": "Cultural Geographies of Climate Activism",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Climate activism is becoming increasingly prevalent as the urgency of the climate crisis has increased and the variety of ways to practice activism have expanded, and is therefore …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3277"
+          },
+          {
+            "type": "module",
+            "code": "GG3277"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS GG2011 AND PASS GG2012 ) OR ( PASS GG2014 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 ) OR ( PASS SD2005 AND PASS SD2100 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3277 OR TAKE GG3277"
+    },
+    {
+      "id": "GG4254",
+      "name": "Health and Social Inequalities Across the Life Course",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores how health and other social inequalities develop and are reproduced across our lives. In doing so, we draw on influential theoretical approaches in social…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3242"
+          },
+          {
+            "type": "module",
+            "code": "GG3242"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011 AND GG2012' OR 'SD2001 AND SD2002' OR 'GG2013, GG2014 AND SD2100' OR 'SD2005, SD2006 AND SD2100'.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3242 OR TAKE GG3242"
+    },
+    {
+      "id": "GG4255",
+      "name": "Geographies of Urban Housing",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module has two main aims: to develop substantive knowledge and theory about urban housing with an emphasis on European policies at different scales; and to look more closely…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4256",
+      "name": "Coastal Processes",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The majority of the world's population live in close proximity to the coastal zone. Coastal processes are highly dynamic and sensitive to external drivers, including long-term…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2013"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3067"
+          },
+          {
+            "type": "module",
+            "code": "GG3067"
+          },
+          {
+            "type": "module",
+            "code": "GG3271"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 'GG2011 AND GG2012' OR 'SD2001 AND SD2002' OR 'GG2013, GG2014 AND SD2100' OR 'SD2005, SD2006 AND SD2100'.",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3067 OR TAKE GG3067,YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3271 OR TAKE GG3271"
+    },
+    {
+      "id": "GG4257",
+      "name": "Creating Sustainable Cities with Spatial Data Science",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Urban areas house over half the global population and are at the core of the most pressing challenges facing modern society. Inequality, climate change impacts, and environmental…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4258",
+      "name": "Water in the Environment",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Water plays an important role in almost all areas of geography. Physical and environmental processes, from geology to human societies, change and are changed by water through a…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4259",
+      "name": "Glaciology",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Glaciers and ice sheets profoundly affect life on Earth, through their influence on sea-level change, water resources, natural hazards, biogeochemical cycles, and sediment erosion …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4260",
+      "name": "Social Infrastructure and Urban (Re)development",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Housing, education, and healthcare are key pillars of social reproduction, and increasingly shape urban and regional development. This module explores how these social…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG4302",
+      "name": "Data Science in Society and Space",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Important questions related to social inequalities, health, and sustainability can often be addressed using existing data. This module focuses on developing quantitative skills by …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GG3206"
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG4223"
+          },
+          {
+            "type": "module",
+            "code": "GG4223"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG3206",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG4223 OR TAKE GG4223"
+    },
+    {
+      "id": "GG4328",
+      "name": "Spatial Analysis for Social and Environmental Research",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Students will learn how to use advanced GIScience methods for applications in human and environmental geography, including spatial statistics methods, methods for analysis of…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GG3209"
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG4228"
+          },
+          {
+            "type": "module",
+            "code": "GG4228"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG3209",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG4228 OR TAKE GG4228"
+    },
+    {
+      "id": "GG4399",
+      "name": "Research Dissertation in Geography",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The research dissertation is the culmination of the of the Geography Degree. It is a significant project that allows students to draw together their learning from across modules.…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG5004",
+      "name": "Advanced Social Science Research Training 1: Reviewing, Conceptualising, Framing",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This is a directed reading module that will enable students to expand their understanding of the field of knowledge in Human Geography or Sustainable Development that will be the…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG5005",
+      "name": "Advanced Social Science Research Training 2: Designing, Planning, Implementing",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This is a directed reading module that will enable students to expand their understanding of a field of knowledge in Human Geography or Sustainable Development that will be the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "GG5099",
+      "name": "Dissertation in Human Geography/Sustainable Development",
+      "level": 5000,
+      "credits": 60,
+      "summary": "Depending on their interests, students choose a topic in the field of human geography or sustainable development on which to conduct independent research. Dissertations will be…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD1000",
+      "name": "Sustainable Development: tackling global challenges",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module considers the contemporary challenges that we face at global and local scales. Sustainable Development is a concept and suite of practices that have been designed to…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD1004",
+      "name": "Sustainable Development Goals: Challenges & Opportunities",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module explores the societal and technological transformations that are required to pursue sustainable futures. Which paradigms drive our current global challenges and can we …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD2005",
+      "name": "Securing sustainable solutions",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module critically explores how to secure sustainable solutions for all whilst achieving human security and environmental integrity. A safe space for humanity sits between a…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD1000"
+          },
+          {
+            "type": "module",
+            "code": "SD1004"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2001"
+          },
+          {
+            "type": "module",
+            "code": "SD2001"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD1000 AND PASS SD1004",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS SD2001 OR TAKE SD2001"
+    },
+    {
+      "id": "SD2006",
+      "name": "Changing Natures",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module will develop your appreciation of the diverse ways that natures are known, protected and changed, drawing on the natural and social sciences to theorise and examine…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD2100",
+      "name": "Sustainable Scotland",
+      "level": 2000,
+      "credits": 20,
+      "summary": "\"Sustainable Scotland\" draws on Scotland’s unique landscapes, patterns of urbanisation, and the geography of population to examine interrelated issues of land use and…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG2013"
+          },
+          {
+            "type": "module",
+            "code": "SD2005"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG2011"
+          },
+          {
+            "type": "module",
+            "code": "GG2011"
+          },
+          {
+            "type": "module",
+            "code": "GG2012"
+          },
+          {
+            "type": "module",
+            "code": "GG2012"
+          },
+          {
+            "type": "module",
+            "code": "SD2001"
+          },
+          {
+            "type": "module",
+            "code": "SD2001"
+          },
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "module",
+            "code": "SD2002"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GG2013 OR PASS SD2005",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG2011 OR TAKE GG2011 OR PASS GG2012 OR TAKE GG2012 OR PASS SD2001 OR TAKE SD2001 OR PASS SD2002 OR TAKE SD2002"
+    },
+    {
+      "id": "SD3101",
+      "name": "Developing a Sustainable Development Research Proposal",
+      "level": 3000,
+      "credits": 10,
+      "summary": "This module supports students in all aspects of developing a research proposal in the interdisciplinary context of Sustainable Development. It explains the principles of project…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GG3205"
+          },
+          {
+            "type": "module",
+            "code": "GG3205"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2001 AND PASS SD2002 ) OR ( PASS SD2005 AND PASS SD2006 AND PASS SD2100 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3205 OR TAKE GG3205"
+    },
+    {
+      "id": "SD3102",
+      "name": "Sustainable Development Field Course",
+      "level": 3000,
+      "credits": 20,
+      "summary": "In this module students (with the close supervision and support of staff) will design and implement a research project in an unfamiliar environment. Students will identify a…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD3100"
+          },
+          {
+            "type": "module",
+            "code": "SD3100"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2001 AND PASS SD2002 ) OR ( PASS SD2005 AND PASS SD2006 AND PASS SD2100 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS SD3100 OR TAKE SD3100"
+    },
+    {
+      "id": "SD3103",
+      "name": "Field Course for Sustainable Development - East Africa",
+      "level": 3000,
+      "credits": 20,
+      "summary": "In this module students (with the close supervision and support of staff) will design and implement a research project that will be carried out collaboratively with students at…",
+      "semesters": [
+        "Flexible study"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2006"
+          },
+          {
+            "type": "module",
+            "code": "SD2100"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "SD3100"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2006 AND PASS SD2100",
+      "antiRequisitesText": "SD3100, GG3213, GG3214, SD3102"
+    },
+    {
+      "id": "SD3111",
+      "name": "Housing, Home and Sustainabilities",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module will explore how housing and homes are experienced and imagined, and what this means for ideas of sustainability. In doing so, we will explore the temporal and spatial …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "SD3221"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2001 AND PASS SD2002 ) OR ( PASS SD2005 AND PASS SD2006 AND PASS SD2100 )",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE SD3221"
+    },
+    {
+      "id": "SD4110",
+      "name": "Practices for Sustainability Transformation: Towards Nature and Community Regeneration",
+      "level": 4000,
+      "credits": 30,
+      "summary": "A transition towards sustainability will be multifaceted, requiring novel forms of governance and acknowledging the roles and perspectives of different actors. State intervention…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2001 AND PASS SD2002 ) OR ( PASS SD2005 AND PASS SD2006 AND PASS SD2100 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4111",
+      "name": "Coasts and Seas: Conservation and Planning for Sustainable Futures",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Many of the important sustainability issues we face as a society are complex and multi-faceted. Building more sustainable solutions is likely to require collaboration between…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2001 AND PASS SD2002 ) OR ( PASS SD2005 AND PASS SD2006 AND PASS SD2100 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4116",
+      "name": "Building Sustainable, Inclusive and Just Cities",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module studies tangible and hands-on efforts to build sustainable, inclusive and just cities around the world. Reflecting on the convenor's field research in cities globally…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE SD2002 OR ( TAKE SD2006 AND TAKE SD2100 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4117",
+      "name": "The Blue Economy and Maritime Security Intersections and Interdependence",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The Blue Economy concept mirrors the green economy and entails the utilization of ocean resources in a way that takes economic growth, social equity and ecological conservation…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4118",
+      "name": "Extractive Environments",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The module aims to introduce SD honours students to resource extraction, as a conflictive arena for determining trajectories of sustainability and as inextricably tied to dynamics …",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4120",
+      "name": "Valuing Environments",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module introduces students to conceptual and political challenges around valuing environments. In environmental policy and planning, the questions of value and valuation…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4124",
+      "name": "Sustainable Catchment Management",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Global environments and their communities are closely interlinked - small changes in the ecosystem can have unknown impacts on neighbouring environment and people. The clearest…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4125",
+      "name": "Biocultural Diversity: Understanding Ecosystem Change in the Anthropocene",
+      "level": 4000,
+      "credits": 30,
+      "summary": "What is it like to live during the sixth mass extinction? In the Anthropocene we struggle to halt the biodiversity crisis and restore ‘healthy’ ecosystems, while recognising that…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS GG2014 AND PASS SD2100 ) OR ( PASS SD2006 AND PASS SD2100 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4126",
+      "name": "Sustainable Populations",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module provides a comprehensive exploration of population processes and their implications for sustainability. Focusing on key demographic dynamics including fertility,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": false,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4127",
+      "name": "Environment and Health",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores how environmental factors such as pollution, waste management, climate change, and urban planning affect and shape the health of individuals in our societies. …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4128",
+      "name": "Coordinating a Humanitarian Disaster Response",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Facilitating an effective humanitarian response in an emergency situation requires a clear understanding of the situation at hand. Efficient implementation of assessment and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4129",
+      "name": "Digital Inequalities and Sustainable Development: Trends, Patterns, and Implications",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Persistent gender and other inequalities in education, employment, income and other resources, including technology use, continue to deter adults and children from attaining their …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2006 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4130",
+      "name": "Communication and Visualisation for Sustainable Development",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will explore the science behind effective communication through data visualization and the theories underpinning effective science communication and public engagement…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4131",
+      "name": "Critical Dimensions of Environmental Management",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will introduce students to the multiple dimensions of ecosystems, from the fundamental principles underlying their effective functioning to how contemporary land…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2006 AND PASS SD2100 ) OR ( PASS GG2014 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 ) OR ( PASS GG2011 AND PASS GG2012 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4133",
+      "name": "Migration and Sustainable Development: Displacement, policy and lived realities",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Contemporary narratives frame migration from Africa as a ‘threat’ in Europe and North America; there is increasing focus on development as a ‘solution’ to this ‘immigration…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4225",
+      "name": "Green Politics: Theory and Practice",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores the theory & practice of environmental politics in issues of Sustainable Development. Drawing on concepts from Politics & International Relations we…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2002 OR ( PASS SD2006 AND PASS SD2100 )",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4226",
+      "name": "Global Health Disparities",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module focuses on contemporary global health issues, with emphasis placed on contextualizing global, national, and subnational health disparities. We will study how health,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD4297",
+      "name": "Dissertation in Sustainable Development",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This dissertation builds on 3000-level research methods training and will demonstrate the importance of an interdisciplinary approach to researching key questions of sustainable…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5006",
+      "name": "Introduction to Global Climate Change",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module provides students of sustainable development with the scientific background to understand past, present and future climate change and its global consequences. Topics…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": false,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5033",
+      "name": "Environmental Conservation and Management",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This option module will introduce concepts of environmental conservation and management and explores their implementation via different contexts and case studies. Environmental…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5034",
+      "name": "Health, Inequality and Development",
+      "level": 5000,
+      "credits": 30,
+      "summary": "Across diverse global contexts, people’s opportunities to live secure, healthy and meaningful lives are shaped not only by biomedical factors but also by the wider social,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5035",
+      "name": "Capitalism, Development and Environment",
+      "level": 5000,
+      "credits": 30,
+      "summary": "The study of the relations between capitalism, development and environment is of central significance to the project of sustainable development. The module considers histories,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5801",
+      "name": "Theoretical Foundations of Social and Environmental Justice",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This core module, which will be the first taken by all students on the Data Literacy for Justice programme, introduces students to their cohort and to contemporary debates in both …",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5802",
+      "name": "Science Communication and Public Engagement",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will explore theories, e.g., of social change, central to developing effective science communication and public engagement activities. At the end of this module…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5805",
+      "name": "Advanced Science Communication and Public Engagement",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This advanced version of the core science communication and public engagement module will allow students to further develop their skills incorporating issues of justice, equity,…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD5802"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "IN ORDER TO TAKE THIS MODULE YOU MUST TAKE OR HAVE TAKEN SD5802 OR HAVE PERMISSION FROM THE PROGRAMME DIRECTOR",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5806",
+      "name": "Tools for Evaluating Impact",
+      "level": 5000,
+      "credits": 15,
+      "summary": "In order to have a positive impact on issues related to social and/or environmental justice, it is necessary to understand how to assess intended (and unintended) consequences of…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5807",
+      "name": "Visuals for Policies and Publics: Creative Visual Arts for Sciences",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Whilst getting the science ‘right’ is a foundational principle of science communication, the communication side requires effectively engaging your target audience. Attracting…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD5802"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "IN ORDER TO TAKE THIS MODULE YOU MUST TAKE OR HAVE TAKEN SD5802 OR HAVE PERMISSION FROM THE PROGRAMME DIRECTOR",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5810",
+      "name": "Welcome to Data: Rubbish in; Rubbish out",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module introduces students to the use of secondary data to understand social or environmental processes, using real datasets. It is designed to be appropriate for students…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5811",
+      "name": "Statistical Foundations",
+      "level": 5000,
+      "credits": 15,
+      "summary": "The course is structured around the use of statistics to understand social or environmental processes, using real datasets and surveys. This module builds on the foundation…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5812",
+      "name": "Quantitative Methods",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module will be structured around the use of quantitative methods to understand social or environmental processes. It will have two pathways managed through the virtual…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD5810"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "IN ORDER TO TAKE THIS MODULE YOU MUST TAKE OR HAVE TAKEN SD5810 OR HAVE PERMISSION FROM THE PROGRAMME DIRECTOR",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5813",
+      "name": "Advanced Data Visualisation",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Building on “Welcome to Data” and “Statistical Foundations,” this module will provide students with an understanding of important concepts related to data visualization, including …",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD5810"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "IN ORDER TO TAKE THIS MODULE YOU MUST TAKE OR HAVE TAKEN SD5810 OR HAVE PERMISSION FROM THE PROGRAMME DIRECTOR",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5820",
+      "name": "Introduction to Spatial Data Science",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Building on “Welcome to Data” and “Statistical Foundations,” this module will introduce students to the basic principles of spatial data science (SDS) for applications in social…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD5810"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "IN ORDER TO TAKE THIS MODULE YOU MUST TAKE OR HAVE TAKEN SD5810 OR HAVE PERMISSION FROM THE PROGRAMME DIRECTOR",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5821",
+      "name": "Advanced Spatial Data Science",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Building on “Welcome to Data,” “Statistical Foundations,” and “Introduction to Spatial Data Science,” students will learn how to use GIScience methods and spatial data science…",
+      "semesters": [
+        "1",
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD5820"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "IN ORDER TO TAKE THIS MODULE YOU MUST TAKE OR HAVE TAKEN SD5820 OR HAVE PERMISSION FROM THE PROGRAMME DIRECTOR",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SD5899",
+      "name": "Individual Research Project",
+      "level": 5000,
+      "credits": 60,
+      "summary": "The dissertation project presents an opportunity for students to explore critically a specialist topic in social and/or environmental justice and present their findings in both…",
+      "semesters": [
+        "Flexible study",
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SS5103",
+      "name": "Qualitative Methods in Social Research",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This seminar-based module offers both a theoretical and practical introduction to the collection, analysis and writing of qualitative social science research. Among other things,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SS5110",
+      "name": "SGSSS Core: Becoming a Confident Social Science Researcher",
+      "level": 5000,
+      "credits": 15,
+      "summary": "",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    }
+  ]
+}

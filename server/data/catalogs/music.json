@@ -1,0 +1,369 @@
+{
+  "id": "music",
+  "name": "Music",
+  "years": [
+    "2025/26",
+    "2026/27",
+    "2027/28"
+  ],
+  "nodes": [
+    {
+      "id": "MU1003",
+      "name": "Understanding Music",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module aims to develop skills and knowledge that will help students to get more out of the experience of listening to Western art music. Surveying set works drawn from…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "ADVISORY: STUDENTS SHOULD BE ABLE TO DECODE BASIC STANDARD WESTERN NOTATION. A DIAGNOSTIC TEST WILL BE CARRIED OUT ON ENROLMENT TO ASCERTAIN WHETHER YOU HAVE THE MUSICAL SCORE LITERACY TO SUCCEED ON THE MODULE.",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU1004",
+      "name": "Making Music 1",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module is designed for accomplished instrumentalists and vocalists who wish to develop their practical music making at university. The module offers students a broad…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "STUDENTS SHOULD HAVE A GRADE 8 PERFORMANCE CERTIFICATE OR TAKE AN AUDITION WITH THE MODULE CO-ORDINATOR",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU1005",
+      "name": "Words and Music",
+      "level": 1000,
+      "credits": 20,
+      "summary": "This module will examine the relationship between words and music, discussing ways in which language and music can interact, and the different ways in which words and music may…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU1006",
+      "name": "An Introduction to Ethnomusicology: Why, and How, Human Beings Are Musical",
+      "level": 1000,
+      "credits": 20,
+      "summary": "Ethnomusicology is the study of why, and how, human beings are musical (Timothy Rice). It is interdisciplinary, and draws upon e.g. musicology, anthropology, cultural studies, and …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU2001",
+      "name": "Making Music 2",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module builds on the practical skills and musicianship developed in MU1004. Students can choose to perform a 30-minute solo performance or submit a portfolio of compositions. …",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MU1004"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST GAIN AN AVERAGE MARK OF AT LEAST 14 FROM MU1004",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU2002",
+      "name": "Scottish Music",
+      "level": 2000,
+      "credits": 20,
+      "summary": "The module explores a wide range of music in Scotland, examining Highland and Lowland folk music and more recent pop music as well as classical music composed from the medieval…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU2004",
+      "name": "Electronic Music",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This is a practical module offering students the opportunity to work in small groups in the Music Centre's Electronic Music Hub to create music from electronic sources.…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU2006",
+      "name": "Music Leadership",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module will give students with existing music skills the opportunity to work with others to create, build and deliver a musical event. Working in groups, they will be given…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "MU1003"
+          },
+          {
+            "type": "module",
+            "code": "MU1013"
+          },
+          {
+            "type": "module",
+            "code": "MU1004"
+          }
+        ]
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST GAIN AN AVERAGE MARK OF AT LEAST 11 FROM MU1003 OR GAIN AN AVERAGE MARK OF AT LEAST 11 FROM MU1013 OR GAIN AN AVERAGE MARK OF AT LEAST 11 FROM MU1004",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU3001",
+      "name": "Making Music 3",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module caters for students aiming to make music to a professional level or students wishing to go on to study practical music at postgraduate level: students can choose to…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "MU2001"
+      },
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ACHIEVE A MARK OF 11 OR MORE IN MU2001",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU4001",
+      "name": "Music Research Project",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module offers students the opportunity to design and undertake a music research project. The curriculum explores four strands of music research: musicology, music education,…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE TAKEN AT LEAST ONE MUSIC (MU) MODULE.,IN ORDER TO ENROL ON THIS MODULE, YOU MUST SUBMIT A WRITTEN RESEARCH PROPOSAL (200-300 WORDS) TO THE MODULE COORDINATOR. THE PROPOSAL SHOULD CLEARLY SUMMARISE THE AIMS AND METHODOLOGY OF YOUR PROJECT. IT SHOULD BE SUBMITTED BY THE FRIDAY OF WEEK 0.",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU5001",
+      "name": "Making Music in a Church Context",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module invites students to reflect upon the practical role of a church musician in its different facets and contexts. In exploring roles such as choir director, organist,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU5002",
+      "name": "Sacred Music in the West: History and Context",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module focuses on the history and development of sacred music-making in a variety of confessional traditions informed by Western musical practice. Students explore when,…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU5801",
+      "name": "Making Music in a Church Context (Distance Learning)",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module encourages students to reflect on, and to develop, their practice as church musicians, music leaders, clergy, and/or oral presenters. Case study explorations of roles…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "MU5802",
+      "name": "Sacred Music Repertoires from Past and Present (Distance Learning)",
+      "level": 5000,
+      "credits": 30,
+      "summary": "This module invites students to explore how an informed understanding of different sacred music repertoires can shape musical practice, active ministry, and/or scholarly research…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025/26",
+        "2026/27"
+      ],
+      "availability": {
+        "2025/26": true,
+        "2026/27": true,
+        "2027/28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "antiRequisitesText": ""
+    }
+  ]
+}
