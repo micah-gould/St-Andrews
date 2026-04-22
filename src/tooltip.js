@@ -43,7 +43,7 @@ export function createTooltip({ prereqRules, manualExcluded, selected, graphStat
     const availabilityLabel = node.availableInSelectedYear === false ? 'Not running in selected year' : 'Running in selected year';
     const yearList = Array.isArray(node.years) && node.years.length ? node.years.join(', ') : 'Unknown';
     const availabilityNote = node.frequency === 'every-year'
-      ? 'Appears in all tracked years.'
+      ? 'Appears in consecutive tracked years, so it is treated as running every year.'
       : node.frequency === 'alternate-a'
         ? 'Appears to run in alternating years matching 2025/26 and 2027/28.'
         : node.frequency === 'alternate-b'
