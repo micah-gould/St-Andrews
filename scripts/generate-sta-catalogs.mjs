@@ -179,11 +179,19 @@ function extractRelationshipText(html, sectionTitle, id) {
     : '';
   if (byId) return byId;
 
+  const escapedTitle = sectionTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const headingPattern = new RegExp(
-    `<h3[^>]*>\\s*${sectionTitle}\\s*<\\/h3>\\s*<p[^>]*>([\\s\\S]*?)<\\/p>`,
+    `<h3[^>]*>\\s*${escapedTitle}\\s*<\\/h3>\\s*(?:<[^>]+>\\s*){0,6}<(?:p|div|dd|ul)[^>]*>([\\s\\S]*?)<\\/(?:p|div|dd|ul)>`,
     'i',
   );
-  return stripTags((html.match(headingPattern) || [])[1] || '');
+  const headingText = stripTags((html.match(headingPattern) || [])[1] || '');
+  if (headingText) return headingText;
+
+  const rowPattern = new RegExp(
+    `<div[^>]*class=["'][^"']*row[^"']*["'][^>]*>[\\s\\S]*?<h3[^>]*>\\s*${escapedTitle}\\s*<\\/h3>[\\s\\S]*?<div[^>]*class=["'][^"']*col-sm-6[^"']*["'][^>]*>([\\s\\S]*?)<\\/div>\\s*<\\/div>`,
+    'i',
+  );
+  return stripTags((html.match(rowPattern) || [])[1] || '');
 }
 
 async function enrichNode(node) {

@@ -104,10 +104,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "EN2003"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "NO PRE-REQUISITES WHEN TAKEN AS A 'STAND ALONE' MODULE, BUT EN2003 IS NOT AVAILABLE TO STUDENTS IN THEIR FIRST YEAR",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -130,10 +133,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "EN2004"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "NO PRE-REQUISITES WHEN TAKEN AS A 'STAND ALONE' MODULE, BUT EN2004 IS NOT AVAILABLE TO STUDENTS IN THEIR FIRST YEAR",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -155,10 +161,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "EN1901"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN1901",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -180,12 +189,18 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "EN1901"
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "EN2901"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN1901",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE EN2901"
     },
     {
       "id": "EN3114",
@@ -205,10 +220,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -230,10 +257,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "EN2003"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -294,10 +324,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -319,10 +361,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -498,10 +552,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -569,12 +635,27 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MO3524"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO3524"
     },
     {
       "id": "EN3220",
@@ -801,10 +882,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -826,10 +919,22 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -851,10 +956,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -953,10 +1070,22 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -978,10 +1107,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1003,10 +1144,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1029,10 +1182,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1092,10 +1257,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1303,10 +1480,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1329,10 +1518,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1393,10 +1594,22 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 OR PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1420,10 +1633,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1447,10 +1672,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1548,10 +1785,22 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE EN2003 AND TAKE EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1641,10 +1890,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1741,10 +2002,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1805,12 +2078,40 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN4420"
+          },
+          {
+            "type": "module",
+            "code": "EN4500"
+          },
+          {
+            "type": "module",
+            "code": "EN3217"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE EN4420 OR TAKE EN4500 OR TAKE EN3217"
     },
     {
       "id": "EN4419",
@@ -1830,10 +2131,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1856,12 +2169,40 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN3217"
+          },
+          {
+            "type": "module",
+            "code": "EN4417"
+          },
+          {
+            "type": "module",
+            "code": "EN4500"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE EN3217 OR TAKE EN4417 OR TAKE EN4500"
     },
     {
       "id": "EN4425",
@@ -1881,10 +2222,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1944,10 +2297,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1970,10 +2335,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "EN2003"
+          },
+          {
+            "type": "module",
+            "code": "EN2004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2372,10 +2749,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "EN5045"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN5045",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2612,10 +2992,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "EN5119"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN5119",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2667,10 +3050,13 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
-      "coRequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "EN5205"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "coRequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE EN5205",
       "antiRequisitesText": ""
     },
     {

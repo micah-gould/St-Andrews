@@ -8,6 +8,7 @@
     "dev:client": "vite",
     "dev:server": "node --watch server/index.js",
     "build": "vite build",
+    "audit:requirements": "node scripts/audit-sta-requirements.mjs",
     "preview": "vite preview --port 5174",
     "start:server": "node server/index.js"
   },

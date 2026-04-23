@@ -2694,12 +2694,16 @@
           {
             "type": "module",
             "code": "SD3100"
+          },
+          {
+            "type": "module",
+            "code": "GG3213"
           }
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2001 AND PASS SD2002 ) OR ( PASS SD2005 AND PASS SD2006 AND PASS SD2100 )",
       "coRequisitesText": "YOU MUST ALSO TAKE SD3101,YOU MUST ALSO TAKE AT LEAST 10 CREDITS FROM LIST GG3206-GG3212 OR GG3215",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS SD3100 OR TAKE SD3100"
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS SD3100 OR TAKE SD3100,YOU CANNOT TAKE THIS MODULE IF YOU PASS GG3213 OR TAKE GG3213"
     },
     {
       "id": "SD3103",
@@ -2719,12 +2723,48 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2006"
+          },
+          {
+            "type": "module",
+            "code": "SD2100"
+          }
+        ]
+      },
+      "coRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD3101"
+              },
+              {
+                "type": "module",
+                "code": "GG3206"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "GG3215"
+          }
+        ]
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "SD3100"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2006 AND PASS SD2100",
+      "coRequisitesText": "SD3101 AND AT LEAST 10 CREDITS FROM LIST GG3206-GG3212 OR GG3215",
+      "antiRequisitesText": "SD3100, GG3213, GG3214, SD3102"
     },
     {
       "id": "SD3111",
@@ -2808,10 +2848,44 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2005"
+              },
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2001 AND PASS SD2002 ) OR ( PASS SD2005 AND PASS SD2006 AND PASS SD2100 )",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2989,10 +3063,31 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2002 OR ( PASS SD2006 AND PASS SD2100 )",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3122,10 +3217,40 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS GG2014 AND PASS SD2100 ) OR ( PASS SD2006 AND PASS SD2100 )",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3147,10 +3272,66 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2006 AND PASS SD2100 ) OR ( PASS GG2014 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 ) OR ( PASS GG2011 AND PASS GG2012 )",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3311,10 +3492,40 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2006 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 )",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3337,10 +3548,40 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2006 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 )",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3363,10 +3604,66 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2014"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2001"
+              },
+              {
+                "type": "module",
+                "code": "SD2002"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "GG2011"
+              },
+              {
+                "type": "module",
+                "code": "GG2012"
+              }
+            ]
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS SD2006 AND PASS SD2100 ) OR ( PASS GG2014 AND PASS SD2100 ) OR ( PASS SD2001 AND PASS SD2002 ) OR ( PASS GG2011 AND PASS GG2012 )",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3435,10 +3732,31 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SD2002"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "SD2006"
+              },
+              {
+                "type": "module",
+                "code": "SD2100"
+              }
+            ]
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SD2002 OR ( PASS SD2006 AND PASS SD2100 )",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3713,10 +4031,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SD5802"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "IN ORDER TO TAKE THIS MODULE YOU MUST TAKE OR HAVE TAKEN SD5802 OR HAVE PERMISSION FROM THE PROGRAMME DIRECTOR",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
