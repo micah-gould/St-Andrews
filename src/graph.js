@@ -43,28 +43,30 @@ export function createGraphState(nodes, edges, prereqRules) {
 
   function computeEffectivelyExcluded(manualExcluded) {
     const eff = new Set(manualExcluded);
-    for (const id of topo) {
-      if (eff.has(id)) continue;
-      const node = nodeMap[id];
-      if (node?.prerequisiteExpression) {
-        if (isExpressionBlocked(node.prerequisiteExpression, eff, id)) eff.add(id);
-        continue;
+    let changed = true;
+
+    while (changed) {
+      changed = false;
+
+      for (const id of topo) {
+        if (eff.has(id)) continue;
+        const node = nodeMap[id];
+
+        const prereqBlocked = node?.prerequisiteExpression
+          ? isExpressionBlocked(node.prerequisiteExpression, eff)
+          : areRulesBlocked(prereqRules[id], eff);
+
+        const coreqBlocked = node?.coRequisiteExpression
+          ? isExpressionBlocked(node.coRequisiteExpression, eff)
+          : false;
+
+        if (prereqBlocked || coreqBlocked) {
+          eff.add(id);
+          changed = true;
+        }
       }
-      const rules = prereqRules[id];
-      if (!rules) continue;
-      const blocked = rules.some((rule) => {
-        if (rule.type === 'all') {
-          return rule.sources.some((source) => eff.has(source));
-        }
-
-        if (rule.type === 'one') {
-          return rule.sources.length > 0 && rule.sources.every((source) => eff.has(source));
-        }
-
-        return false;
-      });
-      if (blocked) eff.add(id);
     }
+
     return eff;
   }
 
@@ -195,11 +197,27 @@ export function createGraphState(nodes, edges, prereqRules) {
     return coreqEdgeKinds.get(`${source}->${target}`) || 'required';
   }
 
-  function isExpressionBlocked(expression, excluded, target) {
+  function areRulesBlocked(rules, excluded) {
+    if (!rules) return false;
+
+    return rules.some((rule) => {
+      if (rule.type === 'all') {
+        return rule.sources.some((source) => excluded.has(source));
+      }
+
+      if (rule.type === 'one') {
+        return rule.sources.length > 0 && rule.sources.every((source) => excluded.has(source));
+      }
+
+      return false;
+    });
+  }
+
+  function isExpressionBlocked(expression, excluded) {
     if (!expression) return false;
     if (expression.type === 'module') return excluded.has(expression.code);
-    if (expression.type === 'and') return expression.children.some((child) => isExpressionBlocked(child, excluded, target));
-    if (expression.type === 'or') return expression.children.every((child) => isExpressionBlocked(child, excluded, target));
+    if (expression.type === 'and') return expression.children.some((child) => isExpressionBlocked(child, excluded));
+    if (expression.type === 'or') return expression.children.every((child) => isExpressionBlocked(child, excluded));
     return false;
   }
 
