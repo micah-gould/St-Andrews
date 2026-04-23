@@ -30,8 +30,10 @@
         "type": "module",
         "code": "AN2002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE ALL MODULES FROM {AN2002, AN2003, CL2003, CL2004}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -53,8 +55,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -76,8 +80,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -99,8 +105,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -122,8 +130,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -145,8 +155,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -169,8 +181,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -193,8 +207,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -217,8 +233,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS OF 1000-LEVEL MODULES IN AN, ME, MO OR SC OR 20 CREDITS OF 1000-LEVEL MODULES IN AN AND 20 CREDITS IN 1000-LEVEL MODULES IN CL.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -241,8 +259,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS OF 1000-LEVEL MODULES IN AN, ME, MO OR SC OR 20 CREDITS OF 1000-LEVEL MODULES IN AN AND 20 CREDITS IN 1000-LEVEL MODULES IN CL",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -265,8 +285,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "ENTRY TO HONOURS ANCIENT HISTORY",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -288,8 +310,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -311,8 +335,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -337,8 +363,10 @@
         "type": "module",
         "code": "CL4465"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE CL4465",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -360,8 +388,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -383,8 +413,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -406,8 +438,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -429,8 +463,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -453,8 +489,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -477,8 +515,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -501,8 +541,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -525,8 +567,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -549,8 +593,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "ENTRY TO HONOURS IN CLASSICAL STUDIES",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -572,8 +618,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -595,8 +643,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -618,8 +668,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -641,8 +693,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -664,8 +718,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -687,8 +743,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -710,8 +768,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -733,11 +793,13 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CL4502"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL4502"
     },
     {
@@ -759,8 +821,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -782,8 +846,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -805,8 +871,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -828,8 +896,13 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "ID4002"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "AS STATED IN THE SCHOOL OF CLASSICS UNDERGRADUATE HANDBOOK",
+      "coRequisitesText": "YOU MUST ALSO TAKE ID4002",
       "antiRequisitesText": ""
     },
     {
@@ -853,6 +926,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -883,6 +957,7 @@
         ]
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL4996 OR TAKE CL4997 OR TAKE CL4998 OR TAKE LT4999 OR TAKE GK4998 OR TAKE GK4999"
     },
     {
@@ -905,8 +980,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -929,8 +1006,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -953,11 +1032,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CL5111"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5111"
     },
     {
@@ -980,11 +1061,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CL5112"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5112"
     },
     {
@@ -1007,11 +1090,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CL5121"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5121"
     },
     {
@@ -1034,11 +1119,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CL5122"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5122"
     },
     {
@@ -1061,8 +1148,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1085,8 +1174,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1109,11 +1200,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CL5011"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5011"
     },
     {
@@ -1136,8 +1229,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1160,11 +1255,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CL5021"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5021"
     },
     {
@@ -1187,11 +1284,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CL5022"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL5022"
     },
     {
@@ -1214,11 +1313,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK1005"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1005"
     },
     {
@@ -1244,11 +1345,13 @@
         "type": "module",
         "code": "GK1001"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK1006"
       },
       "prerequisitesText": "STUDENTS WITHOUT GK1001 MUST BE ABLE TO DEMONSTRATE EQUIVALENT KNOWLEDGE OF GREEK.",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1006"
     },
     {
@@ -1271,11 +1374,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK1001"
       },
       "prerequisitesText": "IN TAKING THIS MODULE YOU MUST HAVE HIGHER OR A-LEVEL GREEK OR EQUIVALENT",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1001"
     },
     {
@@ -1298,11 +1403,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK1002"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1002"
     },
     {
@@ -1328,11 +1435,13 @@
         "type": "module",
         "code": "GK1006"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK2003"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK1006",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2003"
     },
     {
@@ -1358,11 +1467,13 @@
         "type": "module",
         "code": "GK2001"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK2004"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK2001",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2004"
     },
     {
@@ -1388,11 +1499,13 @@
         "type": "module",
         "code": "GK1002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK2001"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK1002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2001"
     },
     {
@@ -1418,11 +1531,13 @@
         "type": "module",
         "code": "GK2003"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK2002"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK2003",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2002"
     },
     {
@@ -1448,11 +1563,13 @@
         "type": "module",
         "code": "GK1002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK2003"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK1002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2003"
     },
     {
@@ -1478,11 +1595,13 @@
         "type": "module",
         "code": "GK3021"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GK2004"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK3021",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK2004"
     },
     {
@@ -1525,8 +1644,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1569,8 +1690,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1613,8 +1736,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1657,8 +1782,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1701,8 +1828,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1745,8 +1874,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1789,8 +1920,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1833,8 +1966,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM GK2001, GK2002 AND (GK2003, GK2004, OR GK3021, GK3022)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1858,6 +1993,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -1888,6 +2024,7 @@
         ]
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL4999 OR TAKE CL4998 OR TAKE CL4997 OR TAKE CL4996 OR TAKE GK4998 OR TAKE LT4999"
     },
     {
@@ -1910,8 +2047,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "A-LEVEL KNOWLEDGE OF ANCIENT GREEK OR EQUIVALENT",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1937,8 +2076,10 @@
         "type": "module",
         "code": "GK5003"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GK5003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1961,8 +2102,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1985,8 +2128,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2009,11 +2154,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT1003"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT1003"
     },
     {
@@ -2039,11 +2186,13 @@
         "type": "module",
         "code": "LT1001"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT1004"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1001",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT1004"
     },
     {
@@ -2066,11 +2215,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT1001"
       },
       "prerequisitesText": "STUDENTS MUST HAVE HIGHER OR A-LEVEL LATIN OR EQUIVALENT",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT1001"
     },
     {
@@ -2096,11 +2247,13 @@
         "type": "module",
         "code": "LT1003"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT1002"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1003",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT1002"
     },
     {
@@ -2126,11 +2279,13 @@
         "type": "module",
         "code": "LT1004"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT2003"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1004",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2003"
     },
     {
@@ -2156,11 +2311,13 @@
         "type": "module",
         "code": "LT2001"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT2004"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT2001",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2004"
     },
     {
@@ -2186,11 +2343,13 @@
         "type": "module",
         "code": "LT1002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT2001"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2001"
     },
     {
@@ -2216,11 +2375,13 @@
         "type": "module",
         "code": "LT2003"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT2002"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT2003",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2002"
     },
     {
@@ -2246,11 +2407,13 @@
         "type": "module",
         "code": "LT1002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT2003"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT1002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2003"
     },
     {
@@ -2276,11 +2439,13 @@
         "type": "module",
         "code": "LT3017"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "LT2004"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT3017",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT2004"
     },
     {
@@ -2333,6 +2498,7 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -2347,6 +2513,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS LT2001 AND PASS LT2002 OR PASS LT2003 AND PASS LT2004",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE LT3017 OR TAKE LT3018"
     },
     {
@@ -2368,8 +2535,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2391,8 +2560,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2426,8 +2597,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2461,8 +2634,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2496,8 +2671,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2531,8 +2708,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2566,8 +2745,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2601,8 +2782,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2624,8 +2807,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2661,6 +2846,7 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -2691,6 +2877,7 @@
         ]
       },
       "prerequisitesText": "40 CREDITS FROM LT2001, LT2002, LT2003, LT2004, OR LT3017, LT3018",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CL4999 OR TAKE CL4998 OR TAKE CL4997 OR TAKE CL4996 OR TAKE GK4999 OR TAKE GK4998"
     },
     {
@@ -2713,8 +2900,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENT MUST HAVE A-LEVEL KNOWLEDGE OF LATIN OR EQUIVALENT",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2740,8 +2929,10 @@
         "type": "module",
         "code": "LT5002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE LT5002 OR HAVE EQUIVALENT EXPERIENCE.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     }
   ]

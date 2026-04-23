@@ -27,8 +27,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -51,8 +53,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -75,8 +79,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -99,6 +105,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -113,6 +120,7 @@
         ]
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GK1001 OR TAKE GK1002"
     },
     {
@@ -135,8 +143,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -159,8 +169,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -183,8 +195,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -207,8 +221,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -234,8 +250,10 @@
         "type": "module",
         "code": "DI1004"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI1004",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -258,11 +276,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "DI2013"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "DI2013 PAUL AND THE EPISTLES B (GREEK TEXTS)"
     },
     {
@@ -285,8 +305,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -308,8 +330,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -332,8 +356,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -356,11 +382,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "DI2003"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI2003"
     },
     {
@@ -395,11 +423,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "DI2015"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI1003 AND PASS DI2002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI2015"
     },
     {
@@ -434,11 +464,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "DI2014"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI1003 OR PASS DI1201",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI2014"
     },
     {
@@ -478,8 +510,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE DI1001 OR TAKE DI1009 OR TAKE DI1014",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -502,8 +536,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "IF DI1005 OR GK1001 HAS NOT BEEN PASSED YOU MUST BE ABLE TO DEMONSTRATE EQUIVALENT LINGUISTIC COMPETENCE",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -529,11 +565,13 @@
         "type": "module",
         "code": "DI2201"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "DI4631"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI2201",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI4631"
     },
     {
@@ -576,8 +614,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI2014 OR PASS DI2013 OR PASS DI2003 OR PASS DI2015",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -600,8 +640,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AT LEAST 20CR OF DI 2000-LEVEL MODULES",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -624,8 +666,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "ID4002"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE ID4002",
       "antiRequisitesText": ""
     },
     {
@@ -649,8 +696,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -672,8 +721,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -695,8 +746,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -721,8 +774,10 @@
         "type": "module",
         "code": "DI2003"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -743,12 +798,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "DI3719"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI3719",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -769,25 +823,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "DI1005"
-          },
-          {
-            "type": "module",
-            "code": "DI1006"
-          },
-          {
-            "type": "module",
-            "code": "DI2201"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI1005 AND PASS DI1006 AND PASS DI2201",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -812,8 +852,10 @@
         "type": "module",
         "code": "DI3719"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE DI3719",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -847,8 +889,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI2003 OR PASS DI2015",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -869,21 +913,11 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "DI2003"
-          },
-          {
-            "type": "module",
-            "code": "DI2006"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "PASS DI2003 OR PASS DI2006",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -908,8 +942,10 @@
         "type": "module",
         "code": "DI2001"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI2001",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -931,21 +967,11 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "DI1004"
-          },
-          {
-            "type": "module",
-            "code": "DI2002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI1004 AND PASS DI2002",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -967,8 +993,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -990,8 +1018,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "YOU MUST HAVE PASSED AT LEAST TWO DIVINITY MODULES AT SUBHONOURS LEVEL.",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1013,8 +1043,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1036,8 +1068,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1058,21 +1092,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "DI1001"
-          },
-          {
-            "type": "module",
-            "code": "DI1003"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI1001 OR PASS DI1003",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1096,9 +1120,11 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
-      "antiRequisitesText": "CANNOT TAKE MORE THAN 30 CREDITS IN OTHER DISSERTATION/PROJECT MODULES."
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "DI4800",
@@ -1119,8 +1145,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1142,8 +1170,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1165,8 +1195,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1188,8 +1220,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1211,8 +1245,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1235,8 +1271,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1257,21 +1295,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "DI3703"
-          },
-          {
-            "type": "module",
-            "code": "DI3704"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI3703 AND PASS DI3704",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1293,8 +1321,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1317,8 +1347,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1339,25 +1371,12 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "DI2010"
-          },
-          {
-            "type": "module",
-            "code": "DI2006"
-          }
-        ]
-      },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "DI3717"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI2010 AND PASS DI2006",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI3717"
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "DI5080",
@@ -1380,8 +1399,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1404,8 +1425,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1428,8 +1451,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1451,12 +1476,11 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "DI5151"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI5151",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1479,8 +1503,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1502,12 +1528,11 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "DI5153"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI5153",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1530,8 +1555,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1554,21 +1581,11 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "DI5153"
-          },
-          {
-            "type": "module",
-            "code": "DI4726"
-          }
-        ]
-      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI5153,STUDENTS AND ADVISORS SHOULD CONFIRM THERE IS NO REPETITION OF MATERIAL FROM A PREVIOUS VERSION OF DI4726 BEFORE ADVISING INTO THIS MODULE"
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "DI5231",
@@ -1589,12 +1606,11 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "DI4635"
-      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "antiRequisitesText": "STUDENTS AND ADVISORS SHOULD CONFIRM THERE IS NO REPETITION OF MATERIAL FROM A PREVIOUS VERSION OF DI4635 BEFORE ADVISING INTO THIS MODULE"
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "DI5353",
@@ -1616,8 +1632,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1640,8 +1658,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1664,12 +1684,11 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "DI5431"
-      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI5431"
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "DI5433",
@@ -1691,8 +1710,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1715,8 +1736,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1739,8 +1762,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1762,8 +1787,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1785,8 +1812,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1808,8 +1837,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1831,8 +1862,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1854,8 +1887,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1877,21 +1912,11 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "DI5533"
-          },
-          {
-            "type": "module",
-            "code": "DI5533"
-          }
-        ]
-      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS DI5533 OR TAKE DI5533"
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "DI5539",
@@ -1913,8 +1938,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1937,8 +1964,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1960,8 +1989,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1984,8 +2015,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2008,8 +2041,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2031,8 +2066,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2054,8 +2091,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2078,12 +2117,11 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "DI5925"
-      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI5925"
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "DI5914",
@@ -2104,8 +2142,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2126,12 +2166,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "DI5901"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS DI5901",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2153,8 +2192,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2176,29 +2217,11 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "DI4924"
-          },
-          {
-            "type": "module",
-            "code": "DI5431"
-          },
-          {
-            "type": "module",
-            "code": "DI5441"
-          },
-          {
-            "type": "module",
-            "code": "DI5225"
-          }
-        ]
-      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE DI4924 OR TAKE DI5431 OR TAKE DI5441 OR TAKE DI5225"
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "DI5999",
@@ -2221,8 +2244,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2245,8 +2270,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "AVAILABLE ONLY TO SENIOR HONOURS STUDENTS (INTEGRATED MASTERS STUDENTS MAY TAKE IN SENIOR HONOURS OR THEIR FINAL YEAR) WHO HAVE BEEN ACCEPTED FOLLOWING APPLICATION AND INTERVIEW IN THE PRECEDING SEMESTER.",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     }
   ]

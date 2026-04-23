@@ -27,6 +27,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -45,6 +49,7 @@
         ]
       },
       "prerequisitesText": "STUDENTS MUST HAVE ADVANCED HIGHER CHEMISTRY AT GRADE A, OR A-LEVEL CHEMISTRY AT GRADE A OR EQUIVALENT.",
+      "coRequisitesText": "STUDENTS ON SINGLE HONOURS CHEMISTRY PROGRAMMES, BIOMOLECULAR SCIENCE OR JOINT HONOURS BIOLOGY AND CHEMISTRY MUST ALSO TAKE CH2501.",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH1401 OR TAKE CH1402 OR TAKE CH1601"
     },
     {
@@ -67,8 +72,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "NATIONAL LEVEL 5 OR GCSE CHEMISTRY. STUDENTS WITH NO FORMAL QUALIFICATION IN CHEMISTRY MAY BE ADMITTED BUT SHOULD EXPECT TO UNDERTAKE ADDITIONAL TUTORIAL WORK AND PRIVATE STUDY",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -91,11 +98,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH1202"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE PASSED HIGHER OR A-LEVEL CHEMISTRY AT GRADE B, OR IB HL CHEMISTRY AT GRADE 5, OR OTHER EQUIVALENT QUALIFICATION.",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH1202"
     },
     {
@@ -118,11 +127,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH1202"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE PASSED HIGHER OR A-LEVEL CHEMISTRY AT GRADE B, OR IB HL CHEMISTRY AT GRADE 5, OR OTHER EQUIVALENT QUALIFICATION.",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH1202"
     },
     {
@@ -145,11 +156,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH1202"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE PASSED HIGHER OR A-LEVEL CHEMISTRY AT GRADE B, OR IB HL CHEMISTRY AT GRADE 5, OR OTHER EQUIVALENT QUALIFICATION.",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH1202"
     },
     {
@@ -193,8 +206,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH1402 OR ( PASS CH1401 AND PASS CH1601 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -229,11 +244,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH2603"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH1601 OR PASS CH1202",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH2603"
     },
     {
@@ -256,11 +273,29 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH1601"
+          },
+          {
+            "type": "module",
+            "code": "FR2202"
+          },
+          {
+            "type": "module",
+            "code": "FR2022"
+          }
+        ]
+      },
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH2601"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO PASS CH1601 AND TAKE FR2202 AND TAKE FR2022",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH2601"
     },
     {
@@ -295,8 +330,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH1202 OR PASS CH1402",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -330,11 +367,16 @@
           }
         ]
       },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "PH2111"
+      },
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH2701"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH1202 OR PASS CH1402",
+      "coRequisitesText": "YOU MUST ALSO TAKE PH2111",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH2701"
     },
     {
@@ -360,8 +402,10 @@
         "type": "module",
         "code": "CH2501"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -396,8 +440,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -432,8 +478,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -468,8 +516,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -504,8 +554,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -549,8 +601,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH2601 OR PASS CH2603 ) AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -594,8 +648,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH2601 OR PASS CH2603 ) AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -639,8 +695,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR PASS 2 MODULES FROM {CH2501, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -675,6 +733,7 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -689,6 +748,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3622 OR TAKE CH3623"
     },
     {
@@ -732,11 +792,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH3621"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH2601 OR PASS CH2603 ) AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3621"
     },
     {
@@ -784,6 +846,7 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -798,6 +861,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2601 OR PASS CH2603 OR PASS CH2701",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3621 OR TAKE CH3622"
     },
     {
@@ -832,8 +896,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -868,8 +934,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -895,11 +963,13 @@
         "type": "module",
         "code": "CH2501"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH3717"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 2 MODULES FROM {CH2501, CH2601, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3717"
     },
     {
@@ -934,11 +1004,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH3716"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH3716"
     },
     {
@@ -973,8 +1045,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1018,11 +1092,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4442"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH3521 AND ( PASS CH3621 OR PASS CH3721 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4442"
     },
     {
@@ -1048,11 +1124,16 @@
         "type": "module",
         "code": "CH2501"
       },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "CH4421"
+      },
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4442"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "coRequisitesText": "YOU MUST ALSO PASS CH4421",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4442"
     },
     {
@@ -1078,8 +1159,44 @@
         "type": "module",
         "code": "CH2501"
       },
+      "coRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH4458"
+              },
+              {
+                "type": "module",
+                "code": "CH4455"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "CH4453"
+                  },
+                  {
+                    "type": "module",
+                    "code": "CH4456"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "FR5810"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "coRequisitesText": "YOU MUST ALSO TAKE CH4458 AND TAKE CH4455 AND ( TAKE CH4453 OR TAKE CH4456 ) OR TAKE FR5810",
       "antiRequisitesText": ""
     },
     {
@@ -1105,11 +1222,13 @@
         "type": "module",
         "code": "CH2501"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4441"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4441, CH4444, CH4445, CH4446, CH4447, CH4448, CH4449, ID4441}"
     },
     {
@@ -1132,11 +1251,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4442"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4442, CH4445, CH4446, CH4447, CH4448, CH4449, ID4441, CH5441}"
     },
     {
@@ -1159,11 +1280,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4442"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4442, CH4444, CH4446, CH4447, CH4448, CH4449, ID4441, CH5441}"
     },
     {
@@ -1186,11 +1309,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4442"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4442, CH4443, CH4444, CH4445, CH4448, CH4449, ID4441, CH5441}"
     },
     {
@@ -1225,6 +1350,10 @@
           }
         ]
       },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "ES4010"
+      },
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -1243,6 +1372,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "coRequisitesText": "YOU MUST ALSO TAKE ES4010",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4442 OR TAKE CH5441 OR TAKE ID4441"
     },
     {
@@ -1265,11 +1395,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4442"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4442, CH4443, CH4444, CH4445, CH4446, CH4447, CH4448, ID4441, CH5441}"
     },
     {
@@ -1292,8 +1424,26 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH4441"
+          },
+          {
+            "type": "module",
+            "code": "CH4458"
+          },
+          {
+            "type": "module",
+            "code": "CH4455"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "FOR PROGRAMMES WITH AN EXTERNAL PLACEMENT: CH4441 AND CH4458 AND CH4455",
       "antiRequisitesText": ""
     },
     {
@@ -1316,11 +1466,38 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH4441"
+          },
+          {
+            "type": "module",
+            "code": "CH4458"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH4456"
+              },
+              {
+                "type": "module",
+                "code": "CH4453"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4514"
       },
       "prerequisitesText": "ONLY CHEMISTRY STUDENTS ON EXTERNAL PLACEMENT MAY TAKE THIS MODULE.",
+      "coRequisitesText": "YOU MUST ALSO TAKE CH4441 AND TAKE CH4458 AND ( TAKE CH4456 OR TAKE CH4453 )",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4514"
     },
     {
@@ -1343,11 +1520,29 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CH4441"
+          },
+          {
+            "type": "module",
+            "code": "CH4458"
+          },
+          {
+            "type": "module",
+            "code": "CH4455"
+          }
+        ]
+      },
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4614"
       },
       "prerequisitesText": "ONLY CHEMISTRY STUDENTS ON EXTERNAL PLACEMENT MAY TAKE THIS MODULE.",
+      "coRequisitesText": "YOU MUST ALSO TAKE CH4441 AND TAKE CH4458 AND TAKE CH4455",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4614"
     },
     {
@@ -1382,11 +1577,16 @@
           }
         ]
       },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "CH4441"
+      },
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4716"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "coRequisitesText": "YOU MUST ALSO TAKE CH4441",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4716"
     },
     {
@@ -1412,11 +1612,13 @@
         "type": "module",
         "code": "CH2501"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH5461"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 3 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH5461"
     },
     {
@@ -1451,11 +1653,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4455"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4455"
     },
     {
@@ -1490,8 +1694,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1526,8 +1732,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1562,8 +1770,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1625,11 +1835,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4456"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4456"
     },
     {
@@ -1691,8 +1903,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1727,11 +1941,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4458"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4458"
     },
     {
@@ -1793,11 +2009,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4458"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH2701 AND PASS 1 MODULE FROM {CH2501, CH2601, CH2603} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4458"
     },
     {
@@ -1845,8 +2063,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2701 AND ( PASS CH2501 OR PASS CH2601 OR PASS CH2603 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1872,11 +2092,13 @@
         "type": "module",
         "code": "CH2501"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4444"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM {CH4444, CH4445, CH4446, CH4447, CH4448, CH4449, ID4441}"
     },
     {
@@ -1899,8 +2121,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1926,11 +2150,13 @@
         "type": "module",
         "code": "CH2501"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4461"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 3 MODULES FROM {CH2501, CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CH4461"
     },
     {
@@ -1965,8 +2191,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2001,8 +2229,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2601, CH2603}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2037,8 +2267,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS AT LEAST 1 MODULE FROM {CH2601, CH2603, CH2701}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2100,8 +2332,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2163,8 +2397,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2226,8 +2462,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2289,8 +2527,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2352,8 +2592,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS 1 MODULE FROM {CH2601, CH2603} AND PASS AT LEAST 1 MODULE FROM {CH2501, CH2701} ) OR ( PASS 2 MODULES FROM {CH2501, CH2701} AND PASS CH1601 OR PASS CH1202 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2388,8 +2630,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2424,8 +2668,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2468,8 +2714,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701 AND PASS CH3712 AND PASS CH3717",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2504,8 +2752,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2540,8 +2790,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2576,8 +2828,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CH2501 AND PASS CH2701",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2600,8 +2854,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2624,8 +2880,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2648,8 +2906,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2672,8 +2932,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2696,11 +2958,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CH4442"
       },
       "prerequisitesText": "ADMISSION TO STAGE 4 OF BSC PROGRAMME IN JOINT HONOURS CHEMISTRY AND GEOLOGY",
+      "coRequisitesText": "",
       "antiRequisitesText": "IN TAKING THIS MODULE YOU CANNOT TAKE CH4442-CH4448, CH5441"
     }
   ]

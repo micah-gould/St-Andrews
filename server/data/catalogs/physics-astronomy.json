@@ -27,11 +27,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AS1101"
       },
       "prerequisitesText": "THE STUDENT MUST HAVE HIGHER OR A-LEVEL (OR EQUIVALENT) PHYSICS AND MATHEMATICS AT GRADE B OR BETTER",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS1101"
     },
     {
@@ -53,11 +55,16 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "PH2011"
+      },
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AS1001"
       },
       "prerequisitesText": "DIRECT ENTRY TO LEVEL TWO AT THE UNIVERSITY OF ST ANDREWS WITH A DEGREE INTENTION OF ASTROPHYSICS, PHYSICS, THEORETICAL PHYSICS OR A JOINT DEGREE WITH ONE OF THESE.",
+      "coRequisitesText": "YOU MUST ALSO TAKE PH2011",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS1001"
     },
     {
@@ -79,6 +86,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "PH2011"
+      },
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -93,6 +104,7 @@
         ]
       },
       "prerequisitesText": "THE STUDENT MUST HAVE HIGHER OR A-LEVEL (OR EQUIVALENT) PHYSICS AND MATHEMATICS AT GRADE B OR BETTER",
+      "coRequisitesText": "STUDENTS TAKING THIS MODULE MUST BE ENROLLED IN PH2011 IN THE SAME SEMESTER",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS1001 OR TAKE AS1002"
     },
     {
@@ -144,11 +156,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AS2101"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AS1001 OR PASS AS1101 ) AND PASS PH1011 AND PASS PH1012 AND PASS MT1002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS2101"
     },
     {
@@ -196,11 +210,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AS2001"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AS1001 OR PASS AS1101 ) AND PASS MT1002 AND PASS PH2011",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS2001"
     },
     {
@@ -243,8 +259,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2011 AND PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -300,8 +318,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AS2001 OR PASS AS2101 ) AND PASS PH2011 AND PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -362,8 +382,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AS2001 OR PASS AS2101 ) AND PASS PH2012 AND ( PASS MT2501 AND PASS MT2503 ) AND ( PASS PH3081 OR PASS PH3082 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -389,8 +411,10 @@
         "type": "module",
         "code": "AS4011"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AS4011",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -459,8 +483,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2011 AND PASS PH2012 AND PASS MT2501 AND PASS MT2503 AND ( PASS PH3081 OR PASS PH3082 OR PASS MT2506 AND PASS MT2507 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -521,8 +547,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AS2001 OR PASS AS2101 ) AND PASS PH2011 AND PASS PH2012 AND ( PASS MT2001 OR PASS 2 MODULES FROM {MT2501, MT2503} )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -548,6 +576,7 @@
         "type": "module",
         "code": "PH3061"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -570,6 +599,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS5101 OR TAKE PH4111 OR TAKE PH5101 OR TAKE PH5103"
     },
     {
@@ -604,8 +634,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "FAMILIARITY WITH SCIENTIFIC PROGRAMMING LANGUAGE ESSENTIAL, FOR EXAMPLE THROUGH AS3013 OR PH3080. ENTRY TO AN MPHYS PROGRAMME IN THE SCHOOL OR MSC ASTROPHYSICS.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -639,8 +671,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "FOR MPHYS: BEFORE TAKING THIS MODULE YOU MUST PASS AS4010, AS4012, PH3061 AND PH3081. FOR MSC: STUDENTS MUST HAVE SUBSTANTIAL ASTRONOMY KNOWLEDGE AND SKILLS.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -674,11 +708,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AS5003"
       },
       "prerequisitesText": "PH3081 OR PH3082 OR WITH PERMISSION OF THE MSC ADVISER",
+      "coRequisitesText": "",
       "antiRequisitesText": "AS5003 BUT ONLY IF THAT MODULE WAS TAKEN IN AY 2022-23 OR EARLIER"
     },
     {
@@ -704,6 +740,7 @@
         "type": "module",
         "code": "PH3061"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -730,6 +767,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS4103 OR TAKE PH4111 OR TAKE PH5101 OR TAKE PH5103 OR TAKE PH4796"
     },
     {
@@ -752,8 +790,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "STUDENTS MUST BE REGISTERED ON MSC ASTROPHYSICS.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -776,8 +816,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "AS5500"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS MUST BE REGISTERED FOR MSC ASTROPHYSICS.",
+      "coRequisitesText": "YOU MUST ALSO TAKE AS5500",
       "antiRequisitesText": ""
     },
     {
@@ -800,8 +845,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "AS5500"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS MUST BE REGISTERED FOR MSC ASTROPHYSICS.",
+      "coRequisitesText": "YOU MUST ALSO TAKE AS5500",
       "antiRequisitesText": ""
     },
     {
@@ -824,8 +874,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "AS5500"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS MUST BE REGISTERED FOR MSC ASTROPHYSICS.",
+      "coRequisitesText": "YOU MUST ALSO TAKE AS5500",
       "antiRequisitesText": ""
     },
     {
@@ -848,8 +903,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "AS5500"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "REGISTRATION ON MSC ASTROPHYSICS.",
+      "coRequisitesText": "YOU MUST ALSO TAKE AS5500",
       "antiRequisitesText": ""
     },
     {
@@ -872,11 +932,16 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "AS5500"
+      },
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AS4010"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE AS5500",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS4010"
     },
     {
@@ -899,8 +964,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "AS5500"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "REGISTRATION ON MSC ASTROPHYSICS. SOME PROJECTS WILL NEED LEARNING FROM SPECIFIC MODULES - PLEASE CONTACT POTENTIAL SUPERVISORS.",
+      "coRequisitesText": "YOU MUST ALSO TAKE AS5500",
       "antiRequisitesText": ""
     },
     {
@@ -923,8 +993,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "AVAILABLE ONLY TO SENIOR HONOURS STUDENTS (INTEGRATED MASTERS STUDENTS MAY TAKE IN SENIOR HONOURS OR THEIR FINAL YEAR) WHO HAVE BEEN ACCEPTED FOLLOWING APPLICATION AND INTERVIEW IN THE PRECEDING SEMESTER.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -947,11 +1019,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AS1002"
       },
       "prerequisitesText": "STUDENTS MUST HAVE HIGHER OR A-LEVEL PHYSICS AND MATHEMATICS (BOTH AT GRADE B OR BETTER), OR EQUIVALENT.,THIS MODULE HAS AVAILABILITY RESTRICTIONS INDICATED IN THE 2025-26 <A TARGET=\"_BLANK\" HREF=\"HTTPS://WWW.ST-ANDREWS.AC.UK/SUBJECTS/MODULES/\">MODULE CATALOGUE</A>. YOU SHOULD ENSURE YOU UNDERSTAND THE AVAILABILITY RESTRICTIONS BEFORE SELECTING THIS MODULE.",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS1002"
     },
     {
@@ -977,11 +1051,13 @@
         "type": "module",
         "code": "PH1011"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AS1002"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH1011,THIS MODULE HAS AVAILABILITY RESTRICTIONS INDICATED IN THE 2025-26 <A TARGET=\"_BLANK\" HREF=\"HTTPS://WWW.ST-ANDREWS.AC.UK/SUBJECTS/MODULES/\">MODULE CATALOGUE</A>. YOU SHOULD ENSURE YOU UNDERSTAND THE AVAILABILITY RESTRICTIONS BEFORE SELECTING THIS MODULE.",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS1002"
     },
     {
@@ -1004,8 +1080,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "(HIGHER MATHEMATICS GRADE B) AND (HIGHER PHYSICS GRADE B OR HIGHER CHEMISTRY GRADE B), OR EQUIVALENTS",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1028,11 +1106,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AS1002"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS1002"
     },
     {
@@ -1054,9 +1134,14 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PH2011"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2011",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1077,10 +1162,47 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "CH1202"
+              },
+              {
+                "type": "module",
+                "code": "CH1402"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "PH1011"
+          },
+          {
+            "type": "module",
+            "code": "PH1012"
+          },
+          {
+            "type": "module",
+            "code": "MT1002"
+          }
+        ]
+      },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "CH2501"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PH2011"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS CH1202 OR PASS CH1402 ) AND PASS PH1011 AND PASS PH1012 AND PASS MT1002",
+      "coRequisitesText": "YOU MUST ALSO TAKE CH2501",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH2011"
     },
     {
       "id": "PH3007",
@@ -1101,10 +1223,49 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PH3081"
+              },
+              {
+                "type": "module",
+                "code": "PH3082"
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "PH2012"
+              },
+              {
+                "type": "module",
+                "code": "MT2501"
+              },
+              {
+                "type": "module",
+                "code": "MT2503"
+              }
+            ]
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "MT4553"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PH3081 OR PASS PH3082 ) OR PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT4553"
     },
     {
       "id": "PH3012",
@@ -1125,9 +1286,40 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PH3081"
+              },
+              {
+                "type": "module",
+                "code": "PH3082"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "PH2012"
+          },
+          {
+            "type": "module",
+            "code": "MT2501"
+          },
+          {
+            "type": "module",
+            "code": "MT2503"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PH3081 OR PASS PH3082 ) AND PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1150,9 +1342,14 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PH4040"
+      },
       "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH4040"
     },
     {
       "id": "PH3061",
@@ -1173,9 +1370,52 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH2012"
+          },
+          {
+            "type": "module",
+            "code": "MT2501"
+          },
+          {
+            "type": "module",
+            "code": "MT2503"
+          }
+        ]
+      },
+      "coRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH3081"
+          },
+          {
+            "type": "module",
+            "code": "PH3082"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT2506"
+              },
+              {
+                "type": "module",
+                "code": "MT2507"
+              }
+            ]
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "coRequisitesText": "YOU MUST ALSO TAKE PH3081 OR TAKE PH3082 OR ( PASS MT2506 AND PASS MT2507 )",
       "antiRequisitesText": ""
     },
     {
@@ -1197,9 +1437,44 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH3061"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PH3081"
+              },
+              {
+                "type": "module",
+                "code": "PH3082"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "PH2012"
+          },
+          {
+            "type": "module",
+            "code": "MT2501"
+          },
+          {
+            "type": "module",
+            "code": "MT2503"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061 AND ( PASS PH3081 OR PASS PH3082 ) AND PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1221,9 +1496,27 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH2011"
+          },
+          {
+            "type": "module",
+            "code": "PH2012"
+          },
+          {
+            "type": "module",
+            "code": "MT2501"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2011 AND PASS PH2012 AND ( PASS MT2501 AND PASS MT2503 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1245,10 +1538,31 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH2012"
+          },
+          {
+            "type": "module",
+            "code": "MT2501"
+          },
+          {
+            "type": "module",
+            "code": "MT2503"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PH3082"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH3082"
     },
     {
       "id": "PH3081",
@@ -1269,10 +1583,40 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH2012"
+          },
+          {
+            "type": "module",
+            "code": "MT2501"
+          },
+          {
+            "type": "module",
+            "code": "MT2503"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH3082"
+          },
+          {
+            "type": "module",
+            "code": "MT3506"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH3082 OR TAKE MT3506"
     },
     {
       "id": "PH3082",
@@ -1293,10 +1637,44 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH2012"
+          },
+          {
+            "type": "module",
+            "code": "MT2501"
+          },
+          {
+            "type": "module",
+            "code": "MT2503"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH3080"
+          },
+          {
+            "type": "module",
+            "code": "PH3081"
+          },
+          {
+            "type": "module",
+            "code": "MT3506"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2012 AND PASS MT2501 AND PASS MT2503",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH3080 OR TAKE PH3081 OR TAKE MT3506"
     },
     {
       "id": "PH3101",
@@ -1330,8 +1708,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH2012 AND ( PASS MT2501 AND PASS MT2503 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1393,8 +1773,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3007 AND ( PASS PH3081 OR PASS PH3082 ) OR ( PASS MT2506 AND PASS MT2507 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1416,9 +1798,63 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "PH3061"
+              },
+              {
+                "type": "module",
+                "code": "PH3062"
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "PH3081"
+                  },
+                  {
+                    "type": "module",
+                    "code": "PH3082"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "MT2003"
+                  },
+                  {
+                    "type": "module",
+                    "code": "MT2506"
+                  }
+                ]
+              },
+              {
+                "type": "module",
+                "code": "MT2507"
+              }
+            ]
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061 AND PASS PH3062 AND ( PASS PH3081 OR PASS PH3082 ) OR ( PASS MT2003 OR PASS MT2506 AND PASS MT2507 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1466,8 +1902,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082 OR ( PASS MT2506 AND PASS MT2507 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1489,9 +1927,27 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH3007"
+          },
+          {
+            "type": "module",
+            "code": "PH3081"
+          },
+          {
+            "type": "module",
+            "code": "PH4038"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3007 AND PASS PH3081 AND PASS PH4038",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1513,10 +1969,40 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH3081"
+          },
+          {
+            "type": "module",
+            "code": "PH3082"
+          },
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "module",
+                "code": "MT2506"
+              },
+              {
+                "type": "module",
+                "code": "MT2507"
+              }
+            ]
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PH5005"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082 OR ( PASS MT2506 AND PASS MT2507 )",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH5005"
     },
     {
       "id": "PH4035",
@@ -1563,8 +2049,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082 OR ( PASS MT2506 AND PASS MT2507 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1586,21 +2074,11 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3081"
-          },
-          {
-            "type": "module",
-            "code": "PH3082"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1611,6 +2089,367 @@
       "summary": "The module covers the foundations of classical mechanics as well as a number of applications in various areas. Starting from the principle of least action, the Lagrangian and…",
       "semesters": [
         "2"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH4039",
+      "name": "Introduction to Condensed Matter Physics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module explores how the various electrical and thermal properties of solids are related to the nature and arrangement of their constituent atoms. Emphasis is given to…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH4040",
+      "name": "Nuclear and Particle Physics with Advanced Skills",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The first aim of this module is to describe in terms of appropriate models, the structure and properties of the atomic nucleus, the classification of fundamental particles and the …",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH4041",
+      "name": "Atomic, Nuclear, and Particle Physics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The aim of this module is to describe in terms of appropriate models, the structure and properties of the atom, including its nucleus, the classification of fundamental particles…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH4042",
+      "name": "Concepts in Atomic Physics and Magnetic Resonance",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This first half of the module builds on the atomic physics covered in PH4041 to look at the atomic structure of helium and many-electron atoms, magnetic interactions within the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025-26"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": false,
+        "2027-28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH4043",
+      "name": "Studies in Physics and Chemistry",
+      "level": 4000,
+      "credits": 5,
+      "summary": "This module, which is for students on the joint degree programme Chemistry and Physics, provides guidance on literature research and communication skills. Students choose area(s)…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH4044",
+      "name": "Advanced Condensed Matter Physics",
+      "level": 4000,
+      "credits": 15,
+      "summary": "This module builds on concepts taught in Introduction to Condensed Matter Physics (PH4039) to introduce more advanced theoretical concepts and lay the foundations required to…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH3061"
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PH3080"
+              },
+              {
+                "type": "module",
+                "code": "PH3082"
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "PH4039"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE PH3061 AND ( TAKE PH3080 OR TAKE PH3082 ) AND TAKE PH4039",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH4105",
+      "name": "Physics Laboratory 2",
+      "level": 4000,
+      "credits": 15,
+      "summary": "The aims of the module are (i) to familiarise students with a wide variety of experimental techniques and equipment, and (ii) to instil an appreciation of the significance of…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH4111",
+      "name": "Physics Project (BSc)",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The project aims to develop students' skills in searching the physics literature and in research, the evaluation and interpretation of data, and in the presentation of results.…",
+      "semesters": [
+        "Full Year"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PH3061"
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "AS4103"
+          },
+          {
+            "type": "module",
+            "code": "AS5101"
+          },
+          {
+            "type": "module",
+            "code": "PH5101"
+          },
+          {
+            "type": "module",
+            "code": "PH5103"
+          },
+          {
+            "type": "module",
+            "code": "PH4796"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AS4103 OR TAKE AS5101 OR TAKE PH5101 OR TAKE PH5103 OR TAKE PH4796"
+    },
+    {
+      "id": "PH5004",
+      "name": "Quantum Field Theory",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module presents an introductory account of the ideas of quantum field theory and of simple applications thereof, including quantization of classical field theories, second…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH3012"
+          },
+          {
+            "type": "module",
+            "code": "PH3061"
+          },
+          {
+            "type": "module",
+            "code": "PH3062"
+          },
+          {
+            "type": "module",
+            "code": "PH4038"
+          },
+          {
+            "type": "module",
+            "code": "PH4028"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3012 AND PASS PH3061 AND PASS PH3062 AND PASS 1 MODULE FROM {PH4038, MT4507} AND PASS 1 MODULE FROM {PH4028, MT3503}",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH5005",
+      "name": "Laser Physics and Design",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Quantitative treatment of laser physics including rate equations; transient/dynamic behaviour of laser oscillators including relaxation oscillations, Q-switching, cavity dumping…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH5011",
+      "name": "General Relativity",
+      "level": 5000,
+      "credits": 15,
+      "summary": "This module provides an introduction to the theory of General Relativity. After laying the required foundations in mathematics and theoretical physics, it demonstrates how…",
+      "semesters": [
+        "1"
       ],
       "years": [
         "2025-26",
@@ -1648,308 +2487,10 @@
           }
         ]
       },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MT4507"
-      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082 OR ( PASS MT2506 AND PASS MT2507 )",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT4507"
-    },
-    {
-      "id": "PH4039",
-      "name": "Introduction to Condensed Matter Physics",
-      "level": 4000,
-      "credits": 15,
-      "summary": "This module explores how the various electrical and thermal properties of solids are related to the nature and arrangement of their constituent atoms. Emphasis is given to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PH3081"
-          },
-          {
-            "type": "module",
-            "code": "PH3082"
-          },
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "MT2506"
-              },
-              {
-                "type": "or",
-                "children": [
-                  {
-                    "type": "module",
-                    "code": "PH3061"
-                  },
-                  {
-                    "type": "module",
-                    "code": "CH3712"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3081 OR PASS PH3082 OR ( PASS MT2506 AND PASS MT2507 ) AND ( PASS PH3061 OR PASS CH3712 )",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH4040",
-      "name": "Nuclear and Particle Physics with Advanced Skills",
-      "level": 4000,
-      "credits": 15,
-      "summary": "The first aim of this module is to describe in terms of appropriate models, the structure and properties of the atomic nucleus, the classification of fundamental particles and the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH4041",
-      "name": "Atomic, Nuclear, and Particle Physics",
-      "level": 4000,
-      "credits": 15,
-      "summary": "The aim of this module is to describe in terms of appropriate models, the structure and properties of the atom, including its nucleus, the classification of fundamental particles…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH4042",
-      "name": "Concepts in Atomic Physics and Magnetic Resonance",
-      "level": 4000,
-      "credits": 15,
-      "summary": "This first half of the module builds on the atomic physics covered in PH4041 to look at the atomic structure of helium and many-electron atoms, magnetic interactions within the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": false,
-        "2027-28": false
-      },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH4043",
-      "name": "Studies in Physics and Chemistry",
-      "level": 4000,
-      "credits": 5,
-      "summary": "This module, which is for students on the joint degree programme Chemistry and Physics, provides guidance on literature research and communication skills. Students choose area(s)…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH4044",
-      "name": "Advanced Condensed Matter Physics",
-      "level": 4000,
-      "credits": 15,
-      "summary": "This module builds on concepts taught in Introduction to Condensed Matter Physics (PH4039) to introduce more advanced theoretical concepts and lay the foundations required to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH4105",
-      "name": "Physics Laboratory 2",
-      "level": 4000,
-      "credits": 15,
-      "summary": "The aims of the module are (i) to familiarise students with a wide variety of experimental techniques and equipment, and (ii) to instil an appreciation of the significance of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH4111",
-      "name": "Physics Project (BSc)",
-      "level": 4000,
-      "credits": 30,
-      "summary": "The project aims to develop students' skills in searching the physics literature and in research, the evaluation and interpretation of data, and in the presentation of results.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH5004",
-      "name": "Quantum Field Theory",
-      "level": 5000,
-      "credits": 15,
-      "summary": "This module presents an introductory account of the ideas of quantum field theory and of simple applications thereof, including quantization of classical field theories, second…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH5005",
-      "name": "Laser Physics and Design",
-      "level": 5000,
-      "credits": 15,
-      "summary": "Quantitative treatment of laser physics including rate equations; transient/dynamic behaviour of laser oscillators including relaxation oscillations, Q-switching, cavity dumping…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH5011",
-      "name": "General Relativity",
-      "level": 5000,
-      "credits": 15,
-      "summary": "This module provides an introduction to the theory of General Relativity. After laying the required foundations in mathematics and theoretical physics, it demonstrates how…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1972,8 +2513,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1995,47 +2538,11 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "or",
-            "children": [
-              {
-                "type": "module",
-                "code": "PH3081"
-              },
-              {
-                "type": "module",
-                "code": "PH3082"
-              },
-              {
-                "type": "and",
-                "children": [
-                  {
-                    "type": "module",
-                    "code": "MT2506"
-                  },
-                  {
-                    "type": "module",
-                    "code": "MT2507"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "module",
-            "code": "PH3061"
-          },
-          {
-            "type": "module",
-            "code": "PH3062"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PH3081 OR PASS PH3082 OR PASS MT2506 AND PASS MT2507 ) AND PASS PH3061 AND PASS PH3062",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2058,8 +2565,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2081,9 +2590,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH2012"
+          },
+          {
+            "type": "module",
+            "code": "AS3013"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "UNDERGRADUATES: BEFORE TAKING THIS MODULE YOU MUST PASS PH2012 AND PASS AT LEAST 1 MODULE FROM {AS3013, PH3080, PH3081, PH3082}.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2092,30 +2615,6 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module links with ongoing research in this area in the School, and includes the rich structural and electronic phases that can be stabilised at surfaces of materials and the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "PH5025",
-      "name": "Nanophotonics",
-      "level": 5000,
-      "credits": 15,
-      "summary": "Nanophotonics deals with structured materials on the nanoscale for the manipulation of light. Photonic crystals and plasmonic metamaterials are hot topics in contemporary…",
       "semesters": [
         "1"
       ],
@@ -2145,35 +2644,51 @@
               },
               {
                 "type": "module",
-                "code": "PH3082"
+                "code": "MT2506"
               }
             ]
           },
           {
-            "type": "or",
-            "children": [
-              {
-                "type": "module",
-                "code": "PH4027"
-              },
-              {
-                "type": "module",
-                "code": "PH4034"
-              },
-              {
-                "type": "module",
-                "code": "PH4035"
-              }
-            ]
+            "type": "module",
+            "code": "PH4037"
+          },
+          {
+            "type": "module",
+            "code": "PH3080"
           }
         ]
       },
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PH5183"
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 4 MODULES FROM {PH3061, PH3062, PH4039, PH4044} AND ( PASS 1 MODULE FROM {PH3081, PH3082} OR PASS 2 MODULES FROM {MT2506, MT2507} ) AND PASS 1 MODULE FROM {PH4037, PH4041} AND PASS 1 MODULE FROM {PH3080, PH3082}",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "PH5025",
+      "name": "Nanophotonics",
+      "level": 5000,
+      "credits": 15,
+      "summary": "Nanophotonics deals with structured materials on the nanoscale for the manipulation of light. Photonic crystals and plasmonic metamaterials are hot topics in contemporary…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
       },
-      "prerequisitesText": "UNDERGRADUATES: BEFORE TAKING THIS MODULE YOU MUST TAKE PH3061 AND ( TAKE PH3081 OR TAKE PH3082 ) AND ( TAKE PH4027 OR TAKE PH4034 OR TAKE PH4035 )",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH5183"
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH5026",
@@ -2198,8 +2713,10 @@
         "type": "module",
         "code": "PH3061"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2221,37 +2738,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PH3061"
-      },
-      "antiRequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "AS4103"
-          },
-          {
-            "type": "module",
-            "code": "AS5101"
-          },
-          {
-            "type": "module",
-            "code": "PH4111"
-          },
-          {
-            "type": "module",
-            "code": "PH5103"
-          },
-          {
-            "type": "module",
-            "code": "PH4796"
-          }
-        ]
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ALL MODULES FROM AS4103 AND TAKE ALL MODULES FROM AS5101 AND TAKE ALL MODULES FROM PH4111 AND TAKE ALL MODULES FROM PH5103 AND TAKE ALL MODULES FROM PH4796"
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PH5103",
@@ -2272,10 +2764,43 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PH3061"
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PH5102"
+          },
+          {
+            "type": "module",
+            "code": "PH5101"
+          },
+          {
+            "type": "module",
+            "code": "PH4111"
+          },
+          {
+            "type": "module",
+            "code": "AS4103"
+          },
+          {
+            "type": "module",
+            "code": "AS5101"
+          },
+          {
+            "type": "module",
+            "code": "PH4796"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PH3061",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PH5102 OR TAKE PH5101 OR TAKE PH4111 OR TAKE AS4103 OR TAKE AS5101 OR TAKE PH4796"
     },
     {
       "id": "PH5177",
@@ -2296,8 +2821,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2320,8 +2847,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ADMISSION TO THE CDT APPLIED PHOTONICS PROGRAMME WITHIN THE SCHOOL",
+      "prerequisitesText": "ADMISSION PRE-REQUISITE",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2343,8 +2872,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2366,8 +2897,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2389,8 +2922,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2412,8 +2947,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2435,8 +2972,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2458,8 +2997,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2481,8 +3022,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2505,8 +3048,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     }
   ]

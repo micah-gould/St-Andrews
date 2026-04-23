@@ -2,13 +2,18 @@ export function createGraphState(nodes, edges, prereqRules) {
   const nodeMap = Object.fromEntries(nodes.map((node) => [node.id, node]));
   const prereqsFor = {};
   const prereqOf = {};
+  const coreqsFor = {};
+  const coreqOf = {};
   const antiFor = {};
   const antiOf = {};
   const prereqEdgeKinds = new Map();
+  const coreqEdgeKinds = new Map();
 
   nodes.forEach((node) => {
     prereqsFor[node.id] = new Set();
     prereqOf[node.id] = new Set();
+    coreqsFor[node.id] = new Set();
+    coreqOf[node.id] = new Set();
     antiFor[node.id] = new Set();
     antiOf[node.id] = new Set();
   });
@@ -18,6 +23,13 @@ export function createGraphState(nodes, edges, prereqRules) {
       prereqsFor[edge.target]?.add(edge.source);
       prereqOf[edge.source]?.add(edge.target);
       prereqEdgeKinds.set(`${edge.source}->${edge.target}`, edge.requirementKind || 'required');
+      return;
+    }
+
+    if (edge.etype === 'coreq') {
+      coreqsFor[edge.target]?.add(edge.source);
+      coreqOf[edge.source]?.add(edge.target);
+      coreqEdgeKinds.set(`${edge.source}->${edge.target}`, edge.requirementKind || 'required');
       return;
     }
 
@@ -111,6 +123,13 @@ export function createGraphState(nodes, edges, prereqRules) {
     return starts;
   }
 
+  function getAllCorequisites(id) {
+    const linked = new Set();
+    (coreqsFor[id] || new Set()).forEach((source) => linked.add(source));
+    (coreqOf[id] || new Set()).forEach((target) => linked.add(target));
+    return linked;
+  }
+
   function getForwardPathNodes(id) {
     const nodesInPath = new Set();
     getForwardPathStarts(id).forEach((startId) => {
@@ -144,6 +163,10 @@ export function createGraphState(nodes, edges, prereqRules) {
     return paths;
   }
 
+  function getCorequisitePaths(id) {
+    return [...getAllCorequisites(id)].map((linkedId) => [linkedId, id]);
+  }
+
   function getSimplePathsForward(startId, maxCount = 3) {
     const paths = [];
     const walk = (currentId, trail) => {
@@ -168,6 +191,10 @@ export function createGraphState(nodes, edges, prereqRules) {
     return prereqEdgeKinds.get(`${source}->${target}`) || 'required';
   }
 
+  function getCoreqRequirementKind(source, target) {
+    return coreqEdgeKinds.get(`${source}->${target}`) || 'required';
+  }
+
   function isExpressionBlocked(expression, excluded, target) {
     if (!expression) return false;
     if (expression.type === 'module') return excluded.has(expression.code);
@@ -183,12 +210,15 @@ export function createGraphState(nodes, edges, prereqRules) {
     getAncestorsOfSet,
     getDescendantsOfSet,
     getAllAntiLinks,
+    getAllCorequisites,
     getForwardPathStarts,
     getForwardPathNodes,
     getPrerequisitePathNodes,
     getSimplePathsFromRoots,
+    getCorequisitePaths,
     getSimplePathsForward,
     getEdgeRequirementKind,
+    getCoreqRequirementKind,
   };
 }
 

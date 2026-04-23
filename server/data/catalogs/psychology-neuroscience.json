@@ -27,8 +27,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "THIS MODULE HAS AVAILABILITY RESTRICTIONS INDICATED IN THE 2025-26 <A TARGET=\"_BLANK\" HREF=\"HTTPS://WWW.ST-ANDREWS.AC.UK/SUBJECTS/MODULES/\">MODULE CATALOGUE</A>. YOU SHOULD ENSURE YOU UNDERSTAND THE AVAILABILITY RESTRICTIONS BEFORE SELECTING THIS MODULE.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -51,8 +53,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "THIS MODULE HAS AVAILABILITY RESTRICTIONS INDICATED IN THE 2025-26 <A TARGET=\"_BLANK\" HREF=\"HTTPS://WWW.ST-ANDREWS.AC.UK/SUBJECTS/MODULES/\">MODULE CATALOGUE</A>. YOU SHOULD ENSURE YOU UNDERSTAND THE AVAILABILITY RESTRICTIONS BEFORE SELECTING THIS MODULE.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -75,6 +79,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -89,6 +94,7 @@
         ]
       },
       "prerequisitesText": "STUDENTS MUST HAVE GAINED ENTRY TO THE PART-TIME EVENING DEGREE PROGRAMME",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PN1001 OR TAKE PN1002"
     },
     {
@@ -141,8 +147,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PS1001 AND PASS PS1002 ) OR ( PASS PN1001 AND PASS PN1002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -177,8 +185,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2001 OR PASS PS2001 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -217,8 +227,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN1001 AND PASS PN1002 AND PASS BL2301",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -253,6 +265,7 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -276,6 +289,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN1901 OR PASS PS1901 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU ( TAKE PN2001 OR TAKE PS2001 ) OR ( TAKE PN2002 OR TAKE PS2002 )"
     },
     {
@@ -328,11 +342,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "PS3023"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2001 OR PASS PS2001 ) AND ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PS3023"
     },
     {
@@ -367,8 +383,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -403,8 +421,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -439,8 +459,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -475,8 +497,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -511,8 +535,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -547,8 +573,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -583,8 +611,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -619,8 +649,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -642,9 +674,14 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "BL2301"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 2 MODULES FROM {BL2301, BL2302, BL2305, BL2306, PN2202}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -666,9 +703,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "BL2301"
+          },
+          {
+            "type": "module",
+            "code": "PN2202"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2301 AND PASS PN2202",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -691,8 +742,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "HONOURS ENTRY TO BSC NEUROSCIENCE",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -713,9 +766,41 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PN1901"
+              },
+              {
+                "type": "module",
+                "code": "PS1901"
+              }
+            ]
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PN2901"
+              },
+              {
+                "type": "module",
+                "code": "PS2901"
+              }
+            ]
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN1901 OR PASS PS1901 ) AND ( PASS PN2901 OR PASS PS2901 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -741,8 +826,10 @@
         "type": "module",
         "code": "PN3025"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN3025",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -764,10 +851,24 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PS3025"
+          },
+          {
+            "type": "module",
+            "code": "PS4026"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PS3025 (OR PS3021/PS3023) AND PS4026 (OR PS3022/PS3024 ).",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE ANY OTHER PROJECT/DISSERTATION MODULE OFFERED BY THE SCHOOL OF PSYCHOLOGY AND NEUROSCIENCE"
     },
     {
       "id": "PN4060",
@@ -788,10 +889,36 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2002"
+          },
+          {
+            "type": "module",
+            "code": "PS2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "BL4200"
+          },
+          {
+            "type": "module",
+            "code": "PN4299"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE BL4200 OR TAKE PN4299"
     },
     {
       "id": "PN4065",
@@ -812,9 +939,41 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PN2002"
+              },
+              {
+                "type": "module",
+                "code": "PS2002"
+              }
+            ]
+          },
+          {
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PN3037"
+              },
+              {
+                "type": "module",
+                "code": "PS3037"
+              }
+            ]
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 ) AND ( PASS PN3037 OR PASS PS3037 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -836,9 +995,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2002"
+          },
+          {
+            "type": "module",
+            "code": "PS2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -860,9 +1033,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2002"
+          },
+          {
+            "type": "module",
+            "code": "PS2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -884,9 +1071,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2002"
+          },
+          {
+            "type": "module",
+            "code": "PS2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -909,11 +1110,22 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
-        "type": "module",
-        "code": "PN2002"
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2002"
+          },
+          {
+            "type": "module",
+            "code": "PS2002"
+          }
+        ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN2002",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -936,11 +1148,22 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
-        "type": "module",
-        "code": "PN2002"
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2002"
+          },
+          {
+            "type": "module",
+            "code": "PS2002"
+          }
+        ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN2002",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -966,17 +1189,37 @@
         "type": "and",
         "children": [
           {
-            "type": "module",
-            "code": "PN2001"
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PN2001"
+              },
+              {
+                "type": "module",
+                "code": "PS2001"
+              }
+            ]
           },
           {
-            "type": "module",
-            "code": "PN2002"
+            "type": "or",
+            "children": [
+              {
+                "type": "module",
+                "code": "PN2002"
+              },
+              {
+                "type": "module",
+                "code": "PS2002"
+              }
+            ]
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN2001 AND PASS PN2002",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2001 OR PASS PS2001 ) AND ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -999,11 +1242,22 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
-        "type": "module",
-        "code": "PN2002"
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2002"
+          },
+          {
+            "type": "module",
+            "code": "PS2002"
+          }
+        ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN2002",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN2002 OR PASS PS2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1025,9 +1279,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2002"
+          },
+          {
+            "type": "module",
+            "code": "PS2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1049,9 +1317,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2002"
+          },
+          {
+            "type": "module",
+            "code": "PS2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1086,8 +1368,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN2002 OR PASS PS2002 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1122,8 +1406,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PN3034 OR PASS PS3034 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1146,8 +1432,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1168,9 +1456,23 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2001"
+          },
+          {
+            "type": "module",
+            "code": "PN2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN2001 AND PASS PN2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1192,9 +1494,58 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "and",
+            "children": [
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "PS3021"
+                  },
+                  {
+                    "type": "module",
+                    "code": "PS3023"
+                  },
+                  {
+                    "type": "module",
+                    "code": "PN3025"
+                  }
+                ]
+              },
+              {
+                "type": "or",
+                "children": [
+                  {
+                    "type": "module",
+                    "code": "PS3022"
+                  },
+                  {
+                    "type": "module",
+                    "code": "PS3024"
+                  },
+                  {
+                    "type": "module",
+                    "code": "PN4026"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "module",
+            "code": "PN3322"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( TAKE PS3021 OR TAKE PS3023 OR TAKE PN3025 ) AND ( TAKE PS3022 OR TAKE PS3024 OR TAKE PN4026 ) OR TAKE PN3322",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1217,8 +1568,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1240,9 +1593,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN2022"
+          },
+          {
+            "type": "module",
+            "code": "PN3313"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "IF UG, STUDENT MUST HAVE PASSED PN2022 OR PN3313.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1264,8 +1631,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1287,8 +1656,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1311,8 +1682,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE AT LEAST 40 CREDITS WORTH OF PN OR BL MODULES",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1335,8 +1708,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1359,8 +1734,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1383,8 +1760,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1406,9 +1785,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "PN3313"
+          },
+          {
+            "type": "module",
+            "code": "BL3303"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN3313 AND PASS BL3303",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1430,8 +1823,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1452,9 +1847,14 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PN3313"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PN3313",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1489,8 +1889,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "IF TAKING A NEUROSCIENCE PROGRAMME, BEFORE TAKING THIS MODULE YOU MUST ( PASS PN3312 AND PASS PN3313 ). IF TAKING A PSYCHOLOGY PROGRAMME, BEFORE TAKING THIS MODULE YOU MUST (PASS PN3025) AND (PASS PN4026)",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE ANY OTHER PROJECT/DISSERTATION MODULE OFFERED BY THE SCHOOL OF PSYCHOLOGY AND NEUROSCIENCE"
     },
     {
@@ -1513,8 +1915,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE ANY OTHER PROJECT/DISSERTATION MODULE OFFERED BY THE SCHOOL OF PNYCHOLOGY AND NEUROSCIENCE"
     },
     {
@@ -1537,9 +1941,11 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
-      "antiRequisitesText": "YOU CANNOT TAKE ANY OTHER PROJECT/DISSERTATION MODULE OFFERED BY THE SCHOOL OF PSYCHOLOGY AND NEUROSCIENCE"
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PN5000",
@@ -1561,8 +1967,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1585,8 +1993,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1609,8 +2019,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1633,8 +2045,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1657,11 +2071,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "PS5003"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PS5003"
     },
     {
@@ -1684,8 +2100,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1708,8 +2126,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1732,8 +2152,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1756,8 +2178,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1780,8 +2204,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1804,8 +2230,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1828,8 +2256,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1852,8 +2282,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1876,8 +2308,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1900,8 +2334,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1924,9 +2360,14 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PN5235"
+      },
       "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU ( TAKE PN5235 OR TAKE PS5235 )"
     },
     {
       "id": "PN5237",
@@ -1948,12 +2389,11 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PN5238"
-      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU ( TAKE PN5238 OR TAKE PS5238 )"
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "PN5238",
@@ -1975,8 +2415,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1999,8 +2441,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2023,8 +2467,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2047,8 +2493,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "STUDENTS MUST HAVE A UNIVERSITY DEGREE OR HAVE OTHER CERTIFIABLE OR EXPERIENTIAL PRIOR LEARNING",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2070,8 +2518,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2093,8 +2543,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2117,8 +2569,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     }
   ]

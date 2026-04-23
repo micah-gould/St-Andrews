@@ -27,8 +27,22 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "BL1101"
+          },
+          {
+            "type": "module",
+            "code": "CH1401"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "HIGHER CHEMISTRY, NATIONAL 5 MATHS, ENGLISH, BIOLOGY",
+      "coRequisitesText": "YOU MUST ALSO TAKE BL1101 AND TAKE CH1401",
       "antiRequisitesText": ""
     },
     {
@@ -67,8 +81,22 @@
           }
         ]
       },
+      "coRequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "BL1102"
+          },
+          {
+            "type": "module",
+            "code": "CH1601"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE BL1101 AND TAKE CH1401 AND TAKE MD1003",
+      "coRequisitesText": "YOU MUST ALSO TAKE BL1102 AND TAKE CH1601",
       "antiRequisitesText": ""
     },
     {
@@ -90,8 +118,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -114,8 +144,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -138,8 +170,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -162,8 +196,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -198,8 +234,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD2001 AND PASS MD2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -234,8 +272,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD2001 AND PASS MD2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -261,8 +301,10 @@
         "type": "module",
         "code": "MD2101"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD2101",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -297,8 +339,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD3001 AND PASS MD3002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -334,8 +378,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD3001 AND PASS MD3002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -370,8 +416,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD3001 AND PASS MD3002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -406,6 +454,10 @@
           }
         ]
       },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "MD4001"
+      },
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -420,6 +472,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD3001 AND PASS MD3002",
+      "coRequisitesText": "YOU MUST ALSO TAKE MD4001",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE AND MD4002 SIMULTANEOUSLY. YOU CANNOT TAKE THIS MODULE IF YOU TAKE OR HAVE TAKEN MD4003."
     },
     {
@@ -454,11 +507,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "MD4003"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD3001 AND PASS MD3002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MD4003"
     },
     {
@@ -483,6 +538,10 @@
         "type": "module",
         "code": "MD4005"
       },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "MD5012"
+      },
       "antiRequisiteExpression": {
         "type": "and",
         "children": [
@@ -506,6 +565,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD4005",
+      "coRequisitesText": "YOU MUST ALSO TAKE MD5012",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU ( PASS MD4002 OR TAKE MD4002 ) AND ( PASS MD4003 OR TAKE MD4003 )"
     },
     {
@@ -528,8 +588,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -555,8 +617,10 @@
         "type": "module",
         "code": "MD5801"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PASS IN SEMESTER 1 MODULE MD5801 ‘FUNDAMENTALS OF DESIGNING AND FACILITATING LEARNING’.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -579,8 +643,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -603,8 +669,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -627,8 +695,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -651,8 +721,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -687,8 +759,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MD5801 AND PASS MD5802",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -711,8 +785,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     }
   ]

@@ -155,6 +155,7 @@ function buildCatalog(school, rows) {
         availability: Object.fromEntries(YEARS.map(normalizeYear).map((year) => [year, years.includes(year)])),
         frequency: inferFrequency(years),
         prerequisiteExpression: null,
+        coRequisiteExpression: null,
         antiRequisiteExpression: null,
         offerings: module.offerings,
       };
@@ -192,34 +193,42 @@ async function enrichNode(node) {
     return (a.semester || '').localeCompare(b.semester || '');
   });
 
-  let fallbackText = { prerequisitesText: '', antiRequisitesText: '' };
+  let fallbackText = { prerequisitesText: '', coRequisitesText: '', antiRequisitesText: '' };
 
   for (const offering of offerings) {
     const html = await fetch(absoluteUrl(offering.url)).then((response) => response.text()).catch(() => '');
     if (!html) continue;
 
     const prerequisitesText = extractRelationshipText(html, 'Pre-requisites', 'prerequisites');
+    const coRequisitesText = extractRelationshipText(html, 'Co-requisites', 'corequisites');
     const antiRequisitesText = extractRelationshipText(html, 'Anti-requisites', 'antirequisites');
 
     if (!fallbackText.prerequisitesText && prerequisitesText) {
       fallbackText.prerequisitesText = prerequisitesText;
     }
+    if (!fallbackText.coRequisitesText && coRequisitesText) {
+      fallbackText.coRequisitesText = coRequisitesText;
+    }
     if (!fallbackText.antiRequisitesText && antiRequisitesText) {
       fallbackText.antiRequisitesText = antiRequisitesText;
     }
 
-    if (prerequisitesText || antiRequisitesText) {
+    if (prerequisitesText || coRequisitesText || antiRequisitesText) {
       node.prerequisitesText = prerequisitesText;
+      node.coRequisitesText = coRequisitesText;
       node.antiRequisitesText = antiRequisitesText;
       node.prerequisiteExpression = parseRelationshipText(prerequisitesText);
+      node.coRequisiteExpression = parseRelationshipText(coRequisitesText);
       node.antiRequisiteExpression = parseRelationshipText(antiRequisitesText);
       return;
     }
   }
 
   node.prerequisitesText = fallbackText.prerequisitesText;
+  node.coRequisitesText = fallbackText.coRequisitesText;
   node.antiRequisitesText = fallbackText.antiRequisitesText;
   node.prerequisiteExpression = parseRelationshipText(node.prerequisitesText);
+  node.coRequisiteExpression = parseRelationshipText(node.coRequisitesText);
   node.antiRequisiteExpression = parseRelationshipText(node.antiRequisitesText);
 }
 

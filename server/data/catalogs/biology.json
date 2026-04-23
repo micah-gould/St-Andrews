@@ -27,8 +27,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "THE STUDENT MUST HAVE HIGHER OR A-LEVEL (OR EQUIVALENT) IN BIOLOGY OR HUMAN BIOLOGY AT GRADE B OR BETTER,THIS MODULE HAS AVAILABILITY RESTRICTIONS INDICATED IN THE 2025-26 <A TARGET=\"_BLANK\" HREF=\"HTTPS://WWW.ST-ANDREWS.AC.UK/SUBJECTS/MODULES/\">MODULE CATALOGUE</A>. YOU SHOULD ENSURE YOU UNDERSTAND THE AVAILABILITY RESTRICTIONS BEFORE SELECTING THIS MODULE.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -51,8 +53,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "THIS MODULE HAS AVAILABILITY RESTRICTIONS INDICATED IN THE 2025-26 <A TARGET=\"_BLANK\" HREF=\"HTTPS://WWW.ST-ANDREWS.AC.UK/SUBJECTS/MODULES/\">MODULE CATALOGUE</A>. YOU SHOULD ENSURE YOU UNDERSTAND THE AVAILABILITY RESTRICTIONS BEFORE SELECTING THIS MODULE.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -87,8 +91,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -123,8 +129,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -159,8 +167,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -195,8 +205,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -231,8 +243,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -267,8 +281,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -303,8 +319,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -339,8 +357,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -375,8 +395,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -411,8 +433,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -438,8 +462,10 @@
         "type": "module",
         "code": "BL1102"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -474,8 +500,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -531,6 +559,7 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -545,6 +574,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2300 AND ( PASS BL2303 OR PASS BL2304 OR PASS BL2307 OR PASS BL2311 OR PASS BL2312 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PN3321 OR TAKE BL3322"
     },
     {
@@ -588,8 +618,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2306 AND ( PASS BL2302 OR PASS BL2309 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -633,8 +665,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2302 AND ( PASS BL2306 OR PASS BL2309 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -686,8 +720,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2301 AND ( PASS BL2305 OR PASS BL2306 OR PASS BL2309 OR PASS PN2202 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -722,8 +758,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2303 OR PASS BL2307",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -749,8 +787,13 @@
         "type": "module",
         "code": "BL2300"
       },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "BL3000"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2300",
+      "coRequisitesText": "YOU MUST ALSO TAKE BL3000",
       "antiRequisitesText": ""
     },
     {
@@ -798,8 +841,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2307 AND ( PASS BL2303 OR PASS BL2304 OR PASS BL2308 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -825,8 +870,10 @@
         "type": "module",
         "code": "BL2301"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 2 MODULES FROM {BL2301, BL2302, BL2309}.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -852,8 +899,10 @@
         "type": "module",
         "code": "BL2301"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 2 MODULES FROM {BL2301, BL2302, BL2303, BL2304, BL2305, BL2308, BL2309}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -892,8 +941,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2304 OR PASS BL2307 OR PASS BL2312",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -919,8 +970,10 @@
         "type": "module",
         "code": "BL2304"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 1 MODULE FROM {BL2304, BL2308, BL2312},BEFORE TAKING THIS MODULE YOU MUST PASS 1 MODULE FROM {BL2307, BL2311}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -959,8 +1012,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2303 OR PASS BL2307 OR PASS BL2312",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -986,8 +1041,10 @@
         "type": "module",
         "code": "BL2300"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2300",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1026,6 +1083,7 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -1040,6 +1098,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2301 OR PASS BL2302 OR PASS BL2306",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE BL3000 OR TAKE PN3321"
     },
     {
@@ -1083,8 +1142,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE BL3301 AND ( PASS BL2302 OR PASS BL2306 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1119,8 +1180,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2300 AND PASS BL2307",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1143,6 +1206,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -1157,6 +1221,7 @@
         ]
       },
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE BL4201 OR TAKE PN4299"
     },
     {
@@ -1179,6 +1244,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -1193,6 +1259,7 @@
         ]
       },
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE BL4200 OR TAKE PN4299"
     },
     {
@@ -1215,8 +1282,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1239,8 +1308,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1266,8 +1337,10 @@
         "type": "module",
         "code": "BL3311"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3311",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1293,8 +1366,10 @@
         "type": "module",
         "code": "BL3324"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3324",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1320,8 +1395,10 @@
         "type": "module",
         "code": "BL3311"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3311",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1346,8 +1423,10 @@
         "type": "module",
         "code": "BL3301"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3301",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1386,8 +1465,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2306 OR PASS BL3301 OR PASS BL3324",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1426,8 +1507,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3302 OR PASS BL2301 OR PASS BL2302",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1462,8 +1545,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3301 OR PASS BL3302",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1486,8 +1571,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1522,8 +1609,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3301 AND PASS BL3302",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1558,8 +1647,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3303 OR PASS BL3315",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1585,11 +1676,13 @@
         "type": "module",
         "code": "BL3302"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "BL5421"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3302",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE BL5421"
     },
     {
@@ -1611,8 +1704,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED, PADI ADVANCED OPEN WATER DIVER OR BSAC SPORTS DIVER (OR EQUIVALENT)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1635,8 +1730,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1680,8 +1777,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE BL3000 AND ( TAKE BL3308 OR TAKE BL3318 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1707,8 +1806,10 @@
         "type": "module",
         "code": "BL3309"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3309",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1734,8 +1835,10 @@
         "type": "module",
         "code": "BL3319"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3319",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1761,8 +1864,10 @@
         "type": "module",
         "code": "BL3318"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3318",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1788,8 +1893,10 @@
         "type": "module",
         "code": "BL3318"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3318",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1812,8 +1919,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1839,8 +1948,10 @@
         "type": "module",
         "code": "BL3319"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3319",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1865,8 +1976,10 @@
         "type": "module",
         "code": "BL3309"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3309",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1889,8 +2002,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1913,8 +2028,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1937,8 +2054,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1964,8 +2083,10 @@
         "type": "module",
         "code": "BL3320"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3320",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1987,8 +2108,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2011,8 +2134,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2038,8 +2163,10 @@
         "type": "module",
         "code": "BL3302"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3302",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2062,8 +2189,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2086,8 +2215,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2110,8 +2241,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2136,8 +2269,10 @@
         "type": "module",
         "code": "BL3318"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3318",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2163,8 +2298,10 @@
         "type": "module",
         "code": "BL3307"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3307",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2189,11 +2326,13 @@
         "type": "module",
         "code": "BL3319"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "BL5441"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3319",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE BL5441"
     },
     {
@@ -2227,8 +2366,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3301 AND PASS BL3302",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2254,8 +2395,10 @@
         "type": "module",
         "code": "BL3324"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3324",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2281,6 +2424,7 @@
         "type": "module",
         "code": "BL3311"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -2295,6 +2439,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3311",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS BL4211 OR TAKE BL4211"
     },
     {
@@ -2317,8 +2462,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2341,8 +2488,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "PERMISSION OF BIOLOGY HONOURS ADVISER REQUIRED; JOINT PROJECT LETTER OF AGREEMENT MUST BE SIGNED.",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ANOTHER PROJECT OR DISSERTATION MODULE."
     },
     {
@@ -2364,8 +2513,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2388,8 +2539,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2412,8 +2565,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2435,8 +2590,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2459,8 +2616,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2485,8 +2644,10 @@
         "type": "module",
         "code": "BL3319"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "MUST PASS BL3319. THIS DOES NOT APPLY TO MSC ANIMAL BEHAVIOUR STUDENTS.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2509,8 +2670,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2533,8 +2696,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2557,8 +2722,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2581,8 +2748,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2605,8 +2774,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2629,8 +2800,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2653,8 +2826,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "MEDICAL CLEARANCE FOR TRAVEL TO ANTARCTICA",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2677,8 +2852,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2704,8 +2881,10 @@
         "type": "module",
         "code": "BL4603"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE BL4603",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2728,8 +2907,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2752,8 +2933,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2787,8 +2970,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL4603 AND PASS BL5000",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2822,11 +3007,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "BL4203"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL4603 AND PASS BL5500",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE BL4203"
     },
     {
@@ -2851,8 +3038,10 @@
         "type": "module",
         "code": "BL3302"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL3302",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2874,8 +3063,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2900,8 +3091,10 @@
         "type": "module",
         "code": "BL4603"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL4603",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2926,8 +3119,10 @@
         "type": "module",
         "code": "BL4603"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL4603",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2950,8 +3145,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2974,8 +3171,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3009,8 +3208,13 @@
           }
         ]
       },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "BL5604"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL4603 AND PASS BL5000",
+      "coRequisitesText": "YOU MUST ALSO TAKE BL5604",
       "antiRequisitesText": ""
     },
     {
@@ -3044,8 +3248,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL4603 AND PASS BL5000",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3069,8 +3275,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3093,8 +3301,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3117,8 +3327,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3141,8 +3353,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3165,8 +3379,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3189,8 +3405,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3213,8 +3431,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3237,8 +3457,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3262,8 +3484,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3286,11 +3510,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "GD5002"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GD5002"
     }
   ]

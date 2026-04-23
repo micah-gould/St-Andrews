@@ -27,11 +27,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS2101"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE MATHEMATICS (EITHER HIGHER OR A-LEVEL AT GRADE A OR BETTER),THIS MODULE HAS AVAILABILITY RESTRICTIONS INDICATED IN THE MODULE CATALOGUE. YOU SHOULD ENSURE YOU UNDERSTAND THE AVAILABILITY RESTRICTIONS BEFORE SELECTING THIS MODULE.",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS2101"
     },
     {
@@ -57,11 +59,13 @@
         "type": "module",
         "code": "CS1002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS2101"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS1002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS2101"
     },
     {
@@ -87,8 +91,10 @@
         "type": "module",
         "code": "CS1002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS1002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -111,8 +117,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -147,11 +155,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS2101"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS1002 AND PASS CS1003",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS2101"
     },
     {
@@ -186,8 +196,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2001 OR PASS CS2101",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -210,8 +222,22 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "CS2001"
+          },
+          {
+            "type": "module",
+            "code": "CS2101"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE CS2001 OR TAKE CS2101",
       "antiRequisitesText": ""
     },
     {
@@ -246,8 +272,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2001 OR PASS CS2101",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -270,6 +298,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -288,6 +317,7 @@
         ]
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS1002 OR TAKE CS1003 OR TAKE CS2001"
     },
     {
@@ -331,11 +361,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "PY4612"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2101 OR PASS CS2001 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY4612"
     },
     {
@@ -383,11 +415,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "MT3852"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND PASS CS3050 AND ( PASS CS2101 OR PASS CS2001 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MT3852"
     },
     {
@@ -431,11 +465,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS5031"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2101 OR PASS CS2001 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5031"
     },
     {
@@ -479,8 +515,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2101 OR PASS CS2001 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -546,11 +584,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS5020"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND (PASS CS2101 OR PASS CS2001) AND (TAKE CS2003 OR AUDIT CS2003 AND DEMONSTRATE ENGAGING WITH RELEVANT CS2003 MATERIAL TO THE SATISFACTION OF HONOURS ADVISER)",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5020"
     },
     {
@@ -594,8 +634,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2101 OR PASS CS2001 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -639,11 +681,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS5010"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2101 OR PASS CS2001 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5010"
     },
     {
@@ -687,11 +731,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS5040"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2101 OR PASS CS2001 )",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5040"
     },
     {
@@ -735,8 +781,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2101 OR PASS CS2001 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -779,8 +827,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2001 OR PASS CS2101 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -806,8 +856,10 @@
         "type": "module",
         "code": "CS3052"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3052",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -833,6 +885,7 @@
         "type": "module",
         "code": "CS3099"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -847,6 +900,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3099",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS4099 OR TAKE CS4796"
     },
     {
@@ -872,6 +926,7 @@
         "type": "module",
         "code": "CS3099"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -886,6 +941,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3099",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS4098 OR TAKE CS4796"
     },
     {
@@ -929,8 +985,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2001 OR PASS CS2101 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -956,8 +1014,10 @@
         "type": "module",
         "code": "CS3102"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -983,8 +1043,10 @@
         "type": "module",
         "code": "CS3102"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3102",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1028,8 +1090,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2001 OR PASS CS2101 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1055,8 +1119,10 @@
         "type": "module",
         "code": "CS3104"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3104",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1100,8 +1166,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2001 OR PASS CS2101 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1136,8 +1204,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3052 AND PASS CS3104",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1160,8 +1230,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1205,8 +1277,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2001 OR PASS CS2101 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1250,8 +1324,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND ( PASS CS2001 OR PASS CS2101 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1275,8 +1351,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "CONSENT FROM THE HEAD OF SCHOOL REQUIRED.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1301,8 +1379,10 @@
         "type": "module",
         "code": "CS3701"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3701",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1325,8 +1405,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENT MUST HAVE A LETTER OF AGREEMENT",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1350,11 +1432,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS5002"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5002"
     },
     {
@@ -1377,11 +1461,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS5001"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5001"
     },
     {
@@ -1407,11 +1493,13 @@
         "type": "module",
         "code": "CS5002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "IS5108"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE CS5002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE IS5108"
     },
     {
@@ -1433,8 +1521,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1462,8 +1552,10 @@
         "type": "module",
         "code": "CS3052"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3052",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1486,11 +1578,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "ID5059"
       },
       "prerequisitesText": "PGT: BEFORE TAKING THIS MODULE YOU MUST HAVE ACHIEVED A GRADE OF B OR HIGHER IN HIGHER OR A-LEVEL MATHS",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ID5059"
     },
     {
@@ -1536,8 +1630,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "UG: BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND (CS2001 OR CS2101)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1560,8 +1656,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1586,6 +1684,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -1600,6 +1699,7 @@
         ]
       },
       "prerequisitesText": "PERMISSION FROM HEAD OF SCHOOL IS REQUIRED",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5029 OR TAKE CS5039"
     },
     {
@@ -1643,11 +1743,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS3102"
       },
       "prerequisitesText": "UNDERGRADUATE - BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND (PASS CS2001 OR PASS CS2101)",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS3102"
     },
     {
@@ -1669,6 +1771,7 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -1683,6 +1786,7 @@
         ]
       },
       "prerequisitesText": "CONSENT OF THE HEAD OF SCHOOL",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5019 OR TAKE CS5039"
     },
     {
@@ -1729,8 +1833,22 @@
           }
         ]
       },
+      "coRequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CS5001"
+          },
+          {
+            "type": "module",
+            "code": "CS5002"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND PASS CS2001 OR PASS CS2101",
+      "coRequisitesText": "YOU MUST ALSO TAKE CS5001 AND TAKE CS5002",
       "antiRequisitesText": ""
     },
     {
@@ -1756,8 +1874,10 @@
         "type": "module",
         "code": "CS3099"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "UNDERGRADUATE - BEFORE TAKING THIS MODULE YOU MUST PASS CS3099",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1783,8 +1903,10 @@
         "type": "module",
         "code": "CS3099"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3099,BEFORE TAKING THIS MODULE YOU MUST PASS CS5030",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1810,8 +1932,13 @@
         "type": "module",
         "code": "CS3099"
       },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "CS5030"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3099",
+      "coRequisitesText": "YOU MUST ALSO TAKE CS5030",
       "antiRequisitesText": ""
     },
     {
@@ -1837,8 +1964,10 @@
         "type": "module",
         "code": "CS3099"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS3099,BEFORE TAKING THIS MODULE YOU MUST PASS CS5030",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1861,6 +1990,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -1875,6 +2005,7 @@
         ]
       },
       "prerequisitesText": "PERMISSION FROM HEAD OF SCHOOL",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5019 OR TAKE CS5029"
     },
     {
@@ -1918,11 +2049,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS3106"
       },
       "prerequisitesText": "UNDERGRADUATE - BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND (PASS CS2001 OR PASS CS2101)",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS3106"
     },
     {
@@ -1966,8 +2099,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "UNDERGRADUATE - BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND (PASS CS2001 OR PASS CS2101)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2011,8 +2146,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "UNDERGRADUATE STUDENTS - BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND (PASS CS2001 OR PASS CS2101)",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2056,8 +2193,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "UNDERGRADUATE - BEFORE TAKING THIS MODULE YOU MUST PASS CS2002 AND (PASS CS2001 OR PASS CS2101). PGT: CS5001 OR CS5002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2092,8 +2231,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "UNDERGRADUATE STUDENTS MUST HAVE PASSED CS2002 AND (CS2001 OR CS2101). POSTGRADUATE STUDENTS MUST PASS CS5001 BEFORE TAKING THIS MODULE",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2116,8 +2257,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2140,11 +2283,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS2003"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "UG: YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS2003,YOU CANNOT TAKE THIS MODULE IF YOU TAKE IS5103"
     },
     {
@@ -2167,11 +2312,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS5099"
       },
       "prerequisitesText": "REQUIRES ADMISSION TO DISSERTATION PHASE OF MSC AND PERMISSION OF THE HEAD OF SCHOOL",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5099"
     },
     {
@@ -2194,11 +2341,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS5098"
       },
       "prerequisitesText": "REQUIRES ADMISSION TO DISSERTATION PHASE OF MSC AND PERMISSION OF THE HEAD OF SCHOOL",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5098"
     },
     {
@@ -2221,8 +2370,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2245,8 +2396,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2273,8 +2426,10 @@
         "type": "module",
         "code": "CS3099"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU SHOULD PASS CS3099 AND BE ENROLLED ON THE MSCI HONOURS COMPUTER SCIENCE",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2297,8 +2452,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2321,8 +2478,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2345,8 +2504,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2369,8 +2530,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2393,8 +2556,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2417,8 +2582,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2441,8 +2608,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2465,8 +2634,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2489,8 +2660,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2513,8 +2686,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2537,8 +2712,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2561,8 +2738,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "WITH PERMISSION OF THE MSC ADVISER",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2585,11 +2764,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "CS5014"
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS5014"
     },
     {
@@ -2612,8 +2793,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2636,8 +2819,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "IF IS1901 HAS NOT BEEN PASSED PRIOR ACCREDITATION OF LEARNING OR SPECIAL PERMISSION OF THE SCHOOL IS REQUIRED.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     }
   ]

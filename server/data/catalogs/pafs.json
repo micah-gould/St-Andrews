@@ -27,8 +27,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -54,8 +56,10 @@
         "type": "module",
         "code": "FM1001"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM1001",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -81,8 +85,10 @@
         "type": "module",
         "code": "FM1002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM1002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -121,8 +127,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM1001 AND PASS FM1002 AND TAKE FM2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -149,8 +157,10 @@
         "type": "module",
         "code": "FM2002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002",
+      "coRequisitesText": "",
       "antiRequisitesText": "THE STUDENT CANNOT TAKE ANY OTHER 4000-LEVEL DISSERTATION MODULE"
     },
     {
@@ -184,8 +194,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -219,8 +231,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -254,8 +268,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -289,8 +305,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -324,8 +342,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -359,8 +379,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -394,8 +416,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -429,8 +453,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "FM2001 AND FM2002; WITH PASSES IN EACH AND AN AVERAGE GRADE OF 11 OR BETTER.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -464,8 +490,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST GAIN AN AVERAGE MARK OF 11 FROM FM2002 AND GAIN AN AVERAGE MARK OF 11 FROM FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -499,8 +527,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -522,8 +552,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -557,8 +589,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -592,8 +626,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -627,8 +663,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -662,8 +700,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -684,9 +724,23 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "FM2002"
+          },
+          {
+            "type": "module",
+            "code": "FM2003"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -720,8 +774,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -742,9 +798,23 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "FM2002"
+          },
+          {
+            "type": "module",
+            "code": "FM2003"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -778,8 +848,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM2002 AND PASS FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -802,9 +874,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "FM2002"
+          },
+          {
+            "type": "module",
+            "code": "FM2003"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE FM2002 AND TAKE FM2003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -828,9 +914,11 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
+      "coRequisitesText": "",
+      "antiRequisitesText": "CANNOT TAKE ANY MORE THAN 30 CREDITS IN OTHER DISSERTATION/PROJECT MODULES"
     },
     {
       "id": "FM4796",
@@ -853,8 +941,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
+      "coRequisitesText": "",
       "antiRequisitesText": "CANNOT TAKE ANY MORE THAN 30 CREDITS IN OTHER DISSERTATION/PROJECT MODULES"
     },
     {
@@ -877,8 +967,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -901,8 +993,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -924,9 +1018,14 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "FM5002"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FM5002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -949,8 +1048,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -973,8 +1074,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "FM5003"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE FM5003",
       "antiRequisitesText": ""
     },
     {
@@ -997,8 +1103,22 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "FM5002"
+          },
+          {
+            "type": "module",
+            "code": "FM5003"
+          }
+        ]
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE FM5002 OR TAKE FM5003",
       "antiRequisitesText": ""
     },
     {
@@ -1020,8 +1140,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1043,9 +1165,27 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY1005"
+          },
+          {
+            "type": "module",
+            "code": "PY2801"
+          },
+          {
+            "type": "module",
+            "code": "PY2902"
+          }
+        ]
+      },
       "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY1005 OR TAKE PY2801 OR TAKE PY2902"
     },
     {
       "id": "PY1011",
@@ -1066,9 +1206,31 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY1105"
+          },
+          {
+            "type": "module",
+            "code": "PY1106"
+          },
+          {
+            "type": "module",
+            "code": "PY1801"
+          },
+          {
+            "type": "module",
+            "code": "PY1901"
+          }
+        ]
+      },
       "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY1105 OR TAKE PY1106 OR TAKE PY1801 OR TAKE PY1901"
     },
     {
       "id": "PY1012",
@@ -1089,9 +1251,14 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PY1802"
+      },
       "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY1802"
     },
     {
       "id": "PY1013",
@@ -1112,8 +1279,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1135,9 +1304,23 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY1010"
+          },
+          {
+            "type": "module",
+            "code": "PY2012"
+          }
+        ]
+      },
       "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU HAVE TAKEN, OR ARE TAKING PY1010 OR PY2012."
     },
     {
       "id": "PY1015",
@@ -1158,9 +1341,23 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY1011"
+          },
+          {
+            "type": "module",
+            "code": "PY2013"
+          }
+        ]
+      },
       "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU HAVE TAKEN OR ARE TAKING PY1011 OR PY2013."
     },
     {
       "id": "PY1901",
@@ -1182,6 +1379,7 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -1204,6 +1402,7 @@
         ]
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY1103 OR TAKE PY1105 OR TAKE PY1801 OR TAKE PY1011"
     },
     {
@@ -1225,9 +1424,14 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PY1012"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1250,8 +1454,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1274,8 +1480,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1298,8 +1506,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1321,9 +1531,35 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY1005"
+          },
+          {
+            "type": "module",
+            "code": "PY1006"
+          },
+          {
+            "type": "module",
+            "code": "PY2801"
+          },
+          {
+            "type": "module",
+            "code": "PY1010"
+          },
+          {
+            "type": "module",
+            "code": "PY2012"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE, YOU MUST HAVE PASSED ANY SOCIAL SCIENCE OR HUMANITIES EVENING DEGREE MODULE",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY1005 OR TAKE PY1006 OR TAKE PY2801 OR TAKE PY1010 OR TAKE PY2012"
     },
     {
       "id": "PY2903",
@@ -1344,8 +1580,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE, YOU MUST HAVE PASSED ANY SOCIAL SCIENCE OR HUMANITIES EVENING DEGREE MODULE",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1367,9 +1605,14 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PY1012"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1390,9 +1633,23 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY1006"
+          },
+          {
+            "type": "module",
+            "code": "PY1012"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PY1006 OR PASS PY1012 ) AND PASS 40 CREDITS FROM ANY LEVELS MATCHING PY2",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1415,8 +1672,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "THE STUDENT MUST HAVE TAKEN TWO COURSES IN PHILOSOPHY AT COLGATE UNIVERSITY.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1438,8 +1697,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1461,8 +1722,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1484,8 +1747,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1506,9 +1771,14 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PY1012"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1530,8 +1800,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1553,8 +1825,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1576,8 +1850,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1599,8 +1875,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1622,12 +1900,11 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1648,10 +1925,18 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PY2010"
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "CS3050"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY2010",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS3050"
     },
     {
       "id": "PY4614",
@@ -1672,8 +1957,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1694,9 +1981,14 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PY1012"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1717,9 +2009,14 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PY1012"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1741,8 +2038,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1763,9 +2062,14 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PY1012"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1786,9 +2090,14 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PY1012"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1810,8 +2119,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1833,8 +2144,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1856,8 +2169,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1879,8 +2194,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1901,9 +2218,23 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY1006"
+          },
+          {
+            "type": "module",
+            "code": "PY1012"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1006 OR PASS PY1012",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1925,8 +2256,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1947,10 +2280,27 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY1006"
+          },
+          {
+            "type": "module",
+            "code": "PY1012"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "PY4601"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1006 OR PASS PY1012",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY4601"
     },
     {
       "id": "PY4649",
@@ -1971,8 +2321,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1994,8 +2346,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2017,8 +2371,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2040,8 +2396,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2063,8 +2421,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2086,8 +2446,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2108,12 +2470,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2134,12 +2495,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2160,21 +2520,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PY1012"
-          },
-          {
-            "type": "module",
-            "code": "PY1006"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012 OR PASS PY1006",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2196,8 +2546,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2218,12 +2570,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY2010"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY2010",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2244,12 +2595,11 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2270,12 +2620,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2296,12 +2645,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2323,8 +2671,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2346,8 +2696,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2369,8 +2721,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2392,8 +2746,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2415,8 +2771,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2438,8 +2796,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2461,10 +2821,36 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY1006"
+          },
+          {
+            "type": "module",
+            "code": "PY1012"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "PY4699"
+          },
+          {
+            "type": "module",
+            "code": "PY4701"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1006 OR PASS PY1012",
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY4699 OR TAKE PY4701"
     },
     {
       "id": "PY4699",
@@ -2499,6 +2885,7 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -2521,6 +2908,7 @@
         ]
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1006 OR PASS PY1012",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY3803 OR TAKE PY4698 OR TAKE PY4802 OR TAKE PY4701"
     },
     {
@@ -2542,9 +2930,17 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PY1012"
+      },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "ID4002"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "coRequisitesText": "YOU MUST ALSO TAKE ID4002",
       "antiRequisitesText": ""
     },
     {
@@ -2568,9 +2964,11 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisitesText": "STUDENTS MUST HAVE A LETTER OF AGREEMENT",
+      "coRequisitesText": "",
+      "antiRequisitesText": "CANNOT TAKE MORE THAN 30 CREDITS IN OTHER DISSERTATION/PROJECT MODULES"
     },
     {
       "id": "PY4796",
@@ -2592,9 +2990,11 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisitesText": "STUDENTS MUST HAVE A LETTER OF AGREEMENT",
+      "coRequisitesText": "",
+      "antiRequisitesText": "CANNOT TAKE MORE THAN 30 CREDITS IN OTHER DISSERTATION/PROJECT MODULES"
     },
     {
       "id": "PY5099",
@@ -2616,8 +3016,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2640,8 +3042,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2663,8 +3067,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2687,8 +3093,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2711,8 +3119,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2736,8 +3146,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2760,8 +3172,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2784,8 +3198,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2809,8 +3225,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2832,8 +3250,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2856,8 +3276,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2879,8 +3301,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2903,8 +3327,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2927,8 +3353,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2950,8 +3378,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2973,8 +3403,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2996,8 +3428,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3021,8 +3455,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3044,8 +3480,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3068,8 +3506,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3093,8 +3533,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3116,8 +3558,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3140,8 +3584,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3163,8 +3609,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3186,8 +3634,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3210,8 +3660,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3234,8 +3686,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3258,8 +3712,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3282,8 +3738,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3305,9 +3763,14 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SA1002"
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA1002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3330,8 +3793,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3353,8 +3818,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3376,9 +3843,23 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SA2001"
+          },
+          {
+            "type": "module",
+            "code": "SA2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001 AND PASS SA2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3400,8 +3881,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3422,9 +3905,23 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SA2001"
+          },
+          {
+            "type": "module",
+            "code": "SA2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001 AND PASS SA2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3450,8 +3947,10 @@
         "type": "module",
         "code": "SA2002"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3473,8 +3972,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3495,9 +3996,23 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SA2001"
+          },
+          {
+            "type": "module",
+            "code": "SA2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001 AND PASS SA2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3519,8 +4034,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3541,9 +4058,27 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SA1002"
+          },
+          {
+            "type": "module",
+            "code": "SA2001"
+          },
+          {
+            "type": "module",
+            "code": "SA2002"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA1002 AND PASS SA2001 AND PASS SA2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3581,8 +4116,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA1002 AND PASS SA2001 AND PASS SA2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3616,8 +4153,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001 AND PASS SA2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3638,12 +4177,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SA2002"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2002",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3664,12 +4202,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SA2002"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2002",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -3680,6 +4217,333 @@
       "summary": "This module provides an introduction to the various methods of enquiry and interpretation used in social anthropological research. It aims to give the student an account, in…",
       "semesters": [
         "2"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA3902",
+      "name": "An Anthropology of Global Social Issues",
+      "level": 3000,
+      "credits": 30,
+      "summary": "This module invites students to critically assess what anthropological perspectives of the 'local' can contribute to an understanding of the 'global'. The module aims to show how…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2025-26"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": false,
+        "2027-28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4040",
+      "name": "Perception, Imagination and Communication",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module will explore the basic human capacities to envision, see and share knowledge as these are transformed biographically across/between diverse space-times, cultures and…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": false,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4058",
+      "name": "Visual Anthropology",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module provides an introduction to visual anthropology. This topic embraces a broad range of subjects such as photography, material culture, art and ethnographic film. The…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025-26"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": false,
+        "2027-28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4059",
+      "name": "Living with Material Culture",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module creatively addresses anthropological approaches to material culture and develops a critical understanding of how things play a part in human social relationships. We…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": false,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4062",
+      "name": "Anthropology of Law",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module offers an opportunity to engage with the long relationship between law and anthropology. This relationship stretches from the origins of anthropology when Victorian…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": false,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4063",
+      "name": "Anthropology of Catastrophe",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module provides an introduction to anthropology's contribution to studies of existential risk and catastrophe. It explores scientific, religious and political frameworks of…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": false,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4064",
+      "name": "Anthropology of Energy",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module explores the latest and most important anthropological approaches to the energy dilemmas we face today. It addresses the politics of energy, such as postcolonial…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025-26"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": false,
+        "2027-28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4065",
+      "name": "The Anthropology of Art",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The module addresses the relations between art and anthropology, and explores what anthropologists can say about aesthetic experience through a range of ethnographic examples. It…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": false,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4067",
+      "name": "Communicating Anthropology",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module examines the multiple ways in which anthropological knowledge is communicated to diverse audiences, from research participants and local collaborators to funders,…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025-26",
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "every-year",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4068",
+      "name": "Rubbish Anthropology",
+      "level": 4000,
+      "credits": 30,
+      "summary": "Waste and recycling seem like every-day, if important, issues with which we are all familiar. But do we actually know what waste is? This module introduces students to the…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": false,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4069",
+      "name": "Technologies of Power and Resistance",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module is an examination of the interweaving of technology and politics through processes of visualizing, mediating, digitalizing, and as a means to imagine what is…",
+      "semesters": [
+        "1"
+      ],
+      "years": [
+        "2026-27"
+      ],
+      "availability": {
+        "2025-26": false,
+        "2026-27": true,
+        "2027-28": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4070",
+      "name": "Crip Anthropology: Disability and Difference",
+      "level": 4000,
+      "credits": 30,
+      "summary": "This module examines the social, cultural and political factors shaping experiences of disability and difference around the world. Students will engage with the growing…",
+      "semesters": [
+        "2"
+      ],
+      "years": [
+        "2025-26"
+      ],
+      "availability": {
+        "2025-26": true,
+        "2026-27": false,
+        "2027-28": false
+      },
+      "frequency": "irregular",
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
+    },
+    {
+      "id": "SA4098",
+      "name": "Library-Based Dissertation",
+      "level": 4000,
+      "credits": 30,
+      "summary": "The module consists of a supervised exercise in social anthropological enquiry. This will include a library-based independently researched dissertation, up to 10,000-words.…",
+      "semesters": [
+        "Full Year"
       ],
       "years": [
         "2025-26",
@@ -3704,316 +4568,14 @@
           }
         ]
       },
-      "antiRequisiteExpression": null,
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "SA4099"
+      },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001 AND PASS SA2002",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA3902",
-      "name": "An Anthropology of Global Social Issues",
-      "level": 3000,
-      "credits": 30,
-      "summary": "This module invites students to critically assess what anthropological perspectives of the 'local' can contribute to an understanding of the 'global'. The module aims to show how…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": false,
-        "2027-28": false
-      },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "MUST HAVE PASSED ANY SOCIAL SCIENCE OR HUMANITIES EVENING DEGREE MODULE",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4040",
-      "name": "Perception, Imagination and Communication",
-      "level": 4000,
-      "credits": 30,
-      "summary": "This module will explore the basic human capacities to envision, see and share knowledge as these are transformed biographically across/between diverse space-times, cultures and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": false,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SA2002"
-      },
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2002",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4058",
-      "name": "Visual Anthropology",
-      "level": 4000,
-      "credits": 30,
-      "summary": "This module provides an introduction to visual anthropology. This topic embraces a broad range of subjects such as photography, material culture, art and ethnographic film. The…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": false,
-        "2027-28": false
-      },
-      "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SA2002"
-      },
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2002",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4059",
-      "name": "Living with Material Culture",
-      "level": 4000,
-      "credits": 30,
-      "summary": "This module creatively addresses anthropological approaches to material culture and develops a critical understanding of how things play a part in human social relationships. We…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": false,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4062",
-      "name": "Anthropology of Law",
-      "level": 4000,
-      "credits": 30,
-      "summary": "This module offers an opportunity to engage with the long relationship between law and anthropology. This relationship stretches from the origins of anthropology when Victorian…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": false,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4063",
-      "name": "Anthropology of Catastrophe",
-      "level": 4000,
-      "credits": 30,
-      "summary": "This module provides an introduction to anthropology's contribution to studies of existential risk and catastrophe. It explores scientific, religious and political frameworks of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": false,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4064",
-      "name": "Anthropology of Energy",
-      "level": 4000,
-      "credits": 30,
-      "summary": "This module explores the latest and most important anthropological approaches to the energy dilemmas we face today. It addresses the politics of energy, such as postcolonial…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": false,
-        "2027-28": false
-      },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4065",
-      "name": "The Anthropology of Art",
-      "level": 4000,
-      "credits": 30,
-      "summary": "The module addresses the relations between art and anthropology, and explores what anthropologists can say about aesthetic experience through a range of ethnographic examples. It…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": false,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4067",
-      "name": "Communicating Anthropology",
-      "level": 4000,
-      "credits": 30,
-      "summary": "This module examines the multiple ways in which anthropological knowledge is communicated to diverse audiences, from research participants and local collaborators to funders,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4068",
-      "name": "Rubbish Anthropology",
-      "level": 4000,
-      "credits": 30,
-      "summary": "Waste and recycling seem like every-day, if important, issues with which we are all familiar. But do we actually know what waste is? This module introduces students to the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": false,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4069",
-      "name": "Technologies of Power and Resistance",
-      "level": 4000,
-      "credits": 30,
-      "summary": "This module is an examination of the interweaving of technology and politics through processes of visualizing, mediating, digitalizing, and as a means to imagine what is…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": false,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "alternate-b",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4070",
-      "name": "Crip Anthropology: Disability and Difference",
-      "level": 4000,
-      "credits": 30,
-      "summary": "This module examines the social, cultural and political factors shaping experiences of disability and difference around the world. Students will engage with the growing…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": false,
-        "2027-28": false
-      },
-      "frequency": "irregular",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
-    },
-    {
-      "id": "SA4098",
-      "name": "Library-Based Dissertation",
-      "level": 4000,
-      "credits": 30,
-      "summary": "The module consists of a supervised exercise in social anthropological enquiry. This will include a library-based independently researched dissertation, up to 10,000-words.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
-      "availability": {
-        "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
-      },
-      "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisitesText": "",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE SA4099"
     },
     {
       "id": "SA4099",
@@ -4035,8 +4597,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4058,8 +4622,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4081,8 +4647,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4104,8 +4672,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4127,8 +4697,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4152,8 +4724,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4177,8 +4751,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4201,8 +4777,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4225,8 +4803,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4249,8 +4829,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4273,8 +4855,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -4297,8 +4881,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     }
   ]

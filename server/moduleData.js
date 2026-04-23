@@ -86,6 +86,18 @@ function buildCatalogGraph(catalog, selectedYear) {
       });
     });
 
+    extractExpressionEdges(node.coRequisiteExpression).forEach(({ source, requirementKind }) => {
+      if (!graphNodeIds.has(source)) return;
+      pushEdge(edgeMap, edges, {
+        source,
+        target: id,
+        ruleType: 'parsed',
+        ruleGroup: [source],
+        requirementKind,
+        etype: 'coreq',
+      });
+    });
+
     extractModuleCodes(node.antiRequisiteExpression).forEach((source) => {
       if (!graphNodeIds.has(source)) return;
       pushEdge(edgeMap, edges, { source, target: id, etype: 'anti' });
@@ -162,8 +174,10 @@ function mergeNode(existing, node, catalog) {
     years: dedupeStrings([...(existing.years || []), ...(node.years || [])]).sort(),
     availability: { ...(existing.availability || {}), ...(node.availability || {}) },
     prerequisiteExpression: existing.prerequisiteExpression || node.prerequisiteExpression || null,
+    coRequisiteExpression: existing.coRequisiteExpression || node.coRequisiteExpression || null,
     antiRequisiteExpression: existing.antiRequisiteExpression || node.antiRequisiteExpression || null,
     prerequisitesText: existing.prerequisitesText || node.prerequisitesText || '',
+    coRequisitesText: existing.coRequisitesText || node.coRequisitesText || '',
     antiRequisitesText: existing.antiRequisitesText || node.antiRequisitesText || '',
     catalogs: dedupeStrings([...(existing.catalogs || []), catalog.id]),
     primaryCatalogId: existing.primaryCatalogId || catalog.id,
@@ -187,8 +201,10 @@ function createPlaceholderNode(id) {
     availability: {},
     frequency: 'external',
     prerequisitesText: '',
+    coRequisitesText: '',
     antiRequisitesText: '',
     prerequisiteExpression: null,
+    coRequisiteExpression: null,
     antiRequisiteExpression: null,
     catalogs: [],
     primaryCatalogId: null,
@@ -224,6 +240,7 @@ function buildNodeForYear(node, selectedYear, isInSelectedCatalog, selectedCatal
     selectedYear,
     isInSelectedCatalog,
     prerequisiteSummary: node.prerequisiteExpression ? describeExpression(node.prerequisiteExpression) : node.prerequisitesText,
+    coRequisiteSummary: node.coRequisiteExpression ? describeExpression(node.coRequisiteExpression) : node.coRequisitesText,
     antiRequisiteSummary: node.antiRequisiteExpression ? describeExpression(node.antiRequisiteExpression) : node.antiRequisitesText,
   };
 }
@@ -232,6 +249,7 @@ function getReferencedCodes(node) {
   const refs = new Set();
 
   extractModuleCodes(node?.prerequisiteExpression).forEach((code) => refs.add(code));
+  extractModuleCodes(node?.coRequisiteExpression).forEach((code) => refs.add(code));
   extractModuleCodes(node?.antiRequisiteExpression).forEach((code) => refs.add(code));
 
   (node?.prereqRules || []).forEach((rule) => {

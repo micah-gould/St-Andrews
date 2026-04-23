@@ -27,8 +27,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "ADVISORY: STUDENTS SHOULD BE ABLE TO DECODE BASIC STANDARD WESTERN NOTATION. A DIAGNOSTIC TEST WILL BE CARRIED OUT ON ENROLMENT TO ASCERTAIN WHETHER YOU HAVE THE MUSICAL SCORE LITERACY TO SUCCEED ON THE MODULE.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -51,8 +53,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS SHOULD HAVE A GRADE 8 PERFORMANCE CERTIFICATE OR TAKE AN AUDITION WITH THE MODULE CO-ORDINATOR",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -75,8 +79,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -99,8 +105,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -126,8 +134,10 @@
         "type": "module",
         "code": "MU1004"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST GAIN AN AVERAGE MARK OF AT LEAST 14 FROM MU1004",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -150,8 +160,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -174,8 +186,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -214,8 +228,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST GAIN AN AVERAGE MARK OF AT LEAST 11 FROM MU1003 OR GAIN AN AVERAGE MARK OF AT LEAST 11 FROM MU1013 OR GAIN AN AVERAGE MARK OF AT LEAST 11 FROM MU1004",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -241,8 +257,10 @@
         "type": "module",
         "code": "MU2001"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ACHIEVE A MARK OF 11 OR MORE IN MU2001",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -265,8 +283,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST HAVE TAKEN AT LEAST ONE MUSIC (MU) MODULE.,IN ORDER TO ENROL ON THIS MODULE, YOU MUST SUBMIT A WRITTEN RESEARCH PROPOSAL (200-300 WORDS) TO THE MODULE COORDINATOR. THE PROPOSAL SHOULD CLEARLY SUMMARISE THE AIMS AND METHODOLOGY OF YOUR PROJECT. IT SHOULD BE SUBMITTED BY THE FRIDAY OF WEEK 0.",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -289,8 +309,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -313,8 +335,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -337,8 +361,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -361,8 +387,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     }
   ]

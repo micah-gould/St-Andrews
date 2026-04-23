@@ -11,8 +11,10 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
     if (ctx.effectiveSel.has(id)) return 'selected';
     if (hoverId === id) return 'hover';
     if (hoverId && !hoveredExcluded && ctx.hAnc.has(id)) return 'hpre';
+    if (hoverId && !hoveredExcluded && ctx.hCoreq.has(id)) return 'hcoreq';
     if (hoverId && !hoveredExcluded && ctx.hDesc.has(id)) return 'hfwd';
     if (ctx.selAnc.has(id)) return 'spre';
+    if (ctx.selCoreq.has(id)) return 'scoreq';
     if (ctx.selDesc.has(id)) return 'sfwd';
     return 'normal';
   }
@@ -22,6 +24,13 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
     if (link.etype === 'anti') return 'anti';
     const source = link.source.id || link.source;
     const target = link.target.id || link.target;
+    if (link.etype === 'coreq') {
+      const coreqGroup = hoverId ? new Set([hoverId, ...ctx.hCoreq]) : new Set();
+      if (hoverId && coreqGroup.has(source) && coreqGroup.has(target)) return 'hcoreq';
+      const selectedCoreq = new Set([...ctx.effectiveSel, ...ctx.effectivePassed, ...ctx.selCoreq]);
+      if (selectedCoreq.has(source) && selectedCoreq.has(target)) return 'scoreq';
+      return 'coreq';
+    }
     if (ctx.effExcl.has(source) || ctx.effExcl.has(target)) return 'excl';
 
     const hoverPre = hoverId ? new Set([hoverId, ...ctx.hAnc]) : new Set();
@@ -52,11 +61,16 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
     const isExternal = (node) => node.isExternal || String(node.level) === 'ext' || node.frequency === 'external';
     const levelKey = (node) => (isExternal(node) ? 'ext' : String(node.level));
     const hAnc = hoverId && !hoveredExcluded ? graphState.getPrerequisitePathNodes(hoverId) : new Set();
+    const hCoreq = hoverId && !hoveredExcluded ? graphState.getAllCorequisites(hoverId) : new Set();
     const hDesc = hoverId && !hoveredExcluded ? graphState.getForwardPathNodes(hoverId) : new Set();
     const effectivePassed = new Set([...activePassed].filter((id) => !effExcl.has(id)));
     const effectiveSel = new Set([...activeSelected].filter((id) => !effExcl.has(id)));
     const activePlan = new Set([...effectiveSel, ...effectivePassed]);
     const selAnc = activePlan.size ? graphState.getAncestorsOfSet([...activePlan]) : new Set();
+    const selCoreq = new Set();
+    activePlan.forEach((id) => {
+      graphState.getAllCorequisites(id).forEach((linked) => selCoreq.add(linked));
+    });
     const selDesc = new Set();
     if (activePlan.size) {
       activePlan.forEach((id) => {
@@ -64,7 +78,7 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
       });
     }
 
-    const ctx = { effExcl, manualExcluded: activeManualExcluded, effectiveSel, effectivePassed, hAnc, hDesc, selAnc, selDesc };
+    const ctx = { effExcl, manualExcluded: activeManualExcluded, effectiveSel, effectivePassed, hAnc, hCoreq, hDesc, selAnc, selCoreq, selDesc };
 
     const effectiveReqKind = new Map();
     const prereqLinksByTarget = new Map();
@@ -104,6 +118,7 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
         if (state === 'selected') return COLORS.sel;
         if (state === 'hover') return COLORS.lvl[levelKey(node)] || '#888';
         if (state === 'hpre' || state === 'spre') return 'rgba(252,211,77,0.15)';
+        if (state === 'hcoreq' || state === 'scoreq') return 'rgba(45,212,191,0.14)';
         if (state === 'hfwd') return 'rgba(96,165,250,0.12)';
         if (state === 'sfwd') return 'rgba(56,189,248,0.14)';
         return COLORS.lvl[levelKey(node)] || '#888';
@@ -126,6 +141,8 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
         if (state === 'hover') return COLORS.lvl[levelKey(node)] || '#888';
         if (state === 'hpre') return COLORS.hoverPreRequired;
         if (state === 'spre') return COLORS.selPreRequired;
+        if (state === 'hcoreq') return COLORS.hoverCoreqRequired;
+        if (state === 'scoreq') return COLORS.selCoreqRequired;
         if (state === 'hfwd') return COLORS.hoverFwd;
         if (state === 'sfwd') return COLORS.selFwd;
         if (isExternal(node)) return COLORS.lvl.ext;
@@ -133,7 +150,7 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
       })
       .attr('stroke-width', (node) => {
         const state = nodeState(node, ctx);
-        if (['excl-manual', 'selected', 'passed', 'hover', 'hpre', 'spre', 'hfwd', 'sfwd', 'excl-implied'].includes(state)) return 2;
+        if (['excl-manual', 'selected', 'passed', 'hover', 'hpre', 'spre', 'hcoreq', 'scoreq', 'hfwd', 'sfwd', 'excl-implied'].includes(state)) return 2;
         return 1.2;
       })
       .attr('stroke-dasharray', (node) => (nodeState(node, ctx) === 'excl-implied' ? '3 2' : null))
@@ -152,6 +169,8 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
         if (state === 'hover') return COLORS.lvl[levelKey(node)] || '#888';
         if (state === 'hpre') return COLORS.hoverPreRequired;
         if (state === 'spre') return COLORS.selPreRequired;
+        if (state === 'hcoreq') return COLORS.hoverCoreqRequired;
+        if (state === 'scoreq') return COLORS.selCoreqRequired;
         if (state === 'hfwd') return COLORS.hoverFwd;
         if (state === 'sfwd') return COLORS.selFwd;
         if (isExternal(node)) return COLORS.lvl.ext;
@@ -160,7 +179,7 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
       .attr('opacity', (node) => (nodeState(node, ctx) === 'excl-implied' ? 0.9 : 1))
       .attr('font-weight', (node) => {
         const state = nodeState(node, ctx);
-        return ['selected', 'passed', 'hover', 'hpre', 'spre', 'hfwd', 'sfwd'].includes(state) ? '500' : '400';
+        return ['selected', 'passed', 'hover', 'hpre', 'spre', 'hcoreq', 'scoreq', 'hfwd', 'sfwd'].includes(state) ? '500' : '400';
       });
 
     linkSel
@@ -181,8 +200,11 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
         const state = edgeState(link, ctx);
         const reqKind = effectiveReqKind.get(link) || link.requirementKind;
         if (state === 'anti') return COLORS.anti;
+        if (state === 'coreq') return reqKind === 'optional' ? COLORS.edgeCoreqOptional : COLORS.edgeCoreq;
         if (state === 'hpre') return reqKind === 'optional' ? COLORS.hoverPreOptional : COLORS.hoverPreRequired;
         if (state === 'spre') return reqKind === 'optional' ? COLORS.selPreOptional : COLORS.selPreRequired;
+        if (state === 'hcoreq') return reqKind === 'optional' ? COLORS.hoverCoreqOptional : COLORS.hoverCoreqRequired;
+        if (state === 'scoreq') return reqKind === 'optional' ? COLORS.selCoreqOptional : COLORS.selCoreqRequired;
         if (state === 'hfwd') return COLORS.hoverFwd;
         if (state === 'sfwd') return COLORS.selFwd;
         if (state === 'excl') return COLORS.excl;
@@ -190,24 +212,32 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
       })
       .attr('stroke-width', (link) => {
         const state = edgeState(link, ctx);
-        if (['hpre', 'spre', 'hfwd', 'sfwd'].includes(state)) return 2;
+        if (['hpre', 'spre', 'hcoreq', 'scoreq', 'hfwd', 'sfwd'].includes(state)) return 2;
         if (state === 'anti' || state === 'excl') return 1.5;
         return 0.8;
       })
       .attr('stroke-opacity', (link) => {
         const state = edgeState(link, ctx);
-        if (['hpre', 'spre', 'hfwd', 'sfwd'].includes(state)) return 0.85;
+        if (['hpre', 'spre', 'hcoreq', 'scoreq', 'hfwd', 'sfwd'].includes(state)) return 0.85;
+        if (state === 'coreq') return 0.45;
         if (state === 'anti') return 0.7;
         if (state === 'excl') return 0.4;
         return 0.25;
       })
-      .attr('stroke-dasharray', (link) => (link.etype === 'anti' ? '5 3' : null))
+      .attr('stroke-dasharray', (link) => {
+        if (link.etype === 'anti') return '5 3';
+        if (link.etype === 'coreq') return link.requirementKind === 'optional' ? '4 4' : '2 3';
+        return null;
+      })
       .attr('marker-end', (link) => {
         const state = edgeState(link, ctx);
         const reqKind = effectiveReqKind.get(link) || link.requirementKind;
         if (state === 'anti') return 'url(#m-anti)';
+        if (state === 'coreq') return reqKind === 'optional' ? 'url(#m-coreq-optional)' : 'url(#m-coreq-required)';
         if (state === 'hpre') return reqKind === 'optional' ? 'url(#m-hover-pre-optional)' : 'url(#m-hover-pre-required)';
         if (state === 'spre') return reqKind === 'optional' ? 'url(#m-sel-pre-optional)' : 'url(#m-sel-pre-required)';
+        if (state === 'hcoreq') return reqKind === 'optional' ? 'url(#m-hover-coreq-optional)' : 'url(#m-hover-coreq-required)';
+        if (state === 'scoreq') return reqKind === 'optional' ? 'url(#m-sel-coreq-optional)' : 'url(#m-sel-coreq-required)';
         if (state === 'hfwd') return 'url(#m-hover-fwd)';
         if (state === 'sfwd') return 'url(#m-sel-fwd)';
         if (state === 'excl') return 'url(#m-excl)';

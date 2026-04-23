@@ -27,8 +27,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -51,8 +53,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -74,6 +78,7 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -88,6 +93,7 @@
         ]
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AH1001 OR TAKE AH1003"
     },
     {
@@ -109,8 +115,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -145,8 +153,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -181,8 +191,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -207,8 +219,10 @@
         "type": "module",
         "code": "AH1901"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1901",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -230,6 +244,7 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "or",
         "children": [
@@ -244,6 +259,7 @@
         ]
       },
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AH2001 OR TAKE AH2002"
     },
     {
@@ -290,8 +306,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002 AND ( PASS AH1001 OR PASS AH1003 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -338,8 +356,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -386,8 +406,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -435,8 +457,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -479,8 +503,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( TAKE AH2001 AND TAKE AH2002 ) OR TAKE MH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -527,8 +553,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -553,8 +581,10 @@
         "type": "module",
         "code": "AH1001"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "(AH1001 OR AH1003), AH2001, AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -601,8 +631,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( TAKE AH1001 OR TAKE AH1003 ) AND TAKE AH2001 AND TAKE AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -624,8 +656,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -647,8 +681,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -683,8 +719,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2002 AND PASS AH2001",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -718,8 +756,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2901 AND PASS AH1901",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -753,8 +793,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2901 AND PASS AH1901",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -788,8 +830,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2901 AND PASS AH1901",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -823,8 +867,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1901 AND PASS AH2901",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -864,8 +910,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE AH1901 AND TAKE AH2901 AND TAKE AT LEAST 3 MODULES FROM {AH3901, AH3902, AH3904, AH3905}",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -908,8 +956,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH2002 AND PASS AH2001 ) OR PASS MH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -931,8 +981,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -979,8 +1031,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1014,8 +1068,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1037,8 +1093,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1060,8 +1118,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1109,11 +1169,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AH4099"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AH4099"
     },
     {
@@ -1162,11 +1224,13 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": {
         "type": "module",
         "code": "AH4097"
       },
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE AH4097"
     },
     {
@@ -1188,8 +1252,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1237,8 +1303,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1285,8 +1353,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1320,8 +1390,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1343,8 +1415,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1367,8 +1441,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1404,8 +1480,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1439,8 +1517,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1474,8 +1554,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2002 AND PASS AH2001",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1522,8 +1604,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1545,8 +1629,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1580,8 +1666,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1603,8 +1691,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1638,8 +1728,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1661,8 +1753,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1685,8 +1779,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "ENTRY TO THE ART HISTORY HONOURS PROGRAMME",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1722,8 +1818,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1772,8 +1870,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1796,8 +1896,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "ID4002"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE ID4002",
       "antiRequisitesText": ""
     },
     {
@@ -1831,8 +1936,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1854,8 +1961,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "ENTRY TO THE ART HISTORY HONOURS PROGRAMME",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1902,8 +2011,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH2001 AND PASS AH2002 AND ( PASS AH1001 OR PASS AH1003 )",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1951,8 +2062,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -1999,8 +2112,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH1001 OR PASS AH1003 AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2047,8 +2162,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS AH1001 OR PASS AH1003 ) AND PASS AH2001 AND PASS AH2002",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2071,8 +2188,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2095,8 +2214,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2118,8 +2239,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2142,8 +2265,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS MUST HAVE A LETTER OF AGREEMENT",
+      "coRequisitesText": "",
       "antiRequisitesText": "CANNOT TAKE MORE THAN 30 CREDITS IN OTHER DISSERTATION/PROJECT MODULES"
     },
     {
@@ -2166,8 +2291,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "STUDENTS MUST HAVE A LETTER OF AGREEMENT",
+      "coRequisitesText": "",
       "antiRequisitesText": "CANNOT TAKE ANY OTHER DISSERTATION/PROJECT MODULE"
     },
     {
@@ -2190,8 +2317,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2214,8 +2343,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2237,8 +2368,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2261,8 +2394,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2285,8 +2420,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2309,8 +2446,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2333,8 +2472,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2356,8 +2497,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2379,8 +2522,10 @@
       },
       "frequency": "irregular",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2403,8 +2548,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2428,8 +2575,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2451,8 +2600,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2475,8 +2626,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2510,8 +2663,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GD5601 AND PASS GD5602",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2546,8 +2701,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GD5601 AND PASS GD5602",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2581,8 +2738,10 @@
           }
         ]
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE GD5601 AND TAKE GD5602",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2605,8 +2764,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2630,8 +2791,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2655,8 +2818,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2680,8 +2845,10 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2708,8 +2875,10 @@
         "type": "module",
         "code": "AH5801"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH5801",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2736,8 +2905,10 @@
         "type": "module",
         "code": "AH5801"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH5801",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2761,8 +2932,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "AH5801"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE AH5801",
       "antiRequisitesText": ""
     },
     {
@@ -2784,8 +2960,10 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2811,8 +2989,10 @@
         "type": "module",
         "code": "AH5801"
       },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AH5801",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     }
   ]

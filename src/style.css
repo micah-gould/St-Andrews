@@ -467,6 +467,14 @@ body {
 
 .tip-id   { font-size: 14px; font-weight: 500; color: var(--text); letter-spacing: -0.01em; }
 .tip-name { color: var(--text-muted); font-size: 11px; margin-top: 1px; }
+.tip-link { margin-top: 6px; font-size: 10px; }
+.tip-link a {
+  color: var(--c-3000);
+  text-decoration: none;
+}
+.tip-link a:hover {
+  text-decoration: underline;
+}
 .tip-meta { color: var(--text-dim); font-size: 10px; margin-top: 8px; }
 .tip-catalog { color: var(--text-dim); font-size: 10px; margin-top: 4px; }
 .tip-section { margin-top: 10px; }
@@ -489,6 +497,7 @@ body {
 .tip-badge--all  { background: rgba(252,211,77,0.15); color: #FCD34D; }
 .tip-badge--one  { background: rgba(96,165,250,0.15); color: #60A5FA; }
 .tip-chain { font-size: 10px; color: var(--text-dim); margin-top: 4px; line-height: 1.5; }
+.tip-coreq-note { color: var(--c-passed); font-size: 10px; margin-top: 6px; }
 .tip-excl-note { color: var(--c-excl); font-size: 10px; margin-top: 4px; }
 .tip-anti-note { color: var(--c-excl); font-size: 10px; margin-top: 4px; }
 .tip-hint  { font-size: 10px; color: var(--text-dim); margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); }
@@ -563,6 +572,14 @@ body {
   letter-spacing: 0.06em;
   font-size: 9px;
   margin-right: 6px;
+}
+
+.tip-path-label--coreq {
+  color: var(--c-passed);
+}
+
+.tip-path-label--coreq[data-kind='optional'] {
+  color: var(--c-3000);
 }
 
 #status {

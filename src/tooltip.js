@@ -1,8 +1,14 @@
 export function createTooltip({ prereqRules, manualExcluded, selected, passed, graphState, onSelectToggle, onPassedToggle, onExcludeToggle, onClose }) {
   const tipEl = () => document.getElementById('tip');
+  const getCatalogUrl = (moduleCode) => `https://www.st-andrews.ac.uk/subjects/modules/search/?query=${encodeURIComponent(moduleCode)}`;
 
   function formatPath(path) {
     return path.join(' -> ');
+  }
+
+  function getPathKind(path) {
+    if (path.length < 2) return 'required';
+    return graphState.getCoreqRequirementKind(path[0], path[path.length - 1]);
   }
 
   function showTip(node) {
@@ -30,6 +36,9 @@ export function createTooltip({ prereqRules, manualExcluded, selected, passed, g
 
     const ancestors = [...graphState.getPrerequisitePathNodes(node.id)];
     const chainLine = ancestors.length ? `<div class="tip-chain">Full chain: ${ancestors.join(' -> ')}</div>` : '';
+    const coReqLine = node.coRequisiteSummary
+      ? `<div class="tip-coreq-note">Co-reqs: ${node.coRequisiteSummary}</div>`
+      : '';
     const antiLinks = [...graphState.getAllAntiLinks(node.id)];
     const antiLine = node.antiRequisiteSummary
       ? `<div class="tip-anti-note">Anti-reqs: ${node.antiRequisiteSummary}</div>`
@@ -57,6 +66,7 @@ export function createTooltip({ prereqRules, manualExcluded, selected, passed, g
         }).join('')}</div>`
       : '<div class="tip-availability-note">Semester data unavailable.</div>';
     const prereqPaths = graphState.getSimplePathsFromRoots(node.id, node.antiRequisiteSummary || antiLinks.length ? 3 : 1);
+    const coreqPaths = graphState.getCorequisitePaths(node.id);
     const forwardStarts = graphState.getForwardPathStarts(node.id);
     const forwardPaths = [];
     forwardStarts.forEach((startId) => {
@@ -64,19 +74,20 @@ export function createTooltip({ prereqRules, manualExcluded, selected, passed, g
         if (forwardPaths.length < 3) forwardPaths.push(path);
       });
     });
-    const pathSection = (prereqPaths.length || forwardPaths.length)
+    const pathSection = (prereqPaths.length || coreqPaths.length || forwardPaths.length)
       ? `
         <div class="tip-section">
           <div class="tip-label">Paths</div>
           <div class="tip-paths">
             ${prereqPaths.map((path) => `<div class="tip-path-line"><span class="tip-path-label">Prereq</span>${formatPath(path)}</div>`).join('')}
+            ${coreqPaths.map((path) => `<div class="tip-path-line"><span class="tip-path-label tip-path-label--coreq" data-kind="${getPathKind(path)}">${getPathKind(path) === 'optional' ? 'Co-req one' : 'Co-req'}</span>${formatPath(path)}</div>`).join('')}
             ${forwardPaths.map((path) => `<div class="tip-path-line"><span class="tip-path-label">Forward</span>${formatPath(path)}</div>`).join('')}
           </div>
         </div>
       `
       : '';
 
-    const actions = node.level === 'ext' || (isEffExcl && !isManual)
+    const actions = (isEffExcl && !isManual)
       ? ''
       : `
         <div class="tip-actions">
@@ -91,6 +102,7 @@ export function createTooltip({ prereqRules, manualExcluded, selected, passed, g
       <div class="tip-id">${node.id}</div>
       <div class="tip-name">${node.name}</div>
       <div class="tip-catalog">${node.isInSelectedCatalog ? 'Current catalog' : (node.primaryCatalogName || 'Related catalog')}</div>
+      <div class="tip-link"><a href="${getCatalogUrl(node.id)}" target="_blank" rel="noreferrer">View in catalog</a></div>
       <div class="tip-meta">${node.credits ? `${node.credits} credits` : 'Credits unknown'}</div>
       ${exclNote}
       <div class="tip-availability"><strong>${availabilityLabel}</strong><div class="tip-availability-note">Years seen: ${yearList}. ${availabilityNote}</div></div>
@@ -103,6 +115,7 @@ export function createTooltip({ prereqRules, manualExcluded, selected, passed, g
         ${prereqHtml}
         ${chainLine}
       </div>
+      ${coReqLine}
       ${antiLine}
       ${pathSection}
       ${actions}
