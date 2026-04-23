@@ -40,7 +40,17 @@ export function createGraphState(nodes, edges, prereqRules) {
       }
       const rules = prereqRules[id];
       if (!rules) continue;
-      const blocked = rules.some((rule) => rule.type === 'all' && rule.sources.some((source) => eff.has(source)));
+      const blocked = rules.some((rule) => {
+        if (rule.type === 'all') {
+          return rule.sources.some((source) => eff.has(source));
+        }
+
+        if (rule.type === 'one') {
+          return rule.sources.length > 0 && rule.sources.every((source) => eff.has(source));
+        }
+
+        return false;
+      });
       if (blocked) eff.add(id);
     }
     return eff;
@@ -160,10 +170,7 @@ export function createGraphState(nodes, edges, prereqRules) {
 
   function isExpressionBlocked(expression, excluded, target) {
     if (!expression) return false;
-    if (expression.type === 'module') {
-      const kind = getEdgeRequirementKind(expression.code, target);
-      return kind === 'required' && excluded.has(expression.code);
-    }
+    if (expression.type === 'module') return excluded.has(expression.code);
     if (expression.type === 'and') return expression.children.some((child) => isExpressionBlocked(child, excluded, target));
     if (expression.type === 'or') return expression.children.every((child) => isExpressionBlocked(child, excluded, target));
     return false;

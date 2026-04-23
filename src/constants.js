@@ -1,6 +1,7 @@
 export const COLORS = {
   lvl: { 1000: '#7DD3FC', 2000: '#818CF8', 3000: '#38BDF8', 4000: '#34D399', 5000: '#FBBF24', ext: '#A855F7' },
   sel: '#A3E635',
+  passed: '#22C55E',
   excl: '#F87171',
   hoverPreRequired: '#FCD34D',
   hoverPreOptional: '#C084FC',

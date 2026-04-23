@@ -1,18 +1,21 @@
 import { listCatalogs, loadGraphData } from './dataLoader.js';
 import { createGraphState } from './graph.js';
 import { createRenderer } from './render.js';
-import { listSettings, saveSettings, deleteSettings } from './settingsApi.js';
+import { getSetting, listSettings, saveSettings, updateSettings, deleteSettings } from './settingsApi.js';
 import { createUiState } from './state.js';
 import { createTooltip } from './tooltip.js';
 import { COLORS } from './constants.js';
 
 const THEME_KEY = 'moduleGraphTheme';
+const SESSION_ID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 const appState = {
   catalogs: [],
   currentCatalogId: null,
   currentYear: null,
   settingsCache: [],
+  loadedSetting: null,
+  sharedSettingId: null,
   graphRuntime: null,
   outsideClickHandler: null,
   hiddenLevels: new Set(),
@@ -23,28 +26,101 @@ const appState = {
 function parseUrl() {
   const path = window.location.pathname;
   const segments = path.split('/').filter(segment => segment.length > 0);
-  
+
   if (segments.length === 0) {
-    return { subject: null, year: null };
+    return { subject: null, year: null, sessionId: null };
   }
-  
-  const subject = segments[0];
+
+  let sessionId = null;
+  if (SESSION_ID_PATTERN.test(segments[segments.length - 1])) {
+    sessionId = segments.pop();
+  }
+
+  const subject = segments[0] || null;
   const year = segments.length > 1 ? segments[1] : null;
-  
-  return { subject, year };
+
+  return { subject, year, sessionId };
 }
 
-function updateUrl(subject, year) {
+function updateUrl(subject, year, sessionId = appState.sharedSettingId) {
   let path = '/';
-  
+
   if (subject) {
     path += subject;
     if (year) {
       path += '/' + year;
     }
   }
-  
+
+  if (sessionId) {
+    path += `${path.endsWith('/') ? '' : '/'}${encodeURIComponent(sessionId)}`;
+  }
+
   window.history.replaceState({}, '', path);
+}
+
+function syncShareUrl() {
+  updateUrl(appState.currentCatalogId, appState.currentYear, appState.sharedSettingId);
+}
+
+function setSharedSettingId(settingId) {
+  appState.sharedSettingId = settingId ? String(settingId) : null;
+  syncShareUrl();
+}
+
+function clearSharedSettingId() {
+  if (!appState.sharedSettingId) return;
+  appState.sharedSettingId = null;
+  syncShareUrl();
+}
+
+function clearLoadedSetting() {
+  appState.loadedSetting = null;
+  const nameInput = document.getElementById('settings-name');
+  if (nameInput) {
+    nameInput.placeholder = 'e.g. first year plan';
+  }
+  const saveButton = document.getElementById('save-settings');
+  if (saveButton) {
+    const typedName = nameInput?.value.trim() || '';
+    saveButton.textContent = typedName ? 'Save' : 'Save';
+  }
+}
+
+function getSettingCatalogId(setting) {
+  return setting?.state?.catalogId || setting?.catalogId || appState.catalogs[0]?.id || null;
+}
+
+function getRestoredSettingState(setting) {
+  if (!setting) return null;
+  return {
+    ...setting.state,
+    catalogId: getSettingCatalogId(setting),
+    year: setting.state?.year || null,
+    passed: setting.state?.passed || [],
+  };
+}
+
+function getCatalogName(catalogId) {
+  return appState.catalogs.find((catalog) => catalog.id === catalogId)?.name || catalogId;
+}
+
+function canPreviewSetting(setting) {
+  const restoredState = getRestoredSettingState(setting);
+  const needsCatalogSwitch = Boolean(restoredState?.catalogId && restoredState.catalogId !== appState.currentCatalogId);
+  const needsYearSwitch = Boolean(restoredState?.year && restoredState.year !== appState.currentYear);
+  return { restoredState, needsCatalogSwitch, needsYearSwitch };
+}
+
+function syncSelectedSettingPreview() {
+  const selectedSetting = getSelectedSavedSetting();
+  if (!selectedSetting || !appState.graphRuntime) {
+    appState.graphRuntime?.setPreviewState(null);
+    return;
+  }
+
+  const { restoredState, needsCatalogSwitch, needsYearSwitch } = canPreviewSetting(selectedSetting);
+  appState.graphRuntime.setPreviewState(needsCatalogSwitch || needsYearSwitch ? null : restoredState);
 }
 
 bootstrap();
@@ -133,12 +209,14 @@ function hideSubjectSelection() {
   const logo = document.querySelector('.logo');
   logo.style.cursor = 'pointer';
   logo.onclick = () => {
-    updateUrl(null, null);
+    appState.sharedSettingId = null;
+    updateUrl(null, null, null);
     showSubjectSelection();
   };
 }
 
 async function selectSubject(catalogId) {
+  clearSharedSettingId();
   updateUrl(catalogId, null);
   hideSubjectSelection();
   await renderCatalog(catalogId);
@@ -158,11 +236,35 @@ async function bootstrap() {
     setupCatalogSelector();
 
     // Check URL parameters
-    const { subject, year } = parseUrl();
-    if (subject) {
+    const { subject, year, sessionId } = parseUrl();
+    if (sessionId) {
+      try {
+        const setting = await getSetting(sessionId);
+        const restoredState = getRestoredSettingState(setting);
+        appState.loadedSetting = setting;
+        appState.sharedSettingId = String(setting.id);
+        hideSubjectSelection();
+        await renderCatalog(restoredState.catalogId, restoredState);
+        document.getElementById('settings-name').placeholder = setting.name;
+      } catch (error) {
+        appState.sharedSettingId = null;
+        showFeedback(`Shared session unavailable: ${error.message}`, true);
+        if (subject) {
+          const catalog = appState.catalogs.find(c => c.id === subject);
+          if (catalog) {
+            hideSubjectSelection();
+            await renderCatalog(catalog.id, year);
+          } else {
+            showSubjectSelection();
+          }
+        } else {
+          showSubjectSelection();
+        }
+      }
+    } else if (subject) {
       const catalog = appState.catalogs.find(c => c.id === subject);
       if (catalog) {
-        appState.isSubjectSelection = false;
+        hideSubjectSelection();
         await renderCatalog(catalog.id, year);
       } else {
         // Invalid subject, show subject selection
@@ -173,7 +275,7 @@ async function bootstrap() {
     }
 
     try {
-      await refreshSettings();
+      await refreshSettings(appState.sharedSettingId || '');
     } catch (error) {
       showFeedback(`Saved settings unavailable: ${error.message}`, true);
     }
@@ -184,6 +286,7 @@ async function bootstrap() {
 
 function setupCatalogSelector() {
   const select = document.getElementById('catalog-select');
+  const nextYearButton = document.getElementById('next-year');
   select.innerHTML = '';
 
   appState.catalogs.forEach((catalog) => {
@@ -194,6 +297,8 @@ function setupCatalogSelector() {
   });
 
   select.addEventListener('change', async (event) => {
+    clearSharedSettingId();
+    clearLoadedSetting();
     await renderCatalog(event.target.value, appState.currentYear);
     showFeedback(`Showing ${select.selectedOptions[0]?.textContent || event.target.value}.`);
   });
@@ -201,9 +306,44 @@ function setupCatalogSelector() {
   const yearSelect = document.getElementById('year-select');
   yearSelect.addEventListener('change', async (event) => {
     appState.currentYear = event.target.value;
+    clearSharedSettingId();
+    clearLoadedSetting();
     await renderCatalog(appState.currentCatalogId || appState.catalogs[0].id, appState.currentYear);
     showFeedback(`Showing ${event.target.value}.`);
   });
+
+  nextYearButton.onclick = async () => {
+    const currentCatalog = appState.catalogs.find((catalog) => catalog.id === appState.currentCatalogId) || appState.catalogs[0];
+    const years = currentCatalog?.years || [];
+    const currentIndex = years.indexOf(appState.currentYear);
+    const nextYear = currentIndex >= 0 ? years[currentIndex + 1] : years[0];
+
+    if (!nextYear) {
+      showFeedback('No later year is available for this catalog.', true);
+      return;
+    }
+
+    if (!appState.graphRuntime) {
+      showFeedback('The current graph is still loading.', true);
+      return;
+    }
+
+    const snapshot = appState.graphRuntime.snapshot();
+    const nextPassed = [...new Set([...(snapshot.passed || []), ...(snapshot.selected || [])])];
+
+    clearSharedSettingId();
+    clearLoadedSetting();
+
+    await renderCatalog(currentCatalog.id, {
+      ...snapshot,
+      catalogId: currentCatalog.id,
+      year: nextYear,
+      selected: [],
+      passed: nextPassed,
+    });
+
+    showFeedback(`Advanced to ${nextYear}. Selected modules are now marked as passed.`);
+  };
 }
 
 function populateYearSelector(catalog, selectedYear) {
@@ -241,6 +381,7 @@ async function renderCatalog(catalogId, yearOrState = null, maybeRestoredState =
   const runtime = buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, hiddenLevels: appState.hiddenLevels });
   appState.graphRuntime = runtime;
   runtime.syncUi();
+  syncSelectedSettingPreview();
 }
 
 function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, hiddenLevels }) {
@@ -259,6 +400,7 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
 
   const graphState = createGraphState(nodes, edges, prereqRules);
   const nodeMap = Object.fromEntries(nodes.map((node) => [node.id, node]));
+  let previewState = null;
 
   const getVisibleNodes = () => nodes.filter((node) => !hiddenLevels.has(String(node.level)));
   const getVisibleEdges = () => edges.filter((link) => {
@@ -277,10 +419,25 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
   };
 
   const toggleSelected = (node) => {
+    clearSharedSettingId();
     if (uiState.selected.has(node.id)) {
       uiState.selected.delete(node.id);
     } else {
       uiState.selected.add(node.id);
+      uiState.passed.delete(node.id);
+      uiState.manualExcluded.delete(node.id);
+    }
+    syncUi();
+    tooltip.showTip(node);
+  };
+
+  const togglePassed = (node) => {
+    clearSharedSettingId();
+    if (uiState.passed.has(node.id)) {
+      uiState.passed.delete(node.id);
+    } else {
+      uiState.passed.add(node.id);
+      uiState.selected.delete(node.id);
       uiState.manualExcluded.delete(node.id);
     }
     syncUi();
@@ -288,12 +445,17 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
   };
 
   const toggleExcluded = (node) => {
+    clearSharedSettingId();
     if (uiState.manualExcluded.has(node.id)) {
       uiState.manualExcluded.delete(node.id);
     } else {
       uiState.manualExcluded.add(node.id);
       uiState.selected.delete(node.id);
-      graphState.computeEffectivelyExcluded(uiState.manualExcluded).forEach((id) => uiState.selected.delete(id));
+      uiState.passed.delete(node.id);
+      graphState.computeEffectivelyExcluded(uiState.manualExcluded).forEach((id) => {
+        uiState.selected.delete(id);
+        uiState.passed.delete(id);
+      });
     }
     syncUi();
     tooltip.showTip(node);
@@ -303,8 +465,10 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
     prereqRules,
     manualExcluded: uiState.manualExcluded,
     selected: uiState.selected,
+    passed: uiState.passed,
     graphState,
     onSelectToggle: toggleSelected,
+    onPassedToggle: togglePassed,
     onExcludeToggle: toggleExcluded,
     onClose: closePanel,
   });
@@ -402,7 +566,9 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
     linkSel,
     manualExcluded: uiState.manualExcluded,
     selected: uiState.selected,
+    passed: uiState.passed,
     getHoverId: () => uiState.getActiveNodeId() || uiState.getHoverId(),
+    getPreviewState: () => previewState,
     graphState,
     hiddenLevels,
     nodes,
@@ -485,10 +651,19 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
     uiState,
     graphState,
     syncUi,
+    setPreviewState: (snapshot = null) => {
+      previewState = snapshot ? {
+        manualExcluded: new Set(snapshot.excluded || []),
+        selected: new Set(snapshot.selected || []),
+        passed: new Set(snapshot.passed || []),
+      } : null;
+      renderer.render();
+    },
     snapshot: () => ({
       catalogId: catalog.id,
       year: appState.currentYear,
       selected: [...uiState.selected],
+      passed: [...uiState.passed],
       excluded: [...uiState.manualExcluded],
       blocked: [...graphState.computeEffectivelyExcluded(uiState.manualExcluded)].filter((id) => !uiState.manualExcluded.has(id)),
       hiddenLevels: [...appState.hiddenLevels],
@@ -530,6 +705,7 @@ function wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, lab
 
   levelInputs.forEach((input) => {
     input.onchange = () => {
+      clearSharedSettingId();
       if (input.checked) {
         appState.hiddenLevels.delete(input.value);
       } else {
@@ -541,6 +717,7 @@ function wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, lab
   });
 
   document.getElementById('clear-all').onclick = () => {
+    clearSharedSettingId();
     uiState.clearAll();
     uiState.setHoverId(null);
     uiState.setActiveNodeId(null);
@@ -587,29 +764,97 @@ function wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, lab
 function wireSettingsControls() {
   const form = document.getElementById('settings-form');
   const nameInput = document.getElementById('settings-name');
+  const saveButton = document.getElementById('save-settings');
   const loadButton = document.getElementById('load-settings');
   const deleteButton = document.getElementById('delete-settings');
   const settingsList = document.getElementById('saved-settings-list');
 
-  // Track the currently loaded setting for save/update logic
-  let loadedSetting = null;
+  const defaultPlaceholder = 'e.g. first year plan';
+
+  const clearPreview = () => {
+    appState.graphRuntime?.setPreviewState(null);
+  };
 
   // Function to reset dropdown to empty
   const resetDropdown = () => {
     settingsList.value = '';
-    loadedSetting = null;
-    nameInput.placeholder = 'e.g. Pure maths path';
+    clearPreview();
     showFeedback('');
+  };
+
+  const resetLoadedSetting = () => {
+    clearLoadedSetting();
+    nameInput.placeholder = defaultPlaceholder;
+    updateSaveButtonLabel();
+  };
+
+  const getLoadedSetting = () => appState.loadedSetting;
+
+  const updateSaveButtonLabel = () => {
+    const loadedSetting = getLoadedSetting();
+    const typedName = nameInput.value.trim();
+    const effectiveName = typedName || loadedSetting?.name || '';
+    const isUpdate = Boolean(loadedSetting && effectiveName === loadedSetting.name);
+    saveButton.textContent = isUpdate ? 'Update' : 'Save';
+  };
+
+  const switchToSettingPreview = async (setting, switchCatalog = false, switchYear = false) => {
+    const { restoredState } = canPreviewSetting(setting);
+    if (!restoredState) return;
+
+    const nextCatalogId = switchCatalog ? restoredState.catalogId : appState.currentCatalogId;
+    const nextState = {
+      ...restoredState,
+      catalogId: nextCatalogId,
+      year: switchYear ? restoredState.year : appState.currentYear,
+    };
+
+    await renderCatalog(nextCatalogId, nextState);
+    settingsList.value = String(setting.id);
+    const refreshedSetting = appState.settingsCache.find((candidate) => candidate.id === setting.id) || setting;
+    const previewStatus = canPreviewSetting(refreshedSetting);
+    if (previewStatus.needsCatalogSwitch || previewStatus.needsYearSwitch) {
+      showPreview(refreshedSetting);
+      return;
+    }
+
+    appState.graphRuntime?.setPreviewState(previewStatus.restoredState);
+    showFeedback(`Preview: ${refreshedSetting.name} - ${getCatalogName(previewStatus.restoredState.catalogId)} (${refreshedSetting.selectedCount} selected, ${refreshedSetting.excludedCount} excluded)`);
   };
 
   // Function to show preview of selected setting
   const showPreview = (setting) => {
     if (!setting) {
+      clearPreview();
       showFeedback('');
       return;
     }
-    const catalogName = appState.catalogs.find(c => c.id === setting.state.catalogId)?.name || setting.state.catalogId;
-    showFeedback(`Preview: ${setting.name} - ${catalogName} (${setting.selectedCount} selected, ${setting.excludedCount} excluded)`);
+
+    const { restoredState, needsCatalogSwitch, needsYearSwitch } = canPreviewSetting(setting);
+    if (needsCatalogSwitch) {
+      clearPreview();
+      showFeedback(`Preview unavailable, please switch to ${getCatalogName(restoredState.catalogId)}.`, false, [
+        {
+          label: 'Switch',
+          onClick: async () => switchToSettingPreview(setting, true, true),
+        },
+      ]);
+      return;
+    }
+
+    if (needsYearSwitch) {
+      clearPreview();
+      showFeedback(`Preview unavailable, please switch to ${restoredState.year}.`, false, [
+        {
+          label: 'Switch',
+          onClick: async () => switchToSettingPreview(setting, false, true),
+        },
+      ]);
+      return;
+    }
+
+    appState.graphRuntime?.setPreviewState(restoredState);
+    showFeedback(`Preview: ${setting.name} - ${getCatalogName(restoredState.catalogId)} (${setting.selectedCount} selected, ${setting.excludedCount} excluded)`);
   };
 
   // Dropdown change handler
@@ -626,9 +871,15 @@ function wireSettingsControls() {
     }
   });
 
+  nameInput.addEventListener('input', () => {
+    updateSaveButtonLabel();
+  });
+
   form.onsubmit = async (event) => {
     event.preventDefault();
-    const name = nameInput.value.trim();
+    const typedName = nameInput.value.trim();
+    const loadedSetting = getLoadedSetting();
+    const name = typedName || loadedSetting?.name || '';
     if (!name) {
       showFeedback('Enter a name before saving.', true);
       return;
@@ -642,22 +893,23 @@ function wireSettingsControls() {
     try {
       const state = appState.graphRuntime.snapshot();
       let saved;
+      let action = 'Saved';
 
-      // Check if this is an update (same name as loaded setting) or new save
       if (loadedSetting && name === loadedSetting.name) {
-        // Update existing setting
-        await deleteSettings(loadedSetting.id);
-        saved = await saveSettings({ name, state });
+        saved = await updateSettings(loadedSetting.id, { name, state });
+        action = 'Updated';
       } else {
-        // Create new setting
         saved = await saveSettings({ name, state });
       }
 
       await refreshSettings(String(saved.id));
       nameInput.value = '';
-      loadedSetting = null;
-      nameInput.placeholder = 'e.g. Pure maths path';
-      showFeedback(`Saved "${saved.name}".`);
+      appState.loadedSetting = saved;
+      nameInput.placeholder = saved.name;
+      setSharedSettingId(saved.id);
+      updateSaveButtonLabel();
+      resetDropdown();
+      showFeedback(`${action} "${saved.name}".`);
     } catch (error) {
       showFeedback(error.message, true);
     }
@@ -671,10 +923,13 @@ function wireSettingsControls() {
     }
 
     try {
-      await renderCatalog(current.state.catalogId || appState.catalogs[0].id, current.state);
-      loadedSetting = current;
+      const restoredState = getRestoredSettingState(current);
+      await renderCatalog(restoredState.catalogId, restoredState);
+      appState.loadedSetting = current;
+      setSharedSettingId(current.id);
       nameInput.placeholder = current.name;
       nameInput.value = '';
+      updateSaveButtonLabel();
       resetDropdown();
       showFeedback(`Loaded "${current.name}".`);
     } catch (error) {
@@ -684,6 +939,7 @@ function wireSettingsControls() {
 
   deleteButton.onclick = async () => {
     const current = getSelectedSavedSetting();
+    const loadedSetting = getLoadedSetting();
     if (!current) {
       showFeedback('Choose a saved setting to delete.', true);
       return;
@@ -692,15 +948,20 @@ function wireSettingsControls() {
     try {
       await deleteSettings(current.id);
       await refreshSettings();
+      appState.graphRuntime?.setPreviewState(null);
+      if (appState.sharedSettingId === String(current.id)) {
+        clearSharedSettingId();
+      }
       if (loadedSetting && loadedSetting.id === current.id) {
-        loadedSetting = null;
-        nameInput.placeholder = 'e.g. Pure maths path';
+        resetLoadedSetting();
       }
       showFeedback(`Deleted "${current.name}".`);
     } catch (error) {
       showFeedback(error.message, true);
     }
   };
+
+  updateSaveButtonLabel();
 }
 
 async function refreshSettings(selectedId = '') {
@@ -725,7 +986,8 @@ async function refreshSettings(selectedId = '') {
   appState.settingsCache.forEach((setting) => {
     const option = document.createElement('option');
     option.value = String(setting.id);
-    option.textContent = `${setting.name} [${setting.catalogName}] (${setting.selectedCount} selected, ${setting.excludedCount} excluded)`;
+    const yearLabel = setting.state?.year || 'No year';
+    option.textContent = `${setting.name} [${setting.catalogName}, ${yearLabel}] (${setting.selectedCount} selected, ${setting.excludedCount} excluded)`;
     select.append(option);
   });
 
@@ -737,8 +999,29 @@ function getSelectedSavedSetting() {
   return appState.settingsCache.find((setting) => String(setting.id) === value) || null;
 }
 
-function showFeedback(message, isError = false) {
+function showFeedback(message, isError = false, actions = []) {
   const feedback = document.getElementById('settings-feedback');
-  feedback.textContent = message;
+  feedback.innerHTML = '';
+
+  const messageNode = document.createElement('span');
+  messageNode.textContent = message;
+  feedback.append(messageNode);
+
+  actions.forEach((action) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'settings-feedback-action';
+    button.textContent = action.label;
+    button.onclick = async (event) => {
+      event.stopPropagation();
+      try {
+        await action.onClick();
+      } catch (error) {
+        showFeedback(error.message, true);
+      }
+    };
+    feedback.append(button);
+  });
+
   feedback.dataset.state = isError ? 'error' : 'ok';
 }

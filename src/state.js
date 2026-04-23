@@ -3,18 +3,22 @@ export function createUiState(nodes) {
   let activeNodeId = null;
   const manualExcluded = new Set();
   const selected = new Set();
+  const passed = new Set();
 
   function clearAll() {
     manualExcluded.clear();
     selected.clear();
+    passed.clear();
     activeNodeId = null;
   }
 
   function replaceState(snapshot = {}) {
     manualExcluded.clear();
     selected.clear();
+    passed.clear();
     (snapshot.excluded || []).forEach((id) => manualExcluded.add(id));
     (snapshot.selected || []).forEach((id) => selected.add(id));
+    (snapshot.passed || []).forEach((id) => passed.add(id));
     activeNodeId = null;
   }
 
@@ -31,6 +35,19 @@ export function createUiState(nodes) {
         <div class="status-row">
           <span class="status-label status-sel">Included</span>
           <span class="status-value status-sel">${names}</span>
+        </div>
+      `);
+    }
+
+    if (passed.size) {
+      const names = [...passed].map((id) => {
+        const node = nodes.find((candidate) => candidate.id === id);
+        return `${id} <em>${node ? node.name : ''}</em>`;
+      }).join(', ');
+      rows.push(`
+        <div class="status-row">
+          <span class="status-label status-passed">Passed</span>
+          <span class="status-value status-passed">${names}</span>
         </div>
       `);
     }
@@ -70,6 +87,7 @@ export function createUiState(nodes) {
   return {
     manualExcluded,
     selected,
+    passed,
     clearAll,
     updateStatus,
     replaceState,

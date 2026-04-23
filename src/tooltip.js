@@ -1,4 +1,4 @@
-export function createTooltip({ prereqRules, manualExcluded, selected, graphState, onSelectToggle, onExcludeToggle, onClose }) {
+export function createTooltip({ prereqRules, manualExcluded, selected, passed, graphState, onSelectToggle, onPassedToggle, onExcludeToggle, onClose }) {
   const tipEl = () => document.getElementById('tip');
 
   function formatPath(path) {
@@ -12,6 +12,7 @@ export function createTooltip({ prereqRules, manualExcluded, selected, graphStat
     const isEffExcl = effExcl.has(node.id);
     const isManual = manualExcluded.has(node.id);
     const isSelected = selected.has(node.id);
+    const isPassed = passed.has(node.id);
 
     const prereqHtml = node.prerequisiteSummary
       ? `<div>${node.prerequisiteSummary}</div>`
@@ -75,11 +76,12 @@ export function createTooltip({ prereqRules, manualExcluded, selected, graphStat
       `
       : '';
 
-    const actions = node.level === 'ext'
+    const actions = node.level === 'ext' || (isEffExcl && !isManual)
       ? ''
       : `
         <div class="tip-actions">
           <button class="tip-btn" data-action="select" data-state="${isSelected ? 'active' : 'idle'}" type="button">${isSelected ? 'Selected' : 'Select'}</button>
+          <button class="tip-btn tip-btn--passed" data-action="passed" data-state="${isPassed ? 'active' : 'idle'}" type="button">${isPassed ? 'Passed' : 'Mark passed'}</button>
           <button class="tip-btn tip-btn--danger" data-action="exclude" data-state="${isManual ? 'active' : 'idle'}" type="button">${isManual ? 'Excluded' : 'Exclude'}</button>
         </div>
       `;
@@ -109,6 +111,11 @@ export function createTooltip({ prereqRules, manualExcluded, selected, graphStat
     tip.querySelector('[data-action="select"]')?.addEventListener('click', (event) => {
       event.stopPropagation();
       onSelectToggle(node);
+    });
+
+    tip.querySelector('[data-action="passed"]')?.addEventListener('click', (event) => {
+      event.stopPropagation();
+      onPassedToggle(node);
     });
 
     tip.querySelector('[data-action="exclude"]')?.addEventListener('click', (event) => {

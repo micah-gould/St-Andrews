@@ -1,11 +1,12 @@
 import { COLORS } from './constants.js';
 
-export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExcluded, selected, getHoverId, graphState, hiddenLevels, nodes }) {
+export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExcluded, selected, passed, getHoverId, getPreviewState, graphState, hiddenLevels, nodes }) {
   function nodeState(node, ctx) {
     const id = node.id;
     const hoverId = getHoverId();
-    if (manualExcluded.has(id)) return 'excl-manual';
+    if (ctx.manualExcluded.has(id)) return 'excl-manual';
     if (ctx.effExcl.has(id)) return 'excl-implied';
+    if (ctx.effectivePassed.has(id)) return 'passed';
     if (ctx.effectiveSel.has(id)) return 'selected';
     if (hoverId === id) return 'hover';
     if (hoverId && ctx.hAnc.has(id)) return 'hpre';
@@ -27,8 +28,9 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
     if (hoverId && hoverPre.has(source) && hoverPre.has(target)) return 'hpre';
     if (hoverId && hoverFwd.has(source) && hoverFwd.has(target)) return 'hfwd';
 
-    const selectedPre = new Set([...ctx.effectiveSel, ...ctx.selAnc]);
-    const selectedFwd = new Set([...ctx.effectiveSel, ...ctx.selDesc]);
+    const activePlan = new Set([...ctx.effectiveSel, ...ctx.effectivePassed]);
+    const selectedPre = new Set([...activePlan, ...ctx.selAnc]);
+    const selectedFwd = new Set([...activePlan, ...ctx.selDesc]);
     if (selectedPre.has(source) && selectedPre.has(target)) return 'spre';
     if (selectedFwd.has(source) && selectedFwd.has(target)) return 'sfwd';
 
@@ -39,22 +41,28 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
 
   function render() {
     const hoverId = getHoverId();
-    const effExcl = graphState.computeEffectivelyExcluded(manualExcluded);
+    const previewState = getPreviewState ? getPreviewState() : null;
+    const activeManualExcluded = previewState?.manualExcluded || manualExcluded;
+    const activeSelected = previewState?.selected || selected;
+    const activePassed = previewState?.passed || passed;
+    const effExcl = graphState.computeEffectivelyExcluded(activeManualExcluded);
     const isHiddenLevel = (node) => hiddenLevels.has(String(node.level));
     const isExternal = (node) => node.isExternal || String(node.level) === 'ext' || node.frequency === 'external';
     const levelKey = (node) => (isExternal(node) ? 'ext' : String(node.level));
     const hAnc = hoverId ? graphState.getPrerequisitePathNodes(hoverId) : new Set();
     const hDesc = hoverId ? graphState.getForwardPathNodes(hoverId) : new Set();
-    const effectiveSel = new Set([...selected].filter((id) => !effExcl.has(id)));
-    const selAnc = effectiveSel.size ? graphState.getAncestorsOfSet([...effectiveSel]) : new Set();
+    const effectivePassed = new Set([...activePassed].filter((id) => !effExcl.has(id)));
+    const effectiveSel = new Set([...activeSelected].filter((id) => !effExcl.has(id)));
+    const activePlan = new Set([...effectiveSel, ...effectivePassed]);
+    const selAnc = activePlan.size ? graphState.getAncestorsOfSet([...activePlan]) : new Set();
     const selDesc = new Set();
-    if (effectiveSel.size) {
-      effectiveSel.forEach((id) => {
+    if (activePlan.size) {
+      activePlan.forEach((id) => {
         graphState.getForwardPathNodes(id).forEach((descendant) => selDesc.add(descendant));
       });
     }
 
-    const ctx = { effExcl, manualExcluded, effectiveSel, hAnc, hDesc, selAnc, selDesc };
+    const ctx = { effExcl, manualExcluded: activeManualExcluded, effectiveSel, effectivePassed, hAnc, hDesc, selAnc, selDesc };
 
     const effectiveReqKind = new Map();
     const prereqLinksByTarget = new Map();
@@ -85,6 +93,7 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
         const state = nodeState(node, ctx);
         if (state === 'excl-manual') return COLORS.excl;
         if (state === 'excl-implied') return COLORS.excl;
+        if (state === 'passed') return COLORS.passed;
         if (state === 'selected') return COLORS.sel;
         if (state === 'hover') return COLORS.lvl[levelKey(node)] || '#888';
         if (state === 'hpre' || state === 'spre') return 'rgba(252,211,77,0.15)';
@@ -96,14 +105,16 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
         const state = nodeState(node, ctx);
         if (state === 'hover') return 0.25;
         if (state === 'hpre' || state === 'spre' || state === 'hfwd' || state === 'sfwd') return 1;
+        if (state === 'passed') return 0.82;
         if (state === 'selected') return 0.85;
-        if (state === 'excl-implied') return 0.08;
+        if (state === 'excl-implied') return 0.22;
         return 0.18;
       })
       .attr('stroke', (node) => {
         const state = nodeState(node, ctx);
         if (state === 'excl-manual') return COLORS.excl;
         if (state === 'excl-implied') return COLORS.excl;
+        if (state === 'passed') return COLORS.passed;
         if (state === 'selected') return COLORS.sel;
         if (state === 'hover') return COLORS.lvl[levelKey(node)] || '#888';
         if (state === 'hpre') return COLORS.hoverPreRequired;
@@ -115,12 +126,11 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
       })
       .attr('stroke-width', (node) => {
         const state = nodeState(node, ctx);
-        if (['excl-manual', 'selected', 'hover', 'hpre', 'spre', 'hfwd', 'sfwd'].includes(state)) return 2;
-        if (state === 'excl-implied') return 1.5;
+        if (['excl-manual', 'selected', 'passed', 'hover', 'hpre', 'spre', 'hfwd', 'sfwd', 'excl-implied'].includes(state)) return 2;
         return 1.2;
       })
       .attr('stroke-dasharray', (node) => (nodeState(node, ctx) === 'excl-implied' ? '3 2' : null))
-      .attr('stroke-opacity', (node) => (nodeState(node, ctx) === 'excl-implied' ? 0.6 : 1));
+      .attr('stroke-opacity', (node) => (nodeState(node, ctx) === 'excl-implied' ? 0.95 : 1));
 
     circles.classed('node-unavailable', (node) => node.availableInSelectedYear === false);
 
@@ -130,6 +140,7 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
         const state = nodeState(node, ctx);
         if (state === 'excl-manual') return COLORS.excl;
         if (state === 'excl-implied') return COLORS.excl;
+        if (state === 'passed') return COLORS.passed;
         if (state === 'selected') return COLORS.sel;
         if (state === 'hover') return COLORS.lvl[levelKey(node)] || '#888';
         if (state === 'hpre') return COLORS.hoverPreRequired;
@@ -139,10 +150,10 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
         if (isExternal(node)) return COLORS.lvl.ext;
         return COLORS.lvl[levelKey(node)] || '#888';
       })
-      .attr('opacity', (node) => (nodeState(node, ctx) === 'excl-implied' ? 0.2 : 1))
+      .attr('opacity', (node) => (nodeState(node, ctx) === 'excl-implied' ? 0.9 : 1))
       .attr('font-weight', (node) => {
         const state = nodeState(node, ctx);
-        return ['selected', 'hover', 'hpre', 'spre', 'hfwd', 'sfwd'].includes(state) ? '500' : '400';
+        return ['selected', 'passed', 'hover', 'hpre', 'spre', 'hfwd', 'sfwd'].includes(state) ? '500' : '400';
       });
 
     linkSel

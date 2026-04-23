@@ -7,6 +7,7 @@
   --c-5000: #FFD700;  /* Gold */
   --c-ext:  #8B0000;  /* Dark red for external */
   --c-sel:  #FFD700;  /* Gold for selected */
+  --c-passed: #22C55E;
   --c-excl: #C8102E;  /* Red for excluded */
   --c-hover-pre-required: #FFD700;  /* Gold */
   --c-hover-pre-optional: #003366;  /* Navy */
@@ -54,6 +55,7 @@ body.theme-light {
   --graph-spot-2: rgba(200,16,46,0.06);  /* Red */
 
   --c-sel: #FFD700;  /* Gold */
+  --c-passed: #16A34A;
   --c-excl: #C8102E;  /* Red */
   --c-edge: #64748B;  /* Gray */
 }
@@ -320,7 +322,8 @@ body {
 }
 
 #save-settings,
-#load-settings {
+#load-settings,
+#next-year {
   font-family: var(--font-mono);
   font-size: 11px;
   padding: 8px 12px;
@@ -333,14 +336,35 @@ body {
 }
 
 #save-settings:hover,
-#load-settings:hover {
+#load-settings:hover,
+#next-year:hover {
   filter: brightness(1.05);
 }
 
 #settings-feedback {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
   font-size: 11px;
   color: var(--text-muted);
   min-height: 16px;
+}
+
+.settings-feedback-action {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border-light);
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.settings-feedback-action:hover {
+  border-color: currentColor;
 }
 
 #settings-feedback[data-state='error'] {
@@ -412,6 +436,12 @@ body {
   border-color: transparent;
   background: var(--c-sel);
   color: #0f172a;
+}
+
+.tip-btn--passed[data-state='active'] {
+  border-color: transparent;
+  background: var(--c-passed);
+  color: #052e16;
 }
 
 .tip-btn--danger[data-state='active'] {
@@ -608,6 +638,7 @@ body {
 }
 
 .status-sel   { color: var(--c-sel); }
+.status-passed { color: var(--c-passed); }
 .status-excl  { color: var(--c-excl); }
 .status-block { color: var(--text-dim); }
 

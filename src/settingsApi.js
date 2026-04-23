@@ -6,6 +6,15 @@ export async function listSettings() {
   return response.json();
 }
 
+export async function getSetting(id) {
+  const response = await fetch(`${API_BASE}/api/settings/${id}`);
+  if (!response.ok) {
+    const error = await response.json().catch(() => ({}));
+    throw new Error(error.error || `Failed to load saved settings (${response.status})`);
+  }
+  return response.json();
+}
+
 export async function saveSettings(payload) {
   const response = await fetch(`${API_BASE}/api/settings`, {
     method: 'POST',
@@ -16,6 +25,21 @@ export async function saveSettings(payload) {
   if (!response.ok) {
     const error = await response.json().catch(() => ({}));
     throw new Error(error.error || `Failed to save settings (${response.status})`);
+  }
+
+  return response.json();
+}
+
+export async function updateSettings(id, payload) {
+  const response = await fetch(`${API_BASE}/api/settings/${id}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+
+  if (!response.ok) {
+    const error = await response.json().catch(() => ({}));
+    throw new Error(error.error || `Failed to update settings (${response.status})`);
   }
 
   return response.json();

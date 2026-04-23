@@ -23,6 +23,7 @@
           <span class="leg"><span class="dot" style="background:var(--c-ext)"></span>Ext</span>
           <span class="divider"></span>
           <span class="leg"><span class="dot" style="background:var(--c-sel)"></span>Selected</span>
+          <span class="leg"><span class="dot" style="background:var(--c-passed)"></span>Passed</span>
           <span class="leg"><span class="dot" style="background:var(--c-excl)"></span>Excluded</span>
           <span class="leg"><span class="dot" style="background:var(--c-hover-pre-required)"></span>Required prereq</span>
           <span class="leg"><span class="dot" style="background:var(--c-hover-pre-optional)"></span>Optional prereq</span>
@@ -76,10 +77,11 @@
           <span>Year</span>
           <select id="year-select" aria-label="Academic year"></select>
         </label>
+        <button id="next-year" type="button">Next year</button>
       </div>
       <form id="settings-form" class="settings-form">
-        <input id="settings-name" name="name" type="text" maxlength="80" placeholder="e.g. Pure maths path">
-        <button id="save-settings" type="submit">Save current</button>
+        <input id="settings-name" name="name" type="text" maxlength="80" placeholder="e.g. first year plan">
+        <button id="save-settings" type="submit">Save / Update</button>
       </form>
       <div class="saved-settings-controls">
         <select id="saved-settings-list" aria-label="Saved settings list">
