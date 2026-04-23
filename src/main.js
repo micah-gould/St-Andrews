@@ -475,6 +475,10 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
 
   const svg = d3.select('#graph-svg');
   const root = svg.append('g');
+  const antiLayer = root.append('g').attr('class', 'links links--anti');
+  const excludedLayer = root.append('g').attr('class', 'graph-excluded-layer');
+  const linkLayer = root.append('g').attr('class', 'links');
+  const nodeLayer = root.append('g').attr('class', 'nodes');
 
   svg.call(
     d3.zoom()
@@ -537,10 +541,10 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
     sim.alpha(1).restart();
   };
 
-  const linkSel = root.append('g').attr('class', 'links')
+  const linkSel = linkLayer
     .selectAll('line').data(edges).join('line').attr('fill', 'none');
 
-  const nodeG = root.append('g').attr('class', 'nodes')
+  const nodeG = nodeLayer
     .selectAll('g').data(nodes).join('g').attr('cursor', 'pointer');
 
   nodeG.append('circle')
@@ -564,6 +568,10 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
     circles,
     labels,
     linkSel,
+    antiLayer: antiLayer.node(),
+    excludedLayer: excludedLayer.node(),
+    linkLayer: linkLayer.node(),
+    nodeLayer: nodeLayer.node(),
     manualExcluded: uiState.manualExcluded,
     selected: uiState.selected,
     passed: uiState.passed,
@@ -622,25 +630,58 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
     });
 
   sim.on('tick', () => {
+    const getClampedPoint = (node) => {
+      const radius = getNodeRadius(node);
+      return {
+        x: Math.max(radius + 8, Math.min(width - radius - 8, node.x ?? width / 2)),
+        y: Math.max(radius + 8, Math.min(height - radius - 8, node.y ?? height / 2)),
+      };
+    };
+
     linkSel
-      .attr('x1', (edge) => edge.source.x)
-      .attr('y1', (edge) => edge.source.y)
+      .attr('x1', (edge) => {
+        const source = getClampedPoint(edge.source);
+        const target = getClampedPoint(edge.target);
+        const dx = target.x - source.x;
+        const dy = target.y - source.y;
+        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+        const radius = getNodeRadius(edge.source);
+        return source.x + (dx / dist) * radius;
+      })
+      .attr('y1', (edge) => {
+        const source = getClampedPoint(edge.source);
+        const target = getClampedPoint(edge.target);
+        const dx = target.x - source.x;
+        const dy = target.y - source.y;
+        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+        const radius = getNodeRadius(edge.source);
+        return source.y + (dy / dist) * radius;
+      })
       .attr('x2', (edge) => {
-        const dx = edge.target.x - edge.source.x;
-        const dy = edge.target.y - edge.source.y;
+        const source = getClampedPoint(edge.source);
+        const target = getClampedPoint(edge.target);
+        const dx = target.x - source.x;
+        const dy = target.y - source.y;
         const dist = Math.sqrt(dx * dx + dy * dy) || 1;
         const radius = getNodeRadius(edge.target);
-        return edge.target.x - (dx / dist) * radius;
+        return target.x - (dx / dist) * radius;
       })
       .attr('y2', (edge) => {
-        const dx = edge.target.x - edge.source.x;
-        const dy = edge.target.y - edge.source.y;
+        const source = getClampedPoint(edge.source);
+        const target = getClampedPoint(edge.target);
+        const dx = target.x - source.x;
+        const dy = target.y - source.y;
         const dist = Math.sqrt(dx * dx + dy * dy) || 1;
         const radius = getNodeRadius(edge.target);
-        return edge.target.y - (dy / dist) * radius;
+        return target.y - (dy / dist) * radius;
       });
 
-    nodeG.attr('transform', (node) => `translate(${Math.max(16, Math.min(width - 16, node.x))},${Math.max(16, Math.min(height - 16, node.y))})`);
+    nodeG.attr('transform', (node) => {
+      const clamped = getClampedPoint(node);
+      node.x = clamped.x;
+      node.y = clamped.y;
+      return `translate(${clamped.x},${clamped.y})`;
+    });
   });
 
   wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, labels, circles, syncUi, refreshSimulation);

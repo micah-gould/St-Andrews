@@ -1,16 +1,17 @@
 import { COLORS } from './constants.js';
 
-export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExcluded, selected, passed, getHoverId, getPreviewState, graphState, hiddenLevels, nodes }) {
+export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer, excludedLayer, linkLayer, nodeLayer, manualExcluded, selected, passed, getHoverId, getPreviewState, graphState, hiddenLevels, nodes }) {
   function nodeState(node, ctx) {
     const id = node.id;
     const hoverId = getHoverId();
+    const hoveredExcluded = Boolean(hoverId && ctx.effExcl.has(hoverId));
     if (ctx.manualExcluded.has(id)) return 'excl-manual';
     if (ctx.effExcl.has(id)) return 'excl-implied';
     if (ctx.effectivePassed.has(id)) return 'passed';
     if (ctx.effectiveSel.has(id)) return 'selected';
     if (hoverId === id) return 'hover';
-    if (hoverId && ctx.hAnc.has(id)) return 'hpre';
-    if (hoverId && ctx.hDesc.has(id)) return 'hfwd';
+    if (hoverId && !hoveredExcluded && ctx.hAnc.has(id)) return 'hpre';
+    if (hoverId && !hoveredExcluded && ctx.hDesc.has(id)) return 'hfwd';
     if (ctx.selAnc.has(id)) return 'spre';
     if (ctx.selDesc.has(id)) return 'sfwd';
     return 'normal';
@@ -46,11 +47,12 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
     const activeSelected = previewState?.selected || selected;
     const activePassed = previewState?.passed || passed;
     const effExcl = graphState.computeEffectivelyExcluded(activeManualExcluded);
+    const hoveredExcluded = Boolean(hoverId && effExcl.has(hoverId));
     const isHiddenLevel = (node) => hiddenLevels.has(String(node.level));
     const isExternal = (node) => node.isExternal || String(node.level) === 'ext' || node.frequency === 'external';
     const levelKey = (node) => (isExternal(node) ? 'ext' : String(node.level));
-    const hAnc = hoverId ? graphState.getPrerequisitePathNodes(hoverId) : new Set();
-    const hDesc = hoverId ? graphState.getForwardPathNodes(hoverId) : new Set();
+    const hAnc = hoverId && !hoveredExcluded ? graphState.getPrerequisitePathNodes(hoverId) : new Set();
+    const hDesc = hoverId && !hoveredExcluded ? graphState.getForwardPathNodes(hoverId) : new Set();
     const effectivePassed = new Set([...activePassed].filter((id) => !effExcl.has(id)));
     const effectiveSel = new Set([...activeSelected].filter((id) => !effExcl.has(id)));
     const activePlan = new Set([...effectiveSel, ...effectivePassed]);
@@ -86,6 +88,11 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
 
     if (nodeGroups) {
       nodeGroups.attr('display', (node) => (isHiddenLevel(node) ? 'none' : null));
+      nodeGroups.each(function(node) {
+        const state = nodeState(node, ctx);
+        const destination = (state === 'excl-manual' || state === 'excl-implied') ? excludedLayer : nodeLayer;
+        if (destination && this.parentNode !== destination) destination.appendChild(this);
+      });
     }
 
     circles
@@ -157,6 +164,11 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, manualExc
       });
 
     linkSel
+      .each(function(link) {
+        const state = edgeState(link, ctx);
+        const destination = state === 'anti' ? antiLayer : state === 'excl' ? excludedLayer : linkLayer;
+        if (destination && this.parentNode !== destination) destination.appendChild(this);
+      })
       .attr('display', (link) => {
         const sourceNode = typeof link.source === 'object' ? link.source : nodeMap[link.source];
         const targetNode = typeof link.target === 'object' ? link.target : nodeMap[link.target];
