@@ -181,17 +181,28 @@ function extractRelationshipText(html, sectionTitle, id) {
 
   const escapedTitle = sectionTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const headingPattern = new RegExp(
-    `<h3[^>]*>\\s*${escapedTitle}\\s*<\\/h3>\\s*(?:<[^>]+>\\s*){0,6}<(?:p|div|dd|ul)[^>]*>([\\s\\S]*?)<\\/(?:p|div|dd|ul)>`,
+    `<h[2-4][^>]*>\\s*${escapedTitle}\\s*<\\/h[2-4]>\\s*(?:<[^>]+>\\s*){0,10}<(?:p|div|dd|ul|span)[^>]*>([\\s\\S]*?)<\\/(?:p|div|dd|ul|span)>`,
     'i',
   );
   const headingText = stripTags((html.match(headingPattern) || [])[1] || '');
   if (headingText) return headingText;
 
   const rowPattern = new RegExp(
-    `<div[^>]*class=["'][^"']*row[^"']*["'][^>]*>[\\s\\S]*?<h3[^>]*>\\s*${escapedTitle}\\s*<\\/h3>[\\s\\S]*?<div[^>]*class=["'][^"']*col-sm-6[^"']*["'][^>]*>([\\s\\S]*?)<\\/div>\\s*<\\/div>`,
+    `<div[^>]*class=["'][^"']*row[^"']*["'][^>]*>[\\s\\S]*?<h[2-4][^>]*>\\s*${escapedTitle}\\s*<\\/h[2-4]>[\\s\\S]*?<div[^>]*class=["'][^"']*col-.*6[^"']*["'][^>]*>([\\s\\S]*?)<\\/div>\\s*<\\/div>`,
     'i',
   );
-  return stripTags((html.match(rowPattern) || [])[1] || '');
+  const rowText = stripTags((html.match(rowPattern) || [])[1] || '');
+  if (rowText) return rowText;
+
+  // New pattern: text after h3 until next h2 or h3
+  const generalPattern = new RegExp(
+    `<h[2-4][^>]*>\\s*${escapedTitle}\\s*<\\/h[2-4]>([\\s\\S]*?)(?:<h[2-4]|$)`,
+    'i',
+  );
+  const generalText = stripTags((html.match(generalPattern) || [])[1] || '');
+  if (generalText) return generalText;
+
+  return '';
 }
 
 async function enrichNode(node) {

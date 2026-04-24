@@ -31,7 +31,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "MUST NOT BE A NATIVE SPEAKER OF ARABIC, FLUENT IN MODERN STANDARD ARABIC, OR HAVE A PASS AT HIGHER, A LEVEL OR EQUIVALENT."
+      "antiRequisitesText": ""
     },
     {
       "id": "AR1002",
@@ -52,15 +52,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "AR1001"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AR1001",
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "THE STUDENT MUST NOT BE A NATIVE SPEAKER OF ARABIC WHO IS FLUENT IN MODERN STANDARD ARABIC."
+      "antiRequisitesText": ""
     },
     {
       "id": "AR1801",
@@ -106,13 +103,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "AR1801"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AR1801",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -135,13 +129,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "AR1002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AR1002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -164,13 +155,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "AR2001"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AR2001",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -222,9 +210,9 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "IN TAKING THIS MODULE YOU MUST HAVE ADMISSION TO AN ARABIC HONOURS PROGRAMME WITH INTEGRATED YEAR ABROAD",
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "IN TAKING THIS MODULE YOU MUST NOT BE ON AN ERASMUS EXCHANGE"
+      "antiRequisitesText": ""
     },
     {
       "id": "AR3401",
@@ -245,13 +233,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "AR2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AR2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -274,13 +259,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "AR3401"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "IN TAKING THIS MODULE YOU MUST HAVE TAKEN AR3401 OR UNDERTAKEN EQUIVALENT STUDY ABROAD.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -303,17 +285,11 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "AR2002"
-      },
-      "coRequisiteExpression": {
-        "type": "module",
-        "code": "AR3401"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AR2002",
-      "coRequisitesText": "YOU MUST ALSO TAKE AR3401",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -337,7 +313,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ADMISSION TO HONOURS ARABIC",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -362,7 +338,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ADMISSION TO HONOURS ARABIC",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -387,7 +363,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "WITH PERMISSION OF THE ARABIC HONOURS ADVISOR",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -410,13 +386,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "AR3401"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "STUDENT MUST HAVE COMPLETED AR3401, AR3402 OR EQUIVALENT STUDY ABROAD",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -439,13 +412,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "AR4401"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AR4401",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -467,22 +437,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "AR3401"
-          },
-          {
-            "type": "module",
-            "code": "AR3402"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU SHOULD PASS PASS AR3401 OR AR3402 OR HAVE EQUIVALENT STUDY ABROAD",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -557,7 +515,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ADMISSION TO HONOURS ARABIC",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -582,7 +540,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ADMISSION TO HONOURS ARABIC",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -606,23 +564,11 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "coRequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "AR4401"
-          },
-          {
-            "type": "module",
-            "code": "AR4402"
-          }
-        ]
-      },
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "AVAILABLE ONLY TO STUDENTS IN THE FINAL YEAR OF THE HONOURS PROGRAMME",
-      "coRequisitesText": "YOU MUST ALSO TAKE AR4401 AND TAKE AR4402",
-      "antiRequisitesText": "IN TAKING THIS MODULE, YOU CANNOT TAKE A DISSERTATION IN ANOTHER SUBJECT."
+      "prerequisitesText": "",
+      "coRequisitesText": "",
+      "antiRequisitesText": ""
     },
     {
       "id": "CN1011",
@@ -648,7 +594,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "IN TAKING THIS MODULE YOU MUST NOT HAVE HIGHER OR A-LEVEL CHINESE OR EQUIVALENT OR BE A NATIVE SPEAKER OF CHINESE."
+      "antiRequisitesText": ""
     },
     {
       "id": "CN1012",
@@ -671,13 +617,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "CN1011"
-      },
-      "prerequisitesText": "TO TAKE THIS MODULE, APPLICANTS MUST HAVE RECENTLY OBTAINED ONE OF THE FOLLOWING QUALIFICATIONS IN CHINESE LANGUAGE: SCOTTISH ADVANCED HIGHERS, A-LEVEL, CAMBRIDGE PRE-U, IB, OR HAVE AN EQUIVALENT LEVEL OF PRIOR CHINESE LANGUAGE STUDY.",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "IN TAKING THIS MODULE, STUDENTS CANNOT TAKE CN1011."
+      "antiRequisitesText": ""
     },
     {
       "id": "CN1021",
@@ -698,13 +641,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "CN1011"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CN1011",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -727,18 +667,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "CN1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "CN1021"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE CN1012",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "IN TAKING THIS MODULE, STUDENTS CANNOT TAKE CN1021."
+      "antiRequisitesText": ""
     },
     {
       "id": "CN1802",
@@ -784,13 +718,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "CN1021"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CN1021",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -813,18 +744,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "CN1022"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "CN2011"
-      },
-      "prerequisitesText": "TO TAKE THIS MODULE, STUDENTS WILL HAVE TAKEN CN1022.",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "IN TAKING THIS MODULE, STUDENTS CANNOT TAKE CN2011."
+      "antiRequisitesText": ""
     },
     {
       "id": "CN2021",
@@ -845,13 +770,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "CN2011"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CN2011",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -874,18 +796,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "CN2012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "CN2021"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CN2012",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "IN TAKING THIS MODULE, STUDENTS CANNOT TAKE CN2021."
+      "antiRequisitesText": ""
     },
     {
       "id": "CN3001",
@@ -909,7 +825,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ADMISSION TO HONOURS CHINESE STUDIES",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -932,13 +848,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "CN3001"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CN3001",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -964,7 +877,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ENTRY TO HONOURS CHINESE STUDIES",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -989,7 +902,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ENTRY TO HONOURS IN CHINESE STUDIES, OR EQUIVALENT LEVEL OF CHINESE LANGUAGE COMPETENCE",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1041,7 +954,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "STUDENTS MUST HAVE READING KNOWLEDGE OF CHINESE.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1064,13 +977,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "CN3002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CN3002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1093,13 +1003,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "CN4001"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CN4001",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1155,7 +1062,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "STUDENTS MUST HAVE READING KNOWLEDGE OF CHINESE",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1181,7 +1088,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "STUDENTS MUST HAVE READING KNOWLEDGE OF CHINESE.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1206,7 +1113,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "STUDENTS MUST HAVE READING KNOWLEDGE OF CHINESE.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1405,7 +1312,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "PERMISSION OF THE COMPARATIVE LITERATURE HONOURS ADVISER",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1556,7 +1463,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "PERMISSION OF THE COMPARATIVE LITERATURE HONOURS ADVISER.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1653,22 +1560,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "CO2001"
-          },
-          {
-            "type": "module",
-            "code": "CO2002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE CO2001 OR TAKE CO2002,PERMISSION OF THE COMPARATIVE LITERATURE HONOURS ADVISER",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1693,7 +1588,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "PERMISSION OF THE COMPARATIVE LITERATURE HONOURS ADVISER",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1842,13 +1737,10 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "EN3221"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE EN3221"
+      "antiRequisitesText": ""
     },
     {
       "id": "CO4037",
@@ -1924,7 +1816,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "PERMISSION OF THE HONOURS ADVISER IN COMPARATIVE LITERATURE",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2293,17 +2185,11 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "FR1002"
-      },
-      "coRequisiteExpression": {
-        "type": "module",
-        "code": "FR2201"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FR1002",
-      "coRequisitesText": "YOU MUST ALSO TAKE FR2201",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -2412,10 +2298,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "FR2202"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FR2202",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2539,10 +2428,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "FR2202"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FR2202",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2564,13 +2456,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "FR2202"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FR2202",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2618,22 +2507,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "FR3001"
-          },
-          {
-            "type": "module",
-            "code": "FR3002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FR3001 OR PASS FR3002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2656,13 +2533,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "FR4105"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FR4105",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2734,13 +2608,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "FR2202"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FR2202",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2815,7 +2686,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "ENTRY TO HONOURS FRENCH",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2840,7 +2711,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "PERMISSION OF THE HONOURS ADVISOR",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2890,7 +2761,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "PERMISSION OF THE FRENCH HONOURS ADVISER",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3040,7 +2911,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "STUDENTS MUST HAVE GAINED ENTRY TO HONOURS LEVEL TO TAKE THIS MODULE.",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3065,7 +2936,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "HONOURS ENTRY TO FRENCH",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3130,12 +3001,18 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "FR3001"
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "FR4198"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FR3001,BEFORE TAKING THIS MODULE YOU MUST TAKE FR4150",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE FR4198"
     },
     {
       "id": "FR4198",
@@ -3157,12 +3034,27 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "FR3001"
+          },
+          {
+            "type": "module",
+            "code": "FR3002"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "FR4199"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS FR3001 OR PASS FR3002",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "CANNOT TAKE FR4199 OR A 30-CREDIT DISSERTATION IN ANOTHER SUBJECT WITHIN THE SCHOOL OF MODERN LANGUAGES"
     },
     {
       "id": "FR4199",
@@ -3398,12 +3290,18 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "GM1002"
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GM2007"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GM1002",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GM2007"
     },
     {
       "id": "GM2004",
@@ -3488,18 +3386,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "GM2007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "GM2004"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GM2007",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE GM2004"
+      "antiRequisitesText": ""
     },
     {
       "id": "GM2011",
@@ -3610,10 +3502,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GM1002"
+          },
+          {
+            "type": "module",
+            "code": "GM1004"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GM1002 OR PASS GM1004",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3791,7 +3695,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "PERMISSION OF THE GERMAN HONOURS ADVISER",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3813,10 +3717,30 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GM2004"
+          },
+          {
+            "type": "module",
+            "code": "GM2008"
+          },
+          {
+            "type": "module",
+            "code": "GM2002"
+          },
+          {
+            "type": "module",
+            "code": "GM2010"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GM2004 OR PASS GM2008 OR PASS GM2002 OR PASS GM2010",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3913,30 +3837,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "GM2004"
-          },
-          {
-            "type": "module",
-            "code": "GM2008"
-          },
-          {
-            "type": "module",
-            "code": "GM2002"
-          },
-          {
-            "type": "module",
-            "code": "GM2010"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GM2004 OR PASS GM2008 OR PASS GM2002 OR PASS GM2010",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3961,7 +3865,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ENTRY TO HONOURS GERMAN",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4008,10 +3912,30 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "GM2004"
+          },
+          {
+            "type": "module",
+            "code": "GM2008"
+          },
+          {
+            "type": "module",
+            "code": "GM2002"
+          },
+          {
+            "type": "module",
+            "code": "GM2010"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS GM2004 OR PASS GM2008 OR PASS GM2002 OR PASS GM2010",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4066,10 +3990,13 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "GM4098"
+      },
+      "prerequisitesText": "PERMISSION OF THE GERMAN HONOURS ADVISER AND HEAD OF DEPARTMENT",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "IN TAKING THIS MODULE YOU CANNOT TAKE GM4098 OR A DISSERTATION IN ANOTHER SUBJECT."
     },
     {
       "id": "GM4105",
@@ -4326,7 +4253,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "TO TAKE THIS MODULE, STUDENTS MUST HAVE AT LEAST A-LEVEL ITALIAN (OR EQUIVALENT). STUDENTS WITHOUT THIS QUALIFICATION BUT WITH SOME KNOWLEDGE OF ITALIAN MAY BE ADMITTED, SUBJECT TO THE SUCCESSFUL COMPLETION OF A DEPARTMENTAL TEST/ASSESSMENT.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4553,7 +4480,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "IN TAKING THIS MODULE YOU MUST HAVE ADMISSION TO AN ITALIAN HONOURS PROGRAMME WITH INTEGRATED YEAR ABROAD.",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4576,13 +4503,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "IT3001"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "IT3001, IT3002 OR EQUIVALENT STUDY ABROAD MODULE",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4605,10 +4529,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IT4003"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IT4003",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4658,7 +4585,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "PERMISSION OF HONOURS ADVISER IN ITALIAN",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4721,12 +4648,27 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IT3002"
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "IT4097"
+          },
+          {
+            "type": "module",
+            "code": "IT4099"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IT3002",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "IN TAKING THIS MODULE YOU CANNOT TAKE IT4097 OR TAKE IT4099 OR A 30-CREDIT DISSERTATION IN ANOTHER SUBJECT WITHIN THE SCHOOL OF MODERN LANGUAGES."
     },
     {
       "id": "IT4099",
@@ -4830,7 +4772,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU MAY NOT TAKE ANY OTHER VARIATION OF SPECIALISED RESEARCH IN ITALIAN STUDIES."
+      "antiRequisitesText": ""
     },
     {
       "id": "IT5015",
@@ -4880,7 +4822,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU MAY NOT TAKE ANY OTHER VARIATION OF SPECIALISED RESEARCH IN ITALIAN STUDIES."
     },
     {
       "id": "IT5021",
@@ -4905,7 +4847,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ANY OTHER VARIATION OF ITALIAN LITERARY AND CULTURAL CONTEXTS."
     },
     {
       "id": "IT5031",
@@ -4930,7 +4872,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ANY OTHER VARIATION OF ITALIAN LITERARY AND CULTURAL CONTEXTS."
     },
     {
       "id": "IT5099",
@@ -4979,9 +4921,9 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "ADMISSION TO HONOURS PROGRAMME WITH INTEGRATED YEAR ABROAD",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "CANNOT TAKE ANY OTHER WHOLE YEAR STUDY ABROAD MODULE"
     },
     {
       "id": "ML4022",
@@ -5030,9 +4972,9 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "THE STUDENT REQUIRES A LETTER OF AGREEMENT",
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "CANNOT TAKE MORE THAN 30 CREDITS IN OTHER DISSERTATION/PROJECT MODULES"
+      "antiRequisitesText": ""
     },
     {
       "id": "ML5001",
@@ -5079,13 +5021,10 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "ML5021"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ML5021"
+      "antiRequisitesText": ""
     },
     {
       "id": "ML5004",
@@ -5160,7 +5099,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "STUDENTS TAKING THIS MODULE CANNOT TAKE ANOTHER VERSION OF PROBLEMS OF CULTURE AND IDENTITY 1."
+      "antiRequisitesText": ""
     },
     {
       "id": "ML5007",
@@ -5185,7 +5124,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "STUDENTS TAKING THIS MODULE CANNOT TAKE ANOTHER VERSION OF PROBLEMS OF CULTURE AND IDENTITY 2."
+      "antiRequisitesText": ""
     },
     {
       "id": "ML5009",
@@ -5209,10 +5148,13 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "ML5104"
+      },
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ML5104"
     },
     {
       "id": "ML5010",
@@ -5237,7 +5179,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "STUDENTS TAKING THIS MODULE CANNOT TAKE ANOTHER VERSION OF PROBLEMS OF CULTURE AND IDENTITY 1."
     },
     {
       "id": "ML5011",
@@ -5262,7 +5204,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "STUDENTS TAKING THIS MODULE CANNOT TAKE ANOTHER VERSION OF PROBLEMS OF CULTURE AND IDENTITY 2."
+      "antiRequisitesText": ""
     },
     {
       "id": "ML5020",
@@ -5464,10 +5406,22 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "ML5106"
+          },
+          {
+            "type": "module",
+            "code": "ML5108"
+          }
+        ]
+      },
+      "prerequisitesText": "IN TAKING THIS MODULE YOU MUST HAVE ADMISSION TO THE MUNDUS MASTERS",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ML5106 OR TAKE ML5108"
     },
     {
       "id": "ML5105",
@@ -5513,11 +5467,17 @@
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
-      "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "ML5108"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "ML5104"
+      },
+      "prerequisitesText": "IN TAKING THIS MODULE YOU MUST HAVE ADMISSION TO THE MUNDUS MASTERS 'CROSSWAYS' PROGRAMME",
+      "coRequisitesText": "YOU MUST ALSO TAKE ML5108",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ML5104"
     },
     {
       "id": "ML5107",
@@ -5537,35 +5497,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "ML5104"
-          },
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "ML5106"
-              },
-              {
-                "type": "module",
-                "code": "ML5108"
-              }
-            ]
-          }
-        ]
-      },
-      "coRequisiteExpression": {
-        "type": "module",
-        "code": "ML5199"
-      },
+      "prerequisiteExpression": null,
+      "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS ML5104 OR PASS ML5106 AND PASS ML5108",
-      "coRequisitesText": "YOU MUST ALSO TAKE ML5199",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -5644,10 +5580,13 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "ML5099"
+      },
+      "prerequisitesText": "IN TAKING THIS MODULE YOU MUST HAVE ADMISSION TO THE MUNDUS MASTERS 'CROSSWAYS' PROGRAMME",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ML5099"
     },
     {
       "id": "ML5850",
@@ -5738,22 +5677,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "CS5901"
-          },
-          {
-            "type": "module",
-            "code": "ML5850"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS5901 AND PASS ML5850",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5777,10 +5704,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "CS5901"
+          },
+          {
+            "type": "module",
+            "code": "ML5850"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS CS5901 AND PASS ML5850",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5860,7 +5799,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "IN TAKING THIS MODULE YOU MUST NOT HAVE HIGHER OR A-LEVEL PERSIAN OR EQUIVALENT OR BE A NATIVE SPEAKER OF PERSIAN"
     },
     {
       "id": "PR1002",
@@ -5936,13 +5875,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PR2001"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PR2001",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5965,10 +5901,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PR2002"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PR2002",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5991,10 +5930,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "PR3001"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PR3001",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -6021,7 +5963,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "PERMISSION OF THE PERSIAN HONOURS ADVISER",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -6177,18 +6119,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PR3002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PR4099"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PR3002",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "IIN TAKING THIS MODULE YOU CANNOT TAKE PR4099 OR ANY 30-CREDIT DISSERTATION WITHIN THE SCHOOL OF MODERN LANGUAGES."
+      "antiRequisitesText": ""
     },
     {
       "id": "PR4099",
@@ -6209,18 +6145,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PR3002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PR4098"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PR3002",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "IN TAKING THIS MODULE YOU CANNOT TAKE PR4098 OR ANY 30-CREDIT DISSERTATION IN ANOTHER SUBJECT."
+      "antiRequisitesText": ""
     },
     {
       "id": "PR5000",
@@ -6292,12 +6222,18 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "RU1001"
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "RU1006"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS RU1001",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE RU1006"
     },
     {
       "id": "RU1005",
@@ -6344,12 +6280,18 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "RU1005"
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "RU1002"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS RU1005",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE RU1002"
     },
     {
       "id": "RU2201",
@@ -6446,12 +6388,21 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "RU1006"
+      },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "RU2204"
+      },
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "RU2201"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS RU1006",
+      "coRequisitesText": "YOU MUST ALSO TAKE RU2204",
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE RU2201"
     },
     {
       "id": "RU2204",
@@ -6609,10 +6560,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "RU2202"
+          },
+          {
+            "type": "module",
+            "code": "RU2204"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS RU2202 OR PASS RU2204",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -6735,22 +6698,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "RU3102"
-          },
-          {
-            "type": "module",
-            "code": "RU3301"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS RU3102 OR PASS RU3301",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -6799,22 +6750,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "RU2202"
-          },
-          {
-            "type": "module",
-            "code": "RU2204"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS RU2202 OR PASS RU2204",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -6837,30 +6776,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "RU3102"
-          },
-          {
-            "type": "module",
-            "code": "RU3101"
-          },
-          {
-            "type": "module",
-            "code": "RU3301"
-          },
-          {
-            "type": "module",
-            "code": "RU3302"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS RU3102 OR PASS RU3101 OR PASS RU3301 OR PASS RU3302",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -6882,18 +6801,12 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "RU4101"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "RU4104"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS RU4101",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE RU4104"
+      "antiRequisitesText": ""
     },
     {
       "id": "RU4104",
@@ -6969,7 +6882,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "PERMISSION OF THE RUSSIAN HONOURS ADVISER",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -7041,10 +6954,22 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "RU2202"
+          },
+          {
+            "type": "module",
+            "code": "RU2204"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS RU2202 OR PASS RU2204",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -7120,13 +7045,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "RU4199"
-      },
-      "prerequisitesText": "PERMISSION OF THE RUSSIAN HONOURS ADVISER",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "IN TAKING THIS MODULE YOU CANNOT TAKE RU4199 OR A 30-CREDIT DISSERTATION IN ANOTHER SUBJECT WITHIN THE SCHOOL OF MODERN LANGUAGES."
+      "antiRequisitesText": ""
     },
     {
       "id": "RU4199",
@@ -7200,13 +7122,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "SP1003"
-      },
-      "prerequisitesText": "IN TAKING THIS MODULE YOU MUST HAVE HIGHER OR A-LEVEL SPANISH OR EQUIVALENT AND YOU MUST BE A FIRST YEAR STUDENT.",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE SP1003"
+      "antiRequisitesText": ""
     },
     {
       "id": "SP1002",
@@ -7227,12 +7146,18 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SP1001"
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "SP1004"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP1001",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE SP1004"
     },
     {
       "id": "SP1003",
@@ -7346,10 +7271,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "SP2001"
+          },
+          {
+            "type": "module",
+            "code": "SP2005"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2001 OR PASS SP2005",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -7442,7 +7379,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "ENTRY TO THE HONOURS SPANISH PROGRAMME",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -7465,13 +7402,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SP3001"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP3001",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -7522,11 +7456,14 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SP2002"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "coRequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2002",
+      "coRequisitesText": "COMPULSORY MODULES FOR SINGLE AND MAJOR SPANISH PROGRAMMES",
       "antiRequisitesText": ""
     },
     {
@@ -7548,18 +7485,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SP2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "SP4102"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2002",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "STUDENTS CANNOT TAKE SP4102 OR PARTICIPATE IN ERASMUS EXCHANGE WHEN TAKING THIS MODULE"
+      "antiRequisitesText": ""
     },
     {
       "id": "SP3138",
@@ -7580,13 +7511,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SP2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -7633,13 +7561,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SP2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -7711,11 +7636,14 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SP2002"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "coRequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2002",
+      "coRequisitesText": "COMPULSORY MODULES FOR SINGLE AND MAJOR SPANISH PROGRAMMES.",
       "antiRequisitesText": ""
     },
     {
@@ -7762,11 +7690,14 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SP2002"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "coRequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2002",
+      "coRequisitesText": "COMPULSORY MODULES FOR SINGLE AND MAJOR SPANISH PROGRAMMES.",
       "antiRequisitesText": ""
     },
     {
@@ -7841,14 +7772,11 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SP2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2002",
-      "coRequisitesText": "COMPULSORY MODULES FOR SINGLE AND MAJOR SPANISH PROGRAMMES",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -7869,14 +7797,11 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SP2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2002",
-      "coRequisitesText": "COMPULSORY MODULES FOR SINGLE AND MAJOR SPANISH PROGRAMMES",
+      "prerequisitesText": "",
+      "coRequisitesText": "",
       "antiRequisitesText": ""
     },
     {
@@ -8064,11 +7989,14 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SP2002"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "coRequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SP2002",
+      "coRequisitesText": "COMPULSORY MODULES FOR SINGLE AND MAJOR SPANISH PROGRAMMES",
       "antiRequisitesText": ""
     },
     {
@@ -8169,13 +8097,10 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "SP5011"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE SP5011"
+      "antiRequisitesText": ""
     },
     {
       "id": "SP5014",
@@ -8275,7 +8200,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU MAY NOT TAKE THIS MODULE IF YOU ARE TAKING ANY OTHER VARIATION OF 'PATTERNS IN HISPANIC LITERATURE AND FILM'."
     },
     {
       "id": "SP5018",
@@ -8300,7 +8225,7 @@
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU MAY NOT TAKE THIS MODULE IF YOU ARE TAKING ANY OTHER VARIATION OF 'PATTERNS IN HISPANIC LITERATURE AND FILM'."
     },
     {
       "id": "SP5099",
