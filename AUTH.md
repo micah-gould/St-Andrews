@@ -19,7 +19,7 @@ graph app.
 
 | Concern        | Choice                                  | Why |
 |----------------|------------------------------------------|-----|
-| Database       | Prisma ORM + SQLite (dev) / Postgres (prod) | Free everywhere, swap by changing `DATABASE_URL` |
+| Database       | Prisma ORM + Postgres | Free tier options (Neon/Supabase) and works in serverless/container deploys |
 | Sessions       | JWT in httpOnly cookie                   | Stateless, no extra infra |
 | OAuth          | Passport.js (`google-oauth20`, `microsoft`) | Mature, well-maintained |
 | Email          | Resend (free 3k/mo) with console fallback | Best free transactional email DX |
@@ -30,7 +30,7 @@ graph app.
 cp .env.example .env
 # edit .env — at minimum set JWT_SECRET to something random
 npm install                # runs prisma generate via postinstall
-npm run db:migrate         # creates prisma/dev.db with the auth schema
+npm run db:push            # sync schema to DATABASE_URL
 npm run dev                # starts vite (5174) and the API (5175)
 ```
 
@@ -45,16 +45,18 @@ The OAuth buttons are hidden until you supply real credentials in `.env`.
 
 1. Go to https://console.cloud.google.com/apis/credentials
 2. Create OAuth client ID → Web application
-3. Authorized redirect URI: `http://localhost:5175/api/auth/google/callback`
-4. Paste the client ID / secret into `.env`
+3. Authorized redirect URI (local): `http://localhost:5175/api/auth/google/callback`
+4. Authorized redirect URI (production): `https://<your-vercel-domain>/api/auth/google/callback`
+5. Paste the client ID / secret into `.env`
 
 ### Microsoft
 
 1. https://portal.azure.com → Microsoft Entra ID → App registrations → New registration
-2. Redirect URI (Web): `http://localhost:5175/api/auth/microsoft/callback`
-3. Certificates & secrets → New client secret
-4. Paste the application (client) ID and secret value into `.env`
-5. Leave `MICROSOFT_TENANT=common` to allow personal + work accounts
+2. Redirect URI (Web, local): `http://localhost:5175/api/auth/microsoft/callback`
+3. Redirect URI (Web, production): `https://<your-vercel-domain>/api/auth/microsoft/callback`
+4. Certificates & secrets → New client secret
+5. Paste the application (client) ID and secret value into `.env`
+6. Leave `MICROSOFT_TENANT=common` to allow personal + work accounts
 
 ## Password reset email
 
@@ -68,12 +70,19 @@ the address that owns the Resend account.
 
 ## Production database
 
-SQLite is great for local dev. For production, point `DATABASE_URL` at a
-free Postgres (Neon, Supabase, Railway, Vercel Postgres) and change the
-provider in `prisma/schema.prisma` to `postgresql`. Then:
+Use a managed Postgres (Neon/Supabase/etc.) in `DATABASE_URL`.
+
+For first-time bootstrap on a fresh database:
 
 ```bash
-npm run db:deploy   # apply migrations to the target DB
+npx prisma db push
+npx prisma generate
+```
+
+After you establish a migration history for Postgres, you can use:
+
+```bash
+npm run db:deploy
 ```
 
 ## File map

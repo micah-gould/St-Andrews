@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://st-andrews-m8aa.onrender.com/api/$1"
+    }
+  ]
+}

@@ -153,7 +153,7 @@ router.post('/forgot-password', resetLimiter, async (req, res) => {
       await prisma.passwordResetToken.create({
         data: { userId: user.id, tokenHash: hash, expiresAt },
       });
-      const resetUrl = `${APP_URL}/reset-password?token=${encodeURIComponent(raw)}`;
+      const resetUrl = `${APP_URL}/reset-password.html?token=${encodeURIComponent(raw)}`;
       try {
         await sendPasswordResetEmail({ to: user.email, resetUrl, name: user.name });
       } catch (err) {
@@ -227,10 +227,10 @@ router.get('/google', (req, res, next) => {
 
 router.get('/google/callback', (req, res, next) => {
   if (!isProviderEnabled('google')) return res.status(503).send('Google sign-in is not configured.');
-  passport.authenticate('google', { session: false, failureRedirect: `${APP_URL}/login?error=oauth` }, (err, user) => {
+  passport.authenticate('google', { session: false, failureRedirect: `${APP_URL}/login.html?error=oauth` }, (err, user) => {
     if (err || !user) {
       console.error('[auth] google callback error', err);
-      return res.redirect(`${APP_URL}/login?error=oauth`);
+      return res.redirect(`${APP_URL}/login.html?error=oauth`);
     }
     const remember = req.query.state === '1';
     const { token, maxAgeMs } = signSessionToken(user, { remember });
@@ -251,10 +251,10 @@ router.get('/microsoft', (req, res, next) => {
 
 router.get('/microsoft/callback', (req, res, next) => {
   if (!isProviderEnabled('microsoft')) return res.status(503).send('Microsoft sign-in is not configured.');
-  passport.authenticate('microsoft', { session: false, failureRedirect: `${APP_URL}/login?error=oauth` }, (err, user) => {
+  passport.authenticate('microsoft', { session: false, failureRedirect: `${APP_URL}/login.html?error=oauth` }, (err, user) => {
     if (err || !user) {
       console.error('[auth] microsoft callback error', err);
-      return res.redirect(`${APP_URL}/login?error=oauth`);
+      return res.redirect(`${APP_URL}/login.html?error=oauth`);
     }
     const remember = req.query.state === '1';
     const { token, maxAgeMs } = signSessionToken(user, { remember });

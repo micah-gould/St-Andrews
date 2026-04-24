@@ -13,6 +13,7 @@
     "start:server": "node server/index.js",
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
+    "db:push": "prisma db push",
     "db:studio": "prisma studio",
     "db:generate": "prisma generate",
     "postinstall": "prisma generate"

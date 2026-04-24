@@ -1,12 +1,12 @@
 // Prisma schema for the auth system
-// Uses SQLite locally for free dev; switch DATABASE_URL to Postgres for prod (Neon, Supabase, etc.)
+// Uses Postgres via DATABASE_URL (Neon/Supabase/etc.)
 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 

@@ -456,7 +456,7 @@ router.post('/:id/request-access', requireAuth, requestLimiter, async (req, res)
         stateName: state.name,
         requestedRole,
         message: request.message,
-        manageUrl: `${APP_URL}/?share=${encodeURIComponent(state.id)}`,
+        manageUrl: `${APP_URL}/${encodeURIComponent(state.id)}`,
       });
     } catch (err) {
       console.error('[saved-states] email send failed', err);
