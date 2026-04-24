@@ -13,7 +13,6 @@ export function parseRelationshipText(text) {
     .replace(/STUDENTS MUST HAVE/gi, '')
     .replace(/THE STUDENT REQUIRES A LETTER OF AGREEMENT/gi, '')
     .replace(/YOU MUST HAVE AT LEAST[\s\S]*$/gi, '')
-    .replace(/IF [A-Z]{2,4}\d{4}[\s\S]*$/gi, '')
     .trim();
 
   const groups = splitTopLevel(body, ' OR ').map((segment) => parseAndGroup(segment)).filter(Boolean);

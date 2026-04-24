@@ -21,7 +21,7 @@ const appState = {
   sharedSettingId: null,
   graphRuntime: null,
   outsideClickHandler: null,
-  hiddenLevels: new Set(),
+  hiddenLevels: new Set(['ext', '5000']),
   theme: 'dark',
   isSubjectSelection: true,
 };
@@ -472,14 +472,10 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
   const nodeMap = Object.fromEntries(nodes.map((node) => [node.id, node]));
   let previewState = null;
 
-  const getVisibleNodes = () => nodes.filter((node) => !hiddenLevels.has(String(node.level)));
-  const getVisibleEdges = () => edges.filter((link) => {
-    const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
-    const targetId = typeof link.target === 'object' ? link.target.id : link.target;
-    const source = nodeMap[sourceId];
-    const target = nodeMap[targetId];
-    return source && target && !hiddenLevels.has(String(source.level)) && !hiddenLevels.has(String(target.level));
-  });
+  const isNodeInHiddenLevel = (node) => hiddenLevels.has(String(node.level));
+  const computeLevelExcludedIds = (selectedSet = uiState.selected, passedSet = uiState.passed) => new Set(nodes
+    .filter((node) => isNodeInHiddenLevel(node) && !selectedSet.has(node.id) && !passedSet.has(node.id))
+    .map((node) => node.id));
 
   const closePanel = () => {
     uiState.setActiveNodeId(null);
@@ -522,7 +518,7 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
       uiState.manualExcluded.add(node.id);
       uiState.selected.delete(node.id);
       uiState.passed.delete(node.id);
-      graphState.computeEffectivelyExcluded(uiState.manualExcluded).forEach((id) => {
+      graphState.computeEffectivelyExcluded(uiState.manualExcluded, computeLevelExcludedIds()).forEach((id) => {
         uiState.selected.delete(id);
         uiState.passed.delete(id);
       });
@@ -597,8 +593,8 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
       .attr('stroke-linejoin', 'round');
   });
 
-  const sim = d3.forceSimulation(getVisibleNodes())
-    .force('link', d3.forceLink(getVisibleEdges()).id((node) => node.id)
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(edges).id((node) => node.id)
       .distance((edge) => (edge.etype === 'anti' ? 130 : 88))
       .strength((edge) => (edge.etype === 'anti' ? 0.04 : 0.5)))
     .force('charge', d3.forceManyBody().strength((node) => (node.level === 'ext' ? -60 : -195)))
@@ -612,8 +608,8 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
   sim.alpha(1).restart();
 
   const refreshSimulation = () => {
-    sim.nodes(getVisibleNodes());
-    sim.force('link').links(getVisibleEdges());
+    sim.nodes(nodes);
+    sim.force('link').links(edges);
     sim.alpha(1).restart();
   };
 
@@ -660,7 +656,7 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
 
   const syncUi = () => {
     renderer.render();
-    uiState.updateStatus(graphState);
+    uiState.updateStatus(graphState, computeLevelExcludedIds());
   };
 
   const drag = d3.drag()
@@ -782,7 +778,8 @@ function buildGraphRuntime({ catalog, nodes, prereqRules, edges, restoredState, 
       selected: [...uiState.selected],
       passed: [...uiState.passed],
       excluded: [...uiState.manualExcluded],
-      blocked: [...graphState.computeEffectivelyExcluded(uiState.manualExcluded)].filter((id) => !uiState.manualExcluded.has(id)),
+      blocked: [...graphState.computeEffectivelyExcluded(uiState.manualExcluded, computeLevelExcludedIds())]
+        .filter((id) => !uiState.manualExcluded.has(id)),
       hiddenLevels: [...appState.hiddenLevels],
     }),
   };

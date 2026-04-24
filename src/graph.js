@@ -41,8 +41,8 @@ export function createGraphState(nodes, edges, prereqRules) {
 
   const topo = topoSort(nodes, edges, prereqOf);
 
-  function computeEffectivelyExcluded(manualExcluded) {
-    const eff = new Set(manualExcluded);
+  function computeEffectivelyExcluded(manualExcluded, levelExcluded = new Set()) {
+    const eff = new Set([...manualExcluded, ...levelExcluded]);
     let changed = true;
 
     while (changed) {

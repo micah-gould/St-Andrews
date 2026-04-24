@@ -2,6 +2,15 @@ export function createTooltip({ prereqRules, manualExcluded, selected, passed, g
   const tipEl = () => document.getElementById('tip');
   const getCatalogUrl = (moduleCode) => `https://www.st-andrews.ac.uk/subjects/modules/search/?query=${encodeURIComponent(moduleCode)}`;
 
+  function escapeHtml(value = '') {
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
   function formatPath(path) {
     return path.join(' -> ');
   }
@@ -50,6 +59,18 @@ export function createTooltip({ prereqRules, manualExcluded, selected, passed, g
       : isManual
         ? '<div class="tip-excl-note">Manually excluded</div>'
         : '';
+    const descriptionText = node.description || node.summary || '';
+    const descriptionHtml = descriptionText
+      ? `<div class="tip-section"><div class="tip-label">Description</div><div class="tip-description">${escapeHtml(descriptionText)}</div></div>`
+      : '';
+    const timetableText = node.plannedTimetable || '';
+    const timetableHtml = timetableText
+      ? `<div class="tip-section"><div class="tip-label">Planned timetable</div><div class="tip-detail-text">${escapeHtml(timetableText)}</div></div>`
+      : '';
+    const assessmentText = node.assessmentPattern || '';
+    const assessmentHtml = assessmentText
+      ? `<div class="tip-section"><div class="tip-label">Assessment</div><div class="tip-detail-text">${escapeHtml(assessmentText)}${node.reassessment ? `<div class="tip-detail-sub">Re-assessment: ${escapeHtml(node.reassessment)}</div>` : ''}</div></div>`
+      : '';
     const availabilityLabel = node.availableInSelectedYear === false ? 'Not running in selected year' : 'Running in selected year';
     const yearList = Array.isArray(node.years) && node.years.length ? node.years.join(', ') : 'Unknown';
     const availabilityNote = node.frequency === 'every-year'
@@ -106,10 +127,12 @@ export function createTooltip({ prereqRules, manualExcluded, selected, passed, g
       <div class="tip-meta">${node.credits ? `${node.credits} credits` : 'Credits unknown'}</div>
       ${exclNote}
       <div class="tip-availability"><strong>${availabilityLabel}</strong><div class="tip-availability-note">Years seen: ${yearList}. ${availabilityNote}</div></div>
+      ${descriptionHtml}
       <div class="tip-section">
         <div class="tip-label">Semesters</div>
         ${semesterHtml}
       </div>
+      ${timetableHtml}
       <div class="tip-section">
         <div class="tip-label">Prerequisites</div>
         ${prereqHtml}
@@ -117,6 +140,7 @@ export function createTooltip({ prereqRules, manualExcluded, selected, passed, g
       </div>
       ${coReqLine}
       ${antiLine}
+      ${assessmentHtml}
       ${pathSection}
       ${actions}
     `;

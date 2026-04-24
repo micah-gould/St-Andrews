@@ -502,6 +502,9 @@ body {
 .tip-anti-note { color: var(--c-excl); font-size: 10px; margin-top: 4px; }
 .tip-hint  { font-size: 10px; color: var(--text-dim); margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); }
 .tip-src-excl { color: var(--c-excl); text-decoration: line-through; }
+.tip-description { font-size: 11px; color: var(--text-muted); line-height: 1.5; }
+.tip-detail-text { font-size: 11px; color: var(--text-muted); line-height: 1.5; }
+.tip-detail-sub { font-size: 10px; color: var(--text-dim); margin-top: 4px; }
 
 .tip-availability {
   margin-top: 10px;

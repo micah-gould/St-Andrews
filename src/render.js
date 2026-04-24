@@ -55,9 +55,13 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
     const activeManualExcluded = previewState?.manualExcluded || manualExcluded;
     const activeSelected = previewState?.selected || selected;
     const activePassed = previewState?.passed || passed;
-    const effExcl = graphState.computeEffectivelyExcluded(activeManualExcluded);
-    const hoveredExcluded = Boolean(hoverId && effExcl.has(hoverId));
     const isHiddenLevel = (node) => hiddenLevels.has(String(node.level));
+    const isVisibleNode = (node) => !isHiddenLevel(node) || activeSelected.has(node.id) || activePassed.has(node.id);
+    const levelExcluded = new Set((nodes || [])
+      .filter((node) => isHiddenLevel(node) && !activeSelected.has(node.id) && !activePassed.has(node.id))
+      .map((node) => node.id));
+    const effExcl = graphState.computeEffectivelyExcluded(activeManualExcluded, levelExcluded);
+    const hoveredExcluded = Boolean(hoverId && effExcl.has(hoverId));
     const isExternal = (node) => node.isExternal || String(node.level) === 'ext' || node.frequency === 'external';
     const levelKey = (node) => (isExternal(node) ? 'ext' : String(node.level));
     const hAnc = hoverId && !hoveredExcluded ? graphState.getPrerequisitePathNodes(hoverId) : new Set();
@@ -101,7 +105,7 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
     });
 
     if (nodeGroups) {
-      nodeGroups.attr('display', (node) => (isHiddenLevel(node) ? 'none' : null));
+      nodeGroups.attr('display', (node) => (isVisibleNode(node) ? null : 'none'));
       nodeGroups.each(function(node) {
         const state = nodeState(node, ctx);
         const destination = (state === 'excl-manual' || state === 'excl-implied') ? excludedLayer : nodeLayer;
@@ -159,7 +163,7 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
     circles.classed('node-unavailable', (node) => node.availableInSelectedYear === false);
 
     labels
-      .attr('display', (node) => (isHiddenLevel(node) ? 'none' : null))
+      .attr('display', (node) => (isVisibleNode(node) ? null : 'none'))
       .attr('fill', (node) => {
         const state = nodeState(node, ctx);
         if (state === 'excl-manual') return COLORS.excl;
@@ -191,7 +195,7 @@ export function createRenderer({ nodeGroups, circles, labels, linkSel, antiLayer
       .attr('display', (link) => {
         const sourceNode = typeof link.source === 'object' ? link.source : nodeMap[link.source];
         const targetNode = typeof link.target === 'object' ? link.target : nodeMap[link.target];
-        if ((sourceNode && isHiddenLevel(sourceNode)) || (targetNode && isHiddenLevel(targetNode))) {
+        if ((sourceNode && !isVisibleNode(sourceNode)) || (targetNode && !isVisibleNode(targetNode))) {
           return 'none';
         }
         return null;

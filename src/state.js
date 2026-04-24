@@ -22,8 +22,8 @@ export function createUiState(nodes) {
     activeNodeId = null;
   }
 
-  function updateStatus(graphState) {
-    const effExcl = graphState.computeEffectivelyExcluded(manualExcluded);
+  function updateStatus(graphState, levelExcluded = new Set()) {
+    const effExcl = graphState.computeEffectivelyExcluded(manualExcluded, levelExcluded);
     const rows = [];
 
     if (selected.size) {
