@@ -1342,22 +1342,10 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PY1011"
-          },
-          {
-            "type": "module",
-            "code": "PY2013"
-          }
-        ]
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU HAVE TAKEN OR ARE TAKING PY1011 OR PY2013."
+      "antiRequisitesText": ""
     },
     {
       "id": "PY1901",
@@ -1424,13 +1412,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1532,34 +1517,10 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PY1005"
-          },
-          {
-            "type": "module",
-            "code": "PY1006"
-          },
-          {
-            "type": "module",
-            "code": "PY2801"
-          },
-          {
-            "type": "module",
-            "code": "PY1010"
-          },
-          {
-            "type": "module",
-            "code": "PY2012"
-          }
-        ]
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE, YOU MUST HAVE PASSED ANY SOCIAL SCIENCE OR HUMANITIES EVENING DEGREE MODULE",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY1005 OR TAKE PY1006 OR TAKE PY2801 OR TAKE PY1010 OR TAKE PY2012"
+      "antiRequisitesText": ""
     },
     {
       "id": "PY2903",
@@ -1582,7 +1543,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE, YOU MUST HAVE PASSED ANY SOCIAL SCIENCE OR HUMANITIES EVENING DEGREE MODULE",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1605,13 +1566,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1633,22 +1591,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PY1006"
-          },
-          {
-            "type": "module",
-            "code": "PY1012"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS PY1006 OR PASS PY1012 ) AND PASS 40 CREDITS FROM ANY LEVELS MATCHING PY2",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1696,13 +1642,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1724,13 +1667,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1780,13 +1720,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1808,18 +1745,12 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "PY4648"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY4648"
+      "antiRequisitesText": ""
     },
     {
       "id": "PY4604",
@@ -1892,13 +1823,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1949,18 +1877,12 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY2010"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "CS3050"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY2010",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE CS3050"
+      "antiRequisitesText": ""
     },
     {
       "id": "PY4614",
@@ -1980,13 +1902,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2008,13 +1927,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2036,13 +1952,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2089,13 +2002,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2117,13 +2027,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2145,13 +2052,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2223,13 +2127,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2288,22 +2189,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PY1006"
-          },
-          {
-            "type": "module",
-            "code": "PY1012"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1006 OR PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2365,13 +2254,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2505,13 +2391,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2533,13 +2416,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2589,22 +2469,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PY1012"
-          },
-          {
-            "type": "module",
-            "code": "PY1006"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012 OR PASS PY1006",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2651,13 +2519,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY2010"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY2010",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2679,13 +2544,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2707,13 +2569,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2735,13 +2594,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2763,13 +2619,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2791,13 +2644,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2819,13 +2669,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2847,13 +2694,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2875,13 +2719,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "PY1012"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1012",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2929,36 +2770,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PY1006"
-          },
-          {
-            "type": "module",
-            "code": "PY1012"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "PY4699"
-          },
-          {
-            "type": "module",
-            "code": "PY4701"
-          }
-        ]
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS PY1006 OR PASS PY1012",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE PY4699 OR TAKE PY4701"
+      "antiRequisitesText": ""
     },
     {
       "id": "PY4699",
@@ -3906,10 +3723,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SA2001"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4045,13 +3865,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SA2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4148,26 +3965,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "SA1002"
-          },
-          {
-            "type": "module",
-            "code": "SA2001"
-          },
-          {
-            "type": "module",
-            "code": "SA2002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA1002 AND PASS SA2001 AND PASS SA2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4189,26 +3990,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "SA1002"
-          },
-          {
-            "type": "module",
-            "code": "SA2001"
-          },
-          {
-            "type": "module",
-            "code": "SA2002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA1002 AND PASS SA2001 AND PASS SA2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4230,22 +4015,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "SA2001"
-          },
-          {
-            "type": "module",
-            "code": "SA2002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001 AND PASS SA2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4267,13 +4040,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SA2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4295,13 +4065,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SA2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4364,7 +4131,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "MUST HAVE PASSED ANY SOCIAL SCIENCE OR HUMANITIES EVENING DEGREE MODULE",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4536,12 +4303,27 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "SA2001"
+          },
+          {
+            "type": "module",
+            "code": "SA2002"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "SA3048"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001 AND PASS SA2002",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE SA3048"
     },
     {
       "id": "SA4067",
@@ -4587,10 +4369,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "SA2002"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2002",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4675,27 +4460,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "SA2001"
-          },
-          {
-            "type": "module",
-            "code": "SA2002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "SA4099"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001 AND PASS SA2002",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE SA4099"
+      "antiRequisitesText": ""
     },
     {
       "id": "SA4099",
@@ -4772,22 +4542,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "SA2001"
-          },
-          {
-            "type": "module",
-            "code": "SA2002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SA2001 AND PASS SA2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },

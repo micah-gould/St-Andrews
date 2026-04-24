@@ -29,7 +29,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "THIS MODULE IS AVAILABLE ONLY TO FIRST YEAR STUDENTS IN THE FACULTIES OF ARTS AND DIVINITY.",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -52,10 +52,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR1005"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR1005",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -128,10 +131,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "IR1005"
+          },
+          {
+            "type": "module",
+            "code": "IR1006"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR1005 AND PASS IR1006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -154,10 +169,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2005"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2005",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -313,10 +331,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -340,10 +361,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -365,10 +389,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -390,10 +417,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -415,10 +445,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -441,10 +474,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -466,10 +502,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -491,10 +530,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -517,10 +559,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -542,10 +587,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -568,10 +616,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -593,10 +644,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -618,12 +672,27 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "IR3208"
+          },
+          {
+            "type": "module",
+            "code": "IR3208"
+          }
+        ]
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE IR3208 OR PASS IR3208"
     },
     {
       "id": "IR3041",
@@ -644,10 +713,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -670,10 +742,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -697,10 +772,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -723,10 +801,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -748,10 +829,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -773,10 +857,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -798,10 +885,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -823,10 +913,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -849,10 +942,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -874,10 +970,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -900,10 +999,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -927,10 +1029,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -953,10 +1058,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -978,10 +1086,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1003,10 +1114,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1028,10 +1142,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1053,10 +1170,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1079,10 +1199,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1106,10 +1229,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1132,12 +1258,18 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "antiRequisiteExpression": {
+        "type": "module",
+        "code": "IR4546"
+      },
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE IR4546"
     },
     {
       "id": "IR3076",
@@ -1157,10 +1289,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1183,10 +1318,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1209,10 +1347,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1262,10 +1403,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1287,10 +1431,22 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "IR2005"
+          },
+          {
+            "type": "module",
+            "code": "IR2006"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2005 AND PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1312,10 +1468,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1337,10 +1496,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "or",
+        "children": [
+          {
+            "type": "module",
+            "code": "IR2006"
+          },
+          {
+            "type": "module",
+            "code": "IR1005"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE, STUDENTS SHOULD HAVE COMPLETED IR2006 OR AN EQUIVALENT MODULE.,BEFORE TAKING THIS MODULE YOU MUST PASS IR1005",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1412,10 +1583,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1462,10 +1636,30 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "IR1005"
+          },
+          {
+            "type": "module",
+            "code": "IR1006"
+          },
+          {
+            "type": "module",
+            "code": "IR2005"
+          },
+          {
+            "type": "module",
+            "code": "IR2006"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR1005 AND PASS IR1006 AND PASS IR2005 AND PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1489,10 +1683,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1514,10 +1711,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1566,10 +1766,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1592,10 +1795,22 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "IR2005"
+          },
+          {
+            "type": "module",
+            "code": "IR2006"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2005 AND PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1617,10 +1832,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "IR2005"
+          },
+          {
+            "type": "module",
+            "code": "IR2006"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2005 AND PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1642,10 +1869,22 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "IR2005"
+          },
+          {
+            "type": "module",
+            "code": "IR2006"
+          }
+        ]
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2005 AND PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1695,10 +1934,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1904,10 +2146,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1930,12 +2175,15 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
-      "antiRequisitesText": ""
+      "antiRequisitesText": "IN TAKING THIS MODULE YOU MUST NOT TAKE OR HAVE TAKEN ANY OTHER DISSERTATION MODULE"
     },
     {
       "id": "IR4401",
@@ -1956,11 +2204,17 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
-      "coRequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "ID4002"
+      },
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
-      "coRequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
+      "coRequisitesText": "YOU MUST ALSO TAKE ID4002",
       "antiRequisitesText": ""
     },
     {
@@ -2006,10 +2260,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2056,10 +2313,13 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2082,10 +2342,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2107,10 +2370,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2157,10 +2423,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2415,10 +2684,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2441,10 +2713,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2491,10 +2766,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2545,10 +2823,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2598,10 +2879,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2625,10 +2909,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2754,10 +3041,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2780,10 +3070,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2857,10 +3150,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2910,10 +3206,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3011,10 +3310,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3063,10 +3365,13 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR2006"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS IR2006",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3884,10 +4189,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "coRequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "IR5705"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "coRequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE IR5705",
       "antiRequisitesText": ""
     },
     {
@@ -3910,10 +4218,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "coRequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "IR5704"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "coRequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE IR5704",
       "antiRequisitesText": ""
     },
     {
@@ -4037,10 +4348,13 @@
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
-      "coRequisiteExpression": null,
+      "coRequisiteExpression": {
+        "type": "module",
+        "code": "IR5801"
+      },
       "antiRequisiteExpression": null,
       "prerequisitesText": "",
-      "coRequisitesText": "",
+      "coRequisitesText": "YOU MUST ALSO TAKE IR5801",
       "antiRequisitesText": ""
     },
     {
@@ -4672,10 +4986,13 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": null,
+      "prerequisiteExpression": {
+        "type": "module",
+        "code": "IR5951"
+      },
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE IR5951",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },

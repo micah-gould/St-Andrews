@@ -1377,13 +1377,10 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "ME2003"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ME2003"
+      "antiRequisitesText": ""
     },
     {
       "id": "ME3105",
@@ -1404,22 +1401,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "ME1003"
-          },
-          {
-            "type": "module",
-            "code": "AN1002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002} OR PASS AT LEAST 60 CREDITS FROM {AN1002, AN2002, AN2003, CL2004}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1478,22 +1463,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "ME1003"
-          },
-          {
-            "type": "module",
-            "code": "AN1002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002} OR PASS AT LEAST 60 CREDITS FROM {AN1002, AN2002, AN2003, CL2004}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1516,22 +1489,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "ME1003"
-          },
-          {
-            "type": "module",
-            "code": "AN1002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002} OR PASS AT LEAST 60 CREDITS FROM {AN1002, AN2002, AN2003, CL2004}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1554,13 +1515,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1582,13 +1540,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1610,13 +1565,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1638,13 +1590,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1668,13 +1617,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1699,7 +1645,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ENTRY TO HONS IN HISTORY OR MEDIEVAL HISTORY",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1724,7 +1670,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "ENTRY TO HONS IN HISTORY OR MEDIEVAL HISTORY",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1822,13 +1768,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1850,13 +1793,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1881,7 +1821,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE, STUDENTS MUST HAVE SATISFIED THE HONOURS ENTRY REQUIREMENTS ESTABLISHED BY THE SCHOOL OF HISTORY.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1903,13 +1843,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -1959,13 +1896,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2013,13 +1947,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2067,48 +1998,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "EN2003"
-              },
-              {
-                "type": "module",
-                "code": "EN2004"
-              }
-            ]
-          },
-          {
-            "type": "and",
-            "children": [
-              {
-                "type": "module",
-                "code": "ME1003"
-              },
-              {
-                "type": "module",
-                "code": "ME1006"
-              },
-              {
-                "type": "module",
-                "code": "ME2003"
-              },
-              {
-                "type": "module",
-                "code": "HI2001"
-              }
-            ]
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS EN2003 AND PASS EN2004 OR PASS ME1003 AND PASS ME1006 AND PASS ME2003 AND PASS HI2001",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2169,22 +2062,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "ME1003"
-          },
-          {
-            "type": "module",
-            "code": "AN1002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002} OR PASS AT LEAST 60 CREDITS FROM {AN1002, AN2002, AN2003, CL2004}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2206,13 +2087,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2235,13 +2113,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2265,13 +2140,10 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MO3080"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE, STUDENTS MUST HAVE SATISFIED THE HONOURS ENTRY REQUIREMENTS AS DETERMINED BY THE SCHOOL OF HISTORY.",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO3080"
+      "antiRequisitesText": ""
     },
     {
       "id": "ME3810",
@@ -2319,13 +2191,10 @@
       "frequency": "irregular",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "ME3305"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE ME3305"
+      "antiRequisitesText": ""
     },
     {
       "id": "ME4714",
@@ -2522,13 +2391,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME1003"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2628,26 +2494,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "HI4997"
-          },
-          {
-            "type": "module",
-            "code": "HI4998"
-          },
-          {
-            "type": "module",
-            "code": "HI4999"
-          }
-        ]
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE HI4997 OR TAKE HI4998 OR TAKE HI4999"
+      "antiRequisitesText": ""
     },
     {
       "id": "ME5099",
@@ -2720,13 +2570,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME5107"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE ME5107",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2853,13 +2700,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "ME5208"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE ME5208",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -2885,7 +2729,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 60 CREDITS OF ME OR MO MODULES OR 60 CREDITS OF AR MODULES OR 60 CREDITS OF PR MODULES",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3162,13 +3006,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MH5605"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MH5605"
+      "antiRequisitesText": ""
     },
     {
       "id": "MH5413",
@@ -3191,13 +3032,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MH5606"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MH5606"
+      "antiRequisitesText": ""
     },
     {
       "id": "MH5414",
@@ -3220,22 +3058,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MH5604"
-          },
-          {
-            "type": "module",
-            "code": "MH5101"
-          }
-        ]
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MH5604,YOU CANNOT TAKE THIS MODULE IF YOU PASS MH5101 OR TAKE MH5101"
+      "antiRequisitesText": ""
     },
     {
       "id": "MH5415",
@@ -3256,54 +3082,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "or",
-            "children": [
-              {
-                "type": "module",
-                "code": "MH5414"
-              },
-              {
-                "type": "module",
-                "code": "MH5414"
-              }
-            ]
-          },
-          {
-            "type": "or",
-            "children": [
-              {
-                "type": "module",
-                "code": "MH5102"
-              },
-              {
-                "type": "module",
-                "code": "MH5102"
-              }
-            ]
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MH5112"
-          },
-          {
-            "type": "module",
-            "code": "MH5112"
-          }
-        ]
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST ( PASS MH5414 OR TAKE MH5414 ) OR ( PASS MH5102 OR TAKE MH5102 )",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS MH5112 OR TAKE MH5112,YOU CANNOT TAKE THIS MODULE IF YOU TAKE MH5601"
+      "antiRequisitesText": ""
     },
     {
       "id": "MH5416",
@@ -3443,22 +3227,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MH5604"
-          },
-          {
-            "type": "module",
-            "code": "MH5604"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE MH5604 OR PASS MH5604",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3481,36 +3253,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MH5604"
-          },
-          {
-            "type": "module",
-            "code": "MH5604"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MH5411"
-          },
-          {
-            "type": "module",
-            "code": "MH5111"
-          }
-        ]
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE MH5604 OR PASS MH5604",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MH5411 OR TAKE MH5111"
+      "antiRequisitesText": ""
     },
     {
       "id": "MH5604",
@@ -3533,26 +3281,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MH5101"
-          },
-          {
-            "type": "module",
-            "code": "MH5101"
-          },
-          {
-            "type": "module",
-            "code": "MH5414"
-          }
-        ]
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU PASS MH5101 OR TAKE MH5101,YOU CANNOT TAKE THIS MODULE IF YOU PASS MH5414 OR TAKE MH5414"
+      "antiRequisitesText": ""
     },
     {
       "id": "MH5605",
@@ -3573,22 +3305,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MH5604"
-          },
-          {
-            "type": "module",
-            "code": "MH5604"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MH5604 OR TAKE MH5604",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3611,13 +3331,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MH5604"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MH5604",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3743,13 +3460,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3773,13 +3487,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3801,13 +3512,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3829,22 +3537,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MO1007"
-          },
-          {
-            "type": "module",
-            "code": "ME1003"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002} OR PASS AT LEAST 60 CREDITS FROM {ME1003, ME1006, ME2003, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3866,13 +3562,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -3894,13 +3587,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4001,7 +3691,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE, STUDENTS MUST HAVE SATISFIED THE HONOURS ENTRY REQUIREMENTS AS DETERMINED BY THE SCHOOL OF HISTORY.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4089,13 +3779,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MH2002"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MH2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4146,13 +3833,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4202,13 +3886,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4231,34 +3912,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "and",
-        "children": [
-          {
-            "type": "module",
-            "code": "MO1007"
-          },
-          {
-            "type": "module",
-            "code": "MO1008"
-          },
-          {
-            "type": "module",
-            "code": "MO2008"
-          },
-          {
-            "type": "module",
-            "code": "HI2001"
-          },
-          {
-            "type": "module",
-            "code": "MH2002"
-          }
-        ]
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MO1007 AND PASS MO1008 AND PASS MO2008 AND PASS HI2001 AND PASS MH2002",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4280,13 +3937,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4313,7 +3967,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE, STUDENTS MUST HAVE SATISFIED THE HONOURS ENTRY REQUIREMENTS ESTABLISHED BY THE SCHOOL OF HISTORY.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4335,13 +3989,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4389,13 +4040,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4417,13 +4065,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4446,13 +4091,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4475,13 +4117,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4503,13 +4142,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4556,13 +4192,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4584,13 +4217,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4612,13 +4242,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4640,13 +4267,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4669,13 +4293,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4697,13 +4318,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4729,7 +4347,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE STUDENTS SHOULD HAVE SATISFIED THE ENTRY REQUIREMENTS FOR HONOURS HISTORY OR MODERN HISTORY",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4752,13 +4370,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4780,13 +4395,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4933,13 +4545,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -4964,7 +4573,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE, STUDENTS MUST HAVE SATISFIED THE HONOURS ENTRY REQUIREMENTS ESTABLISHED BY THE SCHOOL OF HISTORY.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5014,7 +4623,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE STUDENTS SHOULD HAVE SATISFIED THE ENTRY REQUIREMENTS FOR HONOURS HISTORY OR MODERN HISTORY",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5037,13 +4646,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5065,13 +4671,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5093,18 +4696,12 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MO3332"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO3332"
+      "antiRequisitesText": ""
     },
     {
       "id": "MO3427",
@@ -5127,7 +4724,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE, STUDENTS MUST HAVE SATISFIED THE HONOURS ENTRY REQUIREMENTS AS DETERMINED BY THE SCHOOL OF HISTORY.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5150,13 +4747,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5179,13 +4773,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5208,13 +4799,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5238,18 +4826,12 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MO3421"
-      },
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS AT LEAST 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "antiRequisiteExpression": null,
+      "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO3421"
+      "antiRequisitesText": ""
     },
     {
       "id": "MO3525",
@@ -5269,13 +4851,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO1007"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS 60 CREDITS FROM {MO1007, MO1008, MO2008, HI2001, MH2002}",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5327,7 +4906,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "STANDARD PRE-REQUISITES FOR HONOURS STUDY WITHIN THE SCHOOL OF HISTORY APPLY.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5402,13 +4981,10 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MO3365"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO3365"
+      "antiRequisitesText": ""
     },
     {
       "id": "MO4809",
@@ -5456,7 +5032,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "AVAILABLE ONLY TO HISTORY OR MODERN HISTORY STUDENTS (SINGLE OR JOINT HONOURS) IN THEIR SECOND YEAR OF THE HONOURS PROGRAMME.",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -5656,13 +5232,10 @@
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MO3513"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO3513"
+      "antiRequisitesText": ""
     },
     {
       "id": "MO4959",
@@ -5941,7 +5514,7 @@
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "STUDENTS MUST HAVE SATISFIED REQUIREMENTS FOR ENTRY TO HONOURS",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -6069,13 +5642,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MO5012"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO5012"
+      "antiRequisitesText": ""
     },
     {
       "id": "MO5022",
@@ -6098,13 +5668,10 @@
       "frequency": "every-year",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MO5012"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO5012"
+      "antiRequisitesText": ""
     },
     {
       "id": "MO5024",
@@ -6127,22 +5694,10 @@
       "frequency": "irregular",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MO3338"
-          },
-          {
-            "type": "module",
-            "code": "MO5224"
-          }
-        ]
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO3338 OR TAKE MO5224"
+      "antiRequisitesText": ""
     },
     {
       "id": "MO5031",
@@ -6164,13 +5719,10 @@
       "frequency": "irregular",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "module",
-        "code": "MO5012"
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO5012"
+      "antiRequisitesText": ""
     },
     {
       "id": "MO5036",
@@ -6348,13 +5900,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO5053"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE MO5053",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -6561,22 +6110,10 @@
       "frequency": "irregular",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
-      "antiRequisiteExpression": {
-        "type": "or",
-        "children": [
-          {
-            "type": "module",
-            "code": "MO3338"
-          },
-          {
-            "type": "module",
-            "code": "MO5024"
-          }
-        ]
-      },
+      "antiRequisiteExpression": null,
       "prerequisitesText": "",
       "coRequisitesText": "",
-      "antiRequisitesText": "YOU CANNOT TAKE THIS MODULE IF YOU TAKE MO3338 OR TAKE MO5024"
+      "antiRequisitesText": ""
     },
     {
       "id": "MO5308",
@@ -6932,13 +6469,10 @@
         "2027-28": false
       },
       "frequency": "irregular",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MO5810"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS MO5810",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -7300,13 +6834,10 @@
         "2027-28": false
       },
       "frequency": "every-year",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "MS5127"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST TAKE MS5127",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     },
@@ -7529,13 +7060,10 @@
         "2027-28": false
       },
       "frequency": "alternate-b",
-      "prerequisiteExpression": {
-        "type": "module",
-        "code": "SC5301"
-      },
+      "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
-      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS SC5301",
+      "prerequisitesText": "",
       "coRequisitesText": "",
       "antiRequisitesText": ""
     }
