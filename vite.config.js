@@ -1,10 +1,14 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path';
 
 export default defineConfig({
   server: {
     port: 5174,
     proxy: {
-      '/api': 'http://localhost:5175',
+      '/api': {
+        target: 'http://localhost:5175',
+        changeOrigin: true,
+      },
     },
   },
   preview: {
@@ -13,5 +17,14 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        login: resolve(__dirname, 'login.html'),
+        signup: resolve(__dirname, 'signup.html'),
+        forgot: resolve(__dirname, 'forgot-password.html'),
+        reset: resolve(__dirname, 'reset-password.html'),
+      },
+    },
   },
 });

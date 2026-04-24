@@ -10,12 +10,29 @@
     "build": "vite build",
     "audit:requirements": "node scripts/audit-sta-requirements.mjs",
     "preview": "vite preview --port 5174",
-    "start:server": "node server/index.js"
+    "start:server": "node server/index.js",
+    "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
+    "db:studio": "prisma studio",
+    "db:generate": "prisma generate",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "bcrypt": "^6.0.0",
     "better-sqlite3": "^11.8.1",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.4.0",
+    "jsonwebtoken": "^9.0.3",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-microsoft": "^2.1.0",
+    "prisma": "^6.19.3",
+    "resend": "^6.12.2"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",

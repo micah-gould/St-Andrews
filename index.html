@@ -84,12 +84,14 @@
         <button id="save-settings" type="submit">Save / Update</button>
       </form>
       <div class="saved-settings-controls">
-        <select id="saved-settings-list" aria-label="Saved settings list">
-          <option value="">No saved settings yet</option>
+        <select id="saved-settings-list" aria-label="Saved plans list">
+          <option value="">No saved plans yet</option>
         </select>
         <button id="load-settings" type="button">Load</button>
+        <button id="share-settings" type="button" style="display:none">Share</button>
         <button id="delete-settings" type="button" class="clear-btn">Delete</button>
       </div>
+      <div id="view-only-badge" class="view-only-badge" style="display:none" role="status"></div>
       <div id="settings-feedback" aria-live="polite"></div>
     </section>
 
@@ -105,6 +107,7 @@
 
   <link rel="stylesheet" href="./src/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script type="module" src="./src/authGuard.js"></script>
   <script type="module" src="./src/main.js"></script>
 </body>
 </html>

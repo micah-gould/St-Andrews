@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create account · Modules</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/auth/auth.css">
+</head>
+<body>
+  <main class="auth-shell">
+    <section class="auth-card">
+      <div class="auth-brand">
+        <h1>Modules</h1>
+        <p>St Andrews course planner</p>
+      </div>
+
+      <h2>Create your account</h2>
+      <p class="subtitle">Plan your modules in seconds</p>
+
+      <form id="signup-form" class="auth-form" novalidate>
+        <div class="field">
+          <label for="name">Name <span style="text-transform:none;color:var(--text-dim);font-size:0.75rem">(optional)</span></label>
+          <input id="name" name="name" type="text" autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <div class="password-field" data-password-toggle>
+            <input id="password" name="password" type="password" autocomplete="new-password" required minlength="8">
+            <button type="button" class="password-toggle" aria-label="Show password"></button>
+          </div>
+        </div>
+
+        <div class="row">
+          <label>
+            <input id="remember" name="remember" type="checkbox" checked>
+            Remember me
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="submit-btn">Create account</button>
+
+        <div id="message" class="message hidden"></div>
+      </form>
+
+      <div class="divider">or</div>
+
+      <div id="oauth-buttons" class="oauth-buttons"></div>
+
+      <p class="alt-link">
+        Already have an account? <a href="/login.html">Sign in</a>
+      </p>
+    </section>
+  </main>
+
+  <script type="module" src="./src/auth/showPassword.js"></script>
+  <script type="module" src="./src/auth/signup.js"></script>
+</body>
+</html>

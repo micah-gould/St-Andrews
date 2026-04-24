@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in · Modules</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/auth/auth.css">
+</head>
+<body>
+  <main class="auth-shell">
+    <section class="auth-card">
+      <div class="auth-brand">
+        <h1>Modules</h1>
+        <p>St Andrews course planner</p>
+      </div>
+
+      <h2>Welcome back</h2>
+      <p class="subtitle">Sign in to continue</p>
+
+      <form id="login-form" class="auth-form" novalidate>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <div class="password-field" data-password-toggle>
+            <input id="password" name="password" type="password" autocomplete="current-password" required>
+            <button type="button" class="password-toggle" aria-label="Show password"></button>
+          </div>
+        </div>
+
+        <div class="row">
+          <label>
+            <input id="remember" name="remember" type="checkbox">
+            Remember me
+          </label>
+          <a href="/forgot-password.html">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="submit-btn">Sign in</button>
+
+        <div id="message" class="message hidden"></div>
+      </form>
+
+      <div class="divider">or</div>
+
+      <div id="oauth-buttons" class="oauth-buttons"></div>
+
+      <p class="alt-link">
+        Don't have an account? <a href="/signup.html">Create one</a>
+      </p>
+    </section>
+  </main>
+
+  <script type="module" src="./src/auth/showPassword.js"></script>
+  <script type="module" src="./src/auth/login.js"></script>
+</body>
+</html>

@@ -1,13 +1,16 @@
 import { listCatalogs, loadGraphData } from './dataLoader.js';
 import { createGraphState } from './graph.js';
 import { createRenderer } from './render.js';
-import { getSetting, listSettings, saveSettings, updateSettings, deleteSettings } from './settingsApi.js';
+import { savedStatesApi, emptySavedState, getSliceFor } from './savedStatesApi.js';
+import { openShareDialog } from './shareDialog.js';
+import { showRequestAccessOverlay } from './requestAccess.js';
 import { createUiState } from './state.js';
 import { createTooltip } from './tooltip.js';
 import { COLORS } from './constants.js';
 
 const THEME_KEY = 'moduleGraphTheme';
-const SESSION_ID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+// Accepts cuid (current) or legacy UUIDv4 for backward-compatible share links.
+const SESSION_ID_PATTERN = /^(?:c[a-z0-9]{20,30}|[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12})$/i;
 
 const appState = {
   catalogs: [],
@@ -85,20 +88,81 @@ function clearLoadedSetting() {
     const typedName = nameInput?.value.trim() || '';
     saveButton.textContent = typedName ? 'Save' : 'Save';
   }
+  updateReadOnlyUi();
+}
+
+function isReadOnly() {
+  const s = appState.loadedSetting;
+  return Boolean(s && s.role === 'view');
+}
+
+function updateReadOnlyUi() {
+  const setting = appState.loadedSetting;
+  const readOnly = isReadOnly();
+  const saveBtn = document.getElementById('save-settings');
+  const deleteBtn = document.getElementById('delete-settings');
+  const shareBtn = document.getElementById('share-settings');
+  const badge = document.getElementById('view-only-badge');
+
+  if (saveBtn) {
+    // Save stays enabled — view-only users get a "Clone" action that creates
+    // their own copy (same name, new id).
+    saveBtn.disabled = false;
+    saveBtn.title = readOnly ? 'Clone this plan to your account (new copy, same name).' : '';
+  }
+  if (deleteBtn) {
+    const canDelete = Boolean(setting && (setting.role === 'owner' || setting.role === 'admin'));
+    deleteBtn.disabled = !canDelete && Boolean(setting);
+  }
+  if (shareBtn) {
+    const canShare = Boolean(setting && (setting.role === 'owner' || setting.role === 'admin'));
+    shareBtn.style.display = setting ? '' : 'none';
+    shareBtn.disabled = !canShare;
+    shareBtn.title = canShare ? '' : 'Only the owner or an admin can manage sharing.';
+  }
+  if (badge) {
+    if (setting && readOnly) {
+      const who = setting.owner?.email || 'the owner';
+      badge.textContent = `View only — shared by ${who}`;
+      badge.style.display = '';
+    } else {
+      badge.style.display = 'none';
+    }
+  }
+
+  // Reflect read-only in the app root so CSS can dim interactive nodes.
+  document.body.classList.toggle('is-readonly', readOnly);
+}
+
+function firstCatalogInSaved(setting) {
+  return setting?.state?.catalogs ? Object.keys(setting.state.catalogs)[0] || null : null;
+}
+
+function firstYearInSaved(setting, catalogId) {
+  const years = setting?.state?.catalogs?.[catalogId];
+  return years ? Object.keys(years)[0] || null : null;
 }
 
 function getSettingCatalogId(setting) {
-  return setting?.state?.catalogId || setting?.catalogId || appState.catalogs[0]?.id || null;
+  // Prefer a catalog this setting actually has data for; fall back to current view.
+  return firstCatalogInSaved(setting) || appState.currentCatalogId || appState.catalogs[0]?.id || null;
 }
 
-function getRestoredSettingState(setting) {
+function getRestoredSettingState(setting, { catalogId, year } = {}) {
   if (!setting) return null;
-  return {
-    ...setting.state,
-    catalogId: getSettingCatalogId(setting),
-    year: setting.state?.year || null,
-    passed: setting.state?.passed || [],
-  };
+  const chosenCatalog = catalogId
+    || (setting.state?.catalogs?.[appState.currentCatalogId] ? appState.currentCatalogId : null)
+    || firstCatalogInSaved(setting)
+    || appState.currentCatalogId
+    || appState.catalogs[0]?.id
+    || null;
+  const chosenYear = year
+    || (setting.state?.catalogs?.[chosenCatalog]?.[appState.currentYear] ? appState.currentYear : null)
+    || firstYearInSaved(setting, chosenCatalog)
+    || appState.currentYear
+    || null;
+  const slice = getSliceFor(setting.state || emptySavedState(), chosenCatalog, chosenYear);
+  return { ...slice, catalogId: chosenCatalog, year: chosenYear };
 }
 
 function getCatalogName(catalogId) {
@@ -239,14 +303,20 @@ async function bootstrap() {
     const { subject, year, sessionId } = parseUrl();
     if (sessionId) {
       try {
-        const setting = await getSetting(sessionId);
+        const setting = await savedStatesApi.get(sessionId);
         const restoredState = getRestoredSettingState(setting);
         appState.loadedSetting = setting;
         appState.sharedSettingId = String(setting.id);
         hideSubjectSelection();
         await renderCatalog(restoredState.catalogId, restoredState);
         document.getElementById('settings-name').placeholder = setting.name;
+        updateReadOnlyUi();
       } catch (error) {
+        if (error.status === 403 || error.code === 'FORBIDDEN') {
+          // Show "request access" overlay; bail out of normal bootstrap.
+          await showRequestAccessOverlay(sessionId, { savedStatesApi });
+          return;
+        }
         appState.sharedSettingId = null;
         showFeedback(`Shared session unavailable: ${error.message}`, true);
         if (subject) {
@@ -752,7 +822,8 @@ function wireCommonControls(uiState, graphState, renderer, tooltip, linkSel, lab
 
   levelInputs.forEach((input) => {
     input.onchange = () => {
-      clearSharedSettingId();
+      // Level visibility is a view-only control; don't clear the shared/loaded
+      // URL id, and don't mark the loaded plan as dirty.
       if (input.checked) {
         appState.hiddenLevels.delete(input.value);
       } else {
@@ -841,12 +912,39 @@ function wireSettingsControls() {
     const loadedSetting = getLoadedSetting();
     const typedName = nameInput.value.trim();
     const effectiveName = typedName || loadedSetting?.name || '';
-    const isUpdate = Boolean(loadedSetting && effectiveName === loadedSetting.name);
-    saveButton.textContent = isUpdate ? 'Update' : 'Save';
+    const sameName = Boolean(loadedSetting && effectiveName === loadedSetting.name);
+    const viewOnly = Boolean(loadedSetting && loadedSetting.role === 'view');
+    if (viewOnly && sameName) saveButton.textContent = 'Clone';
+    else if (sameName) saveButton.textContent = 'Update';
+    else saveButton.textContent = 'Save';
+  };
+
+  // Fetches full state on demand; list entries omit the blob.
+  const hydrateSetting = async (setting) => {
+    if (!setting) return null;
+    if (setting.state) return setting;
+    try {
+      const full = await savedStatesApi.get(setting.id);
+      Object.assign(setting, full); // mutate cached entry
+      return setting;
+    } catch (err) {
+      showFeedback(`Could not load plan: ${err.message}`, true);
+      return null;
+    }
+  };
+
+  const sliceCounts = (setting, restoredState) => {
+    const slice = setting?.state?.catalogs?.[restoredState?.catalogId]?.[restoredState?.year];
+    return {
+      selected: slice?.selected?.length || 0,
+      excluded: slice?.excluded?.length || 0,
+    };
   };
 
   const switchToSettingPreview = async (setting, switchCatalog = false, switchYear = false) => {
-    const { restoredState } = canPreviewSetting(setting);
+    const hydrated = await hydrateSetting(setting);
+    if (!hydrated) return;
+    const { restoredState } = canPreviewSetting(hydrated);
     if (!restoredState) return;
 
     const nextCatalogId = switchCatalog ? restoredState.catalogId : appState.currentCatalogId;
@@ -857,33 +955,36 @@ function wireSettingsControls() {
     };
 
     await renderCatalog(nextCatalogId, nextState);
-    settingsList.value = String(setting.id);
-    const refreshedSetting = appState.settingsCache.find((candidate) => candidate.id === setting.id) || setting;
-    const previewStatus = canPreviewSetting(refreshedSetting);
+    settingsList.value = String(hydrated.id);
+    const previewStatus = canPreviewSetting(hydrated);
     if (previewStatus.needsCatalogSwitch || previewStatus.needsYearSwitch) {
-      showPreview(refreshedSetting);
+      showPreview(hydrated);
       return;
     }
 
     appState.graphRuntime?.setPreviewState(previewStatus.restoredState);
-    showFeedback(`Preview: ${refreshedSetting.name} - ${getCatalogName(previewStatus.restoredState.catalogId)} (${refreshedSetting.selectedCount} selected, ${refreshedSetting.excludedCount} excluded)`);
+    const { selected, excluded } = sliceCounts(hydrated, previewStatus.restoredState);
+    showFeedback(`Preview: ${hydrated.name} - ${getCatalogName(previewStatus.restoredState.catalogId)} (${selected} selected, ${excluded} excluded)`);
   };
 
   // Function to show preview of selected setting
-  const showPreview = (setting) => {
+  const showPreview = async (setting) => {
     if (!setting) {
       clearPreview();
       showFeedback('');
       return;
     }
 
-    const { restoredState, needsCatalogSwitch, needsYearSwitch } = canPreviewSetting(setting);
+    const hydrated = await hydrateSetting(setting);
+    if (!hydrated) return;
+
+    const { restoredState, needsCatalogSwitch, needsYearSwitch } = canPreviewSetting(hydrated);
     if (needsCatalogSwitch) {
       clearPreview();
       showFeedback(`Preview unavailable, please switch to ${getCatalogName(restoredState.catalogId)}.`, false, [
         {
           label: 'Switch',
-          onClick: async () => switchToSettingPreview(setting, true, true),
+          onClick: async () => switchToSettingPreview(hydrated, true, true),
         },
       ]);
       return;
@@ -894,14 +995,15 @@ function wireSettingsControls() {
       showFeedback(`Preview unavailable, please switch to ${restoredState.year}.`, false, [
         {
           label: 'Switch',
-          onClick: async () => switchToSettingPreview(setting, false, true),
+          onClick: async () => switchToSettingPreview(hydrated, false, true),
         },
       ]);
       return;
     }
 
     appState.graphRuntime?.setPreviewState(restoredState);
-    showFeedback(`Preview: ${setting.name} - ${getCatalogName(restoredState.catalogId)} (${setting.selectedCount} selected, ${setting.excludedCount} excluded)`);
+    const { selected, excluded } = sliceCounts(hydrated, restoredState);
+    showFeedback(`Preview: ${hydrated.name} - ${getCatalogName(restoredState.catalogId)} (${selected} selected, ${excluded} excluded)`);
   };
 
   // Dropdown change handler
@@ -937,16 +1039,62 @@ function wireSettingsControls() {
       return;
     }
 
+    // View-only loaded plan: submit means "clone" — create a fresh plan owned
+    // by the current user, preserving the name. The new plan gets its own id
+    // and URL; the original is untouched.
+    const isCloneFromView = Boolean(loadedSetting && loadedSetting.role === 'view' && name === loadedSetting.name);
+
     try {
-      const state = appState.graphRuntime.snapshot();
+      const snap = appState.graphRuntime.snapshot();
       let saved;
       let action = 'Saved';
 
-      if (loadedSetting && name === loadedSetting.name) {
-        saved = await updateSettings(loadedSetting.id, { name, state });
+      if (isCloneFromView) {
+        const seed = {
+          version: 2,
+          catalogs: {
+            [snap.catalogId]: {
+              [snap.year]: {
+                selected: snap.selected,
+                passed: snap.passed,
+                excluded: snap.excluded,
+                hiddenLevels: snap.hiddenLevels,
+              },
+            },
+          },
+        };
+        saved = await savedStatesApi.create({ name, state: seed });
+        action = 'Cloned';
+      } else if (loadedSetting && name === loadedSetting.name && loadedSetting.role !== 'view') {
+        // Merge the current catalog/year slice into the existing saved state.
+        saved = await savedStatesApi.updateSlice(loadedSetting.id, {
+          name,
+          slice: {
+            catalogId: snap.catalogId,
+            year: snap.year,
+            selected: snap.selected,
+            passed: snap.passed,
+            excluded: snap.excluded,
+            hiddenLevels: snap.hiddenLevels,
+          },
+        });
         action = 'Updated';
       } else {
-        saved = await saveSettings({ name, state });
+        // Create a fresh state seeded with the current view.
+        const seed = {
+          version: 2,
+          catalogs: {
+            [snap.catalogId]: {
+              [snap.year]: {
+                selected: snap.selected,
+                passed: snap.passed,
+                excluded: snap.excluded,
+                hiddenLevels: snap.hiddenLevels,
+              },
+            },
+          },
+        };
+        saved = await savedStatesApi.create({ name, state: seed });
       }
 
       await refreshSettings(String(saved.id));
@@ -956,6 +1104,7 @@ function wireSettingsControls() {
       setSharedSettingId(saved.id);
       updateSaveButtonLabel();
       resetDropdown();
+      updateReadOnlyUi();
       showFeedback(`${action} "${saved.name}".`);
     } catch (error) {
       showFeedback(error.message, true);
@@ -970,15 +1119,18 @@ function wireSettingsControls() {
     }
 
     try {
-      const restoredState = getRestoredSettingState(current);
+      // Fetch the full state body; list entries omit it.
+      const full = await savedStatesApi.get(current.id);
+      const restoredState = getRestoredSettingState(full);
       await renderCatalog(restoredState.catalogId, restoredState);
-      appState.loadedSetting = current;
-      setSharedSettingId(current.id);
-      nameInput.placeholder = current.name;
+      appState.loadedSetting = full;
+      setSharedSettingId(full.id);
+      nameInput.placeholder = full.name;
       nameInput.value = '';
       updateSaveButtonLabel();
       resetDropdown();
-      showFeedback(`Loaded "${current.name}".`);
+      updateReadOnlyUi();
+      showFeedback(`Loaded "${full.name}".`);
     } catch (error) {
       showFeedback(error.message, true);
     }
@@ -991,9 +1143,13 @@ function wireSettingsControls() {
       showFeedback('Choose a saved setting to delete.', true);
       return;
     }
+    if (current.role !== 'owner' && current.role !== 'admin') {
+      showFeedback('Only the owner or an admin can delete this plan.', true);
+      return;
+    }
 
     try {
-      await deleteSettings(current.id);
+      await savedStatesApi.remove(current.id);
       await refreshSettings();
       appState.graphRuntime?.setPreviewState(null);
       if (appState.sharedSettingId === String(current.id)) {
@@ -1002,24 +1158,64 @@ function wireSettingsControls() {
       if (loadedSetting && loadedSetting.id === current.id) {
         resetLoadedSetting();
       }
+      updateReadOnlyUi();
       showFeedback(`Deleted "${current.name}".`);
     } catch (error) {
       showFeedback(error.message, true);
     }
   };
 
+  // Share button (only meaningful when a saved state is loaded).
+  const shareButton = document.getElementById('share-settings');
+  if (shareButton) {
+    shareButton.onclick = async () => {
+      const loaded = getLoadedSetting();
+      if (!loaded) {
+        showFeedback('Save or load a plan before sharing it.', true);
+        return;
+      }
+      if (loaded.role !== 'owner' && loaded.role !== 'admin') {
+        showFeedback('Only the owner or an admin can manage sharing.', true);
+        return;
+      }
+      try {
+        await openShareDialog({
+          savedStatesApi,
+          state: loaded,
+          currentUser: window.__currentUser,
+          onChange: async () => {
+            const refreshed = await savedStatesApi.get(loaded.id).catch(() => null);
+            if (refreshed) {
+              appState.loadedSetting = refreshed;
+              updateReadOnlyUi();
+            }
+            await refreshSettings(String(loaded.id)).catch(() => {});
+          },
+        });
+      } catch (error) {
+        showFeedback(error.message, true);
+      }
+    };
+  }
+
   updateSaveButtonLabel();
+  updateReadOnlyUi();
 }
 
 async function refreshSettings(selectedId = '') {
-  appState.settingsCache = await listSettings();
+  try {
+    appState.settingsCache = await savedStatesApi.list();
+  } catch (err) {
+    appState.settingsCache = [];
+    throw err;
+  }
   const select = document.getElementById('saved-settings-list');
   select.innerHTML = '';
 
   if (!appState.settingsCache.length) {
     const option = document.createElement('option');
     option.value = '';
-    option.textContent = 'No saved settings yet';
+    option.textContent = 'No saved plans yet';
     select.append(option);
     return;
   }
@@ -1033,8 +1229,10 @@ async function refreshSettings(selectedId = '') {
   appState.settingsCache.forEach((setting) => {
     const option = document.createElement('option');
     option.value = String(setting.id);
-    const yearLabel = setting.state?.year || 'No year';
-    option.textContent = `${setting.name} [${setting.catalogName}, ${yearLabel}] (${setting.selectedCount} selected, ${setting.excludedCount} excluded)`;
+    const counts = setting.counts || { selected: 0, excluded: 0, catalogs: 0 };
+    const who = setting.isOwner ? 'you' : (setting.owner?.email || 'shared');
+    const roleTag = setting.role && setting.role !== 'owner' ? ` · ${setting.role}` : '';
+    option.textContent = `${setting.name} — ${counts.catalogs} subject${counts.catalogs === 1 ? '' : 's'}, ${counts.selected} selected (${who}${roleTag})`;
     select.append(option);
   });
 

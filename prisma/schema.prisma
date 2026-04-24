@@ -1,0 +1,126 @@
+// Prisma schema for the auth system
+// Uses SQLite locally for free dev; switch DATABASE_URL to Postgres for prod (Neon, Supabase, etc.)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  emailVerified DateTime?
+  name          String?
+  passwordHash  String?  // null if user only uses OAuth
+  avatarUrl     String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  accounts            OAuthAccount[]
+  passwordResetTokens PasswordResetToken[]
+  ownedStates         SavedState[]         @relation("OwnedStates")
+  shares              SavedStateShare[]
+  accessRequests      AccessRequest[]
+}
+
+// Linked external OAuth identities (Google, Microsoft, ...)
+model OAuthAccount {
+  id                String   @id @default(cuid())
+  userId            String
+  provider          String   // "google" | "microsoft"
+  providerAccountId String
+  accessToken       String?
+  refreshToken      String?
+  expiresAt         DateTime?
+  createdAt         DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model PasswordResetToken {
+  id        String   @id @default(cuid())
+  userId    String
+  tokenHash String   @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+// ─── Shared saved states ──────────────────────────────────────
+// A saved state now spans all catalogs and years. The `state` JSON
+// blob has the shape:
+//   {
+//     version: 2,
+//     catalogs: {
+//       [catalogId]: {
+//         [year]: {
+//           selected: [],
+//           passed: [],
+//           excluded: [],
+//           hiddenLevels: []
+//         }
+//       }
+//     }
+//   }
+model SavedState {
+  id        String   @id @default(cuid())
+  name      String
+  ownerId   String
+  stateJson String   // JSON blob — see shape above
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  owner    User               @relation("OwnedStates", fields: [ownerId], references: [id], onDelete: Cascade)
+  shares   SavedStateShare[]
+  requests AccessRequest[]
+
+  @@index([ownerId])
+}
+
+// Roles other than "owner" — owner is implicit via SavedState.ownerId.
+// role ∈ {"view", "edit", "admin"}
+model SavedStateShare {
+  id        String   @id @default(cuid())
+  stateId   String
+  userId    String
+  role      String   // view | edit | admin
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  state SavedState @relation(fields: [stateId], references: [id], onDelete: Cascade)
+  user  User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([stateId, userId])
+  @@index([userId])
+}
+
+// A pending request by `user` for access to `state`.
+// status ∈ {"pending", "approved", "denied"}
+// requestedRole ∈ {"view", "edit", "admin"}
+model AccessRequest {
+  id            String   @id @default(cuid())
+  stateId       String
+  userId        String
+  requestedRole String   @default("view")
+  message       String?
+  status        String   @default("pending")
+  createdAt     DateTime @default(now())
+  resolvedAt    DateTime?
+
+  state SavedState @relation(fields: [stateId], references: [id], onDelete: Cascade)
+  user  User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([stateId, userId, status])
+  @@index([stateId, status])
+}
