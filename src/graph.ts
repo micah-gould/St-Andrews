@@ -1,8 +1,19 @@
-import type { GraphEdge, GraphNode, PrereqRule, RelationshipExpression } from './types/graph.types';
-import type { GraphState } from './types/runtime.types';
+import type {
+  GraphEdge,
+  GraphNode,
+  PrereqRule,
+  RelationshipExpression,
+} from "./types/graph.types";
+import type { GraphState } from "./types/runtime.types";
 
-export function createGraphState(nodes: GraphNode[], edges: GraphEdge[], prereqRules: Record<string, PrereqRule[]>): GraphState {
-  const nodeMap: Record<string, GraphNode> = Object.fromEntries(nodes.map((node) => [node.id, node]));
+export function createGraphState(
+  nodes: GraphNode[],
+  edges: GraphEdge[],
+  prereqRules: Record<string, PrereqRule[]>,
+): GraphState {
+  const nodeMap: Record<string, GraphNode> = Object.fromEntries(
+    nodes.map((node) => [node.id, node]),
+  );
   const prereqsFor: Record<string, Set<string>> = {};
   const prereqOf: Record<string, Set<string>> = {};
   const coreqsFor: Record<string, Set<string>> = {};
@@ -22,24 +33,32 @@ export function createGraphState(nodes: GraphNode[], edges: GraphEdge[], prereqR
   });
 
   edges.forEach((edge) => {
-    const source = typeof edge.source === 'object' ? edge.source.id : edge.source;
-    const target = typeof edge.target === 'object' ? edge.target.id : edge.target;
+    const source =
+      typeof edge.source === "object" ? edge.source.id : edge.source;
+    const target =
+      typeof edge.target === "object" ? edge.target.id : edge.target;
 
-    if (edge.etype === 'prereq') {
+    if (edge.etype === "prereq") {
       prereqsFor[target]?.add(source);
       prereqOf[source]?.add(target);
-      prereqEdgeKinds.set(`${source}->${target}`, edge.requirementKind || 'required');
+      prereqEdgeKinds.set(
+        `${source}->${target}`,
+        edge.requirementKind || "required",
+      );
       return;
     }
 
-    if (edge.etype === 'coreq') {
+    if (edge.etype === "coreq") {
       coreqsFor[target]?.add(source);
       coreqOf[source]?.add(target);
-      coreqEdgeKinds.set(`${source}->${target}`, edge.requirementKind || 'required');
+      coreqEdgeKinds.set(
+        `${source}->${target}`,
+        edge.requirementKind || "required",
+      );
       return;
     }
 
-    if (edge.etype === 'anti') {
+    if (edge.etype === "anti") {
       antiFor[target]?.add(source);
       antiOf[source]?.add(target);
     }
@@ -47,7 +66,10 @@ export function createGraphState(nodes: GraphNode[], edges: GraphEdge[], prereqR
 
   const topo = topoSort(nodes, edges, prereqOf);
 
-  function computeEffectivelyExcluded(manualExcluded: Set<string>, levelExcluded = new Set<string>()) {
+  function computeEffectivelyExcluded(
+    manualExcluded: Set<string>,
+    levelExcluded = new Set<string>(),
+  ) {
     const eff = new Set([...manualExcluded, ...levelExcluded]);
     let changed = true;
 
@@ -108,13 +130,17 @@ export function createGraphState(nodes: GraphNode[], edges: GraphEdge[], prereqR
 
   function getAncestorsOfSet(ids: string[]) {
     const all = new Set<string>();
-    ids.forEach((id) => getAllAncestors(id).forEach((ancestor) => all.add(ancestor)));
+    ids.forEach((id) =>
+      getAllAncestors(id).forEach((ancestor) => all.add(ancestor)),
+    );
     return all;
   }
 
   function getDescendantsOfSet(ids: string[]) {
     const all = new Set<string>();
-    ids.forEach((id) => getAllDescendants(id).forEach((descendant) => all.add(descendant)));
+    ids.forEach((id) =>
+      getAllDescendants(id).forEach((descendant) => all.add(descendant)),
+    );
     return all;
   }
 
@@ -141,7 +167,9 @@ export function createGraphState(nodes: GraphNode[], edges: GraphEdge[], prereqR
   function getForwardPathNodes(id: string) {
     const nodesInPath = new Set<string>();
     getForwardPathStarts(id).forEach((startId) => {
-      getAllDescendants(startId).forEach((descendant) => nodesInPath.add(descendant));
+      getAllDescendants(startId).forEach((descendant) =>
+        nodesInPath.add(descendant),
+      );
     });
     nodesInPath.delete(id);
     return nodesInPath;
@@ -196,34 +224,50 @@ export function createGraphState(nodes: GraphNode[], edges: GraphEdge[], prereqR
   }
 
   function getEdgeRequirementKind(source: string, target: string) {
-    return prereqEdgeKinds.get(`${source}->${target}`) || 'required';
+    return prereqEdgeKinds.get(`${source}->${target}`) || "required";
   }
 
   function getCoreqRequirementKind(source: string, target: string) {
-    return coreqEdgeKinds.get(`${source}->${target}`) || 'required';
+    return coreqEdgeKinds.get(`${source}->${target}`) || "required";
   }
 
-  function areRulesBlocked(rules: PrereqRule[] | undefined, excluded: Set<string>) {
+  function areRulesBlocked(
+    rules: PrereqRule[] | undefined,
+    excluded: Set<string>,
+  ) {
     if (!rules) return false;
 
     return rules.some((rule) => {
-      if (rule.type === 'all') {
+      if (rule.type === "all") {
         return rule.sources.some((source) => excluded.has(source));
       }
 
-      if (rule.type === 'one') {
-        return rule.sources.length > 0 && rule.sources.every((source) => excluded.has(source));
+      if (rule.type === "one") {
+        return (
+          rule.sources.length > 0 &&
+          rule.sources.every((source) => excluded.has(source))
+        );
       }
 
       return false;
     });
   }
 
-  function isExpressionBlocked(expression: RelationshipExpression | null | undefined, excluded: Set<string>) {
+  function isExpressionBlocked(
+    expression: RelationshipExpression | null | undefined,
+    excluded: Set<string>,
+  ) {
     if (!expression) return false;
-    if (expression.type === 'module') return expression.code ? excluded.has(expression.code) : false;
-    if (expression.type === 'and') return (expression.children || []).some((child) => isExpressionBlocked(child, excluded));
-    if (expression.type === 'or') return (expression.children || []).every((child) => isExpressionBlocked(child, excluded));
+    if (expression.type === "module")
+      return expression.code ? excluded.has(expression.code) : false;
+    if (expression.type === "and")
+      return (expression.children || []).some((child) =>
+        isExpressionBlocked(child, excluded),
+      );
+    if (expression.type === "or")
+      return (expression.children || []).every((child) =>
+        isExpressionBlocked(child, excluded),
+      );
     return false;
   }
 
@@ -246,15 +290,20 @@ export function createGraphState(nodes: GraphNode[], edges: GraphEdge[], prereqR
   };
 }
 
-function topoSort(nodes: GraphNode[], edges: GraphEdge[], prereqOf: Record<string, Set<string>>) {
+function topoSort(
+  nodes: GraphNode[],
+  edges: GraphEdge[],
+  prereqOf: Record<string, Set<string>>,
+) {
   const indegree: Record<string, number> = {};
   nodes.forEach((node) => {
     indegree[node.id] = 0;
   });
 
   edges.forEach((edge) => {
-    if (edge.etype === 'prereq') {
-      const target = typeof edge.target === 'object' ? edge.target.id : edge.target;
+    if (edge.etype === "prereq") {
+      const target =
+        typeof edge.target === "object" ? edge.target.id : edge.target;
       indegree[target] = (indegree[target] || 0) + 1;
     }
   });

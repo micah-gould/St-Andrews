@@ -1,6 +1,11 @@
-import type { Simulation, Selection } from 'd3';
-import type { GraphDataResponse, GraphEdge, GraphNode, PrereqRule } from './graph.types';
-import type { SavedStateRecord, SavedStateSlice } from './saved-state.types';
+import type { Simulation, Selection } from "d3";
+import type {
+  GraphDataResponse,
+  GraphEdge,
+  GraphNode,
+  PrereqRule,
+} from "./graph.types";
+import type { SavedStateRecord, SavedStateSlice } from "./saved-state.types";
 
 export type PreviewState = {
   manualExcluded: Set<string>;
@@ -20,19 +25,20 @@ export type FeedbackAction = {
 };
 
 export type GraphRuntime = {
-  catalog: GraphDataResponse['catalog'];
+  catalog: GraphDataResponse["catalog"];
   uiState: UiState;
   graphState: GraphState;
   syncUi: () => void;
   setPreviewState: (snapshot?: SavedStateSlice | null) => void;
-   setSearchQuery: (query: string) => void;
-   setHiddenLevels: (levels: Set<string>) => void;
-   clearAll: () => void;
+  setSearchQuery: (query: string) => void;
+  setHiddenLevels: (levels: Set<string>) => void;
+  clearAll: () => void;
+  destroy: () => void;
   snapshot: () => GraphSnapshot;
 };
 
 export type AppState = {
-  catalogs: GraphDataResponse['catalog'][];
+  catalogs: GraphDataResponse["catalog"][];
   currentCatalogId: string | null;
   currentYear: string | null;
   settingsCache: SavedStateRecord[];
@@ -47,7 +53,7 @@ export type AppState = {
   graphRuntime: GraphRuntime | null;
   outsideClickHandler: ((event: MouseEvent) => void) | null;
   hiddenLevels: Set<string>;
-  theme: 'dark' | 'light';
+  theme: "dark" | "light";
   isSubjectSelection: boolean;
 };
 
@@ -56,7 +62,10 @@ export type UiState = {
   selected: Set<string>;
   passed: Set<string>;
   clearAll: () => void;
-   getStatusMarkup: (graphState: GraphState, levelExcluded?: Set<string>) => string;
+  getStatusMarkup: (
+    graphState: GraphState,
+    levelExcluded?: Set<string>,
+  ) => string;
   replaceState: (snapshot?: Partial<SavedStateSlice>) => void;
   getHoverId: () => string | null;
   getActiveNodeId: () => string | null;
@@ -65,7 +74,10 @@ export type UiState = {
 };
 
 export type GraphState = {
-  computeEffectivelyExcluded: (manualExcluded: Set<string>, levelExcluded?: Set<string>) => Set<string>;
+  computeEffectivelyExcluded: (
+    manualExcluded: Set<string>,
+    levelExcluded?: Set<string>,
+  ) => Set<string>;
   getAllAncestors: (id: string) => Set<string>;
   getAllDescendants: (id: string) => Set<string>;
   getAncestorsOfSet: (ids: string[]) => Set<string>;
@@ -109,8 +121,8 @@ export type RendererOptions = {
   passed: Set<string>;
   getHoverId: () => string | null;
   getPreviewState: () => PreviewState;
+  getHiddenLevels: () => Set<string>;
   graphState: GraphState;
-  hiddenLevels: Set<string>;
   nodes: GraphNode[];
 };
 
@@ -120,11 +132,13 @@ export type TooltipController = {
 };
 
 export type GraphBuildArgs = {
-  catalog: GraphDataResponse['catalog'];
+  catalog: GraphDataResponse["catalog"];
   nodes: GraphNode[];
   prereqRules: Record<string, PrereqRule[]>;
   edges: GraphEdge[];
-  restoredState: (SavedStateSlice & { catalogId?: string; year?: string | null }) | null;
+  restoredState:
+    | (SavedStateSlice & { catalogId?: string; year?: string | null })
+    | null;
   hiddenLevels: Set<string>;
 };
 

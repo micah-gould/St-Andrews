@@ -1,11 +1,7 @@
 {
   "id": "chemistry",
   "name": "Chemistry",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "CH1202",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 10,
       "summary": "This module provides an introduction to some of the fundamental aspects of Chemistry and is for students entering the Chemistry BSc and MChem courses directly into second year.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -102,13 +93,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module explores the impact that chemistry has on all our lives and all aspects of society. The module will cover diverse range of topics and the pivotal role chemistry plays…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -171,13 +157,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module includes lectures on the origin of the elements, atoms and the Periodic Table, shapes and properties of molecules, chemistry of the elements, properties of solutions,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -243,13 +224,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module includes lectures on bonding in simple molecules, inorganic solids, chemistry of the first row transition metals, properties of solids, states of matter and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -315,13 +291,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module includes lectures on the structure, stereochemistry and nomenclature of simple organic compounds, fundamental organic reaction mechanisms, organic functional groups and …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -387,13 +358,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "The module includes lectures on bonding theory, metal complexes and organometallics, descriptive transition-metal chemistry, solid-state chemistry, and descriptive main-group…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -477,13 +443,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "The module includes lectures on carbon-carbon bond formation, interconversion of functional groups, aromatic and heteroaromatic reactivity, mechanistic biological chemistry and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -561,13 +522,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The module includes lectures on carbon-carbon bond formation, interconversion of functional groups, aromatic and heteroaromatic reactivity, mechanistic biological chemistry and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -649,13 +605,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "The module includes lectures on quantum mechanics, thermodynamics and electrochemistry, kinetics, molecular spectroscopy and diffraction and mathematical tools for chemistry.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -730,12 +681,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The module includes lectures on thermodynamics and electrochemistry, kinetics, molecular spectroscopy and diffraction and mathematical tools for chemistry.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -799,13 +746,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The aim of the module is to provide a basis in organic spectroscopy, molecular symmetry and point groups and their application to inorganic spectroscopy, and crystallography and…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -872,13 +814,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module offers a systematic introductory treatment of organometallic compounds, emphasising fundamental concepts and the principal functional groups of organometallic…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -954,13 +891,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module brings together a number of advanced concepts including advanced crystal chemistry, extended defects, semiconductor band theory and properties, phase equilibria and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1035,13 +967,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "The module covers the application of spectroscopic techniques, including multinuclear nuclear magnetic resonance (NMR) spectroscopy, electron paramagnetic resonance (EPR)…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1116,13 +1043,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Practical experiments involving synthesis, characterisation and measurements in synthetic inorganic chemistry. Skills will be developed in the use of spectroscopy, data analysis,…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1198,13 +1120,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module will cover a wide range of synthetic methods and applications of the methods to the synthesis of complex molecules. Students will gain a deep understanding of the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1288,13 +1205,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "The aim of the module is to cover aspects of the chemistry of nucleic acids. It will begin with an introduction to carbohydrate chemistry including discussion of biological…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1378,13 +1290,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "The objective of this module is to provide the student with a thorough understanding of the mechanistic aspects of organic chemistry. A problem-solving approach is employed in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1468,13 +1375,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Practical experiments involving synthesis, characterisation and measurements in organic chemistry. Skills will be developed in the use of spectroscopy, retrosynthetic analysis,…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1561,13 +1463,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Practical experiments involving synthesis, characterisation and measurements in organic chemistry with a particular emphasis on organic materials. Skills will be developed in the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1654,13 +1551,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Practical experiments involving synthesis, characterisation and measurements in organic chemistry with a particular emphasis on the organic compounds of biological interest.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1761,13 +1653,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module builds on 'Quantum Theory of Atoms, Molecules and Solids. Part I' given in CH2701. It provides an introduction to further, basic concepts of quantum mechanics that are …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1842,13 +1729,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "The objective of this module is to introduce the principles of the most popular materials analysis methods using X-ray, ion beams, electrons and diffraction methods. The module…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1923,13 +1805,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "The aim of the module is to cover some of the quantitative aspects of Medicinal Chemistry and drug design. Initially some relevant fundamental thermodynamics will be discussed.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1998,13 +1875,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module combines the study of statistical mechanics with an introduction to theoretical and computational methods as applied in modern chemistry. In the first set of lectures…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2082,13 +1954,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module comprises practical experiments involving physical measurements and the use of computational programmes in Chemistry.",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2163,13 +2030,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module integrates advanced practical inorganic, organic and physical chemistry. The major objective is improvement of problem solving abilities and confidence in independent…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2256,13 +2118,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module aims to provide a comprehensive experience in sourcing and working with scientific literature related to a topic of chemical research, and seeks to develop a number of …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2335,13 +2192,8 @@
       "level": 4000,
       "credits": 90,
       "summary": "This module is intended to provide each individual student with direct experience of work in an industrial or similar laboratory. Activities are very varied, according to the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2441,13 +2293,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2515,13 +2362,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2587,13 +2429,8 @@
       "level": 4000,
       "credits": 90,
       "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2659,13 +2496,8 @@
       "level": 4000,
       "credits": 120,
       "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2731,13 +2563,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The research project at Level 4000 aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2831,13 +2658,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2898,13 +2720,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This distance-learning module allows students to develop an advanced understanding of the basic concepts of various topics in Materials Chemistry.",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2984,13 +2801,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This module offers selected material covered by level 4000 BSc/MChem modules CH4514 and CH4515 in a distance learning mode to students on the MChem one-year placement. See the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3082,13 +2894,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This module offers the material covered by level 4000 BSc/MChem module CH4614 in a distance learning mode to students on the MChem one-year placement. See the module description…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3171,13 +2978,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This module offers the material covered by level 4000 BSc/MChem module CH4716 in a distance learning mode to students on the MChem one-year External Placement. See the module…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3259,13 +3061,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This is a general chemistry module aimed at developing and consolidating fundamental aspects of basic understanding. Students will be encouraged to gain a deeper understanding of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3335,13 +3132,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This module covers the heavier d-block and f-block metals and also the theory behind bonding, magnetism and optoelectronic spectroscopy in d-block metal complexes. At the end of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3420,13 +3212,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This module discusses the importance of and structural similarities between rings, cages and clusters particularly in main group chemistry. The general rules for predicting…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3502,13 +3289,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This module will explore the major challenges facing the chemical industry in the transition from fossil fuel dependence to sustainable alternatives. The module will examine the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3582,13 +3364,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "The module will discuss case studies from the most successful pharmaceutical products. How the compounds came to be discovered, what diseases they are targeting, how they work and …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3664,13 +3441,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This module covers the important areas of heterocyclic and pericyclic chemistry in detail. In heterocyclic chemistry, the nomenclature and numbering of single and fused ring…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3776,13 +3548,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This module considers three areas where applications of organic chemistry have been able to benefit society and given rise to important industries. The fragrance, perfumery and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3885,13 +3652,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "The module introduces the physical concepts of dielectrics, semiconductors, and metals. Electronic properties of interfaces and thin films which are fundamental to devices such as …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3970,13 +3732,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "One component of the module covers electrolyte solutions and ionic conductivity, equilibrium electrochemistry, electrode processes and applications of electrochemistry. The other…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4082,13 +3839,8 @@
       "level": 4000,
       "credits": 10,
       "summary": "This module describes the properties of matter relevant to their interaction with electromagnetic radiation. Absorption, transmission, reflection and diffraction of light across…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4177,13 +3929,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The research project at Level 5000 of the MChem and MSci programmes aims to develop the students' skills in the following areas: experimental design and problem-solving;…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4253,13 +4000,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The research project for MPhil aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation of…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4322,13 +4064,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This is a general chemistry module aimed at developing and consolidating fundamental aspects of basic understanding. Students will be encouraged to gain a deeper understanding of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4398,13 +4135,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module discusses the use of metal based systems in organic transformations and a detailed treatment of homogeneous catalysis. Important processes in the petrochemicals…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4480,13 +4212,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module involves advanced topics in physical inorganic chemistry with a special emphasis on recent developments in the fields of paramagnetic and thermoelectric systems.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4562,13 +4289,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module covers two major topics. The first deals with modern materials which have a major impact on our lives, focusing on how the material's structure influences its…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4644,13 +4366,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module discusses the methods available for the synthesis of chiral compounds. After a detailed introduction to the specialised terminology and analytical methods used, the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4753,13 +4470,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "The module will investigate the biosynthesis of the main natural products groups (polyketides, terpenes, alkaloids). Unifying features of their structures and biosynthesis will be …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4862,13 +4574,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "Aspects of the organic chemistry of the most important reactive intermediates viz.: carbo-cations, carbanions, free radicals, carbenes, nitrenes and arynes will be covered. Means…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4971,13 +4678,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module will examine new methodologies for drug discovery. An overview of the processes of target discovery, lead discovery and lead optimisation will be given. The use of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5080,13 +4782,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module offers a systematic introductory treatment of molecular recognition, emphasising fundamental concepts of intermolecular interactions and molecular recognition in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5189,13 +4886,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module describes the importance of more advanced spectroscopic methods for the elucidation of structure and properties of increasingly complex molecules and materials.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5271,13 +4963,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "The module describes the Chemistry of solid surfaces with particular reference to the structure of metal, oxide and semiconductor surfaces. The techniques available to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5353,13 +5040,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module will build on the foundations laid in CH2701 and CH3712 and introduce further aspects and methods of modern computational chemistry related to the electronic…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5443,13 +5125,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "In our efforts to mitigate global warming it is essential to develop new and improved methods of generation and storage of energy. Foremost among these methods are the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5525,13 +5202,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module focuses on the processing of materials, ceramics in particular. Fundamental properties such as crystallinity, composition, crystal phase, phase mixing, domain…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5607,13 +5279,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module will introduce the concepts and science behind the design and synthesis of a wide range of nanostructures and the application of these structures in functional…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5689,13 +5356,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module involves gaining familiarity and expertise in specialised research techniques in the Chemical Sciences appropriate to the prospective Research Project. These will vary …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5758,13 +5420,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module which forms part of the MSc programmes in Chemical Science and in Catalysis is based on Research Colloquia and Seminars delivered by external speakers and covering the …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5826,13 +5483,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module aims to provide a comprehensive experience in sourcing and working with scientific literature related to a current topic of chemical research in the area of the MSc…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5896,13 +5548,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The research project for MSc aims to develop the students' skills in the following areas: experimental design and problem-solving; abstraction, evaluation and interpretation of…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5965,13 +5612,8 @@
       "level": 4000,
       "credits": 50,
       "summary": "",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

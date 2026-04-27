@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 type PasswordFieldProps = {
   id: string;
@@ -11,7 +11,16 @@ type PasswordFieldProps = {
   required?: boolean;
 };
 
-export function PasswordField({ id, name, label, autoComplete, minLength, value, onChange, required = true }: PasswordFieldProps) {
+export function PasswordField({
+  id,
+  name,
+  label,
+  autoComplete,
+  minLength,
+  value,
+  onChange,
+  required = true,
+}: PasswordFieldProps) {
   const [visible, setVisible] = useState(false);
 
   return (
@@ -21,7 +30,7 @@ export function PasswordField({ id, name, label, autoComplete, minLength, value,
         <input
           id={id}
           name={name}
-          type={visible ? 'text' : 'password'}
+          type={visible ? "text" : "password"}
           autoComplete={autoComplete}
           minLength={minLength}
           required={required}
@@ -31,12 +40,12 @@ export function PasswordField({ id, name, label, autoComplete, minLength, value,
         <button
           type="button"
           className="password-toggle"
-          aria-label={visible ? 'Hide password' : 'Show password'}
+          aria-label={visible ? "Hide password" : "Show password"}
           aria-pressed={visible}
-          title={visible ? 'Hide password' : 'Show password'}
+          title={visible ? "Hide password" : "Show password"}
           onClick={() => setVisible((current) => !current)}
         >
-          {visible ? 'Hide' : 'Show'}
+          {visible ? "Hide" : "Show"}
         </button>
       </div>
     </div>

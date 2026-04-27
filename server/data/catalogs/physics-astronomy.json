@@ -1,11 +1,7 @@
 {
   "id": "physics-astronomy",
   "name": "Physics and Astronomy",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "AS1001",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module surveys our present state of knowledge of the orbits, surfaces and atmospheres of the planets in our solar system; the structure and evolution of the Sun and other…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -85,12 +76,8 @@
       "level": 1000,
       "credits": 5,
       "summary": "This module provides a streamlined introduction to the science of astrophysics for students who have taken direct entry to Second level and who are planning to take level two…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -144,12 +131,8 @@
       "level": 1000,
       "credits": 15,
       "summary": "This module provides an introduction to the science of astrophysics for students who have taken direct entry to Second level and are planning to take level two astrophysics later…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -209,13 +192,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "This module comprises four lecture courses which extend knowledge gained in the first level AS1001 or AS1101 module, and discusses recent developments in the subject: (i)…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -309,13 +287,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "This module is designed to extend the knowledge gained in the first level AS1001 or AS1111 module and to prepare the way for more advanced material appearing in the honours…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -406,13 +379,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The aim of this module is to introduce students to computational methods in astrophysics. Working through concrete exercises on astrophysical problems, students will learn both…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -494,13 +462,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module introduces the basic elements of extragalactic astronomy. This includes the morphological, structural and spectral properties of elliptical, spiral, quiescent and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -595,13 +558,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module introduces the physics of astrophysical plasmas, as found in stars and interstellar space, where interactions between matter and radiation play a dominant role. A…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -702,13 +660,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module develops the physics of stellar interiors and atmospheres from the basic equations of stellar structure introduced in AS2001/AS2101 using the radiative transfer…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -774,13 +727,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This theoretical module is open to both physics and astrophysics students. It aims to explore the basics of gravitational dynamics and its application to systems ranging from…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -888,13 +836,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This is an observational and laboratory-based module that introduces students to the hands-on practical aspects of planning observing programmes, conducting the observations and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -994,13 +937,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The students will develop skills alongside working on a research project, submit a project report, and have a project viva. The project aims to develop students' skills in…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1085,13 +1023,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module develops an understanding of basic concepts and offers practical experience with the techniques of quantitative data analysis. Beginning with fundamental concepts of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1165,12 +1098,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will provide an annual survey of the latest, most interesting, developments in astronomy and astrophysics at the research level. Emphasis will be placed upon the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1229,12 +1158,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module covers the evolution of the Universe, from Inflation to the present day, in 5 parts: 1) the smooth expanding Universe; 2) the early Universe; 3) the inhomogeneous…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1297,13 +1222,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The students will develop skills alongside working on a research project, submit a project report, and have a project viva. The project aims to develop students' skills in…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1392,13 +1312,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will introduce students to the research skills needed for a career in astrophysics. The module involves a tutorial-based system to introduce the skills of…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1460,13 +1375,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This is a module that provides a complete overview of the practical part of research in observational astronomy. In the laboratory part, students learn how to plan observations…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1531,13 +1441,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module develops the physics of stellar interiors and atmospheres from the basic equations of stellar structure and radiative transfer concepts developed in Nebulae and Stars…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1602,13 +1507,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This theoretical module explores the basics of gravitational dynamics and accretion physics and their application to systems such as circumstellar discs, stellar clusters to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1673,13 +1573,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Fluid dynamics is the study of all things that 'flow', whether they are liquids or gases. The underlying concepts and techniques taught in this course are of wide ranging use,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1744,13 +1639,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces the core elements of extragalactic Astronomy and offers the opportunity for students to independently explore large astronomy datasets with the goal of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1819,13 +1709,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The students will develop skills alongside working on a research project, submit a project report, and have a project viva. The project aims to develop students' skills in…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1889,13 +1774,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module is based on the Undergraduate Ambassador Scheme launched in 2002. It provides students in some schools within the Faculty of Science with the opportunity to gain…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1959,13 +1839,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module covers the core subjects of mechanics, waves and optics, and also provides an overview of the physical properties of matter. It is suitable for those who have studied…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2032,13 +1907,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module covers an introduction to quantum mechanics, the mechanics of rotation and gravity and an introduction to lasers. It includes lectures on the origins of quantum…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2108,13 +1978,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module begins with an overview of the development of major energy converters and fuel types over the past few centuries. It then introduces the foundations of sustainable…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2177,13 +2042,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "This module covers the subjects of mechanics, special relativity, oscillations, and thermal physics. It is suitable for those who have taken the specified first year modules in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2248,13 +2108,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "This module covers the subjects of quantum physics, electricity and magnetism and classical waves. It includes lectures on the origin of Schroedinger's equation in quantum…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2319,12 +2174,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module covers mechanics, special relativity, oscillations, and thermal physics. It is suitable for students enrolled in the MSci Chemistry and Physics programme who have…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2405,13 +2256,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The properties of electromagnetic fields will be explored using a variety of mathematical tools (in particular, vector and differential calculus). Topics will include: charge and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2509,13 +2355,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The aim of this module is to cover at honours level the principles and most important applications of thermodynamics and statistical mechanics. The syllabus includes: equilibrium; …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2606,13 +2447,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The aim of the module is to develop the key skills of oral and written communication, information technology, team working and problem solving. This will be done in the context of …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2677,13 +2513,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module introduces the main features of quantum mechanics. The syllabus includes: the emergence of the Schrödinger equation, the interpretation of the wave function and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2786,13 +2617,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module explores more of the key concepts of quantum mechanics, assuming a knowledge of the material in PH3061. The syllabus includes time-independent and time-dependent…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2886,13 +2712,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module provides a basic grounding in practical electronics. It introduces and develops the basic principles underlying the synthesis and analysis of analogue circuits. The…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2969,13 +2790,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module is designed to develop a level of competence in Python, a modern programming language currently used in many physics research labs for mathematical modelling. No prior …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3055,13 +2871,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The module aims to develop mathematical techniques that are required by a professional physicist or astronomer. There is particular emphasis on the special functions which arise…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3150,13 +2961,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module consists of the content and assessment of all of PH3081 and the first part of PH3080. The module aims to develop mathematical techniques that are required by a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3250,13 +3056,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The aims of the module are (i) to familiarise students with a wide variety of experimental techniques and equipment, and (ii) to instill an appreciation of the significance of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3329,13 +3130,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module provides an introduction to the basic physics underpinning optoelectronics and nonlinear optics, and its applications including displays and communications. The…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3437,13 +3233,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module builds on the material of PH3061 and PH3062 Quantum Mechanics 1 and 2 to present some of the important current and advanced topics in quantum mechanics. The…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3557,13 +3348,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module provides an introduction to fluid dynamics, and addresses the underlying physics behind many everyday flows that we see around us. It starts from a derivation of the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3650,13 +3436,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module analyses classical fields in physics such as the electromagnetic field. Fields are natural ingredients of relativity, because they serve to communicate forces with a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3734,13 +3515,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module presents a basic description of the main physical concepts upon which an understanding of laser materials, operations and applications can be based. The syllabus…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3830,13 +3606,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module formulates the main aspects of physics used in modern optics, lasers and optoelectronic systems. Topics covered include: polarised light and its manipulation, with…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3923,13 +3694,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Musical instruments function according to the laws of physics contained in the wave equation. Wind instruments, the human voice and the acoustics of concert halls can be explained …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4003,13 +3769,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module covers the foundations of classical mechanics as well as a number of applications in various areas. Starting from the principle of least action, the Lagrangian and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4099,13 +3860,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module explores how the various electrical and thermal properties of solids are related to the nature and arrangement of their constituent atoms. Emphasis is given to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4217,13 +3973,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The first aim of this module is to describe in terms of appropriate models, the structure and properties of the atomic nucleus, the classification of fundamental particles and the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4309,13 +4060,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The aim of this module is to describe in terms of appropriate models, the structure and properties of the atom, including its nucleus, the classification of fundamental particles…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4435,12 +4181,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This first half of the module builds on the atomic physics covered in PH4041 to look at the atomic structure of helium and many-electron atoms, magnetic interactions within the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4489,13 +4231,8 @@
       "level": 4000,
       "credits": 5,
       "summary": "This module, which is for students on the joint degree programme Chemistry and Physics, provides guidance on literature research and communication skills. Students choose area(s)…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4576,13 +4313,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module builds on concepts taught in Introduction to Condensed Matter Physics (PH4039) to introduce more advanced theoretical concepts and lay the foundations required to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4669,13 +4401,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The aims of the module are (i) to familiarise students with a wide variety of experimental techniques and equipment, and (ii) to instil an appreciation of the significance of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4763,13 +4490,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The project aims to develop students' skills in searching the physics literature and in research, the evaluation and interpretation of data, and in the presentation of results.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4858,13 +4580,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module presents an introductory account of the ideas of quantum field theory and of simple applications thereof, including quantization of classical field theories, second…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4950,13 +4667,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Quantitative treatment of laser physics including rate equations; transient/dynamic behaviour of laser oscillators including relaxation oscillations, Q-switching, cavity dumping…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5037,13 +4749,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides an introduction to the theory of General Relativity. After laying the required foundations in mathematics and theoretical physics, it demonstrates how…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5131,13 +4838,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Quantum optics is the theory of light that unifies wave and particle optics. Quantum optics describes modern high-precision experiments that often probe the very fundamentals of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5241,13 +4943,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Quantum physics is one of the most powerful theories in physics yet is at odds with our understanding of reality. In this module we show how laboratories around the world can…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5347,13 +5044,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module will expose students to the exciting opportunities offered by applying photonics methods and technology to biomedical sensing and detection. A rudimentary biological…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5436,13 +5128,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces the theory and practice behind Monte Carlo radiation transport codes for use in physics, astrophysics, atmospheric physics, and medical physics. Included in …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5507,13 +5194,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module links with ongoing research in this area in the School, and includes the rich structural and electronic phases that can be stabilised at surfaces of materials and the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5604,13 +5286,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Nanophotonics deals with structured materials on the nanoscale for the manipulation of light. Photonic crystals and plasmonic metamaterials are hot topics in contemporary…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5713,13 +5390,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "On rare occasions a student may need a level 5 module in semester two for their Physics or Astronomy MPhys degree programme, and this module may fulfil that need. This module is…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5784,13 +5456,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The project aims to develop students' skills in searching the physics literature and in research, the evaluation and interpretation of data, and in the presentation of results.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5879,13 +5546,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The project aims to develop students' skills in searching the physics literature and in research, the evaluation and interpretation of data, and in the presentation of results.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5978,12 +5640,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "All POED MSc students carry out a 3-month research project, in most cases carried out at a U.K. company. Part-time students who are industry employees may carry out the project at …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6027,13 +5685,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The photonics teaching laboratory gives training in experimental photonics, and allows students the opportunity to explore photonics practically in a series of chosen open-ended…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6092,12 +5745,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is taught at Heriot-Watt University, and forms part of certain taught Master's degrees run collaboratively between St Andrews and Heriot-Watt Universities.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6141,12 +5790,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is taught at Heriot-Watt University, and may form part of certain taught Master's degrees run collaboratively between St Andrews and Heriot-Watt Universities.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6190,12 +5835,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is taught at Heriot-Watt University, and may form part of certain taught Master's degrees run collaboratively between St Andrews and Heriot-Watt Universities.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6239,12 +5880,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is taught at Heriot-Watt University, and may form part of certain taught Master's degrees run collaboratively between St Andrews and Heriot-Watt Universities.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6286,12 +5923,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is taught at Heriot-Watt University, and may form part of certain taught Master's degrees run collaboratively between St Andrews and Heriot-Watt Universities.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6335,12 +5968,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is taught at Heriot-Watt University, and may form part of certain taught Master's degrees run collaboratively between St Andrews and Heriot-Watt Universities.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6384,12 +6013,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is taught at Heriot-Watt University, and may form part of certain taught Master's degrees run collaboratively between St Andrews and Heriot-Watt Universities.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6433,13 +6058,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module aims to introduce the theory and applications of key imaging concepts that are in widespread use. The content includes on the underpinning side:- plane waves form…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

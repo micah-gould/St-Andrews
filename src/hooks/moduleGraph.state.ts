@@ -1,4 +1,4 @@
-import type { AppState } from '../types/runtime.types';
+import type { AppState } from "../types/runtime.types";
 
 export function createModuleGraphState(): AppState {
   return {
@@ -6,18 +6,18 @@ export function createModuleGraphState(): AppState {
     currentCatalogId: null,
     currentYear: null,
     settingsCache: [],
-    selectedPlanId: '',
-    settingsName: '',
-    searchQuery: '',
-    feedbackMarkup: '',
+    selectedPlanId: "",
+    settingsName: "",
+    searchQuery: "",
+    feedbackMarkup: "",
     feedbackActions: [],
-    statusMarkup: 'Loading module data...',
+    statusMarkup: "Loading module data...",
     loadedSetting: null,
     sharedSettingId: null,
     graphRuntime: null,
     outsideClickHandler: null,
-    hiddenLevels: new Set(['ext', '5000']),
-    theme: 'dark',
+    hiddenLevels: new Set(["ext", "5000"]),
+    theme: "dark",
     isSubjectSelection: true,
   };
 }

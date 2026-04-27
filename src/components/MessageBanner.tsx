@@ -1,5 +1,5 @@
-import React from 'react';
-import type { AuthMessage } from '../types/auth.types';
+import React from "react";
+import type { AuthMessage } from "../types/auth.types";
 
 export function MessageBanner({ message }: { message: AuthMessage | null }) {
   if (!message) {

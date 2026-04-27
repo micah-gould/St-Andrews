@@ -1,11 +1,7 @@
 {
   "id": "modern-languages",
   "name": "Modern Languages",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "AR1001",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module, together with AR1002, will enable students to read, write and converse in simple Modern Standard Arabic. It will cover the Arabic alphabet and writing system, and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -82,13 +73,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module will complete the work of AR1001 and prepare students for AR2001. It will cover the remaining points of Arabic grammar, using a selection of representative…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -154,13 +140,8 @@
       "level": 1000,
       "credits": 12,
       "summary": "A two-week intensive Arabic language course introducing complete beginners to the fundamentals of Modern Standard Arabic (level 1 in speaking, listening, reading, and writing).…",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -223,12 +204,8 @@
       "level": 1000,
       "credits": 12,
       "summary": "A two-week intensive Arabic language course introducing beginners to the fundamentals of Modern Standard Arabic (level 2 in speaking, listening, reading, and writing). Students…",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -278,13 +255,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module, together with AR2002, will enable students to read and write Modern Standard Arabic to intermediate level with the aid of a dictionary, and to speak in standard…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -350,13 +322,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module continues the work of AR2001 and prepares students for Honours modules in Arabic. In tutorials, applied language work uses passages from contemporary and modern…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -422,13 +389,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module aims to give an introduction to classical Arab culture by exploring the intellectual history of the Arab world and the context of its development during the early and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -491,13 +453,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "The objective of the module is language learning and cultural familiarisation through a work placement in an Arabic-speaking country. Students are responsible for identifying…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -560,13 +517,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module consolidates the grammar and vocabulary learned during Sub-Honours by introducing students to the language of the Arabic media through texts, audio and audio-visual…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -632,13 +584,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module consolidates the grammar and vocabulary learned during Junior Honours semester 1, through the systematic analysis of the language of the Arabic media. Contemporary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -704,13 +651,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module will study linguistic, literary and cultural aspects of Arabic literary writing with readings from modern Arabic short stories. The module is designed to improve and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -780,12 +722,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The module aims to enable students to understand the development and terminology of aspects of classical Arabic scholarship, to help them understand the structures that underpin…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -832,12 +770,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The module aims to enable students to understand the development and terminology of aspects of classical Arabic scholarship, to help them understand the structures that underpin…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -884,12 +818,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module allows students to take their learning of Arabic into their own hands by engaging with the language creatively. Using the work of well-known Arab authors as a model,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -934,13 +864,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will build upon the skills gained in the third year modules in Arabic. Emphasis will be placed on Arabic grammar, translation into and out of Arabic and free…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1007,13 +932,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will build upon the skills gained in AR4401. Emphasis will be placed on Arabic grammar, translation into and out of Arabic and free composition in Arabic. Students…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1080,12 +1000,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will study linguistic, literary and cultural aspects of recent Arabic writing, by men and women writers from North Africa, the Middle East and the wider cultural…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1145,12 +1061,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will study linguistic, literary and cultural aspects of modern Palestinian fiction, with readings in Arabic from the work of Ghassan Kanafani, supplemented by readings …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1198,12 +1110,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module aims to enable students to understand the development of genres and motifs in classical Arabic poetry and some of the principles of classical Arabic literary criticism. …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1251,12 +1159,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module aims to enable students to understand the development of genres and motifs in classical Arabic prose, as well as some principles of classical Arabic literary criticism. …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1304,12 +1208,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will study a selection of Arabic plays and theoretical works on Arabic theatre written in the second half of the twentieth and beginning of the twenty-first centuries. …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1356,13 +1256,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The year-long dissertation offers students the possibility to engage in advanced independent study on a topic in Arabic and Middle East Studies on which they already have adequate …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1438,13 +1333,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module provides a grounding in Chinese language and cultural history. Students will learn to speak the language with accurate pronunciation and tones, as well as to recognise …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1508,13 +1398,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module allows students to develop their existing communicative and written competence in Chinese language and to broaden their knowledge of China’s cultural history. Students …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1581,13 +1466,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module takes further the initial grounding in Chinese language and cultural history acquired in CN1001. Students will learn to converse simply, as well as to recognise and to …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1654,13 +1534,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module follows on from the first semester module CN1012 intended for students with prior learning and allows students to further develop their communicative and written…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1730,12 +1605,8 @@
       "level": 1000,
       "credits": 12,
       "summary": "A hundred years ago, the Chinese nation-state was a fledging enterprise. A century later, having navigated the twentieth century in various forms, China, in terms of culture,…",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1783,13 +1654,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "Students will continue to acquire Chinese characters (around 900 characters and 2,000 words) while studying more complex texts and enhancing their reading, writing, and spoken…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1855,13 +1721,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module builds on the contents of CN1022 and will continue to broaden students’ vocabulary of the language at a pace of roughly 30 new Chinese characters per week, and to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1931,13 +1792,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "Students will continue to acquire Chinese characters (1200 characters and 3,000 words) while studying more complex texts and enhancing their spoken language skills. The cultural…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2003,13 +1859,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module continues on from CN2012 and will broaden students’ vocabulary of the language at a pace of roughly 30 new Chinese characters per week, and to focus on consolidating…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2079,13 +1930,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module continues on from CN2021 and CN2022. Students will continue to acquire Chinese characters and build vocabulary while studying more complex literary and audiovisual…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2148,13 +1994,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module continues on from CN3001. Students will continue to acquire Chinese characters and build vocabulary while studying more complex literary and audiovisual texts and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2220,13 +2061,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "The objective of the module is language learning and cultural familiarisation through an approved study or work placement in a Chinese-speaking country. Study placements will be…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2290,12 +2126,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module explores the emergent field of ‘Sinophone’ studies through the lens of art and cinema. We will critically examine the definition of the Sinophone as the study of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2343,13 +2175,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module explores how gender has been represented and constructed in Chinese literature from the 20th century onwards. In this period, as the region experienced extraordinary…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2413,13 +2240,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Poverty has defined and haunted modernity in China. As the scourge and the impetus behind major historical convulsions of the 20th century, poverty shaped China’s project to catch …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2483,13 +2305,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will build upon the skills gained in CN3002. Emphasis will be placed translation into and out of Chinese and free composition. Students will also give oral…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2555,13 +2372,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will build upon the skills gained in the fourth-year module CN4001. Emphasis will be placed on translation into and out of Chinese and free composition. Students will…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2627,14 +2439,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic on which they already have adequate basic knowledge and for which a suitable Supervisor can…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2700,13 +2506,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module covers science fiction in literature, film, and other media produced in China since the late Qing to the present. We will discuss definitions and theorisations of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2770,13 +2571,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module covers Chinese literature in the so-called postsocialist era, from 1990 to the present day. Crumbling socialist institutions, market reform, the changing position of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2840,12 +2636,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module considers how Chinese writers, artists, filmmakers and musicians have responded to interactions with the rest of the world throughout the twentieth and twenty-first…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2891,13 +2683,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module introduces students to the study of Comparative Literature through nineteenth-century novels from France, Germany, Italy, Russia, Spain and the UK. All the texts will…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2960,13 +2747,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module introduces students to the study of Comparative Literature through plays written in the twentieth and twenty-first century from Germany, Iran, Italy, Russia, Spain,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3029,13 +2811,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module introduces students to set texts, both canonical and non-canonical, which address the theme of 'Good and Evil'. Read in English translation, the texts are originally…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3110,13 +2887,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module introduces students to set texts, both canonical and non-canonical, offering variants on the theme of 'Journeys', a topos that embraces both literal and imaginary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3182,13 +2954,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module situates and interrogates the discipline of Comparative Literature and explores a range of major theories and practices common in the field. Key areas will typically…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3251,13 +3018,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module situates and interrogates the discipline of Comparative Literature, exploring a range of theories, practices, and ways of reading which complement those covered in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3323,12 +3085,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module introduces students to theories and examples of the creation of cultural memory in literature. Concepts such as communicative and collective memory will be discussed…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3375,12 +3133,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The Mediterranean is often seen as a space which separates the cultures of the three continents which frame it but it is also regarded as a space of rich cultural exchange. This…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3427,12 +3181,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Combining a theoretical framework with a number of case studies, this module will introduce students to the history and changing conceptions of the literary canon and its…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3480,12 +3230,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module will expose students to alternative approaches to the study of culture and cultural production, allowing them to reach their own definitions of the discipline of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3533,12 +3279,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In recent decades, life-writing has taken a decidedly visual turn. The incorporation of visual arts (painting, photography and cinema) in autobiographical texts and films raises…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3584,13 +3326,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will explore the wide range of functions and representations of illness and disease in a variety of European (French, English, German, Italian and Russian) literary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3654,12 +3391,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Early-modern perceptions of gender and sexuality were based less on a series of binary opposites (man/woman, male/female, masculine/feminine) than on a fluid continuum. The…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3707,12 +3440,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module is about 'the best' writing. We will consider the notion of classicism in Italian, French and German literature, tracing the endeavours of generations of writers to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3760,12 +3489,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module explores the genre of the folk and fairy tale through texts originating in different periods and national contexts. The broad diversity and rich intertextuality which…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3812,12 +3537,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module explores the relationship between a number of 'great works' and their adaptations (into for instance, film, graphic novel, opera, poetry, play, etc.). Various possible…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3865,12 +3586,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module aims at improving students' scientific literacy level by exploring the literary and cultural incidence of the scientific and technological revolutions that have…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3930,12 +3647,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module introduces students to the genre of the short story, focusing on a range of stories from at least three different national (and / or transnational, and / or world)…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3983,12 +3696,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will compare writing about the experience of exile (real and imagined) by writers of different centuries, languages and cultures. We will consider the particular…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4036,12 +3745,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module explores the question of literary censorship and asks what makes a book 'dangerous' or 'bad'. Censorship has always been with us in some form in all societies and,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4089,12 +3794,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will offer an introduction to the comparative study of literary non-fiction. Our focus will be on the essay from its early modern beginnings to the present, but we…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4141,12 +3842,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will introduce students to the long history of Utopian writing in theory and fiction. Students will read and critically engage with a historically broad,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4193,12 +3890,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will introduce students to the relatively new field of literary geography. Against the backdrop of what has been called the ‘spatial turn’ in literary and cultural…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4245,12 +3938,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "From climate change to nuclear tensions, visions of catastrophic events have been saturating the public sphere, while the recent pandemic has given rise to an atmosphere of even…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4299,12 +3988,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "‘Love, Lust, and Longing’ offers a high-level introduction to Early Modern love poetry. The module charts Petrarchism as an enduring global phenomenon, the legacy of which can…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4355,12 +4040,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module introduces students to the relatively new field of ecologically oriented literary and cultural studies, often referred as Environmental Humanities. We will critically…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4407,12 +4088,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Drawing from recent developments in Geopoetics and Ecopoetry, this module addresses ways of engaging with different landscapes through poetic practices from a range of cultural…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4458,12 +4135,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module investigates the extent to which literature can give us knowledge about other people, especially people of a different class, race, or ethnicity. How do writers…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4507,12 +4180,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Globalisation is one of the greatest challenges of our time. How do we negotiate the global movement of people, information and goods in a sustainable and just way when our…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4560,12 +4229,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "How do algorithms change the way we read, write, and create? Can we 'vibe-code' our way into literary creativity? Is there even a formula to literary invention? In this module, we …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4612,14 +4277,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic on which they already have adequate basic knowledge and for which a suitable Supervisor can…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4685,13 +4344,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The year-long dissertation offers students the possibility to engage in advanced independent study on a topic in Comparative Literature on which they already have adequate basic…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4754,12 +4408,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The module analyses the meaning of the word 'contemporary' as applied to literary texts, exploring questions such as: does 'contemporary' signify '10 years ago' or '10 months…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4805,12 +4455,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4850,12 +4496,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module combines language and content elements in the form of directed study and aims to prepare students who are taking the language pathway of the Comparative Literature…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4901,13 +4543,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4964,13 +4601,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module aims to support students through the transition from school to university French studies by developing the language skills of post A-Level/Higher entrants and offering …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5033,13 +4665,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module aims to ensure grammatical competence and promote comprehension and production in written and spoken modes, and to teach the reading of francophone literary texts and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5105,13 +4732,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "This module has been designed to consolidate and extend the analytical and linguistic skills you have acquired at First level. You will understand better how the language works,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5177,13 +4799,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "The Second level language course has been designed to consolidate and extend the analytical and linguistic skills you have acquired at First level and in FR2201. You will…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5249,14 +4866,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "This module is taught in French and focuses on the mediaeval and early modern roots of French culture. The variety of materials you will be given will help you to extend both your …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5325,14 +4936,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "This module will focus on the development of France's culture and on the evolution of its national identity since the French Revolution of 1789. The variety of material you will…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5401,14 +5006,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "This module will focus on the roots of France's literature and its evolution through the medieval and early modern periods. This module aims at giving you a sample of French…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5477,14 +5076,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "This module will focus on the diversity and developments of French/Francophone writing - in the different genres of the récit, poetry and modern short fiction - from the French…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5553,13 +5146,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module aims to give a fundamental training at Honours level in written and aural comprehension skills, critical review writing, oral and written fluency, individual and group …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5625,13 +5213,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module aims to give a fundamental training at Honours level in written and aural comprehension skills, writing, oral and written fluency, individual and group work, and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5697,12 +5280,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module will look at the upheavals in French politics and culture from the First World War to the early Thirties. Through the examination of literary texts, we will study…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5748,12 +5327,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module explores life-writing theories and practices through a variety of recent autobiographical and autofictional texts written in French. Texts included in the corpus will…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5800,13 +5375,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "The objective of the module is language learning and cultural familiarisation through a work placement in a French-speaking country. Placements will be as Language Assistants in…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5869,12 +5439,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "While diversity and inclusivity are at the forefront of current debates about curriculum in the arts and humanities, the field of C19th French poetry is dominated by a handful of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5924,12 +5490,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "What is the place of song in French-language culture? In what ways does song express the complexities of national, regional, ethnic, cultural, class or gender identity? In this…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5979,12 +5541,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module gives a progressive, intensive training in the method and practice of translating from French into English. Topics covered include: translation as process and product;…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6030,13 +5588,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module aims to develop communicative skills, both written and spoken. It follows a text- and video-based method designed by the department which enables students to present…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6112,13 +5665,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Building on FR4105, this module aims to further develop communicative skills, both written and spoken. Pursuing the text- and video-based method it enhances the ability of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6185,12 +5733,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The sixteenth century is a time of invention and discovery: it is a time of broadening horizons, both literally - following Columbus's discovery of the New World - and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6238,12 +5782,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Relations between the medieval Occident and Orient were highly complex during a period that saw violent crusades and interracial conflicts. Cases abound where notions of East and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6291,12 +5831,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The boundaries between fact and fiction, history and fantasy in medieval texts are notoriously difficult to determine. In our own so-called 'post-truth' age, it has never been…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6347,12 +5883,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Renaissance writing is marked by polyphony: its multiple, shifting narrative voices are part of an intellectual movement that resists the imposition of authority in favour of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6412,12 +5944,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module invites students to study the French 18th century from a fresh and critical perspective, by addressing this period's fascination with enchantment, magic and illusions. …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6465,12 +5993,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module focuses on the major works of Flaubert as prisms for understanding the ideological and aesthetic contexts of their times (1820-1870) and ours. Flaubert's exploration…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6518,12 +6042,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module takes students into new realms of engagement with (i) thematic criticism, and (ii) Nineteenth-century hybrid narrative forms blending fact and fiction that develop in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6571,12 +6091,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The former French slave colony of Saint-Domingue (now Haiti) boasted the most vibrant theatrical tradition of the Caribbean region. Hundreds of plays, ballets and operas were…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6624,12 +6140,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module allows students to develop and improve writing techniques in French and to build self-critical awareness on the writing process. The development of reading and writing …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6676,12 +6188,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will look at the rise of Communism and Fascism, Vichy France, the Resistance and l'épuration. Set texts include: Andri Malraux, La Condition humaine, Georges Bataille, …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6729,12 +6237,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "What does it mean to be French and Caribbean? This module discusses literature from the French overseas departments of Martinique and Guadeloupe (the Antilles), islands which…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6780,12 +6284,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "What does it mean to write as a woman? What does it mean to write as a particular woman in a specific place, at a specific time? What, if anything, does the term 'women's writing' …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6834,12 +6334,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will focus on the notions of identity and community as they have been thought and expressed in the twentieth and twenty-first centuries, at the intersection between…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6890,12 +6386,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module introduces students to the tradition of French crime fiction and its contemporary manifestations. Via a survey of classic sub-genres of crime fiction from the early…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6943,12 +6435,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Contemporary French-language poetry is extremely lively and varied. This module explores the ways poets negotiate the many heritages – from romanticism to surrealism and the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6995,12 +6483,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module is designed to open up the richness and complexities of early modern French theatre as it was performed in Metropolitan France and, where relevant, in its richest…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -7047,14 +6531,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The dissertation offers students the possibility of personal advanced study. Guidance will be offered on creative and reflective methods and on presentation. The dissertation will …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7131,13 +6609,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The dissertation offers students the possibility of personal advanced study. Guidance will be offered on creative and reflective methods and on presentation. The dissertation will …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7205,14 +6678,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic on which they already have adequate basic knowledge and for which a suitable Supervisor can…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7291,13 +6758,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic in French on which they already have adequate basic knowledge and for which a suitable…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7364,12 +6826,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "French Literary Revolutions: this module will enable postgraduates actively to acquire advanced knowledge of contexts that have shaped literature and culture in the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -7412,12 +6870,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -7460,13 +6914,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers students the opportunity of personal study arising from a work placement or research project in connection with their science course. It will be assessed by a…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7543,13 +6992,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module lays the foundation for the study of German at university. In oral, writing and grammar classes, you will develop both communicative skill and your knowledge of German …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7612,13 +7056,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module builds on the foundation study of German language and literature in Module GM1001. Language classes will further develop speaking, reading and writing skills and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7684,13 +7123,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module provides the first half of an intensive language programme for beginners and those with Standard Grade or GCSE German. Students taking the module are strongly advised…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7753,13 +7187,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module represents the second half of the intensive language courses for beginners and those with intermediate qualifications. Completion of this module and Module GM1003 can…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7825,13 +7254,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "This module builds on the language component of modules GM1001 and GM1002 for students who had A-level/Highers/equivalent German when they started their degree. It provides…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7900,13 +7324,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "This module aims to enhance further students' skills in written and spoken German and their knowledge of contemporary German, preparing them for any time to be spent studying or…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7975,13 +7394,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "This module is designed to provide intensive language study for students who have completed the first level beginners/near beginners modules GM1003 and GM1004. It aims to develop…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8050,13 +7464,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "Building on module GM2007, the module aims to provide further intensive language study for students who took the First Level Beginners modules. It continues to develop reading,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8125,13 +7534,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "The lifespan of Germany's greatest poet, Goethe (1749-1832) is simultaneously one of the most eventful and productive in its cultural history: it sees the rise of modern German…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8206,13 +7610,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "This module traces the literary and cultural history of Germany in the nineteenth century during the rise and fall of the Second Empire. After the failure of the 1848 revolution…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8287,13 +7686,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "The module introduces students to Middle High German language and literature. Students will learn to read the medieval form of the language. They will also gain an overview of the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8368,13 +7762,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "From the revolutions at the end of the First World War, to the fragile Weimar democracy, to the rise and fall of the Third Reich, the period from the Great War to the end of the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8449,13 +7838,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This is a core language module for all students in the first semester of the first year of the Honours programme. It consists of three components: an oral strand, a translation…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8518,13 +7902,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This is a core language module for all students in the second semester of the first year of the Honours programme. It consists of three components: an oral strand, a translation…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8590,12 +7969,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Although literary scholars declared the German-language travelogue to be a dead genre in 1989, travel writing enjoyed a remarkable resurgence in the two following decades. This…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -8642,12 +8017,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "For almost 70 years German-language culture has wrestled with the burden of responsibility for the Second World War and the Holocaust and constantly questioned the capacity of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8694,13 +8065,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "The objective of the module is language learning and cultural familiarisation through a work placement in a German-speaking country. Placements will be as Language Assistants in…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8762,12 +8128,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "With its dual focus on the Adenauer Era (1949-1963) in the FRG and the Stalinist/Post-Stalinist era (1949-1961) in the GDR, this module will explore the importance of this period…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8824,12 +8186,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The aim of the module is to develop advanced skills in translating from German into English. The module encourages students to make a careful analysis of the linguistic…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8875,12 +8233,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "One of humanity's fundamental assumptions is that we self-determined humans are superior to inanimate objects. Medieval literature, however, is full of things that have powers…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8948,12 +8302,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Germany and Austria, countries of Mozart, Beethoven and Wagner, have also become known internationally for popular music in the last 60 years, from 'Krautrock' and punk to techno…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8999,12 +8349,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module focuses on twentieth century and contemporary literature and film from German and Austrian contexts that feature animals. Drawing on the insights of Animal Studies, it …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9062,12 +8408,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Whether it is in authors like Goethe and Schiller, or works like Iphigenie, and Maria Stuart, or concepts like 'Bildung', the cultural legacy of the short period of 'Weimar…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9115,12 +8457,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Although today we take the participation of women in German letters for granted, the student of earlier periods cannot fail to observe that the pantheon of German literature…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9186,12 +8524,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module seeks to (a) examine the particular role that Berlin has played in the development of German culture and politics (from late Wilhelmine Germany to its re-instatement…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9238,12 +8572,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Recent popular culture and the media in German-speaking Europe have been fascinated with masculinity, a trend that coincides with a boom in scholarship on the subject. Masculinity …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9291,12 +8621,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The end of the GDR also saw the closure of the East German Film studios, DEFA, threatening its films with commercial oblivion. However, since reunification the many culturally and …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9364,14 +8690,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic on which they already have adequate basic knowledge and for which a suitable Supervisor can…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9438,13 +8758,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic in German on which they already have adequate basic knowledge and for which a suitable…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9511,13 +8826,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This is a core language module for all students in the first semester of the second year of the Honours Programme. Like all core language modules at honours it consists of three…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9584,13 +8894,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This is a core language module for all students in the second semester of the second year of the Honours Programme. Like all core language modules at honours it consists of three…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9657,12 +8962,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module provides the opportunity for postgraduate students to develop their skills of literary and textual analysis through directed reading on a topic of their choice. They…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9707,12 +9008,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides the opportunity for postgraduate students to develop their skills of literary and textual analysis through directed reading on a topic of their choice. They…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9759,12 +9056,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module provides the opportunity for postgraduate students to develop their skills of literary and textual analysis through directed reading on a topic of their choice. They…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9811,12 +9104,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9860,13 +9149,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised jointly by members of the teaching staff in St Andrews and in Bonn who will advise on the choice of subject and provide guidance…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9927,13 +9211,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module is the normal entry point which leads to Honours Italian for beginners in Italian. It is designed for students with no prior experience of Italian and does not assume…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9996,13 +9275,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module builds on Module IT1001 and continues its basic aims by increasing the students' knowledge of and ability to use Italian. In this module one hour per week is dedicated…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10065,13 +9339,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module aims to improve, revise and consolidate the language skills of the students in the four areas of listening, speaking, reading, and writing at B1 level (intermediate) of …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10135,13 +9404,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "Building on Italian Intermediate 1 and in line with the Common European Framework of Reference for Modern Languages, the emphasis of this module will be on the acquisition of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10208,13 +9472,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This Second Level Italian module aims at further developing the language skills acquired in First level Italian modules, and at enabling students to achieve an intermediate level…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10288,13 +9547,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module offers an intermediate language course for students who have passed IT 2001. It is designed to (1) further consolidate students' knowledge of Italian grammar, idiom…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10360,13 +9614,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This is the core language module for all students of Italian in the first year of the Honours programme. It builds on the work covered in the first and second level Italian…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10428,13 +9677,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module is intended to build on the achievements of IT3001, and to further increase the students' command of written and spoken Italian as well as reading and listening…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10499,12 +9743,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module offers an introduction to Italian literature and language of the Trecento, primarily through three major authors: Dante, Boccaccio and Petrarch. Extracts of other…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10551,12 +9791,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module provides an introduction to early modern Italian literature and culture, primarily through the works of Castiglione, Stampa, Ariosto and Tasso. Some of the key aspects …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10603,13 +9839,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "The objective of the module is language learning and cultural familiarisation through a work placement in an Italian-speaking country. Placements will be as Language Assistants in …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10672,13 +9903,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This is the first part of the core language module for all students of Italian in the second year of the Honours programme. Its aim is to develop advanced communication skills,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10745,13 +9971,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This is the second part of the core language module for all students of Italian in the second year of the Honours programme. Its aim is to continue to develop advanced…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10818,12 +10039,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module explores the history of the fascist era through the study of a range of different creative forms including fiction, architecture, popular music, and the visual arts.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10870,12 +10087,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module focuses on the aggregate of problems known as the “Southern Question” that arose from the extreme economic, social, and cultural backwardness that characterized the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10921,14 +10134,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The dissertation offers students the possibility of personal advanced study on an Italian topic on which they already have adequate basic knowledge and for which a suitable…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11004,14 +10211,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The dissertation offers students the possibility of personal advanced study on an Italian topic on which they already have adequate basic knowledge and for which a suitable…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11090,13 +10291,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic in Italian on which they already have adequate basic knowledge and for which a suitable…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11175,12 +10371,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "A young country with a long history, the problem of defining what it means to be Italian predates the formation of the nation state and remains unresolved in the 21st century.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11228,12 +10420,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "A young country with a long history, the problem of defining what it means to be Italian predates the formation of the nation state and remains unresolved in the 21st century.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11283,12 +10471,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module allows students to pursue in greater depth more particular interests which fit with areas of expertise among the academic staff in Italian. This will take the form of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11336,12 +10520,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module allows students to pursue in greater depth more particular interests which fit with areas of expertise among the academic staff in Italian. This will take the form of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11388,12 +10568,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module allows students to pursue in greater depth more particular interests which fit with areas of expertise among the academic staff in Italian. This will take the form of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11440,12 +10616,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Italy is a young country with a long history, and the problem of defining what it means to be Italian predates the formation of the nation state and remains unresolved in the 21st …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11492,12 +10664,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Italy is a young country with a long history, and the problem of defining what it means to be Italian predates the formation of the nation state and remains unresolved in the 21st …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11544,12 +10712,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff in Italian who will advise on the choice of subject and provide guidance throughout the research process. …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11593,13 +10757,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "The objective of the module is language learning and cultural familiarisation through a combination of work placements or periods of approved study spent successively in two…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11660,12 +10819,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module aims to develop an awareness of writing across linguistic, geographical and cultural borders and across media through a practice-based approach. By fostering a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11712,13 +10867,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The dissertation must consist of approximately 10,000 words of English prose on a topic agreed between the student and two appropriate members of staff (who act as supervisors).…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11780,12 +10930,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module and its partner module ML5002 seek to provide the kind of research training now regarded as indispensable for all postgraduates by exploring a range of literary and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11814,12 +10960,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module and its 'partner' module ML5001 seek(s) to provide the kind of research training now regarded as indispensable for all postgraduates by exploring a range of literary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11866,12 +11008,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module introduces students to a range of skills which are essential to advanced researchers and key to many other non-academic workplaces. We will focus on analytic and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11917,12 +11055,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces students to a range of skills which are essential to advanced researchers and key to many other non-academic workplaces. We will focus on analytic and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11969,12 +11103,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The module aims to introduce major aspects and dimensions of the question of cultural identity. Through the study of a broad range of particular cultural traditions, it seeks to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12019,12 +11149,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The module aims to explore further major aspects, dimensions of cultural identity beyond those studied in ML5006 and focuses in particular on personal, rather than group identity. …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12069,14 +11195,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12135,12 +11255,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module aims to introduce major aspects and dimensions of the question of cultural identity. Through the study of a broad range of particular cultural traditions, it seeks to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12187,12 +11303,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module aims to explore further major aspects, dimensions of cultural identity beyond those studied in ML5006 and focuses in particular on personal, rather than group identity. …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12239,12 +11351,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module seeks to provide research training now regarded as indispensable for all postgraduates by exploring a range of literary and cultural theories through which literary…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12291,12 +11399,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module seeks to provide research training now regarded as indispensable for all postgraduates by exploring a range of literary and cultural theories through which literary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12342,13 +11446,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "In Comparative Methodologies and Research Skills 1 and 2 you will consider and engage with a variety of comparative methodological approaches to text, broadly defined. You will…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12411,13 +11510,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "In Comparative Methodologies and Research Skills 1 and 2 you will consider and engage with a variety of comparative methodological approaches to text, broadly defined. You will…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12480,13 +11574,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "In this module you will be invited to look inward and consider areas of critical importance such as sex, gender, race, psychoanalysis, and the medical humanities in relation to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12549,13 +11638,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "In this module you will be invited to look outward and consider areas of critical importance such as the postcolonial, de-colonial, the transnational, and memory studies in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12618,13 +11702,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12684,12 +11763,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module is the first of a series of three devoted to the research leading to the Dissertation. It is followed by ML5107 Dissertation Progress in semester 3 (semester 1 in St…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12718,12 +11793,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module will focus on the relationship between Europe and the Americas (i.e. Latin and North America, including Canada). It will explore the ways in which European authors and …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12766,12 +11837,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module is a short version of ML5104 sharing the same objectives and pattern of work. It must be taken together with ML5108 Work-Related Project. It is the first of a series…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12821,12 +11888,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module is the second in a series of three devoted to the research leading to the Final Mundus Dissertation. It builds on the work of ML5104 or ML5106 in order to (i) lay out…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12896,12 +11959,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module provides the student with the opportunity to engage with the world of employment via a placement and/or project and thus to explore the application of the academic and …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12951,12 +12010,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will focus on the relatuonship between Europe and the USA. It will explore the ways in which European authors, film makers and thinkers encounter, embrace, oppose or…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -13003,12 +12058,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "This 20 ECTS (40 SCOTCAT credit) module is a compulsory 20,000 word dissertation written on an approved topic. Normally, it is written at the third University of the student's…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -13055,14 +12106,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module enables students to enhance the analysis and presentation of literary texts with advanced digital and computational techniques. These will be taught with a critical…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13128,14 +12173,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module deepens students' understanding of digital technologies within Modern Languages. Key areas include natural language processing (NLP), machine learning, and the…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13209,14 +12248,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module enables students to enhance the analysis and presentation of literary texts with advanced digital and computational techniques. These will be taught with a critical…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13292,14 +12325,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Building on the strength of the School of Modern Languages in Memory Studies and the Cultural Identity and Memory Studies Institute, this module delves into storytelling as a…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13373,13 +12400,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module offers the opportunity to complete an applied research project supervised by staff in the School of Modern Languages. Students will design and manage a digital…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13443,13 +12465,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Students will complete a dissertation of up to 15,000 words supervised by staff in the School of Modern Languages who will advise on the choice of subject and provide guidance…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13513,13 +12530,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This is a beginner's level language module, which teaches the skills of reception (reading and listening) and production (speaking and writing) in Persian. The aim is to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13583,13 +12595,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module is a continuation of PR1001, developing reception skills (reading and listening), and language production (speaking and writing) in Persian. It also provides an…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13655,13 +12662,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This is the first of the two intermediate level Persian modules. Students will develop skills to read more sophisticated texts written in the target language and translate them…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13727,13 +12729,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This is the second of two intermediate level Persian modules. In tutorials, applied language work uses passages from contemporary and modern writings, selected for their relevance …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13799,13 +12796,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This is a core language module for all students of Persian in the first year of the Honours programme. It builds on the work covered in the first and second level Persian Language …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13871,13 +12863,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This is a core language module for all students of Persian in the first year of the Honours programme. It builds on the work covered in PR3001. The module will include translation …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13934,14 +12921,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Students will learn about key twentieth-century authors through reading biographies and critical writing in Persian and English. They will also read, translate and discuss at…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13995,12 +12976,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module introduces students to the study of cinema as a mode of representation of social history by offering a social overview of cinema in Iran since the 1960s. Looking at…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -14045,12 +13022,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Students study five Iranian plays by Hassan Moqaddam, Bahram Beyzaie, Bahman Forsi, Mohammad Yaqubi and Nghmeh Samini, selected to trigger discussions about, modernity and its…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -14100,13 +13073,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will build upon the skills gained in 3000-level modules. More emphasis will be placed on free composition in Persian and translation into Persian. Students will also…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14173,13 +13141,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will build upon the skills gained in PR4001. As in PR4001, emphasis will be placed on free composition in Persian and translation into Persian. Students will give oral …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14246,12 +13209,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will offer students the initial tools for reading classical Persian poetry and prose. It will provide the basic historical and analytical knowledge needed for the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -14300,13 +13259,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This is to give students the option of writing their dissertation on a topic in Persian to help develop their research skills and provide the opportunity for them to build a solid …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14376,13 +13330,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This is to give students the option of writing their dissertation on a topic in Persian to help develop their research skills and provide the opportunity for them to build a solid …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14452,12 +13401,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This year-long module has been designed to provide a grounding in Persian language and culture for the students of the Distance Learning MLitt in Iranian Studies. The schedule is…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -14505,13 +13450,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module, aimed at beginners, provides the most basic elements of Russian (alphabet, vocabulary, grammar, pronunciation). The module begins with the Cyrillic alphabet and the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14576,13 +13516,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module builds on RU1001, and on completion will have provided a competence in Russian grammar sufficient for reading Russian texts (books, newspapers etc) with the aid of a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14651,13 +13586,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module reinforces and builds on the knowledge of grammar and vocabulary acquired at school and tests it through a system of regular written assignments. Translation skills are …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14722,13 +13652,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module builds on the level of achievement reached in RU1005. It has elements of grammar, translation, text analysis, study of literature, for which two essays in English are…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14796,13 +13721,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module (followed by RU2202 in Semester 2) is the language track at second level for students who took the beginners' modules (RU1001 and RU1002) at first level. The most…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14882,13 +13802,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module follows RU2201. It is the language track at second level for students who took the beginners' modules (RU1001 and RU1002) at first level. The module completes the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14956,13 +13871,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module (followed by RU2204 in Semester 2) is the language track at second level for students who took the advanced' modules (RU1005 and RU1006) at first level. The most…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15033,13 +13943,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module follows RU2203. It is the language track at second level for students who took the advanced modules (RU1005 and RU1006) at first level. The most important elements of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15110,13 +14015,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "The module introduces students to three or more works of pre-twentieth-century literature and culture to be read in Russian, while improving reading and comprehension skills. It…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15190,13 +14090,8 @@
       "level": 2000,
       "credits": 10,
       "summary": "The module introduces students to three or more works of twentieth-century/ twenty-first-century literature and culture to be read in Russian, while improving reading and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15271,12 +14166,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module focuses on the ground-breaking contribution made by Russian-speaking dramatists, directors and practitioners to theatre and performance, from 19th-century comedy to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -15323,13 +14214,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module aims to explore Soviet culture of the Stalin period, as manifested in both official and unofficial literature and film. The primary questions addressed in this course…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -15374,12 +14260,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module is designed to build on the knowledge of Russian literature acquired at sub-honours level and to develop collaborative skills, self-reflection and initiative in the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -15439,13 +14321,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "The objective of the module is language learning and cultural familiarisation through a study or work placement in a Russian-speaking country. Placements will be as students in…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15511,14 +14388,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "This module is offered subject to the availability of a suitable venue and to the consent of the Head of School. It is an optional part of the degree programme for students who…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15586,13 +14457,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This is a core language module for students of Russian in the first year of the Honours programme. It builds on the work covered in first and second level Russian Language…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15667,13 +14533,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This is a core language module for students of Russian in the first year of the Honours programme. It builds on the work covered in RU3301, or RU3102. The module will include…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15748,13 +14609,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module is designed to introduce poetry written in Russian from the early nineteenth century to the present day. The pre-revolutionary Russophone literary-cultural canon is…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -15801,13 +14657,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In this module students will read texts and cultural materials originally written in Polish, Russian, Ukrainian and Yiddish in the early 20th century. Modernism will be explored…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -15866,13 +14717,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will build upon the skills already gained in the Honours programme. This module is mandatory for all Honours programmes containing a Russian element. It deals with the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15956,12 +14802,8 @@
       "level": 4000,
       "credits": null,
       "summary": "This module is the Oral part of RU4104 Communication Skills and is designed for students pursuing a triple-language or triple-subject degree whose modular programme does not allow …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -16012,13 +14854,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module builds on the knowledge of Russian gained in RU4101. The course concentrates on the development of your ability to communicate in different areas of social life (both…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16079,12 +14916,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module investigates contemporary Russian culture and society by examining its relationship with the Soviet past, the institutions of memory that mediate this relationship and …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16129,14 +14962,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module will involve close reading and research into cultural materials published for children from the 1800s to the present day. Publications for children are shaped by the…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16200,12 +15027,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Russian crime fiction is a hugely popular genre with the contemporary reading public and yet one which remains relatively critically neglected. This module provides students with…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16250,12 +15073,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The history of Soviet cinema and the modern Soviet city are inextricably intertwined. From the very inception of the Communist state, the rapidly changing urban environment became …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -16315,12 +15134,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module focuses on the work of the Russian-American author, autobiographer, translator, and literary critic Vladimir Nabokov. It explores Nabokov's work in each of these…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16380,12 +15195,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module builds on knowledge of Russian-language literature and culture acquired at the sub-honours level. It surveys non-Russian and/or multilingual Russophone writers working …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16444,12 +15255,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module offers students the opportunity to learn about the political and social history of the Russian Empire through literature, and to consider literature’s relationship…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16494,14 +15301,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic on which they already have adequate basic knowledge and for which a suitable Supervisor can…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16567,13 +15368,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic which they already have adequate basic knowledge and for which a suitable Supervisor can be…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16639,12 +15435,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module is designed to build on the knowledge of Russian literature acquired at subhonours and honours level and, more specifically, to explore utopian and dystopian ideas in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -16689,13 +15481,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The language part of the module promotes the four skills of reading, writing, listening and speaking. There is formal grammar instruction and a programme of participative…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16761,13 +15548,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module advances the four skills developed in SP1001. A language coursebook introduces a higher level of linguistic difficulty through a series of exercises, participative…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16835,13 +15617,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "Intensive ab initio language: The objective is to initiate Spanish language acquisition with a firm grounding in the syntax, morphology and vocabulary of the language. The skills…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16904,13 +15681,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "There are three classes of language instruction per week to continue intensive language initiation and a self-access CALL program and video materials to consolidate language…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16978,13 +15750,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "In language the four skills of reading, listening, speaking and writing are developed through prepared work and class activities. Language material will reflect cultural aspects…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -17055,13 +15822,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The language part of the module consists of two class hours each week, developing the skills of reading, listening, speaking and writing. Language material will reflect cultural…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -17135,13 +15897,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The module is designed for ex-Beginners in Spanish who wish to move into mainstream studies of language and literature. It involves revision and progressively deeper understanding …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -17212,13 +15969,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The module is designed to enhance the language skills of the student, with intensive practice in oral, spoken and written skills. The syllabus is based on a selection of films…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -17296,13 +16048,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The overall objective of this core module is to promote advanced skills in listening, speaking, reading and writing in Spanish. In addition there will be elements that stimulate a …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -17364,13 +16111,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The overall objective of this core module is to promote advanced skills in listening, speaking, reading and writing in Spanish. The syllabus combines two main types of material:…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -17435,13 +16177,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module is designed to guide and train the student of the Spanish language in the translation of demanding literary texts, both from and into Spanish. The emphasis will be on…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -17506,12 +16243,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The module explores the evolution of Spanish from Latin to the seventeenth century. A prior knowledge of Latin is not expected. In addition to linguistic and socio-political…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -17560,13 +16293,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "The objective of the module is language learning and cultural familiarisation through a work placement in a Spanish-speaking country. Placements will be as Language Assistants in…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -17634,13 +16362,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Students will examine political and historical developments of Mexico in the Siglo de Caudillos (from the beginning of Independence in 1810 to the start of the Mexican Revolution…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -17705,12 +16428,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The aim of the module is the close study of a selection of literary texts (works of prose fiction and poetry, in the main) produced in the post-Franco period. These narratives…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -17759,12 +16478,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module is designed to introduce students to the complex and fascinating relations between culture and history within the context of post-Civil War Spain, providing them with…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -17814,12 +16529,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module is designed to introduce students to the Argentine and Chilean avant-garde poetry of the interwar period through the work of three internationally acclaimed authors:…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -17869,12 +16580,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "In this module the exploration of autobiographical writing in contemporary Spain has multiple objectives. It will provide an introduction to the problems and characteristics of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -17923,12 +16630,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module will explore changes and tensions in Spanish culture, society, literature and art from the evolution of literary realism and naturalism to the beginning of the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -17977,12 +16680,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "The purpose of this module is to study a variety of fictional and non-fictional narratives of the Spanish nation-state as well as stateless nations within the Spanish state from…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -18032,13 +16731,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "Love and loss have been the inspiration, in one way or another, behind most works in world literature. This module aims to provide a sound understanding of important literary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -18103,13 +16797,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The overall objective of this core module is to build on advanced skills in listening, speaking, reading and writing in Spanish. The syllabus is made up of a selection of texts in …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -18169,13 +16858,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The overall objective of this core module is to build on advanced skills in listening, speaking, reading and writing in Spanish. The syllabus uses listening comprehension based on …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -18241,14 +16925,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will examine the concepts of 'modernity', 'modernism' and the 'avant-garde' in the context of Spanish culture in the 1920s and 1930s; it will contextualise JosÚ Ortega …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -18315,12 +16993,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will introduce prose, poetry, theatre, and songs that were written mostly for entertainment in the sixteenth and seventeenth centuries in Spain. All works will center…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -18370,12 +17044,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module serves as a high-level introduction to Spanish love lyric in the Early Modern period. It charts what one might term the (r)evolutions in amatory poetry throughout the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -18426,12 +17096,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -18473,12 +17139,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -18520,14 +17182,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module offers students the possibility of personal advanced study on a topic on which they already have adequate basic knowledge and for which a suitable Supervisor can be…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -18597,13 +17253,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The dissertation offers students the possibility of personal advanced study on a topic on which they already have adequate basic knowledge and for which a suitable Supervisor can…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -18673,13 +17324,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Focusing on a variety of texts from different periods and geographical areas in the Spanish-speaking world, this module aims to provide the student with a questioning…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -18748,13 +17394,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module centres on the study of Don Quijote, by Miguel de Cervantes, and its cultural and literary impact. It aims to provide a sound understanding of important modes of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -18820,12 +17461,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "It is well known that in Latin America reality is usually stranger than fiction. From the ancient Spanish conquerors' chronicles to the authors of the Boom and their magical…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -18876,12 +17513,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The new millennium has proved the fast-growing interest in and urgency of addressing LGBTIQ+ matters in cinema in Latin America, and the importance of the work made by women…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -18932,12 +17565,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "The module offers a high-level introduction to Hispanic literature and film that encompasses the Department's expertise ranging from the 15th to 21st centuries. The aim is to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -18982,12 +17611,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The module offers a high-level introduction to Hispanic literature and film that encompasses the Department's expertise ranging from the 15th to 21st centuries. The aim is to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -19037,12 +17662,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The module offers students the opportunity to draw on expertise in the Department of Spanish for the exploration of a relevant topic in some depth. Potential subjects of study…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -19086,12 +17707,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module offers students the opportunity to draw on expertise in the Department of Spanish for the exploration of a relevant topic in some depth. Potential subjects of study…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -19138,12 +17755,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The module offers students the opportunity to draw on expertise in the Department of Spanish for the exploration of a relevant topic in some depth. Potential subjects of study…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -19190,12 +17803,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module offers a high-level introduction to Hispanic literature and film that encompasses the Department's expertise ranging from the 15th to 21st centuries. The aim is to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -19242,12 +17851,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The module offers a high-level introduction to Hispanic literature and film that encompasses the Department's expertise ranging from the 15th to 21st centuries. The aim is to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -19294,12 +17899,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,

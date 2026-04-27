@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+printf '\n[pre-commit] Running build...\n'
+npm run build
+
+printf '\n[pre-commit] Running typecheck...\n'
+npm run typecheck
+
+printf '\n[pre-commit] Running tests...\n'
+mapfile -t test_scripts < <(
+  node -e "const p=require('./package.json'); console.log(Object.keys(p.scripts||{}).filter((k)=>k==='test'||(k.startsWith('test:') && k!=='test:drag:raw')).join('\\n'));"
+)
+
+if [ ${#test_scripts[@]} -eq 0 ]; then
+  printf '[pre-commit] No test scripts found.\n'
+else
+  for script in "${test_scripts[@]}"; do
+    printf '[pre-commit] npm run %s\n' "$script"
+    npm run "$script"
+  done
+fi
+
+printf '\n[pre-commit] Formatting code...\n'
+npm run format
+
+printf '\n[pre-commit] Re-staging formatted tracked files...\n'
+git add -u
+
+printf '[pre-commit] Done.\n\n'

@@ -1,11 +1,7 @@
 {
   "id": "business",
   "name": "Business",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "EC1001",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module introduces students to the core concepts and analytical frameworks of macroeconomics, focusing on the behaviour of the economy as a whole. It examines key…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -86,13 +77,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module provides an introduction to the market system and consumer and producer behaviour. Topics covered include demand, supply, elasticities, taxes, welfare and public goods. …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -159,13 +145,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This is an introduction to calculus and algebra that provides the indispensable mathematical tools for modern economics. Students will learn and practice the basic techniques to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -241,13 +222,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module aims to provide an introduction to the economics of money, banking and financial markets. It presents a general overview of key monetary and financial market…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -322,13 +298,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The module aims to deepen the general understanding of microeconomics gained through the study of EC1002. It will cover a range of topics including: consumer and firm theory,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -407,13 +378,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module builds on EC1001, developing theories of the determinants of long-run economic growth, and developing theories of the causes of short-run business cycle fluctuations.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -491,13 +457,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The module will provide an introduction to statistical methods and regression analysis. Basic probability theory is introduced in order to build up the framework of statistical…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -578,13 +539,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "The module develops student understanding of the classical linear econometric model (ordinary least squares). This will cover a range of topics including: estimation and inference …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -647,13 +603,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "Game Theory focuses on the decisions and behaviour of economic agents in interactive situations. This module will teach the basics of strategic thinking, aiming to guide students' …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -720,13 +671,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "Growth is one of the core issues in Economics which has intrigued economists for more than a century. In spite of their effort, many questions remain unanswered, making this one…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -789,13 +735,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "The module covers the basic mathematical tools used in economic theory. Good knowledge of elementary calculus will be assumed. The main topics are multivariate calculus, concavity …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -858,13 +799,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "Incentives economics (also known as economics of information and contract theory) studies interactions between economic agents in the presence of information asymmetries, such as…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -927,13 +863,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "Economic growth is not steady but features a series of expansions and contractions. These economic fluctuations are of primary concern to economic policy makers and have been the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -996,13 +927,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "Economics has an array of very useful and advanced computational tools that are not usually taught at the undergraduate level. To address this issue and to make students familiar, …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1077,13 +1003,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module aims to communicate the key concepts in modern corporate ﬁnance in explaining how corporations make ﬁnancial decisions, focusing on investment decision (decision to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1159,13 +1080,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The module seeks to equip students with advanced skills in data analysis by introducing a number of estimation methods commonly used in economics. These include, limited dependent …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1240,13 +1156,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "An understanding of economic history lends clarity to many questions in economics. Among these are: The extent and impact of globalization; the determinants of the wealth of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1310,12 +1221,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module explores economic perspectives on health and education. We will start the module introducing human capital theory. We will then study health markets, paying particular …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1364,13 +1271,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module examines the application of economic theory to environmental issues, focusing on the causes of environmental problems and the evaluation of policy responses. It…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1433,12 +1335,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The purpose of this module is to expose students to the methodology of experimental economics and to give an overview of some of its uses in different areas of economics. The…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1487,13 +1385,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module combines traditional neoclassical microeconomics models of rational choice and empirically supported assumptions with the goal of providing a better understanding of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1556,12 +1449,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module is an analytical treatment of industrial organisation in a dynamic context, providing rigorous coverage of core areas of the subject, supported mostly by both…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1608,13 +1497,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module provides a comprehensive treatment of selected aspects of international macroeconomics. The course makes intensive use of mathematical techniques of exchange rate…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1677,13 +1561,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module introduces basic facts and theoretical models regarding economic interconnections within an increasingly integrated world. Its aim is to provide students a global view …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1746,13 +1625,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module introduces the analysis of labour markets from the perspective of economic theory. It starts with the exploration of two major forces that shape the behaviour of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1818,13 +1692,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The purpose of the module is to explore the macroeconomic and monetary issues involved in European economic integration. After a historical introduction focused on the question of …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1887,13 +1756,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The module is designed to provide a specialised understanding of a number of monetary policy and fiscal policy issues. The lectures will cover a broad range of issues. These may…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1956,13 +1820,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module applies microeconomic reasoning and models to the government sector, with particular emphasis on government interventions such as price controls, taxation, welfare…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2025,13 +1884,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The main aim of this module is to provide a rigorous grounding in the theory and applications of finance and a thorough synthesis of the most important current research in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2095,12 +1949,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2144,13 +1994,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module explores the microeconomic foundations of development economics. We will discuss topics such as poverty traps, labor markets, human capital, gender, public…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2213,13 +2058,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The module is designed to foster an understanding of economic inequality both from theoretical and practical perspectives. It mainly aims to convey how economists approach and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2282,13 +2122,8 @@
       "level": 4000,
       "credits": 5,
       "summary": "The aim of this module is to discuss critically the approaches used and challenges faced by professional economists as they attempt to communicate their analysis, insights,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2368,13 +2203,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The number of international migrants has rapidly grown over the last few decades. This module explores the economic determinants and consequences of international migration, and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2437,13 +2267,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "Evaluating the causal effects of economic policies is an important but complex and challenging task. The purpose of this module is to introduce students to the core methods for…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2522,13 +2347,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "Financial modelling using Microsoft Excel is used in many fields such as investment banking, mergers and acquisitions (M and A), equity research, risk analysis, valuations,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2604,13 +2424,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module will examine a selection of the major themes in economic history. Students will read academic articles written by economists that use novel historical data,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2673,13 +2488,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module covers important theory and empirical evidence in the field of Health Economics. It first provides an overview of how different countries organise their healthcare…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2745,13 +2555,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module aims to develop students' knowledge and understanding of key issues in asset allocation and portfolio composition/management at an intermediate level. The tradeoff…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2821,13 +2626,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module explores the microeconomic foundations of the economics of education. After outlining the human capital model, students will discuss the impact of early childhood…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2893,13 +2693,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module will provide you with understanding of specific aspects of development finance, recognising that finance-related issues are increasingly important in economic…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2962,13 +2757,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This is a theoretical and applied microeconomics module that studies human behaviour in social and strategic contexts. After reviewing the experimental evidence on human sociality …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3031,13 +2821,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module takes an economic approach to the two key problems of human resource management: employee selection and employee motivation. The module combines elements of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3100,12 +2885,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The module provides a rigorous introduction to monetary economics, offering a formal framework to interpret both classic and modern monetary phenomena. Students are introduced to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3150,14 +2931,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module is designed to develop students' independent research, writing and presentation skills in the application of economic analysis to a selected topic in economics. The…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3223,13 +2998,8 @@
       "level": 4000,
       "credits": 40,
       "summary": "This module is designed to develop students' independent research, writing and presentation skills. The dissertation should present original research applying economic and/or…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3298,13 +3068,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module provides a thorough advanced treatment of the foundational models and concepts used in modern macroeconomics. Specifically, the module explores the core components of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3380,13 +3145,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will provide a thorough advanced treatment of the core models and concepts used in modern microeconomics. Microeconomic theory is concerned with the behaviour of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3462,13 +3222,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will provide an advanced level training in aspects of econometric methods that is suitable for the basis for further work in econometrics and for understanding/being…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3535,13 +3290,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Game theory is a formal method of studying strategic interactions: interactions between multiple decision-makers involving conﬂict and cooperation. Game theory is a central part…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3604,13 +3354,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides a treatment of Time Series Analysis as it pertains to Economics and Finance. It provides students with theory and methods tailored to analysing datasets in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3676,13 +3421,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will provide a thorough advanced treatment of the core models and concepts used in modern analysis of industrial organisation. It is a specialised branch of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3746,13 +3486,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module provides students with the opportunity to undertake an in-depth investigation of a topic relevant and appropriate to the MSc. The dissertation takes the form of a…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3815,13 +3550,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module discusses various methods for plausibly estimating causal effects in econometrics. These methods include randomized experiments, instrumental variables,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3890,13 +3620,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces you to key issues in monetary policy, developing frameworks to understand and analyse these issues. You will gain familiarity with the models used in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3959,13 +3684,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module introduces you to important concepts in the field of open-economy macroeconomics, developing frameworks to analyse the important international economic issues that…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4031,12 +3751,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module introduces the fundamental concepts of FinTech and digital finance, with a focus on emerging technologies such as artificial intelligence (AI) and generative AI…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4094,12 +3810,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module provides an introduction to international banking, examining the theoretical foundations, key challenges, and regulatory frameworks shaping modern banking systems.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4157,13 +3869,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is designed to provide students with an in-depth knowledge and a rigorous background in the mainstream areas of modern banking and finance. To accomplish the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4227,13 +3934,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Financial Technology (FinTech) has seen a dramatic increase of popularity in terms both of business applications and academic research in the last decade (Allen, Gu & Jatiani, …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4296,13 +3998,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Financial decisions are made at all levels of management and thus are at the very heart of all organisations. Managers have broadly three major responsibilities in the financial…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4366,13 +4063,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The aim of this module is to equip students with econometric tools and techniques to analyse and interpret financial data. Students will learn how to organise and characterise…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4439,13 +4131,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module will focus on empirical and theoretical issues that arise in modern corporate finance. Students will be exposed to key financial issues faced by finance managers of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4509,13 +4196,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Bloomberg terminal is a prominent financial information platform and analytical tool for financial professionals worldwide. This module is designed to empower students with the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4578,12 +4260,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces students to fundamental financial accounting concepts and the preparation, interpretation and use of core financial statements. The module will consider the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4630,12 +4308,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces students to the core concepts and techniques of management accounting and control. In particular, the module introduces students to the application,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4682,13 +4356,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces the fundamental concepts of investment management. Investments cover real economic projects such as those undertaken by corporations and governments, as…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4751,13 +4420,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Financial systems around the world are currently undergoing many changes. These changes arise from competition, consolidation, information technology, product and geographic…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4820,13 +4484,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Much of the productive capacity of the global economy is owned within corporations. Once these corporations achieve significant age or size, they typically attract risk capital…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4889,12 +4548,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "From daily financial management to long term strategic decision making, a full understanding of international finance is essential for all business managers. This module begins…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4941,13 +4596,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The last two decades have witnessed a spectacular change and growth in financial markets (equity markets, foreign exchange markets, euromarkets and international bond markets).…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5010,13 +4660,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module aims to develop students' knowledge and understanding of key issues in asset allocation and portfolio composition/management. Different methods of portfolio…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5079,13 +4724,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is designed to introduce students to key concepts in behavioural finance. Students will learn to understand the difference between conventional financial theory and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5148,12 +4788,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides students with an overview on investment opportunities alternative to the main equity and bond markets. It will critically engage students with the key…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5200,13 +4836,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module aims to develop students' comprehensive understanding of contemporary theories and their applications in financial statement analysis and security valuation, with a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5269,13 +4900,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is designed to introduce students to key concepts in sustainable finance and to convey sufficient knowledge to understand how environmental, social and governance…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5338,13 +4964,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module provides students with the opportunity to undertake an in-depth investigation of a topic in the field of finance that is relevant and appropriate to the MSc. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5409,13 +5030,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module provides students with the opportunity to undertake an in-depth investigation of a topic relevant and appropriate to the MSc. The dissertation takes the form of a…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5478,13 +5094,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module introduces students to two key aspects of Management in the external and internal environment. Firstly, Understanding the Business Environment analyses changes in key…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5548,13 +5159,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module examines some of the main analytical approaches and techniques required by managers. It examines how managers can acquire and analyse business data and provides an…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5621,13 +5227,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The multidisciplinary nature of management is reflected in this module. It examines the conceptual frameworks and techniques of Marketing and Organisational Behaviour which are…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5702,13 +5303,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module comprises two components and further develops the analytical skills and insights required for Management. Firstly, The Management Kaleidoscope examines some of the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5774,13 +5370,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "Enterprise and Creativity aims to give Second Level students across the university, the opportunity to learn how to develop a project by doing it. Enhancing their own creativity…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5844,13 +5435,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The underpinnings of effective management are considered in this module which provides students with the opportunity to examine critically the nature of contemporary thinking…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5914,13 +5500,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module introduces honours students to management accounting tools and techniques useful to analyse complex situations, choose between options and anticipate future outcomes…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5995,13 +5576,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "The purpose of this module is to introduce students to the organisation and management of public services and to engage with important debates about the principles and purposes of …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6076,13 +5652,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "MN3025 builds upon the marketing taught in sub-honours modules and prepares students for further study and practice in the marketing and management fields. The module is focused…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6157,13 +5728,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "The module will develop a comprehensive understanding of entrepreneurship in practice and the processes of business development. Students will develop a rounded understanding of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6238,13 +5804,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "What is history good for? Management is an ever-changing field of theory and practice, and this module will provide a broad introduction to its history. From ancient estate…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6319,13 +5880,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module aims to communicate the key concepts in modern corporate finance in explaining how corporations make financial decisions, focusing on investment decision (decision to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6413,13 +5969,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module examines major organisational theories to critically explore organisation in contemporary society. The interdisciplinary field of organisation studies draws on…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6494,13 +6045,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module aims to develop students’ knowledge and understanding of international business (IB). It will provide a deep contextualisation of contemporary issues and debates…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6575,13 +6121,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module introduces research in the Social Sciences. It focuses on the skills and knowledge involved in understanding, evaluation and conducting research in the wider…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6644,13 +6185,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module follows on from MN3201. It builds key research competencies in library search, problem definition, literature review and study design. These competencies will be…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6716,12 +6252,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "The aim of this module is to increase understanding and scope of HRM from a theoretical and practical perspective. Students will learn about the core fundamental theoretical…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6780,13 +6312,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "The field of strategic management consists of many broad and often competing perspectives on whether organisations can actually determine their level of success through carefully…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6862,13 +6389,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This is the core capstone module for single and joint honours students of Management, inviting students to adopt an entrepreneurial mindset. The module aims to provide a pivot…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6935,13 +6457,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "Creativity, Collaboration and Context explores the central tenets of creativity, and helps students understand how creativity can be applied collaboratively in a wide range of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7007,13 +6524,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The investment industry has seen profound and rapid development over past decades, in part due to the creation of innovative trading strategies and newly designed securities. The…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7079,12 +6591,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module begins by examining the scope of international marketing and identifying the nature of this specialised environment. It continues with an exploration of the range of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -7144,13 +6652,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module examines how organizational change might be managed. Various models for bringing about planned change are analysed and their strengths and weaknesses highlighted.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7226,13 +6729,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module provides an introduction to and analysis of corporate social responsibility and sustainability, the meaning, tensions and conflicts that social responsibility entails…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7330,13 +6828,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module offers students a sociological perspective on global finance and financial markets. Students will develop a deep understanding of how financial markets work and their…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7412,12 +6905,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module examines the origin of the concept of sustainable development in public policy discourses with particular focus on the implications this concept has for the operation…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -7486,13 +6975,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "We are now living in what is known as a ‘knowledge economy’ with organisations increasingly being defined by their knowledge, skills and expertise instead of their material…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7568,13 +7052,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "Advertising has an established presence in developed economies and is a key aspect of companies' marketing communications programmes. The module will extend your knowledge of this …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7650,12 +7129,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "Philanthropy is undergoing a renaissance. From Bill Gates to George Soros, from the Rockefeller Foundation in the US to the Bharti Foundation in India, philanthropists and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -7715,13 +7190,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The aim of this module is to provide a critical examination of the rationality of choice and the nature of human judgement. The module explores factors that affect decision making …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7797,13 +7267,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "Drawing on current academic debates, examples of leadership challenges from practice and students' own experiences this module examines how leaders can be developed (by themselves …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7870,13 +7335,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "Voluntary organisations are highly significant actors within society, the democratic polity, and the economy. They are also commonly perceived to be distinctive organisations in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7952,12 +7412,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module explores Equality and Diversity issues in the context of a range of organisations. We will first develop a clear understanding of the legal framework within which…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8005,12 +7461,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "In an era where societal challenges demand innovative solutions, fundraising stands as a critical and significant catalyst for driving positive change. Blending theoretical…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -8069,14 +7521,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "Students are required to complete the Management Research Project closely based upon the research proposal submitted in MN3202. The module can be taken in either the first or…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8152,12 +7598,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "The module aims to provide students with a better understand the complexity of global, national or regional environments through the use of scenarios and to use the scenario…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8217,13 +7659,8 @@
       "level": 4000,
       "credits": 5,
       "summary": "The aim of this module is to discuss critically the approaches used and challenges faced by management researchers as they attempt to communicate their analysis, insights, and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8289,13 +7726,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is aimed at creating a deep and wide appreciation of how various global trends will impact upon economies, organisations and from there, the practice of management. In …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8359,13 +7791,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This is a core module for the MLitt International Business Programme. The module provides students with a distinctive approach to the study of International Business and Emerging…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8429,13 +7856,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Marketing strategy is inseparable from business strategy as marketing is business. Marketing Strategy is concerned with the creation of value propositions to distinct customer…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8499,13 +7921,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module provides students with the opportunity to undertake an in-depth investigation into issues within the field of management studies and to prepare a 15,000-20,000 word…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8567,13 +7984,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module essentially involves the critical study of International Marketing. Key theories are examined carefully against the backdrop of questions such as: What is an…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8637,12 +8049,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "How do we know what consumer behaviour patterns exist? How do we evaluate whether advertising is successful? How do we design effective marketing campaigns? This module introduces …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8686,13 +8094,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module builds on students' prior knowledge of marketing concepts by introducing them to contemporary dialogue and debate in marketing and exploring specific questions within…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8756,13 +8159,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Influencing and predicting human behaviour requires an understanding of multiple factors operating at individual, social, and situational level. Consumer behaviour is no…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8826,13 +8224,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module equips postgraduate students with the skills and knowledge needed to navigate people management practices across diverse global settings, including multinational…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8896,13 +8289,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "International business strategy is a broad but at the same time synthetic discipline which comprises elements of the international political economy, financial aspects and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8966,13 +8354,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module will introduce students to the basic principles and practices of accounting and corporate finance. The first half of the module will concentrate on teaching students…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9036,13 +8419,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module builds on students' prior knowledge of International Business concepts by introducing them to contemporary dialogue and debate in International Business. The module…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9106,13 +8484,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Over the last three decades one of the most significant global trends has been the rapid technical development of information technology and the parallel intensification in the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9175,13 +8548,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module reviews the key theoretical and practical aspects involved in managing human resources. The module content covers both the strategic and operational requirements…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9245,13 +8613,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Marketing is a pervasive social phenomenon, influencing our perceptions and behaviours. We are all in daily contact with the marketing activities of firms, governments and a range …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9315,13 +8678,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module aims to introduce students to the latest innovative theoretical contributions to management and organisation studies by following the trajectory of foundational social …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9385,13 +8743,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module provides students with the opportunity to undertake an in-depth investigation into issues within the field of business and finance. They are required to prepare a…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9458,13 +8811,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module provides students with the opportunity to undertake an in-depth investigation into issues within the field of business and finance. Preparation for the dissertation…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9531,13 +8879,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Critical Futures explores how organisational actors can influence individual, organisational, and systemic change in pursuit of a more inclusive, sustainable world. Drawing on a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9601,13 +8944,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This is a directed reading module that will enable students to expand their understanding of the field of knowledge in Management Studies that will be the focus of their MRes…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9683,13 +9021,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This is a directed reading module that will enable students to expand their understanding of the field of knowledge in Management Studies that will be the focus of their MRes…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9768,12 +9101,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module is an examination of philosophical, and especially ethical, issues that arise concerning the purpose of, and conduct of, business in the context of the liberal…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9821,12 +9150,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9865,13 +9190,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module invites students to develop a deep appreciation of grand challenges facing economies and societies, and the ways in which managing and organising are implicated in the …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9934,13 +9254,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will examine how views of leadership have changed since the Industrial Revolution, from mechanistic, behavioural models of behaviour to modern leadership frameworks…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10004,13 +9319,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module has two interlinked elements. First, there will be an examination of the issues that emerge from the challenges of managing for (1) biodiversity, (2) global climate…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10074,12 +9384,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10122,12 +9428,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is an examination of philosophical, and especially ethical, issues that arise concerning the purpose of, and conduct of, business in the context of the liberal…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10174,13 +9476,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Entrepreneurship: Theory and Practice imparts experiential awareness of ‘for-profit’ business development and the mind-set involved in entrepreneurial behaviour. It introduces…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10244,13 +9541,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module explores the complexities of organisational change, integrating theory and practice to prepare students for leadership and consultancy roles. Students will gain a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10314,13 +9606,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module examines the effects of marketing on societies. The powerful social and cultural influence of marketing has been widely recognised. Through branding and communication…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10384,12 +9671,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "Advertising is a permeating creative presence in developed economies, and an important, evolving part of organisations' marketing activities and integrated marketing…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10434,13 +9717,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Advertising is a permeating creative presence in developed economies, and an important, evolving part of organisations' marketing activities and integrated marketing…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10504,12 +9782,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module focuses on the practical application and critical evaluation of digital marketing strategy in a contemporary business context. Students will plan, implement, and…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10555,12 +9829,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module addresses the need for leaders(-to-be) to be able to consider how they address their self-awareness and self-development in order to cope with the challenges and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10608,12 +9878,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides a comprehensive exploration of key leadership theories and practices. It ensures students have a solid foundation to prepare them for success in the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10661,12 +9927,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Leadership Decision Making provides a critical examination of the nature of human judgement and the rationality of choice with a particular focus on leaders. The module explores…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10714,12 +9976,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10761,13 +10019,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This is a proposed new module for the forthcoming new Master Programme in Enterprise and Entrepreneurship. The module is primarily aimed at explicating the important role of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10830,12 +10083,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This the capstone module for the MSc in Leadership. It provides students with a way to integrate, develop and apply their learning across the degree in a real-world project.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10882,14 +10131,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10945,12 +10188,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Non-Governmental Organisations (NGOs) occupy distinctive roles within society, economy, and polity. Situating these organisations within their different historical and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10997,13 +10236,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Entrepreneurship is often taught within the context of new venture creation. This module will take a more holistic approach and will consider the role of the entrepreneur in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11066,13 +10300,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Entrepreneurial Mindset: From Design Thinking to New Venture Development draws on the principles of design thinking to support students in developing a business idea. Students…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11136,13 +10365,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module is primarily aimed at explicating the important role of finance to enable entrepreneurial activities. Deciding the best capital structure for a business is a key…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11206,13 +10430,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Innovation is essential for driving change and ensuring organisational competitiveness and renewal. However, it remains misunderstood or misapplied. This module explores the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11275,13 +10494,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This is the capstone module for the MSc in Entrepreneurship. During the module students will identify and respond to an entrepreneurial challenge. This could involve the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11345,12 +10559,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module is an intensive preparatory module designed to equip students in the Master of Public Policy programme with a common foundation in programming, mathematical reasoning, …",
-      "semesters": [
-        "Summer before start of session"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Summer before start of session"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11396,12 +10606,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will provide foundational training in techniques for policy analysis on experimental and non-experimental data. The goal for students is to emerge from the module with …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11450,12 +10656,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will introduce students to the basics of microeconomics with an emphasis on policy applications. The emphasis will be on case studies that illustrate the key…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11504,12 +10706,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is a survey of topics relating to the ethics of policy and policy research. These may include: (1) Human subjects research ethics with a focus on policy experiments,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11555,12 +10753,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Cost–Benefit Analysis introduces students to the economic principles and empirical methods used to evaluate public policies and projects. The course develops a rigorous framework…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11609,12 +10803,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is a preparatory professional training course that equips students with the skills, norms, and workflows required to succeed in the subsequent Policy-in-Practice…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11659,12 +10849,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Machine Learning for Policy Analysis equips students with practical skills to apply modern machine learning techniques to real-world public policy problems. The module covers…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11713,12 +10899,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module develops students’ ability to design, measure and interpret survey data for public policy, with a focus on applied decision-making and ethical evidence use. Building…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11776,12 +10958,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module examines how education policies affect learning, adult outcomes, and inequality through their impact on the educational production function and access to higher…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11842,12 +11020,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces students to empirical methods for analysing armed conflict and terrorism, with a focus on applied policy evaluation. Students use modern causal inference…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11905,12 +11079,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module examines health and healthcare policy using causal evidence and microeconomic analysis, with a focus on evaluating how policy interventions affect health outcomes,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11972,12 +11142,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module examines the economic, social and political impacts of immigrant and refugee flows, with a focus on applied policy analysis and empirical evidence. Students study…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12035,12 +11201,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The Policy-in-Practice Project involves a sustained, client-based policy project undertaken in small teams of 3–4. Students produce a professional policy report, such as an…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12088,13 +11250,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Through a series of interactive seminars this two-part module explores the fundamental skills required by all social scientists. In part one, the module will focus on how to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

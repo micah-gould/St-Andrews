@@ -1,4 +1,4 @@
-export type SavedStateRole = 'view' | 'edit' | 'admin' | 'owner';
+export type SavedStateRole = "view" | "edit" | "admin" | "owner";
 
 export type SavedStateSlice = {
   selected: string[];
@@ -38,7 +38,7 @@ export type SavedStateRecord = {
 
 export type SavedStateShare = {
   id: string;
-  role: Exclude<SavedStateRole, 'owner'>;
+  role: Exclude<SavedStateRole, "owner">;
   userId?: string;
   user?: SavedStateOwner | null;
   createdAt?: string | Date;
@@ -47,7 +47,7 @@ export type SavedStateShare = {
 
 export type SavedStateAccessRequest = {
   id: string;
-  requestedRole: Exclude<SavedStateRole, 'owner'>;
+  requestedRole: Exclude<SavedStateRole, "owner">;
   status?: string;
   message?: string | null;
   userId?: string;
@@ -64,7 +64,7 @@ export type SavedStateMeta = {
   hasAccess?: boolean;
   pendingRequest?: {
     id: string;
-    requestedRole: Exclude<SavedStateRole, 'owner'>;
+    requestedRole: Exclude<SavedStateRole, "owner">;
     createdAt: string | Date;
   } | null;
 };

@@ -1,16 +1,24 @@
 // Email helpers for access-request notifications.
 // Falls back to console logging when RESEND_API_KEY is not set.
 
-import { Resend } from 'resend';
+import { Resend } from "resend";
 
 const resendApiKey = process.env.RESEND_API_KEY;
-const fromAddress = process.env.EMAIL_FROM || 'onboarding@resend.dev';
+const fromAddress = process.env.EMAIL_FROM || "onboarding@resend.dev";
 const resend = resendApiKey ? new Resend(resendApiKey) : null;
 
 function escapeHtml(s) {
-  return String(s || '').replace(/[&<>"']/g, (ch) => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
-  }[ch]));
+  return String(s || "").replace(
+    /[&<>"']/g,
+    (ch) =>
+      ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      })[ch],
+  );
 }
 
 export async function sendAccessRequestEmail({
@@ -23,13 +31,15 @@ export async function sendAccessRequestEmail({
   message,
   manageUrl,
 }) {
-  const displayRequester = requesterName ? `${requesterName} (${requesterEmail})` : requesterEmail;
+  const displayRequester = requesterName
+    ? `${requesterName} (${requesterEmail})`
+    : requesterEmail;
   const subject = `Access request for "${stateName}"`;
-  const greeting = ownerName ? `Hi ${ownerName},` : 'Hello,';
+  const greeting = ownerName ? `Hi ${ownerName},` : "Hello,";
   const textBody = `${greeting}
 
 ${displayRequester} is requesting ${requestedRole} access to your saved plan "${stateName}".
-${message ? `\nTheir note:\n${message}\n` : ''}
+${message ? `\nTheir note:\n${message}\n` : ""}
 Review this request: ${manageUrl}
 
 You can approve, change the level, or deny in the Share dialog.`;
@@ -41,7 +51,7 @@ You can approve, change the level, or deny in the Share dialog.`;
       <p><strong>${escapeHtml(displayRequester)}</strong> is requesting
       <strong>${escapeHtml(requestedRole)}</strong> access to your saved plan
       <strong>${escapeHtml(stateName)}</strong>.</p>
-      ${message ? `<blockquote style="border-left:3px solid #ccc;margin:16px 0;padding:4px 12px;color:#555;">${escapeHtml(message)}</blockquote>` : ''}
+      ${message ? `<blockquote style="border-left:3px solid #ccc;margin:16px 0;padding:4px 12px;color:#555;">${escapeHtml(message)}</blockquote>` : ""}
       <p style="margin:24px 0">
         <a href="${manageUrl}"
            style="background:#111;color:#fff;text-decoration:none;padding:10px 18px;border-radius:6px;display:inline-block;">
@@ -53,7 +63,9 @@ You can approve, change the level, or deny in the Share dialog.`;
   `;
 
   if (!resend) {
-    console.log('\n[email:dev-fallback] Access request email (no RESEND_API_KEY set)');
+    console.log(
+      "\n[email:dev-fallback] Access request email (no RESEND_API_KEY set)",
+    );
     console.log(`  To: ${to}`);
     console.log(`  From requester: ${displayRequester}`);
     console.log(`  Role: ${requestedRole}`);
@@ -70,8 +82,8 @@ You can approve, change the level, or deny in the Share dialog.`;
     html: htmlBody,
   });
   if (error) {
-    console.error('[email] access-request send failed', error);
-    throw new Error('Failed to send email.');
+    console.error("[email] access-request send failed", error);
+    throw new Error("Failed to send email.");
   }
   return data;
 }

@@ -1,11 +1,7 @@
 {
   "id": "international-relations",
   "name": "International Relations",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "IR1005",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module introduces students to the foundational features of the academic discipline of International Relations. It begins by considering what it means to study global politics …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -82,13 +73,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module looks at the way states make foreign policy and engage in diplomacy to implement foreign policy. The module introduces some of the theories used to explain and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -153,12 +139,8 @@
       "level": 1000,
       "credits": 12,
       "summary": "",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -199,12 +181,8 @@
       "level": 1000,
       "credits": 12,
       "summary": "",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -245,13 +223,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "Theory is central to the discipline of International Relations. It is theory that distinguishes the field from the study of history, current affairs or journalism and makes the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -326,13 +299,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "Building on IR2005's discussion of theoretical approaches to International Relations, this module will explore the process of studying International Relations, via a close…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -398,14 +366,8 @@
       "level": 2000,
       "credits": 5,
       "summary": "Violent extremism, radicalisation, and counter-extremism are rapidly growing areas of scholarship and practice which are increasingly difficult to separate from the digital…",
-      "semesters": [
-        "Flexible study",
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study", "Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -469,14 +431,8 @@
       "level": 2000,
       "credits": 5,
       "summary": "This short course introduces participants to the basics of critical infrastructure protection (CIP) against a range of threats with a focus on human actors: while acts of ‘Mother…",
-      "semesters": [
-        "Flexible study",
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study", "Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -540,14 +496,8 @@
       "level": 2000,
       "credits": 5,
       "summary": "This module focuses on some well-documented individual case studies that help students explore lone actor violence. It does so by considering both the attacker’s own…",
-      "semesters": [
-        "Flexible study",
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study", "Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -611,14 +561,8 @@
       "level": 2000,
       "credits": 5,
       "summary": "This short course is not open to students matriculated on a University degree programme. This short course introduces the students to debates around the logic of terrorism, the…",
-      "semesters": [
-        "Flexible study",
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study", "Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -682,12 +626,8 @@
       "level": 2000,
       "credits": null,
       "summary": "This short course is not open to students matriculated on a University degree programme. This taster short courses provides a working introduction to the study of terrorism and…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -735,13 +675,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the politics of international economic relationships, looking at production, trade and finance activity in both developed and developing economies. The…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -807,14 +742,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module investigates international law as a paradigm for critically analysing international relations. It starts from an assumption that international politics is so…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -880,12 +809,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module will be descriptive, explanatory, and evaluative. The first week of class will be devoted to a brief survey of theories of foreign policy, focusing on a range of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -935,12 +860,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module is an introduction to African politics. Contemporary Africa is complex and varied: the continent has over fifty states with diﬀerent histories, colonial experiences,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -990,12 +911,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module provides a general overview of international security affairs using a variety of conceptual perspectives, ranging from orthodox realist and liberal approaches to more…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1045,13 +962,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The acknowledgement at the 2022 COP 27 meeting of a relationship between colonialism and climate change represents a reorientation in global politics to the impact of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1117,12 +1029,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Irregular warfare, insurgency and counter-insurgency are currently hotly debated topics in International Relations. Academic accounts of the ‘hybrid warfare’ and ‘asymmetric’…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1172,12 +1080,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module introduces students to the complex debates concerning human rights, and in particular to the interrelationship between human rights in theory and in practice. While…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1227,13 +1131,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This inter-disciplinary module introduces students to various conceptual frameworks for thinking about the war on terror in an age of globalisation, along with a range of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1299,12 +1198,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Debates concerning globalisation have intensified since 9/11, the US-led intervention in Afghanistan and Iraq, the emergence of various Islamist groups that proclaim jihad, the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1354,13 +1249,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module provides a detailed introduction to the theory and practice of conflict management, resolution, and transformation in Africa. Focusing on United Nations peace…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1426,12 +1316,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Understanding how and why conflict emerges, and how it may be addressed are crucial issues in the international system. The module not only addresses conventional themes in peace…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1481,12 +1367,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module coordinatorator would like to make a small amendment to the module descriptor. This is the NEW description:This module examines the European Union (EU) from a variety…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1548,13 +1430,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module introduces students to international political theory, or the use of ethical, political and legal theory to evaluate various international practices. Unlike IR theory, …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1620,13 +1497,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module interrogates the nature of violence and associated representational dilemmas about how to approach and understand violence in research and practice. It explores…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1692,14 +1564,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The State is one of the most foundational units of analysis in International Relations, but where does it come from? This module explores the historical, and often violent,…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1765,13 +1631,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Bloodshed is what tends to keep divided societies in the headlines: yet the nature of this violence often remains under-examined as a political force in its own right. This module …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1837,12 +1698,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will provide an introduction to the major foreign policy issues and challenges facing the People's Republic of China in the post-cold war world. The primary focus will …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1892,12 +1749,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module is designed to offer students who have undertaken some previous study in the area of International Relations an introduction to the theories and concepts of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1947,12 +1800,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The study of international relations (IR) requires that students have an understanding of at least some of the literature and examples that are commonly used by international…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2000,12 +1849,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module presents a detailed introduction to the process of conflict transformation in Latin America since the Third Wave of democratisation in the region during the 1980s. The…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2055,13 +1900,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module aims to explore how security is conceptualised within the disciplines of Critical Security and Geopolitical Studies. The point of departure is to explore how security…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2127,12 +1967,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module investigates the meaning, role, significance, value or ethics of political leadership in the western tradition. Its overall objective is to enable students to analyse…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2182,13 +2018,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The goal of this module is to introduce students to academic debates and theoretical frameworks that give insights into the impact of armaments (their development, characteristics …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2254,14 +2085,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module introduces students to academic debates about relations between governments and military organisations. Armed forces are both essential to states' security, yet also…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2327,13 +2152,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Rebellion is the most prevalent form of conflict in the contemporary world. Massive protests, insurgencies, and civil wars bring with them the potential for transformative…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2399,12 +2219,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module is designed to place the United Nations in the broader perspective of contemporary international relations and to guide students towards an understanding of both the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2454,12 +2270,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module provides an overview of organised crime and corruption and its effects on the political, economic, and social development of countries around the world. It will discuss …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2509,12 +2321,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "While discourses of globalisation posit a post-national or borderless world and the withering of the nation-state, this is arguably not a condition that the 1 in every 140 people…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2564,12 +2372,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "As the world becomes increasingly inter-connected new concerns and issues crowd the international agenda and more and more actors can be seen to participate in international…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2619,13 +2423,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "How can we categorise different types and dimensions of armed conflicts in Africa? What are their underlying and proximate causes? And what can be done to resolve them and achieve …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2691,14 +2490,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module focuses on contemporary international institutions—norms, rules, and organisations—aimed at addressing matters of pressing global concern. Most fundamentally, the…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2764,13 +2557,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "A thriving research area of foreign policy analysis has taken seriously the impact individuals can have on international relations. Political Psychology focuses on the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2839,12 +2627,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module examines the politics of contemporary trade and investment agreements. The module begins with a brief intellectual history of free trade and protectionist thought,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2894,13 +2678,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Hot economics, cold politics' is a phrase used by scholars since the 1990s to describe the relations between states in Northeast Asia. It captures the counter-theory experience of …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2966,13 +2745,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module engages with feminist theories to shed light on key pillars of global politics. Acknowledging that neither feminisms nor theories are monolithic, the readings and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3038,14 +2812,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will give students an in-depth understanding of the recent conflict in Northern Ireland. Students will be introduced to a range of theoretical perspectives and…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3099,13 +2867,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Colonialism and imperialism were among the most important and defining processes of the last few centuries. Western imperialism remade both ‘East’ and ‘West’, and it served to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3172,12 +2935,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module covers the research, concepts, and current issues in the area of foreign policy analysis -- an identifiable, research active, and policy-relevant subfield within the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3236,12 +2995,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The Caribbean is central to understanding world politics. It is often understood through perspectives developed in and through knowledge holders in colonial centres. This module…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3289,12 +3044,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The world has seen for years a rise in grassroots movements and campaigns aimed at empowering citizens. Collective political action has been used to promote the rights of women…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3353,12 +3104,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2027-28"
-      ],
+      "semesters": ["1"],
+      "years": ["2027-28"],
       "availability": {
         "2025-26": false,
         "2026-27": false,
@@ -3399,12 +3146,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "What are national minorities? And why is it important to study state policies towards these groups in order to understand nationbuilding and security practices in the 20th and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3451,12 +3194,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Despite the drug trade's vast economic revenue, its huge multinational and multicultural workforce, and centrality to public policy, its illegalisation fractures our understanding …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3504,12 +3243,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module explores the processes of collective identity formation and is role in conflict; students will analyse the processes by which individuals form group attachments and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3554,12 +3289,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will look at the role that the US played in Southeast Asia between 1945 and 1975 with a particular focus on the first and second Indochinese Wars. The module will not…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3625,14 +3356,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the evolution of the Soviet and then Russian political system since 1985. After an introduction to the communist system, we briefly explore Gorbachev’s…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3698,12 +3423,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "With speed and surprise, the East European revolutions of 1989 and the collapse of the USSR in 1991 changed the European and international security order. This module examines the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3753,13 +3474,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3820,13 +3536,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Establishing a security framework for Asia that will limit the risks of major war is one of the great challenges in contemporary international politics. This module will examine…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3892,13 +3603,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module builds on the highly successful Emerging Researchers Programme developed by the Third Generation Project, to provide a module for students with a strong interest in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3974,12 +3680,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "We live, we are told, in an increasingly mobile world, and yet the ability to move is experienced differentially: not everyone has the same access to 'movement' or experiences…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4038,12 +3740,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the interplay between secret intelligence and international relations during the 20th century and beyond. It will do so by examining a series of historical…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4102,14 +3800,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Forests are essential to life on earth. They support biodiversity, mitigate climate change, provide resources for economic activity along with food, homes and medicine for forest…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4184,13 +3876,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module looks at the wars that marked the end of European Empires from 1945 to 1997. In particular, it will focus on conflicts in Southeast Asia and Sub-Saharan Africa. The…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4256,14 +3943,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "What is the European Union(EU) and how does it work? This module will introduce students to the study of the EU, and enable them to develop the skills and knowledge to engage in a …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4341,14 +4022,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This seminar offers a comprehensive exploration of state terror's evolution, motivations, and tactics across centuries and continents. Through classroom discussions and…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4414,13 +4089,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "What is the relationship between Strategy and Technology? How does technological change affect strategy? Can countries pursue specific technologies to execute their strategies?…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4486,13 +4156,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module examines conflict in the modern Middle East looking at the causes, development and consequences of different types of conflict in the region including interstate,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4558,14 +4223,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module examines the modern political history of the Middle East, concentrating on the period since 1945. It examines how the pre-modern historical heritage of the region, the …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4631,12 +4290,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module examines Gulf politics and modernity through the international. Drawing on international historical sociology, the module investigates various instances, through which …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4686,12 +4341,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module examines the international relations of the Middle East since the late Ottoman period, exploring how the region has been constituted through global structures of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4739,13 +4390,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module examines how political leaders change over time, as they govern states and other key actors in international relations. The module focuses on a particular, negative…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4811,13 +4457,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The dissertation will be not more than 10,000 words. Topics must be capable of being supervised by established staff and each student will (a) submit a dissertation outline to the …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4883,13 +4524,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module is part of ID4002 'Communication and Teaching in Arts and Humanities' in which students gain substantial experience of a working environment. This component offers the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4959,12 +4595,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The field of international relations has paid significant attention to grand strategy (countries' courses to achieve high-level goals) and military effectiveness (armed forces'…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5012,12 +4644,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module examines key words we encounter in the language of politics; it pays special attention to terms such as 'power', 'sovereignty', 'rights', 'liberty', 'equality',…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5064,12 +4692,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Fascism is often spoken of today but is rarely examined as a political ideology. There are frequent references to fascism and the far right, but the relationship is rarely…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5114,12 +4738,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module examines the formulation of multilateral agreements to manage global policy problems in a variety of issue-areas such as environment, new technologies, and sustainable …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5168,13 +4788,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module looks at the development experience of the Southeast Asian region. Southeast Asia has one of the best records in creating economic growth and reducing poverty --…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5241,12 +4856,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will analyse the various challenges to the concept of international security since the end of the Cold War, facilitate critical thinking about the changing meaning of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5297,12 +4908,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module considers ethical and practical dilemmas facing policymakers, governments and citizens in the aftermath of war, including civil war (the norm since 1990). The ‘wrong’…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5353,12 +4960,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Violent extremism, radicalisation, and counter-extremism are rapidly growing areas of scholarship, and policy and practice. They are also highly contentious. This module examines…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5408,13 +5011,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "There are more people than ever before who believe strongly in the necessity of the inclusion of human rights considerations when thinking about actions at every level of societal …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5481,13 +5079,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The current discourse on war in International Relations and Security Studies is dominated by the assumption that armed conflict has changed dramatically over the past few decades. …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5554,12 +5147,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module aims to examine the many forms of activism and resistance that take place in the international system, with an emphasis upon those whose claims for agency may most…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5610,13 +5199,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The Caucasus region has suffered some of the worst wars, terrorist attacks and violent state-led counter-insurgencies in recent history. This module examines the contending…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5686,13 +5270,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module examines the strategic, ethical, and legal considerations inherent to leadership decisions over the deployment of force abroad. The first half of the module explores…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5759,13 +5338,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module focuses on the role art and aesthetics play in conflict. Aesthetic forms such as photography, films, paintings, music, and poetry are often used to inspire, motivate,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5832,13 +5406,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will explore European and transatlantic security affairs using a variety of conceptual perspectives. The module will cover both contemporary and historical case…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5905,12 +5474,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module explores the complex relationship between music and politics, focusing on the various ways in which political thinkers, governments, politicians and activists have…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5961,13 +5526,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "As the world becomes increasingly interconnected, and faced with new types of threats and insecurities, questions of ethics or how we should act, which rely on some notion of who…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6034,13 +5594,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The aim of this course is to discuss the major shifts and developments in modern strategic thought and practice, as well as some of the powerful factors that determined and are…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6107,13 +5662,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module explores the political and social thought of the twentieth century - a century of turmoil and paradox. Rather than the stereotype image of ivory-tower intellectuals…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6180,12 +5730,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The module offers an investigation of different processes of regionalism across the globe, with regionalism understood as the creation of territorially contiguous patterns of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6236,12 +5782,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The module discusses the links between energy and international politics and security in and around the Caspian Region. The module has three main objectives. First, it…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6292,14 +5834,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The study of international relations has predominantly focused on supposedly 'official' actors, sites and practices. But what about 'ordinary' individuals? What about their…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6366,14 +5902,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Economy of Anger' explores how the competitive and adversarial ethos of modern capitalism encourages, and may require, violent separations and distinctions within and among social …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6440,13 +5970,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module invites students to reflect on the different ways in which scholars have tried to explain the phenomenon of terrorism. It explores the most important explanations in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6509,14 +6034,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The module situates LGBTQ citizens in global politics, analysing their multiple identities and positions in International Relations as targets of violence, as activists, and as…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6582,14 +6101,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module explores important moments in the development of international political thought through the lens of the interrelation between the concepts of order and crisis in…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6655,12 +6168,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module invites us to engage with nature and place as crucial forces that shape our understanding and experience of world politics. It is not a module about climate change,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6707,13 +6216,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will give students an opportunity to understand how 'race', caste and other forms of social hierarchy have been central to the shaping of the modern world. We will…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6788,13 +6292,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Outer space is central to life on Earth. Access to space is rapidly expanding, with a growing number of states and commercial operators involved in space launch and myriad…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6860,13 +6359,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module uses the genre of speculative fiction (which includes fantasy, science fiction, magical realism, and weird fiction) to explore global politics. It introduces students…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6932,13 +6426,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This course explores the emergence and resolution of separatist movements around the world—those groups of individuals who reject their continued membership in an existing…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7004,13 +6493,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Popular culture has provided a platform to depict, examine and challenge our understandings of political violence, in a variety of ways. This module engages with popular culture…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7076,12 +6560,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The aim of this module is to trace the genealogy of contemporary counterinsurgency warfare. Taking a thematic and comparative approach, each week will juxtapose historical case…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -7140,13 +6620,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "We live in an increasingly complex world. Dormant inter-state wars are flaring up, intrastate insurgencies, violent politics, and terrorism are taking internationalized forms and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7212,13 +6687,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Climate disaster is here – what is to be done? This module engages with critical theories to shed light on the climate crisis from multiple intersecting perspectives. Key…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7284,13 +6754,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module investigates the role of war in constituting the social, political, and cultural fabric of the world we inhabit. Yet, while war makes and remakes politics, societies,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7356,14 +6821,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module critically examines categories of the social sciences and humanities that are usually simply presupposed and ‘applied’, and which, despite their Western or European…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7430,12 +6889,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -7476,12 +6931,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -7522,12 +6973,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module explores the politics, political economy, and foreign relations of the Islamic Republic of Iran since the 1979 Revolution. It traces how a revolutionary state and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -7575,13 +7022,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module examines the causes and consequences of political order and violence in the Middle East. What constitutes a political order? Why and how are political orders…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7648,13 +7090,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module looks at Britain's role in the Iraq War of 2003. In order to do this, it goes back and looks at Britain's policy towards and involvement in Iraq and the Middle East…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7721,13 +7158,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The dissertation must consist of approximately 10,000 - 12,000 words of English prose on a topic agreed between the student and two appropriate members of staff (who act as…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7792,13 +7224,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module introduces students to important issues and key debates in security studies, narrowly conceived as the study of the threat, use, and control of military force. It…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7859,12 +7286,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module addresses: conceptual and definitional issues concerning terrorism; the relationship of terrorism to other forms of political violence; the origins, dynamics and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -7909,13 +7332,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will examine the challenge to traditional conceptions of security presented by the emergence of Critical Security Studies since the end of the Cold War. Students will…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7976,13 +7394,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module provides a political economy perspective on conflict in a developing economy, introducing concepts and theoretical approaches of political economy and their…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8042,12 +7455,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module aims to familiarise the students with how gender is a social construction that privileges certain actors over and against others. Bluntly, gender, similarly to race…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8091,13 +7500,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "International legal discourses of human rights have evolved markedly since 1945 with the codification, implementation and enforcement of human rights as international public law.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8158,13 +7562,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module examines the causes and consequences of political order and violence in the Middle East. What constitutes a political order? Why and how are political orders…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8225,13 +7624,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Military forces are called upon to defend against armed aggression, both foreign and domestic. Yet militaries can also disobey civilian leaders, allow governments to fall, and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8294,12 +7688,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "IR has traditionally focused on supposedly 'official' actors, sites and practices. But increasingly IR is exploring 'ordinary' individuals, their 'mundane' practices and quotidian …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -8346,13 +7736,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module introduces students to feminist political economy. The first part of the module will cover key concepts and theories, including social reproduction. The second part of …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8415,12 +7800,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The aim of this course is to trace the genealogy of contemporary counterinsurgency warfare. Taking a thematic and comparative approach through which both historical case studies…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8467,13 +7848,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Research in the field of Foreign Policy Analysis takes seriously the impact individual leaders can have on foreign policy and international relations. Political Psychology focuses …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8537,12 +7913,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module examines outer space as a key domain for contemporary global security. Access to space is rapidly expanding, with a growing number of state and non-state actors…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -8590,12 +7962,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "‘Race’ and racism not only shaped the social contours of many western countries, they also underpinned an international order dominated by a few European countries possessed of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -8643,12 +8011,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "In the disruptive world of today there is little on which we can depend in shaping policy. In Germany, the search for stability has been a constant theme in politicians’…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -8696,13 +8060,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff, who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8755,13 +8114,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module begins by examining the concept of 'international theory' as it has developed within International Relations since 1945 and introduces students to the broader idea of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8822,13 +8176,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module introduces students to the methods and interpretive approaches that can be taken in the study of international political theory. It surveys a range of approaches to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8889,12 +8238,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module addresses a number of classical texts in western political thought on the themes of friendship and enmity. Its main aim is to alert students to the link between…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8937,13 +8282,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will explore the role of constitutional thinking at the global level. It will allow students to read theorists of constitutional thought - ancient, medieval and modern …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9004,13 +8344,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module gives students an opportunity to study forms of social hierarchy and injustice based on race, caste and descent. We will read key texts in political theory that…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9071,12 +8406,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module aims to give students a critical theoretical understanding and practical analysis of the meaning and significance of climate justice within the international system.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9123,13 +8454,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module focuses on major themes in the study of international security and applies them to the study of the Middle East and Central Asia. These addressed may include war and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9190,12 +8516,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Dramatically and unexpectedly, Central Asia was thrust to independence in 1991. Of all the Soviet republics, the five of Central Asia - Kazakhstan, Kyrgyzstan, Tajikistan,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9239,12 +8561,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module examines the political economies of the Middle East and North Africa in relation to global capitalism and imperial power. It explores how colonial incorporation, state …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2027-28"
-      ],
+      "semesters": ["2"],
+      "years": ["2027-28"],
       "availability": {
         "2025-26": false,
         "2026-27": false,
@@ -9291,13 +8609,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module examines conflict in the modern Middle East looking at the causes, development and consequences of conflict in the region including interstate, civil war, ethnic,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9360,12 +8673,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module examines the arena of Middle East international relations by looking at the formation of the Middle East regional system, its special characteristics, and the impact…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9409,13 +8718,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module examines one of the world's most fascinating yet least understood regions. The Caucasus are rich in history, languages and culture, having developed as the crossroads…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9476,13 +8780,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module combines International Relations Theory and Central Asian studies, and examines how norms, rules and institutions regulating international politics at the global…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9545,13 +8844,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module examines contemporary Gulf politics in a broader global context. Drawing on international historical sociology, the module investigates various instances, through…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9614,13 +8908,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This is a required module for all MRes, PhD and MPhil students in the School of International Relations. It is designed to assist students in understanding the purpose and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9671,13 +8960,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module situates mediation concepts, assumptions, and practices within the fields of critical, feminist, and post-/de-colonial peace and conflict studies. It applies insights…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9743,13 +9027,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module analyzes critical approaches to peacebuilding. Key questions include: What are the meanings of peace, and how might the study of peacebuilding differ from the study of …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9816,12 +9095,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module explores the relationship between conflict - understood in broad terms - and its relationship to gender and to generation. In doing so this module argues for the need…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9865,13 +9140,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "East Asia (China, Japan, North and South Korea, the ASEAN States and the US) presents some of the greatest traditional and non-traditional security challenges in the world today.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9934,12 +9204,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Today, millions of people are caged in prisons. Those are often the society's most oppressed and marginalized communities. Prisons have for long been the response to almost all…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9986,12 +9252,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will examine the origins, motivations, and dynamics of armed governance. Once considered purely the domain of states and state- like entities, the last several decades …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10038,13 +9300,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The module provides students with essential knowledge of strategy and military history. It is taught in tandem with the second core module of the MLitt in Strategic Studies, which …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10109,13 +9366,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The module provides students with essential knowledge of strategic theory and the history of strategic thought. It contributes to equipping students with an overview of the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10176,13 +9428,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will look at the theory and practice of maritime and naval warfare from the Napoleonic period to the present day. The module will encompass a mix of theory and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10245,12 +9492,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will examine how the United States has entered, fought and then left the many wars in which it has been involved. The hope is not to come up with some overarching…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10297,14 +9540,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This core module introduces students to the challenges and opportunities in researching conflict and peace. It seeks to answer a range of important core questions such as: What…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10365,13 +9602,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This core module introduces students to international security while emphasising the connection between theory and practice. It presents essential theoretical approaches,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10432,12 +9664,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This core module introduces students to key definitions, debates, and paradigms in the study of war and strategy. It seeks to answer a range of core questions: What is war? Where…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10483,12 +9711,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces students to feminist approaches to conflict and security. It presents gender as essential to understanding and evaluating patterns of violence, conflict and …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10534,12 +9758,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module examines the politics, economics, and culture of the drug trade in the Americas. It explores how the definition of “drugs” has shifted over time, how the role of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10586,12 +9806,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "What are national minorities? And why is it important to study state policies towards these groups in order to understand nationbuilding and security practices in the 20th and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10641,12 +9857,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Sanctions are one of the tools available to States within the international security repertoire. They have been described as sitting “between war and words” and lauded as a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10692,12 +9904,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This optional module invites students to examine how war has been imagined, predicted, and planned for across time and space. Grounded in multi-disciplinary debates and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10744,12 +9952,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces terrorism and political violence through conceptual debates, historical context, and contemporary analysis. Students explore definitions, justifications,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10796,12 +10000,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides an advanced introduction to social science research methods tailored to the study of terrorism and extremism. It guides students through the full research…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10848,12 +10048,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides an overview of different forms of terrorism over the past 150 years, with a particular focus on the period following the Second World War. It equips students…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10899,12 +10095,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides an overview of state terror over the past century, while also considering earlier episodes that may qualify as such, even before the emergence of the modern…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10951,12 +10143,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "One of the central dilemmas of global and domestic politics in the twenty first century has been understanding if and how states can counter terrorism while respecting and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11003,13 +10191,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will present core conceptual issues in the study of terrorism and political violence, examining the causes of terrorism, the processes involved in engaging in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11070,13 +10253,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will present appropriate research methods to enable students to critically understand the professional literature, and to lay the foundations to enable students to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11137,14 +10315,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will provide students with an overview of the evolution, characteristics, and decline of terrorist movements and campaigns since 1945 by looking at different forms of…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11207,12 +10379,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module takes a multi-faceted approach to studying state responses to terrorism. It addresses the effectiveness and crucially, the ethical implications of particular kinds of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -11259,13 +10427,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The goal of the module is to familiarise students with different approaches that seek to explain how ethnicity and nationhood are created and maintained, how different forms of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11328,13 +10491,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "What is the most appropriate response to extremism? How should extremism, as distinct from terrorism, be understood? How might theoretical, empirical and experiential knowledge be …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11397,12 +10555,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module problematizes climate change. It identifies the actors, systems and power structures that resist and/or facilitate its address, while charting the major attempts of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -11450,12 +10604,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module gives students the opportunity to apply the conceptual and theoretical knowledge gained in other modules to selected areas of application reflecting where possible the …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -11498,12 +10648,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module takes a multi-faceted approach to studying state responses to terrorism. It addresses the effectiveness and crucially, the ethical implications of particular kinds of…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -11554,12 +10700,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module allows students to undertake an in-depth investigation into issues within or related to the field of Terrorism Studies and to prepare a 15,000-word (approximately)…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -11621,13 +10763,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module allows students to undertake an in-depth investigation into issues within or related to the field of Terrorism, Extremism and Political Violence and to prepare a…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11688,13 +10825,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module allows students to undertake an in-depth investigation into issues within or related to the fields of terrorism and political violence and to prepare an approximately…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11756,13 +10888,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This seminar-based module will introduce you to the basic theoretical approaches in the social sciences, encourage you to make connections between the methodological and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

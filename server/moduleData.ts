@@ -1,6 +1,14 @@
-import { describeExpression, extractModuleCodes } from './catalogs/relationship-parser';
-import { catalogs } from './catalogs/index';
-import type { GraphEdge, GraphNode, PrereqRule, RelationshipExpression } from '../src/types/graph.types';
+import {
+  describeExpression,
+  extractModuleCodes,
+} from "./catalogs/relationship-parser";
+import { catalogs } from "./catalogs/index";
+import type {
+  GraphEdge,
+  GraphNode,
+  PrereqRule,
+  RelationshipExpression,
+} from "../src/types/graph.types";
 
 type CatalogNode = GraphNode & {
   availability?: Record<string, boolean>;
@@ -33,11 +41,17 @@ type CatalogData = {
 };
 
 const typedCatalogs = catalogs as CatalogData[];
-const catalogById = new Map(typedCatalogs.map((catalog) => [catalog.id, catalog]));
+const catalogById = new Map(
+  typedCatalogs.map((catalog) => [catalog.id, catalog]),
+);
 const nodeIndex = buildNodeIndex(typedCatalogs);
 
 export function listCatalogs() {
-  return typedCatalogs.map((catalog) => ({ id: catalog.id, name: catalog.name, years: catalog.years || [] }));
+  return typedCatalogs.map((catalog) => ({
+    id: catalog.id,
+    name: catalog.name,
+    years: catalog.years || [],
+  }));
 }
 
 export function getCatalog(id) {
@@ -45,7 +59,10 @@ export function getCatalog(id) {
 }
 
 export function getGraphData(catalog, year) {
-  const selectedYear = year && (catalog.years || []).includes(year) ? year : (catalog.years || [])[0] || null;
+  const selectedYear =
+    year && (catalog.years || []).includes(year)
+      ? year
+      : (catalog.years || [])[0] || null;
   const graph = buildCatalogGraph(catalog, selectedYear);
 
   return {
@@ -57,8 +74,12 @@ export function getGraphData(catalog, year) {
 }
 
 function buildCatalogGraph(catalog: CatalogData, selectedYear: string | null) {
-  const catalogNodeIds = new Set<string>((catalog.nodes || []).map((node) => node.id));
-  const selectedCatalogNodeMap = new Map<string, CatalogNode>((catalog.nodes || []).map((node) => [node.id, node]));
+  const catalogNodeIds = new Set<string>(
+    (catalog.nodes || []).map((node) => node.id),
+  );
+  const selectedCatalogNodeMap = new Map<string, CatalogNode>(
+    (catalog.nodes || []).map((node) => [node.id, node]),
+  );
   const graphNodeIds = new Set<string>(catalogNodeIds);
   const queue = [...catalogNodeIds];
 
@@ -78,7 +99,14 @@ function buildCatalogGraph(catalog: CatalogData, selectedYear: string | null) {
 
   const nodeIds = [...graphNodeIds];
   const nodes = nodeIds
-    .map((id) => buildNodeForYear(nodeIndex.get(id), selectedYear, catalogNodeIds.has(id), selectedCatalogNodeMap.get(id) || null))
+    .map((id) =>
+      buildNodeForYear(
+        nodeIndex.get(id),
+        selectedYear,
+        catalogNodeIds.has(id),
+        selectedCatalogNodeMap.get(id) || null,
+      ),
+    )
     .filter(Boolean)
     .sort(compareNodes);
 
@@ -100,45 +128,50 @@ function buildCatalogGraph(catalog: CatalogData, selectedYear: string | null) {
             target: id,
             ruleType: rule.type,
             ruleGroup: rule.sources,
-            requirementKind: rule.type === 'all' ? 'required' : 'optional',
-            etype: 'prereq',
+            requirementKind: rule.type === "all" ? "required" : "optional",
+            etype: "prereq",
           });
         });
       });
     }
 
-    extractExpressionEdges(node.prerequisiteExpression).forEach(({ source, requirementKind }) => {
-      if (!graphNodeIds.has(source)) return;
-      pushEdge(edgeMap, edges, {
-        source,
-        target: id,
-        ruleType: 'parsed',
-        ruleGroup: [source],
-        requirementKind,
-        etype: 'prereq',
-      });
-    });
+    extractExpressionEdges(node.prerequisiteExpression).forEach(
+      ({ source, requirementKind }) => {
+        if (!graphNodeIds.has(source)) return;
+        pushEdge(edgeMap, edges, {
+          source,
+          target: id,
+          ruleType: "parsed",
+          ruleGroup: [source],
+          requirementKind,
+          etype: "prereq",
+        });
+      },
+    );
 
-    extractExpressionEdges(node.coRequisiteExpression).forEach(({ source, requirementKind }) => {
-      if (!graphNodeIds.has(source)) return;
-      pushEdge(edgeMap, edges, {
-        source,
-        target: id,
-        ruleType: 'parsed',
-        ruleGroup: [source],
-        requirementKind,
-        etype: 'coreq',
-      });
-    });
+    extractExpressionEdges(node.coRequisiteExpression).forEach(
+      ({ source, requirementKind }) => {
+        if (!graphNodeIds.has(source)) return;
+        pushEdge(edgeMap, edges, {
+          source,
+          target: id,
+          ruleType: "parsed",
+          ruleGroup: [source],
+          requirementKind,
+          etype: "coreq",
+        });
+      },
+    );
 
     extractModuleCodes(node.antiRequisiteExpression).forEach((source) => {
       if (!graphNodeIds.has(source)) return;
-      pushEdge(edgeMap, edges, { source, target: id, etype: 'anti' });
+      pushEdge(edgeMap, edges, { source, target: id, etype: "anti" });
     });
 
     (node.antiRequirements || []).forEach((edge) => {
-      if (!graphNodeIds.has(edge.source) || !graphNodeIds.has(edge.target)) return;
-      pushEdge(edgeMap, edges, { ...edge, etype: 'anti' });
+      if (!graphNodeIds.has(edge.source) || !graphNodeIds.has(edge.target))
+        return;
+      pushEdge(edgeMap, edges, { ...edge, etype: "anti" });
     });
   });
 
@@ -157,7 +190,10 @@ function buildNodeIndex(allCatalogs: CatalogData[]) {
 
     Object.entries(catalog.prereqRules || {}).forEach(([target, rules]) => {
       const existing = index.get(target) || createPlaceholderNode(target);
-      existing.prereqRules = dedupeRules([...(existing.prereqRules || []), ...((rules || []) as PrereqRule[])]);
+      existing.prereqRules = dedupeRules([
+        ...(existing.prereqRules || []),
+        ...((rules || []) as PrereqRule[]),
+      ]);
       index.set(target, existing);
 
       ((rules || []) as PrereqRule[]).forEach((rule) => {
@@ -169,17 +205,23 @@ function buildNodeIndex(allCatalogs: CatalogData[]) {
     });
 
     (catalog.antiRequirements || []).forEach((edge) => {
-      const source = index.get(edge.source) || createPlaceholderNode(edge.source);
+      const source =
+        index.get(edge.source) || createPlaceholderNode(edge.source);
       source.antiRequirements = [...(source.antiRequirements || []), edge];
       index.set(edge.source, source);
-      if (!index.has(edge.target)) index.set(edge.target, createPlaceholderNode(edge.target));
+      if (!index.has(edge.target))
+        index.set(edge.target, createPlaceholderNode(edge.target));
     });
   });
 
   return index;
 }
 
-function mergeNode(existing: CatalogNode | undefined, node: CatalogNode, catalog: CatalogData): CatalogNode {
+function mergeNode(
+  existing: CatalogNode | undefined,
+  node: CatalogNode,
+  catalog: CatalogData,
+): CatalogNode {
   if (!existing) {
     return {
       ...node,
@@ -189,7 +231,7 @@ function mergeNode(existing: CatalogNode | undefined, node: CatalogNode, catalog
       catalogs: [catalog.id],
       primaryCatalogId: catalog.id,
       primaryCatalogName: catalog.name,
-      isExternal: node.level === 'ext',
+      isExternal: node.level === "ext",
       prereqRules: [],
       antiRequirements: [],
     };
@@ -201,21 +243,35 @@ function mergeNode(existing: CatalogNode | undefined, node: CatalogNode, catalog
     name: chooseName(existing.name, node.name, node.id),
     level: chooseLevel(existing.level, node.level),
     credits: node.credits ?? existing.credits ?? null,
-    summary: node.summary || existing.summary || '',
-    description: node.description || existing.description || '',
-    semesters: dedupeStrings([...(existing.semesters || []), ...(node.semesters || [])]),
-    years: dedupeStrings([...(existing.years || []), ...(node.years || [])]).sort(),
-    availability: { ...(existing.availability || {}), ...(node.availability || {}) },
-    prerequisiteExpression: existing.prerequisiteExpression || node.prerequisiteExpression || null,
-    coRequisiteExpression: existing.coRequisiteExpression || node.coRequisiteExpression || null,
-    antiRequisiteExpression: existing.antiRequisiteExpression || node.antiRequisiteExpression || null,
-    prerequisitesText: existing.prerequisitesText || node.prerequisitesText || '',
-    coRequisitesText: existing.coRequisitesText || node.coRequisitesText || '',
-    antiRequisitesText: existing.antiRequisitesText || node.antiRequisitesText || '',
+    summary: node.summary || existing.summary || "",
+    description: node.description || existing.description || "",
+    semesters: dedupeStrings([
+      ...(existing.semesters || []),
+      ...(node.semesters || []),
+    ]),
+    years: dedupeStrings([
+      ...(existing.years || []),
+      ...(node.years || []),
+    ]).sort(),
+    availability: {
+      ...(existing.availability || {}),
+      ...(node.availability || {}),
+    },
+    prerequisiteExpression:
+      existing.prerequisiteExpression || node.prerequisiteExpression || null,
+    coRequisiteExpression:
+      existing.coRequisiteExpression || node.coRequisiteExpression || null,
+    antiRequisiteExpression:
+      existing.antiRequisiteExpression || node.antiRequisiteExpression || null,
+    prerequisitesText:
+      existing.prerequisitesText || node.prerequisitesText || "",
+    coRequisitesText: existing.coRequisitesText || node.coRequisitesText || "",
+    antiRequisitesText:
+      existing.antiRequisitesText || node.antiRequisitesText || "",
     catalogs: dedupeStrings([...(existing.catalogs || []), catalog.id]),
     primaryCatalogId: existing.primaryCatalogId || catalog.id,
     primaryCatalogName: existing.primaryCatalogName || catalog.name,
-    isExternal: existing.isExternal && node.level === 'ext',
+    isExternal: existing.isExternal && node.level === "ext",
     prereqRules: existing.prereqRules || [],
     antiRequirements: existing.antiRequirements || [],
   };
@@ -225,42 +281,55 @@ function createPlaceholderNode(id: string): CatalogNode {
   return {
     id,
     name: id,
-    level: 'ext',
+    level: "ext",
     credits: null,
-    summary: '',
-    description: '',
+    summary: "",
+    description: "",
     semesters: [],
     years: [],
     availability: {},
-    frequency: 'external',
-    prerequisitesText: '',
-    coRequisitesText: '',
-    antiRequisitesText: '',
+    frequency: "external",
+    prerequisitesText: "",
+    coRequisitesText: "",
+    antiRequisitesText: "",
     prerequisiteExpression: null,
     coRequisiteExpression: null,
     antiRequisiteExpression: null,
     catalogs: [],
     primaryCatalogId: null,
-    primaryCatalogName: 'External prerequisite',
+    primaryCatalogName: "External prerequisite",
     isExternal: true,
     prereqRules: [],
     antiRequirements: [],
   };
 }
 
-function buildNodeForYear(node: CatalogNode | undefined, selectedYear: string | null, isInSelectedCatalog: boolean, selectedCatalogNode: CatalogNode | null = null) {
+function buildNodeForYear(
+  node: CatalogNode | undefined,
+  selectedYear: string | null,
+  isInSelectedCatalog: boolean,
+  selectedCatalogNode: CatalogNode | null = null,
+) {
   if (!node) return null;
   const years = [...(node.years || [])].sort();
   const semesters = [...(node.semesters || [])];
   const availability = node.availability || {};
-  const availableInSelectedYear = selectedYear ? availability[selectedYear] !== false : true;
+  const availableInSelectedYear = selectedYear
+    ? availability[selectedYear] !== false
+    : true;
   const semesterAvailability = Object.fromEntries(
-    semesters.map((semester) => [semester, selectedYear ? availability[selectedYear] !== false : true]),
+    semesters.map((semester) => [
+      semester,
+      selectedYear ? availability[selectedYear] !== false : true,
+    ]),
   );
 
-  const selectedLevel = !isInSelectedCatalog || selectedCatalogNode?.level === 'ext' || selectedCatalogNode?.frequency === 'external'
-    ? 'ext'
-    : node.level;
+  const selectedLevel =
+    !isInSelectedCatalog ||
+    selectedCatalogNode?.level === "ext" ||
+    selectedCatalogNode?.frequency === "external"
+      ? "ext"
+      : node.level;
 
   return {
     ...node,
@@ -272,18 +341,30 @@ function buildNodeForYear(node: CatalogNode | undefined, selectedYear: string | 
     semesterAvailability,
     selectedYear,
     isInSelectedCatalog,
-    prerequisiteSummary: node.prerequisiteExpression ? describeExpression(node.prerequisiteExpression) : node.prerequisitesText,
-    coRequisiteSummary: node.coRequisiteExpression ? describeExpression(node.coRequisiteExpression) : node.coRequisitesText,
-    antiRequisiteSummary: node.antiRequisiteExpression ? describeExpression(node.antiRequisiteExpression) : node.antiRequisitesText,
+    prerequisiteSummary: node.prerequisiteExpression
+      ? describeExpression(node.prerequisiteExpression)
+      : node.prerequisitesText,
+    coRequisiteSummary: node.coRequisiteExpression
+      ? describeExpression(node.coRequisiteExpression)
+      : node.coRequisitesText,
+    antiRequisiteSummary: node.antiRequisiteExpression
+      ? describeExpression(node.antiRequisiteExpression)
+      : node.antiRequisitesText,
   };
 }
 
 function getReferencedCodes(node: CatalogNode | undefined) {
   const refs = new Set<string>();
 
-  extractModuleCodes(node?.prerequisiteExpression).forEach((code) => refs.add(code));
-  extractModuleCodes(node?.coRequisiteExpression).forEach((code) => refs.add(code));
-  extractModuleCodes(node?.antiRequisiteExpression).forEach((code) => refs.add(code));
+  extractModuleCodes(node?.prerequisiteExpression).forEach((code) =>
+    refs.add(code),
+  );
+  extractModuleCodes(node?.coRequisiteExpression).forEach((code) =>
+    refs.add(code),
+  );
+  extractModuleCodes(node?.antiRequisiteExpression).forEach((code) =>
+    refs.add(code),
+  );
 
   (node?.prereqRules || []).forEach((rule) => {
     rule.sources.forEach((source) => refs.add(source));
@@ -297,36 +378,60 @@ function getReferencedCodes(node: CatalogNode | undefined) {
   return refs;
 }
 
-function extractExpressionEdges(expression: RelationshipExpression | null | undefined, requirementKind: 'required' | 'optional' = 'required', seen = new Map<string, { source: string; requirementKind: 'required' | 'optional' }>()) {
+function extractExpressionEdges(
+  expression: RelationshipExpression | null | undefined,
+  requirementKind: "required" | "optional" = "required",
+  seen = new Map<
+    string,
+    { source: string; requirementKind: "required" | "optional" }
+  >(),
+) {
   if (!expression) return [...seen.values()];
 
-  if (expression.type === 'module') {
+  if (expression.type === "module") {
     if (!expression.code) return [...seen.values()];
     const existing = seen.get(expression.code);
-    const nextKind = mergeRequirementKind(existing?.requirementKind, requirementKind);
-    seen.set(expression.code, { source: expression.code, requirementKind: nextKind });
+    const nextKind = mergeRequirementKind(
+      existing?.requirementKind,
+      requirementKind,
+    );
+    seen.set(expression.code, {
+      source: expression.code,
+      requirementKind: nextKind,
+    });
     return [...seen.values()];
   }
 
-  if (expression.type === 'and') {
-    (expression.children || []).forEach((child) => extractExpressionEdges(child, requirementKind, seen));
+  if (expression.type === "and") {
+    (expression.children || []).forEach((child) =>
+      extractExpressionEdges(child, requirementKind, seen),
+    );
     return [...seen.values()];
   }
 
-  if (expression.type === 'or') {
-    (expression.children || []).forEach((child) => extractExpressionEdges(child, 'optional', seen));
+  if (expression.type === "or") {
+    (expression.children || []).forEach((child) =>
+      extractExpressionEdges(child, "optional", seen),
+    );
   }
 
   return [...seen.values()];
 }
 
-function pushEdge(edgeMap: Map<string, GraphEdge>, edges: GraphEdge[], edge: GraphEdge) {
+function pushEdge(
+  edgeMap: Map<string, GraphEdge>,
+  edges: GraphEdge[],
+  edge: GraphEdge,
+) {
   const key = `${edge.etype}:${edge.source}->${edge.target}`;
   const existing = edgeMap.get(key);
   if (existing) {
-    if (existing.etype === 'prereq' && edge.etype === 'prereq') {
-      existing.requirementKind = mergeRequirementKind(existing.requirementKind, edge.requirementKind);
-      if (existing.ruleType === 'parsed' && edge.ruleType !== 'parsed') {
+    if (existing.etype === "prereq" && edge.etype === "prereq") {
+      existing.requirementKind = mergeRequirementKind(
+        existing.requirementKind,
+        edge.requirementKind,
+      );
+      if (existing.ruleType === "parsed" && edge.ruleType !== "parsed") {
         existing.ruleType = edge.ruleType;
         existing.ruleGroup = edge.ruleGroup;
       }
@@ -338,14 +443,17 @@ function pushEdge(edgeMap: Map<string, GraphEdge>, edges: GraphEdge[], edge: Gra
   edges.push(edge);
 }
 
-function mergeRequirementKind(left: 'required' | 'optional' = 'optional', right: 'required' | 'optional' = 'optional') {
-  return left === 'required' || right === 'required' ? 'required' : 'optional';
+function mergeRequirementKind(
+  left: "required" | "optional" = "optional",
+  right: "required" | "optional" = "optional",
+) {
+  return left === "required" || right === "required" ? "required" : "optional";
 }
 
 function dedupeRules(rules: PrereqRule[]) {
   const seen = new Set();
   return rules.filter((rule) => {
-    const key = `${rule.type}:${[...rule.sources].sort().join(',')}`;
+    const key = `${rule.type}:${[...rule.sources].sort().join(",")}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -356,14 +464,21 @@ function dedupeStrings(values: Array<string | null | undefined>) {
   return [...new Set(values.filter(Boolean))];
 }
 
-function chooseName(existingName: string | undefined, incomingName: string | undefined, id: string) {
+function chooseName(
+  existingName: string | undefined,
+  incomingName: string | undefined,
+  id: string,
+) {
   if (existingName && existingName !== id) return existingName;
   return incomingName || existingName || id;
 }
 
-function chooseLevel(existingLevel: number | 'ext' | undefined, incomingLevel: number | 'ext' | undefined) {
-  if (incomingLevel && incomingLevel !== 'ext') return incomingLevel;
-  return existingLevel || incomingLevel || 'ext';
+function chooseLevel(
+  existingLevel: number | "ext" | undefined,
+  incomingLevel: number | "ext" | undefined,
+) {
+  if (incomingLevel && incomingLevel !== "ext") return incomingLevel;
+  return existingLevel || incomingLevel || "ext";
 }
 
 function compareNodes(a: GraphNode, b: GraphNode) {
@@ -373,8 +488,8 @@ function compareNodes(a: GraphNode, b: GraphNode) {
   return a.id.localeCompare(b.id);
 }
 
-function getLevelRank(level: number | 'ext') {
-  if (level === 'ext') return 9999;
-  if (typeof level === 'number') return level;
+function getLevelRank(level: number | "ext") {
+  if (level === "ext") return 9999;
+  if (typeof level === "number") return level;
   return 9998;
 }

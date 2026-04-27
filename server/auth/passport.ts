@@ -1,9 +1,9 @@
-import passport from 'passport';
-import { Strategy as LocalStrategy } from 'passport-local';
-import { Strategy as GoogleStrategy } from 'passport-google-oauth20';
-import { Strategy as MicrosoftStrategy } from 'passport-microsoft';
-import { prisma } from './prisma';
-import { verifyPassword } from './tokens';
+import passport from "passport";
+import { Strategy as LocalStrategy } from "passport-local";
+import { Strategy as GoogleStrategy } from "passport-google-oauth20";
+import { Strategy as MicrosoftStrategy } from "passport-microsoft";
+import { prisma } from "./prisma";
+import { verifyPassword } from "./tokens";
 
 const {
   GOOGLE_CLIENT_ID,
@@ -17,33 +17,45 @@ const {
 
 // ---- Local (email + password) ----
 passport.use(
-  'local',
+  "local",
   new LocalStrategy(
-    { usernameField: 'email', passwordField: 'password', session: false },
+    { usernameField: "email", passwordField: "password", session: false },
     async (email, password, done) => {
       try {
-        const normalized = String(email || '').trim().toLowerCase();
+        const normalized = String(email || "")
+          .trim()
+          .toLowerCase();
         if (!normalized || !password) {
-          return done(null, false, { message: 'Email and password are required.' });
+          return done(null, false, {
+            message: "Email and password are required.",
+          });
         }
-        const user = await prisma.user.findUnique({ where: { email: normalized } });
+        const user = await prisma.user.findUnique({
+          where: { email: normalized },
+        });
         if (!user || !user.passwordHash) {
-          return done(null, false, { message: 'Invalid email or password.' });
+          return done(null, false, { message: "Invalid email or password." });
         }
         const ok = await verifyPassword(password, user.passwordHash);
         if (!ok) {
-          return done(null, false, { message: 'Invalid email or password.' });
+          return done(null, false, { message: "Invalid email or password." });
         }
         return done(null, user);
       } catch (err) {
         return done(err);
       }
-    }
-  )
+    },
+  ),
 );
 
 // ---- Helper: find or create user from OAuth profile ----
-async function upsertOAuthUser({ provider, providerAccountId, email, name, avatarUrl }) {
+async function upsertOAuthUser({
+  provider,
+  providerAccountId,
+  email,
+  name,
+  avatarUrl,
+}) {
   const normalizedEmail = email ? String(email).trim().toLowerCase() : null;
 
   // 1) Existing OAuth account?
@@ -55,7 +67,9 @@ async function upsertOAuthUser({ provider, providerAccountId, email, name, avata
 
   // 2) Existing user with this email? Link the OAuth account to it.
   if (normalizedEmail) {
-    const byEmail = await prisma.user.findUnique({ where: { email: normalizedEmail } });
+    const byEmail = await prisma.user.findUnique({
+      where: { email: normalizedEmail },
+    });
     if (byEmail) {
       await prisma.oAuthAccount.create({
         data: { userId: byEmail.id, provider, providerAccountId },
@@ -70,7 +84,9 @@ async function upsertOAuthUser({ provider, providerAccountId, email, name, avata
 
   // 3) Brand new user.
   if (!normalizedEmail) {
-    throw new Error(`No email returned from ${provider}; cannot create account.`);
+    throw new Error(
+      `No email returned from ${provider}; cannot create account.`,
+    );
   }
 
   const created = await prisma.user.create({
@@ -90,19 +106,19 @@ async function upsertOAuthUser({ provider, providerAccountId, email, name, avata
 // ---- Google ----
 if (GOOGLE_CLIENT_ID && GOOGLE_CLIENT_SECRET) {
   passport.use(
-    'google',
+    "google",
     new GoogleStrategy(
       {
         clientID: GOOGLE_CLIENT_ID,
         clientSecret: GOOGLE_CLIENT_SECRET,
-        callbackURL: GOOGLE_CALLBACK_URL || '/api/auth/google/callback',
-        scope: ['profile', 'email'],
+        callbackURL: GOOGLE_CALLBACK_URL || "/api/auth/google/callback",
+        scope: ["profile", "email"],
       },
       async (_accessToken, _refreshToken, profile, done) => {
         try {
           const email = profile.emails?.[0]?.value;
           const user = await upsertOAuthUser({
-            provider: 'google',
+            provider: "google",
             providerAccountId: profile.id,
             email,
             name: profile.displayName,
@@ -112,24 +128,26 @@ if (GOOGLE_CLIENT_ID && GOOGLE_CLIENT_SECRET) {
         } catch (err) {
           done(err);
         }
-      }
-    )
+      },
+    ),
   );
 } else {
-  console.warn('[auth] Google OAuth not configured (GOOGLE_CLIENT_ID/SECRET missing)');
+  console.warn(
+    "[auth] Google OAuth not configured (GOOGLE_CLIENT_ID/SECRET missing)",
+  );
 }
 
 // ---- Microsoft ----
 if (MICROSOFT_CLIENT_ID && MICROSOFT_CLIENT_SECRET) {
   passport.use(
-    'microsoft',
+    "microsoft",
     new MicrosoftStrategy(
       {
         clientID: MICROSOFT_CLIENT_ID,
         clientSecret: MICROSOFT_CLIENT_SECRET,
-        callbackURL: MICROSOFT_CALLBACK_URL || '/api/auth/microsoft/callback',
-        scope: ['user.read'],
-        tenant: MICROSOFT_TENANT || 'common',
+        callbackURL: MICROSOFT_CALLBACK_URL || "/api/auth/microsoft/callback",
+        scope: ["user.read"],
+        tenant: MICROSOFT_TENANT || "common",
       },
       async (_accessToken, _refreshToken, profile, done) => {
         try {
@@ -138,7 +156,7 @@ if (MICROSOFT_CLIENT_ID && MICROSOFT_CLIENT_SECRET) {
             profile._json?.mail ||
             profile._json?.userPrincipalName;
           const user = await upsertOAuthUser({
-            provider: 'microsoft',
+            provider: "microsoft",
             providerAccountId: profile.id,
             email,
             name: profile.displayName,
@@ -148,17 +166,20 @@ if (MICROSOFT_CLIENT_ID && MICROSOFT_CLIENT_SECRET) {
         } catch (err) {
           done(err);
         }
-      }
-    )
+      },
+    ),
   );
 } else {
-  console.warn('[auth] Microsoft OAuth not configured (MICROSOFT_CLIENT_ID/SECRET missing)');
+  console.warn(
+    "[auth] Microsoft OAuth not configured (MICROSOFT_CLIENT_ID/SECRET missing)",
+  );
 }
 
 export default passport;
 
 export function isProviderEnabled(name) {
-  if (name === 'google') return !!(GOOGLE_CLIENT_ID && GOOGLE_CLIENT_SECRET);
-  if (name === 'microsoft') return !!(MICROSOFT_CLIENT_ID && MICROSOFT_CLIENT_SECRET);
+  if (name === "google") return !!(GOOGLE_CLIENT_ID && GOOGLE_CLIENT_SECRET);
+  if (name === "microsoft")
+    return !!(MICROSOFT_CLIENT_ID && MICROSOFT_CLIENT_SECRET);
   return false;
 }

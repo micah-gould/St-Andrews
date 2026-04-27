@@ -1,13 +1,27 @@
-import { useEffect, useMemo, useState } from 'react';
-import { openShareDialog } from '../components/ShareDialog';
-import { showRequestAccessOverlay } from '../components/RequestAccessOverlay';
-import { listCatalogs, loadGraphData } from '../dataLoader';
-import { savedStatesApi } from '../savedStatesApi';
-import type { GraphRuntime } from '../types/runtime.types';
-import type { SavedStateBlob, SavedStateRecord, SavedStateSlice } from '../types/saved-state.types';
-import { buildViewModel, canPreviewSetting, getCatalogName, getRestoredSettingState, getStoredTheme, parseUrl, publishAppShell, showFeedback, updateUrl } from './moduleGraph.helpers';
-import { createModuleGraphState } from './moduleGraph.state';
-import type { LoadedGraph } from './moduleGraph.types';
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { openShareDialog } from "../components/ShareDialog";
+import { showRequestAccessOverlay } from "../components/RequestAccessOverlay";
+import { listCatalogs, loadGraphData } from "../dataLoader";
+import { savedStatesApi } from "../savedStatesApi";
+import type { GraphRuntime } from "../types/runtime.types";
+import type {
+  SavedStateBlob,
+  SavedStateRecord,
+  SavedStateSlice,
+} from "../types/saved-state.types";
+import {
+  buildViewModel,
+  canPreviewSetting,
+  getCatalogName,
+  getRestoredSettingState,
+  getStoredTheme,
+  parseUrl,
+  publishAppShell,
+  showFeedback,
+  updateUrl,
+} from "./moduleGraph.helpers";
+import { createModuleGraphState } from "./moduleGraph.state";
+import type { LoadedGraph } from "./moduleGraph.types";
 
 export function useModuleGraphApp() {
   const [appState] = useState(createModuleGraphState);
@@ -16,11 +30,21 @@ export function useModuleGraphApp() {
 
   const refresh = () => setVersion((value) => value + 1);
   const publish = () => publishAppShell(appState, refresh);
-  const feedback = (message: string, isError = false, actions: Parameters<typeof showFeedback>[4] = []) => showFeedback(appState, refresh, message, isError, actions);
+  const feedback = (
+    message: string,
+    isError = false,
+    actions: Parameters<typeof showFeedback>[4] = [],
+  ) => showFeedback(appState, refresh, message, isError, actions);
 
-  const setSharedSettingId = (settingId: string | number | null | undefined) => {
+  const setSharedSettingId = (
+    settingId: string | number | null | undefined,
+  ) => {
     appState.sharedSettingId = settingId ? String(settingId) : null;
-    updateUrl(appState.currentCatalogId, appState.currentYear, appState.sharedSettingId);
+    updateUrl(
+      appState.currentCatalogId,
+      appState.currentYear,
+      appState.sharedSettingId,
+    );
   };
 
   const clearSharedSettingId = () => {
@@ -29,7 +53,10 @@ export function useModuleGraphApp() {
     updateUrl(appState.currentCatalogId, appState.currentYear, null);
   };
 
-  const getSelectedSavedSetting = () => appState.settingsCache.find((setting) => String(setting.id) === appState.selectedPlanId) || null;
+  const getSelectedSavedSetting = () =>
+    appState.settingsCache.find(
+      (setting) => String(setting.id) === appState.selectedPlanId,
+    ) || null;
 
   const hydrateSetting = async (setting: SavedStateRecord | null) => {
     if (!setting) return null;
@@ -44,7 +71,7 @@ export function useModuleGraphApp() {
     }
   };
 
-  const refreshSettings = async (selectedId = '') => {
+  const refreshSettings = async (selectedId = "") => {
     appState.settingsCache = await savedStatesApi.list();
     appState.selectedPlanId = selectedId;
     publish();
@@ -56,18 +83,42 @@ export function useModuleGraphApp() {
       appState.graphRuntime?.setPreviewState(null);
       return;
     }
-    const { restoredState, needsCatalogSwitch, needsYearSwitch } = canPreviewSetting(appState, selectedSetting);
-    appState.graphRuntime.setPreviewState(needsCatalogSwitch || needsYearSwitch ? null : restoredState);
+    const { restoredState, needsCatalogSwitch, needsYearSwitch } =
+      canPreviewSetting(appState, selectedSetting);
+    appState.graphRuntime.setPreviewState(
+      needsCatalogSwitch || needsYearSwitch ? null : restoredState,
+    );
   };
 
-  const renderCatalog = async (catalogId: string, yearOrState: string | (SavedStateSlice & { catalogId?: string; year?: string | null }) | null = null, maybeRestoredState: (SavedStateSlice & { catalogId?: string; year?: string | null }) | null = null) => {
-    const restoredState = maybeRestoredState || (yearOrState && typeof yearOrState === 'object' ? yearOrState : null);
-    const selectedYear = restoredState?.year || (typeof yearOrState === 'string' ? yearOrState : appState.currentYear);
-    const { catalog, selectedYear: resolvedYear, nodes, prereqRules, edges } = await loadGraphData(catalogId, selectedYear);
+  const renderCatalog = async (
+    catalogId: string,
+    yearOrState:
+      | string
+      | (SavedStateSlice & { catalogId?: string; year?: string | null })
+      | null = null,
+    maybeRestoredState:
+      | (SavedStateSlice & { catalogId?: string; year?: string | null })
+      | null = null,
+  ) => {
+    const restoredState =
+      maybeRestoredState ||
+      (yearOrState && typeof yearOrState === "object" ? yearOrState : null);
+    const selectedYear =
+      restoredState?.year ||
+      (typeof yearOrState === "string" ? yearOrState : appState.currentYear);
+    const {
+      catalog,
+      selectedYear: resolvedYear,
+      nodes,
+      prereqRules,
+      edges,
+    } = await loadGraphData(catalogId, selectedYear);
     appState.currentCatalogId = catalog.id;
     appState.currentYear = resolvedYear;
-    appState.hiddenLevels = new Set(restoredState?.hiddenLevels ?? [...appState.hiddenLevels]);
-    appState.searchQuery = '';
+    appState.hiddenLevels = new Set(
+      restoredState?.hiddenLevels ?? [...appState.hiddenLevels],
+    );
+    appState.searchQuery = "";
     updateUrl(catalog.id, resolvedYear, appState.sharedSettingId);
     setLoadedGraph({ catalog, nodes, edges, prereqRules, restoredState });
     publish();
@@ -82,7 +133,7 @@ export function useModuleGraphApp() {
   const selectCatalog = async (catalogId: string) => {
     clearSharedSettingId();
     appState.loadedSetting = null;
-    appState.settingsName = '';
+    appState.settingsName = "";
     await renderCatalog(catalogId, appState.currentYear);
     feedback(`Showing ${getCatalogName(appState, catalogId)}.`);
   };
@@ -91,35 +142,63 @@ export function useModuleGraphApp() {
     appState.currentYear = year;
     clearSharedSettingId();
     appState.loadedSetting = null;
-    appState.settingsName = '';
-    await renderCatalog(appState.currentCatalogId || appState.catalogs[0]?.id || '', year);
+    appState.settingsName = "";
+    await renderCatalog(
+      appState.currentCatalogId || appState.catalogs[0]?.id || "",
+      year,
+    );
     feedback(`Showing ${year}.`);
   };
 
   const advanceYear = async () => {
-    const currentCatalog = appState.catalogs.find((catalog) => catalog.id === appState.currentCatalogId) || appState.catalogs[0];
+    const currentCatalog =
+      appState.catalogs.find(
+        (catalog) => catalog.id === appState.currentCatalogId,
+      ) || appState.catalogs[0];
     const years = currentCatalog?.years || [];
-    const currentIndex = years.indexOf(appState.currentYear || '');
+    const currentIndex = years.indexOf(appState.currentYear || "");
     const nextYear = currentIndex >= 0 ? years[currentIndex + 1] : years[0];
-    if (!nextYear) return feedback('No later year is available for this catalog.', true);
-    if (!appState.graphRuntime) return feedback('The current graph is still loading.', true);
+    if (!nextYear)
+      return feedback("No later year is available for this catalog.", true);
+    if (!appState.graphRuntime)
+      return feedback("The current graph is still loading.", true);
 
     const snapshot = appState.graphRuntime.snapshot();
-    const nextPassed = [...new Set([...(snapshot.passed || []), ...(snapshot.selected || [])])];
+    const nextPassed = [
+      ...new Set([...(snapshot.passed || []), ...(snapshot.selected || [])]),
+    ];
     clearSharedSettingId();
     appState.loadedSetting = null;
-    appState.settingsName = '';
-    await renderCatalog(currentCatalog.id, { ...snapshot, catalogId: currentCatalog.id, year: nextYear, selected: [], passed: nextPassed });
-    feedback(`Advanced to ${nextYear}. Selected modules are now marked as passed.`);
+    appState.settingsName = "";
+    await renderCatalog(currentCatalog.id, {
+      ...snapshot,
+      catalogId: currentCatalog.id,
+      year: nextYear,
+      selected: [],
+      passed: nextPassed,
+    });
+    feedback(
+      `Advanced to ${nextYear}. Selected modules are now marked as passed.`,
+    );
   };
 
-  const switchToSettingPreview = async (setting: SavedStateRecord, switchCatalog = false, switchYear = false) => {
+  const switchToSettingPreview = async (
+    setting: SavedStateRecord,
+    switchCatalog = false,
+    switchYear = false,
+  ) => {
     const hydrated = await hydrateSetting(setting);
     if (!hydrated) return;
     const { restoredState } = canPreviewSetting(appState, hydrated);
     if (!restoredState) return;
-    const nextCatalogId = switchCatalog ? restoredState.catalogId : appState.currentCatalogId;
-    await renderCatalog(nextCatalogId!, { ...restoredState, catalogId: nextCatalogId, year: switchYear ? restoredState.year : appState.currentYear });
+    const nextCatalogId = switchCatalog
+      ? restoredState.catalogId
+      : appState.currentCatalogId;
+    await renderCatalog(nextCatalogId!, {
+      ...restoredState,
+      catalogId: nextCatalogId,
+      year: switchYear ? restoredState.year : appState.currentYear,
+    });
     appState.selectedPlanId = String(hydrated.id);
     publish();
     await previewSavedPlan(String(hydrated.id));
@@ -130,47 +209,102 @@ export function useModuleGraphApp() {
     publish();
     if (!planId) {
       appState.graphRuntime?.setPreviewState(null);
-      return feedback('');
+      return feedback("");
     }
     const hydrated = await hydrateSetting(getSelectedSavedSetting());
     if (!hydrated) return;
-    const { restoredState, needsCatalogSwitch, needsYearSwitch } = canPreviewSetting(appState, hydrated);
+    const { restoredState, needsCatalogSwitch, needsYearSwitch } =
+      canPreviewSetting(appState, hydrated);
     if (needsCatalogSwitch) {
       appState.graphRuntime?.setPreviewState(null);
-      return feedback(`Preview unavailable, please switch to ${getCatalogName(appState, restoredState?.catalogId || null)}.`, false, [{ label: 'Switch', onClick: () => switchToSettingPreview(hydrated, true, true) }]);
+      return feedback(
+        `Preview unavailable, please switch to ${getCatalogName(appState, restoredState?.catalogId || null)}.`,
+        false,
+        [
+          {
+            label: "Switch",
+            onClick: () => switchToSettingPreview(hydrated, true, true),
+          },
+        ],
+      );
     }
     if (needsYearSwitch) {
       appState.graphRuntime?.setPreviewState(null);
-      return feedback(`Preview unavailable, please switch to ${restoredState?.year}.`, false, [{ label: 'Switch', onClick: () => switchToSettingPreview(hydrated, false, true) }]);
+      return feedback(
+        `Preview unavailable, please switch to ${restoredState?.year}.`,
+        false,
+        [
+          {
+            label: "Switch",
+            onClick: () => switchToSettingPreview(hydrated, false, true),
+          },
+        ],
+      );
     }
     appState.graphRuntime?.setPreviewState(restoredState);
-    const slice = hydrated.state?.catalogs?.[restoredState?.catalogId]?.[restoredState?.year];
-    feedback(`Preview: ${hydrated.name} - ${getCatalogName(appState, restoredState?.catalogId || null)} (${slice?.selected?.length || 0} selected, ${slice?.excluded?.length || 0} excluded)`);
+    const slice =
+      hydrated.state?.catalogs?.[restoredState?.catalogId]?.[
+        restoredState?.year
+      ];
+    feedback(
+      `Preview: ${hydrated.name} - ${getCatalogName(appState, restoredState?.catalogId || null)} (${slice?.selected?.length || 0} selected, ${slice?.excluded?.length || 0} excluded)`,
+    );
   };
 
   const saveCurrentPlan = async (nameInput = appState.settingsName) => {
     const loadedSetting = appState.loadedSetting;
-    const name = nameInput.trim() || loadedSetting?.name || '';
-    if (!name) return feedback('Enter a name before saving.', true);
-    if (!appState.graphRuntime) return feedback('The current graph is still loading.', true);
+    const name = nameInput.trim() || loadedSetting?.name || "";
+    if (!name) return feedback("Enter a name before saving.", true);
+    if (!appState.graphRuntime)
+      return feedback("The current graph is still loading.", true);
 
     const snap = appState.graphRuntime.snapshot();
-    const seed: SavedStateBlob = { version: 2, catalogs: { [snap.catalogId]: { [snap.year]: { selected: snap.selected, passed: snap.passed, excluded: snap.excluded, hiddenLevels: snap.hiddenLevels } } } };
-    const isCloneFromView = Boolean(loadedSetting && loadedSetting.role === 'view' && name === loadedSetting.name);
+    const seed: SavedStateBlob = {
+      version: 2,
+      catalogs: {
+        [snap.catalogId]: {
+          [snap.year]: {
+            selected: snap.selected,
+            passed: snap.passed,
+            excluded: snap.excluded,
+            hiddenLevels: snap.hiddenLevels,
+          },
+        },
+      },
+    };
+    const isCloneFromView = Boolean(
+      loadedSetting &&
+      loadedSetting.role === "view" &&
+      name === loadedSetting.name,
+    );
 
     let saved: SavedStateRecord;
-    let action = 'Saved';
+    let action = "Saved";
     if (isCloneFromView) {
       saved = await savedStatesApi.create({ name, state: seed });
-      action = 'Cloned';
-    } else if (loadedSetting && name === loadedSetting.name && loadedSetting.role !== 'view') {
-      saved = await savedStatesApi.updateSlice(loadedSetting.id, { name, slice: { catalogId: snap.catalogId, year: snap.year, selected: snap.selected, passed: snap.passed, excluded: snap.excluded, hiddenLevels: snap.hiddenLevels } });
-      action = 'Updated';
+      action = "Cloned";
+    } else if (
+      loadedSetting &&
+      name === loadedSetting.name &&
+      loadedSetting.role !== "view"
+    ) {
+      saved = await savedStatesApi.updateSlice(loadedSetting.id, {
+        name,
+        slice: {
+          catalogId: snap.catalogId,
+          year: snap.year,
+          selected: snap.selected,
+          passed: snap.passed,
+          excluded: snap.excluded,
+          hiddenLevels: snap.hiddenLevels,
+        },
+      });
+      action = "Updated";
     } else {
       saved = await savedStatesApi.create({ name, state: seed });
     }
 
-    appState.settingsName = '';
+    appState.settingsName = "";
     appState.loadedSetting = saved;
     setSharedSettingId(saved.id);
     await refreshSettings(String(saved.id));
@@ -179,12 +313,12 @@ export function useModuleGraphApp() {
 
   const loadSelectedPlan = async () => {
     const current = getSelectedSavedSetting();
-    if (!current) return feedback('Choose a saved setting to load.', true);
+    if (!current) return feedback("Choose a saved setting to load.", true);
     const full = await savedStatesApi.get(current.id);
     const restoredState = getRestoredSettingState(appState, full);
     await renderCatalog(restoredState!.catalogId!, restoredState!);
     appState.loadedSetting = full;
-    appState.settingsName = '';
+    appState.settingsName = "";
     setSharedSettingId(full.id);
     feedback(`Loaded "${full.name}".`);
   };
@@ -192,23 +326,26 @@ export function useModuleGraphApp() {
   const deleteSelectedPlan = async () => {
     const current = getSelectedSavedSetting();
     const loadedSetting = appState.loadedSetting;
-    if (!current) return feedback('Choose a saved setting to delete.', true);
-    if (current.role !== 'owner' && current.role !== 'admin') return feedback('Only the owner or an admin can delete this plan.', true);
+    if (!current) return feedback("Choose a saved setting to delete.", true);
+    if (current.role !== "owner" && current.role !== "admin")
+      return feedback("Only the owner or an admin can delete this plan.", true);
     await savedStatesApi.remove(current.id);
     await refreshSettings();
     appState.graphRuntime?.setPreviewState(null);
     if (appState.sharedSettingId === String(current.id)) clearSharedSettingId();
     if (loadedSetting && loadedSetting.id === current.id) {
       appState.loadedSetting = null;
-      appState.settingsName = '';
+      appState.settingsName = "";
     }
     feedback(`Deleted "${current.name}".`);
   };
 
   const shareLoadedPlan = async () => {
     const loaded = appState.loadedSetting;
-    if (!loaded) return feedback('Save or load a plan before sharing it.', true);
-    if (loaded.role !== 'owner' && loaded.role !== 'admin') return feedback('Only the owner or an admin can manage sharing.', true);
+    if (!loaded)
+      return feedback("Save or load a plan before sharing it.", true);
+    if (loaded.role !== "owner" && loaded.role !== "admin")
+      return feedback("Only the owner or an admin can manage sharing.", true);
     await openShareDialog({
       savedStatesApi,
       state: loaded,
@@ -239,19 +376,21 @@ export function useModuleGraphApp() {
   };
 
   const clearAll = () => appState.graphRuntime?.clearAll();
-  const setTheme = (theme: 'dark' | 'light') => {
+  const setTheme = (theme: "dark" | "light") => {
     appState.theme = theme;
-    localStorage.setItem('moduleGraphTheme', theme);
+    localStorage.setItem("moduleGraphTheme", theme);
     publish();
   };
-  const toggleTheme = () => setTheme(appState.theme === 'light' ? 'dark' : 'light');
+  const toggleTheme = () =>
+    setTheme(appState.theme === "light" ? "dark" : "light");
 
   useEffect(() => {
     let cancelled = false;
     const boot = async () => {
       try {
         appState.catalogs = await listCatalogs();
-        if (!appState.catalogs.length) throw new Error('No catalogs available.');
+        if (!appState.catalogs.length)
+          throw new Error("No catalogs available.");
 
         const { subject, year, sessionId } = parseUrl();
         if (sessionId) {
@@ -264,14 +403,16 @@ export function useModuleGraphApp() {
             appState.isSubjectSelection = false;
             await renderCatalog(restoredState!.catalogId!, restoredState!);
           } catch (error: any) {
-            if (error.status === 403 || error.code === 'FORBIDDEN') {
+            if (error.status === 403 || error.code === "FORBIDDEN") {
               await showRequestAccessOverlay(sessionId, { savedStatesApi });
               return;
             }
             appState.sharedSettingId = null;
             feedback(`Shared session unavailable: ${error.message}`, true);
             if (subject) {
-              const catalog = appState.catalogs.find((entry) => entry.id === subject);
+              const catalog = appState.catalogs.find(
+                (entry) => entry.id === subject,
+              );
               if (catalog) {
                 appState.isSubjectSelection = false;
                 await renderCatalog(catalog.id, year);
@@ -283,7 +424,9 @@ export function useModuleGraphApp() {
             }
           }
         } else if (subject) {
-          const catalog = appState.catalogs.find((entry) => entry.id === subject);
+          const catalog = appState.catalogs.find(
+            (entry) => entry.id === subject,
+          );
           if (catalog) {
             appState.isSubjectSelection = false;
             await renderCatalog(catalog.id, year);
@@ -294,7 +437,12 @@ export function useModuleGraphApp() {
           appState.isSubjectSelection = true;
         }
 
-        await refreshSettings(appState.sharedSettingId || '').catch((error) => feedback(`Saved settings unavailable: ${(error as Error).message}`, true));
+        await refreshSettings(appState.sharedSettingId || "").catch((error) =>
+          feedback(
+            `Saved settings unavailable: ${(error as Error).message}`,
+            true,
+          ),
+        );
         setTheme(getStoredTheme());
       } catch (error) {
         appState.statusMarkup = `<div class="status-row status-row--single"><span class="status-empty">${(error as Error).message}</span></div>`;
@@ -308,28 +456,58 @@ export function useModuleGraphApp() {
     };
   }, []);
 
-  const viewModel = useMemo(() => buildViewModel(appState), [appState.catalogs, appState.currentCatalogId, appState.currentYear, appState.feedbackActions, appState.feedbackMarkup, appState.hiddenLevels, appState.isSubjectSelection, appState.loadedSetting, appState.searchQuery, appState.selectedPlanId, appState.settingsCache, appState.settingsName, appState.statusMarkup, appState.theme]);
+  const onRuntimeReady = useCallback(
+    (runtime: GraphRuntime) => {
+      appState.graphRuntime = runtime;
+      runtime.syncUi();
+      syncSelectedSettingPreview();
+    },
+    [appState],
+  );
+
+  const onStatusMarkupChange = useCallback(
+    (markup: string) => {
+      appState.statusMarkup = markup;
+      publish();
+    },
+    [appState],
+  );
+
+  const showSubjectSelection = useCallback(() => {
+    clearSharedSettingId();
+    updateUrl(null, null, null);
+    appState.isSubjectSelection = true;
+    publish();
+  }, [appState]);
+
+  const viewModel = useMemo(
+    () => buildViewModel(appState),
+    [
+      appState.catalogs,
+      appState.currentCatalogId,
+      appState.currentYear,
+      appState.feedbackActions,
+      appState.feedbackMarkup,
+      appState.hiddenLevels,
+      appState.isSubjectSelection,
+      appState.loadedSetting,
+      appState.searchQuery,
+      appState.selectedPlanId,
+      appState.settingsCache,
+      appState.settingsName,
+      appState.statusMarkup,
+      appState.theme,
+    ],
+  );
 
   return {
     appState,
     loadedGraph,
     viewModel,
     actions: {
-      onRuntimeReady(runtime: GraphRuntime) {
-        appState.graphRuntime = runtime;
-        runtime.syncUi();
-        syncSelectedSettingPreview();
-      },
-      onStatusMarkupChange(markup: string) {
-        appState.statusMarkup = markup;
-        publish();
-      },
-      showSubjectSelection() {
-        clearSharedSettingId();
-        updateUrl(null, null, null);
-        appState.isSubjectSelection = true;
-        publish();
-      },
+      onRuntimeReady,
+      onStatusMarkupChange,
+      showSubjectSelection,
       toggleTheme,
       clearAll,
       setSearchQuery,

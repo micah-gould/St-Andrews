@@ -1,11 +1,7 @@
 {
   "id": "psychology-neuroscience",
   "name": "Psychology and Neuroscience",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "PN1001",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module aims (i) to provide an introduction to the theoretical foundations, historical perspectives and modern developments of psychology; (ii) to provide an introduction to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -83,13 +74,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module aims (i) to provide an introduction to the theoretical foundations, historical perspectives and modern developments of psychology; (ii) to provide an introduction to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -153,13 +139,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module is designed to introduce the principles of some of the key areas of modern psychology, and to demonstrate that it is a diverse and interdisciplinary science. A major…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -235,13 +216,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "This module uses PN1001 and PN1002 as the foundation for a more advanced treatment of a number of areas in psychology. In this way, and in conjunction with PN2002, it forms a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -334,13 +310,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "This module uses PS1001 and PS1002 as the foundation for a more advanced treatment of a number of areas in psychology and extends the range of teaching available in PN2001 to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -415,13 +386,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "This module introduces the students to fundamental concepts and skills in neuroscience. Students will gain knowledge via lectures, seminars and practical sessions. They will learn …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -501,13 +467,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module uses PS1901 as a foundation for a more advanced treatment of key areas of psychology. The aim is to develop a more detailed appreciation of psychological science. A…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -604,13 +565,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module is designed to provide a basic understanding of research design and statistics that will provide the foundations for independent empirical research and critical…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -707,13 +663,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module addresses the historical and philosophical background to current debates in psychology. The module will be taught via lectures and seminars. Emphasis will be placed on …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -789,13 +740,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module presents psychopathological conditions and provides a basic understanding of the underlying neuronal and/or cognitive-behavioural mechanisms. Examples will be drawn…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -871,13 +817,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module is designed to equip students with an appreciation of key principles, concepts, methods and discoveries in developmental psychology, with an emphasis on evolutionary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -953,13 +894,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module explores several major themes and debates in social psychology, the central one being the nature of the relationship between individuals and groups. We will be looking …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1035,13 +971,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module aims to provide an understanding of psychological knowledge in several inter-related domains concerned with the biological bases of behaviour. Emphasis will be laid on …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1117,13 +1048,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module will address evolutionary and comparative approaches to psychology. The aim is to provide an understanding of major evolutionary forces and how they have shaped animal …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1199,13 +1125,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "The aim of this module is to develop an understanding of visual perception and its functions. Stress will be laid on the integration of findings from physiology, neuropsychology,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1281,13 +1202,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "The aim of this module is to develop an understanding of human cognitive processes. Topic areas covered include, for example, attention, memory, reasoning, and decision making.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1363,13 +1279,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module assumes that students are familiar with the material covered in the second year prerequisite modules. The module introduces students to Pharmacology, which can be…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1435,13 +1346,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module covers biochemical, cellular and behavioural aspects of the nervous system in health and disease. It starts with understanding of neuronal survival and loss, followed…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1516,13 +1422,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module aims to introduce students to an increasingly important aspect of the scientific process in psychology and neuroscience: data analysis and visualisation. Weekly…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1586,12 +1487,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will take a theoretical approach to understanding key ideas at the heart of modern psychology. The aim here is to explore in detail several of the theoretical…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1669,13 +1566,8 @@
       "level": 4000,
       "credits": 20,
       "summary": "This module is designed to provide a more advanced understanding of research design and statistics. Emphasis will be placed on the acquisition of analytical skills covering…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1754,13 +1646,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The aim of the project is to develop and foster the skills of experimental design, appropriate research management and statistical analysis. A wide choice of topics is…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1836,13 +1723,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In this module, students will select a key psychological or neuroscience research finding to review (subject to approval by module controller). Students will engage with…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1930,13 +1812,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The aim of the module is to develop an advanced understanding of the psychological processes involved in visual perception. The module extends basic knowledge of visual…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2030,13 +1907,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module aims to develop an advanced understanding of selected topics relating to the psychology of groups and collective behaviour. It will address how behaviour is affected…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2112,13 +1984,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The overall aim of this module is to allow students access to current research in the area of behavioural neuroscience. Possible topics include motivation, learning and attention. …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2194,13 +2061,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module is designed to demonstrate how theories from cognitive psychology can enhance our understanding of the emotional disorders. Teaching will consist of lectures,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2276,13 +2138,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The aim of the module is to introduce students to psychological processes underlying music perception, cognition, and performance. The relationship between musical phenomena and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2358,13 +2215,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module examines the psychology of artistic activity and aesthetic appreciation, both from the standpoint of the artistic object (e.g., painting), as well as the individual…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2440,13 +2292,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The last few decades have witnessed a surge of research on social cognition, both in humans and in an increasingly wide range of non-human animal species. This module goes into…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2540,13 +2387,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will examine the psychology of dementia focusing on the cognitive and psychosocial impact on individuals with a diagnosis and those who care for them. Students will…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2622,13 +2464,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The aim of this module is to explore some of the many endocrine and neural systems that modulate patterns of behaviour in a range of species, including humans. It will highlight…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2704,13 +2541,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Tremendous progress in technology allows now to observe the brain in action to understand the physical bases of behaviour. This module showcases this state of the art approach.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2786,13 +2618,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The central theme of the module is the balance between fluidity and stability in the way we define ourselves and others, personally and socially. This framing allows the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2868,13 +2695,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module introduces students to social psychological thinking on the processes that promote, accompany, and hinder societal change. It covers current theoretical debates in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2949,13 +2771,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In this course, students will critically evaluate attempts by psychologists to understand aggressive behaviour in humans. This course will develop students' skills in reading and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3019,12 +2836,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The module provides an opportunity to learn more about clinical and applied psychology. Students will be introduced to the different roles Clinical Psychologists and other key…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3084,13 +2897,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Data science has become a critical part of scientific and industry working. This module will introduce students to modern data science methods such as machine learning and data…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3201,13 +3009,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The aim of this module is to explore how evolutionary theory is being used to study human behaviour. This research field has a long and controversial history, stretching back to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3271,13 +3074,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Have you ever wondered why animals are used in psychology and neuroscience research? The module focuses on how to design behavioural experiments in neuroscience and psychology…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3353,12 +3151,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In this course students will critically appraise psychological research on causal cognition and its evolution and development. There will be a focus on developing skills of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3416,12 +3210,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Students will critically explore the narratives that shape Psychological and Neuroscience, explore alternative narratives that broaden the canon, and consider ways in which…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3479,13 +3269,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Researchers often overlook the environmental impact of cutting edge research; however, there is growing awareness that environmental sustainability needs to be embedded into all…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3548,13 +3333,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The School of Psychology and Neuroscience engages in world-leading research and teaching, bridging the disciplines of psychology and neuroscience. In this module, students will…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3647,13 +3427,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module offers an in-depth exploration of qualitative research methodologies in psychology, including epistemology, reflexivity, and the use of NVivo software for data…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3729,13 +3504,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This Social Cognitive Neuroscience module gives students the opportunity to explore the intersection of psychology and neuroscience, to deepen our understanding of how the brain…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3798,13 +3568,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In this module, students will develop a detailed understanding of the molecular mechanisms causing maladaptive changes in the nervous system. Work will focus at the cellular and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3880,12 +3645,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Predators and their prey are engaged in a relentless evolutionary arms race. A hunting bat must detect and intercept a moth in darkness; a fish must decide in milliseconds whether …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3933,12 +3694,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Extensive and versatile communication between nerve cells using special junctions called synapses endows the nervous system with many complex functions like learning and memory.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3989,13 +3746,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This project will involve extensive laboratory or field research to investigate a defined problem broadly within the areas of psychology and neuroscience, appropriate to the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4071,13 +3823,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "In this module, students will carry out a research project across two Schools Psychology & Neuroscience will be the Lead School. The aim of the project is to develop and…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4141,13 +3888,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "In this module, students will carry out a research project across two Schools Psychology & Neuroscience will be the Lead School. The aim of the project is to develop and…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4211,13 +3953,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "An introductory module designed to provide an intensive introduction to designing and carrying out neuroscience research at the postgraduate level. Throughout the module, students …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4281,13 +4018,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This seminar-based module offers a theoretical perspective on state-of-the-art neuroscience techniques through critical analysis of primary literature. It also provides…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4351,13 +4083,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The student will carry out a major piece of original and independent research under the guidance of an academic supervisor. Under normal circumstances the research will be planned …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4418,13 +4145,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module aims to ensure that students are competent in the use of advanced data analysis in psychology. This includes advanced training in common statistics (including…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4485,13 +4207,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces students to the various skills and issues that are of importance to academic psychologists and neuroscientists, irrespective of their particular area of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4557,13 +4274,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module serves to introduce distinct ways of studying the origins of mind within a comparative Tinbergian framework, emphasising both functional and mechanistic accounts; why…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4624,13 +4336,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will explore the evolution of human language and animal communication through the comparative study of communication and cognition in humans and a variety of non-human …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4691,13 +4398,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module focuses on the origins of human cognition from evolutionary and developmental perspectives. How do we come to parse the 'blooming buzzing confusion' of cues from our…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4758,13 +4460,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The aim of this module is to acquire intellectual and practical research skills associated with evolutionary, comparative and developmental approaches to the study of the mind.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4825,13 +4522,8 @@
       "level": 5000,
       "credits": 120,
       "summary": "The student will carry out a major piece of original and independent research under the supervision of an academic advisor. Supervision will be regular but will vary depending on…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4894,13 +4586,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module addresses the historical and philosophical background to current debates in psychology. The module will be taught via lectures and seminars including student…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4961,13 +4648,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module presents psychopathological conditions and provides a basic understanding of the underlying neuronal and/or cognitive-behavioural mechanisms. Examples will be drawn…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5028,13 +4710,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module is designed to equip students with an appreciation of key principles, concepts, methods and discoveries in developmental psychology, with an emphasis on evolutionary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5095,13 +4772,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module explores several major themes and debates in social psychology, the central one being the nature of the relationship between individuals and groups. We will be looking …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5162,13 +4834,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module aims to provide an understanding of psychological knowledge in several inter-related domains concerned with the biological bases of behaviour. Emphasis will be laid on …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5232,13 +4899,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "This module will address evolutionary and comparative approaches to psychology. The aim is to provide an understanding of major evolutionary forces and how they have shaped animal …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5302,13 +4964,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "The aim of this module is to develop an understanding of visual perception and its functions. Stress will be laid on the integration of findings from physiology, neuropsychology,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5372,13 +5029,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "The aim of this module is to develop an understanding of human cognitive processes. Topic areas include, for example, attention, memory, reasoning, and decision making. Emphasis…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5442,13 +5094,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module provides an introduction to the psychosocial impact of dementia on individuals with a diagnosis and those who care for them. The module begins with an introduction to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5511,13 +5158,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module provides an introduction to several psychological models of dementia care, i.e. biomedical, person-centred, palliative and supportive. The student is encouraged to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5580,13 +5222,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The module provides a theoretical and evidence-based background to assist students to implement effective dementia care. Students will begin by considering the application of…",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5649,12 +5286,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module introduces students to the various skills and issues that are of importance to academic psychologists irrespective of their particular area of research. Weekly…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5699,12 +5332,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The aim of PS5240 is for students to develop the ability to write a good review of psychological research. They will be able to select their own topic within the field of…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5749,13 +5378,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides a user-friendly introduction to the fundamental concepts of quantitative analysis. It will cover underlying principles, terminology, research design, sampling …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

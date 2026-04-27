@@ -1,11 +1,7 @@
 {
   "id": "music",
   "name": "Music",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "MU1003",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module aims to develop skills and knowledge that will help students to get more out of the experience of listening to Western art music. Surveying set works drawn from…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -82,13 +73,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module is designed for accomplished instrumentalists and vocalists who wish to develop their practical music making at university. The module offers students a broad…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -151,13 +137,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module will examine the relationship between words and music, discussing ways in which language and music can interact, and the different ways in which words and music may…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -220,13 +201,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "Ethnomusicology is the study of why, and how, human beings are musical (Timothy Rice). It is interdisciplinary, and draws upon e.g. musicology, anthropology, cultural studies, and …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -290,13 +266,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module builds on the practical skills and musicianship developed in MU1004. Students can choose to perform a 30-minute solo performance or submit a portfolio of compositions. …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -362,13 +333,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The module explores a wide range of music in Scotland, examining Highland and Lowland folk music and more recent pop music as well as classical music composed from the medieval…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -431,13 +397,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This is a practical module offering students the opportunity to work in small groups in the Music Centre's Electronic Music Hub to create music from electronic sources.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -500,13 +461,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module will give students with existing music skills the opportunity to work with others to create, build and deliver a musical event. Working in groups, they will be given…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -585,13 +541,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module caters for students aiming to make music to a professional level or students wishing to go on to study practical music at postgraduate level: students can choose to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -657,13 +608,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module offers students the opportunity to design and undertake a music research project. The curriculum explores four strands of music research: musicology, music education,…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -726,13 +672,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module invites students to reflect upon the practical role of a church musician in its different facets and contexts. In exploring roles such as choir director, organist,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -796,13 +737,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module focuses on the history and development of sacred music-making in a variety of confessional traditions informed by Western musical practice. Students explore when,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -866,13 +802,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module encourages students to reflect on, and to develop, their practice as church musicians, music leaders, clergy, and/or oral presenters. Case study explorations of roles…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -936,13 +867,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module invites students to explore how an informed understanding of different sacred music repertoires can shape musical practice, active ministry, and/or scholarly research…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

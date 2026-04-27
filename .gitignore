@@ -16,3 +16,7 @@ prisma/dev.db-journal
 prisma/migrations/dev/
 dev.db
 dev.db-journal
+
+# Skills
+skills/
+skills-lock.json

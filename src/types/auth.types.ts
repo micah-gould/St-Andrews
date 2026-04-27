@@ -1,6 +1,6 @@
-import type { ReactNode } from 'react';
+import type { ReactNode } from "react";
 
-export type AuthProviderName = 'google' | 'microsoft';
+export type AuthProviderName = "google" | "microsoft";
 
 export type AuthProviders = {
   google: boolean;
@@ -39,7 +39,7 @@ export type ResetPasswordPayload = {
 };
 
 export type AuthMessage = {
-  type: 'error' | 'success' | 'info';
+  type: "error" | "success" | "info";
   text: string;
 };
 
@@ -60,7 +60,7 @@ export type AuthLayoutProps = {
 };
 
 export type RouteGuardProps = {
-  children: ReactNode;
+  children?: ReactNode;
 };
 
 declare global {

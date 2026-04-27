@@ -1,11 +1,7 @@
 {
   "id": "english",
   "name": "English",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "EN1003",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "In this module students are introduced to a range of texts, in prose and verse, from the nineteenth and twentieth centuries. Emphasis is laid upon (i) close reading; (ii) the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -82,13 +73,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module introduces a range of works from the period 1680-1830. Looking at travel, colonialism, and different constructions of man's natural estate in the early eighteenth…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -151,13 +137,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "In this module students are introduced to a small number of texts, in prose and verse, from the nineteenth and twentieth centuries. Emphasis is laid on (i) practical criticism,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -221,13 +202,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "In the first half of this module students will learn to read early forms of English language and literature, using specially edited texts from Old English, Middle English and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -294,13 +270,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module is designed to provide an introduction to a small number of representative plays from the Renaissance period to the twentieth century. Special emphasis will be laid…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -367,12 +338,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module builds on the work of EN1901 (Reading English) to give extended and deeper understanding of major literary texts, in drama, verse and prose, from the sixteenth century …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -423,12 +390,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "What is Scotland? How does a nation take shape on paper, and who gets to decide which aspects will take hold in the cultural imagination? In this module we will explore the ways…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -482,12 +445,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Reading Old English is a language-based module which takes the student through the basic knowledge of grammar and syntax required to read and understand Old English in the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -546,12 +505,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module introduces students to the nuanced ways in which late medieval texts expressed and negotiated the emotion of love in all its complexity. How did authors imagine,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -601,13 +556,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Students in this module will study the drama of Shakespeare and his contemporaries and acquire knowledge of contemporary critical approaches to the subject. They will consider how …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -682,13 +632,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module offers students a wide-ranging introduction to the varied and stimulating literature of the 1790s. It will also present students with an opportunity to read some of the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -763,12 +708,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module aims to introduce students to the second generation of Romantic writers, and to equip them with a good working knowledge of literary culture in Britain in the second…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -827,14 +768,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "In spite of what Henry James's famously disparaging characterisation of Victorian novels as 'loose baggy monsters' might suggest, the novel was, without a doubt, the dominant…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -909,13 +844,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will survey a representative sample of modernist fiction and poetry, providing an opportunity for the in-depth study of key conceptual shifts and formal innovations in …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -990,13 +920,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "A diverse and contested field, postcolonialism explores a world transformed by European exploration, exploitation and empire-building. This course examines literary…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1071,13 +996,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "What and where is Scotland? How have the cities and the countryside of Scotland been created over the last 200 years? And what are the internal and external borders of Scottish…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1152,13 +1072,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module introduces the literature and related culture of the Cold War Anglosphere, from reportage and protest lyrics to fictions of apocalypse, espionage, and paranoia. It…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1233,14 +1148,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "In this module students will explore some of the most common techniques, forms, and modes of poetry and will develop their practice as poets. The first half of the semester will…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1322,12 +1231,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module combines literary and cultural studies approaches in surveying American and British popular music in the postwar era, but especially in the period 1960-1990. We…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1387,12 +1292,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module introduces students to key ideas in the development of queer theory from the mid-20th Century to present. It also introduces students to some of the major literary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1450,12 +1351,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module conducts a survey of twenty-first century end-of-the-world fiction. Working across literature, television, film, graphic novel, theatre and video games, students will…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1517,12 +1414,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module introduces students to a range of 21st Century literature written in English with a focus on crisis in the contemporary moment. It will equip students with critical…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1581,12 +1474,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module covers the writings of Emily Dickinson in the context of the tumultuous social, political, and intellectual landscape of the 19th century and with particular emphasis…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1645,12 +1534,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "For any student of the contemporary arts, it should be apparent that crime and passion go hand in hand, and few cultural works can be said to evade these categories entirely.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1701,12 +1586,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Though it may seem like a rather narrow view, crime and passion are, arguably, the driving forces behind every branch of the arts. During this course, we'll be unpacking these…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1755,12 +1636,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "A close study of a selection of Old English poetry, including elegies, laments, riddles, and heroic narratives, illustrating the distinctive thematic and stylistic qualities of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1820,12 +1697,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The module examines the literature composed in England during the later Middle Ages with an emphasis on the years around 1400 - a period in which ideas of 'English literature' and …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1885,12 +1758,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Calls to 'decolonise the curriculum' (terminology which has itself been critiqued by scholars of indigeneity, as will be discussed) present particular problems when we are dealing …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1950,14 +1819,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "King Arthur and his legendary Knights of the Round Table have been held as exemplary figures of chivalry since their first documented appearance in medieval romance in the twelfth …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2033,13 +1896,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Locations encountered in Middle English literary texts are frequently green and pleasant places where the sun always shines, yet in reality during the fourteenth century the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2115,12 +1973,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "An exploration of how the East is imagined and described in a wide range of Old English prose and poetry. Among topics covered will be the major points of contact between East and …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2180,12 +2034,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The Reformation and Renaissance in England saw shifts in thinking about the place of sexuality and gender in society. Changing cultural and economic conditions altered the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2245,12 +2095,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module focuses on dramatic literature from the period c. 1660-1710 while aiming to study dramatic art in relation to its literary and historical contexts. We will read…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2310,13 +2156,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Students will be expected to acquire and to demonstrate, in coursework and in the examination, familiarity with a range of sixteenth- and seventeenth-century texts. They should…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2392,13 +2233,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module explores poetry, prose and drama from the reign of Henry VIII through to the early years of Elizabeth I's rule. It will examine the remodelling of literary forms in a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2474,12 +2310,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will introduce students to literary texts which are concerned with corporeality and selfhood in the Renaissance period. This will offer students advanced study of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2539,13 +2371,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module examines sixteenth- and seventeenth-century writing by or attributed to English and Scottish women, belonging to a range of secular and devotional genres, in prose and …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2621,12 +2448,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module examines the adaptation, imitation, and translation of Continental European works in the English and Scottish Renaissance. The module may take up issues such as: the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2684,12 +2507,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module introduces students to an exciting range of texts from the seventeenth century with an emphasis on the social networks within which seventeenth-century English…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2749,12 +2568,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module considers early modern literature in the context of changing conceptions of the natural world and the emergence of the modern scientific method. The module may take up …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2814,12 +2629,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The Enlightenment is a contested historical category, with arguments about literature and philosophy contributing to the definition of what enlightens a human subject. By reading…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2879,12 +2690,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module supplements existing teaching on Romantic-period literature, allowing students the opportunity to study works by and about women written between 1789 and 1820. It…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -2943,13 +2750,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module introduces students to some of the key themes and concerns of literature written for and about children in the eighteenth and early nineteenth centuries via the study…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3025,14 +2827,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Ghosts, reanimated bodies, monsters, fragmented manuscripts and haunted spaces fill the works of Romantic poets and novelists alike. This module explores the Romantics' interest…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3108,12 +2904,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The nineteenth century ushered in the era of 'the newspapers for the million' when newspapers and periodicals were brought within the reach of unprecedented numbers of readers.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3173,14 +2965,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "How is scientific knowledge transformed when it is deployed in literary writing? How do linguistic strategies such as metaphor shape the communication and reception of scientific…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3256,14 +3042,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will give students a broad grounding in the antebellum literature and culture of the United States, from colonial settlement to Civil War. Focusing on the…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3339,13 +3119,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Radical changes in economic life occurred in the eighteenth century, with the establishment of modern banking systems, the 'rationalisation' of agricultural production, the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3421,13 +3196,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will use material culture studies as a lens through which to consider the continuities and ruptures between Victorian and modernist attitudes towards material culture…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3503,12 +3273,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The Victorians are infamous for seeking to standardise the English language, either by imposing fixed rules on its grammar or by rejecting innovation and variation in favour of a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3568,13 +3334,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module complements ID4002 'Communication and Teaching in Arts and Humanities' in which students gain substantial experience of a working environment. This module provides the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3653,13 +3414,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The primary objective of this module is the completion of the dissertation. This will entail the process of informed choice of a suitable subject, coherent planning of the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3723,13 +3479,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The module introduces students to speechwriting, focussing on the historical tradition of eloquence as an educational, political, and literary tool, with analysis and practice of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3805,12 +3556,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The aim of this module is to introduce some of the most interesting and innovative work in contemporary fiction, and to give you the knowledge and the tools to read it, judge it,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3870,13 +3617,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The module aims to analyse social, cultural and literary formations through the medium of popular fiction. Offering a contrast to canonical readings of the twentieth century, the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3952,12 +3694,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module offers students the opportunity to study the literature, film and culture of an under- explored decade. The 1940s was a period of unprecedented social and political…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4017,14 +3755,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The course offers a survey of Woolf's fiction, complemented by study of her non-fiction including fiction and polemical pieces. The set texts include the majority of Woolf's…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4100,12 +3832,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The module aims to enable students to write better creative prose and poetry. For prose, the principal aim is to develop in students an awareness of how fiction and creative…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4181,12 +3909,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The module provides an introduction to American fiction through the chronological study of ten texts published between the end of the Civil War and the beginning of the Second…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4246,13 +3970,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module is designed to enable students to improve their creative prose-writing skills. The focus is on writing as a dynamic and on-going process. Students will be expected to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4343,12 +4062,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "How exclusive a club is modernism? Did Scottish and Irish cultural nationalism inform and trouble 'modernist' writing? And what role did writers from the 'Celtic fringe' of the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4408,13 +4123,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The twentieth and twenty-first centuries have seen a broad range of radical approaches to the task of making performance. This module will explore a range of these approaches,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4490,12 +4200,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Come to the movies! In this module we'll look at techniques common to poetry and cinema (an ancient art and a very modern one). We'll pay particular attention to Modernism at the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4555,13 +4261,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The Caribbean has long been recognised as a microcosm of modernity. The site of Columbus’s discovery of the New World and of colonisation by the British, Dutch, French and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4637,13 +4338,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module introduces students to US fiction of the period 1950-2000—a period sometimes referred to as the ‘American Century’—through the chronological study of nine major texts, …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4718,14 +4414,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will consider how a range of contemporary literary texts, both prose and poetry, speak to situations in which human rights are invoked. The aim of the module will be…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4801,14 +4491,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "When Marianne Moore writes of poetry, ‘I, too, dislike it’; when Plato banishes poets from his utopian Republic; when Amiri Baraka declares that ‘poems are bullshit unless they…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4884,13 +4568,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Contemporary playwriting is flourishing in Britain, and this module will use the best examples of modern classic plays to unearth technique and skills that the students will then…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4982,13 +4661,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The dissertation must consist of approximately 10,000 words of English prose on a topic agreed between the student and two appropriate members of staff (who act as supervisors).…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5051,13 +4725,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The module considers a range of essential topics in poetry and its composition, including the creative process, sound and sentence, the poetic line, imagery, metaphor, metre and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5121,13 +4790,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The module offers a critical and practical study of the writing of literary prose, including short and long fiction, as well as the literary essay, life writing and other…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5191,13 +4855,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Students will extend their knowledge of poetry and its creation into more technical aspects of writing than were covered in depth in EN5004 Writing Poetry 1; the module will…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5261,13 +4920,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Students will extend their study of prose writing and its techniques through discussion and critical and practical analysis. Emphasis will be given to exploring the wider…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5331,13 +4985,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is designed to provide or enhance some of the specific skills and areas of knowledge necessary for undertaking research in medieval literature. Students will study…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5400,12 +5049,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This team-taught module will provide essential skills for the study of Old English language and literature. Topics covered may include the use of dictionaries (in electronic and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5453,13 +5098,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module teaches some central Old English, Middle English, and Older Scots texts in their wider cultural and temporal contexts. The texts considered will be grouped under…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5523,12 +5163,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module builds upon the foundational contexts discussed in the first semester, while introducing students to a number of additional critical approaches to texts written in Old …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5579,13 +5215,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5648,13 +5279,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "Students will learn about the literary marketplace, and the roles of editors, publishers, agents and festival organisers. They will also be introduced to the effective gathering…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5721,13 +5347,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "This module is designed to introduce key playwriting skills as well as writing for younger audiences and radio. There will be focus on new writing, and a particular emphasis on…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5791,13 +5412,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The module is designed to consolidate playwriting skills gained in Writing for Performance 1 (EN5105) and to introduce writing for the radio and for the screen. Seminars continue…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5864,12 +5480,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "The module provides an introduction to key debates in contemporary feminist and gender theory, alongside an overview of the historical and cultural context within which these…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5916,12 +5528,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The module seeks to introduce students to a range of debates concerning women, writing and gender through history. The set texts embrace a variety of generic forms, and reflect…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5968,13 +5576,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module examines continuity and change in women’s writing and constructions of gender across the period 1700 to the present. Students will be introduced to key critical…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6040,13 +5643,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is designed to enhance students’ knowledge of a range of critical approaches and theories central to the study of literature. It will introduce students to the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6109,12 +5707,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module continues the work undertaken by Theories and Contexts 1, introducing students to a second selection of critical approaches central to the programme of study on the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6164,13 +5758,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The aim of the module is to enable students to examine the phases of Romantic and Victorian literary and cultural production and reception, from the lives of authors and cultural…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6236,12 +5825,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The aim of this module is to offer a close consideration of a range of texts from the Romantic and Victorian eras through the conditions of publication and with particular…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6291,12 +5876,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The aim of the module is to enable students to examine the interaction of literature and its various historical, philosophical, cultural and political contexts in the eighteenth…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6346,13 +5927,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The aim of the module is to enable students to examine the cultures of literature and literary production. It ranges from the ‘Ossian phenomenon’ and related debates in the later…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6418,13 +5994,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module considers the relationship between writing in English from the sixteenth and seventeenth centuries and the range of ‘other worlds’ with which that writing is engaged,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6487,12 +6058,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers students a thorough grounding in the palaeographical and bibliographical skills required to study Renaissance literature (with an introduction to electronic…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6539,12 +6106,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module aims to build upon the themes explored in EN5304, 'Learned Culture'. Here, the emphasis is less upon rhetoric and classroom practice in the sixteenth century, and more …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6591,13 +6154,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module explores key works of sixteenth- and seventeenth-century literature in relation to the cultural forms that shaped early modern writing. Here the term ‘forms’ includes…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6660,12 +6218,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Modernism, in its narrowest sense, refers to the radical literary experiments that occurred in English poetry and prose in the aftermath of the First World War by writers which…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6712,13 +6266,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module explores attempts by writers to find new literary subjects and forms in the opening decades of the twentieth century when, as Adorno later observed: ‘It is…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6781,12 +6330,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The second half of the twentieth century and the beginning of the twenty-first century witnessed an explosion of theories about literature and culture in an attempt to understand…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6833,13 +6378,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module introduces students to a range of late twentieth and early twenty-first century writing. Focalised through both national and international perspectives, this module…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6902,12 +6442,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module aims to map postcolonial and world literatures through a diverse range of texts drawn from across the globe and spanning the long-history of imperialism, from colonial …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6952,13 +6488,8 @@
       "level": 5000,
       "credits": null,
       "summary": "Students will design, co-ordinate, an independent pedagogic project.",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

@@ -1,11 +1,7 @@
 {
   "id": "history",
   "name": "History",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "AA3810",
@@ -13,12 +9,8 @@
       "level": 3000,
       "credits": 12,
       "summary": "",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -59,12 +51,8 @@
       "level": 3000,
       "credits": 12,
       "summary": "",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -105,12 +93,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -169,12 +153,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -233,13 +213,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module studies environmental history over the past two centuries in an international context. It examines attitudes to nature and animals, species history (extinctions and…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -297,13 +272,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "In the early twenty-first century, the fate of 'civilisation' seems caught between the inevitability of progress and the unavoidability of collapse. Increasingly, this fate has…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -353,12 +323,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -403,12 +369,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -467,12 +429,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -531,13 +489,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "In the early twenty-first century, the fate of 'civilisation' seems caught between the inevitability of progress and the unavoidability of collapse. Increasingly, this fate has…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -586,13 +539,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Environmental history is the study of human interaction with the natural world through time. Prior to the nineteenth century, nature was seen as an integral part of history.…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -650,13 +598,8 @@
       "level": 1000,
       "credits": 12,
       "summary": "For a small country Scotland has a large historical footprint. From the making of the kingdom and the development of its identity as one of the nations of Europe, Scotland has…",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -720,13 +663,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module provides an introduction to key theoretical and methodological approaches which have characterised the emergence of History as a discipline since medieval times. It…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -788,13 +726,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The Historical Research Project may be taken by MA Combined Studies students who have completed pre-requisites in History. The module can be taken in either Semester 1 or Semester …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -840,13 +773,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module is a part of 'Communication and Teaching in Arts and Humanities' in which students gain substantial experience of a working environment. This component offers the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -913,13 +841,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module is designed to encourage the development of skills of historical analysis through the concentrated study of a topic agreed between the student and two appropriate…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -983,12 +906,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module seeks to understand the ways in which history is made visible and audible to non-professional audiences. Although it examines alternative ways of representing history, …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1036,12 +955,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "With the consent of the module coordinator and of the Chair of the Degree Committee, candidates may submit a video documentary. Recording the Past is designed to encourage the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1112,14 +1027,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "A series of compulsory fortnightly meetings forms an integral part of the work. These group meetings are to discuss general approaches and difficulties of researching, preparing…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1195,13 +1104,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The dissertation must consist of between 10,000 and 12,000 words of English prose on a topic agreed between the student and an appropriate member of staff (who acts as…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1284,12 +1188,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "The aim of this module is to give students a chance to acquire two technical skills which they must have in order to embark on their chosen path of research, not just for the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1333,12 +1233,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "The syllabus for this module is the same as for HI5002. Its aim is to allow students to acquire a further two technical skills from the list given under HI5002.",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1382,12 +1278,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The aim of this module is to give students a chance to acquire a technical skill crucial for their research plans, not just for the taught postgraduate programme but also with a…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1432,14 +1324,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis related to the history of war and strategy, through concentrated study of topics…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1499,13 +1385,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1566,12 +1447,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1618,13 +1495,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The aim of this module is to give students a chance to acquire a technical skill crucial for their research plans, not just for the taught postgraduate programme but also with a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1686,13 +1558,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The aim of this module is to give students a chance to acquire a technical skill crucial for their research plans, not just for the taught postgraduate programme but also with a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1755,12 +1622,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "History in Practice is the core module for the new Msc in Economic and Social History. Students will synthesise and then apply what they have learned in the History and Social…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1808,12 +1671,8 @@
       "level": 5000,
       "credits": 10,
       "summary": "History in Practice is the core module for the new Msc in Economic and Social History. Students will synthesise and then apply what they have learned in the History and Social…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1860,13 +1719,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Global Capitalism: Origins and Development from a Political Economy Perspective explores some of the most fundamental economic phenomena that have shaped the modern world. The…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1929,13 +1783,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "An in depth study of a particular subject following discussion and agreement between student and designated supervisor. Student dissertations will be supervised by members of the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2001,13 +1850,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2070,13 +1914,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module enables students to scrutinise central historiographical disputes that continue to determine the nature and practice of intellectual history. The aim is to provide…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2139,13 +1978,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is concerned with periods of history when there was rapid and turbulent intellectual and philosophical change. The module studies the nature of the change through the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2208,13 +2042,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module introduces the student to the methods of intellectual history through a historical overview of the actual practice of intellectual history with special emphasis on the …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2277,13 +2106,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This one-semester core module introduces fundamental concepts, questions and analytical frameworks relevant to legal, historical and constitutional research. Topics will include…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2345,13 +2169,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module provides a forum for students to develop, present, and write on a particular field or topic, drawing on methodological ideas from Semester 1 modules, in addition to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2416,13 +2235,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Approaches to Legal History gives a grounding in particularly influential authors and works on the history of law, and also requires critical reflection on method. It will provide …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2484,13 +2298,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module investigates international law as a paradigm for critically analysing international relations. It sees international law as an arena for debates about core values of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2552,13 +2361,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Comparative Studies in Legal History? provides a forum for students to develop, present, and write on a particular field or topic, drawing on methodological ideas from Semester 1…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2620,13 +2424,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will explore global constitutionalism from the perspective of international political theory. Much of the literature on global constitutionalism begins from a legal…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2687,13 +2486,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module provides students with the opportunity for detailed research within a specialized field of their choice. Student dissertations will be supervised by members of the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2756,13 +2550,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The Middle Ages began with the fifth-century crisis of the Roman Empire. This module examines how political, cultural and social life changed in the Byzantine, British and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2825,13 +2614,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module provides an introduction to Scotland’s long history as an independent kingdom between the tenth and the early eighteenth century. It examines the land and people as a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2894,13 +2678,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module surveys the history of Europe and the Mediterranean world from the twelfth to the fifteenth centuries. The module takes thematic cross-sections which will enable…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2963,12 +2742,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module introduces students to the history of Europe between the fall of the Roman Empire and the year 1000. The Middle Ages began with the crisis of the Roman Empire in the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3016,12 +2791,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module surveys the Middle Ages in Europe from the Age of the Crusades to Age of Columbus, a key period for the emergence and rise of European civilization(s) in a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3070,13 +2841,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explains modern archaeological methods, introducing the techniques available to researchers for investigating archaeological sites. The module will demonstrate how…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3151,12 +2917,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Monasticism, in all of its astonishing variety, was a key feature of nearly every landscape in the medieval West. Religious women and men and their institutions were so ubiquitous …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3215,12 +2977,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Castles remain the most impressive physical reminders of Scotland's medieval past. The great royal fortresses of Edinburgh and Stirling provide symbols of Scotland's past…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3279,13 +3037,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module surveys the architectural development of medieval castles in Western Europe and the Near East from the eleventh to the fifteenth centuries. About half the time is…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3360,13 +3113,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This option starts with a study of reactions to heresy in the medieval west and then compares this with the treatment of other social marginals.",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3432,12 +3180,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The aim of this module is to explore the changing nature and impact of urban life in a moment of great creativity in Italy, tracing the transition from the first appearance of the …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3487,12 +3231,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module deals with the history of the Carolingian dynasty, who ruled the last pan-European empire of the middle ages, stretching from Brittany in the west to the frontiers of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3542,12 +3282,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the influence of apocalyptic thought on European history in the Middle Ages. It focuses on the different groups who proclaimed or denied the imminence of the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3597,14 +3333,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the political role played by queens in the early Middle Ages. Studying the constantly shifting representation of female authority (often depicted as unnatural …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3670,12 +3400,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the diverse concepts and constructions of sex and gender (including both masculinity and femininity) in medieval Europe through a close reading of primary…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3720,12 +3446,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module focuses on the French political, social, and cultural history between the extinction of the Capetian dynasty and the death of Charles VI. This was the time of the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3772,13 +3494,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "In this module students will read Orkneyinga saga, an early thirteenth-century text from Iceland purporting to recount the history of the earldom of Orkney from c.900 to c.1200.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3842,12 +3559,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3890,12 +3603,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The reign of Richard II king of England represented a period of challenge and crisis which culminated in the king’s overthrow in 1399. The aftermath of this revolution witnessed a …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3940,12 +3649,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will introduce students to the social and economic life of Ireland in the seventh and eighth centuries. The principle primary material used will be law codes dating…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3995,12 +3700,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Between the 1450s and 1480s many European realms were beset by periods of internal conflict which developed into open civil war. The best-known of these are the so-called Wars of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4050,12 +3751,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This option examines the literary, socio-political and legal culture of the secular aristocracy in England and Northern France during the twelfth century, with particular…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4101,12 +3798,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module focuses on rebellions, revolts, and social movements in Western and Central Europe during the long fourteenth century, a period characterised as the 'golden age of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4154,13 +3847,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Although there is an unavoidable element of religious history, this course approaches death primarily from the point of view of social history. Hence, its main goal is not only to …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4223,14 +3911,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will look at the rise of the papacy in the high middle ages. The growing influence of the papacy led to numerous political clashes between the papacy and emperors and…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4296,13 +3978,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This is a module on the history of emotions that will cover the period 1100-1500. From the eleventh century, coinciding with the arrival of Greek and Arabic works on natural…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4365,12 +4042,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This modules covers a turbulent and important period in English history. The module is broadly chronological but also invites comparisons between the four kings who reigned…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4420,13 +4093,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The European Middle Ages (c. 500-1500) witnessed myriad environmental, climatological, demographic, technological, socio-economic and political changes, all of which played a role …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4489,12 +4157,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Who made books in the later Middle Ages? Who read them? What did people read, and what kinds of books did they own? This module combines the study of medieval texts with the study …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4579,13 +4243,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the political, social and cultural history of the Empire of New Rome, centred on Constantinople, in the sixth century. Themes covered will include: external…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4660,13 +4319,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "In the wake of the early Islamic conquests, between the seventh and twelfth centuries the eastern Islamic world - the regions today comprising Iraq, Iran, and Central Asia - was…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4741,12 +4395,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This course looks at the role of Shi'ism in a series of dynamic politico-religious movements which took place over several centuries in the medieval period in an area stretching…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4794,13 +4444,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module will examine the mamluk phenomenon, looking at the development of the institution. It will then consider the mamluks' rise to power in Egypt and Syria, in the face of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4866,12 +4511,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The collapse of the Mongol empire in the early 14th century ushered in a period of dramatic change in the Middle East and Central Asia that laid the foundations for its modern…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4919,13 +4560,8 @@
       "level": 3000,
       "credits": 16,
       "summary": "This unique course offers you the opportunity to explore the history of medieval Scotland first-hand. In addition to classroom-based study of the history of medieval monasticism…",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4989,12 +4625,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "From c. 1050 to c.1250 the kingdom of Scotland obtained roughly its modern territorial form, in a process that was a pre-requisite for the durable identity that would preserve the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5045,13 +4677,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module focuses on political and societal developments during the 56-year reign of Henry III of England (1216-1272). The thirteenth century in England not only witnessed…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5115,12 +4742,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "In the decades around CE700 a number of northern writers, notably Adomnán of Iona (†704) and Bede of Monkwearmouth-Jarrow (†735), looked back on the history of their region. Their …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5168,12 +4791,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "Through much of the British Isles the opening decades of the fourteenth century were characterised by war and political troubles. The Scottish war, which had begun in the 1290s,…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5221,13 +4840,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This is a module on everyday life in the Later Middle Ages (c. 1100-1500) whose analysis will be undertaken with a gender lens. As gender historians claim, we need to study the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5291,12 +4905,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module will use a rare combination of written and visual sources to examine and compare the personalities, careers and impact of Saints Francis, Clare and Dominic and the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5344,12 +4954,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The Merovingian dynasty – ‘the long-haired kings’ – dominated the medieval West for three hundred years after the Fall of Rome. This special subject explores political, social and …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5397,12 +5003,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module focuses on France from the accession of Philip II Augustus in 1180 to the aftermath of Philip IV the Fair's death in the 1310s. Over the course of this long century,…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5450,12 +5052,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "A rich body of evidence has emerged over the last 2,500 years concerning the moral challenges posed by warfare. Through Classical Greece and Rome to the early Church and the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5506,12 +5104,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The tenth century witnessed the political and cultural revival of Byzantium following two centuries of dour military struggle, impoverishment and introspection. Byzantium took…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5559,12 +5153,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module will consider the range of interactions between the Latin West and the powers and cultures of the Near East and beyond, in the period will roughly between the first…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5612,12 +5202,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The nomadic Mongols in the thirteenth century founded a vast empire that stretched at its height from Europe to Korea. The impact of the Mongols was felt across the known world,…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5665,13 +5251,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Specialised dissertation of 10-12,000 words on a topic in Medieval Archaeology for Honours students in the Medieval History and Archaeology degree. The topic does not have to…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5751,13 +5332,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5818,13 +5394,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is primarily a course in palaeography. Classes will be both practical (devoted to 'hands-on' use of documents) and theoretical in nature (providing background…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5887,13 +5458,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will develop skills in palaeography and codicology. Classes will be both practical (devoted to 'hands-on' use of documents) and theoretical in nature (providing…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5959,13 +5525,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is a detailed study of a medieval topic of the student's own choice which, as appropriate, will include tutorials with a designated tutor.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6028,13 +5589,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is a detailed study of a medieval topic of the student's own choice which, as appropriate, will include tutorials with a designated tutor.",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6096,13 +5652,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is a detailed study of a medieval topic of the student's own choice which, as appropriate, will include individual tutorials with a designated tutor.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6164,13 +5715,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This core module addresses interpretation and criticism of medieval sources, and is complemented in semester two by ME5204. It concentrates upon a selected central body of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6232,13 +5778,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This core module addresses interpretation and criticism of medieval sources. It complements ME5203, and completes the relevant skills and source training by an extended paper,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6303,13 +5844,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module provides an introduction to Middle Eastern History from the dramatic reconfiguration of the Middle East in late Antiquity to its contested and contentious recent past. …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6371,13 +5907,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is intended to introduce students to themes and debates in Middle Eastern history. The module will look at methodological problems, questions of historiography,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6439,12 +5970,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "This module is intended to take an in-depth look at the development of the modern Iranian state from its inception under Reza Khan in the 1920s to the present day. The module will …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6488,13 +6015,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "This module is intended to explore the evolving nature of Iran from the perspective of its politics, religion and culture in the period ca. 300-1700. Across this period, Iran…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6552,14 +6074,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is intended to complement and supplement Persian language modules and to serve as a bridge between the language modules and history modules which constitute the…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6691,13 +6207,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student in consultation with…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6759,13 +6270,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student in consultation with…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6827,13 +6333,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is intended to take an in-depth look at the development of the modern Iranian state from its inception under Reza Khan in the 1920s to the present day. The module will …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6896,13 +6397,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student in consultation with…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6968,13 +6464,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student in consultation with…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7031,13 +6522,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is intended to introduce students to themes and debates in Iranian history. The module will look at methodological problems, questions of historiography, including…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7113,13 +6599,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is intended to take an in-depth look at the changing nature of Iran from the perspective of its politics, religion and culture in the period ca. 200-1000. During this…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7224,13 +6705,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student in consultation with…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7293,13 +6769,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student in consultation with…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7362,13 +6833,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module introduces postgraduate students to debates about development of states and societies in the pre-modern Middle East from Late Antiquity to the eve of the modern…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7431,13 +6897,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is intended to take an in-depth look at the changing nature of Iran from the perspective of its politics, religion and culture in the period ca. 200-1000. During this…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7516,13 +6977,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module allows students to explore topics in greater depth than is possible in core modules. Students are encouraged to discuss a topic of interest with their tutor.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7597,13 +7053,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is intended to take an in-depth look at the development of the modern Iranian state from its inception in the Constitutional Revolution and development/implementation…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7691,13 +7142,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is intended to introduce students to themes and debates in Iranian history. The module will look at methodological problems, questions of historiography, including…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7777,13 +7223,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student in consultation with…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7858,13 +7299,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student in consultation with…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7930,13 +7366,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module will look at continental European history in the early modern period, and the expansion of Europe. The British Isles will not be a major focus of this module, but…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7998,13 +7429,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module provides a thematic coverage of major political and social developments in the Western world during the 19th and 20th centuries. By adopting a thematic rather than…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8066,13 +7492,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module is designed as an introduction to the study of early modern European history at university level. It is intended to provide an overview of early modern political,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8135,13 +7556,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module provides an introduction to the development and transformation of the British state in the three centuries following the 1707 Treaty of Union between Scotland and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8204,12 +7620,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The early modern period saw considerable changes in the shape of warfare and in the nature of armed forces and the state, a process some historians have described as a military…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -8259,14 +7671,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The sixteenth, seventeenth, and eighteenth centuries were a time of profound social, political, economic, religious, and legal change. This module explores life and death in early …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8332,12 +7738,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores aspects of English life, behaviour and attitudes in a period of profound social, political, economic, religious and legal change. Topics which may be covered…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8387,12 +7789,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module introduces students to the history, culture, and politics of Venice at the height of its power. Renaissance Venice was simultaneously the capital of a maritime and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8451,12 +7849,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The Tudors are the most famous dynasty in English history, containing the striking personalities of Henry VIII and Elizabeth I, and ruling over the turbulence of repeated changes…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -8506,12 +7900,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will investigate the ways in which the 'witch' became a culturally significant figure in continental Europe between the fourteenth and seventeenth centuries, the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8561,12 +7951,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The search for the ideal means of storing knowledge has been a constant of history, and books have played a role in this process since the dawn of ancient civilisation. Why then,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8613,13 +7999,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The Reformation created divisions throughout Europe: with the religious schism persuasion became a tool to bring souls to salvation. In Scotland, this combined with political…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8682,12 +8063,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "In the late eighteenth and early nineteenth centuries, a wave of revolutions swept the Atlantic world. They shook the empires that had controlled this area of the globe, launched…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -8734,12 +8111,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The Reformation era [1450-1650] is widely treated as the birth of Protestantism, or more broadly as a series of developments within Protestant and Catholic communities. But in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8784,12 +8157,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the engagement of Scots in combating and participating in piratical and privateering activities in the Early Modern Period. The module follows the development …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8837,12 +8206,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module studies the development of the early modern Ottoman Empire from its rise and definitive establishment in the late Middle Ages until the end of the seventeenth century. …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -8901,13 +8266,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This course is designed as a brief historical survey of women, gender and sexuality in the Middle East in the early modern period. We will examine the historical roots of some of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -8964,13 +8324,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "An exploration of the experiences of Africans in Anglophone North America from the beginnings of slavery until the American Civil War. The course focuses on the social, cultural…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9036,12 +8391,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the issues raised by the unification of Scotland, England, and Ireland under one monarch in 1603. Following a review of sixteenth-century concepts of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9091,12 +8442,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Eighteenth-century France was the cultural leader of Europe, but mounting domestic difficulties made its efforts to remain the arbiter of power on the continent increasingly…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9146,12 +8493,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The time between roughly 1770 and 1850 was the classical age of travel and travel writing. What used to be an exclusive practice of nobles in the early modern period became less…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9201,13 +8544,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "What do we mean when we talk of ‘state power’, and how did this relate to early modern culture and society? This module focuses on one of the most significant zones for state…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9295,12 +8633,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module examines British culture in the eighteenth century. It introduces some of the leading cultural personalities of the age (Johnson and Boswell, Hogarth, Burke, Gibbon,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9348,14 +8682,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Focusing on a series of local microhistories, this course illuminates the importance to Scotland of long-distance connections in the era of British state formation and imperial…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9419,12 +8747,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The purpose of this module is to look at a critical if under appreciated period of Persian (Iranian) history between the fall of the Safavid Empire in 1722 and the consolidation…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9474,12 +8798,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Holocaust denial was widespread when the wartime genocide of Jews and Roma took place, and during the early Cold War. Later, acknowledgement of what had happened arose in the West …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9527,13 +8847,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The decline of Imperial Russia is analysed from the defeat of Napoleon, through attempts at reform, the rise of the Bolsheviks and other opposition movements, to the collapse of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9599,12 +8914,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will examine the role of the media - primarily the press, news agencies and broadcasting - in the developing political culture in Britain from the mid-nineteenth…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9654,13 +8965,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will study the 'Jewel in the Crown', the British empire in India. The aim is to provide both an overall view and understanding of the development of the Raj as well as …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9726,13 +9032,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Situated on the borders of Europe and Asia, Russia has always been an enigma for Western observers and scholars, by turns inspiring admiration as the exotic 'other', and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -9798,12 +9099,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Revered by some as the \"modern central person\" or described by others as simply insane or a ruthless warmonger, Germany's Emperor Wilhelm II (1859 - 1941) played a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9853,12 +9150,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The Victorians often get a bad press, seen as pious, prudish do-gooders. Yet Britain in the nineteenth century had a powerful industrial economy, an expanding global influence and …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -9905,12 +9198,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "For Romantic poets and natural scientists, Christian missionaries and package tourists, the natural world was a source of inspiration and fascination. This module examines the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -9960,12 +9249,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module traces the history and contradictions of Japan's empire from the first debate over how to punish Korea in 1873 through to consideration of the early postwar aftermath…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10015,12 +9300,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module looks comparatively at French, Italian and Spanish colonialism in North Africa (Algeria, Morocco, Tunisia, Libya) during the high point of European imperialism between …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10070,12 +9351,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module traces the modern history of China through the lens of its most transformative political and social changes. It begins with the momentous and transformative rebellions …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10125,13 +9402,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The tumultuous events of the French revolution marked a decisive moment in the history of modern France, causing a radical restructuring of society, politics and culture. The…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10197,12 +9469,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The United States is home to some of the most iconic, the largest, and the most violent, cities in the world, and this module traces their fortunes from foundation to the present. …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10252,13 +9520,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This course covers the making of the American Constitution, the institutions and systems of government which it established, and its long turbulent history over the past two…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10321,13 +9584,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Over the past ten years transnational and global history have emerged as some of the most vibrant fields in late modern history. With their interest in cross-border activities,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10393,12 +9651,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will focus on the social and cultural history of migration from South Asia from the 17th to the 20th centuries. It will examine the different motivations for migration …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10448,14 +9702,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This intellectual history of late modern East Asia explores the ways social, political and religious movements, as well as the evolving ideas of key individuals in Korea, Japan,…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10521,13 +9769,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This course covers the history of the United States and the Cold War in both international and domestic contexts. First, we will examine the Cold War as Washington’s guiding…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10590,12 +9833,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "From the steam engine to the internet, new technologies have transformed the ways people all over the world live and work. This module will introduce you to the ways that…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10654,13 +9893,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module looks at developments in Iranian history from the 19th century to the present with particular reference to the impact of the West. The module will assess the various…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -10729,12 +9963,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The rapid rise of East Asia is one of the world's most decisive events in the last sixty years from an economic development perspective. This course explores and explains the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10784,12 +10014,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This course explores Scottish entanglements with the South Pacific world in the long nineteenth century. We situate Scotland’s convict transportation to Australia in global…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -10837,12 +10063,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "“‘Why are some countries rich and others poor?” is the fundamental question of economic history. This module examines the historical processes that shaped the contemporary…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10887,12 +10109,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module engages with some of the most pertinent and, in part, also hotly disputed issues in the history of Nazi Germany. It tackles some of the most influential scholarship on …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -10939,13 +10157,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module examines the United States during the turbulent and difficult 1929-1945 period, with a particular emphasis on society, culture and politics. Topics to be examined…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11011,12 +10224,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the 'lived experience' of dictatorship in Fascist Italy, Nazi Germany, Franco's Spain and the Stalinist Soviet Union. As such the module provides an…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -11066,12 +10275,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The decade-long conflagration (1912-23) replaced Centra Europe's empires with ethnolinguistic nation-states. Soon Central Europe's nation-states rejected the West's impositions…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -11124,12 +10329,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The module explores the history and dynamics of Russian imperialism. Since the Russian invasion of Ukraine in 2022, many now recognise it as Russia’s dominant ideology. Apart from …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11174,13 +10375,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the 'lived experience' of Britain in the 1920s and 1930s via an examination of several key aspects of everyday life. As such it provides an introduction to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11246,13 +10442,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will explore the extraordinary growth of popular culture in Britain, c 1880-1960, from Victorian music hall to 'Teddy Boys'. It will study the key subjects of music,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11318,13 +10509,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "What did empire mean to Europeans in the twentieth century, and in what ways have colonialism and its legacies shaped the history of Europe since the end of formal imperial rule…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11390,14 +10576,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores the ways in which popular music may be used as a lens through which to view socio-cultural changes in Britain and the United States after World War II. It…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11466,12 +10646,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "In recent years, historians have been increasingly studying the globalization of ideas and arguments. How did ideas like 'democracy', 'nationalism', 'sovereignty', 'law', or…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11521,14 +10697,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module provides an in-depth study of the period between 1941-53, a crucial and formative phase in modern Iranian history. It will go through the key historical events of…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11591,12 +10761,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module examines the development of left-wing political thought in Britain in the decades after 1945. It explores the ways in which left-wing political thinkers attempted to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11642,12 +10808,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module explores British politics from the Second World War until the election of 'New' Labour in 1997, focusing on the relationship between electoral politics and political…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11694,13 +10856,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "Mary, Queen of Scots, has been controversial for five hundred years: the resulting mass of source material (including a wealth of original items right here in St Andrews) makes…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -11764,12 +10921,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This special subject explores the course of radical and left-wing politics in Scotland during the twentieth century. The first half of the module examines the emergence of the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11819,12 +10972,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This course examines the history of Scotland’s distinctive law and legal system in Scotland and its empire in the eighteenth and nineteenth centuries. In the first semester…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -11872,12 +11021,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The module surveys approaches to the “American century,” Henry Luce’s famous 1941 term for U.S. global leadership. It will focus on the role of the federal government in…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -11924,12 +11069,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module will discuss and analyse the often intimate relationship between Iran and Britain in the modern period, focusing on the initial diplomatic contacts in the early 19th…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -11977,12 +11118,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module will provide in-depth study of one of the most momentous events in contemporary World History, the Iranian Revolution of 1977-79, as well as assess the genesis of the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -12030,12 +11167,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module explores the cultural and social dimensions of everyday life in the Ottoman Empire during the early modern period (1450–1800). Moving beyond the political and military …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12083,12 +11216,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "Madness is a source of fascination and dread in the modern world. The period between the end of the middle ages and the early years of the nineteenth century is seen as…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12134,12 +11263,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "How did Russians write about their past? What conceptual tools did they use? What influenced their approaches, and privileged their choice of subject matter: censorship, ideology, …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12185,12 +11310,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The Spanish Civil War was not only a battle between 'two Spains', between two versions of what Spaniards thought their country should be, but also cast as an ideological showdown…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -12238,13 +11359,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "Money is arguably the master institution of modernity. The money trade - ships carrying, silver, cowries, and gold - was the first truly global trade. Money dominates in every…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12308,12 +11424,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module explores the political, social and cultural history of the United States during the 1960s. While attention will be paid to the short but eventful presidency of John F. …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12364,13 +11476,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module will examine the relationship between film and British society, from the 1920s to the 1960s. It explores the significance of film as a critical medium of cultural…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12434,13 +11541,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "In 1918, French imperial power in Africa reached its zenith. Yet the next fifty years were characterised by contradiction, decline, and conflict, as the certainties of the 'age of …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12504,12 +11606,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "During the last two centuries modernisation has placed in the hands of governments unprecedented instruments and resources with which they can effect ideologically justified and…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -12557,13 +11655,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The popular image of Elizabethan England is of a successful regime gloriously triumphing over its enemies at home and abroad. But recent historians have instead depicted Elizabeth …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12627,13 +11720,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "The world was shrinking in the eighteenth century. Overseas travel increased exponentially and societies and cultures were transformed on a global scale. This course examines how…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12697,12 +11785,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "In 1700 Europe was a patchwork of different kinds of states from absolute monarchies to free cities. During the eighteenth century the traditional survival strategies of the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -12750,12 +11834,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module explores the spatial histories of nineteenth- and twentieth-century East and South East Asia from the scale of the urban to the domestic. Students will study the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12803,13 +11883,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "Resistance and protest movements in India have taken different shapes and forms over the past few centuries. This module attempts to understand these protests using different…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12873,12 +11948,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "From the later 1600s onwards both the population of Britain and its North American colonies grew rapidly. Many of these extra people moved to towns, which as a consequence…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -12924,13 +11995,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "Print is rightly seen as one of the defining technical achievements of western civilisation. This course explores the intellectual, political and social impact of print as it…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -12994,12 +12060,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This course situates India in global intellectual histories of the long nineteenth century (1800s to 1910s). It interrogates how thinkers beyond India referred to India, to…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -13046,13 +12108,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "This module will introduce students to the concept of the Atlantic World, a unit of analysis used by historians to understand the changes wrought in the western hemisphere by the…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -13098,12 +12155,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -13150,13 +12203,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The three tiers of teaching (beginners, intermediate, and translation) provide suitable levels of engagement with Latin for students with earlier or no experience. The beginners'…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13219,13 +12267,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides a wide-ranging introduction to the types of source material which researchers on the early modern period may encounter. In studying this module, you will be…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13285,13 +12328,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Material Bibliography is a year-long training option intended for students enrolled on the Book History, Reformation Studies or Early Modern MLitt programmes. It covers the use of …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13356,13 +12394,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides a wide-ranging introduction to the reading and handling of original source material of all types which researchers of the early modern period may encounter.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13427,13 +12460,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Before they are members of political and religious groupings, humans are biological entities. As such, throughout history humans have had to devise complex strategies to cope with …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -13491,12 +12519,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The three tiers of teaching (beginners, intermediate, and translation) provide suitable levels of engagement with Latin for students with earlier or no experience. The beginners'…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -13544,14 +12568,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers an independent book cataloguing project designed to encourage the development of skills of bibliographical data gathering and analysis. The project will consist …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13614,13 +12632,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13683,13 +12696,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13752,13 +12760,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module develops the skills students will have developed in Latin for Early Modern History 1. The three tiers of teaching (beginners, intermediate, and translation) provide…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13821,13 +12824,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Material Bibliography 2 is a semester-long training course intended for students enrolled on the Book History M.Litt, and it is also an optional training course for students on…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13890,13 +12888,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module introduces students to a variety of key debates in early modern history through studying different scholars' approaches to the period. Considering political, social,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -13958,13 +12951,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module introduces students to a variety of key debates in early modern history through studying different scholars' approaches to the period. Considering political, social,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14029,13 +13017,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14097,13 +13080,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The module explores approaches and methods employed in the study of early modern religious history. The emphasis is upon individual reading and seminar discussion. The intention…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14165,13 +13143,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module aims to provide students with a good understanding of some of the key issues and methods in book history c. 1445-1830. Through the evaluation of primary and secondary…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14234,13 +13207,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module aims to provide students with a good understanding of key issues and methods in book history ca.1445-1830. Through the evaluation of primary and secondary sources…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14302,13 +13270,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a strong foundation in the major approaches to comparative and transnational history as well as the emerging field of spatial history. This module introduces…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14370,12 +13333,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This core module for the MLitt in Transnational and Spatial History offers a strong foundation in the major approaches to comparative and transnational history as well as the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -14421,14 +13380,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This digital humanities module provides students with an introduction to digital mapping in the form of historical GIS (HGIS) and computational approaches to the analysis of text. …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14490,13 +13443,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Before they are members of political and religious groupings, humans are biological entities. As such, throughout history humans have had to devise complex strategies to cope with …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -14554,12 +13502,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -14598,13 +13542,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14667,13 +13606,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14736,14 +13670,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14806,13 +13734,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14874,13 +13797,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This course is designed to engage with some of the most pertinent and, in part, also hotly disputed issues in German history, ranging from the thesis of a fateful 'special path'…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -14942,14 +13860,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will enable postgraduate students to tackle at a conceptually advanced level a selection of the most important issues in the history of North America, from its…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15011,13 +13923,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Perceptions of Central and Eastern Europe are as diverse as the ethic and cultural characteristics of the region itself, and have undergone significant transformation since the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15079,13 +13986,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The module examines the development of history-writing and historical research since the Enlightenment, and the emergence of fields, trends and new approaches in current…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15147,13 +14049,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The module examines the development of history-writing and historical research since the Enlightenment, and the emergence of fields, trends and new approaches in current…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15215,12 +14112,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module offers a directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -15264,12 +14157,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -15309,12 +14198,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The Masterclass is a compulsory, interdisciplinary module designed as an introduction to the study of Central and Eastern Europe, past and present. In addition to a basic…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -15361,12 +14246,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "The Masterclass is a compulsory, interdisciplinary module designed as an introduction to the study of Central and Eastern Europe, past and present. In addition to a basic…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -15416,12 +14297,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -15461,13 +14338,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "An optional module providing an introduction to one of the core languages for studying the Middle Ages.",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15529,13 +14401,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "An optional module providing an introduction to one of the core languages for studying the Middle Ages.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15597,14 +14464,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "An optional module providing an introduction to one medieval language. Grounding in the grammar of and translation from the language will be acquired with the help of grammar…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15666,14 +14527,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This is a specialised module introducing students to one particular discipline within medieval studies. This can either be medieval art history, medieval English literature,…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15735,13 +14590,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is a detailed study of a Medieval topic of the student's own choice taught by tutorials with one or more colleagues in the participating Schools.",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15803,13 +14653,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is a detailed study of a Medieval topic of the student's own choice taught by tutorials with one or more colleagues in the participating Schools.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15871,13 +14716,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "A 15,000-word interdisciplinary dissertation, to be written under the supervision of teaching staff, who will advise on the choice of subject and provide guidance throughout the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -15937,13 +14777,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module is structured thematically in order to cover a range of themes essential to understanding multi-disciplinary approaches to the Middle Ages. Each seminar will explore a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16005,13 +14840,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module is structured thematically in order to cover a range of themes essential to understanding multi-disciplinary approaches to the Middle Ages. Each seminar will explore a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16073,13 +14903,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides an introduction to Latin language for the study of the Middle Ages.",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16141,13 +14966,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides an introduction to Latin language for the study of the Middle Ages.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16209,13 +15029,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This is primarily a course in palaeography. Classes will be both practical (devoted to 'hand-on' use of documents) and theoretical in nature (providing background information,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16278,13 +15093,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will develop skills in palaeography and codicology. Classes will be both practical (devoted to 'hands-on' use of documents) and theoretical in nature (providing…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16350,12 +15160,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module offers a view of the emergence and development of Scotland during the medieval period, from the rule of the Canmore dynasty until the reign of James IV. Particular…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16402,12 +15208,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "The Early Middle Ages (4th-11th centuries), often referred to as the ‘Dark Ages’, was a critical epoch of change that saw the formation of recognisable Christian civilization and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16453,12 +15255,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "A directed reading project designed to encourage the development of skills of historical analysis through concentrated study of a topic chosen by the student. The project offers…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16503,12 +15301,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16552,12 +15346,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "The purpose of this module is to explore the significance of the Reformation in reshaping the ways in which Scots and Englishmen perceived themselves as members of distinct…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16601,12 +15391,8 @@
       "level": 5000,
       "credits": 40,
       "summary": "This module explores key themes and texts in the study of medieval Scotland, particularly concerning elite culture and the power structures of the kingdom. This module will enable …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16651,13 +15437,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module explores the concept of 'Britishness', its construction and deconstruction, from 1707 - 2000. The module is intended to combine the study of key individual topics such …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -16719,12 +15500,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module provides students with an introduction to some of the key historiographical approaches and debates in Scottish history, ranging from the middle ages to the present…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -16770,12 +15547,8 @@
       "level": 5000,
       "credits": 20,
       "summary": "This module is designed to expose students directly to the rich variety of materials which make up the sources of Scottish history. Capitalising as few modules can on the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,

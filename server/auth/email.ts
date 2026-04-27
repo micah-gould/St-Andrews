@@ -1,13 +1,13 @@
-import { Resend } from 'resend';
+import { Resend } from "resend";
 
 const resendApiKey = process.env.RESEND_API_KEY;
-const fromAddress = process.env.EMAIL_FROM || 'onboarding@resend.dev';
+const fromAddress = process.env.EMAIL_FROM || "onboarding@resend.dev";
 
 const resend = resendApiKey ? new Resend(resendApiKey) : null;
 
 export async function sendPasswordResetEmail({ to, resetUrl, name }) {
-  const subject = 'Reset your password';
-  const greeting = name ? `Hi ${name},` : 'Hello,';
+  const subject = "Reset your password";
+  const greeting = name ? `Hi ${name},` : "Hello,";
   const text = `${greeting}
 
 We received a request to reset your password. Click the link below to choose a new one. This link is valid for 1 hour.
@@ -33,7 +33,9 @@ If you did not request this, you can safely ignore this email.`;
   `;
 
   if (!resend) {
-    console.log('\n[email:dev-fallback] Password reset email (no RESEND_API_KEY set)');
+    console.log(
+      "\n[email:dev-fallback] Password reset email (no RESEND_API_KEY set)",
+    );
     console.log(`  To: ${to}`);
     console.log(`  Reset URL: ${resetUrl}\n`);
     return { dev: true };
@@ -48,8 +50,8 @@ If you did not request this, you can safely ignore this email.`;
   });
 
   if (error) {
-    console.error('[email] Resend error:', error);
-    throw new Error('Failed to send email.');
+    console.error("[email] Resend error:", error);
+    throw new Error("Failed to send email.");
   }
 
   return data;

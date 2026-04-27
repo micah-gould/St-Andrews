@@ -1,11 +1,7 @@
 {
   "id": "classics",
   "name": "Classics",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "AA3020",
@@ -13,13 +9,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module, which draws on archaeological material from around the world, is divided into two sections. The first is a series of seminars and lectures on the central practical…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -77,12 +68,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Rome was the largest and most important city of the ancient world. From an unimportant group of hill-top settlements near the Tiber, it developed into a densely inhabited…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -130,12 +117,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module considers the theme of identity from an archaeological perspective. Chronologically and geographically, it focuses on case studies and evidence from the Mediterranean…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -180,12 +163,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module introduces students to the Nabataeans and their key city of Petra. We use archaeological, artistic, literary and epigraphic sources to shed light on the elusive…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -231,12 +210,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Through on-site teaching in Greece and home lectures, this course studies how and why Greek secular and religious sites developed where they did, what their different functions…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -284,12 +259,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Africa has often been depicted as a land without a history, of little consequence to the developments of world history. Nothing could be further from the truth. Its wealth in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -336,13 +307,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module combines a bold and sweeping overview of the history of the ancient Mediterranean and Near East over two millennia, with an exploration of the nature of empires and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -396,13 +362,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "In 1000 BCE, the Mediterranean and Near East were barely urbanized; in the centuries that followed, a dense network of interconnected cities spanning the region developed. This…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -456,13 +417,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module offers a comprehensive overview of the history of ancient Mediterranean societies between the beginning of the Iron Age and the end of the Roman empire. Through a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -498,13 +454,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "Narratives about antiquity have reverberated through history. The stories the Greeks and Romans told about themselves and their past shaped the complex societies in which they…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -540,13 +491,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "Antiquarians let the sources set their agenda, but historians start with questions. As a preparation for the serious study of Ancient History at honours level, this module aims to …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -600,12 +546,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Between 479 and 366 BCE Athens, Sparta and later Thebes and Thessaly contested the rule of Greece through imperial expansion and ideological dominance, leading to both constant…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -634,12 +576,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The fragmentation and partial collapse of the Roman empire was a significant political event, but its impact on ideas about women, children and gender roles are less clear. This…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -668,12 +606,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module examines the lived experience of women in ancient Mediterranean societies. Drawing on recent scholarship which has discovered new avenues to reconstruct ancient lives, …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -702,12 +636,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The institution of slavery lies at the heart of Roman society and culture. On one estimate, slaves made up 30-40% of the population of Roman Italy, with the richest households…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -736,12 +666,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Poverty was a crucial aspect of life in late antique society. Highly unequal economic structures, wars and invasions, new Christian-inspired attitudes to inequality, and the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -770,12 +696,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Religion is ubiquitous in the literary and material evidence from ancient Greece, from passing prayers to lengthy depictions in poetry and prose, and from humble votive offerings…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -804,12 +726,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will explore the world of the Hellenistic period (323-30 BC), which witnessed the expansion of Graeco-Macedonian states from the Eastern Mediterranean into the Near…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -838,13 +756,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module explores some of the most dynamic literary and artistic achievements of archaic and classical Greek culture (8th to 4th century BCE). Using a twin focus on myth and on …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -880,13 +793,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module studies a range of literary works that were written during the lifetime of the first emperor, Augustus (late first century BCE to early first century CE), and that…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -922,13 +830,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "Early Greece was the age of beautiful poetry and cutting-edge philosophy. The module explores the diversity of early Greek thought at the crossroads of poetry and philosophy, from …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -964,13 +867,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The Late Republic (first century BCE) was a time of change and conflict in the city of Rome and the wider Roman Empire. In political terms the history of that century is dominated …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1006,13 +904,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module puts the discipline of Classical Studies into its social, cultural and intellectual context. It will look in depth at what it means to read in translation and at the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1048,12 +941,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Greek and Roman literature demonstrates a long-lasting fascination with magic, from Homer's majestic and terrifying Circe to Lucan's revolting Erictho and beyond. Tall tales…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1082,12 +971,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will give students the opportunity to study Homer's celebrated martial epic, the Iliad, in translation and in detail. It will consider the relevant social and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1116,12 +1001,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Literature is a key source of information about gender and sexuality in ancient Greek society. Literary texts often deal with these issues in rich and complex ways, however, and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1150,12 +1031,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Classical Studies is the ultimate skeleton key for British cultural history. For centuries Scotland has been home to extraordinarily rich and creative responses to the Greek and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1184,12 +1061,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "As the so-called cradle of Western civilisation, the Greek and Roman classics are and have frequently been associated with conservative and right-wing ideologies. In extremes,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1218,12 +1091,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Ancient Rome and its literature have long been important sources for representations of non-normative sexuality and gender: we might think of Catullus’s Attis and Ovid’s Iphis and …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1252,12 +1121,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "All countries are burdened by history, but the past weighs particularly heavily on Greece. How many countries need to add the label ‘modern’ to distinguish their culture from that …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1286,12 +1151,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will explore the ethical thought of the Hellenistic period, a key phase in the development of Graeco-Roman culture. We shall examine some of the most sophisticated and …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1320,12 +1181,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "How did the ancient Greeks depict the human body? This module explores the ‘classical canon’, including the most famous works of art in a variety of media (both sculpture and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -1354,12 +1211,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Antiquities from the Mediterranean filled the grand houses and public museums of eighteenth and nineteenth-century Europe. These collections inspired creative imitations ranging…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1388,12 +1241,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Marble and bronze sculptures were major constituents of the visual landscapes of ancient Greek cities. Freestanding statues, reliefs, and architectural sculptures shaped ancient…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1422,12 +1271,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module complements ID4002 'Communication and Teaching in Arts & Humanities', a placement module in which students gain substantial experience of a working educational…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1456,14 +1301,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module provides the opportunity for students to carry out a sustained piece of work on a topic essentially of their own choice, with supervision by a member of staff. The…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1546,13 +1385,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module forms the first part of the core training provided in the MLitt in Classics. The focus of the first semester's core is on the sources for the study of the Classical…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1606,13 +1440,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module forms the second part of the core training provided in the MLitt in Classics. The focus of the second semester's core is a series of seminars structured around themes…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1666,13 +1495,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Through a series of focused case-studies, this module will introduce students to a range of areas of current research in ancient Greek history and enable them to design their own…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1729,13 +1553,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Through a series of focused case-studies, this module will introduce students to a range of areas of current research in Roman history and enable them to design their own short…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1792,13 +1611,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is aimed at students studying for the MLitt in Classics specialsing in Latin literature and culture but not taking language modules as part of the MLitt. It shares…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1855,13 +1669,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is aimed at students studying for the MLitt in Classics, specialising in Greek literature and culture but not taking language modules. It shares seminars with CL5122.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1918,13 +1727,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "Student dissertations will be supervised by members of the teaching staff who will advise on the choice of subject and provide guidance throughout the research process. The…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1977,13 +1781,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "The module will give students from both Classics and Philosophy an opportunity to deepen their knowledge of ancient Greek and Roman philosophy. The module will usually be…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2037,13 +1836,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is aimed at students who are taking Latin or Greek language classes as part of the MLitt in Classics. It shares seminars with CL5011 but the assessment requirements…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2109,13 +1903,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is aimed at students who are taking Latin or Greek language classes as part of the MLitt in Classics. It shares seminars with CL5012 but the assessment requirements…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2178,13 +1967,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is aimed at students who are working on Latin literature and culture and also taking language classes. It shares seminars with CL5021 but the assessment requirements…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2250,13 +2034,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is aimed at students who are studying Greek literature and also taking language classes. It shares seminars with CL5022 but the assessment requirements and credit load …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2322,13 +2101,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module provides a thorough grounding in the Greek language for beginners or near beginners. It is suitable both for students who intend to take further Greek modules and for…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2393,13 +2167,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module is designed to follow on from GK1001. As such, GK1002 comprises language classes intended to supplement the topics covered in semester 1 and to prepare students for…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2467,13 +2236,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module is designed for students who have already taken ancient Greek to Higher, A level or equivalent standard. Set texts for this module will be studied in the original…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2539,13 +2303,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module, designed to follow on from GK1005, will introduce students to two new areas of Greek literature, between which there are interesting and important thematic…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2611,13 +2370,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module, designed to follow on from GK1006, studies a wide range of Greek prose texts. All set texts will be studied in the original Greek. The module explores Greek oratory,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2686,13 +2440,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module, designed to follow on from GK2001, offers a carefully balanced combination of literary and linguistic study. Students will study a diverse range of ancient poetry in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2761,13 +2510,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module, designed to follow on from GK1002, studies a wide range of Greek prose texts. All set texts will be studied in the original Greek. The module explores Greek oratory,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2836,13 +2580,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module, designed to follow on from GK2003, offers a carefully balanced combination of literary and linguistic study. Students will study a diverse range of ancient poetry in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2911,13 +2650,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module is for students who have taken Latin in both of their first two years, but only begun Greek in their second year with GK1001 and GK1002 and are entering Honours…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2986,13 +2720,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module is for students who have taken Latin in both of their first two years, but only began Greek in their second year with GK1001 and GK1002, and are entering Honours…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3061,12 +2790,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module increases the student's familiarity with Greek tragedy. Plays of Aeschylus, Sophocles and Euripides are prescribed for detailed study, and students learn to address…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3135,12 +2860,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The first to third centuries CE was one of the most prolific periods of Greek literary production: we have more Greek literature surviving from that period than from all the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3209,12 +2930,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The debate about education in one of the most exciting periods of ancient Athenian history. Can education make you a better person? Could education make you a worse person? What…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3283,12 +3000,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module offers in-depth insight into the key stages of the development of the Ancient Greek Language. Beginning with its earliest stages, the epic language of Homer and the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3355,12 +3068,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "How do Greek novelists in the Roman empire represent love and desire, travel and identity, day-to-day life and extreme experience? This module focuses on two of the most brilliant …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3427,12 +3136,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module explores the representation of hetairai in Greek literature and culture, focusing on two set texts that (re-)create and foreground the voices of historical and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3501,12 +3206,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module introduces students to the cultural and educational landscape of twelfth-century Byzantium with its rich engagement with ancient Greek literature. Taking John Tzetzes’ …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3575,12 +3276,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "In the Hellenistic period Greek literature and culture become truly global. Never before has Greek engaged with so many influences, literary, political, cultural and social.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3649,14 +3346,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module provides the opportunity for students to carry out a sustained piece of work on a topic essentially of their own choice, with supervision by a member of staff. The…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3748,13 +3439,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module, designed for students with an A-Level or equivalent in ancient Greek, studies a wide range of Greek prose texts. All set texts will be studied in the original Greek.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3818,13 +3504,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module, designed to follow on from GK5003] (or equivalent experience), offers a carefully balanced combination of literary and linguistic study. Students will study a diverse …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3882,13 +3563,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The roots of the modern world can be found in ancient Greece and Rome. This module addresses some of the defining and formative aspects of the cultures of modernity (from c.1800…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3951,13 +3627,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This interdisciplinary module offers an introduction to archaeology, providing a grounding in the main concepts, methodologies, and techniques of investigating the past through…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4020,13 +3691,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module provides a systematic introduction to the Latin language, concentrating on morphology, vocabulary, and basic syntax, and will enable students to read simplified Latin…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4092,13 +3758,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module builds on the work done in LT1001, and its function is to develop knowledge of Latin morphology, syntax and vocabulary and to enable students to read Latin texts.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4166,13 +3827,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The aims of this module, like LT1004, are to enhance understanding of Latin grammar and syntax, to increase vocabulary, to give a basic understanding of style, and to develop…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4238,13 +3894,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module aims to build on the skills acquired in LT1003, and to introduce students to a wider range of Latin literature. Texts studied may include early or medieval Latin, as…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4313,13 +3964,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "The aim of this module is to foster the student's acquaintance with classical Latin. The authors chosen may vary from year to year. Particular attention is paid to the development …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4388,13 +4034,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "In complement to the programme of LT2001, this module aims to consolidate the student's command of the language in preparation for study at Honours level, and in literature brings …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4463,13 +4104,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "This module aims to consolidate command of the Latin language and introduce the student to independent reading of original Latin prose and verse. Students will receive a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4538,13 +4174,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "In this module the same prescribed texts and topics will be studied as in LT2002, but the length of texts and methods of study will be appropriate to the needs of students who…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4613,13 +4244,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module is for students who began Latin in their second year with LT1001 and LT1002 and are entering their third year. It runs alongside, and covers the same content as, the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4688,13 +4314,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module is for students who began Latin in their second year with LT1001 and LT1002 and who are currently in their third year. It runs alongside, and covers the same content…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4763,13 +4384,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module will prepare students entering Honours for advanced study of Latin language and literature. Through a series of readings from the genre of Roman epic, students will…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4874,12 +4490,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The module aims to delve into the comic world of the Latin playwrights Plautus and Terence and its cultural background. At the beginning of its political rising in the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -4925,12 +4537,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will explore in Latin and translation a selection of Senecan Tragedy, the 'dark side' of Seneca the Younger's literary output. We will examine the influence of Greek…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4978,12 +4586,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will consider a variety of Latin texts written in the reign of the Roman Emperor Constantine. The texts will include pagan and Christian literature in prose and verse. …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5043,12 +4647,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module will consider a variety of Latin texts written in the reign of the Roman Emperor Theodosius. The texts will include pagan and Christian literature in prose and verse.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5106,12 +4706,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module examines the history and evolution of the Roman Empire by focusing on the theme of displacement in Latin literature, from the late Republic to the early imperial era.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5171,12 +4767,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "While the Elder Seneca’s Labienus claimed that forgetting was the best defence against civil war (Sen. Contr. 10.3.5), Roman authors did not pass over the issue of civil war in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5236,12 +4828,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The religious landscape of the Roman world was diverse and often without canonical scripture to guide ritual action and theological understanding. Poets, historians, and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5300,12 +4888,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Early modern England is the age of Marlowe, Shakespeare, and Spenser – ‘giants’ who established English as the national language of epic and the public stage. But this great…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5362,12 +4946,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "Following Virgil’s (re)invention of pastoral in his debut work in the 30s BCE, the genre became a central – and challenging – part of Roman literature. Its deceptively simple…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5415,14 +4995,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module provides the opportunity for students to carry out a sustained piece of work on a topic essentially of their own choice, with supervision by a member of staff. The…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5526,13 +5100,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The aim of this module is to foster the student's acquaintance with classical Latin and to explore both prose and verse authors. The authors chosen may vary from year to year and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5596,13 +5165,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module aims to consolidate the student's command of the language, and in literature brings the student to further genres and authors, in prose and verse. Students will learn…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

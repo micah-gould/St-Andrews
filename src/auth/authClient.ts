@@ -7,26 +7,36 @@ import type {
   LoginPayload,
   ResetPasswordPayload,
   SignupPayload,
-} from '../types/auth.types';
-import type { ApiError } from '../types/saved-state.types';
+} from "../types/auth.types";
+import type { ApiError } from "../types/saved-state.types";
 
-const BASE = '/api/auth';
+const BASE = "/api/auth";
 
-async function request(path: string, { method = 'GET', body }: { method?: string; body?: unknown } = {}): Promise<any> {
+async function request(
+  path: string,
+  { method = "GET", body }: { method?: string; body?: unknown } = {},
+): Promise<any> {
   const opts: RequestInit = {
     method,
-    credentials: 'include',
-    headers: { Accept: 'application/json' },
+    credentials: "include",
+    headers: { Accept: "application/json" },
   };
   if (body !== undefined) {
-    (opts.headers as Record<string, string>)['Content-Type'] = 'application/json';
+    (opts.headers as Record<string, string>)["Content-Type"] =
+      "application/json";
     opts.body = JSON.stringify(body);
   }
   const res = await fetch(`${BASE}${path}`, opts);
   let data = null;
-  try { data = await res.json(); } catch { /* no body */ }
+  try {
+    data = await res.json();
+  } catch {
+    /* no body */
+  }
   if (!res.ok) {
-    const err = new Error(data?.error || `Request failed (${res.status})`) as ApiError;
+    const err = new Error(
+      data?.error || `Request failed (${res.status})`,
+    ) as ApiError;
     err.status = res.status;
     err.data = data;
     throw err;
@@ -35,37 +45,56 @@ async function request(path: string, { method = 'GET', body }: { method?: string
 }
 
 export const authApi = {
-  me: (): Promise<AuthResponse> => request('/me'),
-  signup: ({ email, password, name, remember }: SignupPayload): Promise<AuthResponse> =>
-    request('/signup', { method: 'POST', body: { email, password, name, remember } }),
+  me: (): Promise<AuthResponse> => request("/me"),
+  signup: ({
+    email,
+    password,
+    name,
+    remember,
+  }: SignupPayload): Promise<AuthResponse> =>
+    request("/signup", {
+      method: "POST",
+      body: { email, password, name, remember },
+    }),
   login: ({ email, password, remember }: LoginPayload): Promise<AuthResponse> =>
-    request('/login', { method: 'POST', body: { email, password, remember } }),
-  logout: () => request('/logout', { method: 'POST' }),
+    request("/login", { method: "POST", body: { email, password, remember } }),
+  logout: () => request("/logout", { method: "POST" }),
   forgotPassword: (email: string) =>
-    request('/forgot-password', { method: 'POST', body: { email } }),
+    request("/forgot-password", { method: "POST", body: { email } }),
   resetPassword: ({ token, password }: ResetPasswordPayload) =>
-    request('/reset-password', { method: 'POST', body: { token, password } }),
+    request("/reset-password", { method: "POST", body: { token, password } }),
 };
 
-export function oauthUrl(provider: AuthProviderName, { remember = false }: { remember?: boolean } = {}) {
-  return `/api/auth/${provider}?remember=${remember ? '1' : '0'}`;
+export function oauthUrl(
+  provider: AuthProviderName,
+  { remember = false }: { remember?: boolean } = {},
+) {
+  return `/api/auth/${provider}?remember=${remember ? "1" : "0"}`;
 }
 
-export function getProvidersFromMe(me: AuthResponse | null | undefined): AuthProviders {
+export function getProvidersFromMe(
+  me: AuthResponse | null | undefined,
+): AuthProviders {
   return me?.providers || { google: false, microsoft: false };
 }
 
 // UI helper: inject Google/Microsoft buttons (hidden if provider not enabled).
-export function renderOAuthButtons(container: HTMLElement, { providers, remember = () => false }: { providers: AuthProviders; remember?: () => boolean }) {
-  container.innerHTML = '';
+export function renderOAuthButtons(
+  container: HTMLElement,
+  {
+    providers,
+    remember = () => false,
+  }: { providers: AuthProviders; remember?: () => boolean },
+) {
+  container.innerHTML = "";
 
   const make = (provider: AuthProviderName, label: string, iconSvg: string) => {
-    const a = document.createElement('a');
-    a.className = 'btn oauth-btn';
+    const a = document.createElement("a");
+    a.className = "btn oauth-btn";
     a.dataset.provider = provider;
     a.href = oauthUrl(provider, { remember: remember() });
     a.innerHTML = `${iconSvg}<span>${label}</span>`;
-    a.addEventListener('click', (e) => {
+    a.addEventListener("click", (e) => {
       // Update href right before navigation so the latest "remember" value is used.
       a.href = oauthUrl(provider, { remember: remember() });
     });
@@ -88,29 +117,35 @@ export function renderOAuthButtons(container: HTMLElement, { providers, remember
     </svg>`;
 
   if (providers.google) {
-    container.appendChild(make('google', 'Continue with Google', googleIcon));
+    container.appendChild(make("google", "Continue with Google", googleIcon));
   }
   if (providers.microsoft) {
-    container.appendChild(make('microsoft', 'Continue with Microsoft', microsoftIcon));
+    container.appendChild(
+      make("microsoft", "Continue with Microsoft", microsoftIcon),
+    );
   }
 
   if (!providers.google && !providers.microsoft) {
-    const note = document.createElement('p');
-    note.className = 'message info';
-    note.textContent = 'Single sign-on is not configured on this server.';
+    const note = document.createElement("p");
+    note.className = "message info";
+    note.textContent = "Single sign-on is not configured on this server.";
     container.appendChild(note);
   }
 }
 
-export function showMessage(el: HTMLElement | null, text: string, type = 'error') {
+export function showMessage(
+  el: HTMLElement | null,
+  text: string,
+  type = "error",
+) {
   if (!el) return;
   el.className = `message ${type}`;
   el.textContent = text;
-  el.classList.remove('hidden');
+  el.classList.remove("hidden");
 }
 
 export function clearMessage(el: HTMLElement | null) {
   if (!el) return;
-  el.classList.add('hidden');
-  el.textContent = '';
+  el.classList.add("hidden");
+  el.textContent = "";
 }

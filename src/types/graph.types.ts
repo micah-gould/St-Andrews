@@ -1,20 +1,20 @@
-export type RequirementKind = 'required' | 'optional';
+export type RequirementKind = "required" | "optional";
 
 export type RelationshipExpression = {
-  type: 'module' | 'and' | 'or';
+  type: "module" | "and" | "or";
   code?: string;
   children?: RelationshipExpression[];
 };
 
 export type PrereqRule = {
-  type: 'all' | 'one' | 'parsed';
+  type: "all" | "one" | "parsed";
   sources: string[];
 };
 
 export type GraphNode = {
   id: string;
   name: string;
-  level: number | 'ext';
+  level: number | "ext";
   credits?: number | null;
   summary?: string;
   description?: string;
@@ -44,7 +44,7 @@ export type GraphNode = {
 export type GraphEdge = {
   source: string | GraphNode;
   target: string | GraphNode;
-  etype: 'prereq' | 'coreq' | 'anti';
+  etype: "prereq" | "coreq" | "anti";
   requirementKind?: RequirementKind;
   ruleType?: string;
   ruleGroup?: string[];

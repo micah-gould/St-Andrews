@@ -13,10 +13,10 @@
 //   POST   /api/saved-states/:id/request-access         request access to a forbidden state
 //   POST   /api/saved-states/:id/requests/:requestId    resolve a pending request (admin/owner)
 
-import express from 'express';
-import rateLimit from 'express-rate-limit';
-import { prisma } from '../auth/prisma';
-import { requireAuth } from '../auth/routes';
+import express from "express";
+import rateLimit from "express-rate-limit";
+import { prisma } from "../auth/prisma";
+import { requireAuth } from "../auth/routes";
 import {
   ROLES,
   canDelete,
@@ -26,15 +26,26 @@ import {
   canView,
   effectiveRole,
   isValidRole,
-} from './permissions';
-import { countSelectionsIn, mergeSlice, normalizeSavedState } from './stateShape';
-import { sendAccessRequestEmail } from './email';
-import type { AuthedRequest } from '../../src/types/server.types';
-import type { SavedStateBlob, SavedStateRecord, SavedStateRole, SavedStateShare, SavedStateAccessRequest, SavedStateMeta } from '../../src/types/saved-state.types';
+} from "./permissions";
+import {
+  countSelectionsIn,
+  mergeSlice,
+  normalizeSavedState,
+} from "./stateShape";
+import { sendAccessRequestEmail } from "./email";
+import type { AuthedRequest } from "../../src/types/server.types";
+import type {
+  SavedStateBlob,
+  SavedStateRecord,
+  SavedStateRole,
+  SavedStateShare,
+  SavedStateAccessRequest,
+  SavedStateMeta,
+} from "../../src/types/saved-state.types";
 
 const router = express.Router();
 
-const APP_URL = process.env.APP_URL || 'http://localhost:5174';
+const APP_URL = process.env.APP_URL || "http://localhost:5174";
 
 const writeLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -48,7 +59,7 @@ const requestLimiter = rateLimit({
   max: 20,
   standardHeaders: true,
   legacyHeaders: false,
-  message: { error: 'Too many access requests. Please try again later.' },
+  message: { error: "Too many access requests. Please try again later." },
 });
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -57,10 +68,16 @@ function paramValue(value: string | string[] | undefined) {
   return Array.isArray(value) ? value[0] : value;
 }
 
-function serializeState(state: any, currentUserId: string, { includeStateBody = true }: { includeStateBody?: boolean } = {}): SavedStateRecord | null {
+function serializeState(
+  state: any,
+  currentUserId: string,
+  { includeStateBody = true }: { includeStateBody?: boolean } = {},
+): SavedStateRecord | null {
   if (!state) return null;
   const role = effectiveRole(state, currentUserId) as SavedStateRole;
-  const counts = countSelectionsIn(state.stateJson ? JSON.parse(state.stateJson) : {});
+  const counts = countSelectionsIn(
+    state.stateJson ? JSON.parse(state.stateJson) : {},
+  );
   const out: SavedStateRecord = {
     id: state.id,
     name: state.name,
@@ -68,14 +85,16 @@ function serializeState(state: any, currentUserId: string, { includeStateBody = 
       ? { id: state.owner.id, email: state.owner.email, name: state.owner.name }
       : { id: state.ownerId },
     role,
-    isOwner: role === 'owner',
+    isOwner: role === "owner",
     counts,
     createdAt: state.createdAt,
     updatedAt: state.updatedAt,
   };
   if (includeStateBody) {
     try {
-      out.state = normalizeSavedState(JSON.parse(state.stateJson || '{}')) as SavedStateBlob;
+      out.state = normalizeSavedState(
+        JSON.parse(state.stateJson || "{}"),
+      ) as SavedStateBlob;
     } catch {
       out.state = { version: 2, catalogs: {} };
     }
@@ -105,40 +124,45 @@ function serializeRequest(request: any): SavedStateAccessRequest {
     message: request.message,
     createdAt: request.createdAt,
     user: request.user
-      ? { id: request.user.id, email: request.user.email, name: request.user.name }
+      ? {
+          id: request.user.id,
+          email: request.user.email,
+          name: request.user.name,
+        }
       : null,
   };
 }
 
 // ---- GET /api/saved-states ----
-router.get('/', requireAuth, async (req: AuthedRequest, res) => {
+router.get("/", requireAuth, async (req: AuthedRequest, res) => {
   try {
     const userId = req.user.id;
     const states = await prisma.savedState.findMany({
       where: {
-        OR: [
-          { ownerId: userId },
-          { shares: { some: { userId } } },
-        ],
+        OR: [{ ownerId: userId }, { shares: { some: { userId } } }],
       },
       include: { owner: true, shares: true },
-      orderBy: { updatedAt: 'desc' },
+      orderBy: { updatedAt: "desc" },
     });
-    res.json(states.map((state) => serializeState(state, userId, { includeStateBody: false })));
+    res.json(
+      states.map((state) =>
+        serializeState(state, userId, { includeStateBody: false }),
+      ),
+    );
   } catch (err) {
-    console.error('[saved-states] list error', err);
-    res.status(500).json({ error: 'Could not load saved states.' });
+    console.error("[saved-states] list error", err);
+    res.status(500).json({ error: "Could not load saved states." });
   }
 });
 
 // ---- POST /api/saved-states ----
-router.post('/', requireAuth, writeLimiter, async (req: AuthedRequest, res) => {
+router.post("/", requireAuth, writeLimiter, async (req: AuthedRequest, res) => {
   const { name, state } = req.body || {};
-  if (!name || typeof name !== 'string' || !name.trim()) {
-    return res.status(400).json({ error: 'A name is required.' });
+  if (!name || typeof name !== "string" || !name.trim()) {
+    return res.status(400).json({ error: "A name is required." });
   }
   if (name.length > 120) {
-    return res.status(400).json({ error: 'Name is too long.' });
+    return res.status(400).json({ error: "Name is too long." });
   }
   try {
     const normalized = normalizeSavedState(state);
@@ -152,74 +176,99 @@ router.post('/', requireAuth, writeLimiter, async (req: AuthedRequest, res) => {
     });
     res.status(201).json(serializeState(created, req.user.id));
   } catch (err) {
-    console.error('[saved-states] create error', err);
-    res.status(500).json({ error: 'Could not create saved state.' });
+    console.error("[saved-states] create error", err);
+    res.status(500).json({ error: "Could not create saved state." });
   }
 });
 
-async function loadStateWithAuth(req: AuthedRequest, res, { minRole = 'view' }: { minRole?: 'view' | 'edit' | 'admin' | 'owner' } = {}) {
+async function loadStateWithAuth(
+  req: AuthedRequest,
+  res,
+  { minRole = "view" }: { minRole?: "view" | "edit" | "admin" | "owner" } = {},
+) {
   const id = paramValue(req.params.id);
   const state = await prisma.savedState.findUnique({
     where: { id },
     include: { owner: true, shares: true },
   });
   if (!state) {
-    res.status(404).json({ error: 'Saved state not found.' });
+    res.status(404).json({ error: "Saved state not found." });
     return null;
   }
   const role = effectiveRole(state, req.user.id);
   const check =
-    minRole === 'view' ? canView(role)
-    : minRole === 'edit' ? canEdit(role)
-    : minRole === 'admin' ? canManageShares(role)
-    : minRole === 'owner' ? canTransferOwner(role)
-    : false;
+    minRole === "view"
+      ? canView(role)
+      : minRole === "edit"
+        ? canEdit(role)
+        : minRole === "admin"
+          ? canManageShares(role)
+          : minRole === "owner"
+            ? canTransferOwner(role)
+            : false;
   if (!check) {
-    res.status(403).json({ error: 'You do not have access to this saved state.', code: 'FORBIDDEN' });
+    res.status(403).json({
+      error: "You do not have access to this saved state.",
+      code: "FORBIDDEN",
+    });
     return null;
   }
   return { state, role };
 }
 
 // ---- GET /api/saved-states/:id ----
-router.get('/:id', requireAuth, async (req: AuthedRequest, res) => {
+router.get("/:id", requireAuth, async (req: AuthedRequest, res) => {
   try {
     const result = await loadStateWithAuth(req, res);
     if (!result) return;
     res.json(serializeState(result.state, req.user.id));
   } catch (err) {
-    console.error('[saved-states] get error', err);
-    res.status(500).json({ error: 'Could not load saved state.' });
+    console.error("[saved-states] get error", err);
+    res.status(500).json({ error: "Could not load saved state." });
   }
 });
 
 // ---- GET /api/saved-states/:id/meta ----
 // Does NOT require access; used by the "request access" screen.
-router.get('/:id/meta', requireAuth, async (req: AuthedRequest, res) => {
+router.get("/:id/meta", requireAuth, async (req: AuthedRequest, res) => {
   try {
     const state = await prisma.savedState.findUnique({
-        where: { id: paramValue(req.params.id) },
+      where: { id: paramValue(req.params.id) },
       include: { owner: true, shares: true },
     });
-    if (!state) return res.status(404).json({ error: 'Saved state not found.' });
+    if (!state)
+      return res.status(404).json({ error: "Saved state not found." });
     const role = effectiveRole(state, req.user.id);
     const pending = await prisma.accessRequest.findFirst({
-      where: { stateId: state.id, userId: req.user.id, status: 'pending' },
+      where: { stateId: state.id, userId: req.user.id, status: "pending" },
     });
     const response: SavedStateMeta = {
       id: state.id,
       name: state.name,
-      owner: state.owner ? { id: state.owner.id, email: state.owner.email, name: state.owner.name } : undefined,
+      owner: state.owner
+        ? {
+            id: state.owner.id,
+            email: state.owner.email,
+            name: state.owner.name,
+          }
+        : undefined,
       role,
       hasAccess: canView(role),
       pendingRequest: pending
-        ? { id: pending.id, requestedRole: pending.requestedRole as Exclude<SavedStateRole, 'owner'>, createdAt: pending.createdAt }
+        ? {
+            id: pending.id,
+            requestedRole: pending.requestedRole as Exclude<
+              SavedStateRole,
+              "owner"
+            >,
+            createdAt: pending.createdAt,
+          }
         : null,
     };
     res.json(response);
   } catch (err) {
-    console.error('[saved-states] meta error', err);
-    res.status(500).json({ error: 'Could not load state metadata.' });
+    console.error("[saved-states] meta error", err);
+    res.status(500).json({ error: "Could not load state metadata." });
   }
 });
 
@@ -227,85 +276,95 @@ router.get('/:id/meta', requireAuth, async (req: AuthedRequest, res) => {
 // Body: { name?, state?: full v2 blob, slice?: { catalogId, year, selected, passed, excluded, hiddenLevels } }
 // If `slice` is given, the server merges it into the stored state.
 // If `state` is given (full blob), it replaces the state.
-router.put('/:id', requireAuth, writeLimiter, async (req: AuthedRequest, res) => {
-  try {
-    const result = await loadStateWithAuth(req, res, { minRole: 'edit' });
-    if (!result) return;
+router.put(
+  "/:id",
+  requireAuth,
+  writeLimiter,
+  async (req: AuthedRequest, res) => {
+    try {
+      const result = await loadStateWithAuth(req, res, { minRole: "edit" });
+      if (!result) return;
 
-    const { state: fullState, slice, name } = req.body || {};
-    const updateData: { name?: string; stateJson?: string } = {};
-    if (typeof name === 'string') {
-      const trimmed = name.trim();
-      if (!trimmed) return res.status(400).json({ error: 'Name cannot be empty.' });
-      if (trimmed.length > 120) return res.status(400).json({ error: 'Name is too long.' });
-      updateData.name = trimmed;
-    }
+      const { state: fullState, slice, name } = req.body || {};
+      const updateData: { name?: string; stateJson?: string } = {};
+      if (typeof name === "string") {
+        const trimmed = name.trim();
+        if (!trimmed)
+          return res.status(400).json({ error: "Name cannot be empty." });
+        if (trimmed.length > 120)
+          return res.status(400).json({ error: "Name is too long." });
+        updateData.name = trimmed;
+      }
 
-    if (slice && typeof slice === 'object') {
-      const existing = JSON.parse(result.state.stateJson || '{}');
-      const merged = mergeSlice(existing, {
-        catalogId: slice.catalogId,
-        year: slice.year,
-        slice: {
-          selected: slice.selected,
-          passed: slice.passed,
-          excluded: slice.excluded,
-          hiddenLevels: slice.hiddenLevels,
-        },
+      if (slice && typeof slice === "object") {
+        const existing = JSON.parse(result.state.stateJson || "{}");
+        const merged = mergeSlice(existing, {
+          catalogId: slice.catalogId,
+          year: slice.year,
+          slice: {
+            selected: slice.selected,
+            passed: slice.passed,
+            excluded: slice.excluded,
+            hiddenLevels: slice.hiddenLevels,
+          },
+        });
+        updateData.stateJson = JSON.stringify(merged);
+      } else if (fullState && typeof fullState === "object") {
+        updateData.stateJson = JSON.stringify(normalizeSavedState(fullState));
+      } else if (!("name" in updateData)) {
+        return res.status(400).json({ error: "Nothing to update." });
+      }
+
+      const updated = await prisma.savedState.update({
+        where: { id: result.state.id },
+        data: updateData,
+        include: { owner: true, shares: true },
       });
-      updateData.stateJson = JSON.stringify(merged);
-    } else if (fullState && typeof fullState === 'object') {
-      updateData.stateJson = JSON.stringify(normalizeSavedState(fullState));
-    } else if (!('name' in updateData)) {
-      return res.status(400).json({ error: 'Nothing to update.' });
+      res.json(serializeState(updated, req.user.id));
+    } catch (err) {
+      console.error("[saved-states] update error", err);
+      res.status(500).json({ error: "Could not update saved state." });
     }
-
-    const updated = await prisma.savedState.update({
-      where: { id: result.state.id },
-      data: updateData,
-      include: { owner: true, shares: true },
-    });
-    res.json(serializeState(updated, req.user.id));
-  } catch (err) {
-    console.error('[saved-states] update error', err);
-    res.status(500).json({ error: 'Could not update saved state.' });
-  }
-});
+  },
+);
 
 // ---- DELETE /api/saved-states/:id ----
-router.delete('/:id', requireAuth, async (req: AuthedRequest, res) => {
+router.delete("/:id", requireAuth, async (req: AuthedRequest, res) => {
   try {
     const state = await prisma.savedState.findUnique({
       where: { id: paramValue(req.params.id) },
       include: { shares: true },
     });
-    if (!state) return res.status(404).json({ error: 'Saved state not found.' });
+    if (!state)
+      return res.status(404).json({ error: "Saved state not found." });
     const role = effectiveRole(state, req.user.id);
     if (!canDelete(role)) {
-      return res.status(403).json({ error: 'Only the owner or an admin can delete this saved state.' });
+      return res.status(403).json({
+        error: "Only the owner or an admin can delete this saved state.",
+      });
     }
     await prisma.savedState.delete({ where: { id: state.id } });
     res.status(204).end();
   } catch (err) {
-    console.error('[saved-states] delete error', err);
-    res.status(500).json({ error: 'Could not delete saved state.' });
+    console.error("[saved-states] delete error", err);
+    res.status(500).json({ error: "Could not delete saved state." });
   }
 });
 
 // ---- GET /api/saved-states/:id/shares ----
-router.get('/:id/shares', requireAuth, async (req: AuthedRequest, res) => {
+router.get("/:id/shares", requireAuth, async (req: AuthedRequest, res) => {
   try {
-    const result = await loadStateWithAuth(req, res, { minRole: 'admin' });
+    const result = await loadStateWithAuth(req, res, { minRole: "admin" });
     if (!result) return;
     const shares = await prisma.savedStateShare.findMany({
       where: { stateId: result.state.id },
       include: { user: true },
-      orderBy: { createdAt: 'asc' },
+      orderBy: { createdAt: "asc" },
     });
     const requests = await prisma.accessRequest.findMany({
-      where: { stateId: result.state.id, status: 'pending' },
+      where: { stateId: result.state.id, status: "pending" },
       include: { user: true },
-      orderBy: { createdAt: 'asc' },
+      orderBy: { createdAt: "asc" },
     });
     res.json({
       owner: {
@@ -317,209 +376,283 @@ router.get('/:id/shares', requireAuth, async (req: AuthedRequest, res) => {
       requests: requests.map(serializeRequest),
     });
   } catch (err) {
-    console.error('[saved-states] list shares error', err);
-    res.status(500).json({ error: 'Could not load shares.' });
+    console.error("[saved-states] list shares error", err);
+    res.status(500).json({ error: "Could not load shares." });
   }
 });
 
 // ---- POST /api/saved-states/:id/shares ----
 // Body: { email, role }
-router.post('/:id/shares', requireAuth, writeLimiter, async (req: AuthedRequest, res) => {
-  try {
-    const result = await loadStateWithAuth(req, res, { minRole: 'admin' });
-    if (!result) return;
-    const { email, role } = req.body || {};
-    const normalizedEmail = String(email || '').trim().toLowerCase();
-    if (!EMAIL_RE.test(normalizedEmail)) {
-      return res.status(400).json({ error: 'Please provide a valid email.' });
+router.post(
+  "/:id/shares",
+  requireAuth,
+  writeLimiter,
+  async (req: AuthedRequest, res) => {
+    try {
+      const result = await loadStateWithAuth(req, res, { minRole: "admin" });
+      if (!result) return;
+      const { email, role } = req.body || {};
+      const normalizedEmail = String(email || "")
+        .trim()
+        .toLowerCase();
+      if (!EMAIL_RE.test(normalizedEmail)) {
+        return res.status(400).json({ error: "Please provide a valid email." });
+      }
+      if (!isValidRole(role)) {
+        return res
+          .status(400)
+          .json({ error: `Role must be one of: ${ROLES.join(", ")}.` });
+      }
+      const targetUser = await prisma.user.findUnique({
+        where: { email: normalizedEmail },
+      });
+      if (!targetUser) {
+        return res.status(404).json({
+          error: "No user found with that email. They need to sign up first.",
+        });
+      }
+      if (targetUser.id === result.state.ownerId) {
+        return res
+          .status(400)
+          .json({ error: "The owner already has full access." });
+      }
+      const share = await prisma.savedStateShare.upsert({
+        where: {
+          stateId_userId: { stateId: result.state.id, userId: targetUser.id },
+        },
+        update: { role },
+        create: { stateId: result.state.id, userId: targetUser.id, role },
+        include: { user: true },
+      });
+      // Clear any pending request from this user.
+      await prisma.accessRequest.updateMany({
+        where: {
+          stateId: result.state.id,
+          userId: targetUser.id,
+          status: "pending",
+        },
+        data: { status: "approved", resolvedAt: new Date() },
+      });
+      res.status(201).json(serializeShare(share));
+    } catch (err) {
+      console.error("[saved-states] add share error", err);
+      res.status(500).json({ error: "Could not add share." });
     }
-    if (!isValidRole(role)) {
-      return res.status(400).json({ error: `Role must be one of: ${ROLES.join(', ')}.` });
-    }
-    const targetUser = await prisma.user.findUnique({ where: { email: normalizedEmail } });
-    if (!targetUser) {
-      return res.status(404).json({ error: 'No user found with that email. They need to sign up first.' });
-    }
-    if (targetUser.id === result.state.ownerId) {
-      return res.status(400).json({ error: 'The owner already has full access.' });
-    }
-    const share = await prisma.savedStateShare.upsert({
-      where: { stateId_userId: { stateId: result.state.id, userId: targetUser.id } },
-      update: { role },
-      create: { stateId: result.state.id, userId: targetUser.id, role },
-      include: { user: true },
-    });
-    // Clear any pending request from this user.
-    await prisma.accessRequest.updateMany({
-      where: { stateId: result.state.id, userId: targetUser.id, status: 'pending' },
-      data: { status: 'approved', resolvedAt: new Date() },
-    });
-    res.status(201).json(serializeShare(share));
-  } catch (err) {
-    console.error('[saved-states] add share error', err);
-    res.status(500).json({ error: 'Could not add share.' });
-  }
-});
+  },
+);
 
 // ---- DELETE /api/saved-states/:id/shares/:shareId ----
-router.delete('/:id/shares/:shareId', requireAuth, async (req: AuthedRequest, res) => {
-  try {
-    const result = await loadStateWithAuth(req, res, { minRole: 'admin' });
-    if (!result) return;
-    const share = await prisma.savedStateShare.findUnique({ where: { id: paramValue(req.params.shareId) } });
-    if (!share || share.stateId !== result.state.id) {
-      return res.status(404).json({ error: 'Share not found.' });
+router.delete(
+  "/:id/shares/:shareId",
+  requireAuth,
+  async (req: AuthedRequest, res) => {
+    try {
+      const result = await loadStateWithAuth(req, res, { minRole: "admin" });
+      if (!result) return;
+      const share = await prisma.savedStateShare.findUnique({
+        where: { id: paramValue(req.params.shareId) },
+      });
+      if (!share || share.stateId !== result.state.id) {
+        return res.status(404).json({ error: "Share not found." });
+      }
+      await prisma.savedStateShare.delete({ where: { id: share.id } });
+      res.status(204).end();
+    } catch (err) {
+      console.error("[saved-states] delete share error", err);
+      res.status(500).json({ error: "Could not revoke share." });
     }
-    await prisma.savedStateShare.delete({ where: { id: share.id } });
-    res.status(204).end();
-  } catch (err) {
-    console.error('[saved-states] delete share error', err);
-    res.status(500).json({ error: 'Could not revoke share.' });
-  }
-});
+  },
+);
 
 // ---- POST /api/saved-states/:id/transfer ----
 // Body: { newOwnerId }  — must be an existing share holder.
-router.post('/:id/transfer', requireAuth, writeLimiter, async (req: AuthedRequest, res) => {
-  try {
-    const result = await loadStateWithAuth(req, res, { minRole: 'owner' });
-    if (!result) return;
-    const { newOwnerId } = req.body || {};
-    if (!newOwnerId || typeof newOwnerId !== 'string') {
-      return res.status(400).json({ error: 'newOwnerId is required.' });
-    }
-    if (newOwnerId === req.user.id) {
-      return res.status(400).json({ error: 'You are already the owner.' });
-    }
-    const targetShare = await prisma.savedStateShare.findUnique({
-      where: { stateId_userId: { stateId: result.state.id, userId: newOwnerId } },
-    });
-    if (!targetShare) {
-      return res.status(400).json({
-        error: 'The new owner must first be granted access to this state.',
-      });
-    }
-    const previousOwnerId = result.state.ownerId;
-    await prisma.$transaction([
-      prisma.savedState.update({
-        where: { id: result.state.id },
-        data: { ownerId: newOwnerId },
-      }),
-      prisma.savedStateShare.delete({ where: { id: targetShare.id } }),
-      prisma.savedStateShare.upsert({
-        where: { stateId_userId: { stateId: result.state.id, userId: previousOwnerId } },
-        update: { role: 'admin' },
-        create: { stateId: result.state.id, userId: previousOwnerId, role: 'admin' },
-      }),
-    ]);
-    res.json({ ok: true });
-  } catch (err) {
-    console.error('[saved-states] transfer error', err);
-    res.status(500).json({ error: 'Could not transfer ownership.' });
-  }
-});
-
-// ---- POST /api/saved-states/:id/request-access ----
-router.post('/:id/request-access', requireAuth, requestLimiter, async (req: AuthedRequest, res) => {
-  try {
-    const { requestedRole = 'view', message } = req.body || {};
-    if (!isValidRole(requestedRole)) {
-      return res.status(400).json({ error: `Role must be one of: ${ROLES.join(', ')}.` });
-    }
-    const state = await prisma.savedState.findUnique({
-      where: { id: paramValue(req.params.id) },
-      include: { owner: true, shares: true },
-    });
-    if (!state) return res.status(404).json({ error: 'Saved state not found.' });
-
-    const role = effectiveRole(state, req.user.id);
-    if (canView(role)) {
-      return res.status(400).json({ error: 'You already have access to this state.' });
-    }
-
-    // Deduplicate: if there's already a pending request, return it.
-    const existing = await prisma.accessRequest.findFirst({
-      where: { stateId: state.id, userId: req.user.id, status: 'pending' },
-    });
-    let request = existing;
-    if (!request) {
-      request = await prisma.accessRequest.create({
-        data: {
-          stateId: state.id,
-          userId: req.user.id,
-          requestedRole,
-          message: typeof message === 'string' ? message.slice(0, 500) : null,
+router.post(
+  "/:id/transfer",
+  requireAuth,
+  writeLimiter,
+  async (req: AuthedRequest, res) => {
+    try {
+      const result = await loadStateWithAuth(req, res, { minRole: "owner" });
+      if (!result) return;
+      const { newOwnerId } = req.body || {};
+      if (!newOwnerId || typeof newOwnerId !== "string") {
+        return res.status(400).json({ error: "newOwnerId is required." });
+      }
+      if (newOwnerId === req.user.id) {
+        return res.status(400).json({ error: "You are already the owner." });
+      }
+      const targetShare = await prisma.savedStateShare.findUnique({
+        where: {
+          stateId_userId: { stateId: result.state.id, userId: newOwnerId },
         },
       });
+      if (!targetShare) {
+        return res.status(400).json({
+          error: "The new owner must first be granted access to this state.",
+        });
+      }
+      const previousOwnerId = result.state.ownerId;
+      await prisma.$transaction([
+        prisma.savedState.update({
+          where: { id: result.state.id },
+          data: { ownerId: newOwnerId },
+        }),
+        prisma.savedStateShare.delete({ where: { id: targetShare.id } }),
+        prisma.savedStateShare.upsert({
+          where: {
+            stateId_userId: {
+              stateId: result.state.id,
+              userId: previousOwnerId,
+            },
+          },
+          update: { role: "admin" },
+          create: {
+            stateId: result.state.id,
+            userId: previousOwnerId,
+            role: "admin",
+          },
+        }),
+      ]);
+      res.json({ ok: true });
+    } catch (err) {
+      console.error("[saved-states] transfer error", err);
+      res.status(500).json({ error: "Could not transfer ownership." });
     }
+  },
+);
 
-    // Notify the owner (best-effort).
+// ---- POST /api/saved-states/:id/request-access ----
+router.post(
+  "/:id/request-access",
+  requireAuth,
+  requestLimiter,
+  async (req: AuthedRequest, res) => {
     try {
-      await sendAccessRequestEmail({
-        to: state.owner?.email,
-        ownerName: state.owner?.name,
-        requesterEmail: req.user.email,
-        requesterName: req.user.name,
-        stateName: state.name,
-        requestedRole,
-        message: request.message,
-        manageUrl: `${APP_URL}/${encodeURIComponent(String(state.id))}`,
+      const { requestedRole = "view", message } = req.body || {};
+      if (!isValidRole(requestedRole)) {
+        return res
+          .status(400)
+          .json({ error: `Role must be one of: ${ROLES.join(", ")}.` });
+      }
+      const state = await prisma.savedState.findUnique({
+        where: { id: paramValue(req.params.id) },
+        include: { owner: true, shares: true },
+      });
+      if (!state)
+        return res.status(404).json({ error: "Saved state not found." });
+
+      const role = effectiveRole(state, req.user.id);
+      if (canView(role)) {
+        return res
+          .status(400)
+          .json({ error: "You already have access to this state." });
+      }
+
+      // Deduplicate: if there's already a pending request, return it.
+      const existing = await prisma.accessRequest.findFirst({
+        where: { stateId: state.id, userId: req.user.id, status: "pending" },
+      });
+      let request = existing;
+      if (!request) {
+        request = await prisma.accessRequest.create({
+          data: {
+            stateId: state.id,
+            userId: req.user.id,
+            requestedRole,
+            message: typeof message === "string" ? message.slice(0, 500) : null,
+          },
+        });
+      }
+
+      // Notify the owner (best-effort).
+      try {
+        await sendAccessRequestEmail({
+          to: state.owner?.email,
+          ownerName: state.owner?.name,
+          requesterEmail: req.user.email,
+          requesterName: req.user.name,
+          stateName: state.name,
+          requestedRole,
+          message: request.message,
+          manageUrl: `${APP_URL}/${encodeURIComponent(String(state.id))}`,
+        });
+      } catch (err) {
+        console.error("[saved-states] email send failed", err);
+      }
+
+      res.status(201).json({
+        id: request.id,
+        requestedRole: request.requestedRole,
+        status: request.status,
       });
     } catch (err) {
-      console.error('[saved-states] email send failed', err);
+      console.error("[saved-states] request-access error", err);
+      res.status(500).json({ error: "Could not submit request." });
     }
-
-    res.status(201).json({
-      id: request.id,
-      requestedRole: request.requestedRole,
-      status: request.status,
-    });
-  } catch (err) {
-    console.error('[saved-states] request-access error', err);
-    res.status(500).json({ error: 'Could not submit request.' });
-  }
-});
+  },
+);
 
 // ---- POST /api/saved-states/:id/requests/:requestId ----
 // Body: { action: 'approve'|'deny', role?: 'view'|'edit'|'admin' }
-router.post('/:id/requests/:requestId', requireAuth, async (req: AuthedRequest, res) => {
-  try {
-    const result = await loadStateWithAuth(req, res, { minRole: 'admin' });
-    if (!result) return;
-    const { action, role } = req.body || {};
-    if (action !== 'approve' && action !== 'deny') {
-      return res.status(400).json({ error: 'action must be approve or deny.' });
-    }
-    const request = await prisma.accessRequest.findUnique({ where: { id: paramValue(req.params.requestId) } });
-    if (!request || request.stateId !== result.state.id || request.status !== 'pending') {
-      return res.status(404).json({ error: 'Pending request not found.' });
-    }
-
-    if (action === 'deny') {
-      await prisma.accessRequest.update({
-        where: { id: request.id },
-        data: { status: 'denied', resolvedAt: new Date() },
+router.post(
+  "/:id/requests/:requestId",
+  requireAuth,
+  async (req: AuthedRequest, res) => {
+    try {
+      const result = await loadStateWithAuth(req, res, { minRole: "admin" });
+      if (!result) return;
+      const { action, role } = req.body || {};
+      if (action !== "approve" && action !== "deny") {
+        return res
+          .status(400)
+          .json({ error: "action must be approve or deny." });
+      }
+      const request = await prisma.accessRequest.findUnique({
+        where: { id: paramValue(req.params.requestId) },
       });
-      return res.json({ ok: true, status: 'denied' });
-    }
+      if (
+        !request ||
+        request.stateId !== result.state.id ||
+        request.status !== "pending"
+      ) {
+        return res.status(404).json({ error: "Pending request not found." });
+      }
 
-    const grantedRole = isValidRole(role) ? role : request.requestedRole;
-    await prisma.$transaction([
-      prisma.savedStateShare.upsert({
-        where: { stateId_userId: { stateId: result.state.id, userId: request.userId } },
-        update: { role: grantedRole },
-        create: { stateId: result.state.id, userId: request.userId, role: grantedRole },
-      }),
-      prisma.accessRequest.update({
-        where: { id: request.id },
-        data: { status: 'approved', resolvedAt: new Date() },
-      }),
-    ]);
-    res.json({ ok: true, status: 'approved', role: grantedRole });
-  } catch (err) {
-    console.error('[saved-states] resolve request error', err);
-    res.status(500).json({ error: 'Could not resolve request.' });
-  }
-});
+      if (action === "deny") {
+        await prisma.accessRequest.update({
+          where: { id: request.id },
+          data: { status: "denied", resolvedAt: new Date() },
+        });
+        return res.json({ ok: true, status: "denied" });
+      }
+
+      const grantedRole = isValidRole(role) ? role : request.requestedRole;
+      await prisma.$transaction([
+        prisma.savedStateShare.upsert({
+          where: {
+            stateId_userId: {
+              stateId: result.state.id,
+              userId: request.userId,
+            },
+          },
+          update: { role: grantedRole },
+          create: {
+            stateId: result.state.id,
+            userId: request.userId,
+            role: grantedRole,
+          },
+        }),
+        prisma.accessRequest.update({
+          where: { id: request.id },
+          data: { status: "approved", resolvedAt: new Date() },
+        }),
+      ]);
+      res.json({ ok: true, status: "approved", role: grantedRole });
+    } catch (err) {
+      console.error("[saved-states] resolve request error", err);
+      res.status(500).json({ error: "Could not resolve request." });
+    }
+  },
+);
 
 export default router;

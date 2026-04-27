@@ -1,11 +1,7 @@
 {
   "id": "computer-science",
   "name": "Computer Science",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "CS1002",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module covers problem-solving skills, programming basics and object-oriented concepts, modelling and programming. Practical skills are reinforced through a range of exercises …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -87,13 +78,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module explores various aspects of data storage, processing and analysis. Programming skills are reinforced through a range of exercises and practicals covering various…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -163,13 +149,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module reinforces key Java programming skills gained in CS1002, by means of a series of coursework assignments posed as mini-projects. These are designed to offer increasing…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -236,13 +217,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module introduces students to concepts and practicalities surrounding access and use of modern computer systems via a Unix environment. It will cover both local and remote…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -306,13 +282,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "This module introduces fundamental algorithms, data structures and formal language concepts at the heart of modern software, and develops skills in programming and analysis.",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -391,13 +362,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "This module develops skills in programming in C, systems programming, digital logic and low-level computer organisation.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -473,13 +439,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "This module introduces the student to the Internet and the World Wide Web from a Computer Science perspective. It consists of two complementary streams: computer networks and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -555,13 +516,8 @@
       "level": 2000,
       "credits": 30,
       "summary": "This module introduces the functional and dynamic programming paradigms, using languages such as Haskell and Python. Understanding is reinforced through extensive practical…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -638,13 +594,8 @@
       "level": 2000,
       "credits": 40,
       "summary": "This module is an accelerated version of CS2001. It includes necessary background material from core first-year modules, as well as the same content as CS2001.",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -725,13 +676,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module covers the foundations of logic that are relevant to computer scientists, with an emphasis on automatic reasoning and decidability. Topics include propositional and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -819,13 +765,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module introduces Turing machines, non-determinism and pushdown automata, followed by study of decidability, simulation and the Halting problem. It builds upon finite state…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -917,13 +858,8 @@
       "level": 3000,
       "credits": 30,
       "summary": "This module gives a broad overview of software engineering, presenting the fundamental aspects as a collaborative professional activity including its concerns and approaches.…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1012,13 +948,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module introduces data models and modeling techniques, relational design and normalisation. It also examines a range of issues in database implementation, including indexing, …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1103,13 +1034,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module covers the principles and practice of modern computer communications through studying network abstractions, protocols, architectures and technologies at all levels of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1219,13 +1145,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module examines the changing role of the operating system, the concept and implementation of process, the OS/hardware interface with regard to storage and protection, and the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1310,13 +1231,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module examines the general features of the A.I. problem solving process, and in particular the various forms of heuristic, together with their implementation and case…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1404,13 +1320,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module covers the main aspects of Human Computer Interaction. Design guidelines, structured design methods and standards are studied, and practice is given in implementation…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1498,13 +1409,8 @@
       "level": 3000,
       "credits": 15,
       "summary": "This module explains the techniques used to encode data, emphasising the ideas of security and secrecy, error correcting capabilities, and data compression.",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1589,12 +1495,8 @@
       "level": 3000,
       "credits": 60,
       "summary": "This module provides the first extended period of work-based learning on the Data Science Graduate Apprenticeship programme. Apprentices spend four months on the employer's…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -1663,13 +1565,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Building on earlier coverage of elementary logic, this module motivates the need for formal methods and software verification approaches as model checking for guaranteeing the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1737,13 +1634,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module has the same content as CS4099, but with reduced scope appropriate for Joint Honours students.",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1823,13 +1715,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This module allows students to undertake a substantial software engineering project using professional development techniques. Each student designs, specifies and constructs a…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1909,13 +1796,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module covers the fundamental concepts of computer graphics, and develops the ability to apply the concepts to the generation of realistic, synthetic images of 3D objects and …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2001,13 +1883,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module covers the fundamentals of distributed systems, with reference to system models, programming languages, algorithmic techniques, concurrency and correctness.",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2075,13 +1952,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Students will be exposed to advanced topics at the forefront of computer networks and digital communication systems.. The aim is to help students to understand, analyse, and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2149,13 +2021,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module studies the design and implementation of programming languages. Topics include language design principles, abstract syntax, evaluation mechanisms, binding, type…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2241,13 +2108,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module studies the principles and technology of modern computer architectures, with particular emphasis on performance and acceleration. Topics include the CPU, memory,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2315,13 +2177,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module reviews key theoretical and practical aspects of Information Security Management. The module content covers higher-level technical and theoretical issues as well as…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2407,13 +2264,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module presents the key concepts of programming multi-core/many-core and other parallel architectures, ranging from the identification and use of parallel patterns; the use…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2490,13 +2342,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module covers the fundamentals of signal processing and perception: investigating how sounds, images and videos can be processed and analysed alongside the fundamentals of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2561,13 +2408,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module builds on the general-purpose programming abilities acquired earlier, introducing games-specific techniques and material. Computer games are now a bigger industry than …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2653,13 +2495,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module introduces constraint-based reasoning as a powerful mechanism for knowledge representation and inference. It provides a thorough grounding in the constraint…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2745,14 +2582,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module is a guided reading module on any aspect of Computer Science not covered by other available modules, intended only for students in the School of Computer Science for…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2817,12 +2648,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This module provides the second extended period of work-based learning on the Data Science Graduate Apprenticeship programme. Apprentices spend seven months on the employer's…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2873,13 +2700,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "The aim of the project is to develop and foster the skills of experimental design, appropriate research management and analysis. The topic and area of research should be chosen in …",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2960,14 +2782,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces and revises object-oriented modelling, design and implementation up to the level required to complete programming assignments within other MSc modules.…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3035,13 +2851,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces computational thinking and problem solving skills to students who have no or little previous programming experience. It covers general programming concepts…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3109,13 +2920,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module reinforces key programming skills gained in CS5002, by means of a series of coursework assignments posed as small programming projects. These are designed to offer…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3185,12 +2991,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces topics in Computer Science and serves as a foundation for other MSc modules. The module will include introductions to both theoretical topics, e.g. discrete …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -3239,15 +3041,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module covers the major aspects of natural language processing and speech understanding, including computational syntax, computational semantics, discourse processing,…",
-      "semesters": [
-        "2",
-        "Flexible study",
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2", "Flexible study", "Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3315,13 +3110,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Machine Learning enables computers to improve automatically with experience. A growing number of algorithms are being used to predict outcomes using patterns in collected data.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3389,15 +3179,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The module gives an overview of traditional AI methods and the philosophy of AI. It introduces the philosophy and history of AI. It covers the main classical approaches to AI:…",
-      "semesters": [
-        "1",
-        "Flexible study",
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "Flexible study", "Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3493,13 +3276,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module covers reasoning and decision making in the presence of uncertainty. It introduces probabilities and probabilistic reasoning, approximate inference (Monte Carlo…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3562,15 +3340,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is a guided reading module on any aspect of Artificial Intelligence not covered by other available modules. It is intended only for MSc students in Artificial…",
-      "semesters": [
-        "2",
-        "Flexible study",
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2", "Flexible study", "Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3646,13 +3417,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module aims to equip students with a deep knowledge of fundamental concepts and terminologies of computer communication systems (CCS). It will illustrate fundamental…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3741,12 +3507,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is a guided reading module on any aspect of Computer Communication Systems not covered by other available modules. It is intended only for MSc students in Computer…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3803,16 +3565,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module covers fundamental theory and practice of Software Engineering, including important overarching concepts such as the software lifecycle and ethics in software…",
-      "semesters": [
-        "1",
-        "2",
-        "Flexible study",
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2", "Flexible study", "Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3913,13 +3667,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "The aim of this module is to provide students with an understanding of the concepts and development techniques used for critical, socio-technical systems. When students have…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3987,13 +3736,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces students to the concepts of software architecture and design as aids to developing good quality software. It covers: Architecture description (architecture…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4061,13 +3805,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces principles, processes and tools for managing large, realistic software projects and products. It covers essential skills for defining and managing products, …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4136,13 +3875,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module covers essential tools and skills for ensuring and maintaining software quality. It considers the range of possible software quality attributes, and the factors…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4208,13 +3942,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is a guided reading module on any aspect of Software Engineering not covered by other available modules. It is intended only for MSc students in Software Engineering…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4289,13 +4018,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides a grounded introduction to the principles of human computer interaction in the context of evaluation paradigms. Material includes: history of interfaces and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4384,13 +4108,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module develops prototype-building skills for a wide range of interactive technologies. Students learn how to create interactive hardware and software using technologies such …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4475,13 +4194,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module studies methodologies in interaction design that are at the core of current practice for user interface engineering and application development. Students work towards…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4566,13 +4280,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides an introduction to information visualisation. It focuses on the question of how to utilise visual representations to make information accessible for…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4658,13 +4367,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "CS5052 is an advanced research-focused module, which presents the programming paradigms, algorithmic techniques, and design principles for large-scale distributed systems, such as …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4741,13 +4445,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "There is much interest in both academic research and the mass media about the potential effects of algorithmic decision-making and bias, with stories about manipulation of news…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4812,13 +4511,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module covers the foundations of modern, dynamic Internet applications. It teaches foundational World Wide Web technologies: HTML, CSS and programming in JavaScript. It…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4884,13 +4578,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module is a group-based MSc project on a topic suitable to the students' programmes in the School of Computer Science. It results in an individual dissertation of no more…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4956,13 +4645,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module is an individually supervised MSc project on a topic suitable to the student's programme in the School of Computer Science. It results in a dissertation of no more…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5029,13 +4713,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Discrete optimisation problems are central to many real-world applications, ranging from timetabling to optimising transportation networks. These problems often require making…",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5098,13 +4777,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will introduce complex systems modelling and simulation. Students will gain a broad grounding in a range of techniques and their applications to different classes of…",
-      "semesters": [
-        "Summer after graduation"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Summer after graduation"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5167,14 +4841,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module allows students to undertake a major software engineering or research project, under the guidance of an individual supervisor. The project builds on experience gained…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5258,13 +4926,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is available only to students on the EngD programme. It provides an opportunity for in-depth individual study, directed by an individual supervisor, of topics directly …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5326,13 +4989,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module introduces and revises modelling, design and implementation in Python up to the level required to complete programming assignments within other MSc modules. Students…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5396,13 +5054,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Machine Learning enables computers to improve automatically with experience. A growing number of algorithms are being used to predict outcomes using patterns in collected data.…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5466,13 +5119,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides an introduction to Data Science research methods and to the types of skills necessary for the planning, data gathering, data analysis and dissemination stages …",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5536,13 +5184,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will introduce complex systems modelling and simulation. Students will gain a broad grounding in a range of techniques and their applications to different classes of…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5606,13 +5249,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Many problems in modern Data Science, such as planning and scheduling, involve solutions with integer values and options for solutions that grow in size very rapidly. This module…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5676,13 +5314,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "An ubiquitous component of Data Science is the minimisation of carefully-chosen error functions, but many practitioners and researchers employ the standard software package…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5746,13 +5379,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This is an advanced research-focused module that will encourage independent learning. The module has two components. The first is a set of lectures that presents the foundations…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5816,13 +5444,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides an introduction to information visualisation. It focuses on the question of how to utilise visual representations to make information accessible for…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5886,13 +5509,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Machine learning workflows are key to effective Data Science. This module is focussed on using python packages to perform end-to-end data-driven analyses.",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5956,13 +5574,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will ground students in the principles and practice of digital methods for the promotion and preservation of natural and cultural heritage. It will investigate the…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6027,13 +5640,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module is an individually supervised MSc project on a topic suitable to the Online Data Science programme in the School of Computer Science. It results in a dissertation of…",
-      "semesters": [
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6096,13 +5704,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Contemporary data collection can be automated and on a massive scale e.g. credit card transaction databases. Large databases potentially carry a wealth of important information…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6169,13 +5772,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "The module consists of two streams. One is a practical stream featuring commonly used application software for word processing, spreadsheets, presentations and web authoring.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6240,13 +5838,8 @@
       "level": 2000,
       "credits": 20,
       "summary": "We are increasingly reliant on Internet-based services for a variety of routine tasks, for example, searching: Google; e-commerce: Amazon; e-government: Fife Council; travel:…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

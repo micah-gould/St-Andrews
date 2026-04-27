@@ -1,61 +1,120 @@
-import fs from 'node:fs/promises';
-import { parseRelationshipText } from '../server/catalogs/relationship-parser.js';
+import fs from "node:fs/promises";
+import { parseRelationshipText } from "../server/catalogs/relationship-parser.js";
 
-const YEARS = ['2025/26', '2026/27', '2027/28'];
+const YEARS = ["2025/26", "2026/27", "2027/28"];
 const SCHOOL_CATALOGS = [
-  { id: 'art-history', name: 'Art History', funnelbackDept: 'school of art history' },
-  { id: 'biology', name: 'Biology', funnelbackDept: 'school of biology' },
-  { id: 'business', name: 'Business', funnelbackDept: 'business school' },
-  { id: 'chemistry', name: 'Chemistry', funnelbackDept: 'school of chemistry' },
-  { id: 'classics', name: 'Classics', funnelbackDept: 'school of classics' },
-  { id: 'computer-science', name: 'Computer Science', funnelbackDept: 'school of computer science' },
-  { id: 'divinity', name: 'Divinity', funnelbackDept: 'school of divinity' },
-  { id: 'earth-sciences', name: 'Earth and Environmental Sciences', funnelbackDept: 'school of earth & environmental sciences' },
-  { id: 'english', name: 'English', funnelbackDept: 'school of english' },
-  { id: 'geography-sustainable-development', name: 'Geography and Sustainable Development', funnelbackDept: 'school of geography and sustainable devt' },
-  { id: 'history', name: 'History', funnelbackDept: 'school of history' },
-  { id: 'international-education', name: 'International Education and Lifelong Learning Institute (IELLI)', funnelbackDept: 'int education & lifelong learning inst' },
-  { id: 'international-relations', name: 'International Relations', funnelbackDept: 'school of international relations' },
-  { id: 'mathematics', name: 'Mathematics', funnelbackDept: 'school of mathematics and statistics' },
-  { id: 'medicine', name: 'Medicine', funnelbackDept: 'school of medicine' },
-  { id: 'modern-languages', name: 'Modern Languages', funnelbackDept: 'school of modern languages' },
-  { id: 'music', name: 'Music', funnelbackDept: 'music centre' },
-  { id: 'pafs', name: 'Philosophical, Anthropological and Film Studies', funnelbackDept: 'school of philos anthro and film studies' },
-  { id: 'physics-astronomy', name: 'Physics and Astronomy', funnelbackDept: 'school of physics and astronomy' },
-  { id: 'psychology-neuroscience', name: 'Psychology and Neuroscience', funnelbackDept: 'school of psychology and neuroscience' },
+  {
+    id: "art-history",
+    name: "Art History",
+    funnelbackDept: "school of art history",
+  },
+  { id: "biology", name: "Biology", funnelbackDept: "school of biology" },
+  { id: "business", name: "Business", funnelbackDept: "business school" },
+  { id: "chemistry", name: "Chemistry", funnelbackDept: "school of chemistry" },
+  { id: "classics", name: "Classics", funnelbackDept: "school of classics" },
+  {
+    id: "computer-science",
+    name: "Computer Science",
+    funnelbackDept: "school of computer science",
+  },
+  { id: "divinity", name: "Divinity", funnelbackDept: "school of divinity" },
+  {
+    id: "earth-sciences",
+    name: "Earth and Environmental Sciences",
+    funnelbackDept: "school of earth & environmental sciences",
+  },
+  { id: "english", name: "English", funnelbackDept: "school of english" },
+  {
+    id: "geography-sustainable-development",
+    name: "Geography and Sustainable Development",
+    funnelbackDept: "school of geography and sustainable devt",
+  },
+  { id: "history", name: "History", funnelbackDept: "school of history" },
+  {
+    id: "international-education",
+    name: "International Education and Lifelong Learning Institute (IELLI)",
+    funnelbackDept: "int education & lifelong learning inst",
+  },
+  {
+    id: "international-relations",
+    name: "International Relations",
+    funnelbackDept: "school of international relations",
+  },
+  {
+    id: "mathematics",
+    name: "Mathematics",
+    funnelbackDept: "school of mathematics and statistics",
+  },
+  { id: "medicine", name: "Medicine", funnelbackDept: "school of medicine" },
+  {
+    id: "modern-languages",
+    name: "Modern Languages",
+    funnelbackDept: "school of modern languages",
+  },
+  { id: "music", name: "Music", funnelbackDept: "music centre" },
+  {
+    id: "pafs",
+    name: "Philosophical, Anthropological and Film Studies",
+    funnelbackDept: "school of philos anthro and film studies",
+  },
+  {
+    id: "physics-astronomy",
+    name: "Physics and Astronomy",
+    funnelbackDept: "school of physics and astronomy",
+  },
+  {
+    id: "psychology-neuroscience",
+    name: "Psychology and Neuroscience",
+    funnelbackDept: "school of psychology and neuroscience",
+  },
 ];
 
-const SEARCH_BASE = 'https://standrews-search.funnelback.squiz.cloud/s/search.html?query=!null*&sort=metamodulecode&collection=standrews~sp-module-catalogue&profile=_default&form=simple_js_loader&wildcard=*';
+const SEARCH_BASE =
+  "https://standrews-search.funnelback.squiz.cloud/s/search.html?query=!null*&sort=metamodulecode&collection=standrews~sp-module-catalogue&profile=_default&form=simple_js_loader&wildcard=*";
 
-function decodeHtml(value = '') {
+function decodeHtml(value = "") {
   return value
-    .replace(/&amp;/g, '&')
+    .replace(/&amp;/g, "&")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/\s+/g, ' ')
+    .replace(/&nbsp;/g, " ")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
-function stripTags(value = '') {
-  return decodeHtml(value.replace(/<[^>]+>/g, ' '));
+function stripTags(value = "") {
+  return decodeHtml(value.replace(/<[^>]+>/g, " "));
 }
 
 function normalizeYear(value) {
-  return value.replace('/', '-').replace(/^(\d{4})-(\d{4})$/, (_, start, end) => `${start}-${end.slice(2)}`);
+  return value
+    .replace("/", "-")
+    .replace(
+      /^(\d{4})-(\d{4})$/,
+      (_, start, end) => `${start}-${end.slice(2)}`,
+    );
 }
 
 function parseSearchResults(html) {
   const totalMatch = html.match(/([0-9,]+) modules found/);
-  const total = totalMatch ? Number(totalMatch[1].replace(/,/g, '')) : 0;
-  const blocks = [...html.matchAll(/<li id="\d+" class="search-result module"[\s\S]*?<\/li>/g)].map((match) => match[0]);
+  const total = totalMatch ? Number(totalMatch[1].replace(/,/g, "")) : 0;
+  const blocks = [
+    ...html.matchAll(
+      /<li id="\d+" class="search-result module"[\s\S]*?<\/li>/g,
+    ),
+  ].map((match) => match[0]);
   const rows = blocks.map((block) => {
-    const attrs = Object.fromEntries([...block.matchAll(/data-([a-z-]+)\s*=\s*"([^"]*)"/g)].map((match) => [match[1], match[2]]));
+    const attrs = Object.fromEntries(
+      [...block.matchAll(/data-([a-z-]+)\s*=\s*"([^"]*)"/g)].map((match) => [
+        match[1],
+        match[2],
+      ]),
+    );
     const read = (regex) => {
       const match = block.match(regex);
-      return match ? stripTags(match[1]) : '';
+      return match ? stripTags(match[1]) : "";
     };
 
     return {
@@ -63,12 +122,25 @@ function parseSearchResults(html) {
       name: decodeHtml(attrs.title),
       year: normalizeYear(attrs.ayrs),
       semester: decodeHtml(attrs.semester),
-      credits: Number(read(/<dd class="metadata-list--full credits"[^>]*>([\s\S]*?)<\/dd>/)) || null,
-      level: Number(read(/<dd class="metadata-list--full level"[^>]*>([\s\S]*?)<\/dd>/)) || null,
+      credits:
+        Number(
+          read(/<dd class="metadata-list--full credits"[^>]*>([\s\S]*?)<\/dd>/),
+        ) || null,
+      level:
+        Number(
+          read(/<dd class="metadata-list--full level"[^>]*>([\s\S]*?)<\/dd>/),
+        ) || null,
       summary: read(/<p class="search-result__summary">([\s\S]*?)<\/p>/),
-      timetableShort: read(/<dd class="metadata-list--full timetable"[^>]*>([\s\S]*?)<\/dd>/),
-      assessmentShort: read(/<dd class="metadata-list--full assessment"[^>]*>([\s\S]*?)<\/dd>/),
-      url: decodeHtml((block.match(/<a href="([^"]+)" class="search-result__link">/) || [])[1] || ''),
+      timetableShort: read(
+        /<dd class="metadata-list--full timetable"[^>]*>([\s\S]*?)<\/dd>/,
+      ),
+      assessmentShort: read(
+        /<dd class="metadata-list--full assessment"[^>]*>([\s\S]*?)<\/dd>/,
+      ),
+      url: decodeHtml(
+        (block.match(/<a href="([^"]+)" class="search-result__link">/) ||
+          [])[1] || "",
+      ),
     };
   });
 
@@ -77,28 +149,37 @@ function parseSearchResults(html) {
 
 function inferFrequency(years) {
   const pattern = YEARS.map(normalizeYear).map((year) => years.includes(year));
-  if ((pattern[0] && pattern[1]) || (pattern[1] && pattern[2])) return 'every-year';
-  if (pattern[0] && !pattern[1] && pattern[2]) return 'alternate-a';
-  if (!pattern[0] && pattern[1] && !pattern[2]) return 'alternate-b';
-  return 'irregular';
+  if ((pattern[0] && pattern[1]) || (pattern[1] && pattern[2]))
+    return "every-year";
+  if (pattern[0] && !pattern[1] && pattern[2]) return "alternate-a";
+  if (!pattern[0] && pattern[1] && !pattern[2]) return "alternate-b";
+  return "irregular";
 }
 
 async function fetchYearRows(school, year) {
-  const yearParam = year.replace('/26', '/6').replace('/27', '/7').replace('/28', '/8');
+  const yearParam = year
+    .replace("/26", "/6")
+    .replace("/27", "/7")
+    .replace("/28", "/8");
   let start = 1;
   let total = Infinity;
   const rows = [];
 
   while (start <= total) {
     const params = new URLSearchParams({
-      'f.School|dept': school.funnelbackDept,
-      'f.Year|ayrs': yearParam,
+      "f.School|dept": school.funnelbackDept,
+      "f.Year|ayrs": yearParam,
       start_rank: String(start),
-      num_ranks: '50',
+      num_ranks: "50",
     });
-    const html = await fetchTextWithRetry(`${SEARCH_BASE}&${params.toString()}`, {
-      validate: (value) => value.includes('search-result module') || value.includes('modules found'),
-    });
+    const html = await fetchTextWithRetry(
+      `${SEARCH_BASE}&${params.toString()}`,
+      {
+        validate: (value) =>
+          value.includes("search-result module") ||
+          value.includes("modules found"),
+      },
+    );
     const parsed = parseSearchResults(html);
     total = parsed.total;
     rows.push(...parsed.rows);
@@ -138,8 +219,8 @@ function buildCatalog(school, rows) {
         year: row.year,
         semester: row.semester,
         url: row.url,
-        timetableShort: row.timetableShort || '',
-        assessmentShort: row.assessmentShort || '',
+        timetableShort: row.timetableShort || "",
+        assessmentShort: row.assessmentShort || "",
       });
     }
   }
@@ -148,24 +229,31 @@ function buildCatalog(school, rows) {
     id: school.id,
     name: school.name,
     years: YEARS.map(normalizeYear),
-    nodes: [...moduleMap.values()].sort((a, b) => a.id.localeCompare(b.id)).map((module) => {
-      const years = [...module.years].sort();
-      return {
-        id: module.id,
-        name: module.name,
-        level: module.level || inferLevelFromCode(module.id),
-        credits: module.credits,
-        summary: module.summary,
-        semesters: [...module.semesters].sort((a, b) => a.localeCompare(b)),
-        years,
-        availability: Object.fromEntries(YEARS.map(normalizeYear).map((year) => [year, years.includes(year)])),
-        frequency: inferFrequency(years),
-        prerequisiteExpression: null,
-        coRequisiteExpression: null,
-        antiRequisiteExpression: null,
-        offerings: module.offerings,
-      };
-    }),
+    nodes: [...moduleMap.values()]
+      .sort((a, b) => a.id.localeCompare(b.id))
+      .map((module) => {
+        const years = [...module.years].sort();
+        return {
+          id: module.id,
+          name: module.name,
+          level: module.level || inferLevelFromCode(module.id),
+          credits: module.credits,
+          summary: module.summary,
+          semesters: [...module.semesters].sort((a, b) => a.localeCompare(b)),
+          years,
+          availability: Object.fromEntries(
+            YEARS.map(normalizeYear).map((year) => [
+              year,
+              years.includes(year),
+            ]),
+          ),
+          frequency: inferFrequency(years),
+          prerequisiteExpression: null,
+          coRequisiteExpression: null,
+          antiRequisiteExpression: null,
+          offerings: module.offerings,
+        };
+      }),
   };
 }
 
@@ -175,8 +263,8 @@ function inferLevelFromCode(code) {
 }
 
 function absoluteUrl(url) {
-  if (!url) return '';
-  return new URL(url, 'https://www.st-andrews.ac.uk').toString();
+  if (!url) return "";
+  return new URL(url, "https://www.st-andrews.ac.uk").toString();
 }
 
 function wait(ms) {
@@ -185,16 +273,24 @@ function wait(ms) {
   });
 }
 
-function isLikelyModuleDetailPage(html, moduleCode = '') {
+function isLikelyModuleDetailPage(html, moduleCode = "") {
   if (!html) return false;
   if (!html.includes('id="key-information"')) return false;
   if (!moduleCode) return true;
-  return html.includes(`meta_modulecode=${moduleCode}`) || html.includes(`>${moduleCode} `);
+  return (
+    html.includes(`meta_modulecode=${moduleCode}`) ||
+    html.includes(`>${moduleCode} `)
+  );
 }
 
-async function fetchTextWithRetry(url, { attempts = 4, delayMs = 350, validate = null } = {}) {
+async function fetchTextWithRetry(
+  url,
+  { attempts = 4, delayMs = 350, validate = null } = {},
+) {
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
-    const html = await fetch(url).then((response) => response.text()).catch(() => '');
+    const html = await fetch(url)
+      .then((response) => response.text())
+      .catch(() => "");
     const valid = validate ? validate(html) : Boolean(html);
     if (valid) return html;
     if (attempt < attempts) {
@@ -202,86 +298,109 @@ async function fetchTextWithRetry(url, { attempts = 4, delayMs = 350, validate =
     }
   }
 
-  return '';
+  return "";
 }
 
 function extractRelationshipText(html, sectionTitle, id) {
   const byId = id
-    ? stripTags((html.match(new RegExp(`<p[^>]*id=["']${id}["'][^>]*>([\\s\\S]*?)<\\/p>`, 'i')) || [])[1] || '')
-    : '';
+    ? stripTags(
+        (html.match(
+          new RegExp(`<p[^>]*id=["']${id}["'][^>]*>([\\s\\S]*?)<\\/p>`, "i"),
+        ) || [])[1] || "",
+      )
+    : "";
   if (byId) return byId;
 
-  const escapedTitle = sectionTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const escapedTitle = sectionTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const headingPattern = new RegExp(
     `<h3[^>]*>\\s*${escapedTitle}\\s*<\\/h3>\\s*(?:<[^>]+>\\s*){0,6}<(?:p|div|dd|ul)[^>]*>([\\s\\S]*?)<\\/(?:p|div|dd|ul)>`,
-    'i',
+    "i",
   );
-  const headingText = stripTags((html.match(headingPattern) || [])[1] || '');
+  const headingText = stripTags((html.match(headingPattern) || [])[1] || "");
   if (headingText) return headingText;
 
   const rowPattern = new RegExp(
     `<div[^>]*class=["'][^"']*row[^"']*["'][^>]*>[\\s\\S]*?<h3[^>]*>\\s*${escapedTitle}\\s*<\\/h3>[\\s\\S]*?<div[^>]*class=["'][^"']*col-sm-6[^"']*["'][^>]*>([\\s\\S]*?)<\\/div>\\s*<\\/div>`,
-    'i',
+    "i",
   );
-  return stripTags((html.match(rowPattern) || [])[1] || '');
+  return stripTags((html.match(rowPattern) || [])[1] || "");
 }
 
 // Extract body (from <p>) under a specific <h3> label on the detail page
 function extractLabeledField(html, label) {
-  const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const pattern = new RegExp(
     `<h3[^>]*>\\s*${escaped}\\s*<\\/h3>\\s*<p[^>]*>([\\s\\S]*?)<\\/p>`,
-    'i',
+    "i",
   );
-  return stripTags((html.match(pattern) || [])[1] || '');
+  return stripTags((html.match(pattern) || [])[1] || "");
 }
 
 // Extract full module description: paragraph directly after the "Module description" h2
 function extractDescription(html) {
-  const match = html.match(/<h2[^>]*id=["']description["'][^>]*>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>/i);
-  return stripTags((match || [])[1] || '');
+  const match = html.match(
+    /<h2[^>]*id=["']description["'][^>]*>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>/i,
+  );
+  return stripTags((match || [])[1] || "");
 }
 
 // Extract assessment pattern: first <p> after <h2 id="assessment"> before the "Re-assessment" h3
 function extractAssessmentPattern(html) {
-  const match = html.match(/<h2[^>]*id=["']assessment["'][^>]*>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>/i);
-  return stripTags((match || [])[1] || '');
+  const match = html.match(
+    /<h2[^>]*id=["']assessment["'][^>]*>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>/i,
+  );
+  return stripTags((match || [])[1] || "");
 }
 
 function parseDetailPage(html) {
   return {
-    scqfLevel: extractLabeledField(html, 'SCQF level'),
-    availabilityRestrictions: extractLabeledField(html, 'Availability restrictions'),
-    plannedTimetable: extractLabeledField(html, 'Planned timetable'),
-    moduleStaff: extractLabeledField(html, 'Module Staff'),
+    scqfLevel: extractLabeledField(html, "SCQF level"),
+    availabilityRestrictions: extractLabeledField(
+      html,
+      "Availability restrictions",
+    ),
+    plannedTimetable: extractLabeledField(html, "Planned timetable"),
+    moduleStaff: extractLabeledField(html, "Module Staff"),
     description: extractDescription(html),
     assessmentPattern: extractAssessmentPattern(html),
-    reassessment: extractLabeledField(html, 'Re-assessment'),
-    weeklyContact: extractLabeledField(html, 'Weekly contact'),
-    scheduledLearningHours: extractLabeledField(html, 'Scheduled learning hours'),
-    guidedIndependentStudyHours: extractLabeledField(html, 'Guided independent study hours'),
+    reassessment: extractLabeledField(html, "Re-assessment"),
+    weeklyContact: extractLabeledField(html, "Weekly contact"),
+    scheduledLearningHours: extractLabeledField(
+      html,
+      "Scheduled learning hours",
+    ),
+    guidedIndependentStudyHours: extractLabeledField(
+      html,
+      "Guided independent study hours",
+    ),
   };
 }
 
 function coordinatorEmail(moduleStaff) {
-  if (!moduleStaff) return '';
-  const match = moduleStaff.match(/([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/);
-  return match ? match[1] : '';
+  if (!moduleStaff) return "";
+  const match = moduleStaff.match(
+    /([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/,
+  );
+  return match ? match[1] : "";
 }
 
 function scqfLevelNumber(text) {
-  const match = (text || '').match(/SCQF level\s+(\d+)/i);
+  const match = (text || "").match(/SCQF level\s+(\d+)/i);
   return match ? Number(match[1]) : null;
 }
 
 async function enrichNode(node) {
   const offerings = [...(node.offerings || [])].sort((a, b) => {
-    const yearCompare = (a.year || '').localeCompare(b.year || '');
+    const yearCompare = (a.year || "").localeCompare(b.year || "");
     if (yearCompare !== 0) return yearCompare;
-    return (a.semester || '').localeCompare(b.semester || '');
+    return (a.semester || "").localeCompare(b.semester || "");
   });
 
-  const relationshipText = { prerequisitesText: '', coRequisitesText: '', antiRequisitesText: '' };
+  const relationshipText = {
+    prerequisitesText: "",
+    coRequisitesText: "",
+    antiRequisitesText: "",
+  };
   const offeringsByYear = {};
 
   for (const offering of offerings) {
@@ -293,20 +412,35 @@ async function enrichNode(node) {
         year: offering.year,
         semester: offering.semester,
         url: offering.url,
-        timetableShort: offering.timetableShort || '',
-        assessmentShort: offering.assessmentShort || '',
+        timetableShort: offering.timetableShort || "",
+        assessmentShort: offering.assessmentShort || "",
       };
       continue;
     }
 
-    const prerequisitesText = extractRelationshipText(html, 'Pre-requisites', 'prerequisites');
-    const coRequisitesText = extractRelationshipText(html, 'Co-requisites', 'corequisites');
-    const antiRequisitesText = extractRelationshipText(html, 'Anti-requisites', 'antirequisites');
+    const prerequisitesText = extractRelationshipText(
+      html,
+      "Pre-requisites",
+      "prerequisites",
+    );
+    const coRequisitesText = extractRelationshipText(
+      html,
+      "Co-requisites",
+      "corequisites",
+    );
+    const antiRequisitesText = extractRelationshipText(
+      html,
+      "Anti-requisites",
+      "antirequisites",
+    );
     const detail = parseDetailPage(html);
 
-    if (!relationshipText.prerequisitesText && prerequisitesText) relationshipText.prerequisitesText = prerequisitesText;
-    if (!relationshipText.coRequisitesText && coRequisitesText) relationshipText.coRequisitesText = coRequisitesText;
-    if (!relationshipText.antiRequisitesText && antiRequisitesText) relationshipText.antiRequisitesText = antiRequisitesText;
+    if (!relationshipText.prerequisitesText && prerequisitesText)
+      relationshipText.prerequisitesText = prerequisitesText;
+    if (!relationshipText.coRequisitesText && coRequisitesText)
+      relationshipText.coRequisitesText = coRequisitesText;
+    if (!relationshipText.antiRequisitesText && antiRequisitesText)
+      relationshipText.antiRequisitesText = antiRequisitesText;
 
     const key = offering.year;
     const prior = offeringsByYear[key];
@@ -314,29 +448,44 @@ async function enrichNode(node) {
       year: offering.year,
       semester: prior?.semester || offering.semester,
       url: offering.url,
-      timetableShort: offering.timetableShort || prior?.timetableShort || '',
-      assessmentShort: offering.assessmentShort || prior?.assessmentShort || '',
-      plannedTimetable: detail.plannedTimetable || prior?.plannedTimetable || '',
-      moduleStaff: detail.moduleStaff || prior?.moduleStaff || '',
-      coordinatorEmail: coordinatorEmail(detail.moduleStaff) || prior?.coordinatorEmail || '',
-      availabilityRestrictions: detail.availabilityRestrictions || prior?.availabilityRestrictions || '',
-      assessmentPattern: detail.assessmentPattern || prior?.assessmentPattern || '',
-      reassessment: detail.reassessment || prior?.reassessment || '',
-      weeklyContact: detail.weeklyContact || prior?.weeklyContact || '',
-      scheduledLearningHours: detail.scheduledLearningHours || prior?.scheduledLearningHours || '',
-      guidedIndependentStudyHours: detail.guidedIndependentStudyHours || prior?.guidedIndependentStudyHours || '',
+      timetableShort: offering.timetableShort || prior?.timetableShort || "",
+      assessmentShort: offering.assessmentShort || prior?.assessmentShort || "",
+      plannedTimetable:
+        detail.plannedTimetable || prior?.plannedTimetable || "",
+      moduleStaff: detail.moduleStaff || prior?.moduleStaff || "",
+      coordinatorEmail:
+        coordinatorEmail(detail.moduleStaff) || prior?.coordinatorEmail || "",
+      availabilityRestrictions:
+        detail.availabilityRestrictions ||
+        prior?.availabilityRestrictions ||
+        "",
+      assessmentPattern:
+        detail.assessmentPattern || prior?.assessmentPattern || "",
+      reassessment: detail.reassessment || prior?.reassessment || "",
+      weeklyContact: detail.weeklyContact || prior?.weeklyContact || "",
+      scheduledLearningHours:
+        detail.scheduledLearningHours || prior?.scheduledLearningHours || "",
+      guidedIndependentStudyHours:
+        detail.guidedIndependentStudyHours ||
+        prior?.guidedIndependentStudyHours ||
+        "",
     };
 
     // Aggregate top-level fields: latest offering wins
     if (detail.scqfLevel) node.scqfLevel = scqfLevelNumber(detail.scqfLevel);
     if (detail.description) node.description = detail.description;
-    if (detail.plannedTimetable) node.plannedTimetable = detail.plannedTimetable;
-    if (detail.assessmentPattern) node.assessmentPattern = detail.assessmentPattern;
+    if (detail.plannedTimetable)
+      node.plannedTimetable = detail.plannedTimetable;
+    if (detail.assessmentPattern)
+      node.assessmentPattern = detail.assessmentPattern;
     if (detail.reassessment) node.reassessment = detail.reassessment;
     if (detail.weeklyContact) node.weeklyContact = detail.weeklyContact;
-    if (detail.scheduledLearningHours) node.scheduledLearningHours = detail.scheduledLearningHours;
-    if (detail.guidedIndependentStudyHours) node.guidedIndependentStudyHours = detail.guidedIndependentStudyHours;
-    if (detail.availabilityRestrictions) node.availabilityRestrictions = detail.availabilityRestrictions;
+    if (detail.scheduledLearningHours)
+      node.scheduledLearningHours = detail.scheduledLearningHours;
+    if (detail.guidedIndependentStudyHours)
+      node.guidedIndependentStudyHours = detail.guidedIndependentStudyHours;
+    if (detail.availabilityRestrictions)
+      node.availabilityRestrictions = detail.availabilityRestrictions;
     if (detail.moduleStaff) {
       node.moduleStaff = detail.moduleStaff;
       const email = coordinatorEmail(detail.moduleStaff);
@@ -372,12 +521,14 @@ async function mapWithConcurrency(items, limit, iteratee) {
 }
 
 async function main() {
-  await fs.mkdir(new URL('../server/data/catalogs/', import.meta.url), { recursive: true });
+  await fs.mkdir(new URL("../server/data/catalogs/", import.meta.url), {
+    recursive: true,
+  });
 
   for (const school of SCHOOL_CATALOGS) {
     const rows = [];
     for (const year of YEARS) {
-      rows.push(...await fetchYearRows(school, year));
+      rows.push(...(await fetchYearRows(school, year)));
     }
 
     const catalog = buildCatalog(school, rows);
@@ -385,7 +536,10 @@ async function main() {
       await enrichNode(node);
       delete node.offerings;
     });
-    await fs.writeFile(new URL(`../server/data/catalogs/${school.id}.json`, import.meta.url), `${JSON.stringify(catalog, null, 2)}\n`);
+    await fs.writeFile(
+      new URL(`../server/data/catalogs/${school.id}.json`, import.meta.url),
+      `${JSON.stringify(catalog, null, 2)}\n`,
+    );
     console.log(`${school.name}: ${catalog.nodes.length} modules`);
   }
 }

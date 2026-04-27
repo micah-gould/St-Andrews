@@ -23,7 +23,7 @@ function sanitizeIdArray(list) {
   const out = [];
   const seen = new Set();
   for (const raw of list) {
-    if (typeof raw !== 'string') continue;
+    if (typeof raw !== "string") continue;
     const trimmed = raw.trim();
     if (!trimmed || !ID_RE.test(trimmed)) continue;
     if (seen.has(trimmed)) continue;
@@ -35,14 +35,19 @@ function sanitizeIdArray(list) {
 }
 
 function sanitizeYearSlice(slice) {
-  if (!slice || typeof slice !== 'object') return null;
+  if (!slice || typeof slice !== "object") return null;
   const out = {
     selected: sanitizeIdArray(slice.selected),
     passed: sanitizeIdArray(slice.passed),
     excluded: sanitizeIdArray(slice.excluded),
     hiddenLevels: sanitizeIdArray(slice.hiddenLevels),
   };
-  if (!out.selected.length && !out.passed.length && !out.excluded.length && !out.hiddenLevels.length) {
+  if (
+    !out.selected.length &&
+    !out.passed.length &&
+    !out.excluded.length &&
+    !out.hiddenLevels.length
+  ) {
     return null;
   }
   return out;
@@ -50,12 +55,13 @@ function sanitizeYearSlice(slice) {
 
 export function normalizeSavedState(state) {
   const result = { version: 2, catalogs: {} };
-  if (!state || typeof state !== 'object') return result;
+  if (!state || typeof state !== "object") return result;
 
   // v2 shape
-  if (state.catalogs && typeof state.catalogs === 'object') {
+  if (state.catalogs && typeof state.catalogs === "object") {
     for (const [catalogId, years] of Object.entries(state.catalogs)) {
-      if (!CATALOG_ID_RE.test(catalogId) || !years || typeof years !== 'object') continue;
+      if (!CATALOG_ID_RE.test(catalogId) || !years || typeof years !== "object")
+        continue;
       const yearMap = {};
       for (const [year, slice] of Object.entries(years)) {
         if (!YEAR_RE.test(year)) continue;
@@ -71,7 +77,10 @@ export function normalizeSavedState(state) {
 
   // v1 shape (single-catalog/year) — upgrade in place
   if (state.catalogId && CATALOG_ID_RE.test(state.catalogId)) {
-    const year = typeof state.year === 'string' && YEAR_RE.test(state.year) ? state.year : null;
+    const year =
+      typeof state.year === "string" && YEAR_RE.test(state.year)
+        ? state.year
+        : null;
     const slice = sanitizeYearSlice(state);
     if (slice && year) {
       result.catalogs[state.catalogId] = { [year]: slice };
@@ -84,7 +93,7 @@ export function normalizeSavedState(state) {
 // Empty slices (no selections at all) remove that year entry.
 export function mergeSlice(existing, { catalogId, year, slice }) {
   const base = normalizeSavedState(existing);
-  if (!CATALOG_ID_RE.test(catalogId || '') || !YEAR_RE.test(year || '')) {
+  if (!CATALOG_ID_RE.test(catalogId || "") || !YEAR_RE.test(year || "")) {
     return base;
   }
 

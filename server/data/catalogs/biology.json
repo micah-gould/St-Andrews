@@ -1,11 +1,7 @@
 {
   "id": "biology",
   "name": "Biology",
-  "years": [
-    "2025-26",
-    "2026-27",
-    "2027-28"
-  ],
+  "years": ["2025-26", "2026-27", "2027-28"],
   "nodes": [
     {
       "id": "BL1101",
@@ -13,13 +9,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module is an introduction to molecular and cellular biology. It covers cell diversity and the origins of life, cellular structures and fundamental processes. The central…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -83,13 +74,8 @@
       "level": 1000,
       "credits": 20,
       "summary": "This module provides an introduction to the diversity of life on Earth and will address key elements of organismal and ecological aspects of life. The module is divided into…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -153,13 +139,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "This module will help students develop essential academic and transferable skills, with major emphasis on problem solving. It will provide an introduction to the scientific…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -234,13 +215,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "The module will introduce the concept of 'a cell', moving on to discuss different types of prokaryotic and eukaryotic cell. The structure and function of a variety of sub-cellular …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -315,13 +291,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "Molecular biology is an essential tool within modern biology, widely used in biochemistry, cell biology and ecology. This module will provide an introduction to modern molecular…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -396,13 +367,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "Evolution is a fundamentally important component of our understanding of all biological phenomena, from molecular to ecosystem scales. This module will give an overview of the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -477,13 +443,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "The vast majority of animals are invertebrates - they do not have backbones. This module surveys the major invertebrate groups, emphasizing the diversity of body plans while…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -558,13 +519,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "Cells are often considered to be the fundamental unit of life. This module will discuss how cells interact with one another to form complex tissues and organisms. You will…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -639,13 +595,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "Due to recent technological developments, metabolism and its regulation has re-emerged as an important area of Biology. This module will examine major biological macromolecules,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -720,13 +671,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "This module introduces basic concepts in population and community ecology and how they relate to biodiversity. It provides an understanding of fundamental ecological concepts…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -801,13 +747,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "This module will explore the diversity of vertebrate animals, beginning with the closest relatives of vertebrates and the evolutionary origins of the group. A detailed look at the …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -882,13 +823,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "Techniques in molecular biology represent a powerful box of tools that are used to address a wide variety of modern research questions across a broad range of biological…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -963,13 +899,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "The oceans hold approximately 97% of the earths water and are a vital component of life on this planet. This module introduces basic concepts in biological and physical…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1036,13 +967,8 @@
       "level": 2000,
       "credits": 15,
       "summary": "An animal behaviour researcher studies how and why animals behave as they do. This module covers the four broad ways in which we explain behaviour in a range of animals, including …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1117,13 +1043,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module involves field-based exercises in a range of aquatic and/or terrestrial habitats. Students will examine and measure biodiversity, ecophysiological adaptation, and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1231,13 +1152,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module covers advanced aspects of protein science. The module introduces the major techniques for protein structure determination that are at the heart of biochemistry,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1322,13 +1238,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module builds on material covered in BL2302 Molecular Biology. It first considers the structure of genes and the composition of genomes and then examines genetic activity in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1412,13 +1323,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module looks at the various ways in which cells communicate with each other. Cell signalling not only involves the creation and reception of signals but also the mechanisms…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1510,13 +1416,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module examines how evolutionary processes cause the extraordinary patterns of biological variation we observe on planet Earth, and the approaches that modern research…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1591,13 +1492,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "The study of aquatic environments and organisms requires a wide variety of tools. This module introduces many of the tools used to study freshwater and marine environments and the …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1666,13 +1562,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module will examine how ecosystems function and how they provide services for humans: information which is essential for ecologists, conservationists and land managers. The…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1760,13 +1651,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module has lectures in three component areas: parasite infections, viral disease, and pathogenicity of common bacterial infections, and will include consideration of host…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1832,13 +1718,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module deals with the fascinating and rapidly changing field of developmental biology from a genetic and cellular perspective. It examines how an organism develops from an…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1904,13 +1785,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module considers coevolution: how organisms influence the evolution of other organisms around them. Some of the most exquisite and remarkable adaptations in the natural world …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -1989,13 +1865,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module will include lectures on the range of microbial and metazoan organisms and ecological systems in the marine environment. The coverage will range from bacteria, to…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2061,13 +1932,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "This module is designed to provide a broad and multifaceted perspective on animal behaviour, emphasising contemporary theoretical, mathematical and statistical approaches to the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2147,13 +2013,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "Few biologists are statisticians or mathematicians, but all biologists use statistics and mathematics. This series of workshops is designed to build confidence in organising and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2219,13 +2080,8 @@
       "level": 3000,
       "credits": 10,
       "summary": "This module aims to provide students with the basic skills for independent laboratory work and an opportunity to develop academic skills such as: the design of experiments;…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2316,13 +2172,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "Recent transformative changes in Biochemistry have enabled the exploration of biomolecular structures and their interactions, in vitro and in vivo. This module will provide an…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2407,13 +2258,8 @@
       "level": 3000,
       "credits": 20,
       "summary": "Students in 'Quantitative Ecology’ will undertake in-depth investigations of principles and techniques in ecology, including iteration of population models, numerical…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2488,13 +2334,8 @@
       "level": 4000,
       "credits": 30,
       "summary": "This project will involve an extensive literature review to investigate a defined hypothesis or problem within the field of biology, appropriate to the degree programme being…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2570,13 +2411,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This project will involve extensive research to investigate a defined problem within biology, appropriate to the degree programme being studied by each student. The project will…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2652,13 +2488,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In this module students will engage with current research within Biology by attending research lectures presented by scientists within and outside of the University of St Andrews. …",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -2704,13 +2535,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Practical skills are the core of research in biochemistry and molecular biology. This module is designed to prepare students for laboratory research projects in internationally…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2774,13 +2600,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will commence by establishing the fundamental basis of antimicrobial efficacy in terms of selective toxicity, with a brief history of antimicrobials and factors that…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2847,13 +2668,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "All cells depend on enzymes to catalyse the reactions that produce the energy required for life. Understanding enzymes and their regulation underpins research on, for example,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2920,13 +2736,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Viruses cause clinically and economically important human and animal diseases, examples include influenza viruses, HIV and foot and mouth disease virus, as well as emerging…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -2993,12 +2804,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In order to establish an infection in a host, pathogenic bacteria rely on mechanisms to adhere to host tissue, gain entry into cells, escape the host's immune response and spread…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3049,13 +2856,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The process of developing a new drug from conception to the clinic takes on average 15 years and costs over $800M. There are now many examples of drugs developed based on a…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3135,13 +2937,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Degenerative diseases, including ALS and SMA are life-limiting conditions, with few treatment options and no definitive cures. While the genetic causes are, in some cases, known,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3220,13 +3017,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will introduce students to the fascinating subject of forensic biology, examining the role that DNA, biological samples and other evidence can play in identifying the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3301,13 +3093,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module extends the students' knowledge of human metabolism and applies it to pathologies. The syllabus includes: a study of the integration of whole body metabolic processes, …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3371,13 +3158,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Highly-efficiently chromosomal DNA replication is essential for all forms of cellular life on Earth and requires the complex interplay of a large range of protein factors in a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3453,13 +3235,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will introduce you to advanced imaging techniques, such as Confocal, Super-resolution, TIRF and Electron Microscopy and how these techniques have been utilised to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3535,13 +3312,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will introduce the fundamental concepts of chromatin structure and function and how this affects genome stability. DNA repair and telomere maintenance are perhaps the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3611,12 +3383,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The scientific diving module focuses on the practical learning of key aspects of marine biology. Students will receive a unique hands-on-scientific learning approach during the…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -3664,13 +3432,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The goal of this module is to examine the ecological and biological principles underpinning the major tropical marine ecosystems. The module provides an understanding of the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3733,13 +3496,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Coastal habitats are highly productive ecosystems that play vital roles in coastal protection from waves and tides, and biogeochemical cycling. These habitats are vulnerable to…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3823,13 +3581,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will provide an introduction to the utilisation of fish stocks in a sustainable way. It will focus on how the status of these stocks can be assessed, the problems…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3896,13 +3649,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will provide primarily seminar and practical-based analysis of the life-history requirements of foraging in marine mammals, geographical and physiological constraints…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -3969,13 +3717,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Marine mammals interact with human activities in a variety of ways and are frequently the focus of more general concerns about the health and exploitation of marine ecosystems.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4042,13 +3785,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will provide primarily seminar-based instruction on the fundamentals of Biological Oceanography (BO). A few introductory lectures will focus on basic principles in BO…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4115,13 +3853,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module aims to give a broad overview of the different environmental drivers of marine ecosystems. Shorter term processes in the ocean and atmosphere as well climate define…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4185,13 +3918,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The existence and extent of social learning and cultural transmission in non-humans is a very active area of current research, as well as of controversy, with vigorous ongoing…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4258,12 +3986,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The conservation of animal and plant populations relies initially on information of population sizes and trends. This information can only be collected by fieldwork. This module…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4314,13 +4038,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will provide an analysis of the ways in which plants interact with their physical, chemical and biological environments. This is a wide-ranging course which will bring …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4384,13 +4103,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "This module will examine how science in general, and natural history in particular, is presented to the public in a variety of locations and the role of these collections in…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4454,13 +4168,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Despite the beauty and drama of its landscapes, Scotland is a nature-depleted nation. This ecological impoverishment, internalised in our science, policy and culture is, in part,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4524,13 +4233,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The last twenty years has seen an explosion of genomics data through advances in new sequencing technologies. Computational tools are playing a central role in genomics: from…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4597,12 +4301,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Evolution of new morphologies involves changes to the development of organisms. The field of evolutionary developmental biology is thus established as a major and essential…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -4650,13 +4350,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "It seems natural to use our understanding of extant biology to make inferences about the past. This allows us to test ideas about evolution and biodiversity in a wider context.…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4720,13 +4415,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The discovery of the CRISPR system, which provides adaptive antiviral immunity in prokaryotes, has made facile genome engineering a reality. This has resulted in an ongoing…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4793,13 +4483,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Learning to produce sounds is a particularly interesting subject as far as humans are concerned because it is such a notable feature of our own species. Why do we show it, and how …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4863,13 +4548,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Behaving animals form complex systems, and can create complicated and beautiful phenomena, such as flocks of birds, termite nests, and patterns of army ant swarms. This course…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -4933,13 +4613,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In this module, we will consider outstanding questions in modern Evolutionary Biology to develop a detailed understanding of research issues in this field. Both molecular and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5002,12 +4677,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Aquaculture is the fastest growing food production sector globally and plays an increasingly critical role in meeting the nutritional demands of an expanding world population.…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5055,13 +4726,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Students will prepare a major review paper, reviewing a current topic in evolutionary biology. Extensive one-to-one work with staff will afford students the opportunity to produce …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5128,12 +4794,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "In this module we will investigate the cognitive abilities of animals, with particular interest in understanding the adaptive value of those abilities. This means that although we …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5185,12 +4847,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "The aims of this module are to: (1) Enable biomolecular sciences students (Cell Biology, Molecular Biology, Biochemistry and Biology & Chemistry) to explore the role of…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5249,13 +4907,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Mass spectrometry is becoming an ubiquitous technique in most areas of science. Specifically in biological sciences, mass spectrometry is more accessible and used more than ever,…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5321,13 +4974,8 @@
       "level": 4000,
       "credits": 15,
       "summary": "Antibiotic research is a fast-paced field of undeniable global importance. This module will focus on new and emerging advances, technologies, and areas within this diverse field,…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5405,13 +5053,8 @@
       "level": 4000,
       "credits": 90,
       "summary": "The module constitutes an independent 7-12 month external research placement hosted by an independent institute/company. The project will be fully supervised at the host…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5474,13 +5117,8 @@
       "level": 4000,
       "credits": 60,
       "summary": "This project will involve extensive research to investigate a defined problem within the intersection of biology and the joint degree subject, appropriate to the degree programme…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5544,12 +5182,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is appropriate for students on the MBioChem degree and those MBiol students with molecular or cellular interest. This distance learning module will look in detail at…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5596,13 +5230,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This core module for MSc Animal Behaviour will focus upon the key skills for modern animal behaviour research. Lectures will be supported by student-led seminars, by practical…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5665,13 +5294,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This core module will focus upon the key communication skills vital in modern animal behaviour research. Students will be trained in communicating science to a variety of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5734,12 +5358,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module is aimed at students on the MSc course in Animal Behaviour, but will also be of interest to final year undergraduates. It aims to offer skills and training for…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -5785,13 +5405,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Predators and prey are major sources of selection upon each other and sometimes co-evolve in evolutionary arms races. This module will investigate the different behavioural…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5854,12 +5469,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "In the 21st century animal cognition forms a significant component of animal behaviour and St Andrews has multiple researchers at the forefront of the field. In this module we…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -5909,13 +5520,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Which human activities might put a population at risk? Can we find out why a wild population appears to be in decline? This module covers the essentials of population biology and…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -5978,13 +5584,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "From the heated debates surrounding whaling or bycatch to the continuing expansion of a host of human activities in the marine environment, issues pertaining to marine mammals…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6047,13 +5648,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is core to the MSc Marine Mammal Science and covers key concepts of marine mammal biology. The module introduces the zoogeography of marine mammals and the…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6116,13 +5712,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "Maths can be used to represent processes in nature, and to predict their outcomes. We will show how a statistical model can be fitted to biological data, allowing us to improve…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6185,13 +5776,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Marine mammals are often seen as highly intelligent and complex in their behaviour. This module will investigate such claims by discussing current views and recent advances in the …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6253,13 +5839,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will present an introduction to biologging science: the theory and practice of logging and relaying physical and biological data using animal-attached tags. Lectures…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6322,13 +5903,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module offers students the opportunity to gain practical experience in polar ecology with special emphasis on top predators (cetaceans, pinnipeds, sea birds) and management…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6392,13 +5968,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Bioacoustics is an important topic in marine mammal science, because of the use the animals themselves make of sound, because it is often the most practical way to detect their…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6461,13 +6032,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module will involve the development of an extensive and advanced research project to investigate a defined problem appropriate to the MBiochem, MBiol and MMarine Biol…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6534,13 +6100,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will introduce the concept of 'Ecosystem-based management', exploring its development from more simplistic, single-species approaches. The course will begin with a…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6603,13 +6164,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module provides students with an up to date understanding of topics related to marine biodiversity, including its importance in the functioning of marine ecosystems and…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -6673,12 +6229,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will allow you to develop advanced skills in data analysis and academic writing. You will have the opportunity to develop your 4th year placement research into a…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -6738,12 +6290,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module will introduce students to current research topics within the field of Biology through attendance at research lectures delivered by scientists from the University of…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6804,12 +6352,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will introduce you to the fundamental concepts of chromatin structure and function and how this affects genome stability. DNA repair and telomere maintenance are…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6858,12 +6402,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module is appropriate for students on the MMarBiol degree and those MBiol students with organismal or ecological interest. This distance learning module will look in detail…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6910,12 +6450,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This module will involve the development of advanced research project to investigate a defined problem within the fields of marine biology or general ecology, appropriate to the…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -6966,12 +6502,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "This project will involve extensive and advanced laboratory work to investigate a defined problem within biochemistry, appropriate to the MBiochem and MBiol degrees. The project…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2026-27"],
       "availability": {
         "2025-26": false,
         "2026-27": true,
@@ -7022,13 +6554,8 @@
       "level": 5000,
       "credits": 30,
       "summary": "This module (30 credits) accompanies the placement module BL4603 (90 credits). This module will enhance your understanding of your placement project & its impact, facilitate…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7091,13 +6618,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The research project forms an important part of the MSc degree. It involves the study of a defined problem within the field of the relevant MSc degree programme. Students will be…",
-      "semesters": [
-        "Full Year"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["Full Year"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7161,12 +6683,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will allow you to develop in-depth knowledge of research that is at the forefront of modern biomolecular sciences. You will consider how to develop a research funding…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -7228,12 +6746,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will allow you to develop in-depth knowledge of research that is at the forefront of modern biomolecular sciences. You will hear about and discuss current research…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26"],
       "availability": {
         "2025-26": true,
         "2026-27": false,
@@ -7292,14 +6806,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides the core introduction for the degree pathways in Sustainable Aquaculture. It will define sustainable aquaculture within the context of developing food…",
-      "semesters": [
-        "1",
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7363,13 +6871,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides advanced knowledge of modern aquaculture production and practices, such as ponds, tanks, raceways, RAS, cages and offshore. Environmental, social and economic …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7433,13 +6936,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "Students who complete this module will have a deeper understanding of the causes of diseases in aquaculture and strategies for controlling them. A broad spectrum of pathologies in …",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7503,13 +7001,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "In this module students will explore business management and economics within the context of aquaculture production. Understanding the processes of producing safe, high quality…",
-      "semesters": [
-        "1"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7573,13 +7066,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will involve an examination of the nutritional requirements of different aquatic species, the formulation and production of balanced feeds as well as feeding…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7643,13 +7131,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module provides advanced knowledge of the requirements of cultured species and the environmental impacts of aquaculture production. Students will become familiar with…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7713,13 +7196,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will discuss the principles of breeding and reproduction in different aquatic species. Students will learn about modern application of genetic techniques in…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7783,13 +7261,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This module will explore innovations in aquaculture production, Recirculating Aquaculture Systems (RAS) and other approaches such as aquaponics. The module will cover the use of…",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7853,14 +7326,8 @@
       "level": 5000,
       "credits": 60,
       "summary": "The research project will involve the study of a defined problem within the field of Sustainable Aquaculture. Students will be required to collate and analyse data and to discuss…",
-      "semesters": [
-        "1",
-        "Flexible study"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["1", "Flexible study"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,
@@ -7922,13 +7389,8 @@
       "level": 5000,
       "credits": 15,
       "summary": "This is an interdisciplinary module with a focus on conservation in the marine environment. Through a series of seminars and labs, students will learn about management of wildlife …",
-      "semesters": [
-        "2"
-      ],
-      "years": [
-        "2025-26",
-        "2026-27"
-      ],
+      "semesters": ["2"],
+      "years": ["2025-26", "2026-27"],
       "availability": {
         "2025-26": true,
         "2026-27": true,

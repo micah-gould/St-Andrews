@@ -1,6 +1,16 @@
-import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
-import { authApi, getProvidersFromMe } from '../auth/authClient';
-import type { AuthContextValue, AuthProviders, AuthUser } from '../types/auth.types';
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
+import { authApi, getProvidersFromMe } from "../auth/authClient";
+import type {
+  AuthContextValue,
+  AuthProviders,
+  AuthUser,
+} from "../types/auth.types";
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
@@ -8,7 +18,7 @@ function syncAuthGlobals(user: AuthUser | null) {
   window.__currentUser = user || null;
 
   if (user) {
-    document.documentElement.dataset.authed = 'true';
+    document.documentElement.dataset.authed = "true";
     return;
   }
 
@@ -17,7 +27,10 @@ function syncAuthGlobals(user: AuthUser | null) {
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<AuthUser | null>(null);
-  const [providers, setProviders] = useState<AuthProviders>({ google: false, microsoft: false });
+  const [providers, setProviders] = useState<AuthProviders>({
+    google: false,
+    microsoft: false,
+  });
   const [loading, setLoading] = useState(true);
 
   const refresh = async () => {
@@ -42,34 +55,41 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     refresh();
   }, []);
 
-  const value = useMemo(() => ({
-    user,
-    providers,
-    loading,
-    refresh,
-    login: async (credentials) => {
-      const response = await authApi.login(credentials);
-      const nextUser = response?.user || null;
-      setUser(nextUser);
-      syncAuthGlobals(nextUser);
-      return nextUser;
-    },
-    signup: async (payload) => {
-      const response = await authApi.signup(payload);
-      const nextUser = response?.user || null;
-      setUser(nextUser);
-      syncAuthGlobals(nextUser);
-      return nextUser;
-    },
-    logout: async () => {
-      try {
-        await authApi.logout();
-      } finally {
-        setUser(null);
-        syncAuthGlobals(null);
-      }
-    },
-  }), [loading, providers, user]);
+  const value = useMemo(
+    () => ({
+      user,
+      providers,
+      loading,
+      refresh,
+      login: async (credentials) => {
+        setLoading(true);
+        const response = await authApi.login(credentials);
+        const nextUser = response?.user || null;
+        setUser(nextUser);
+        syncAuthGlobals(nextUser);
+        setLoading(false);
+        return nextUser;
+      },
+      signup: async (payload) => {
+        setLoading(true);
+        const response = await authApi.signup(payload);
+        const nextUser = response?.user || null;
+        setUser(nextUser);
+        syncAuthGlobals(nextUser);
+        setLoading(false);
+        return nextUser;
+      },
+      logout: async () => {
+        try {
+          await authApi.logout();
+        } finally {
+          setUser(null);
+          syncAuthGlobals(null);
+        }
+      },
+    }),
+    [loading, providers, user],
+  );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
@@ -78,7 +98,7 @@ export function useAuth() {
   const context = useContext(AuthContext);
 
   if (!context) {
-    throw new Error('useAuth must be used within an AuthProvider');
+    throw new Error("useAuth must be used within an AuthProvider");
   }
 
   return context;
