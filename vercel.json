@@ -3,6 +3,10 @@
     {
       "source": "/api/(.*)",
       "destination": "https://st-andrews-m8aa.onrender.com/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }

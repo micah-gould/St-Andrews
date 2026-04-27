@@ -108,6 +108,12 @@ html, body {
   color: var(--text-dim);
 }
 
+.field-optional {
+  text-transform: none;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+}
+
 .field input[type="email"],
 .field input[type="password"],
 .field input[type="text"] {

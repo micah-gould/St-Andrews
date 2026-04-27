@@ -1,107 +1,86 @@
 # Authentication
 
-The `auth` branch adds a full user authentication system on top of the module
-graph app.
+This project includes email/password auth plus optional Google and Microsoft OAuth.
 
-## Features
+## What It Supports
 
-- **Email + password** sign up / sign in (bcrypt hashed, min 8 chars)
-- **Google OAuth** sign in / sign up
-- **Microsoft OAuth** sign in / sign up
-- **Remember me** — sessions last 24 h by default, 7 days when checked
-- **Forgot password** flow with secure single-use, 1-hour reset tokens
-- **Rate limiting** on login, signup, and reset endpoints
-- **HTTP-only JWT cookie** sessions (no client-side token storage)
-- **OAuth account linking** by verified email
-- **Account guard** — `/` redirects to `/login.html` until signed in
+- Sign up
+- Login
+- Logout
+- Remember me sessions
+- Forgot/reset password
+- Google OAuth
+- Microsoft OAuth
+- Shared-plan access control
 
-## Stack
+## Main Auth Files
 
-| Concern        | Choice                                  | Why |
-|----------------|------------------------------------------|-----|
-| Database       | Prisma ORM + Postgres | Free tier options (Neon/Supabase) and works in serverless/container deploys |
-| Sessions       | JWT in httpOnly cookie                   | Stateless, no extra infra |
-| OAuth          | Passport.js (`google-oauth20`, `microsoft`) | Mature, well-maintained |
-| Email          | Resend (free 3k/mo) with console fallback | Best free transactional email DX |
+```text
+server/auth/
+  prisma.ts        # Prisma client usage for auth
+  tokens.ts        # JWT cookies, password hashing, reset tokens
+  passport.ts      # Passport strategies
+  email.ts         # Reset/access email helpers
+  routes.ts        # /api/auth/* routes
 
-## Quick start
+src/
+  providers/AuthProvider.tsx
+  auth/authClient.ts
+  Pages/Login.Page.tsx
+  Pages/Signup.Page.tsx
+  Pages/ForgotPassword.Page.tsx
+  Pages/ResetPassword.Page.tsx
+  components/ProtectedRoute.tsx
+  components/PublicOnlyRoute.tsx
+```
+
+## Local Setup
 
 ```bash
 cp .env.example .env
-# edit .env — at minimum set JWT_SECRET to something random
-npm install                # runs prisma generate via postinstall
-npm run db:push            # sync schema to DATABASE_URL
-npm run dev                # starts vite (5174) and the API (5175)
+npm install
+npm run db:push
+npm run dev
 ```
 
-Open http://localhost:5174 — you'll be redirected to `/login.html`.
-Click **Create one** to register. You're in.
+At minimum, set a strong `JWT_SECRET` in `.env`.
 
-## OAuth setup
+## OAuth Setup
 
-The OAuth buttons are hidden until you supply real credentials in `.env`.
+OAuth buttons stay hidden until credentials are configured.
 
 ### Google
 
-1. Go to https://console.cloud.google.com/apis/credentials
-2. Create OAuth client ID → Web application
-3. Authorized redirect URI (local): `http://localhost:5175/api/auth/google/callback`
-4. Authorized redirect URI (production): `https://<your-vercel-domain>/api/auth/google/callback`
-5. Paste the client ID / secret into `.env`
+1. Create OAuth credentials in Google Cloud
+2. Add redirect URI:
+   `http://localhost:5175/api/auth/google/callback`
+3. Add production redirect URI:
+   `https://<your-domain>/api/auth/google/callback`
+4. Set the Google client id/secret in `.env`
 
 ### Microsoft
 
-1. https://portal.azure.com → Microsoft Entra ID → App registrations → New registration
-2. Redirect URI (Web, local): `http://localhost:5175/api/auth/microsoft/callback`
-3. Redirect URI (Web, production): `https://<your-vercel-domain>/api/auth/microsoft/callback`
-4. Certificates & secrets → New client secret
-5. Paste the application (client) ID and secret value into `.env`
-6. Leave `MICROSOFT_TENANT=common` to allow personal + work accounts
+1. Create an app registration in Microsoft Entra ID
+2. Add redirect URI:
+   `http://localhost:5175/api/auth/microsoft/callback`
+3. Add production redirect URI:
+   `https://<your-domain>/api/auth/microsoft/callback`
+4. Set the Microsoft client id/secret in `.env`
 
-## Password reset email
+## Password Reset
 
-Without `RESEND_API_KEY`, reset links are printed to the server console. To
-send real emails, sign up at https://resend.com (free 3k/mo, no card), create
-an API key, and put it in `.env`.
+- Without `RESEND_API_KEY`, reset links are logged to the server console
+- With `RESEND_API_KEY`, emails are sent normally
 
-For your own domain, verify it in the Resend dashboard and update
-`EMAIL_FROM`. The default `onboarding@resend.dev` works only for sending to
-the address that owns the Resend account.
+## Auth Flow Notes
 
-## Production database
+- Sessions use HTTP-only JWT cookies
+- The React app uses `AuthProvider` for auth state
+- Protected app routes are wrapped in `ProtectedRoute`
+- Auth-only pages are wrapped in `PublicOnlyRoute`
 
-Use a managed Postgres (Neon/Supabase/etc.) in `DATABASE_URL`.
+## If You Need To Change Auth
 
-For first-time bootstrap on a fresh database:
-
-```bash
-npx prisma db push
-npx prisma generate
-```
-
-After you establish a migration history for Postgres, you can use:
-
-```bash
-npm run db:deploy
-```
-
-## File map
-
-```
-prisma/
-  schema.prisma            # User, OAuthAccount, PasswordResetToken
-server/
-  auth/
-    prisma.js              # Prisma client singleton
-    tokens.js              # JWT, bcrypt, cookies, reset tokens
-    passport.js            # Local + Google + Microsoft strategies
-    email.js               # Resend wrapper with dev fallback
-    routes.js              # /api/auth/* router (signup/login/logout/forgot/reset/oauth)
-src/
-  authGuard.js             # gates index.html, adds sign-out button
-  auth/
-    auth.css               # shared styling for login / signup / forgot / reset
-    authClient.js          # fetch wrapper + OAuth button helper
-    login.js  signup.js  forgot.js  reset.js
-login.html  signup.html  forgot-password.html  reset-password.html
-```
+1. Start in `server/auth/routes.ts`
+2. Then check `server/auth/tokens.ts` and `server/auth/passport.ts`
+3. Then update `src/providers/AuthProvider.tsx` or `src/auth/authClient.ts` if the response shape changed
