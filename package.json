@@ -22,7 +22,8 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@prisma/client": "^6.19.3",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
     "bcrypt": "^6.0.0",
     "better-sqlite3": "^11.8.1",
     "cookie-parser": "^1.4.7",
@@ -36,7 +37,6 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
     "passport-microsoft": "^2.1.0",
-    "prisma": "^6.19.3",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "lucide-react": "^0.511.0",
@@ -55,14 +55,21 @@
     "@types/passport-google-oauth20": "^2.0.17",
     "@types/passport-local": "^1.0.38",
     "@types/passport-microsoft": "^2.1.1",
+    "@types/pg": "^8.16.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-react": "^6.0.1",
     "concurrently": "^9.1.2",
     "prettier": "^3.6.2",
     "playwright": "^1.59.1",
+    "pg": "^8.16.3",
+    "prisma": "^7.8.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3",
-    "vite": "^5.4.19"
+    "vite": "^8.0.10"
+  },
+  "overrides": {
+    "@hono/node-server": "1.19.13",
+    "svix": "1.92.2"
   }
 }
