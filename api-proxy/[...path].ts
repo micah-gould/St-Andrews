@@ -19,8 +19,10 @@ function normalizeBaseUrl(value: string | undefined) {
   return trimmed.replace(/\/+$/, "");
 }
 
-function joinPath(pathParts: string[] | undefined) {
-  if (!pathParts || pathParts.length === 0) return "";
+function joinPath(pathParam: string | string[] | undefined) {
+  if (!pathParam) return "";
+  const pathParts = Array.isArray(pathParam) ? pathParam : [pathParam];
+  if (pathParts.length === 0) return "";
   return pathParts
     .map((part) => encodeURIComponent(part))
     .join("/")
@@ -50,7 +52,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return;
   }
 
-  const pathPart = joinPath(req.query.path as string[] | undefined);
+  const pathPart = joinPath(req.query.path as string | string[] | undefined);
   const query = buildQueryString(req.query);
   const targetUrl = `${apiBase}/api/${pathPart}${query}`;
 

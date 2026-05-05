@@ -76,7 +76,8 @@ export function useModuleGraphApp(userId: string | null) {
   };
 
   const refreshSettings = async (selectedId = "") => {
-    appState.settingsCache = await savedStatesApi.list();
+    const listedStates = await savedStatesApi.list();
+    appState.settingsCache = Array.isArray(listedStates) ? listedStates : [];
     appState.selectedPlanId = selectedId;
     publish();
   };
