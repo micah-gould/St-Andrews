@@ -409,10 +409,7 @@ body:not(.theme-light) .logo {
 }
 
 .search-dropdown {
-  position: absolute;
-  top: calc(100% + 8px);
-  left: 0;
-  width: min(460px, 88vw);
+  position: fixed;
   max-height: min(56vh, 286px);
   overflow-y: auto;
   display: grid;
@@ -422,7 +419,7 @@ body:not(.theme-light) .logo {
   border: 1px solid var(--border);
   background: var(--bg-card);
   box-shadow: var(--shadow-1);
-  z-index: 90;
+  z-index: 95;
 }
 
 .search-result {

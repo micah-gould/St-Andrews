@@ -51,8 +51,14 @@ export function AppToolbar({
 }: AppToolbarProps) {
   const [searchMenuOpen, setSearchMenuOpen] = useState(false);
   const [activeResultIndex, setActiveResultIndex] = useState(-1);
+  const [searchMenuPosition, setSearchMenuPosition] = useState({
+    top: 0,
+    left: 0,
+    width: 280,
+  });
   const searchWrapRef = useRef<HTMLDivElement | null>(null);
   const searchInputRef = useRef<HTMLInputElement | null>(null);
+  const searchMenuRef = useRef<HTMLDivElement | null>(null);
   const trimmedSearchQuery = searchQuery.trim();
   const hasSearchQuery = trimmedSearchQuery.length > 0;
   const shownResults = useMemo(
@@ -79,6 +85,7 @@ export function AppToolbar({
       const target = event.target as Node | null;
       if (!target) return;
       if (searchWrapRef.current?.contains(target)) return;
+      if (searchMenuRef.current?.contains(target)) return;
       setSearchMenuOpen(false);
       setActiveResultIndex(-1);
       onSearchHover(null);
@@ -89,6 +96,38 @@ export function AppToolbar({
       document.removeEventListener("pointerdown", handlePointerDown, true);
     };
   }, [searchMenuOpen, onSearchHover]);
+
+  useEffect(() => {
+    if (!searchMenuOpen || !hasSearchQuery) {
+      return;
+    }
+
+    const updateSearchMenuPosition = () => {
+      const rect = searchInputRef.current?.getBoundingClientRect();
+      if (!rect) return;
+
+      const width = Math.max(rect.width, Math.min(460, window.innerWidth - 32));
+      const left = Math.max(
+        16,
+        Math.min(rect.left, window.innerWidth - width - 16),
+      );
+
+      setSearchMenuPosition({
+        top: rect.bottom + 8,
+        left,
+        width,
+      });
+    };
+
+    updateSearchMenuPosition();
+    window.addEventListener("resize", updateSearchMenuPosition);
+    window.addEventListener("scroll", updateSearchMenuPosition, true);
+
+    return () => {
+      window.removeEventListener("resize", updateSearchMenuPosition);
+      window.removeEventListener("scroll", updateSearchMenuPosition, true);
+    };
+  }, [searchMenuOpen, hasSearchQuery]);
 
   useEffect(() => {
     if (!shownResults.length) {
@@ -219,9 +258,15 @@ export function AppToolbar({
             ) : null}
             {searchMenuVisible ? (
               <div
+                ref={searchMenuRef}
                 className="search-dropdown"
                 role="listbox"
                 aria-label="Search results"
+                style={{
+                  top: `${searchMenuPosition.top}px`,
+                  left: `${searchMenuPosition.left}px`,
+                  width: `${searchMenuPosition.width}px`,
+                }}
               >
                 {shownResults.length ? (
                   <>
