@@ -19,20 +19,9 @@ function normalizeBaseUrl(value: string | undefined) {
   return trimmed.replace(/\/+$/, "");
 }
 
-function joinPath(pathParam: string | string[] | undefined) {
-  if (!pathParam) return "";
-  const pathParts = Array.isArray(pathParam) ? pathParam : [pathParam];
-  if (pathParts.length === 0) return "";
-  return pathParts
-    .map((part) => encodeURIComponent(part))
-    .join("/")
-    .replace(/%2F/g, "/");
-}
-
 function buildQueryString(query: VercelRequest["query"]) {
   const params = new URLSearchParams();
   for (const [key, value] of Object.entries(query)) {
-    if (key === "path") continue;
     if (Array.isArray(value)) {
       value.forEach((item) => params.append(key, item));
     } else if (typeof value === "string") {
@@ -52,9 +41,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return;
   }
 
-  const pathPart = joinPath(req.query.path as string | string[] | undefined);
   const query = buildQueryString(req.query);
-  const targetUrl = `${apiBase}/api/${pathPart}${query}`;
+  const targetUrl = `${apiBase}/api/modules/search${query}`;
 
   const headers = new Headers();
   for (const [key, value] of Object.entries(req.headers)) {
@@ -66,28 +54,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
   }
 
-  const method = req.method || "GET";
-  const canHaveBody = !["GET", "HEAD"].includes(method.toUpperCase());
-  const init: RequestInit = {
-    method,
+  const upstream = await fetch(targetUrl, {
+    method: req.method || "GET",
     headers,
     redirect: "manual",
-  };
-
-  if (canHaveBody && req.body !== undefined) {
-    if (Buffer.isBuffer(req.body)) {
-      init.body = req.body;
-    } else if (typeof req.body === "string") {
-      init.body = req.body;
-    } else {
-      const contentType = String(req.headers["content-type"] || "");
-      if (contentType.includes("application/json")) {
-        init.body = JSON.stringify(req.body);
-      }
-    }
-  }
-
-  const upstream = await fetch(targetUrl, init);
+  });
 
   upstream.headers.forEach((value, key) => {
     if (HOP_BY_HOP_HEADERS.has(key.toLowerCase())) return;
