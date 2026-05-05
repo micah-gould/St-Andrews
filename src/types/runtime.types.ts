@@ -125,6 +125,7 @@ export type RendererOptions = {
   selected: Set<string>;
   passed: Set<string>;
   getHoverId: () => string | null;
+  getPinnedNodeIds?: () => Set<string>;
   getSearchQuery: () => string;
   getPreviewState: () => PreviewState;
   getHiddenLevels: () => Set<string>;

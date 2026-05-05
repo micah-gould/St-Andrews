@@ -21,37 +21,69 @@ async function getNodeCenter(page) {
   });
 }
 
-async function loginAndOpenGraph(page) {
-  await page.goto(`${BASE_URL}/login`, { waitUntil: "domcontentloaded" });
-  await page.fill("#email", EMAIL);
-  await page.fill("#password", PASSWORD);
-  await page.click('button:has-text("Sign in")');
+async function ensureGraphOpen(page) {
   await page.waitForSelector("#subject-buttons .subject-button, #graph-svg", {
     timeout: 20000,
   });
-  const path = await page.evaluate(() => window.location.pathname);
-  if (path.includes("/login")) {
-    throw new Error("Login did not transition away from /login.");
-  }
   await page.waitForSelector("#subject-buttons .subject-button", {
     timeout: 20000,
   });
-  await page.click("#subject-buttons .subject-button");
+  await page.click("#subject-buttons .subject-button").catch(() => {});
   await page.waitForSelector("#graph-svg g.nodes > g", { timeout: 20000 });
+}
+
+async function loginOnce(context) {
+  const page = await context.newPage();
+  try {
+    await page.goto(`${BASE_URL}/login`, { waitUntil: "domcontentloaded" });
+    const path = await page.evaluate(() => window.location.pathname);
+    if (path.includes("/login")) {
+      await page.fill("#email", EMAIL);
+      await page.fill("#password", PASSWORD);
+      await page.click('button:has-text("Sign in")');
+      await page.waitForFunction(
+        () => {
+          if (window.location.pathname !== "/login") return true;
+          return Boolean(document.querySelector(".message.error"));
+        },
+        { timeout: 20000 },
+      );
+
+      const afterPath = await page.evaluate(() => window.location.pathname);
+      if (afterPath.includes("/login")) {
+        const message = await page
+          .locator(".message.error")
+          .first()
+          .textContent()
+          .catch(() => null);
+        throw new Error(
+          `Login did not transition away from /login${message ? `: ${message.trim()}` : "."}`,
+        );
+      }
+    }
+
+    await ensureGraphOpen(page);
+  } finally {
+    await page.close();
+  }
 }
 
 async function run() {
   const browser = await chromium.launch({ headless: true });
 
   try {
+    const context = await browser.newContext({
+      viewport: { width: 1440, height: 900 },
+    });
+    await loginOnce(context);
+
     const jumpTolerance = 3;
     const firstMoveTolerance = 6;
 
     for (let i = 0; i < RUNS; i += 1) {
-      const page = await browser.newPage({
-        viewport: { width: 1440, height: 900 },
-      });
-      await loginAndOpenGraph(page);
+      const page = await context.newPage();
+      await page.goto(`${BASE_URL}/`, { waitUntil: "domcontentloaded" });
+      await ensureGraphOpen(page);
 
       const before = await getNodeCenter(page);
       if (!before) {
@@ -117,6 +149,8 @@ async function run() {
         );
       }
     }
+
+    await context.close();
 
     console.log(`PASS: No drag-start jump detected across ${RUNS} runs.`);
   } finally {

@@ -15,6 +15,7 @@ export function createRenderer({
   selected,
   passed,
   getHoverId,
+  getPinnedNodeIds,
   getSearchQuery,
   getPreviewState,
   getHiddenLevels,
@@ -24,11 +25,15 @@ export function createRenderer({
   function nodeState(node: GraphNode, ctx: RendererContext) {
     const id = node.id;
     const hoverId = getHoverId();
+    const pinnedNodeIds = getPinnedNodeIds
+      ? getPinnedNodeIds()
+      : new Set<string>();
     const hoveredExcluded = Boolean(hoverId && ctx.effExcl.has(hoverId));
     if (ctx.manualExcluded.has(id)) return "excl-manual";
     if (ctx.effExcl.has(id)) return "excl-implied";
     if (ctx.effectivePassed.has(id)) return "passed";
     if (ctx.effectiveSel.has(id)) return "selected";
+    if (pinnedNodeIds.has(id)) return "hover";
     if (hoverId === id) return "hover";
     if (hoverId && !hoveredExcluded && ctx.hAnc.has(id)) return "hpre";
     if (hoverId && !hoveredExcluded && ctx.hCoreq.has(id)) return "hcoreq";
@@ -83,6 +88,9 @@ export function createRenderer({
 
   function render() {
     const hoverId = getHoverId();
+    const pinnedNodeIds = getPinnedNodeIds
+      ? getPinnedNodeIds()
+      : new Set<string>();
     const activeSearchQuery = getSearchQuery().trim().toLowerCase();
     const previewState = getPreviewState ? getPreviewState() : null;
     const activeManualExcluded = previewState?.manualExcluded || manualExcluded;
@@ -117,6 +125,7 @@ export function createRenderer({
     const levelKey = (node) => (isExternal(node) ? "ext" : String(node.level));
     const levelColor = (node: GraphNode) =>
       COLORS.lvl[levelKey(node)] || "#888";
+    const focusColor = "#FDE047";
     const hAnc =
       hoverId && !hoveredExcluded
         ? graphState.getPrerequisitePathNodes(hoverId)
@@ -196,28 +205,11 @@ export function createRenderer({
       nodeGroups.attr("display", (node) =>
         isVisibleNode(node) ? null : "none",
       );
-      nodeGroups.each(function (node) {
-        const state = nodeState(node, ctx);
-        const destination =
-          state === "excl-manual" || state === "excl-implied"
-            ? excludedLayer
-            : nodeLayer;
-        if (destination && this.parentNode !== destination)
-          destination.appendChild(this);
-      });
     }
 
     circles
       .attr("fill", (node) => {
         const state = nodeState(node, ctx);
-        if (state === "excl-manual") return COLORS.excl;
-        if (state === "excl-implied") return COLORS.excl;
-        if (state === "passed") return COLORS.passed;
-        if (state === "selected") return COLORS.sel;
-        if (state === "hover") return levelColor(node);
-        if (state === "hpre" || state === "spre") return levelColor(node);
-        if (state === "hcoreq" || state === "scoreq") return levelColor(node);
-        if (state === "hfwd" || state === "sfwd") return levelColor(node);
         return levelColor(node);
       })
       .attr("fill-opacity", (node) => {
@@ -227,18 +219,19 @@ export function createRenderer({
           node.name.toLowerCase().includes(activeSearchQuery);
         const state = nodeState(node, ctx);
         if (!matchesSearch && state === "normal") return 0.08;
-        if (state === "selected") return 0.92;
-        if (state === "passed") return 0.86;
-        if (state === "hover") return 0.25;
+        if (state === "selected") return 0.34;
+        if (state === "passed") return 0.3;
+        if (state === "hover") return 0.28;
         if (
           state === "hpre" ||
           state === "spre" ||
           state === "hfwd" ||
           state === "sfwd"
         )
-          return 0.36;
-        if (state === "hcoreq" || state === "scoreq") return 0.34;
-        if (state === "excl-implied") return 0.22;
+          return 0.28;
+        if (state === "hcoreq" || state === "scoreq") return 0.28;
+        if (state === "excl-manual") return 0.26;
+        if (state === "excl-implied") return 0.16;
         return 0.18;
       })
       .attr("stroke", (node) => {
@@ -247,7 +240,7 @@ export function createRenderer({
         if (state === "excl-implied") return COLORS.excl;
         if (state === "passed") return COLORS.passed;
         if (state === "selected") return COLORS.sel;
-        if (state === "hover") return levelColor(node);
+        if (state === "hover") return focusColor;
         if (state === "hpre") return COLORS.hoverPreRequired;
         if (state === "spre") return COLORS.selPreRequired;
         if (state === "hcoreq") return COLORS.hoverCoreqRequired;
@@ -259,12 +252,12 @@ export function createRenderer({
       })
       .attr("stroke-width", (node) => {
         const state = nodeState(node, ctx);
+        if (state === "hover") return 3.2;
         if (
           [
             "excl-manual",
             "selected",
             "passed",
-            "hover",
             "hpre",
             "spre",
             "hcoreq",
@@ -290,11 +283,21 @@ export function createRenderer({
       );
     circles.style("filter", (node) => {
       const state = nodeState(node, ctx);
-      if (state === "selected") {
-        return `drop-shadow(0 0 14px ${COLORS.sel}) drop-shadow(0 0 6px ${COLORS.sel})`;
+      const isFocused = hoverId === node.id || pinnedNodeIds.has(node.id);
+      if (state === "hover") {
+        return `drop-shadow(0 0 8px ${focusColor}) drop-shadow(0 0 2px rgba(255, 255, 255, 0.8))`;
       }
-      if (state === "passed") {
-        return `drop-shadow(0 0 10px ${COLORS.passed})`;
+      if (state === "selected" && isFocused) {
+        return `drop-shadow(0 0 8px ${COLORS.sel}) drop-shadow(0 0 2px rgba(255, 255, 255, 0.65))`;
+      }
+      if (state === "excl-manual" && isFocused) {
+        return `drop-shadow(0 0 8px ${COLORS.excl}) drop-shadow(0 0 2px rgba(255, 255, 255, 0.55))`;
+      }
+      if (state === "excl-implied" && isFocused) {
+        return `drop-shadow(0 0 4px ${COLORS.excl})`;
+      }
+      if (state === "passed" && isFocused) {
+        return `drop-shadow(0 0 3px ${COLORS.passed})`;
       }
       if (
         state === "hpre" ||
@@ -304,7 +307,7 @@ export function createRenderer({
         state === "hfwd" ||
         state === "sfwd"
       ) {
-        return `drop-shadow(0 0 8px ${levelColor(node)})`;
+        return `drop-shadow(0 0 2px ${levelColor(node)})`;
       }
       return null;
     });
@@ -322,7 +325,7 @@ export function createRenderer({
         if (state === "excl-implied") return COLORS.excl;
         if (state === "passed") return COLORS.passed;
         if (state === "selected") return COLORS.sel;
-        if (state === "hover") return levelColor(node);
+        if (state === "hover") return focusColor;
         if (state === "hpre") return COLORS.hoverPreRequired;
         if (state === "spre") return COLORS.selPreRequired;
         if (state === "hcoreq") return COLORS.hoverCoreqRequired;
@@ -353,7 +356,7 @@ export function createRenderer({
           "hfwd",
           "sfwd",
         ].includes(state)
-          ? state === "selected" || state === "passed"
+          ? state === "selected" || state === "passed" || state === "hover"
             ? "700"
             : "500"
           : "400";

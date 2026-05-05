@@ -59,7 +59,7 @@ async function waitForHealthyBackend(timeoutMs = 20000) {
 function spawnNpmScript(script) {
   return spawn(npmCommand, ["run", script], {
     stdio: "inherit",
-    env: process.env,
+    env: { ...process.env, E2E: "1" },
   });
 }
 

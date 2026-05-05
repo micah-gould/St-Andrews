@@ -23,6 +23,7 @@ import type {
 const router = express.Router();
 
 const APP_URL = process.env.APP_URL || "http://localhost:5174";
+const IS_E2E = process.env.E2E === "1";
 
 // Basic email validation
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -32,23 +33,27 @@ function badRequest(res: Response, message: string) {
 }
 
 // Rate limiters - per IP
-const authLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  max: 30,
-  standardHeaders: true,
-  legacyHeaders: false,
-  message: { error: "Too many attempts. Please try again later." },
-});
+const authLimiter = IS_E2E
+  ? (_req, _res, next) => next()
+  : rateLimit({
+      windowMs: 15 * 60 * 1000,
+      max: 30,
+      standardHeaders: true,
+      legacyHeaders: false,
+      message: { error: "Too many attempts. Please try again later." },
+    });
 
-const resetLimiter = rateLimit({
-  windowMs: 60 * 60 * 1000,
-  max: 5,
-  standardHeaders: true,
-  legacyHeaders: false,
-  message: {
-    error: "Too many password reset requests. Please try again later.",
-  },
-});
+const resetLimiter = IS_E2E
+  ? (_req, _res, next) => next()
+  : rateLimit({
+      windowMs: 60 * 60 * 1000,
+      max: 5,
+      standardHeaders: true,
+      legacyHeaders: false,
+      message: {
+        error: "Too many password reset requests. Please try again later.",
+      },
+    });
 
 // ---- Middleware: attach req.user from JWT cookie ----
 export async function attachUser(

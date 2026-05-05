@@ -472,6 +472,7 @@ export function buildGraphRuntime({
     passed: uiState.passed,
     getHoverId: () =>
       searchHoverNodeId || uiState.getActiveNodeId() || uiState.getHoverId(),
+    getPinnedNodeIds: () => pinnedNodeIds,
     getSearchQuery: () => searchQuery,
     getPreviewState: () => previewState,
     getHiddenLevels: () => appState.hiddenLevels,
@@ -688,10 +689,11 @@ export function buildGraphRuntime({
       renderer.render();
     })
     .on("mouseout", () => {
-      if (pinnedNodeIds.size > 0) return;
-      if (uiState.getActiveNodeId()) return;
+      if (uiState.getHoverId() === null) return;
       uiState.setHoverId(null);
       renderer.render();
+      if (pinnedNodeIds.size > 0) return;
+      if (uiState.getActiveNodeId()) return;
       closePanel();
     })
     .on("click", (event, node) => {
