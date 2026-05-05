@@ -1,5 +1,3 @@
-import type { VercelRequest, VercelResponse } from "@vercel/node";
-
 const HOP_BY_HOP_HEADERS = new Set([
   "connection",
   "keep-alive",
@@ -29,7 +27,9 @@ function joinPath(pathParam: string | string[] | undefined) {
     .replace(/%2F/g, "/");
 }
 
-function buildQueryString(query: VercelRequest["query"]) {
+function buildQueryString(
+  query: Record<string, string | string[] | undefined>,
+) {
   const params = new URLSearchParams();
   for (const [key, value] of Object.entries(query)) {
     if (key === "path") continue;
@@ -43,7 +43,7 @@ function buildQueryString(query: VercelRequest["query"]) {
   return out ? `?${out}` : "";
 }
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(req: any, res: any) {
   const apiBase = normalizeBaseUrl(process.env.API_ORIGIN);
   if (!apiBase) {
     res.status(500).json({
@@ -62,7 +62,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     if (Array.isArray(value)) {
       value.forEach((item) => headers.append(key, item));
     } else {
-      headers.set(key, value);
+      headers.set(key, String(value));
     }
   }
 
