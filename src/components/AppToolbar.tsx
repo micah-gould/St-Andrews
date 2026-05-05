@@ -1,5 +1,5 @@
 import React from "react";
-import { Eraser, Palette, SlidersHorizontal } from "lucide-react";
+import { Palette, SlidersHorizontal } from "lucide-react";
 import { GraphLegend } from "./GraphLegend";
 import { SearchIcon } from "./SearchIcon";
 import { UserControls } from "./UserControls";
@@ -17,7 +17,6 @@ type AppToolbarProps = {
   user: AuthUser | null;
   signingOut: boolean;
   onShowSubjectSelection: () => void;
-  onClearAll: () => void;
   onToggleTheme: () => void;
   onToggleLevelsMenu: () => void;
   onSetSearchQuery: (value: string) => void;
@@ -36,7 +35,6 @@ export function AppToolbar({
   user,
   signingOut,
   onShowSubjectSelection,
-  onClearAll,
   onToggleTheme,
   onToggleLevelsMenu,
   onSetSearchQuery,
@@ -65,15 +63,6 @@ export function AppToolbar({
         </div>
 
         <div className="toolbar-right">
-          <button
-            className="clear-btn"
-            id="clear-all"
-            type="button"
-            onClick={onClearAll}
-          >
-            <Eraser size={14} aria-hidden="true" />
-            Clear all
-          </button>
           <button
             className="clear-btn"
             id="theme-toggle"

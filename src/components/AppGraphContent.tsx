@@ -9,6 +9,7 @@ type AppGraphContentProps = {
   hiddenLevels: Set<string>;
   appState: AppState;
   clearSharedSettingId: () => void;
+  onClearAll: () => void;
   onStatusMarkupChange: (markup: string) => void;
   onRuntimeReady: (runtime: GraphRuntime) => void;
 };
@@ -19,6 +20,7 @@ function AppGraphContentInner({
   hiddenLevels,
   appState,
   clearSharedSettingId,
+  onClearAll,
   onStatusMarkupChange,
   onRuntimeReady,
 }: AppGraphContentProps) {
@@ -55,6 +57,7 @@ function AppGraphContentInner({
       hiddenLevels={hiddenLevels}
       appState={appState}
       clearSharedSettingId={clearSharedSettingId}
+      onClearAll={onClearAll}
       onStatusMarkupChange={onStatusMarkupChange}
       onRuntimeReady={onRuntimeReady}
     />
@@ -67,5 +70,6 @@ export const AppGraphContent = memo(
     prev.showGraph === next.showGraph &&
     prev.loadedGraph === next.loadedGraph &&
     prev.hiddenLevels === next.hiddenLevels &&
-    prev.appState === next.appState,
+    prev.appState === next.appState &&
+    prev.onClearAll === next.onClearAll,
 );

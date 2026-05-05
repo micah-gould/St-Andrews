@@ -586,12 +586,6 @@ body:not(.theme-light) .level-filter-menu-action {
   pointer-events: none;
 }
 
-.subject-selection-header {
-  position: absolute;
-  top: 22px;
-  right: 22px;
-}
-
 .subject-selection-content {
   width: min(980px, 100%);
   margin-inline: auto;
@@ -1067,6 +1061,26 @@ body.theme-light #saved-settings-list option {
       color-mix(in srgb, var(--bg), #ffffff 7%),
       var(--bg)
     );
+}
+
+.graph-controls {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  z-index: 70;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 14px;
+  border: 1px solid color-mix(in srgb, var(--border), transparent 15%);
+  background: color-mix(in srgb, var(--bg-card), transparent 12%);
+  box-shadow: var(--shadow-1);
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+}
+
+#graph-clear-all {
+  pointer-events: auto;
 }
 
 #graph-svg {
@@ -1953,6 +1967,12 @@ body.is-readonly #graph-area .loading-hidden {
 }
 
 @media (max-width: 600px) {
+  .graph-controls {
+    top: auto;
+    bottom: 12px;
+    left: 12px;
+  }
+
   .subject-selection-content,
   .auth-card,
   .request-access__card {

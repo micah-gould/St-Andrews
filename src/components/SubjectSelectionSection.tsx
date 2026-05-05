@@ -1,37 +1,19 @@
 import React from "react";
-import { ArrowRight, Palette } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 type Subject = { id: string; name: string };
 
 type SubjectSelectionSectionProps = {
-  subjectThemeLabel: string;
-  themeIsLight: boolean;
   subjects: Subject[];
-  onToggleTheme: () => void;
   onSelectSubject: (subjectId: string) => void;
 };
 
 export function SubjectSelectionSection({
-  subjectThemeLabel,
-  themeIsLight,
   subjects,
-  onToggleTheme,
   onSelectSubject,
 }: SubjectSelectionSectionProps) {
   return (
     <section id="subject-selection" aria-label="Subject selection">
-      <div className="subject-selection-header">
-        <button
-          className="clear-btn"
-          id="subject-theme-toggle"
-          type="button"
-          aria-pressed={themeIsLight}
-          onClick={onToggleTheme}
-        >
-          <Palette size={14} aria-hidden="true" />
-          {subjectThemeLabel}
-        </button>
-      </div>
       <div className="subject-selection-content">
         <p className="subject-selection-kicker">University of St Andrews</p>
         <h2>Build Your St Andrews Degree Path</h2>

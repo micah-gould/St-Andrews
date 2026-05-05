@@ -1,4 +1,5 @@
 import React, { memo, useEffect, useEffectEvent, useRef } from "react";
+import { Eraser } from "lucide-react";
 import { buildGraphRuntime } from "../moduleGraph/runtime";
 import type { GraphDataResponse, PrereqRule } from "../types/graph.types";
 import type { AppState, GraphRuntime } from "../types/runtime.types";
@@ -15,6 +16,7 @@ type ModuleGraphCanvasProps = {
   hiddenLevels: Set<string>;
   appState: AppState;
   clearSharedSettingId: () => void;
+  onClearAll: () => void;
   onStatusMarkupChange: (markup: string) => void;
   onRuntimeReady: (runtime: GraphRuntime) => void;
 };
@@ -28,6 +30,7 @@ function ModuleGraphCanvasInner({
   hiddenLevels: _hiddenLevels,
   appState,
   clearSharedSettingId,
+  onClearAll,
   onStatusMarkupChange,
   onRuntimeReady,
 }: ModuleGraphCanvasProps) {
@@ -84,6 +87,17 @@ function ModuleGraphCanvasInner({
 
   return (
     <div id="graph-area" ref={areaRef}>
+      <div className="graph-controls" role="toolbar" aria-label="Graph actions">
+        <button
+          className="clear-btn"
+          id="graph-clear-all"
+          type="button"
+          onClick={onClearAll}
+        >
+          <Eraser size={14} aria-hidden="true" />
+          Clear all
+        </button>
+      </div>
       <svg id="graph-svg" ref={svgRef} />
       <aside id="tip" ref={tipRef} />
     </div>

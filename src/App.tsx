@@ -74,6 +74,9 @@ export default function App() {
       if (levelsMenuRef.current?.contains(target)) {
         return;
       }
+      if (levelsTriggerRef.current?.contains(target)) {
+        return;
+      }
       setLevelsMenuOpen(false);
     };
 
@@ -132,7 +135,6 @@ export default function App() {
         user={user}
         signingOut={signingOut}
         onShowSubjectSelection={actions.showSubjectSelection}
-        onClearAll={actions.clearAll}
         onToggleTheme={actions.toggleTheme}
         onToggleLevelsMenu={() => setLevelsMenuOpen((open) => !open)}
         onSetSearchQuery={actions.setSearchQuery}
@@ -157,10 +159,7 @@ export default function App() {
 
       {viewModel.showSubjectSelection ? (
         <SubjectSelectionSection
-          subjectThemeLabel={subjectThemeLabel}
-          themeIsLight={viewModel.theme === "light"}
           subjects={viewModel.subjects}
-          onToggleTheme={actions.toggleTheme}
           onSelectSubject={actions.selectSubject}
         />
       ) : (
@@ -196,6 +195,7 @@ export default function App() {
             hiddenLevels={viewModel.hiddenLevels}
             appState={appState}
             clearSharedSettingId={actions.clearSharedSettingId}
+            onClearAll={actions.clearAll}
             onStatusMarkupChange={actions.onStatusMarkupChange}
             onRuntimeReady={actions.onRuntimeReady}
           />
