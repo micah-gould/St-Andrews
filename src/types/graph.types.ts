@@ -56,6 +56,14 @@ export type CatalogSummary = {
   years: string[];
 };
 
+export type ModuleSearchResult = {
+  moduleId: string;
+  moduleName: string;
+  catalogId: string;
+  catalogName: string;
+  availableInSelectedYear: boolean;
+};
+
 export type GraphDataResponse = {
   catalog: CatalogSummary;
   selectedYear: string | null;

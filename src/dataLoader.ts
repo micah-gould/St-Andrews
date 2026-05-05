@@ -1,4 +1,8 @@
-import type { CatalogSummary, GraphDataResponse } from "./types/graph.types";
+import type {
+  CatalogSummary,
+  GraphDataResponse,
+  ModuleSearchResult,
+} from "./types/graph.types";
 
 const API_BASE =
   window.location.protocol === "file:" ? "http://localhost:5175" : "";
@@ -30,4 +34,21 @@ export async function loadGraphData(
     prereqRules: payload.prereqRules,
     edges: payload.edges,
   };
+}
+
+export async function searchModules(
+  query: string,
+  year: string | null,
+): Promise<ModuleSearchResult[]> {
+  const term = query.trim();
+  if (!term) return [];
+  const params = new URLSearchParams({ q: term });
+  if (year) params.set("year", year);
+  const response = await fetch(
+    `${API_BASE}/api/modules/search?${params.toString()}`,
+  );
+  if (!response.ok) {
+    throw new Error(`Failed to search modules (${response.status})`);
+  }
+  return response.json();
 }

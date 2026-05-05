@@ -3,6 +3,7 @@ import type {
   GraphDataResponse,
   GraphEdge,
   GraphNode,
+  ModuleSearchResult,
   PrereqRule,
 } from "./graph.types";
 import type { SavedStateRecord, SavedStateSlice } from "./saved-state.types";
@@ -31,6 +32,8 @@ export type GraphRuntime = {
   syncUi: () => void;
   setPreviewState: (snapshot?: SavedStateSlice | null) => void;
   setSearchQuery: (query: string) => void;
+  setSearchHover: (nodeId: string | null) => void;
+  activateNodeById: (nodeId: string) => boolean;
   setHiddenLevels: (levels: Set<string>) => void;
   clearAll: () => void;
   destroy: () => void;
@@ -45,6 +48,8 @@ export type AppState = {
   selectedPlanId: string;
   settingsName: string;
   searchQuery: string;
+  searchResults: ModuleSearchResult[];
+  pendingSearchFocusNodeId: string | null;
   feedbackMarkup: string;
   feedbackActions: FeedbackAction[];
   statusMarkup: string;
@@ -120,6 +125,7 @@ export type RendererOptions = {
   selected: Set<string>;
   passed: Set<string>;
   getHoverId: () => string | null;
+  getSearchQuery: () => string;
   getPreviewState: () => PreviewState;
   getHiddenLevels: () => Set<string>;
   graphState: GraphState;

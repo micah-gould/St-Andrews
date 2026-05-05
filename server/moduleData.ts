@@ -40,6 +40,14 @@ type CatalogData = {
   antiRequirements?: Array<{ source: string; target: string }>;
 };
 
+type ModuleSearchResult = {
+  moduleId: string;
+  moduleName: string;
+  catalogId: string;
+  catalogName: string;
+  availableInSelectedYear: boolean;
+};
+
 const typedCatalogs = catalogs as CatalogData[];
 const catalogById = new Map(
   typedCatalogs.map((catalog) => [catalog.id, catalog]),
@@ -71,6 +79,67 @@ export function getGraphData(catalog, year) {
     edges: graph.edges,
     prereqRules: graph.prereqRules,
   };
+}
+
+export function searchModules(query: string, year: string | null) {
+  const normalized = String(query || "")
+    .trim()
+    .toLowerCase();
+  if (!normalized) return [];
+
+  const seen = new Set<string>();
+  const results: ModuleSearchResult[] = [];
+
+  typedCatalogs.forEach((catalog) => {
+    (catalog.nodes || []).forEach((node) => {
+      if (!node?.id) return;
+      const id = node.id;
+      const name = node.name || id;
+      const idText = id.toLowerCase();
+      const nameText = name.toLowerCase();
+      const combined = `${idText} ${nameText}`;
+      if (!combined.includes(normalized)) return;
+
+      const key = `${id}::${catalog.id}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+
+      const availableInSelectedYear = year
+        ? node.availability?.[year] !== false
+        : true;
+
+      results.push({
+        moduleId: id,
+        moduleName: name,
+        catalogId: catalog.id,
+        catalogName: catalog.name,
+        availableInSelectedYear,
+      });
+    });
+  });
+
+  const rank = (value: ModuleSearchResult) => {
+    const id = value.moduleId.toLowerCase();
+    const name = value.moduleName.toLowerCase();
+    if (id === normalized) return 0;
+    if (id.startsWith(normalized)) return 1;
+    if (name.startsWith(normalized)) return 2;
+    const idIndex = id.indexOf(normalized);
+    if (idIndex >= 0) return 3 + idIndex;
+    const nameIndex = name.indexOf(normalized);
+    if (nameIndex >= 0) return 25 + nameIndex;
+    return 1000;
+  };
+
+  return results
+    .sort((left, right) => {
+      const rankDiff = rank(left) - rank(right);
+      if (rankDiff !== 0) return rankDiff;
+      const idDiff = left.moduleId.localeCompare(right.moduleId);
+      if (idDiff !== 0) return idDiff;
+      return left.catalogName.localeCompare(right.catalogName);
+    })
+    .slice(0, 200);
 }
 
 function buildCatalogGraph(catalog: CatalogData, selectedYear: string | null) {

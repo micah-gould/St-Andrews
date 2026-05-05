@@ -2,7 +2,12 @@ import "dotenv/config";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import express from "express";
-import { getCatalog, getGraphData, listCatalogs } from "./moduleData";
+import {
+  getCatalog,
+  getGraphData,
+  listCatalogs,
+  searchModules,
+} from "./moduleData";
 import authRouter, { attachUser } from "./auth/routes";
 import savedStatesRouter from "./savedStates/routes";
 
@@ -37,6 +42,12 @@ app.get("/api/modules", (req, res) => {
     prereqRules: graph.prereqRules,
     edges: graph.edges,
   });
+});
+
+app.get("/api/modules/search", (req, res) => {
+  const query = typeof req.query.q === "string" ? req.query.q : "";
+  const year = typeof req.query.year === "string" ? req.query.year : null;
+  res.json(searchModules(query, year));
 });
 
 app.listen(PORT, () => {

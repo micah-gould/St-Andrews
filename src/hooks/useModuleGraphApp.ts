@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { openShareDialog } from "../components/ShareDialog";
 import { showRequestAccessOverlay } from "../components/RequestAccessOverlay";
-import { listCatalogs, loadGraphData } from "../dataLoader";
+import { listCatalogs, loadGraphData, searchModules } from "../dataLoader";
 import { savedStatesApi } from "../savedStatesApi";
 import type { GraphRuntime } from "../types/runtime.types";
+import type { ModuleSearchResult } from "../types/graph.types";
 import type {
   SavedStateBlob,
   SavedStateRecord,
@@ -118,7 +119,6 @@ export function useModuleGraphApp() {
     appState.hiddenLevels = new Set(
       restoredState?.hiddenLevels ?? [...appState.hiddenLevels],
     );
-    appState.searchQuery = "";
     updateUrl(catalog.id, resolvedYear, appState.sharedSettingId);
     setLoadedGraph({ catalog, nodes, edges, prereqRules, restoredState });
     publish();
@@ -361,7 +361,48 @@ export function useModuleGraphApp() {
   const setSearchQuery = (query: string) => {
     appState.searchQuery = query;
     appState.graphRuntime?.setSearchQuery(query);
+    if (!query.trim()) {
+      appState.searchResults = [];
+      appState.graphRuntime?.setSearchHover(null);
+    }
     publish();
+  };
+
+  const setSearchHover = (nodeId: string | null) => {
+    appState.graphRuntime?.setSearchHover(nodeId);
+  };
+
+  const clearSearch = () => {
+    appState.searchQuery = "";
+    appState.searchResults = [];
+    appState.graphRuntime?.setSearchHover(null);
+    appState.graphRuntime?.setSearchQuery("");
+    publish();
+  };
+
+  const selectSearchResult = async (result: ModuleSearchResult) => {
+    const targetCatalogId = result.catalogId;
+    const currentYear = appState.currentYear;
+    appState.pendingSearchFocusNodeId = result.moduleId;
+    appState.searchQuery = result.moduleId;
+    appState.graphRuntime?.setSearchHover(null);
+
+    if (appState.currentCatalogId !== targetCatalogId) {
+      clearSharedSettingId();
+      appState.loadedSetting = null;
+      appState.settingsName = "";
+      await renderCatalog(targetCatalogId, currentYear);
+      feedback(
+        `Showing ${result.catalogName} and focusing ${result.moduleId}.`,
+      );
+      return;
+    }
+
+    const activated = appState.graphRuntime?.activateNodeById(result.moduleId);
+    if (activated) {
+      appState.pendingSearchFocusNodeId = null;
+      publish();
+    }
   };
 
   const setHiddenLevels = (levels: Set<string>) => {
@@ -383,6 +424,39 @@ export function useModuleGraphApp() {
   };
   const toggleTheme = () =>
     setTheme(appState.theme === "light" ? "dark" : "light");
+
+  useEffect(() => {
+    if (appState.isSubjectSelection || !appState.searchQuery.trim()) {
+      if (appState.searchResults.length > 0) {
+        appState.searchResults = [];
+        publish();
+      }
+      return;
+    }
+
+    let cancelled = false;
+    const query = appState.searchQuery;
+    const year = appState.currentYear;
+
+    searchModules(query, year)
+      .then((results) => {
+        if (cancelled) return;
+        if (appState.searchQuery !== query || appState.currentYear !== year) {
+          return;
+        }
+        appState.searchResults = results;
+        publish();
+      })
+      .catch(() => {
+        if (cancelled) return;
+        appState.searchResults = [];
+        publish();
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [appState.currentYear, appState.isSubjectSelection, appState.searchQuery]);
 
   useEffect(() => {
     let cancelled = false;
@@ -460,6 +534,16 @@ export function useModuleGraphApp() {
     (runtime: GraphRuntime) => {
       appState.graphRuntime = runtime;
       runtime.syncUi();
+      runtime.setSearchQuery(appState.searchQuery);
+      runtime.setSearchHover(null);
+      if (appState.pendingSearchFocusNodeId) {
+        const focused = runtime.activateNodeById(
+          appState.pendingSearchFocusNodeId,
+        );
+        if (focused) {
+          appState.pendingSearchFocusNodeId = null;
+        }
+      }
       syncSelectedSettingPreview();
     },
     [appState],
@@ -492,6 +576,7 @@ export function useModuleGraphApp() {
       appState.isSubjectSelection,
       appState.loadedSetting,
       appState.searchQuery,
+      appState.searchResults,
       appState.selectedPlanId,
       appState.settingsCache,
       appState.settingsName,
@@ -511,6 +596,9 @@ export function useModuleGraphApp() {
       toggleTheme,
       clearAll,
       setSearchQuery,
+      clearSearch,
+      setSearchHover,
+      selectSearchResult,
       setHiddenLevels,
       setSettingsName,
       selectSubject,

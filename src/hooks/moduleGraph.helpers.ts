@@ -163,6 +163,7 @@ export function buildViewModel(appState: AppState) {
     currentTitle: currentCatalog?.name || "Modules",
     theme: appState.theme,
     searchQuery: appState.searchQuery,
+    searchResults: appState.searchResults,
     subjects: appState.catalogs.map((catalog) => ({
       id: catalog.id,
       name: catalog.name,

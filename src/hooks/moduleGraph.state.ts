@@ -9,6 +9,8 @@ export function createModuleGraphState(): AppState {
     selectedPlanId: "",
     settingsName: "",
     searchQuery: "",
+    searchResults: [],
+    pendingSearchFocusNodeId: null,
     feedbackMarkup: "",
     feedbackActions: [],
     statusMarkup: "Loading module data...",

@@ -65,6 +65,7 @@ export function buildGraphRuntime({
     passed: Set<string>;
   } | null = null;
   let searchQuery = "";
+  let searchHoverNodeId: string | null = null;
   const pinnedNodeIds = new Set<string>();
   const collapsedPinnedNodeIds = new Set<string>();
   let floatingNodeId: string | null = null;
@@ -469,47 +470,17 @@ export function buildGraphRuntime({
     manualExcluded: uiState.manualExcluded,
     selected: uiState.selected,
     passed: uiState.passed,
-    getHoverId: () => uiState.getActiveNodeId() || uiState.getHoverId(),
+    getHoverId: () =>
+      searchHoverNodeId || uiState.getActiveNodeId() || uiState.getHoverId(),
+    getSearchQuery: () => searchQuery,
     getPreviewState: () => previewState,
     getHiddenLevels: () => appState.hiddenLevels,
     graphState,
     nodes,
   });
 
-  const applySearchHighlight = () => {
-    const query = searchQuery.toLowerCase().trim();
-    if (!query) {
-      renderer.render();
-      return;
-    }
-
-    circles
-      .attr("stroke-opacity", (node: GraphNode) =>
-        node.id.toLowerCase().includes(query) ||
-        node.name.toLowerCase().includes(query)
-          ? 1
-          : 0.06,
-      )
-      .attr("fill-opacity", (node: GraphNode) =>
-        node.id.toLowerCase().includes(query) ||
-        node.name.toLowerCase().includes(query)
-          ? 0.25
-          : 0.04,
-      );
-
-    labels.attr("opacity", (node: GraphNode) =>
-      node.id.toLowerCase().includes(query) ||
-      node.name.toLowerCase().includes(query)
-        ? 1
-        : 0.06,
-    );
-
-    linkSel.attr("stroke-opacity", 0.03);
-  };
-
   const syncUi = () => {
     renderer.render();
-    applySearchHighlight();
     onStatusMarkupChange(
       uiState.getStatusMarkup(graphState, computeLevelExcludedIds()),
     );
@@ -831,11 +802,22 @@ export function buildGraphRuntime({
           }
         : null;
       renderer.render();
-      applySearchHighlight();
+      renderer.render();
     },
     setSearchQuery: (query: string) => {
       searchQuery = query;
-      applySearchHighlight();
+      renderer.render();
+    },
+    setSearchHover: (nodeId: string | null) => {
+      if (nodeId && !nodeById.has(nodeId)) return;
+      searchHoverNodeId = nodeId;
+      renderer.render();
+    },
+    activateNodeById: (nodeId: string) => {
+      const node = nodeById.get(nodeId);
+      if (!node) return false;
+      activateNode(node);
+      return true;
     },
     setHiddenLevels: (levels: Set<string>) => {
       appState.hiddenLevels = new Set(levels);

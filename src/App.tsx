@@ -131,6 +131,7 @@ export default function App() {
         levelsMenuOpen={levelsMenuOpen}
         levelSummary={levelSummary}
         searchQuery={viewModel.searchQuery}
+        searchResults={viewModel.searchResults}
         levelsTriggerRef={levelsTriggerRef}
         user={user}
         signingOut={signingOut}
@@ -138,6 +139,9 @@ export default function App() {
         onToggleTheme={actions.toggleTheme}
         onToggleLevelsMenu={() => setLevelsMenuOpen((open) => !open)}
         onSetSearchQuery={actions.setSearchQuery}
+        onClearSearch={actions.clearSearch}
+        onSearchHover={actions.setSearchHover}
+        onSearchSelect={actions.selectSearchResult}
         onSignOut={async () => {
           setSigningOut(true);
           await logout();

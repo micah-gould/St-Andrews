@@ -15,6 +15,7 @@ export function createRenderer({
   selected,
   passed,
   getHoverId,
+  getSearchQuery,
   getPreviewState,
   getHiddenLevels,
   graphState,
@@ -82,6 +83,7 @@ export function createRenderer({
 
   function render() {
     const hoverId = getHoverId();
+    const activeSearchQuery = getSearchQuery().trim().toLowerCase();
     const previewState = getPreviewState ? getPreviewState() : null;
     const activeManualExcluded = previewState?.manualExcluded || manualExcluded;
     const activeSelected = previewState?.selected || selected;
@@ -220,7 +222,12 @@ export function createRenderer({
         return COLORS.lvl[levelKey(node)] || "#888";
       })
       .attr("fill-opacity", (node) => {
+        const matchesSearch =
+          !activeSearchQuery ||
+          node.id.toLowerCase().includes(activeSearchQuery) ||
+          node.name.toLowerCase().includes(activeSearchQuery);
         const state = nodeState(node, ctx);
+        if (!matchesSearch && state === "normal") return 0.08;
         if (state === "hover") return 0.25;
         if (
           state === "hpre" ||
@@ -270,11 +277,16 @@ export function createRenderer({
           return 2;
         return 1.2;
       })
+      .attr("stroke-opacity", (node) => {
+        const matchesSearch =
+          !activeSearchQuery ||
+          node.id.toLowerCase().includes(activeSearchQuery) ||
+          node.name.toLowerCase().includes(activeSearchQuery);
+        if (!matchesSearch && nodeState(node, ctx) === "normal") return 0.32;
+        return nodeState(node, ctx) === "excl-implied" ? 0.95 : 1;
+      })
       .attr("stroke-dasharray", (node) =>
         nodeState(node, ctx) === "excl-implied" ? "3 2" : null,
-      )
-      .attr("stroke-opacity", (node) =>
-        nodeState(node, ctx) === "excl-implied" ? 0.95 : 1,
       );
 
     circles.classed(
@@ -300,9 +312,14 @@ export function createRenderer({
         if (isExternal(node)) return COLORS.lvl.ext;
         return COLORS.lvl[levelKey(node)] || "#888";
       })
-      .attr("opacity", (node) =>
-        nodeState(node, ctx) === "excl-implied" ? 0.9 : 1,
-      )
+      .attr("opacity", (node) => {
+        const matchesSearch =
+          !activeSearchQuery ||
+          node.id.toLowerCase().includes(activeSearchQuery) ||
+          node.name.toLowerCase().includes(activeSearchQuery);
+        if (!matchesSearch && nodeState(node, ctx) === "normal") return 0.24;
+        return nodeState(node, ctx) === "excl-implied" ? 0.9 : 1;
+      })
       .attr("font-weight", (node) => {
         const state = nodeState(node, ctx);
         return [

@@ -385,6 +385,101 @@ body:not(.theme-light) .logo {
   align-items: center;
 }
 
+.search-clear-btn {
+  position: absolute;
+  right: 6px;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bg-surface), transparent 12%);
+  color: var(--text-dim);
+  cursor: pointer;
+  transition:
+    background-color 0.14s ease,
+    color 0.14s ease;
+}
+
+.search-clear-btn:hover {
+  background: color-mix(in srgb, var(--bg-surface), transparent 0%);
+  color: var(--text);
+}
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  width: min(460px, 88vw);
+  max-height: min(56vh, 286px);
+  overflow-y: auto;
+  display: grid;
+  gap: 4px;
+  padding: 8px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-1);
+  z-index: 90;
+}
+
+.search-result {
+  font-family: var(--font-sans);
+  display: grid;
+  gap: 2px;
+  text-align: left;
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition:
+    background-color 0.14s ease,
+    border-color 0.14s ease;
+}
+
+.search-result:hover,
+.search-result--active {
+  border-color: color-mix(in srgb, var(--bg-night-soft), #ffffff 28%);
+  background: color-mix(in srgb, var(--bg-surface), transparent 18%);
+}
+
+.search-result-main {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text);
+}
+
+.search-result-name {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.search-result-meta {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.search-empty {
+  padding: 10px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.search-dropdown-hint {
+  padding: 8px 10px 6px;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
 .level-filter-trigger {
   min-width: 176px;
   min-height: 41px;
@@ -547,7 +642,7 @@ body:not(.theme-light) .level-filter-menu-action {
 
 #search {
   font-size: 11px;
-  padding: 10px 14px 10px 34px;
+  padding: 10px 28px 10px 34px;
   width: 190px;
 }
 
