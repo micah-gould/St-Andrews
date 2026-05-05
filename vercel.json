@@ -15,10 +15,30 @@
   ],
   "routes": [
     {
+      "src": "^/api/auth(?:/(.*))?$",
+      "dest": "/api/auth/[...path].ts?path=$1"
+    },
+    {
+      "src": "^/api/saved-states(?:/(.*))?$",
+      "dest": "/api/saved-states/[...path].ts?path=$1"
+    },
+    {
+      "src": "^/api/modules/search$",
+      "dest": "/api/modules/search.ts"
+    },
+    {
+      "src": "^/api/modules$",
+      "dest": "/api/modules.ts"
+    },
+    {
+      "src": "^/api/catalogs$",
+      "dest": "/api/catalogs.ts"
+    },
+    {
       "handle": "filesystem"
     },
     {
-      "src": "^/(?!api/)(.*)",
+      "src": "^/(.*)",
       "dest": "/index.html"
     }
   ]
