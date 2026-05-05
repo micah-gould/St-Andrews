@@ -197,6 +197,7 @@ export function buildViewModel(appState: AppState) {
       : "",
     shareVisible: Boolean(loadedSetting),
     shareDisabled: !canShare,
+    canSave: Boolean(appState.userId),
     deleteDisabled: !canDelete && Boolean(loadedSetting),
     saveLabel: viewOnly && sameName ? "Clone" : sameName ? "Update" : "Save",
     hiddenLevels: appState.hiddenLevels,

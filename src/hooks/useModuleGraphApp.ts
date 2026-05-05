@@ -1,8 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { openShareDialog } from "../components/ShareDialog";
 import { showRequestAccessOverlay } from "../components/RequestAccessOverlay";
 import { listCatalogs, loadGraphData, searchModules } from "../dataLoader";
 import { savedStatesApi } from "../savedStatesApi";
+import { loadLegendColorsFromStorage } from "../constants";
 import type { GraphRuntime } from "../types/runtime.types";
 import type { ModuleSearchResult } from "../types/graph.types";
 import type {
@@ -24,7 +26,8 @@ import {
 import { createModuleGraphState } from "./moduleGraph.state";
 import type { LoadedGraph } from "./moduleGraph.types";
 
-export function useModuleGraphApp() {
+export function useModuleGraphApp(userId: string | null) {
+  const navigate = useNavigate();
   const [appState] = useState(createModuleGraphState);
   const [loadedGraph, setLoadedGraph] = useState<LoadedGraph | null>(null);
   const [, setVersion] = useState(0);
@@ -252,63 +255,86 @@ export function useModuleGraphApp() {
   };
 
   const saveCurrentPlan = async (nameInput = appState.settingsName) => {
-    const loadedSetting = appState.loadedSetting;
-    const name = nameInput.trim() || loadedSetting?.name || "";
-    if (!name) return feedback("Enter a name before saving.", true);
-    if (!appState.graphRuntime)
-      return feedback("The current graph is still loading.", true);
+    try {
+      if (!appState.userId) {
+        const next = encodeURIComponent(
+          window.location.pathname + window.location.search,
+        );
+        feedback("Sign in or create an account to save plans.", false, [
+          {
+            label: "Log in",
+            onClick: () => navigate(`/login?next=${next}`),
+          },
+          {
+            label: "Create account",
+            onClick: () => navigate(`/signup?next=${next}`),
+          },
+        ]);
+        return;
+      }
+      const loadedSetting = appState.loadedSetting;
+      const name = nameInput.trim() || loadedSetting?.name || "";
+      if (!name) return feedback("Enter a name before saving.", true);
+      if (!appState.graphRuntime)
+        return feedback("The current graph is still loading.", true);
 
-    const snap = appState.graphRuntime.snapshot();
-    const seed: SavedStateBlob = {
-      version: 2,
-      catalogs: {
-        [snap.catalogId]: {
-          [snap.year]: {
+      const snap = appState.graphRuntime.snapshot();
+      const seed: SavedStateBlob = {
+        version: 2,
+        catalogs: {
+          [snap.catalogId]: {
+            [snap.year]: {
+              selected: snap.selected,
+              passed: snap.passed,
+              excluded: snap.excluded,
+              hiddenLevels: snap.hiddenLevels,
+            },
+          },
+        },
+      };
+      const isCloneFromView = Boolean(
+        loadedSetting &&
+        loadedSetting.role === "view" &&
+        name === loadedSetting.name,
+      );
+
+      let saved: SavedStateRecord;
+      let action = "Saved";
+      if (isCloneFromView) {
+        saved = await savedStatesApi.create({ name, state: seed });
+        action = "Cloned";
+      } else if (
+        loadedSetting &&
+        name === loadedSetting.name &&
+        loadedSetting.role !== "view"
+      ) {
+        saved = await savedStatesApi.updateSlice(loadedSetting.id, {
+          name,
+          slice: {
+            catalogId: snap.catalogId,
+            year: snap.year,
             selected: snap.selected,
             passed: snap.passed,
             excluded: snap.excluded,
             hiddenLevels: snap.hiddenLevels,
           },
-        },
-      },
-    };
-    const isCloneFromView = Boolean(
-      loadedSetting &&
-      loadedSetting.role === "view" &&
-      name === loadedSetting.name,
-    );
+        });
+        action = "Updated";
+      } else {
+        saved = await savedStatesApi.create({ name, state: seed });
+      }
 
-    let saved: SavedStateRecord;
-    let action = "Saved";
-    if (isCloneFromView) {
-      saved = await savedStatesApi.create({ name, state: seed });
-      action = "Cloned";
-    } else if (
-      loadedSetting &&
-      name === loadedSetting.name &&
-      loadedSetting.role !== "view"
-    ) {
-      saved = await savedStatesApi.updateSlice(loadedSetting.id, {
-        name,
-        slice: {
-          catalogId: snap.catalogId,
-          year: snap.year,
-          selected: snap.selected,
-          passed: snap.passed,
-          excluded: snap.excluded,
-          hiddenLevels: snap.hiddenLevels,
-        },
-      });
-      action = "Updated";
-    } else {
-      saved = await savedStatesApi.create({ name, state: seed });
+      appState.settingsName = "";
+      appState.loadedSetting = saved;
+      setSharedSettingId(saved.id);
+      await refreshSettings(String(saved.id));
+      feedback(`${action} "${saved.name}".`);
+      window.alert(`${action} "${saved.name}" successfully.`);
+    } catch (error) {
+      const message = (error as Error).message || "Could not save plan.";
+      feedback(message, true);
+      window.alert(`Save failed: ${message}`);
     }
-
-    appState.settingsName = "";
-    appState.loadedSetting = saved;
-    setSharedSettingId(saved.id);
-    await refreshSettings(String(saved.id));
-    feedback(`${action} "${saved.name}".`);
   };
 
   const loadSelectedPlan = async () => {
@@ -324,6 +350,8 @@ export function useModuleGraphApp() {
   };
 
   const deleteSelectedPlan = async () => {
+    if (!appState.userId)
+      return feedback("Please sign in to manage saved plans.", true);
     const current = getSelectedSavedSetting();
     const loadedSetting = appState.loadedSetting;
     if (!current) return feedback("Choose a saved setting to delete.", true);
@@ -341,21 +369,32 @@ export function useModuleGraphApp() {
   };
 
   const shareLoadedPlan = async () => {
-    const loaded = appState.loadedSetting;
-    if (!loaded)
-      return feedback("Save or load a plan before sharing it.", true);
-    if (loaded.role !== "owner" && loaded.role !== "admin")
-      return feedback("Only the owner or an admin can manage sharing.", true);
-    await openShareDialog({
-      savedStatesApi,
-      state: loaded,
-      currentUser: window.__currentUser,
-      onChange: async () => {
-        const refreshed = await savedStatesApi.get(loaded.id).catch(() => null);
-        if (refreshed) appState.loadedSetting = refreshed;
-        await refreshSettings(String(loaded.id)).catch(() => {});
-      },
-    });
+    try {
+      if (!appState.userId)
+        return feedback("Please sign in to manage sharing.", true);
+      const loaded = appState.loadedSetting;
+      if (!loaded)
+        return feedback("Save or load a plan before sharing it.", true);
+      if (loaded.role !== "owner" && loaded.role !== "admin")
+        return feedback("Only the owner or an admin can manage sharing.", true);
+      await openShareDialog({
+        savedStatesApi,
+        state: loaded,
+        currentUser: window.__currentUser,
+        onChange: async () => {
+          const refreshed = await savedStatesApi
+            .get(loaded.id)
+            .catch(() => null);
+          if (refreshed) appState.loadedSetting = refreshed;
+          await refreshSettings(String(loaded.id)).catch(() => {});
+        },
+      });
+    } catch (error) {
+      const message =
+        (error as Error).message || "Could not open sharing dialog.";
+      feedback(message, true);
+      window.alert(`Share unavailable: ${message}`);
+    }
   };
 
   const setSearchQuery = (query: string) => {
@@ -424,6 +463,10 @@ export function useModuleGraphApp() {
   };
   const toggleTheme = () =>
     setTheme(appState.theme === "light" ? "dark" : "light");
+  const refreshGraphColors = () => {
+    appState.graphRuntime?.refreshColors();
+    publish();
+  };
 
   useEffect(() => {
     if (appState.isSubjectSelection || !appState.searchQuery.trim()) {
@@ -511,13 +554,21 @@ export function useModuleGraphApp() {
           appState.isSubjectSelection = true;
         }
 
-        await refreshSettings(appState.sharedSettingId || "").catch((error) =>
-          feedback(
-            `Saved settings unavailable: ${(error as Error).message}`,
-            true,
-          ),
-        );
+        await refreshSettings(appState.sharedSettingId || "").catch((error) => {
+          if (appState.userId) {
+            feedback(
+              `Saved settings unavailable: ${(error as Error).message}`,
+              true,
+            );
+          } else {
+            appState.settingsCache = [];
+            appState.selectedPlanId = "";
+            publish();
+          }
+        });
+        loadLegendColorsFromStorage();
         setTheme(getStoredTheme());
+        refreshGraphColors();
       } catch (error) {
         appState.statusMarkup = `<div class="status-row status-row--single"><span class="status-empty">${(error as Error).message}</span></div>`;
         publish();
@@ -528,7 +579,7 @@ export function useModuleGraphApp() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [userId]);
 
   const onRuntimeReady = useCallback(
     (runtime: GraphRuntime) => {
@@ -548,6 +599,16 @@ export function useModuleGraphApp() {
     },
     [appState],
   );
+
+  useEffect(() => {
+    appState.userId = userId;
+    if (!userId) {
+      appState.loadedSetting = null;
+      appState.settingsName = "";
+    }
+    refreshSettings(appState.sharedSettingId || "").catch(() => {});
+    publish();
+  }, [appState, userId]);
 
   const onStatusMarkupChange = useCallback(
     (markup: string) => {
@@ -600,6 +661,7 @@ export function useModuleGraphApp() {
       setSearchHover,
       selectSearchResult,
       setHiddenLevels,
+      refreshGraphColors,
       setSettingsName,
       selectSubject,
       selectCatalog,

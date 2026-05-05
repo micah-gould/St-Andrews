@@ -26,6 +26,7 @@ type SavedSettingsPanelProps = {
   settingsName: string;
   settingsPlaceholder: string;
   saveLabel: string;
+  canSave: boolean;
   savedPlans: SavedPlan[];
   selectedPlanId: string;
   shareVisible: boolean;
@@ -52,6 +53,7 @@ export function SavedSettingsPanel({
   settingsName,
   settingsPlaceholder,
   saveLabel,
+  canSave,
   savedPlans,
   selectedPlanId,
   shareVisible,
@@ -148,11 +150,12 @@ export function SavedSettingsPanel({
                 maxLength={80}
                 placeholder={settingsPlaceholder}
                 value={settingsName}
+                autoComplete="off"
                 onChange={(event) => onSetSettingsName(event.target.value)}
               />
               <button id="save-settings" type="submit">
                 <Save size={14} aria-hidden="true" />
-                {saveLabel}
+                {canSave ? saveLabel : "Sign in to save"}
               </button>
             </form>
           </div>
@@ -186,7 +189,12 @@ export function SavedSettingsPanel({
               id="share-settings"
               type="button"
               style={{ display: shareVisible ? undefined : "none" }}
-              disabled={shareDisabled}
+              aria-disabled={shareDisabled}
+              title={
+                shareDisabled
+                  ? "You do not have permission to share this plan"
+                  : undefined
+              }
               onClick={onShareLoadedPlan}
             >
               <Share2 size={14} aria-hidden="true" />

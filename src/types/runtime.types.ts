@@ -25,6 +25,11 @@ export type FeedbackAction = {
   onClick: () => Promise<void> | void;
 };
 
+export type SavePrompt = {
+  title: string;
+  message: string;
+};
+
 export type GraphRuntime = {
   catalog: GraphDataResponse["catalog"];
   uiState: UiState;
@@ -35,12 +40,14 @@ export type GraphRuntime = {
   setSearchHover: (nodeId: string | null) => void;
   activateNodeById: (nodeId: string) => boolean;
   setHiddenLevels: (levels: Set<string>) => void;
+  refreshColors: () => void;
   clearAll: () => void;
   destroy: () => void;
   snapshot: () => GraphSnapshot;
 };
 
 export type AppState = {
+  userId: string | null;
   catalogs: GraphDataResponse["catalog"][];
   currentCatalogId: string | null;
   currentYear: string | null;

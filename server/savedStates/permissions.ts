@@ -13,12 +13,37 @@ export function isValidRole(role) {
   return ROLES.includes(role);
 }
 
+function getVisibility(state) {
+  if (!state) return "private";
+  if (state.visibility === "link" || state.visibility === "public") {
+    return state.visibility;
+  }
+  if (typeof state.stateJson === "string") {
+    try {
+      const parsed = JSON.parse(state.stateJson);
+      if (parsed?.visibility === "link" || parsed?.visibility === "public") {
+        return parsed.visibility;
+      }
+    } catch {
+      return "private";
+    }
+  }
+  return "private";
+}
+
 // Returns one of: 'owner' | 'admin' | 'edit' | 'view' | null
 export function effectiveRole(state, userId, shares = state?.shares) {
-  if (!userId || !state) return null;
+  if (!state) return null;
+  const visibility = getVisibility(state);
+  if (!userId) {
+    if (visibility === "link" || visibility === "public") return "view";
+    return null;
+  }
   if (state.ownerId === userId) return "owner";
   const share = (shares || []).find((entry) => entry.userId === userId);
-  return share?.role || null;
+  if (share?.role) return share.role;
+  if (visibility === "link" || visibility === "public") return "view";
+  return null;
 }
 
 export function hasAtLeast(role, required) {

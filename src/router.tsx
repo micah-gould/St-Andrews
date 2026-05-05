@@ -5,7 +5,6 @@ import { ForgotPasswordPage } from "./Pages/ForgotPassword.Page";
 import { LoginPage } from "./Pages/Login.Page";
 import { ResetPasswordPage } from "./Pages/ResetPassword.Page";
 import { SignupPage } from "./Pages/Signup.Page";
-import { ProtectedRoute } from "./components/ProtectedRoute";
 
 export function AppRouter() {
   return (
@@ -14,9 +13,7 @@ export function AppRouter() {
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/forgot-password" element={<ForgotPasswordPage />} />
       <Route path="/reset-password" element={<ResetPasswordPage />} />
-      <Route element={<ProtectedRoute />}>
-        <Route path="*" element={<App />} />
-      </Route>
+      <Route path="*" element={<App />} />
     </Routes>
   );
 }

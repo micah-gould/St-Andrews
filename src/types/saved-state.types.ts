@@ -1,5 +1,7 @@
 export type SavedStateRole = "view" | "edit" | "admin" | "owner";
 
+export type SavedStateVisibility = "private" | "link" | "public";
+
 export type SavedStateSlice = {
   selected: string[];
   passed: string[];
@@ -9,6 +11,7 @@ export type SavedStateSlice = {
 
 export type SavedStateBlob = {
   version: 2;
+  visibility?: SavedStateVisibility;
   catalogs: Record<string, Record<string, SavedStateSlice>>;
 };
 
@@ -34,6 +37,7 @@ export type SavedStateRecord = {
   state?: SavedStateBlob;
   createdAt?: string | Date;
   updatedAt?: string | Date;
+  visibility?: SavedStateVisibility;
 };
 
 export type SavedStateShare = {
@@ -67,10 +71,12 @@ export type SavedStateMeta = {
     requestedRole: Exclude<SavedStateRole, "owner">;
     createdAt: string | Date;
   } | null;
+  visibility?: SavedStateVisibility;
 };
 
 export type SavedStateSharesResponse = {
   owner?: SavedStateOwner;
+  visibility?: SavedStateVisibility;
   shares: SavedStateShare[];
   requests: SavedStateAccessRequest[];
 };

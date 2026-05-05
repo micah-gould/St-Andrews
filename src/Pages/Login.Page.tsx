@@ -82,9 +82,12 @@ export function LoginPage() {
           onChange={setPassword}
         />
         <div className="row">
-          <label>
+          <label htmlFor="login-remember-me">
             <input
+              id="login-remember-me"
+              name="rememberMe"
               type="checkbox"
+              autoComplete="off"
               checked={remember}
               onChange={(event) => setRemember(event.target.checked)}
             />

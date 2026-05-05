@@ -2,6 +2,7 @@ import type { AppState } from "../types/runtime.types";
 
 export function createModuleGraphState(): AppState {
   return {
+    userId: null,
     catalogs: [],
     currentCatalogId: null,
     currentYear: null,

@@ -4,9 +4,18 @@ import { savedStatesApi as defaultSavedStatesApi } from "../savedStatesApi";
 import type {
   SavedStateRecord,
   SavedStateSharesResponse,
+  SavedStateVisibility,
 } from "../types/saved-state.types";
 
 const ROLE_OPTIONS = ["view", "edit", "admin"];
+const VISIBILITY_OPTIONS: Array<{
+  value: SavedStateVisibility;
+  label: string;
+}> = [
+  { value: "private", label: "Private" },
+  { value: "link", label: "Anyone with the link" },
+  { value: "public", label: "Public (shows in dropdown)" },
+];
 
 type ShareDialogProps = {
   savedStatesApi: typeof defaultSavedStatesApi;
@@ -54,6 +63,7 @@ function ShareDialog({
   const shares = data?.shares || [];
   const requests = data?.requests || [];
   const owner = data?.owner;
+  const visibility = data?.visibility || "private";
 
   return (
     <div
@@ -86,13 +96,18 @@ function ShareDialog({
           {data ? (
             <>
               <section className="share-section">
-                <label className="share-label">Share link</label>
+                <label className="share-label" htmlFor="share-link-input">
+                  Share link
+                </label>
                 <div className="share-link-row">
                   <input
+                    id="share-link-input"
+                    name="shareLink"
                     type="text"
                     readOnly
                     value={shareLink}
                     className="share-link-input"
+                    autoComplete="off"
                   />
                   <button
                     type="button"
@@ -112,13 +127,45 @@ function ShareDialog({
                   </button>
                 </div>
                 <p className="share-hint">
-                  Anyone with the link who has access will see this plan; others
-                  can request access.
+                  Set visibility for signed-in and anonymous access.
                 </p>
+                {(isOwner || isAdmin) && data ? (
+                  <div className="share-row share-row--owner">
+                    <label className="share-label" htmlFor="share-visibility">
+                      Visibility
+                    </label>
+                    <select
+                      id="share-visibility"
+                      name="visibility"
+                      className="share-role-select"
+                      value={visibility}
+                      aria-label="Plan visibility"
+                      onChange={async (event) => {
+                        const next = event.target.value as SavedStateVisibility;
+                        try {
+                          await savedStatesApi.addShare(state.id, {
+                            role: "view",
+                            visibility: next,
+                          });
+                          await onChange?.();
+                          await refresh();
+                        } catch (err) {
+                          alert(err.message);
+                        }
+                      }}
+                    >
+                      {VISIBILITY_OPTIONS.map((option) => (
+                        <option key={option.value} value={option.value}>
+                          {option.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                ) : null}
               </section>
 
               <section className="share-section">
-                <label className="share-label">Owner</label>
+                <p className="share-label">Owner</p>
                 <div className="share-row share-row--owner">
                   <span>{owner?.email || "—"}</span>
                   <span className="share-role-tag">owner</span>
@@ -126,7 +173,7 @@ function ShareDialog({
               </section>
 
               <section className="share-section">
-                <label className="share-label">People with access</label>
+                <p className="share-label">People with access</p>
                 {shares.length === 0 ? (
                   <p className="share-hint">No one else has access yet.</p>
                 ) : null}
@@ -138,7 +185,9 @@ function ShareDialog({
                         <>
                           <select
                             className="share-role-select"
+                            name={`share-role-${share.id}`}
                             defaultValue={share.role}
+                            aria-label={`Role for ${share.user?.email || "shared user"}`}
                             onChange={async (event) => {
                               const previous = share.role;
                               const nextRole = event.target.value;
@@ -220,8 +269,14 @@ function ShareDialog({
                     type="email"
                     required
                     placeholder="name@example.com"
+                    autoComplete="email"
                   />
-                  <select name="role" defaultValue="view">
+                  <select
+                    id="share-add-role"
+                    name="role"
+                    defaultValue="view"
+                    aria-label="Invite role"
+                  >
                     {ROLE_OPTIONS.map((role) => (
                       <option key={role} value={role}>
                         {role}
@@ -237,7 +292,7 @@ function ShareDialog({
 
               {requests.length ? (
                 <section className="share-section">
-                  <label className="share-label">Pending access requests</label>
+                  <p className="share-label">Pending access requests</p>
                   <ul className="share-list">
                     {requests.map((request) => (
                       <li key={request.id} className="share-row">
@@ -254,6 +309,8 @@ function ShareDialog({
                           className="share-approve-role"
                           defaultValue={request.requestedRole}
                           id={`request-role-${request.id}`}
+                          name={`request-role-${request.id}`}
+                          aria-label={`Approval role for ${request.user?.email || "requester"}`}
                         >
                           {ROLE_OPTIONS.map((role) => (
                             <option key={role} value={role}>
@@ -313,7 +370,12 @@ function ShareDialog({
 
               {isOwner && shares.length ? (
                 <section className="share-section share-section--danger">
-                  <label className="share-label">Transfer ownership</label>
+                  <label
+                    className="share-label"
+                    htmlFor="share-transfer-target"
+                  >
+                    Transfer ownership
+                  </label>
                   <p className="share-hint">
                     The new owner must already have access. You will be demoted
                     to admin.
@@ -346,8 +408,10 @@ function ShareDialog({
                     }}
                   >
                     <select
+                      id="share-transfer-target"
                       name="targetId"
                       defaultValue={shares[0]?.user?.id || ""}
+                      aria-label="Transfer ownership target"
                     >
                       {shares.map((share) => (
                         <option

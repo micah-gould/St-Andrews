@@ -1,5 +1,6 @@
 import React from "react";
 import { LogOut } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
 import type { AuthUser } from "../types/auth.types";
 
 export function UserControls({
@@ -11,8 +12,17 @@ export function UserControls({
   signingOut: boolean;
   onSignOut: () => void | Promise<void>;
 }) {
+  const location = useLocation();
+  const next = encodeURIComponent(location.pathname + location.search);
+
   if (!user) {
-    return null;
+    return (
+      <div className="user-controls">
+        <Link className="clear-btn" id="login-btn" to={`/login?next=${next}`}>
+          Log in
+        </Link>
+      </div>
+    );
   }
 
   return (

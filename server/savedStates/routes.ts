@@ -33,7 +33,10 @@ import {
   normalizeSavedState,
 } from "./stateShape";
 import { sendAccessRequestEmail } from "./email";
-import type { AuthedRequest } from "../../src/types/server.types";
+import type {
+  AuthedRequest,
+  MaybeAuthedRequest,
+} from "../../src/types/server.types";
 import type {
   SavedStateBlob,
   SavedStateRecord,
@@ -70,14 +73,15 @@ function paramValue(value: string | string[] | undefined) {
 
 function serializeState(
   state: any,
-  currentUserId: string,
+  currentUserId: string | null,
   { includeStateBody = true }: { includeStateBody?: boolean } = {},
 ): SavedStateRecord | null {
   if (!state) return null;
-  const role = effectiveRole(state, currentUserId) as SavedStateRole;
-  const counts = countSelectionsIn(
+  const parsedState = normalizeSavedState(
     state.stateJson ? JSON.parse(state.stateJson) : {},
   );
+  const role = effectiveRole(state, currentUserId) as SavedStateRole;
+  const counts = countSelectionsIn(parsedState);
   const out: SavedStateRecord = {
     id: state.id,
     name: state.name,
@@ -89,15 +93,13 @@ function serializeState(
     counts,
     createdAt: state.createdAt,
     updatedAt: state.updatedAt,
+    visibility:
+      parsedState.visibility === "link" || parsedState.visibility === "public"
+        ? parsedState.visibility
+        : "private",
   };
   if (includeStateBody) {
-    try {
-      out.state = normalizeSavedState(
-        JSON.parse(state.stateJson || "{}"),
-      ) as SavedStateBlob;
-    } catch {
-      out.state = { version: 2, catalogs: {} };
-    }
+    out.state = parsedState as SavedStateBlob;
   }
   return out;
 }
@@ -134,13 +136,20 @@ function serializeRequest(request: any): SavedStateAccessRequest {
 }
 
 // ---- GET /api/saved-states ----
-router.get("/", requireAuth, async (req: AuthedRequest, res) => {
+router.get("/", async (req: MaybeAuthedRequest, res) => {
   try {
-    const userId = req.user.id;
+    const userId = req.user?.id || null;
+    const where = userId
+      ? {
+          OR: [
+            { ownerId: userId },
+            { shares: { some: { userId } } },
+            { stateJson: { contains: '"visibility":"public"' } },
+          ],
+        }
+      : { stateJson: { contains: '"visibility":"public"' } };
     const states = await prisma.savedState.findMany({
-      where: {
-        OR: [{ ownerId: userId }, { shares: { some: { userId } } }],
-      },
+      where,
       include: { owner: true, shares: true },
       orderBy: { updatedAt: "desc" },
     });
@@ -182,7 +191,7 @@ router.post("/", requireAuth, writeLimiter, async (req: AuthedRequest, res) => {
 });
 
 async function loadStateWithAuth(
-  req: AuthedRequest,
+  req: MaybeAuthedRequest,
   res,
   { minRole = "view" }: { minRole?: "view" | "edit" | "admin" | "owner" } = {},
 ) {
@@ -195,7 +204,7 @@ async function loadStateWithAuth(
     res.status(404).json({ error: "Saved state not found." });
     return null;
   }
-  const role = effectiveRole(state, req.user.id);
+  const role = effectiveRole(state, req.user?.id || null);
   const check =
     minRole === "view"
       ? canView(role)
@@ -217,11 +226,11 @@ async function loadStateWithAuth(
 }
 
 // ---- GET /api/saved-states/:id ----
-router.get("/:id", requireAuth, async (req: AuthedRequest, res) => {
+router.get("/:id", async (req: MaybeAuthedRequest, res) => {
   try {
     const result = await loadStateWithAuth(req, res);
     if (!result) return;
-    res.json(serializeState(result.state, req.user.id));
+    res.json(serializeState(result.state, req.user?.id || null));
   } catch (err) {
     console.error("[saved-states] get error", err);
     res.status(500).json({ error: "Could not load saved state." });
@@ -230,7 +239,7 @@ router.get("/:id", requireAuth, async (req: AuthedRequest, res) => {
 
 // ---- GET /api/saved-states/:id/meta ----
 // Does NOT require access; used by the "request access" screen.
-router.get("/:id/meta", requireAuth, async (req: AuthedRequest, res) => {
+router.get("/:id/meta", async (req: MaybeAuthedRequest, res) => {
   try {
     const state = await prisma.savedState.findUnique({
       where: { id: paramValue(req.params.id) },
@@ -238,10 +247,15 @@ router.get("/:id/meta", requireAuth, async (req: AuthedRequest, res) => {
     });
     if (!state)
       return res.status(404).json({ error: "Saved state not found." });
-    const role = effectiveRole(state, req.user.id);
-    const pending = await prisma.accessRequest.findFirst({
-      where: { stateId: state.id, userId: req.user.id, status: "pending" },
-    });
+    const role = effectiveRole(state, req.user?.id || null);
+    const pending = req.user?.id
+      ? await prisma.accessRequest.findFirst({
+          where: { stateId: state.id, userId: req.user.id, status: "pending" },
+        })
+      : null;
+    const parsedState = normalizeSavedState(
+      JSON.parse(state.stateJson || "{}"),
+    );
     const response: SavedStateMeta = {
       id: state.id,
       name: state.name,
@@ -254,6 +268,10 @@ router.get("/:id/meta", requireAuth, async (req: AuthedRequest, res) => {
         : undefined,
       role,
       hasAccess: canView(role),
+      visibility:
+        parsedState.visibility === "link" || parsedState.visibility === "public"
+          ? parsedState.visibility
+          : "private",
       pendingRequest: pending
         ? {
             id: pending.id,
@@ -366,12 +384,19 @@ router.get("/:id/shares", requireAuth, async (req: AuthedRequest, res) => {
       include: { user: true },
       orderBy: { createdAt: "asc" },
     });
+    const parsedState = normalizeSavedState(
+      JSON.parse(result.state.stateJson || "{}"),
+    );
     res.json({
       owner: {
         id: result.state.owner.id,
         email: result.state.owner.email,
         name: result.state.owner.name,
       },
+      visibility:
+        parsedState.visibility === "link" || parsedState.visibility === "public"
+          ? parsedState.visibility
+          : "private",
       shares: shares.map(serializeShare),
       requests: requests.map(serializeRequest),
     });
@@ -391,7 +416,20 @@ router.post(
     try {
       const result = await loadStateWithAuth(req, res, { minRole: "admin" });
       if (!result) return;
-      const { email, role } = req.body || {};
+      const { email, role, visibility } = req.body || {};
+
+      if (["private", "link", "public"].includes(visibility)) {
+        const parsed = normalizeSavedState(
+          JSON.parse(result.state.stateJson || "{}"),
+        );
+        parsed.visibility = visibility;
+        await prisma.savedState.update({
+          where: { id: result.state.id },
+          data: { stateJson: JSON.stringify(parsed) },
+        });
+        return res.status(200).json({ ok: true, visibility });
+      }
+
       const normalizedEmail = String(email || "")
         .trim()
         .toLowerCase();

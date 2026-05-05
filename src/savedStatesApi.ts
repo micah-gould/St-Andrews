@@ -9,6 +9,7 @@ import type {
   SavedStateRecord,
   SavedStateSharesResponse,
   SavedStateSlice,
+  SavedStateVisibility,
 } from "./types/saved-state.types";
 
 const BASE = "/api/saved-states";
@@ -79,10 +80,17 @@ export const savedStatesApi = {
     request(`/${encodeURIComponent(id)}`, { method: "DELETE" }),
   listShares: (id: string): Promise<SavedStateSharesResponse> =>
     request(`/${encodeURIComponent(id)}/shares`),
-  addShare: (id: string, { email, role }: { email?: string; role: string }) =>
+  addShare: (
+    id: string,
+    {
+      email,
+      role,
+      visibility,
+    }: { email?: string; role: string; visibility?: SavedStateVisibility },
+  ) =>
     request(`/${encodeURIComponent(id)}/shares`, {
       method: "POST",
-      body: { email, role },
+      body: { email, role, visibility },
     }),
   removeShare: (id: string, shareId: string) =>
     request(

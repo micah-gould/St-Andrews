@@ -324,6 +324,30 @@ export function buildGraphRuntime({
       .attr("stroke-linejoin", "round");
   });
 
+  const updateMarkerColors = () => {
+    (
+      [
+        ["edge", COLORS.edge],
+        ["hover-pre-required", COLORS.hoverPreRequired],
+        ["hover-pre-optional", COLORS.hoverPreOptional],
+        ["hover-coreq-required", COLORS.hoverCoreqRequired],
+        ["hover-coreq-optional", COLORS.hoverCoreqOptional],
+        ["hover-fwd", COLORS.hoverFwd],
+        ["sel-pre-required", COLORS.selPreRequired],
+        ["sel-pre-optional", COLORS.selPreOptional],
+        ["sel-coreq-required", COLORS.selCoreqRequired],
+        ["sel-coreq-optional", COLORS.selCoreqOptional],
+        ["sel-fwd", COLORS.selFwd],
+        ["coreq-required", COLORS.edgeCoreq],
+        ["coreq-optional", COLORS.edgeCoreqOptional],
+        ["anti", COLORS.anti],
+        ["excl", COLORS.excl],
+      ] as Array<[string, string]>
+    ).forEach(([id, color]) => {
+      defs.select(`#m-${id} path`).attr("stroke", color);
+    });
+  };
+
   const nodeDegree = new Map<string, number>();
   edges.forEach((edge) => {
     const source =
@@ -823,6 +847,10 @@ export function buildGraphRuntime({
     },
     setHiddenLevels: (levels: Set<string>) => {
       appState.hiddenLevels = new Set(levels);
+      syncUi();
+    },
+    refreshColors: () => {
+      updateMarkerColors();
       syncUi();
     },
     clearAll: () => {

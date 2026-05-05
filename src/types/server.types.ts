@@ -20,3 +20,8 @@ export type PartialAuthedRequest = Request & {
   user?: RequestUser;
   session?: { remember: boolean };
 };
+
+export type MaybeAuthedRequest = Request & {
+  user?: RequestUser;
+  session?: { remember: boolean };
+};

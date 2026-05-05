@@ -25,11 +25,21 @@ async function ensureGraphOpen(page) {
   await page.waitForSelector("#subject-buttons .subject-button, #graph-svg", {
     timeout: 20000,
   });
-  await page.waitForSelector("#subject-buttons .subject-button", {
-    timeout: 20000,
-  });
-  await page.click("#subject-buttons .subject-button").catch(() => {});
-  await page.waitForSelector("#graph-svg g.nodes > g", { timeout: 20000 });
+  const subjectButton = page
+    .locator("#subject-buttons .subject-button")
+    .first();
+  if (await subjectButton.isVisible().catch(() => false)) {
+    await subjectButton.click();
+  }
+  await page.waitForFunction(
+    () => {
+      const node = document.querySelector("#graph-svg g.nodes > g");
+      const loading = document.querySelector(".graph-loading-state");
+      return Boolean(node) || !loading;
+    },
+    { timeout: 30000 },
+  );
+  await page.waitForSelector("#graph-svg g.nodes > g", { timeout: 30000 });
 }
 
 async function loginOnce(context) {

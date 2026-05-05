@@ -26,6 +26,7 @@ type AppToolbarProps = {
   onSearchHover: (nodeId: string | null) => void;
   onSearchSelect: (result: ModuleSearchResult) => void;
   onSignOut: () => void | Promise<void>;
+  onLegendColorsChange: () => void;
 };
 
 export function AppToolbar({
@@ -48,6 +49,7 @@ export function AppToolbar({
   onSearchHover,
   onSearchSelect,
   onSignOut,
+  onLegendColorsChange,
 }: AppToolbarProps) {
   const [searchMenuOpen, setSearchMenuOpen] = useState(false);
   const [activeResultIndex, setActiveResultIndex] = useState(-1);
@@ -160,7 +162,7 @@ export function AppToolbar({
             </button>
             <p className="brand-subtitle">University of St Andrews</p>
           </div>
-          <GraphLegend />
+          <GraphLegend onColorsChange={onLegendColorsChange} />
         </div>
 
         <div className="toolbar-right">
@@ -200,6 +202,7 @@ export function AppToolbar({
             <input
               ref={searchInputRef}
               id="search"
+              name="search"
               type="text"
               placeholder="Search modules..."
               autoComplete="off"

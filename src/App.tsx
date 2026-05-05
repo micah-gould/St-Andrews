@@ -23,7 +23,9 @@ export default function App() {
   const bootedRef = useRef(false);
   const levelsTriggerRef = useRef<HTMLButtonElement | null>(null);
   const levelsMenuRef = useRef<HTMLDivElement | null>(null);
-  const { appState, loadedGraph, viewModel, actions } = useModuleGraphApp();
+  const { appState, loadedGraph, viewModel, actions } = useModuleGraphApp(
+    user?.id || null,
+  );
 
   useEffect(() => {
     if (!user || bootedRef.current) {
@@ -142,10 +144,14 @@ export default function App() {
         onClearSearch={actions.clearSearch}
         onSearchHover={actions.setSearchHover}
         onSearchSelect={actions.selectSearchResult}
+        onLegendColorsChange={actions.refreshGraphColors}
         onSignOut={async () => {
           setSigningOut(true);
           await logout();
-          navigate("/login", { replace: true });
+          setSigningOut(false);
+          navigate(window.location.pathname + window.location.search, {
+            replace: true,
+          });
         }}
       />
 
@@ -175,6 +181,7 @@ export default function App() {
             settingsName={viewModel.settingsName}
             settingsPlaceholder={viewModel.settingsPlaceholder}
             saveLabel={viewModel.saveLabel}
+            canSave={viewModel.canSave}
             savedPlans={viewModel.savedPlans}
             selectedPlanId={viewModel.selectedPlanId}
             shareVisible={viewModel.shareVisible}

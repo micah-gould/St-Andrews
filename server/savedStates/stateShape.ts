@@ -14,9 +14,16 @@
 //     }
 //   }
 
+/** @typedef {"private" | "link" | "public"} SavedStateVisibility */
+
 const ID_RE = /^[A-Za-z0-9._-]{1,40}$/;
 const CATALOG_ID_RE = /^[a-z0-9-]{1,60}$/i;
 const YEAR_RE = /^\d{4}-\d{2}$/;
+const VISIBILITY_VALUES = new Set(["private", "link", "public"]);
+
+function normalizeVisibility(value) {
+  return VISIBILITY_VALUES.has(value) ? value : "private";
+}
 
 function sanitizeIdArray(list) {
   if (!Array.isArray(list)) return [];
@@ -54,8 +61,17 @@ function sanitizeYearSlice(slice) {
 }
 
 export function normalizeSavedState(state) {
-  const result = { version: 2, catalogs: {} };
+  const result = {
+    version: 2,
+    visibility: "private" as "private" | "link" | "public",
+    catalogs: {},
+  };
   if (!state || typeof state !== "object") return result;
+
+  result.visibility = normalizeVisibility(state.visibility) as
+    | "private"
+    | "link"
+    | "public";
 
   // v2 shape
   if (state.catalogs && typeof state.catalogs === "object") {

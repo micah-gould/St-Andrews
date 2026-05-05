@@ -109,16 +109,22 @@ function RequestAccessOverlay({
                   });
               }}
             >
-              <label>
+              <label htmlFor="request-role">
                 Role requested
-                <select name="role" defaultValue="view">
+                <select
+                  id="request-role"
+                  name="role"
+                  defaultValue="view"
+                  autoComplete="off"
+                >
                   <option value="view">View</option>
                   <option value="edit">Edit</option>
                 </select>
               </label>
-              <label>
+              <label htmlFor="request-message">
                 Message (optional)
                 <textarea
+                  id="request-message"
                   name="message"
                   rows={3}
                   maxLength={500}
