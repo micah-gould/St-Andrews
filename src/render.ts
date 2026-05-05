@@ -115,6 +115,8 @@ export function createRenderer({
       String(node.level) === "ext" ||
       node.frequency === "external";
     const levelKey = (node) => (isExternal(node) ? "ext" : String(node.level));
+    const levelColor = (node: GraphNode) =>
+      COLORS.lvl[levelKey(node)] || "#888";
     const hAnc =
       hoverId && !hoveredExcluded
         ? graphState.getPrerequisitePathNodes(hoverId)
@@ -212,14 +214,11 @@ export function createRenderer({
         if (state === "excl-implied") return COLORS.excl;
         if (state === "passed") return COLORS.passed;
         if (state === "selected") return COLORS.sel;
-        if (state === "hover") return COLORS.lvl[levelKey(node)] || "#888";
-        if (state === "hpre" || state === "spre")
-          return "rgba(252,211,77,0.15)";
-        if (state === "hcoreq" || state === "scoreq")
-          return "rgba(45,212,191,0.14)";
-        if (state === "hfwd") return "rgba(96,165,250,0.12)";
-        if (state === "sfwd") return "rgba(56,189,248,0.14)";
-        return COLORS.lvl[levelKey(node)] || "#888";
+        if (state === "hover") return levelColor(node);
+        if (state === "hpre" || state === "spre") return levelColor(node);
+        if (state === "hcoreq" || state === "scoreq") return levelColor(node);
+        if (state === "hfwd" || state === "sfwd") return levelColor(node);
+        return levelColor(node);
       })
       .attr("fill-opacity", (node) => {
         const matchesSearch =
@@ -228,6 +227,8 @@ export function createRenderer({
           node.name.toLowerCase().includes(activeSearchQuery);
         const state = nodeState(node, ctx);
         if (!matchesSearch && state === "normal") return 0.08;
+        if (state === "selected") return 0.92;
+        if (state === "passed") return 0.86;
         if (state === "hover") return 0.25;
         if (
           state === "hpre" ||
@@ -235,9 +236,8 @@ export function createRenderer({
           state === "hfwd" ||
           state === "sfwd"
         )
-          return 1;
-        if (state === "passed") return 0.82;
-        if (state === "selected") return 0.85;
+          return 0.36;
+        if (state === "hcoreq" || state === "scoreq") return 0.34;
         if (state === "excl-implied") return 0.22;
         return 0.18;
       })
@@ -247,7 +247,7 @@ export function createRenderer({
         if (state === "excl-implied") return COLORS.excl;
         if (state === "passed") return COLORS.passed;
         if (state === "selected") return COLORS.sel;
-        if (state === "hover") return COLORS.lvl[levelKey(node)] || "#888";
+        if (state === "hover") return levelColor(node);
         if (state === "hpre") return COLORS.hoverPreRequired;
         if (state === "spre") return COLORS.selPreRequired;
         if (state === "hcoreq") return COLORS.hoverCoreqRequired;
@@ -255,7 +255,7 @@ export function createRenderer({
         if (state === "hfwd") return COLORS.hoverFwd;
         if (state === "sfwd") return COLORS.selFwd;
         if (isExternal(node)) return COLORS.lvl.ext;
-        return COLORS.lvl[levelKey(node)] || "#888";
+        return levelColor(node);
       })
       .attr("stroke-width", (node) => {
         const state = nodeState(node, ctx);
@@ -288,6 +288,26 @@ export function createRenderer({
       .attr("stroke-dasharray", (node) =>
         nodeState(node, ctx) === "excl-implied" ? "3 2" : null,
       );
+    circles.style("filter", (node) => {
+      const state = nodeState(node, ctx);
+      if (state === "selected") {
+        return `drop-shadow(0 0 14px ${COLORS.sel}) drop-shadow(0 0 6px ${COLORS.sel})`;
+      }
+      if (state === "passed") {
+        return `drop-shadow(0 0 10px ${COLORS.passed})`;
+      }
+      if (
+        state === "hpre" ||
+        state === "spre" ||
+        state === "hcoreq" ||
+        state === "scoreq" ||
+        state === "hfwd" ||
+        state === "sfwd"
+      ) {
+        return `drop-shadow(0 0 8px ${levelColor(node)})`;
+      }
+      return null;
+    });
 
     circles.classed(
       "node-unavailable",
@@ -302,7 +322,7 @@ export function createRenderer({
         if (state === "excl-implied") return COLORS.excl;
         if (state === "passed") return COLORS.passed;
         if (state === "selected") return COLORS.sel;
-        if (state === "hover") return COLORS.lvl[levelKey(node)] || "#888";
+        if (state === "hover") return levelColor(node);
         if (state === "hpre") return COLORS.hoverPreRequired;
         if (state === "spre") return COLORS.selPreRequired;
         if (state === "hcoreq") return COLORS.hoverCoreqRequired;
@@ -310,7 +330,7 @@ export function createRenderer({
         if (state === "hfwd") return COLORS.hoverFwd;
         if (state === "sfwd") return COLORS.selFwd;
         if (isExternal(node)) return COLORS.lvl.ext;
-        return COLORS.lvl[levelKey(node)] || "#888";
+        return levelColor(node);
       })
       .attr("opacity", (node) => {
         const matchesSearch =
@@ -333,7 +353,9 @@ export function createRenderer({
           "hfwd",
           "sfwd",
         ].includes(state)
-          ? "500"
+          ? state === "selected" || state === "passed"
+            ? "700"
+            : "500"
           : "400";
       });
 
