@@ -87,18 +87,21 @@ function TooltipPanel({
   const availabilityLabel =
     node.availableInSelectedYear === false
       ? "Not running in selected year"
-      : "Running in selected year";
+      : node.extrapolatedInSelectedYear
+        ? "Running in selected year (extrapolated)"
+        : "Running in selected year";
   const yearList =
     Array.isArray(node.years) && node.years.length
       ? node.years.join(", ")
       : "Unknown";
-  const availabilityNote =
-    node.frequency === "every-year"
-      ? "Appears in consecutive tracked years, so it is treated as running every year."
+  const availabilityNote = node.extrapolatedInSelectedYear
+    ? "This year is extrapolated from consecutive real offerings."
+    : node.frequency === "every-year"
+      ? "Appears to run annually across tracked years."
       : node.frequency === "alternate-a"
-        ? "Appears to run in alternating years matching 2025/26 and 2027/28."
+        ? "Appears to run in alternating-year cycles (pattern A)."
         : node.frequency === "alternate-b"
-          ? "Appears to run in alternating years matching 2026/27."
+          ? "Appears to run in alternating-year cycles (pattern B)."
           : "Tracked year data is incomplete or irregular.";
   const prereqPaths = graphState.getSimplePathsFromRoots(
     node.id,

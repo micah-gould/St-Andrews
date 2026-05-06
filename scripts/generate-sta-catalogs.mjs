@@ -1,7 +1,8 @@
 import fs from "node:fs/promises";
 import { parseRelationshipText } from "../server/catalogs/relationship-parser.js";
 
-const YEARS = ["2025/26", "2026/27", "2027/28"];
+const YEAR_WINDOW = 5;
+const FALLBACK_WEBSITE_YEARS = ["2025/26", "2026/27", "2027/28"];
 const SCHOOL_CATALOGS = [
   {
     id: "art-history",
@@ -147,20 +148,20 @@ function parseSearchResults(html) {
   return { total, rows };
 }
 
-function inferFrequency(years) {
-  const pattern = YEARS.map(normalizeYear).map((year) => years.includes(year));
-  if ((pattern[0] && pattern[1]) || (pattern[1] && pattern[2]))
-    return "every-year";
-  if (pattern[0] && !pattern[1] && pattern[2]) return "alternate-a";
-  if (!pattern[0] && pattern[1] && !pattern[2]) return "alternate-b";
+function inferFrequencyFromPattern(pattern) {
+  if (["YYY", "NYY", "YYN"].includes(pattern)) return "every-year";
+  if (["YNY", "YNN", "NNY"].includes(pattern)) return "alternate-a";
+  if (pattern === "NYN") return "alternate-b";
   return "irregular";
 }
 
+function yearDistance(left, right) {
+  const parse = (year) => Number(String(year).split("-")[0]) || 0;
+  return parse(right) - parse(left);
+}
+
 async function fetchYearRows(school, year) {
-  const yearParam = year
-    .replace("/26", "/6")
-    .replace("/27", "/7")
-    .replace("/28", "/8");
+  const yearParam = yearForSearchParam(year);
   let start = 1;
   let total = Infinity;
   const rows = [];
@@ -190,7 +191,42 @@ async function fetchYearRows(school, year) {
   return rows;
 }
 
-function buildCatalog(school, rows) {
+function yearForSearchParam(year) {
+  const match = String(year).match(/^(\d{4})[-/](\d{2})$/);
+  if (!match) return year;
+  return `${match[1]}/${Number(match[2]) % 10}`;
+}
+
+function normalizeSearchYearValues(values) {
+  return [...new Set(values.map((value) => normalizeYear(value)))].sort();
+}
+
+function buildTrackedYears(lowestWebsiteYear, window = YEAR_WINDOW) {
+  const startYear = Number(String(lowestWebsiteYear).split("-")[0]);
+  const years = [];
+  for (let year = startYear - window; year <= startYear + window; year += 1) {
+    years.push(`${year}-${String(year + 1).slice(2)}`);
+  }
+  return years;
+}
+
+async function discoverWebsiteYears() {
+  const html = await fetchTextWithRetry(SEARCH_BASE, {
+    validate: (value) => value.includes("search-result module"),
+  });
+
+  const resultYears = [...html.matchAll(/data-ayrs\s*=\s*"([^\"]+)"/g)].map(
+    (match) => match[1],
+  );
+  const normalizedResultYears = normalizeSearchYearValues(resultYears);
+  if (normalizedResultYears.length >= 3) {
+    return normalizedResultYears.slice(0, 3);
+  }
+
+  return FALLBACK_WEBSITE_YEARS.map(normalizeYear);
+}
+
+function buildCatalog(school, rows, websiteYears, trackedYears) {
   const moduleMap = new Map();
   for (const row of rows) {
     if (!row.code) continue;
@@ -228,11 +264,28 @@ function buildCatalog(school, rows) {
   return {
     id: school.id,
     name: school.name,
-    years: YEARS.map(normalizeYear),
+    years: trackedYears,
     nodes: [...moduleMap.values()]
       .sort((a, b) => a.id.localeCompare(b.id))
       .map((module) => {
         const years = [...module.years].sort();
+        const yearSet = new Set(years);
+        const observedPattern = websiteYears
+          .map((year) => (yearSet.has(year) ? "Y" : "N"))
+          .join("");
+        const canExtrapolate = ["YYY", "NYY", "YYN"].includes(observedPattern);
+        const extrapolatedAvailability = Object.fromEntries(
+          trackedYears.map((year) => [
+            year,
+            canExtrapolate && !yearSet.has(year),
+          ]),
+        );
+        const availability = Object.fromEntries(
+          trackedYears.map((year) => [
+            year,
+            yearSet.has(year) || extrapolatedAvailability[year] === true,
+          ]),
+        );
         return {
           id: module.id,
           name: module.name,
@@ -241,13 +294,9 @@ function buildCatalog(school, rows) {
           summary: module.summary,
           semesters: [...module.semesters].sort((a, b) => a.localeCompare(b)),
           years,
-          availability: Object.fromEntries(
-            YEARS.map(normalizeYear).map((year) => [
-              year,
-              years.includes(year),
-            ]),
-          ),
-          frequency: inferFrequency(years),
+          availability,
+          extrapolatedAvailability,
+          frequency: inferFrequencyFromPattern(observedPattern),
           prerequisiteExpression: null,
           coRequisiteExpression: null,
           antiRequisiteExpression: null,
@@ -525,13 +574,16 @@ async function main() {
     recursive: true,
   });
 
+  const websiteYears = await discoverWebsiteYears();
+  const trackedYears = buildTrackedYears(websiteYears[0]);
+
   for (const school of SCHOOL_CATALOGS) {
     const rows = [];
-    for (const year of YEARS) {
+    for (const year of websiteYears) {
       rows.push(...(await fetchYearRows(school, year)));
     }
 
-    const catalog = buildCatalog(school, rows);
+    const catalog = buildCatalog(school, rows, websiteYears, trackedYears);
     await mapWithConcurrency(catalog.nodes, 10, async (node) => {
       await enrichNode(node);
       delete node.offerings;

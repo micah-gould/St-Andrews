@@ -12,6 +12,7 @@ import type {
 
 type CatalogNode = GraphNode & {
   availability?: Record<string, boolean>;
+  extrapolatedAvailability?: Record<string, boolean>;
   catalogs?: string[];
   primaryCatalogId?: string | null;
   prerequisitesText?: string;
@@ -297,6 +298,7 @@ function mergeNode(
       semesters: [...(node.semesters || [])],
       years: [...(node.years || [])],
       availability: { ...(node.availability || {}) },
+      extrapolatedAvailability: { ...(node.extrapolatedAvailability || {}) },
       catalogs: [catalog.id],
       primaryCatalogId: catalog.id,
       primaryCatalogName: catalog.name,
@@ -325,6 +327,10 @@ function mergeNode(
     availability: {
       ...(existing.availability || {}),
       ...(node.availability || {}),
+    },
+    extrapolatedAvailability: {
+      ...(existing.extrapolatedAvailability || {}),
+      ...(node.extrapolatedAvailability || {}),
     },
     prerequisiteExpression:
       existing.prerequisiteExpression || node.prerequisiteExpression || null,
@@ -357,6 +363,7 @@ function createPlaceholderNode(id: string): CatalogNode {
     semesters: [],
     years: [],
     availability: {},
+    extrapolatedAvailability: {},
     frequency: "external",
     prerequisitesText: "",
     coRequisitesText: "",
@@ -383,9 +390,13 @@ function buildNodeForYear(
   const years = [...(node.years || [])].sort();
   const semesters = [...(node.semesters || [])];
   const availability = node.availability || {};
+  const extrapolatedAvailability = node.extrapolatedAvailability || {};
   const availableInSelectedYear = selectedYear
     ? availability[selectedYear] !== false
     : true;
+  const extrapolatedInSelectedYear = selectedYear
+    ? extrapolatedAvailability[selectedYear] === true
+    : false;
   const semesterAvailability = Object.fromEntries(
     semesters.map((semester) => [
       semester,
@@ -407,6 +418,7 @@ function buildNodeForYear(
     years,
     semesters,
     availableInSelectedYear,
+    extrapolatedInSelectedYear,
     semesterAvailability,
     selectedYear,
     isInSelectedCatalog,

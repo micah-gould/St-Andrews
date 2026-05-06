@@ -21,10 +21,12 @@ export type GraphNode = {
   semesters?: string[];
   years?: string[];
   frequency?: string | null;
+  extrapolatedAvailability?: Record<string, boolean>;
   isExternal?: boolean;
   isInSelectedCatalog?: boolean;
   primaryCatalogName?: string | null;
   availableInSelectedYear?: boolean;
+  extrapolatedInSelectedYear?: boolean;
   semesterAvailability?: Record<string, boolean>;
   prerequisiteSummary?: string;
   coRequisiteSummary?: string;

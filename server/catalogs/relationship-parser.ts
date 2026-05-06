@@ -1,6 +1,9 @@
 import type { RelationshipExpression } from "../../src/types/graph.types";
 
 const MODULE_CODE_RE = /[A-Z]{2,4}\d{4}/g;
+const ONE_OF_RANGE_RE =
+  /\b1\s+(?:OF|MODULE\s+FROM)\s+([A-Z]{2,4})(\d{4})\s*-\s*([A-Z]{2,4})?(\d{4})\b/i;
+const MAX_EXPANDED_RANGE_SIZE = 250;
 
 export function parseRelationshipText(
   text: string,
@@ -89,6 +92,10 @@ function parseAndGroup(segment: string): RelationshipExpression | null {
 function parseSegment(segment: string): RelationshipExpression | null {
   const cleaned = trimOuterParens(segment.trim());
   if (!cleaned) return null;
+
+  const expandedRange = parseOneOfRange(cleaned);
+  if (expandedRange) return expandedRange;
+
   const splitParts = splitTopLevel(cleaned, " OR ");
   if (splitParts.length === 1) {
     const code = (cleaned.match(MODULE_CODE_RE) || [])[0];
@@ -101,6 +108,40 @@ function parseSegment(segment: string): RelationshipExpression | null {
   const code = (cleaned.match(MODULE_CODE_RE) || [])[0];
   if (!code) return null;
   return { type: "module", code };
+}
+
+function parseOneOfRange(segment: string): RelationshipExpression | null {
+  const match = segment.match(ONE_OF_RANGE_RE);
+  if (!match) return null;
+
+  const prefix = match[1]?.toUpperCase();
+  const start = Number(match[2]);
+  const endPrefix = (match[3] || prefix).toUpperCase();
+  const end = Number(match[4]);
+
+  if (
+    !prefix ||
+    !Number.isInteger(start) ||
+    !Number.isInteger(end) ||
+    prefix !== endPrefix ||
+    end < start
+  ) {
+    return null;
+  }
+
+  const rangeSize = end - start + 1;
+  if (rangeSize <= 0 || rangeSize > MAX_EXPANDED_RANGE_SIZE) return null;
+
+  const children: RelationshipExpression[] = [];
+  for (let value = start; value <= end; value += 1) {
+    children.push({
+      type: "module",
+      code: `${prefix}${String(value).padStart(4, "0")}`,
+    });
+  }
+
+  if (children.length === 1) return children[0];
+  return { type: "or", children };
 }
 
 function normalizeText(text = "") {
