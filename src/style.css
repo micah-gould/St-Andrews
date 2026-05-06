@@ -2186,6 +2186,12 @@ body:not(.theme-light) .auth-brand h1 {
   color: color-mix(in srgb, var(--c-1000), white 34%);
 }
 
+.helper-text {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+}
+
 .password-field {
   position: relative;
 }

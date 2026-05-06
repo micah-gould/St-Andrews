@@ -1,13 +1,54 @@
-import { Resend } from "resend";
+function logSuppressedEmail({
+  to,
+  subject,
+  text,
+  debugLabel,
+}: {
+  to: string;
+  subject: string;
+  text: string;
+  debugLabel: string;
+}) {
+  console.log(`\n[email:disabled] ${debugLabel}`);
+  console.log(`  To: ${to}`);
+  console.log(`  Subject: ${subject}`);
+  console.log(`  Text: ${text}\n`);
+}
 
-const resendApiKey = process.env.RESEND_API_KEY;
-const fromAddress = process.env.EMAIL_FROM || "onboarding@resend.dev";
+type SignupVerificationPayload = {
+  to: string;
+  code: string;
+  name?: string | null;
+};
 
-const resend = resendApiKey ? new Resend(resendApiKey) : null;
+export async function sendSignupVerificationEmail({
+  to,
+  code,
+  name,
+}: SignupVerificationPayload) {
+  const greeting = name ? `Hi ${name},` : "Hello,";
+  const subject = "Verify your email";
+  const text = `${greeting}
+
+Use this verification code to finish creating your account:
+
+${code}
+
+This code expires in 15 minutes. If you did not try to sign up, you can safely ignore this email.`;
+
+  logSuppressedEmail({
+    to,
+    subject,
+    text,
+    debugLabel: "Signup verification email",
+  });
+
+  return { disabled: true };
+}
 
 export async function sendPasswordResetEmail({ to, resetUrl, name }) {
-  const subject = "Reset your password";
   const greeting = name ? `Hi ${name},` : "Hello,";
+  const subject = "Reset your password";
   const text = `${greeting}
 
 We received a request to reset your password. Click the link below to choose a new one. This link is valid for 1 hour.
@@ -16,43 +57,12 @@ ${resetUrl}
 
 If you did not request this, you can safely ignore this email.`;
 
-  const html = `
-    <div style="font-family: -apple-system, system-ui, sans-serif; max-width: 480px; margin: 0 auto; color:#222;">
-      <h2 style="margin:0 0 16px;">Reset your password</h2>
-      <p>${greeting}</p>
-      <p>We received a request to reset your password. Click the button below to choose a new one. This link is valid for 1 hour.</p>
-      <p style="margin: 24px 0;">
-        <a href="${resetUrl}"
-           style="background:#111;color:#fff;text-decoration:none;padding:10px 18px;border-radius:6px;display:inline-block;">
-          Reset password
-        </a>
-      </p>
-      <p style="font-size:12px;color:#666;">Or copy and paste this URL into your browser:<br>${resetUrl}</p>
-      <p style="font-size:12px;color:#666;">If you did not request this, you can safely ignore this email.</p>
-    </div>
-  `;
-
-  if (!resend) {
-    console.log(
-      "\n[email:dev-fallback] Password reset email (no RESEND_API_KEY set)",
-    );
-    console.log(`  To: ${to}`);
-    console.log(`  Reset URL: ${resetUrl}\n`);
-    return { dev: true };
-  }
-
-  const { data, error } = await resend.emails.send({
-    from: fromAddress,
+  logSuppressedEmail({
     to,
     subject,
     text,
-    html,
+    debugLabel: "Password reset email",
   });
 
-  if (error) {
-    console.error("[email] Resend error:", error);
-    throw new Error("Failed to send email.");
-  }
-
-  return data;
+  return { disabled: true };
 }

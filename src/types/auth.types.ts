@@ -18,6 +18,12 @@ export type AuthUser = {
 export type AuthResponse = {
   user: AuthUser | null;
   providers: AuthProviders;
+  pendingVerification?: boolean;
+  email?: string;
+  expiresInMs?: number;
+  resendAvailableInMs?: number;
+  maxResends?: number;
+  resendsUsed?: number;
 };
 
 export type LoginPayload = {
@@ -31,6 +37,15 @@ export type SignupPayload = {
   email: string;
   password: string;
   remember: boolean;
+};
+
+export type VerifySignupPayload = {
+  email: string;
+  code: string;
+};
+
+export type ResendSignupCodePayload = {
+  email: string;
 };
 
 export type ResetPasswordPayload = {
@@ -49,7 +64,9 @@ export type AuthContextValue = {
   loading: boolean;
   refresh: () => Promise<AuthUser | null>;
   login: (credentials: LoginPayload) => Promise<AuthUser | null>;
-  signup: (payload: SignupPayload) => Promise<AuthUser | null>;
+  signup: (payload: SignupPayload) => Promise<AuthResponse>;
+  verifySignup: (payload: VerifySignupPayload) => Promise<AuthUser | null>;
+  resendSignupCode: (payload: ResendSignupCodePayload) => Promise<AuthResponse>;
   logout: () => Promise<void>;
 };
 

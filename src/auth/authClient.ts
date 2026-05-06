@@ -5,8 +5,10 @@ import type {
   AuthProviders,
   AuthResponse,
   LoginPayload,
+  ResendSignupCodePayload,
   ResetPasswordPayload,
   SignupPayload,
+  VerifySignupPayload,
 } from "../types/auth.types";
 import type { ApiError } from "../types/saved-state.types";
 
@@ -55,6 +57,18 @@ export const authApi = {
     request("/signup", {
       method: "POST",
       body: { email, password, name, remember },
+    }),
+  verifySignup: ({ email, code }: VerifySignupPayload): Promise<AuthResponse> =>
+    request("/signup/verify", {
+      method: "POST",
+      body: { email, code },
+    }),
+  resendSignupCode: ({
+    email,
+  }: ResendSignupCodePayload): Promise<AuthResponse> =>
+    request("/signup/resend", {
+      method: "POST",
+      body: { email },
     }),
   login: ({ email, password, remember }: LoginPayload): Promise<AuthResponse> =>
     request("/login", { method: "POST", body: { email, password, remember } }),
