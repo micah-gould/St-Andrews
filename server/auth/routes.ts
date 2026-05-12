@@ -1,5 +1,6 @@
 import express from "express";
 import rateLimit from "express-rate-limit";
+import crypto from "crypto";
 import passport, { isProviderEnabled } from "./passport";
 import { prisma } from "./prisma";
 import {
@@ -13,7 +14,7 @@ import {
   hashResetToken,
   publicUser,
 } from "./tokens";
-import { sendPasswordResetEmail } from "./email";
+import { sendPasswordResetEmail, sendSignupVerificationEmail } from "./email";
 import type { NextFunction, Response } from "express";
 import type {
   AuthedRequest,
@@ -27,9 +28,49 @@ const IS_E2E = process.env.E2E === "1";
 
 // Basic email validation
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const SIGNUP_CODE_RE = /^\d{6}$/;
+const SIGNUP_CODE_TTL_MS = 15 * 60 * 1000;
+const SIGNUP_RESEND_DELAY_MS = 60 * 1000;
+const SIGNUP_MAX_RESENDS = 10;
 
 function badRequest(res: Response, message: string) {
   return res.status(400).json({ error: message });
+}
+
+function hashSignupCode(raw: string) {
+  return crypto.createHash("sha256").update(raw).digest("hex");
+}
+
+function createSignupCode() {
+  return crypto.randomInt(0, 1_000_000).toString().padStart(6, "0");
+}
+
+function signupPendingPayload(record: {
+  email: string;
+  expiresAt: Date;
+  lastSentAt: Date;
+  resendCount: number;
+}) {
+  return {
+    pendingVerification: true,
+    email: record.email,
+    expiresInMs: Math.max(0, record.expiresAt.getTime() - Date.now()),
+    resendAvailableInMs: Math.max(
+      0,
+      record.lastSentAt.getTime() + SIGNUP_RESEND_DELAY_MS - Date.now(),
+    ),
+    maxResends: SIGNUP_MAX_RESENDS,
+    resendsUsed: record.resendCount,
+  };
+}
+
+async function deleteExpiredPendingSignup(email?: string) {
+  await prisma.pendingSignup.deleteMany({
+    where: {
+      ...(email ? { email } : {}),
+      expiresAt: { lt: new Date() },
+    },
+  });
 }
 
 // Rate limiters - per IP
@@ -114,6 +155,8 @@ router.post("/signup", authLimiter, async (req, res) => {
   }
 
   try {
+    await deleteExpiredPendingSignup(normalized);
+
     const existing = await prisma.user.findUnique({
       where: { email: normalized },
     });
@@ -124,22 +167,181 @@ router.post("/signup", authLimiter, async (req, res) => {
     }
 
     const passwordHash = await hashPassword(password);
-    const user = await prisma.user.create({
-      data: {
+    const code = createSignupCode();
+    const now = new Date();
+    const expiresAt = new Date(now.getTime() + SIGNUP_CODE_TTL_MS);
+
+    const pending = await prisma.pendingSignup.upsert({
+      where: { email: normalized },
+      update: {
+        name: typeof name === "string" && name.trim() ? name.trim() : null,
+        passwordHash,
+        remember: !!remember,
+        codeHash: hashSignupCode(code),
+        expiresAt,
+        lastSentAt: now,
+        resendCount: 0,
+      },
+      create: {
         email: normalized,
         name: typeof name === "string" && name.trim() ? name.trim() : null,
         passwordHash,
+        remember: !!remember,
+        codeHash: hashSignupCode(code),
+        expiresAt,
+        lastSentAt: now,
+        resendCount: 0,
       },
     });
 
+    await sendSignupVerificationEmail({
+      to: normalized,
+      code,
+      name: pending.name,
+    });
+
+    res.status(202).json(signupPendingPayload(pending));
+  } catch (err) {
+    console.error("[auth] signup error", err);
+    res.status(500).json({ error: "Could not create account." });
+  }
+});
+
+// ---- POST /api/auth/signup/verify ----
+router.post("/signup/verify", authLimiter, async (req, res) => {
+  const email = String(req.body?.email || "")
+    .trim()
+    .toLowerCase();
+  const code = String(req.body?.code || "").trim();
+
+  if (!email || !EMAIL_RE.test(email)) {
+    return badRequest(res, "Please provide a valid email address.");
+  }
+  if (!SIGNUP_CODE_RE.test(code)) {
+    return badRequest(res, "Please provide a valid 6-digit code.");
+  }
+
+  try {
+    await deleteExpiredPendingSignup(email);
+
+    const pending = await prisma.pendingSignup.findUnique({
+      where: { email },
+    });
+    if (!pending) {
+      return res.status(400).json({
+        error: "This verification request is invalid or has expired.",
+      });
+    }
+
+    if (pending.expiresAt < new Date()) {
+      await prisma.pendingSignup.delete({ where: { id: pending.id } });
+      return res.status(400).json({
+        error: "This verification request is invalid or has expired.",
+      });
+    }
+
+    if (pending.codeHash !== hashSignupCode(code)) {
+      return res
+        .status(400)
+        .json({ error: "The verification code is incorrect." });
+    }
+
+    const user = await prisma.$transaction(async (tx) => {
+      const created = await tx.user.create({
+        data: {
+          email: pending.email,
+          name: pending.name,
+          passwordHash: pending.passwordHash,
+          emailVerified: new Date(),
+        },
+      });
+      await tx.pendingSignup.delete({ where: { id: pending.id } });
+      return created;
+    });
+
     const { token, maxAgeMs } = signSessionToken(user, {
-      remember: !!remember,
+      remember: pending.remember,
     });
     setAuthCookie(res, token, maxAgeMs);
     res.status(201).json({ user: publicUser(user) });
   } catch (err) {
-    console.error("[auth] signup error", err);
-    res.status(500).json({ error: "Could not create account." });
+    console.error("[auth] signup verify error", err);
+    const message = String((err as { message?: string })?.message || "");
+    if (message.includes("Unique constraint")) {
+      return res
+        .status(409)
+        .json({ error: "An account with that email already exists." });
+    }
+    res.status(500).json({ error: "Could not verify your signup." });
+  }
+});
+
+// ---- POST /api/auth/signup/resend ----
+router.post("/signup/resend", authLimiter, async (req, res) => {
+  const email = String(req.body?.email || "")
+    .trim()
+    .toLowerCase();
+
+  if (!email || !EMAIL_RE.test(email)) {
+    return badRequest(res, "Please provide a valid email address.");
+  }
+
+  try {
+    await deleteExpiredPendingSignup(email);
+
+    const pending = await prisma.pendingSignup.findUnique({ where: { email } });
+    if (!pending) {
+      return res.status(400).json({
+        error: "This verification request is invalid or has expired.",
+      });
+    }
+
+    if (pending.expiresAt < new Date()) {
+      await prisma.pendingSignup.delete({ where: { id: pending.id } });
+      return res.status(400).json({
+        error: "This verification request is invalid or has expired.",
+      });
+    }
+
+    if (pending.resendCount >= SIGNUP_MAX_RESENDS) {
+      return res.status(429).json({
+        error: "You have reached the resend limit. Please sign up again.",
+        ...signupPendingPayload(pending),
+      });
+    }
+
+    const retryAfterMs =
+      pending.lastSentAt.getTime() + SIGNUP_RESEND_DELAY_MS - Date.now();
+    if (retryAfterMs > 0) {
+      return res.status(429).json({
+        error: "You can request a new code in a moment.",
+        retryAfterSeconds: Math.ceil(retryAfterMs / 1000),
+        ...signupPendingPayload(pending),
+      });
+    }
+
+    const code = createSignupCode();
+    const updated = await prisma.pendingSignup.update({
+      where: { id: pending.id },
+      data: {
+        codeHash: hashSignupCode(code),
+        lastSentAt: new Date(),
+        resendCount: { increment: 1 },
+      },
+    });
+
+    await sendSignupVerificationEmail({
+      to: updated.email,
+      code,
+      name: updated.name,
+    });
+
+    res.json(signupPendingPayload(updated));
+  } catch (err) {
+    console.error("[auth] signup resend error", err);
+    res
+      .status(500)
+      .json({ error: "Could not send another verification code." });
   }
 });
 

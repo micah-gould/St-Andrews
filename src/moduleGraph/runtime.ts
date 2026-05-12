@@ -260,6 +260,18 @@ export function buildGraphRuntime({
   });
 
   const svg = d3.select<SVGSVGElement, unknown>(svgElement);
+  // Make the SVG responsive: set viewBox so the content scales to the container
+  // rather than relying on the element's intrinsic size. This ensures the graph
+  // fits the visible area without requiring horizontal scrolling by default.
+  try {
+    svgElement.setAttribute("viewBox", `0 0 ${width} ${height}`);
+    svgElement.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    // Ensure CSS-driven sizing matches the container
+    svgElement.style.width = "100%";
+    svgElement.style.height = "100%";
+  } catch (e) {
+    // ignore (defensive)
+  }
   const root = svg.append("g");
   const antiLayer = root.append("g").attr("class", "links links--anti");
   const excludedLayer = root.append("g").attr("class", "graph-excluded-layer");

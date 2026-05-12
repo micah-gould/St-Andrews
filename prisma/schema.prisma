@@ -57,6 +57,22 @@ model PasswordResetToken {
   @@index([userId])
 }
 
+model PendingSignup {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String?
+  passwordHash String
+  remember     Boolean  @default(false)
+  codeHash     String
+  expiresAt    DateTime
+  lastSentAt   DateTime
+  resendCount  Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([expiresAt])
+}
+
 // ─── Shared saved states ──────────────────────────────────────
 // A saved state now spans all catalogs and years. The `state` JSON
 // blob has the shape:

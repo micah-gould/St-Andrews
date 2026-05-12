@@ -4,8 +4,8 @@ CREATE TABLE "SavedState" (
     "name" TEXT NOT NULL,
     "ownerId" TEXT NOT NULL,
     "stateJson" TEXT NOT NULL,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" DATETIME NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
     CONSTRAINT "SavedState_ownerId_fkey" FOREIGN KEY ("ownerId") REFERENCES "User" ("id") ON DELETE CASCADE ON UPDATE CASCADE
 );
 
@@ -15,8 +15,8 @@ CREATE TABLE "SavedStateShare" (
     "stateId" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
     "role" TEXT NOT NULL,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" DATETIME NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
     CONSTRAINT "SavedStateShare_stateId_fkey" FOREIGN KEY ("stateId") REFERENCES "SavedState" ("id") ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT "SavedStateShare_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE CASCADE ON UPDATE CASCADE
 );
@@ -29,8 +29,8 @@ CREATE TABLE "AccessRequest" (
     "requestedRole" TEXT NOT NULL DEFAULT 'view',
     "message" TEXT,
     "status" TEXT NOT NULL DEFAULT 'pending',
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "resolvedAt" DATETIME,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "resolvedAt" TIMESTAMP(3),
     CONSTRAINT "AccessRequest_stateId_fkey" FOREIGN KEY ("stateId") REFERENCES "SavedState" ("id") ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT "AccessRequest_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE CASCADE ON UPDATE CASCADE
 );

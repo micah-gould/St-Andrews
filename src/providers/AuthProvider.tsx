@@ -77,7 +77,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         setUser(nextUser);
         syncAuthGlobals(nextUser);
         setLoading(false);
+        return response;
+      },
+      verifySignup: async (payload) => {
+        setLoading(true);
+        const response = await authApi.verifySignup(payload);
+        const nextUser = response?.user || null;
+        setUser(nextUser);
+        syncAuthGlobals(nextUser);
+        setLoading(false);
         return nextUser;
+      },
+      resendSignupCode: async (payload) => {
+        const response = await authApi.resendSignupCode(payload);
+        return response;
       },
       logout: async () => {
         try {

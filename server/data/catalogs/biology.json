@@ -1,7 +1,19 @@
 {
   "id": "biology",
   "name": "Biology",
-  "years": ["2025-26", "2026-27", "2027-28"],
+  "years": [
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26",
+    "2026-27",
+    "2027-28",
+    "2028-29",
+    "2029-30",
+    "2030-31"
+  ],
   "nodes": [
     {
       "id": "BL1101",
@@ -12,9 +24,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -77,9 +110,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -137,14 +191,35 @@
       "id": "BL2300",
       "name": "Research Methods in Biology",
       "level": 2000,
-      "credits": 15,
+      "credits": 20,
       "summary": "This module will help students develop essential academic and transferable skills, with major emphasis on problem solving. It will provide an introduction to the scientific…",
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -163,13 +238,13 @@
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "scqfLevel": 8,
-      "description": "This module will help students develop essential academic and transferable skills, with major emphasis on problem solving. It will provide an introduction to the scientific method, experimental design, understanding and presenting data. Students will learn how to draw graphs and do simple general linear modelling with the code-based statistical software R. Confidence in using R will be built through a combination of online video walk-throughs, independent data handling and online tutorials. Regular mathematics for biologists exercises will allow students to practise manipulating equations, performing laboratory calculations etc. A mini project on experimental design and data analysis, which the students conduct in small groups, will help them apply the principles learned. The module will also cover scientific essay writing, record keeping and good laboratory practice.",
+      "description": "This module will help students develop essential academic and transferable skills, with major emphasis on problem solving. It will provide an introduction to the scientific method, experimental design, understanding and presenting data. Students will learn how to draw graphs and do simple general linear modelling with the code-based statistical software R. Confidence in using R will be built through a combination of online video walk-throughs, practical classes and independent data handling. Regular mathematics for biologists exercises will allow students to practise manipulating equations, performing laboratory calculations etc. A mini project on experimental design and data analysis, which the students conduct in small groups, will help them apply the principles learned. The module will also cover scientific essay writing, record keeping and good laboratory practice.",
       "plannedTimetable": "Lectures:12.00-1.00pm Tuesday and Thursday (odd weeks), 12.00-1.00pm Wednesday and Friday (even weeks) Practical classes: 2.00-5.00 pm Wednesday, Thursday or Friday (weeks 3, 4, 7, 8, 9, 10)",
       "assessmentPattern": "Coursework = 100%",
       "reassessment": "Alternative assessment to the same weighting as the failed item of assessment",
-      "weeklyContact": "Across the semester: 12 x 1h lectures, 7 x 1h tutorials, 4 x 3h computer workshops (consisting of approx. 1h online video walk-throughs, 1h self-study and 1h tutorial), 1 x 3h practical",
-      "scheduledLearningHours": "38",
-      "guidedIndependentStudyHours": "112",
+      "weeklyContact": "1 x 1-hour lecture (x10 weeks), 1 x 2-hour tutorials (x10 weeks), 1 x 3-hour practical (x 4 weeks)",
+      "scheduledLearningHours": "42",
+      "guidedIndependentStudyHours": "150",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
       "coRequisitesText": "",
@@ -203,9 +278,9 @@
           "availabilityRestrictions": "",
           "assessmentPattern": "Coursework = 100%",
           "reassessment": "Alternative assessment to the same weighting as the failed item of assessment",
-          "weeklyContact": "Across the semester: 12 x 1h lectures, 7 x 1h tutorials, 4 x 3h computer workshops (consisting of approx. 1h online video walk-throughs, 1h self-study and 1h tutorial), 1 x 3h practical",
-          "scheduledLearningHours": "38",
-          "guidedIndependentStudyHours": "112"
+          "weeklyContact": "1 x 1-hour lecture (x10 weeks), 1 x 2-hour tutorials (x10 weeks), 1 x 3-hour practical (x 4 weeks)",
+          "scheduledLearningHours": "42",
+          "guidedIndependentStudyHours": "150"
         }
       }
     },
@@ -213,14 +288,35 @@
       "id": "BL2301",
       "name": "Cell Biology",
       "level": 2000,
-      "credits": 15,
-      "summary": "The module will introduce the concept of 'a cell', moving on to discuss different types of prokaryotic and eukaryotic cell. The structure and function of a variety of sub-cellular …",
-      "semesters": ["1"],
+      "credits": 20,
+      "summary": "Cells are often considered to be the fundamental unit of life. The module will introduce the concept of 'a cell', discussing different types of prokaryotic and eukaryotic cells,…",
+      "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -239,13 +335,13 @@
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
       "scqfLevel": 8,
-      "description": "The module will introduce the concept of 'a cell', moving on to discuss different types of prokaryotic and eukaryotic cell. The structure and function of a variety of sub-cellular compartments will be examined. The diversity of different cell types within multicellular organisms will be highlighted, together with an overview of how this diversity is achieved.",
+      "description": "Cells are often considered to be the fundamental unit of life. The module will introduce the concept of 'a cell', discussing different types of prokaryotic and eukaryotic cells, before moving on to how cells interact with one another to form complex tissues and organisms. The structure and function of a variety of sub-cellular compartments, tissues, and systems will be examined, with particular focus on experimental investigation and analysis of these processes. The diversity of different cell types within multicellular organisms will be highlighted, together with an overview of how this diversity is achieved across a range of Kingdoms.",
       "plannedTimetable": "Lectures:9.00-10.00am Monday, Tuesday and Wednesday (odd weeks), 9.00-10.00am Monday and Tuesday (even weeks) Practicals: 2.00-5.00 pm Monday or Tuesday (weeks 1, 3, 5, 8 & 10)",
       "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
       "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-      "weeklyContact": "Across the semester: 21 x 1h lectures, 4 x 1h tutorials, 5 x 3h practicals",
-      "scheduledLearningHours": "39",
-      "guidedIndependentStudyHours": "111",
+      "weeklyContact": "3 x 1-hour lectures (x11 weeks), 1 x 3-hour practical (x4 weeks)",
+      "scheduledLearningHours": "46",
+      "guidedIndependentStudyHours": "151",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
       "coRequisitesText": "",
@@ -269,8 +365,8 @@
         },
         "2026-27": {
           "year": "2026-27",
-          "semester": "1",
-          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=1&meta_modulecode=BL2301&meta_ayrs_sand=2026/7",
+          "semester": "2",
+          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=2&meta_modulecode=BL2301&meta_ayrs_sand=2026/7",
           "timetableShort": "",
           "assessmentShort": "",
           "plannedTimetable": "Lectures:9.00-10.00am Monday, Tuesday and Wednesday (odd weeks), 9.00-10.00am Monday and Tuesday (even weeks) Practicals: 2.00-5.00 pm Monday or Tuesday (weeks 1, 3, 5, 8 & 10)",
@@ -279,9 +375,9 @@
           "availabilityRestrictions": "",
           "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
           "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 21 x 1h lectures, 4 x 1h tutorials, 5 x 3h practicals",
-          "scheduledLearningHours": "39",
-          "guidedIndependentStudyHours": "111"
+          "weeklyContact": "3 x 1-hour lectures (x11 weeks), 1 x 3-hour practical (x4 weeks)",
+          "scheduledLearningHours": "46",
+          "guidedIndependentStudyHours": "151"
         }
       }
     },
@@ -289,14 +385,35 @@
       "id": "BL2302",
       "name": "Molecular Biology",
       "level": 2000,
-      "credits": 15,
+      "credits": 20,
       "summary": "Molecular biology is an essential tool within modern biology, widely used in biochemistry, cell biology and ecology. This module will provide an introduction to modern molecular…",
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -319,9 +436,9 @@
       "plannedTimetable": "Lectures: 9.00 am Thu, Fri (odd weeks) 9.00 am Wed, Thu, Fri (even weeks) Practical: 2.00 pm - 5.00 pm Mon or Tue (weeks 2, 4, 7, 9 & 11)",
       "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
       "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-      "weeklyContact": "Across the semester: 19 x 1h lectures, 4 x 1h tutorials, 5 x 3h practical",
-      "scheduledLearningHours": "39",
-      "guidedIndependentStudyHours": "111",
+      "weeklyContact": "3 x 1-hour lectures (x10 weeks), 1 x 3-hour practical (x4 weeks)",
+      "scheduledLearningHours": "42",
+      "guidedIndependentStudyHours": "155",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
       "coRequisitesText": "",
@@ -355,9 +472,9 @@
           "availabilityRestrictions": "",
           "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
           "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 19 x 1h lectures, 4 x 1h tutorials, 5 x 3h practical",
-          "scheduledLearningHours": "39",
-          "guidedIndependentStudyHours": "111"
+          "weeklyContact": "3 x 1-hour lectures (x10 weeks), 1 x 3-hour practical (x4 weeks)",
+          "scheduledLearningHours": "42",
+          "guidedIndependentStudyHours": "155"
         }
       }
     },
@@ -365,14 +482,35 @@
       "id": "BL2303",
       "name": "Evolutionary Biology",
       "level": 2000,
-      "credits": 15,
+      "credits": 20,
       "summary": "Evolution is a fundamentally important component of our understanding of all biological phenomena, from molecular to ecosystem scales. This module will give an overview of the…",
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -395,9 +533,9 @@
       "plannedTimetable": "Lectures: 11.00-12.00pm Thursday and Friday (odd weeks), 11.00-12.00pm Wednesday, Thursday and Friday (even weeks) Practicals: 2.00-5.00pm Thursday or Friday (weeks 1,3,5,8&10)",
       "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
       "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-      "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 4 x 3h practicals",
-      "scheduledLearningHours": "39",
-      "guidedIndependentStudyHours": "111",
+      "weeklyContact": "3 x 1-hour lectures (x10 weeks), 1 x 3-hour practical (x4 weeks)",
+      "scheduledLearningHours": "42",
+      "guidedIndependentStudyHours": "148",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
       "coRequisitesText": "",
@@ -431,9 +569,9 @@
           "availabilityRestrictions": "",
           "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
           "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 4 x 3h practicals",
-          "scheduledLearningHours": "39",
-          "guidedIndependentStudyHours": "111"
+          "weeklyContact": "3 x 1-hour lectures (x10 weeks), 1 x 3-hour practical (x4 weeks)",
+          "scheduledLearningHours": "42",
+          "guidedIndependentStudyHours": "148"
         }
       }
     },
@@ -444,13 +582,34 @@
       "credits": 15,
       "summary": "The vast majority of animals are invertebrates - they do not have backbones. This module surveys the major invertebrate groups, emphasizing the diversity of body plans while…",
       "semesters": ["1"],
-      "years": ["2025-26", "2026-27"],
+      "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "every-year",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -494,22 +653,6 @@
           "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 4 x 3h practicals",
           "scheduledLearningHours": "39",
           "guidedIndependentStudyHours": "111"
-        },
-        "2026-27": {
-          "year": "2026-27",
-          "semester": "1",
-          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=1&meta_modulecode=BL2304&meta_ayrs_sand=2026/7",
-          "timetableShort": "",
-          "assessmentShort": "",
-          "plannedTimetable": "Lectures: 11.00am-12.00pm Monday, Tuesday and Wednesday (odd weeks), 11.00am-12.00pm Monday and Tuesday (even weeks) Practicals: 2.00-5.00pm Thursday or Friday (weeks 2, 4, 7, 9 & 11)",
-          "moduleStaff": "Team taught",
-          "coordinatorEmail": "",
-          "availabilityRestrictions": "",
-          "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
-          "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 4 x 3h practicals",
-          "scheduledLearningHours": "39",
-          "guidedIndependentStudyHours": "111"
         }
       }
     },
@@ -520,13 +663,34 @@
       "credits": 15,
       "summary": "Cells are often considered to be the fundamental unit of life. This module will discuss how cells interact with one another to form complex tissues and organisms. You will…",
       "semesters": ["2"],
-      "years": ["2025-26", "2026-27"],
+      "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "every-year",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -570,22 +734,6 @@
           "weeklyContact": "Across the semester: 23 x 1h lectures, 4 x 1h tutorials, 4 x 3h practicals",
           "scheduledLearningHours": "39",
           "guidedIndependentStudyHours": "111"
-        },
-        "2026-27": {
-          "year": "2026-27",
-          "semester": "2",
-          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=2&meta_modulecode=BL2305&meta_ayrs_sand=2026/7",
-          "timetableShort": "",
-          "assessmentShort": "",
-          "plannedTimetable": "Lectures: 9.00-10.00am Monday, Tuesday and Wednesday (weeks 1,3,5,7,9&12), 9.00-10.00am Monday and Tuesday (weeks 2,4,6,8&11) Practicals: 2.00-5.00pm Monday or Tuesday (weeks 2,4,6,8&11)",
-          "moduleStaff": "Team taught",
-          "coordinatorEmail": "",
-          "availabilityRestrictions": "",
-          "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
-          "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 23 x 1h lectures, 4 x 1h tutorials, 4 x 3h practicals",
-          "scheduledLearningHours": "39",
-          "guidedIndependentStudyHours": "111"
         }
       }
     },
@@ -598,9 +746,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -623,9 +792,9 @@
       "plannedTimetable": "Lectures: 9.00-10.00am Thursday and Friday (weeks 1,3,5,7,9&12), 9.00-10.00am Wednesday, Thursday and Friday (weeks 2,4,6,8&11) Practicals: 2.00-5.00 pm Monday or Tuesday (weeks 1,3,5,7,9&11)",
       "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
       "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-      "weeklyContact": "Across the semester: 23 x 1h lectures, 4 x 1h tutorials, 6 x 3h practicals",
-      "scheduledLearningHours": "42",
-      "guidedIndependentStudyHours": "108",
+      "weeklyContact": "3 x 1-hour lectures (x10 weeks), 1 x 3-hour practical (x4 weeks)",
+      "scheduledLearningHours": "45",
+      "guidedIndependentStudyHours": "156",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
       "coRequisitesText": "",
@@ -659,9 +828,9 @@
           "availabilityRestrictions": "",
           "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
           "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 23 x 1h lectures, 4 x 1h tutorials, 6 x 3h practicals",
-          "scheduledLearningHours": "42",
-          "guidedIndependentStudyHours": "108"
+          "weeklyContact": "3 x 1-hour lectures (x10 weeks), 1 x 3-hour practical (x4 weeks)",
+          "scheduledLearningHours": "45",
+          "guidedIndependentStudyHours": "156"
         }
       }
     },
@@ -674,9 +843,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -699,9 +889,9 @@
       "plannedTimetable": "Lectures: 11.00am-12.00pm Thursday and Friday (weeks 1,3,5,7,9&12); 11.00am-12.00pm Wednesday, Thursday and Friday (weeks 2,4,6,8&11) Practicals: 2.00-5.00pm Thursday or Friday (weeks 2,4,6,8&11)",
       "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
       "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-      "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 5 x 3h practicals",
-      "scheduledLearningHours": "39",
-      "guidedIndependentStudyHours": "111",
+      "weeklyContact": "3 x 1-hour lectures (x11 weeks), 1 x 3-hour practical (x4 weeks)",
+      "scheduledLearningHours": "45",
+      "guidedIndependentStudyHours": "152",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
       "coRequisitesText": "",
@@ -735,9 +925,9 @@
           "availabilityRestrictions": "",
           "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
           "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 5 x 3h practicals",
-          "scheduledLearningHours": "39",
-          "guidedIndependentStudyHours": "111"
+          "weeklyContact": "3 x 1-hour lectures (x11 weeks), 1 x 3-hour practical (x4 weeks)",
+          "scheduledLearningHours": "45",
+          "guidedIndependentStudyHours": "152"
         }
       }
     },
@@ -748,13 +938,34 @@
       "credits": 15,
       "summary": "This module will explore the diversity of vertebrate animals, beginning with the closest relatives of vertebrates and the evolutionary origins of the group. A detailed look at the …",
       "semesters": ["2"],
-      "years": ["2025-26", "2026-27"],
+      "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "every-year",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -798,22 +1009,6 @@
           "weeklyContact": "Across the semester: 23 x 1h lectures, 6 x 1h tutorials, 4 x 3h practicals",
           "scheduledLearningHours": "42",
           "guidedIndependentStudyHours": "108"
-        },
-        "2026-27": {
-          "year": "2026-27",
-          "semester": "2",
-          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=2&meta_modulecode=BL2308&meta_ayrs_sand=2026/7",
-          "timetableShort": "",
-          "assessmentShort": "",
-          "plannedTimetable": "Lectures: 11.00am-12.00pm Monday, Tuesday and Wednesday (weeks 1,3,5,7,9&12); 11.00am-12.00pm Monday and Tuesday (weeks 2,4,6,8&11) Practicals: 2.00-5.00pm Thursday or Friday (weeks 1,3,5,7&9); Edinburgh Zoo trip Wednesday (week 12)",
-          "moduleStaff": "Team taught",
-          "coordinatorEmail": "",
-          "availabilityRestrictions": "",
-          "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
-          "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 23 x 1h lectures, 6 x 1h tutorials, 4 x 3h practicals",
-          "scheduledLearningHours": "42",
-          "guidedIndependentStudyHours": "108"
         }
       }
     },
@@ -824,13 +1019,34 @@
       "credits": 15,
       "summary": "Techniques in molecular biology represent a powerful box of tools that are used to address a wide variety of modern research questions across a broad range of biological…",
       "semesters": ["2"],
-      "years": ["2025-26", "2026-27"],
+      "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "every-year",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -874,22 +1090,6 @@
           "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 4 x 3h practicals",
           "scheduledLearningHours": "39",
           "guidedIndependentStudyHours": "111"
-        },
-        "2026-27": {
-          "year": "2026-27",
-          "semester": "2",
-          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=2&meta_modulecode=BL2309&meta_ayrs_sand=2026/7",
-          "timetableShort": "",
-          "assessmentShort": "",
-          "plannedTimetable": "Lectures: 110.00-11.00am Thursday and Friday (weeks 1,3,5,7,9&12); 10.00-11.00am Wednesday, Thursday and Friday (weeks 2,4,6,8&11) Practicals: 2.00-5.00pm Thursday or Friday (weeks 2,4,6,8&11)",
-          "moduleStaff": "Team taught",
-          "coordinatorEmail": "",
-          "availabilityRestrictions": "",
-          "assessmentPattern": "2-hour Written Examination = 50%, Coursework = 50%",
-          "reassessment": "2-Hour Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) 2-hour Written Examination = 100% (if coursework and exam failed) 2-hour Written Examination = 100% (for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 4 x 3h practicals",
-          "scheduledLearningHours": "39",
-          "guidedIndependentStudyHours": "111"
         }
       }
     },
@@ -897,14 +1097,35 @@
       "id": "BL2311",
       "name": "The Oceans",
       "level": 2000,
-      "credits": 15,
+      "credits": 20,
       "summary": "The oceans hold approximately 97% of the earths water and are a vital component of life on this planet. This module introduces basic concepts in biological and physical…",
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -918,9 +1139,9 @@
       "plannedTimetable": "Lectures: 12.00-1.00 pm Monday, Wednesday, Friday (odd weeks); 12.00-1.00pm Tuesday and Thursday (even weeks) Practicals: 2.00-5.00pm Monday and Tuesday",
       "assessmentPattern": "Coursework = 30%, Practical examination = 20%, Written Examination = 50%",
       "reassessment": "Coursework = 50%, Written Examination = 50%",
-      "weeklyContact": "across the semester: 20 x 1h lectures, 6 x 1h discussion sessions, 5 x 3h practicals",
-      "scheduledLearningHours": "46",
-      "guidedIndependentStudyHours": "99",
+      "weeklyContact": "3 x 1-hour lectures (x10 weeks), 1 x 3-hour practical (x3 weeks), 1 x 1.5 hour practical (x2 weeks)",
+      "scheduledLearningHours": "42",
+      "guidedIndependentStudyHours": "150",
       "availabilityRestrictions": "This module will be available to all enrolled students who have completed the pre-requisites.",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1102",
@@ -955,9 +1176,9 @@
           "availabilityRestrictions": "This module will be available to all enrolled students who have completed the pre-requisites.",
           "assessmentPattern": "Coursework = 30%, Practical examination = 20%, Written Examination = 50%",
           "reassessment": "Coursework = 50%, Written Examination = 50%",
-          "weeklyContact": "across the semester: 20 x 1h lectures, 6 x 1h discussion sessions, 5 x 3h practicals",
-          "scheduledLearningHours": "46",
-          "guidedIndependentStudyHours": "99"
+          "weeklyContact": "3 x 1-hour lectures (x10 weeks), 1 x 3-hour practical (x3 weeks), 1 x 1.5 hour practical (x2 weeks)",
+          "scheduledLearningHours": "42",
+          "guidedIndependentStudyHours": "150"
         }
       }
     },
@@ -968,13 +1189,34 @@
       "credits": 15,
       "summary": "An animal behaviour researcher studies how and why animals behave as they do. This module covers the four broad ways in which we explain behaviour in a range of animals, including …",
       "semesters": ["2"],
-      "years": ["2025-26", "2026-27"],
+      "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "every-year",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -1018,22 +1260,87 @@
           "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 4 x 3h practicals",
           "scheduledLearningHours": "38",
           "guidedIndependentStudyHours": "110"
-        },
+        }
+      }
+    },
+    {
+      "id": "BL2313",
+      "name": "Zoology",
+      "level": 2000,
+      "credits": 20,
+      "summary": "This module surveys the major animal groups, emphasising the diversity of body plans while demonstrating how the common functional requirements such as feeding, reproduction,…",
+      "semesters": ["2"],
+      "years": ["2026-27"],
+      "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": true,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-b",
+      "prerequisiteExpression": {
+        "type": "and",
+        "children": [
+          {
+            "type": "module",
+            "code": "BL1101"
+          },
+          {
+            "type": "module",
+            "code": "BL1102"
+          }
+        ]
+      },
+      "coRequisiteExpression": null,
+      "antiRequisiteExpression": null,
+      "scqfLevel": 8,
+      "description": "This module surveys the major animal groups, emphasising the diversity of body plans while demonstrating how the common functional requirements such as feeding, reproduction, respiration and excretion are achieved. The module starts with the earliest diverging animals such as sponges and jellyfish and considers how they may have arisen from non-animal ancestors. It continues with a description of some key invertebrate groups, including annelids, nematodes, molluscs and arthropods. The closest invertebrate relatives to vertebrate animals are discussed, leading into an exploration of vertebrate diversity. The evolutionary relationships between the various groups form the common thread that binds this diversity into a coherent story. A series of practical exercises reinforces and complements the lecture component of this module.",
+      "plannedTimetable": "Lectures: 12.00-1.00pm Monday, Tuesday and Wednesday Practical classes: 2.00-5.00pm Thursday or Friday (weeks 2, 4, 6, 8, 11)",
+      "assessmentPattern": "Examination = 50% Coursework = 50%",
+      "reassessment": "Examination = 50% Coursework = 50%",
+      "weeklyContact": "3 x 1 hour lectures (11 weeks), 1 x 3-hour practicals (4 weeks) and 1 x 3-hour poster sessions (1 week)",
+      "scheduledLearningHours": "48",
+      "guidedIndependentStudyHours": "156",
+      "moduleStaff": "Team taught",
+      "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL1101 AND PASS BL1102",
+      "coRequisitesText": "",
+      "antiRequisitesText": "",
+      "offeringsByYear": {
         "2026-27": {
           "year": "2026-27",
           "semester": "2",
-          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=2&meta_modulecode=BL2312&meta_ayrs_sand=2026/7",
+          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=2&meta_modulecode=BL2313&meta_ayrs_sand=2026/7",
           "timetableShort": "",
           "assessmentShort": "",
-          "plannedTimetable": "Lectures: 12.00-1.00pm Monday and Tuesday (weeks 1,3,5,7,9&12); 12.00-1.00pm Monday, Tuesday and Wednesday (weeks 2,4,6,8&11) Practical classes: 2.00-5.00pm Monday or Tuesday (weeks 3, 5, 7, 9, 12)",
+          "plannedTimetable": "Lectures: 12.00-1.00pm Monday, Tuesday and Wednesday Practical classes: 2.00-5.00pm Thursday or Friday (weeks 2, 4, 6, 8, 11)",
           "moduleStaff": "Team taught",
           "coordinatorEmail": "",
           "availabilityRestrictions": "",
-          "assessmentPattern": "2-hour Written Examination = 50% Coursework = 50%",
-          "reassessment": "Written Examination = 50%, Existing Coursework = 50% (if Exam failed) Existing Examination = 50%, New Coursework = 50% (if Coursework failed) Written Examination = 100% (if coursework and exam failed) Written Examination = 100%(for Qualified Honours Entry)",
-          "weeklyContact": "Across the semester: 23 x 1h lectures, 3 x 1h tutorials, 4 x 3h practicals",
-          "scheduledLearningHours": "38",
-          "guidedIndependentStudyHours": "110"
+          "assessmentPattern": "Examination = 50% Coursework = 50%",
+          "reassessment": "Examination = 50% Coursework = 50%",
+          "weeklyContact": "3 x 1 hour lectures (11 weeks), 1 x 3-hour practicals (4 weeks) and 1 x 3-hour poster sessions (1 week)",
+          "scheduledLearningHours": "48",
+          "guidedIndependentStudyHours": "156"
         }
       }
     },
@@ -1041,14 +1348,35 @@
       "id": "BL3000",
       "name": "Field Course",
       "level": 3000,
-      "credits": 10,
+      "credits": 20,
       "summary": "This module involves field-based exercises in a range of aquatic and/or terrestrial habitats. Students will examine and measure biodiversity, ecophysiological adaptation, and…",
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1104,9 +1432,9 @@
       "plannedTimetable": "One week residential course in summer vacation normally the week prior to orientation week.",
       "assessmentPattern": "Coursework = 100%",
       "reassessment": "Resubmission of failed item(s) of coursework",
-      "weeklyContact": "6-day field course, 8h per day.",
-      "scheduledLearningHours": "48",
-      "guidedIndependentStudyHours": "52",
+      "weeklyContact": "5 Lectures (2x1hr and 3x1.5hr), 48 hours of fieldwork, 24 hours of classroom work, 3 hours of tutorials",
+      "scheduledLearningHours": "82",
+      "guidedIndependentStudyHours": "111",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2300 AND ( PASS BL2303 OR PASS BL2304 OR PASS BL2307 OR PASS BL2311 OR PASS BL2312 )",
       "coRequisitesText": "",
@@ -1140,9 +1468,9 @@
           "availabilityRestrictions": "",
           "assessmentPattern": "Coursework = 100%",
           "reassessment": "Resubmission of failed item(s) of coursework",
-          "weeklyContact": "6-day field course, 8h per day.",
-          "scheduledLearningHours": "48",
-          "guidedIndependentStudyHours": "52"
+          "weeklyContact": "5 Lectures (2x1hr and 3x1.5hr), 48 hours of fieldwork, 24 hours of classroom work, 3 hours of tutorials",
+          "scheduledLearningHours": "82",
+          "guidedIndependentStudyHours": "111"
         }
       }
     },
@@ -1155,9 +1483,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1241,9 +1590,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1326,9 +1696,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1419,9 +1810,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1495,9 +1907,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1565,9 +1998,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1654,9 +2108,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1719,13 +2194,34 @@
       "credits": 20,
       "summary": "This module deals with the fascinating and rapidly changing field of developmental biology from a genetic and cellular perspective. It examines how an organism develops from an…",
       "semesters": ["2"],
-      "years": ["2025-26", "2026-27"],
+      "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "every-year",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "module",
         "code": "BL2301"
@@ -1760,22 +2256,6 @@
           "weeklyContact": "3 x 1-hour lectures ( x11 weeks) and 2 x 15-hour practicals, split over several days, during the semester.",
           "scheduledLearningHours": "63",
           "guidedIndependentStudyHours": "137"
-        },
-        "2026-27": {
-          "year": "2026-27",
-          "semester": "2",
-          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=2&meta_modulecode=BL3315&meta_ayrs_sand=2026/7",
-          "timetableShort": "",
-          "assessmentShort": "",
-          "plannedTimetable": "Lectures: 11.00am-12.00pm Monday, Tuesday and Wednesday; Practicals: TBA",
-          "moduleStaff": "Team taught",
-          "coordinatorEmail": "",
-          "availabilityRestrictions": "",
-          "assessmentPattern": "Written Examination = 50%, Coursework = 50%",
-          "reassessment": "Written Examination = 50%, Coursework = 50%",
-          "weeklyContact": "3 x 1-hour lectures ( x11 weeks) and 2 x 15-hour practicals, split over several days, during the semester.",
-          "scheduledLearningHours": "63",
-          "guidedIndependentStudyHours": "137"
         }
       }
     },
@@ -1788,9 +2268,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1868,9 +2369,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1935,9 +2457,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2011,14 +2554,35 @@
       "id": "BL3320",
       "name": "Statistical and Quantitative Skills for Biologists",
       "level": 3000,
-      "credits": 10,
+      "credits": 20,
       "summary": "Few biologists are statisticians or mathematicians, but all biologists use statistics and mathematics. This series of workshops is designed to build confidence in organising and…",
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2032,9 +2596,9 @@
       "plannedTimetable": "To be arranged.",
       "assessmentPattern": "Examination = 80%, Coursework = 20%",
       "reassessment": "Examination = 80%, Coursework = 20%",
-      "weeklyContact": "Across the semester: 12 x 1h lectures, 13h practical work spread throughout the semester, 7 x 1h tutorials",
-      "scheduledLearningHours": "29",
-      "guidedIndependentStudyHours": "71",
+      "weeklyContact": "8 x 1h lectures, 24h practical work spread throughout the semester (8 x 3 hour workshops), 1 x 1h tutorials",
+      "scheduledLearningHours": "33",
+      "guidedIndependentStudyHours": "166",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2300",
       "coRequisitesText": "",
@@ -2068,9 +2632,9 @@
           "availabilityRestrictions": "",
           "assessmentPattern": "Examination = 80%, Coursework = 20%",
           "reassessment": "Examination = 80%, Coursework = 20%",
-          "weeklyContact": "Across the semester: 12 x 1h lectures, 13h practical work spread throughout the semester, 7 x 1h tutorials",
-          "scheduledLearningHours": "29",
-          "guidedIndependentStudyHours": "71"
+          "weeklyContact": "8 x 1h lectures, 24h practical work spread throughout the semester (8 x 3 hour workshops), 1 x 1h tutorials",
+          "scheduledLearningHours": "33",
+          "guidedIndependentStudyHours": "166"
         }
       }
     },
@@ -2078,14 +2642,35 @@
       "id": "BL3322",
       "name": "Basic Biochemistry Laboratory",
       "level": 3000,
-      "credits": 10,
+      "credits": 20,
       "summary": "This module aims to provide students with the basic skills for independent laboratory work and an opportunity to develop academic skills such as: the design of experiments;…",
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2124,9 +2709,9 @@
       "plannedTimetable": "1 week in summer vacation just prior to Orientation week",
       "assessmentPattern": "Coursework = 100%",
       "reassessment": "Coursework = 100%",
-      "weeklyContact": "5-day laboratory course, 8h per day.",
-      "scheduledLearningHours": "40",
-      "guidedIndependentStudyHours": "60",
+      "weeklyContact": "Intensive 1 week laboratory practical: 5 x 9h practical, 4 x 1h lectures",
+      "scheduledLearningHours": "44",
+      "guidedIndependentStudyHours": "150",
       "moduleStaff": "Team taught",
       "prerequisitesText": "BEFORE TAKING THIS MODULE YOU MUST PASS BL2301 OR PASS BL2302 OR PASS BL2306",
       "coRequisitesText": "",
@@ -2160,9 +2745,9 @@
           "availabilityRestrictions": "",
           "assessmentPattern": "Coursework = 100%",
           "reassessment": "Coursework = 100%",
-          "weeklyContact": "5-day laboratory course, 8h per day.",
-          "scheduledLearningHours": "40",
-          "guidedIndependentStudyHours": "60"
+          "weeklyContact": "Intensive 1 week laboratory practical: 5 x 9h practical, 4 x 1h lectures",
+          "scheduledLearningHours": "44",
+          "guidedIndependentStudyHours": "150"
         }
       }
     },
@@ -2173,13 +2758,34 @@
       "credits": 20,
       "summary": "Recent transformative changes in Biochemistry have enabled the exploration of biomolecular structures and their interactions, in vitro and in vivo. This module will provide an…",
       "semesters": ["2"],
-      "years": ["2025-26", "2026-27"],
+      "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "every-year",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -2233,22 +2839,6 @@
           "weeklyContact": "Across the semester: 24 x 1h lectures, 5 x 1h workshops, 2 x 3h practical, 1 x 4h practical",
           "scheduledLearningHours": "51",
           "guidedIndependentStudyHours": "140"
-        },
-        "2026-27": {
-          "year": "2026-27",
-          "semester": "2",
-          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=2&meta_modulecode=BL3324&meta_ayrs_sand=2026/7",
-          "timetableShort": "",
-          "assessmentShort": "",
-          "plannedTimetable": "12.00-1.00pm Monday, Tuesday, Wednesday (lectures) 9.00-10.00am Thursday and Friday (weeks 3,7&8) (practical classes)",
-          "moduleStaff": "Team taught",
-          "coordinatorEmail": "",
-          "availabilityRestrictions": "Not capped",
-          "assessmentPattern": "Written Examination = 50%, Coursework = 50%",
-          "reassessment": "Written Examination = 50%, Coursework = 50%",
-          "weeklyContact": "Across the semester: 24 x 1h lectures, 5 x 1h workshops, 2 x 3h practical, 1 x 4h practical",
-          "scheduledLearningHours": "51",
-          "guidedIndependentStudyHours": "140"
         }
       }
     },
@@ -2259,13 +2849,34 @@
       "credits": 20,
       "summary": "Students in 'Quantitative Ecology’ will undertake in-depth investigations of principles and techniques in ecology, including iteration of population models, numerical…",
       "semesters": ["1"],
-      "years": ["2025-26", "2026-27"],
+      "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
-        "2026-27": true,
-        "2027-28": false
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "every-year",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -2309,22 +2920,6 @@
           "weeklyContact": "1 lecture (X10 weeks), 2 practicals (1hr each X10 weeks)",
           "scheduledLearningHours": "30",
           "guidedIndependentStudyHours": "162"
-        },
-        "2026-27": {
-          "year": "2026-27",
-          "semester": "1",
-          "url": "https://www.st-andrews.ac.uk/subjects/modules/catalogue/?meta_semester_sand=1&meta_modulecode=BL3325&meta_ayrs_sand=2026/7",
-          "timetableShort": "",
-          "assessmentShort": "",
-          "plannedTimetable": "9.00-10.00am Monday, Tuesday and Wednesday (lectures) TBA (practical classes)",
-          "moduleStaff": "Dr Michael Morrissey, Prof Graeme Ruxton and Dr Sophie Smout",
-          "coordinatorEmail": "",
-          "availabilityRestrictions": "",
-          "assessmentPattern": "50% course work, 50% take-home exam",
-          "reassessment": "50% course work, 50% take-home exam",
-          "weeklyContact": "1 lecture (X10 weeks), 2 practicals (1hr each X10 weeks)",
-          "scheduledLearningHours": "30",
-          "guidedIndependentStudyHours": "162"
         }
       }
     },
@@ -2337,9 +2932,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -2414,9 +3030,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -2491,9 +3128,30 @@
       "semesters": ["1", "2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -2538,9 +3196,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -2603,9 +3282,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2671,9 +3371,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2739,9 +3460,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2807,11 +3549,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "module",
         "code": "BL3301"
@@ -2859,9 +3622,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2940,9 +3724,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3020,9 +3825,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3096,9 +3922,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -3161,9 +4008,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3238,9 +4106,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3315,9 +4204,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3386,11 +4296,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
@@ -3435,9 +4366,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -3499,9 +4451,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3584,9 +4557,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3652,9 +4646,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3720,9 +4735,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3788,9 +4824,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3856,9 +4913,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -3921,9 +4999,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3989,11 +5088,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "module",
         "code": "BL3309"
@@ -4041,9 +5161,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4106,9 +5247,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4171,9 +5333,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4236,9 +5419,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -4304,11 +5508,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
@@ -4353,9 +5578,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4418,9 +5664,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -4486,9 +5753,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4551,9 +5839,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4616,9 +5925,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4680,9 +6010,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -4729,9 +6080,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -4797,9 +6169,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -4850,11 +6243,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -4910,9 +6324,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -4977,9 +6412,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -5056,9 +6512,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5120,9 +6597,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5185,9 +6683,30 @@
       "semesters": ["Full Year"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -5233,9 +6752,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5297,9 +6837,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5361,9 +6922,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -5408,9 +6990,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5472,11 +7075,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "module",
         "code": "BL3319"
@@ -5523,9 +7147,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5587,9 +7232,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5651,9 +7317,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5715,9 +7402,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5779,9 +7487,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5842,9 +7571,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5906,9 +7656,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5971,9 +7742,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -6035,9 +7827,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -6103,9 +7916,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -6167,9 +8001,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -6232,11 +8087,32 @@
       "semesters": ["Full Year"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -6293,9 +8169,30 @@
       "semesters": ["Full Year"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -6355,9 +8252,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -6405,9 +8323,30 @@
       "semesters": ["Full Year"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -6453,9 +8392,30 @@
       "semesters": ["Full Year"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -6505,9 +8465,30 @@
       "semesters": ["Full Year"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -6557,9 +8538,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -6621,9 +8623,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -6686,11 +8709,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -6749,11 +8793,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -6809,9 +8874,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -6874,9 +8960,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -6939,9 +9046,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -7004,9 +9132,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -7069,9 +9218,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -7134,9 +9304,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -7199,9 +9390,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -7264,9 +9476,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -7329,9 +9562,30 @@
       "semesters": ["1", "Flexible study"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -7392,9 +9646,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,

@@ -1,7 +1,19 @@
 {
   "id": "art-history",
   "name": "Art History",
-  "years": ["2025-26", "2026-27", "2027-28"],
+  "years": [
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26",
+    "2026-27",
+    "2027-28",
+    "2028-29",
+    "2029-30",
+    "2030-31"
+  ],
   "nodes": [
     {
       "id": "AH1001",
@@ -12,9 +24,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -76,9 +109,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -140,11 +194,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": {
@@ -201,9 +276,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -250,9 +346,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -326,9 +443,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -402,11 +540,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "module",
         "code": "AH1901"
@@ -454,9 +613,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -508,9 +688,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -579,11 +780,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -652,11 +874,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -725,9 +968,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -814,9 +1078,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -879,9 +1164,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -951,11 +1257,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "module",
         "code": "AH1001"
@@ -1002,9 +1329,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -1075,9 +1423,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -1121,11 +1490,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
@@ -1169,9 +1559,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1244,9 +1655,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -1303,9 +1735,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -1362,11 +1815,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -1423,11 +1897,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -1484,9 +1979,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -1564,11 +2080,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -1632,11 +2169,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
@@ -1680,9 +2238,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -1752,9 +2331,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -1812,11 +2412,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
@@ -1861,11 +2482,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
@@ -1909,9 +2551,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2002,9 +2665,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2095,9 +2779,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -2143,9 +2848,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2233,9 +2959,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -2306,11 +3053,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -2366,9 +3134,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -2414,9 +3203,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -2478,9 +3288,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -2554,9 +3385,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -2614,9 +3466,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -2674,9 +3547,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -2745,11 +3639,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
@@ -2794,11 +3709,32 @@
       "semesters": ["1"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -2855,9 +3791,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -2902,9 +3859,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -2961,9 +3939,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -3006,9 +4005,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -3069,9 +4089,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3146,9 +4187,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3236,9 +4298,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -3303,11 +4386,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "and",
         "children": [
@@ -3364,9 +4468,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -3410,9 +4535,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -3482,9 +4628,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -3571,11 +4738,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": {
         "type": "or",
         "children": [
@@ -3643,9 +4831,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -3714,9 +4923,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -3779,9 +5009,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -3843,11 +5094,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
@@ -3892,9 +5164,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -3956,9 +5249,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4019,9 +5333,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4082,9 +5417,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4146,9 +5502,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -4193,9 +5570,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4257,9 +5655,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4321,9 +5740,30 @@
       "semesters": ["1"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4385,9 +5825,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4447,9 +5908,30 @@
       "semesters": ["1"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -4495,11 +5977,32 @@
       "semesters": ["2"],
       "years": ["2025-26"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": true,
         "2026-27": false,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
-      "frequency": "irregular",
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "frequency": "alternate-a",
       "prerequisiteExpression": null,
       "coRequisiteExpression": null,
       "antiRequisiteExpression": null,
@@ -4543,9 +6046,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4605,9 +6129,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4667,9 +6212,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -4716,9 +6282,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -4780,9 +6367,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -4840,9 +6448,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -4916,9 +6545,30 @@
       "semesters": ["2"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": {
@@ -4976,9 +6626,30 @@
       "semesters": ["2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5040,9 +6711,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5105,9 +6797,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5170,9 +6883,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5235,9 +6969,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -5303,9 +7058,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
@@ -5371,9 +7147,30 @@
       "semesters": ["1", "2"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": null,
@@ -5439,9 +7236,30 @@
       "semesters": ["Full Year"],
       "years": ["2026-27"],
       "availability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
         "2025-26": false,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
+      },
+      "extrapolatedAvailability": {
+        "2020-21": false,
+        "2021-22": false,
+        "2022-23": false,
+        "2023-24": false,
+        "2024-25": false,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": false,
+        "2028-29": false,
+        "2029-30": false,
+        "2030-31": false
       },
       "frequency": "alternate-b",
       "prerequisiteExpression": null,
@@ -5487,9 +7305,30 @@
       "semesters": ["Full Year"],
       "years": ["2025-26", "2026-27"],
       "availability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
         "2025-26": true,
         "2026-27": true,
-        "2027-28": false
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
+      },
+      "extrapolatedAvailability": {
+        "2020-21": true,
+        "2021-22": true,
+        "2022-23": true,
+        "2023-24": true,
+        "2024-25": true,
+        "2025-26": false,
+        "2026-27": false,
+        "2027-28": true,
+        "2028-29": true,
+        "2029-30": true,
+        "2030-31": true
       },
       "frequency": "every-year",
       "prerequisiteExpression": {
