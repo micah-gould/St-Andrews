@@ -1322,14 +1322,12 @@ body.theme-light #saved-settings-list option {
 }
 
 #graph-svg {
-  /* Allow the svg to be larger than its container so #graph-area can scroll.
-     Do not force width:100% which would scale the svg down and prevent scrolling. */
-  width: auto;
-  height: auto;
-  min-width: 100%;
-  min-height: 100%;
+  /* With viewBox+preserveAspectRatio set we let the svg scale to the container
+     while still allowing internal panning/zoom via d3.zoom. Keep width/height
+     100% so it fills #graph-area and doesn't cause page-level scrolling. */
+  width: 100%;
+  height: 100%;
   display: block;
-  max-width: none;
 }
 
 /* Hide scrollbars for header controls that use overflow for small screens
