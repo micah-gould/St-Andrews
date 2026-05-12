@@ -136,14 +136,23 @@ html {
       color-mix(in srgb, var(--bg), #091f3f 8%) 58%,
       var(--bg)
     );
+  /* Always hide horizontal overflow to avoid a page-level horizontal scrollbar
+     while still allowing internal scrollable regions (eg. graph area) */
+  overflow-x: hidden;
 }
 
 body {
   font-family: var(--font-sans);
   color: var(--text);
-  overflow: hidden;
+  /* Prevent horizontal page scroll but allow vertical scrolling when content is tall */
+  overflow-x: hidden;
+  overflow-y: auto;
   scrollbar-gutter: stable both-edges;
-  height: 100dvh;
+  min-height: 100dvh;
+  /* Respect safe area insets on devices with notches */
+  padding-top: var(--safe-top);
+  padding-left: var(--safe-left);
+  padding-right: var(--safe-right);
   background:
     radial-gradient(circle at 10% 4%, var(--graph-spot-2), transparent 24%),
     radial-gradient(circle at 92% 14%, var(--graph-spot-1), transparent 28%),
@@ -158,8 +167,11 @@ body {
 #app {
   display: flex;
   flex-direction: column;
-  height: 100dvh;
+  min-height: 100dvh;
+  /* allow the page to grow and be scrollable when content doesn't fit */
+  height: auto;
   position: relative;
+  padding-bottom: var(--safe-bottom);
 }
 
 #app::before,
@@ -1272,9 +1284,12 @@ body.theme-light #saved-settings-list option {
 }
 
 #graph-area {
-  flex: 1;
+  flex: 1 1 auto;
   position: relative;
-  overflow: hidden;
+  /* Allow the graph area to scroll internally (including horizontally) so it
+     can be large without causing a page-level horizontal scrollbar. */
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   background:
     radial-gradient(circle at 15% 20%, var(--graph-spot-1), transparent 24%),
     radial-gradient(circle at 82% 63%, var(--graph-spot-2), transparent 28%),
