@@ -254,7 +254,10 @@ body {
 .toolbar-right {
   gap: 10px;
   flex-shrink: 1;
-  overflow-x: auto;
+  /* Allow items to wrap instead of forcing a horizontal scrollbar */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
   scrollbar-gutter: stable both-edges;
   background: var(--bg-panel);
 }
@@ -1333,17 +1336,20 @@ body.theme-light #saved-settings-list option {
 /* Hide scrollbars for header controls that use overflow for small screens
    (keeps touch/drag scrolling but removes visible scrollbar). Do NOT apply
    to #graph-area which should keep visible scrollbars where needed. */
-.toolbar-right,
 .toolbar-left,
 .toolbar-main-row {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
 }
-.toolbar-right::-webkit-scrollbar,
 .toolbar-left::-webkit-scrollbar,
 .toolbar-main-row::-webkit-scrollbar {
   display: none; /* WebKit */
   height: 0;
+}
+
+/* Allow toolbar children to shrink to avoid overflow */
+.toolbar-right > * {
+  min-width: 0;
 }
 
 #tip,
